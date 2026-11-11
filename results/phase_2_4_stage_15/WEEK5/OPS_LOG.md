@@ -974,3 +974,320 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-10T06:35:58.087211+00:00 OPS-S15-W5-MD3-S-POSITIVE-VERIFY-PILOT-V4-20261109: The full positive mood execution bank is preserved and independent replay reaches its own first-five-percent checkpoint; complete qualification remains unfinished.
 
 2026-11-10T06:44:41.268009+00:00 OPS-S15-W5-MD3-S-POSITIVE-COMPLETE-V4-20261109: The complete positive mood specification fixture independently reproduces its full three-discount numerical bank; the remaining original cases and human admission are still gated.
+
+2026-11-10T07:23:10.421874+00:00 OPS-S15-W5-V1-FULL-CONT56-PAUSE-20261109: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-10T07:24:26.424245+00:00 OPS-S15-W5-V1-FULL-CONT56-PAUSE-20261109: Continuation 57 admitted after full checkpoint authentication, write-through and ACK. Its native owner/child and counted lease verify; the June census remains active. All 21 locks pass; current watcher error and pending-event inventory are empty. No new test harvested, gear change or paid/GPU admission.
+
+2026-11-10T08:50:16.372711+00:00 OPS-S15-W5-V1-FULL-CONT57-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T08:54:14.598842+00:00 OPS-S15-W5-MD3-S-NEGATIVE-SOURCE-PILOT-V4-20261110: The predeclared negative mood qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.
+
+
+2026-11-10T08:55:41.318387+00:00 OPS-S15-W5-V1-FULL-CONT57-PAUSE-20261110: Continuation 58 admitted after full checkpoint authentication, write-through and ACK. Its native owner/child and counted lease verify. The June census and original negative-case mood qualification continuation are active. All 21 locks pass; current watcher error and pending-event inventory are empty. No new test harvested or gear/spend change; owner qualification and admission remain the ready-buffer bottleneck.
+
+2026-11-10T08:59:04.613454+00:00 OPS-S15-W5-MD3-S-NEGATIVE-VERIFY-PILOT-V4-20261110: The predeclared negative mood qualification preserves its authentic verify-pilot checkpoint; full qualification remains unfinished.
+
+
+2026-11-10T09:00:04.203522+00:00 OPS-S15-W5-MD3-S-NEGATIVE-VERIFY-PILOT-V4-20261110: Complete-case continuation admitted under the unchanged 400-second CPU/1,800-second wall/two-GiB envelope after full write-through and ACK; prior conservative card charge is 1,023.53125 CPU seconds. Native owner/child, lease, final-produce registration, 21 source locks and current watcher delivery state verify. Comparison continuation 58 and June census remain active. No new tests harvested or gear/spend authority used.
+
+2026-11-10T09:06:46.591757+00:00 OPS-S15-W5-MD3-S-NEGATIVE-COMPLETE-V4-20261110: The complete predeclared negative mood specification fixture independently reproduces its full numerical bank; remaining original cases and human admission are still gated.
+
+2026-11-10T09:09:01.786911+00:00 OPS-S15-W5-MD3-S-NULL-SOURCE-PILOT-V4-20261110: The predeclared null mood qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.
+
+2026-11-10T09:13:46.394862+00:00 OPS-S15-W5-MD3-S-NULL-VERIFY-PILOT-V4-20261110: The predeclared null mood qualification preserves its authentic verify-pilot checkpoint; full qualification remains unfinished.
+
+
+2026-11-10T09:15:19.736078+00:00 OPS-S15-W5-MD3-S-NEGATIVE-COMPLETE-V4-20261110: Negative calibration and both original zero-effect control pilot boundaries are fully recorded and acknowledged. Remaining zero-effect replay is admitted with a 300-second CPU cap, preserving an additional 60-second supervision allowance after 1,383.78125 conservative card CPU seconds charged. The smaller operational cap retains all original work and exceeds twice the larger measured signed-case continuation. Native owner/child, lease, terminal registration, all 21 locks and watcher health verify. Comparison continuation 58 and June census remain active. No new tests harvested or gear/spend change.
+
+2026-11-10T09:22:30.081374+00:00 OPS-S15-W5-MD3-S-NULL-COMPLETE-V4-20261110: The complete predeclared null mood specification fixture independently reproduces its full numerical bank; remaining original cases and human admission are still gated.
+
+2026-11-10T09:30:14.991211+00:00 OPS-S15-W5-MD3-M-POSITIVE-SOURCE-PILOT-V4-20261110: The predeclared positive kink qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.
+
+2026-11-10T09:34:48.190188+00:00 OPS-S15-W5-MD3-M-POSITIVE-GATE-FAILURE-V4-20261110: The original positive kink control fails its frozen calibration gate after complete execution; the curvature-adjusted instrument remains unqualified and human descendants remain held.
+
+2026-11-10T10:11:01.611585+00:00 OPS-S15-W5-V1-FULL-CONT58-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T11:37:18.782051+00:00 OPS-S15-W5-V1-FULL-CONT59-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T12:58:17.297224+00:00 OPS-S15-W5-V1-FULL-CONT60-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T14:21:58.005539+00:00 OPS-S15-W5-V1-FULL-CONT61-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T14:37:11.903504+00:00 OPS-S15-W5-AT-M00-CHUNK0042-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T14:42:36.253919+00:00 OPS-S15-W5-AT-M00-CHUNK0043-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T14:47:57.259306+00:00 OPS-S15-W5-AT-M00-CHUNK0044-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T14:52:41.587742+00:00 OPS-S15-W5-AT-M00-CHUNK0045-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T14:57:41.891327+00:00 OPS-S15-W5-AT-M00-CHUNK0046-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T15:01:55.749397+00:00 OPS-S15-W5-AT-M00-CHUNK0047-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T15:07:35.407542+00:00 OPS-S15-W5-AT-M00-CHUNK0048-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T15:13:39.592707+00:00 OPS-S15-W5-AT-M00-CHUNK0049-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T15:29:07.831525+00:00 OPS-S15-W5-V1-ATOMIC-ACCOUNTING-20261110: The comparison monitor failed on an atomic temporary-file rename; all failed evidence is preserved and an isolated accounting repair passes targeted and native guard checks.
+
+2026-11-10T15:38:44.391140+00:00 OPS-S15-W5-AT-M00-CHUNK0050-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T15:42:15.562409+00:00 OPS-S15-W5-AT-M00-CHUNK0051-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T15:47:07.986667+00:00 OPS-S15-W5-AT-M00-CHUNK0052-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T15:52:03.422961+00:00 OPS-S15-W5-AT-M00-CHUNK0053-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T15:56:43.766802+00:00 OPS-S15-W5-AT-M00-CHUNK0054-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T16:01:13.887196+00:00 OPS-S15-W5-AT-M00-CHUNK0055-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T16:10:36.531745+00:00 OPS-S15-W5-AT-M00-CHUNK0056-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T16:16:15.702313+00:00 OPS-S15-W5-AT-M00-CHUNK0057-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T16:21:06.907538+00:00 OPS-S15-W5-AT-M00-CHUNK0058-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T16:25:55.484545+00:00 OPS-S15-W5-AT-M00-CHUNK0059-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T16:30:42.986878+00:00 OPS-S15-W5-AT-M00-CHUNK0060-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T16:35:50.114379+00:00 OPS-S15-W5-AT-M00-CHUNK0061-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T16:54:57.341796+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY1-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T16:57:25.312038+00:00 OPS-S15-W5-AT-M00-CHUNK0062-CHECKPOINT-PAUSE-20261110: The original reader chunk preserves a complete authenticated checkpoint at its planned scoring-time boundary; independent verification and the full pilot remain unfinished.
+
+2026-11-10T17:05:07.202702+00:00 OPS-S15-W5-AT-M00-CHUNK0062-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:12:48.809195+00:00 OPS-S15-W5-AT-M00-CHUNK0063-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:17:50.745637+00:00 OPS-S15-W5-AT-M00-CHUNK0064-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:23:42.429029+00:00 OPS-S15-W5-AT-M00-CHUNK0065-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:28:48.309962+00:00 OPS-S15-W5-AT-M00-CHUNK0066-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:34:46.886425+00:00 OPS-S15-W5-AT-M00-CHUNK0067-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:39:50.607417+00:00 OPS-S15-W5-AT-M00-CHUNK0068-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:44:34.745350+00:00 OPS-S15-W5-AT-M00-CHUNK0069-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:50:12.608809+00:00 OPS-S15-W5-AT-M00-CHUNK0070-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T17:55:59.999222+00:00 OPS-S15-W5-AT-M00-CHUNK0071-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:00:43.523444+00:00 OPS-S15-W5-AT-M00-CHUNK0072-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:10:56.008160+00:00 OPS-S15-W5-AT-M00-CHUNK0073-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:18:03.607618+00:00 OPS-S15-W5-AT-M00-CHUNK0074-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:24:08.131983+00:00 OPS-S15-W5-AT-M00-CHUNK0075-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:28:34.007150+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY2-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T18:30:12.932399+00:00 OPS-S15-W5-AT-M00-CHUNK0076-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:34:54.148288+00:00 OPS-S15-W5-AT-M00-CHUNK0077-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:39:47.475293+00:00 OPS-S15-W5-AT-M00-CHUNK0078-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:44:42.170822+00:00 OPS-S15-W5-AT-M00-CHUNK0079-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:50:55.786775+00:00 OPS-S15-W5-AT-M00-CHUNK0080-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T18:57:18.902298+00:00 OPS-S15-W5-AT-M00-CHUNK0081-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:02:54.557864+00:00 OPS-S15-W5-AT-M00-CHUNK0082-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:08:00.219272+00:00 OPS-S15-W5-AT-M00-CHUNK0083-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:14:07.767359+00:00 OPS-S15-W5-AT-M00-CHUNK0084-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:20:13.522545+00:00 OPS-S15-W5-AT-M00-CHUNK0085-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:26:18.348157+00:00 OPS-S15-W5-AT-M00-CHUNK0086-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:31:12.777096+00:00 OPS-S15-W5-AT-M00-CHUNK0087-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:36:10.207852+00:00 OPS-S15-W5-AT-M00-CHUNK0088-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:42:24.639178+00:00 OPS-S15-W5-AT-M00-CHUNK0089-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:48:21.340847+00:00 OPS-S15-W5-AT-M00-CHUNK0090-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T19:57:47.771997+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY3-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T19:59:16.002720+00:00 OPS-S15-W5-AT-M00-CHUNK0091-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:05:13.182033+00:00 OPS-S15-W5-CH-JUNE-CENSUS-COMPLETE-20261110: The complete June chess source census and independent replay are authenticated; downstream engine collection and scientific comparisons remain separately gated.
+
+2026-11-10T20:07:56.365447+00:00 OPS-S15-W5-AT-M00-CHUNK0092-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:13:56.010382+00:00 OPS-S15-W5-AT-M00-CHUNK0093-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:20:23.322757+00:00 OPS-S15-W5-AT-M00-CHUNK0094-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:25:38.724534+00:00 OPS-S15-W5-AT-M00-CHUNK0095-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:32:09.786021+00:00 OPS-S15-W5-AT-M00-CHUNK0096-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:37:13.462584+00:00 OPS-S15-W5-AT-M00-CHUNK0097-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:43:37.601116+00:00 OPS-S15-W5-AT-M00-CHUNK0098-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:51:31.016078+00:00 OPS-S15-W5-AT-M00-CHUNK0099-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T20:57:48.187083+00:00 OPS-S15-W5-AT-M00-CHUNK0100-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:02:54.015330+00:00 OPS-S15-W5-AT-M00-CHUNK0101-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:08:06.192009+00:00 OPS-S15-W5-AT-M00-CHUNK0102-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:14:38.150797+00:00 OPS-S15-W5-AT-M00-CHUNK0103-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:19:50.614391+00:00 OPS-S15-W5-AT-M00-CHUNK0104-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:25:05.891501+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY4-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T21:26:28.767187+00:00 OPS-S15-W5-AT-M00-CHUNK0105-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:31:31.671887+00:00 OPS-S15-W5-AT-M00-CHUNK0106-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:37:59.176879+00:00 OPS-S15-W5-AT-M00-CHUNK0107-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:43:12.603460+00:00 OPS-S15-W5-AT-M00-CHUNK0108-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:52:37.736546+00:00 OPS-S15-W5-AT-M00-CHUNK0109-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T21:58:45.624283+00:00 OPS-S15-W5-AT-M00-CHUNK0110-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T22:03:54.944212+00:00 OPS-S15-W5-AT-M00-CHUNK0111-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T22:09:05.507850+00:00 OPS-S15-W5-AT-M00-CHUNK0112-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T22:14:14.401575+00:00 OPS-S15-W5-AT-M00-CHUNK0113-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T22:20:48.675780+00:00 OPS-S15-W5-AT-M00-CHUNK0114-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T22:25:55.720622+00:00 OPS-S15-W5-AT-M00-CHUNK0115-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T22:32:27.302871+00:00 OPS-S15-W5-AT-M00-CHUNK0116-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T22:43:09.302348+00:00 OPS-S15-W5-AT-M00-CHUNK0117-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T22:48:47.729873+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY5-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-10T23:00:46.774050+00:00 OPS-S15-W5-AT-M00-CHUNK0118-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-10T23:04:20.929540+00:00 OPS-S15-W5-HISTORICAL-PID-REUSE-20261110: Independent Windows creation times resolve one reused historical process ID; the complete audit remains required and current-worker identity checks are unchanged.
+
+2026-11-10T23:09:22.777450+00:00 OPS-S15-W5-AT-M00-CHUNK0119-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+
+2026-11-10T23:12:53.419314+00:00: OPS-S15-W5-AT-M00-CHUNK0119-COST-20261110: Existing historical PID-reuse proof separately reviewed for landing119/admission120 only. Two fresh agreeing creation-time observations authenticate the same archived owner66; all complete prefix/source/output checks and live-worker guards remain unchanged. Private review and audit hashes are attached to the landing receipt.
+
+2026-11-10T23:18:36.453704+00:00 OPS-S15-W5-AT-M00-CHUNK0120-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+
+2026-11-10T23:21:40.190751+00:00: OPS-S15-W5-AT-M00-CHUNK0120-COST-20261110: Existing historical PID-reuse proof separately reviewed for landing120/admission121 only. Two fresh agreeing creation-time observations authenticate the same archived owner66; all complete prefix/source/output checks and live-worker guards remain unchanged. Private review and audit hashes are attached to the landing receipt.
+
+2026-11-10T23:26:01.467566+00:00 OPS-S15-W5-AT-M00-CHUNK0121-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+
+2026-11-10T23:29:06.487433+00:00: OPS-S15-W5-AT-M00-CHUNK0121-COST-20261110: Existing historical PID-reuse proof separately reviewed for landing121/admission122 only. Two fresh agreeing creation-time observations authenticate the same archived owner66; all complete prefix/source/output checks and live-worker guards remain unchanged. Private review and audit hashes are attached to the landing receipt.
+
+2026-11-10T23:34:00.034297+00:00 OPS-S15-W5-AT-M00-CHUNK0122-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+
+2026-11-10T23:37:06.100762+00:00: OPS-S15-W5-AT-M00-CHUNK0122-COST-20261110: Existing historical PID-reuse proof separately reviewed for landing122/admission123 only. Two fresh agreeing creation-time observations authenticate the same archived owner66; all complete prefix/source/output checks and live-worker guards remain unchanged. Private review and audit hashes are attached to the landing receipt.
+
+2026-11-10T23:41:46.623290+00:00 OPS-S15-W5-AT-M00-CHUNK0123-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+
+2026-11-10T23:44:52.687514+00:00: OPS-S15-W5-AT-M00-CHUNK0123-COST-20261110: Existing historical PID-reuse proof separately reviewed for landing123/admission124 only. Two fresh agreeing creation-time observations authenticate the same archived owner66; all complete prefix/source/output checks and live-worker guards remain unchanged. Private review and audit hashes are attached to the landing receipt.
+
+2026-11-10T23:49:38.905849+00:00 OPS-S15-W5-AT-M00-CHUNK0124-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+
+2026-11-10T23:52:46.998012+00:00: OPS-S15-W5-AT-M00-CHUNK0124-COST-20261110: Existing historical PID-reuse proof separately reviewed for landing124/admission125 only. Two fresh agreeing creation-time observations authenticate the same archived owner66; all complete prefix/source/output checks and live-worker guards remain unchanged. Private review and audit hashes are attached to the landing receipt.
+
+2026-11-11T00:04:22.619404+00:00 OPS-S15-W5-AT-M00-CHUNK0125-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+
+2026-11-11T00:07:44.282199+00:00: OPS-S15-W5-AT-M00-CHUNK0125-COST-20261110: Existing historical PID-reuse proof separately reviewed for landing125/admission126 only. Two fresh agreeing creation-time observations authenticate the same archived owner66; all complete prefix/source/output checks and live-worker guards remain unchanged. Private review and audit hashes are attached to the landing receipt.
+
+2026-11-11T00:11:58.712921+00:00 OPS-S15-W5-AT-M00-CHUNK0126-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+
+2026-11-11T00:14:47.008520+00:00: OPS-S15-W5-AT-M00-CHUNK0126-COST-20261110: Existing historical PID-reuse proof separately reviewed for landing126/admission127 only. Two fresh agreeing creation-time observations authenticate the same archived owner66; all complete prefix/source/output checks and live-worker guards remain unchanged. Private review and audit hashes are attached to the landing receipt.
+
+2026-11-11T00:17:35.470138+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY6-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+2026-11-11T00:24:16.260529+00:00 OPS-S15-W5-AT-M00-CHUNK0127-COST-20261110: The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+2026-11-11T00:34:46.610250+00:00 OPS-S15-W5-HISTORICAL-PID-REUSE127-20261110: Historical identity recovery preserves the complete audit; the next original reader chunk remains unadmitted at the unchanged memory gate.
+
+2026-11-11T01:44:39.738021+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY7-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T01:50:03.532503+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY7-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery8 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T03:14:28.569835+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY8-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T03:15:40.674950+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY8-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery9 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T04:11:47.086467+00:00 OPS-S15-W5-DIGEST-20261110: The November 10 Week 5 digest reconciles completed evidence, retained failures and unused capacity; the full comparison continues, while reader memory and other qualification gates remain unresolved.
+
+2026-11-11T04:49:00.544622+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY9-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T05:02:42.321525+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY9-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery10 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T05:08:55.076478+00:00 OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-SOURCE-PILOT-20261110: The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.
+
+2026-11-11T05:11:01.515312+00:00 OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-VERIFY-PILOT-20261110: The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.
+
+2026-11-11T05:14:08.548520+00:00 OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-COMPLETE-20261110: The complete constructed comfort sensitivity case has exact publication-adapter parity and full fresh replay through authentic native continuations.
+
+2026-11-11T05:17:28.523910+00:00 OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-SOURCE-PILOT-20261110: The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.
+
+2026-11-11T05:20:07.267898+00:00 OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-VERIFY-PILOT-20261110: The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.
+
+2026-11-11T05:23:48.147046+00:00 OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-COMPLETE-20261110: The complete constructed comfort sensitivity case has exact publication-adapter parity and full fresh replay through authentic native continuations.
+
+2026-11-11T05:26:55.878712+00:00 OPS-S15-W5-SP3-IC-HUMAN-SOURCE-PILOT-20261110: The original-source comfort sensitivity study reaches its declared pilot boundary with a complete authenticated checkpoint; full sensitivity and independent replay remain unfinished.
+
+2026-11-11T05:33:47.483808+00:00 OPS-S15-W5-SP3-IC-HUMAN-VERIFY-PILOT-20261110: The original-source comfort sensitivity study reaches its declared pilot boundary with a complete authenticated checkpoint; full sensitivity and independent replay remain unfinished.
+
+2026-11-11T05:41:21.854104+00:00 S15-W5-SP3-IC-20261110: Complete sensitivity and independent replay filed; gate failure retained as a calibration result, not healed. Original scope and costs preserved.
+
+2026-11-11T05:49:58.460948+00:00 OPS-S15-W5-SP3-IC-BUILD-CLOSURE-20261110: The commissioned comfort sensitivity pipeline is fully qualified and its complete conditional calibration is filed; the original full comparison continues while remaining source, memory and qualification gates stay explicit.
+
+2026-11-11T06:30:58.759263+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY10-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T06:32:33.604664+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY10-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery11 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T08:01:04.250683+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY11-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T08:06:01.539443+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY11-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery12 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T09:44:02.297219+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY12-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T09:45:16.704072+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY12-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery13 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T11:15:05.514564+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY13-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T11:16:10.215538+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY13-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery14 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T12:08:53.386314+00:00 OPS-S15-W5-SP3-IC-GHOST-HANDOFF-20261111: The approved aggregate sensitivity addendum is copied to Ghost with matching hashes; recipient uptake remains unclaimed.

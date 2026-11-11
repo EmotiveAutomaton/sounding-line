@@ -2656,6 +2656,266 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-SP3-IC-GHOST-HANDOFF-20261111:** The approved aggregate sensitivity addendum is copied to Ghost with matching hashes; recipient uptake remains unclaimed. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_GHOST_HANDOFF_20261111.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY13-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY13_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY12-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY12_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY11-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY11_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY10-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY10_PAUSE_20261110.md).
+
+**OPS-S15-W5-SP3-IC-BUILD-CLOSURE-20261110:** The commissioned comfort sensitivity pipeline is fully qualified and its complete conditional calibration is filed; the original full comparison continues while remaining source, memory and qualification gates stay explicit. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_BUILD_CLOSURE_20261110.md).
+
+**S15-W5-SP3-IC-20261110:** Under the fixed observed building design, the thermal-distance comparison has limited sensitivity at the registered practical effect; the inconclusive human primary cannot establish absence. Numerical qualification and complete native replay pass; sensitivity failure is a completed result. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_HUMAN_COMPLETE_20261110.md).
+
+**OPS-S15-W5-SP3-IC-HUMAN-VERIFY-PILOT-20261110:** The original-source comfort sensitivity study reaches its declared pilot boundary with a complete authenticated checkpoint; full sensitivity and independent replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_HUMAN_VERIFY_PILOT_20261110.md).
+
+**OPS-S15-W5-SP3-IC-HUMAN-SOURCE-PILOT-20261110:** The original-source comfort sensitivity study reaches its declared pilot boundary with a complete authenticated checkpoint; full sensitivity and independent replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_HUMAN_SOURCE_PILOT_20261110.md).
+
+**OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-COMPLETE-20261110:** The complete constructed comfort sensitivity case has exact publication-adapter parity and full fresh replay through authentic native continuations. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_PUBLICATION_HIGH_NOISE_COMPLETE_20261110.md).
+
+**OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-VERIFY-PILOT-20261110:** The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_PUBLICATION_HIGH_NOISE_VERIFY_PILOT_20261110.md).
+
+**OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-SOURCE-PILOT-20261110:** The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_PUBLICATION_HIGH_NOISE_SOURCE_PILOT_20261110.md).
+
+**OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-COMPLETE-20261110:** The complete constructed comfort sensitivity case has exact publication-adapter parity and full fresh replay through authentic native continuations. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_PUBLICATION_EXACT_COMPLETE_20261110.md).
+
+**OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-VERIFY-PILOT-20261110:** The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_PUBLICATION_EXACT_VERIFY_PILOT_20261110.md).
+
+**OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-SOURCE-PILOT-20261110:** The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/SP3_IC_PUBLICATION_EXACT_SOURCE_PILOT_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY9-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY9_PAUSE_20261110.md).
+
+**OPS-S15-W5-DIGEST-20261110:** The November 10 Week 5 digest reconciles completed evidence, retained failures and unused capacity; the full comparison continues, while reader memory and other qualification gates remain unresolved. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY8-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY8_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY7-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY7_PAUSE_20261110.md).
+
+**OPS-S15-W5-HISTORICAL-PID-REUSE127-20261110:** Historical identity recovery preserves the complete audit; the next original reader chunk remains unadmitted at the unchanged memory gate. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0128_RESOURCE_HOLD_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0127-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0127_COST_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY6-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY6_PAUSE_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0126-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0126_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0125-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0125_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0124-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0124_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0123-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0123_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0122-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0122_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0121-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0121_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0120-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0120_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0119-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0119_COST_20261110.md).
+
+**OPS-S15-W5-HISTORICAL-PID-REUSE-20261110:** Independent Windows creation times resolve one reused historical process ID; the complete audit remains required and current-worker identity checks are unchanged. [Record](../results/phase_2_4_stage_15/WEEK5/HISTORICAL_PID_REUSE_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0118-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0118_COST_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY5-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY5_PAUSE_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0117-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0117_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0116-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0116_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0115-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0115_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0114-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0114_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0113-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0113_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0112-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0112_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0111-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0111_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0110-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0110_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0109-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0109_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0108-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0108_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0107-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0107_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0106-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0106_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0105-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0105_COST_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY4-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY4_PAUSE_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0104-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0104_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0103-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0103_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0102-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0102_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0101-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0101_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0100-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0100_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0099-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0099_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0098-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0098_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0097-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0097_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0096-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0096_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0095-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0095_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0094-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0094_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0093-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0093_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0092-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0092_COST_20261110.md).
+
+**OPS-S15-W5-CH-JUNE-CENSUS-COMPLETE-20261110:** The complete June chess source census and independent replay are authenticated; downstream engine collection and scientific comparisons remain separately gated. [Record](../results/phase_2_4_stage_15/WEEK5/CH_JUNE_CENSUS_COMPLETE_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0091-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0091_COST_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY3-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY3_PAUSE_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0090-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0090_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0089-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0089_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0088-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0088_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0087-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0087_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0086-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0086_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0085-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0085_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0084-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0084_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0083-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0083_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0082-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0082_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0081-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0081_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0080-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0080_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0079-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0079_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0078-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0078_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0077-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0077_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0076-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0076_COST_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY2-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY2_PAUSE_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0075-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0075_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0074-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0074_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0073-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0073_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0072-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0072_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0071-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0071_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0070-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0070_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0069-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0069_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0068-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0068_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0067-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0067_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0066-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0066_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0065-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0065_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0064-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0064_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0063-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0063_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0062-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0062_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0062-CHECKPOINT-PAUSE-20261110:** The original reader chunk preserves a complete authenticated checkpoint at its planned scoring-time boundary; independent verification and the full pilot remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0062_CHECKPOINT_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY1-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ACCOUNTING_RECOVERY1_PAUSE_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0061-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0061_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0060-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0060_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0059-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0059_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0058-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0058_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0057-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0057_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0056-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0056_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0055-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0055_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0054-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0054_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0053-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0053_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0052-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0052_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0051-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0051_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0050-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0050_COST_20261110.md).
+
+**OPS-S15-W5-V1-ATOMIC-ACCOUNTING-20261110:** The comparison monitor failed on an atomic temporary-file rename; all failed evidence is preserved and an isolated accounting repair passes targeted and native guard checks. [Record](../results/phase_2_4_stage_15/WEEK5/V1_ATOMIC_ACCOUNTING_RECOVERY_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0049-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0049_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0048-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0048_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0047-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0047_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0046-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0046_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0045-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0045_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0044-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0044_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0043-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0043_COST_20261110.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0042-COST-20261110:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0042_COST_20261110.md).
+
+**OPS-S15-W5-V1-FULL-CONT61-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT61_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-FULL-CONT60-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT60_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-FULL-CONT59-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT59_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-FULL-CONT58-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT58_PAUSE_20261110.md).
+
+**OPS-S15-W5-MD3-M-POSITIVE-GATE-FAILURE-V4-20261110:** The original positive kink control fails its frozen calibration gate after complete execution; the curvature-adjusted instrument remains unqualified and human descendants remain held. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_M_POSITIVE_GATE_FAILURE_V4_20261110.md).
+
+**OPS-S15-W5-MD3-M-POSITIVE-SOURCE-PILOT-V4-20261110:** The predeclared positive kink qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_M_POSITIVE_SOURCE_PILOT_V4_20261110.md).
+
+**OPS-S15-W5-MD3-S-NULL-COMPLETE-V4-20261110:** The complete predeclared null mood specification fixture independently reproduces its full numerical bank; remaining original cases and human admission are still gated. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_S_NULL_COMPLETE_V4_20261110.md).
+
+**OPS-S15-W5-MD3-S-NULL-VERIFY-PILOT-V4-20261110:** The predeclared null mood qualification preserves its authentic verify-pilot checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_S_NULL_VERIFY_PILOT_V4_20261110.md).
+
+**OPS-S15-W5-MD3-S-NULL-SOURCE-PILOT-V4-20261110:** The predeclared null mood qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_S_NULL_SOURCE_PILOT_V4_20261110.md).
+
+**OPS-S15-W5-MD3-S-NEGATIVE-COMPLETE-V4-20261110:** The complete predeclared negative mood specification fixture independently reproduces its full numerical bank; remaining original cases and human admission are still gated. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_S_NEGATIVE_COMPLETE_V4_20261110.md).
+
+**OPS-S15-W5-MD3-S-NEGATIVE-VERIFY-PILOT-V4-20261110:** The predeclared negative mood qualification preserves its authentic verify-pilot checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_S_NEGATIVE_VERIFY_PILOT_V4_20261110.md).
+
+**OPS-S15-W5-MD3-S-NEGATIVE-SOURCE-PILOT-V4-20261110:** The predeclared negative mood qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_S_NEGATIVE_SOURCE_PILOT_V4_20261110.md).
+
+**OPS-S15-W5-V1-FULL-CONT57-PAUSE-20261110:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT57_PAUSE_20261110.md).
+
+**OPS-S15-W5-V1-FULL-CONT56-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT56_PAUSE_20261109.md).
+
 **OPS-S15-W5-MD3-S-POSITIVE-COMPLETE-V4-20261109:** The complete positive mood specification fixture independently reproduces its full three-discount numerical bank; the remaining original cases and human admission are still gated. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_S_POSITIVE_COMPLETE_V4_20261109.md).
 
 **OPS-S15-W5-MD3-S-POSITIVE-VERIFY-PILOT-V4-20261109:** The full positive mood execution bank is preserved and independent replay reaches its own first-five-percent checkpoint; complete qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_S_POSITIVE_VERIFY_PILOT_V4_20261109.md).

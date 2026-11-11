@@ -1,5 +1,12 @@
 # October 16 drive runners
 
+The isolated Week 5 v8 runtime handles the original V1 producer's PID-named
+atomic JSON temporaries through `cards/week5_output_size_v2.py`. The
+[repair record](../../results/phase_2_4_stage_15/WEEK5/V1_ATOMIC_ACCOUNTING_RECOVERY_20261110.md)
+retains the failed attempt, targeted checks, native replay and byte-cap proof.
+Old runtime sources remain pinned; admission keeps the original committed
+scientific design and resumes only authenticated pauses.
+
 **Current Week 5 wake policy (November 8):**
 `calendar_20261107_week5_event_idle` preserves campaign milestones while leaving
 event delivery and a four-hour owner-inactivity fallback to the watcher. It

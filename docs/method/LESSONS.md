@@ -1446,6 +1446,16 @@ L132 (a shuffle gate that voided the alternative's own signature).
   (2026-11-03, OPS-S15-W4-S2-SOURCE-SAMPLE-FAILURE-20261103;
   OPS-S15-W4-RUNTIME-V8-20261103)
 
+  The same accounting gap recurred for V1's fit and seal JSON files: its writer
+  uses PID suffixes for every output, while the prior exception covered only
+  PID-named progress. Review every actual writer call, including independent
+  replay, rather than assuming one tested temporary convention covers a
+  pipeline. A separate helper requires the exact producer path and installed
+  regular target; real writer-renames, unchanged refusals and native byte-cap
+  enforcement qualify it. Retain the failed directory separately and resume
+  only from the last authenticated pause, with repeated work still charged.
+  (OPS-S15-W5-V1-ATOMIC-ACCOUNTING-20261110)
+
 - **Local JSON Schema validity does not prove the provider supports its keywords.**
   REV's constrained document arrays passed local and fake-transport checks but
   were refused by the provider's unbilled token counter because minimum lengths

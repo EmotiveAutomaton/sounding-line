@@ -1,5 +1,3663 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-SP3-IC-GHOST-HANDOFF-20261111
+
+**Hypothesis.** Can the approved sensitivity addendum be delivered intact to Ghost with its existing scientific limits preserved?
+
+**METHOD.** Bind the explicit approval to the reviewed four-file manifest and exact destination, verify all source hashes and the total byte count, create the approved addendum folder, and independently compare every destination file with its source and manifest.
+
+**Found.** The approved aggregate sensitivity addendum is copied to Ghost with matching hashes; recipient uptake remains unclaimed.
+
+The four files total 14,826 bytes: `README.md`, `CALIBRATION.json`, `CLAIM_ROWS.json`, and `MANIFEST.json`. The destination is Ghost's `docs/exchange/sounding-line-week5-2026-11-07/sp3-ic-20261110/`. All four hashes match the reviewed source. The addendum contains the complete method and limits, aggregate calibration, parent and sensitivity claim rows, and hash manifest. It contains no individual records or identifiers. The original Week 5 handoff remains intact.
+
+Source claims S15-W5-SP3-20261107 and S15-W5-SP3-IC-20261110 retain their recorded wording and limits. The observational parent remains inconclusive, accompanied by the completed conditional sensitivity result. Copying does not establish recipient uptake, an engine change, a causal finding, or authority to modify Ghost's active validation or closed campaign. No recipient commit or push occurred.
+
+**Means.** The destination-copy approval hold is resolved. Retain the primary and sensitivity addendum together in the final curator packet; its later scientific synthesis remains under the active Week 5 policy. Earlier approval-pending snapshots are historical. No research worker, gear, wake schedule, or scientific source changed. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The approved aggregate sensitivity addendum is copied to Ghost with matching hashes; recipient uptake remains unclaimed.; project meaning: scoped operational record; next engineering obligation: Retain the completed primary and its conditional sensitivity limits together in the final curator packet; await recipient review without assuming uptake.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_GHOST_HANDOFF_20261111.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY13-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2311 complete fit pairs, preserving 86,918 completed pairs in all 173,921 checkpoint files. The native attempt consumes 4128.140625 CPU seconds, including 3535.78125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 311121.703125 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 688878.296875 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 173,921, every hash authenticated |
+| Completed fit pairs | 86,918 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY13_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY12-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2216 complete fit pairs, preserving 84,607 completed pairs in all 169,297 checkpoint files. The native attempt consumes 4140.84375 CPU seconds, including 3553.921875 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 306963.5625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 693036.4375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 169,297, every hash authenticated |
+| Completed fit pairs | 84,607 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY12_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY11-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2252 complete fit pairs, preserving 82,391 completed pairs in all 164,863 checkpoint files. The native attempt consumes 4127.96875 CPU seconds, including 3550.515625 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 302792.71875 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 697207.28125 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 164,863, every hash authenticated |
+| Completed fit pairs | 82,391 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY11_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY10-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2285 complete fit pairs, preserving 80,139 completed pairs in all 160,357 checkpoint files. The native attempt consumes 4096.484375 CPU seconds, including 3528.640625 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 298634.75 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 701365.25 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 160,357, every hash authenticated |
+| Completed fit pairs | 80,139 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY10_PAUSE_20261110.md.
+
+### OPS-S15-W5-SP3-IC-BUILD-CLOSURE-20261110
+
+**Hypothesis.** Can this operating pass turn the commissioned comfort sensitivity check into a qualified, completely recorded result while preserving the running comparison and wake policy?
+
+**METHOD.** Review the existing idle-slot order and its source/reader dependencies. Build an isolated publication adapter for the original sensitivity handler, run focused refusal and numerical tests, then perform both complete native constructed control chains and the unchanged original-source calibration, including each execution and verification pilot. Authenticate all source/output hashes and native exits, complete every internal landing before its event ACK, and inspect the remaining worker, leases, actual progress, resource floors, locks and watcher delivery.
+
+**Found.** The commissioned comfort sensitivity pipeline is fully qualified and its complete conditional calibration is filed; the original full comparison continues while remaining source, memory and qualification gates stay explicit.
+
+The operational table separates completed checks from current capacity. It does not report unfinished scientific scores.
+
+| Check | Disposition |
+|---|---|
+| Focused checks | 16 pass; initial shared temporary-directory refusal retained |
+| Publication qualification | Exact and high-noise controls each complete all worlds, arrays, arithmetic witnesses and fresh native replay |
+| Original-source calibration | Complete result and limits filed as S15-W5-SP3-IC-20261110; no healing of its sensitivity outcome |
+| Full comparison | Accounting recovery 10 active with original scope, fresh output and one matching lease |
+| Source locks | All 21 verified |
+| Reader ordinal 128 | Unadmitted at the original 26-GiB commit-headroom start gate |
+| Ready waiting cards | Zero against sixteen required; qualification and source admission remain a recorded defect |
+| Original builders | All three delivered; none active; no new delegation |
+| Wake delivery | No unlanded event at inspection; events plus four hours of actual owner inactivity, one pending message |
+
+The higher-priority idle lanes retain their source/sample, selected-reader, storage or native-qualification requirements. This pass completes an existing section-2 instrument obligation after that review; it does not claim exhaustion of useful commissioned work. The full comparison remains CPU-only with two numerical threads and a below-normal child. The watcher and calendar retain their exact native identities, fresh monitoring and original endpoint dates. Historical delivery errors remain in the audit; no current scan error or duplicate schedule is introduced.
+
+The aggregate calibration addendum is prepared for Ghost, but explicit destination approval remains pending after automatic approval review rejected the copy. No recipient file was written, committed or pushed. Source-side results are fully filed. Final scientific synthesis remains under the Week 5 packet. Earlier theory errata have verified implementation; final idle filing remains deferred while active work continues. No tests were harvested from this wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The commissioned comfort sensitivity pipeline is fully qualified and its complete conditional calibration is filed; the original full comparison continues while remaining source, memory and qualification gates stay explicit.; project meaning: scoped operational record; next engineering obligation: Continue the original comparison at its next genuine boundary; follow the existing idle-slot qualification order, recheck reader memory before admission, and complete approved aggregate delivery without reopening completed science.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_BUILD_CLOSURE_20261110.md.
+
+### S15-W5-SP3-IC-20261110
+
+**Hypothesis.** Could the original thermal-distance comparison detect the predeclared practical effect under the observed building design?
+
+**METHOD.** Reconstruct the exact completed parent source and original building summaries. Retain all 213 eligible buildings in each bootstrap draw, then select the 51 weather-linked naturally ventilated buildings for the original ordinary least-squares contrast. Preserve the fitted intercept and residual magnitudes, remove the fitted distance slope, and add five fixed signed/null coefficients with paired whole-building random signs. For each coefficient, generate 100 worlds and all 2,000 original full-frame bootstrap draws. Authenticate both original 25-world pilot boundaries and require fresh native reconstruction of all 500 worlds and every numeric draw array.
+
+**Found.** Under the fixed observed building design, the thermal-distance comparison has limited sensitivity at the registered practical effect; the inconclusive human primary cannot establish absence.
+
+The table reports the complete conditional calibration. Coefficients and estimate-distribution quantiles are changes in sensation-per-degree slope per outdoor-distance degree. Distribution quantiles describe variation across constructed worlds; they are not an interval for the human primary. Coverage is the fraction of worlds whose bootstrap interval contains its planted coefficient. Zero exclusion is in the planted direction, and is two-sided for the null. The last column applies the original primary's negative-support rule, whose interval must lie below minus 0.01; it is distinct from detecting a nonzero planted effect.
+
+| Planted coefficient | Estimate distribution, 2.5% / median / 97.5% | 95% interval coverage | Expected-direction zero exclusion | Original negative-support classification |
+|---:|---|---:|---:|---:|
+| -0.02 | -0.03790712 / -0.02212712 / -0.00402299 | 0.96 | 0.54 | 0.18 |
+| -0.01 | -0.02790712 / -0.01212712 / 0.00597701 | 0.96 | 0.18 | 0.02 |
+| +0.00 | -0.01790712 / -0.00212712 / 0.01597701 | 0.96 | 0.04 | 0.00 |
+| +0.01 | -0.00790712 / 0.00787288 / 0.02597701 | 0.96 | 0.09 | 0.00 |
+| +0.02 | 0.00209288 / 0.01787288 / 0.03597701 | 0.96 | 0.38 | 0.00 |
+
+The null exclusion rate is 0.04, within the frozen maximum of 0.10. The negative and positive one-bar detection rates are 0.18 and 0.09, both below the required 0.80. The joint sensitivity criterion therefore fails. All 500 worlds and all draws are retained, with no failed draws. This is a completed calibration outcome, not an engineering failure to heal, a support-floor failure or a result-dependent reason to reduce the grid.
+
+**Scope and parent interpretation.** The source contains 42,007 responses in 567 buildings; the original exclusion removes 354 buildings with fewer than 30 responses, leaving the 213-building sampling frame. The analytic weather-linked subset is 51 buildings. The simulated outcomes condition on estimated building slopes, observed weather distances and sign-symmetric residual magnitudes. They do not estimate general population power under other noise laws, within-person thermal adaptation, a causal set-point mechanism or a human effect of opposite sign. The original observational result (S15-W5-SP3-20261107) remains inconclusive. It must now be accompanied by limited conditional sensitivity at the practical bar, rather than interpreted as evidence of no dulling. No p-value is introduced.
+
+**Instrument integrity.** Both full exact and deliberately noisy constructed publication cases preserve the original numerical handler, full array parity and expanded-row arithmetic checks through native execution and verification. Sixteen focused checks passed after a recorded shared-temporary-directory refusal. The isolated committed wrapper changes JSON publication only. Every source/design pin, final output and independent replay authenticates, and native owners and children exited. Both stopped predecessors and their costs are retained. No raw response, building identifier or per-person record is published.
+
+**Cost.** This final attempt consumed 15.906250 measured native CPU seconds. The three human-source attempts consumed 27.828125 seconds. Cumulative card charge is 1739.187500 of 5,000 seconds, including measured prior qualifications and failures, 600 seconds of old/new preparation allowances and 60 seconds per attempt for supervision. The conservative family charge is 6152.953125 of 40,000 seconds and retains its additional 1,500-second allowance. Allowances are not measurements. No paid, GPU or Ollama work occurred.
+
+
+**Earlier evidence and next work.** This calibration directly qualifies the interpretation of S15-W5-SP3-20261107. The separate SP1 location and SP2 sensitivity comparisons have different estimands and are not reclassified. G254 to G256 and the earlier channel/precision rows retain their original theoretical status; the calibration does not supply a compatible covariate or a new cross-corpus join for their other datasets. Theory rows and afterwords remain deferred to the curator's theory pass under Week 5 section 3. Preserve the original primary beside this sensitivity result in the final packet and aggregate companion handoff. No new scientific descendant is commissioned by this completed first-generation instrument check, and no tests were harvested from this wake.
+
+Curator roll-up: set-point precision; Could the thermal-distance comparison detect its practical effect?; **Infrastructure**; Under the fixed observed building design, the thermal-distance comparison has limited sensitivity at the registered practical effect; the inconclusive human primary cannot establish absence.; project meaning: the human inconclusive result has limited conditional sensitivity; next engineering obligation: File the primary with its limited conditional sensitivity in the final packet and aggregate companion handoff; no absence or causal claim and no numerical healing retry.; public claim: no absence claim licensed, primary remains inconclusive; curator decision required: No. Detail: WEEK5/SP3_IC_HUMAN_COMPLETE_20261110.md.
+
+### OPS-S15-W5-SP3-IC-HUMAN-VERIFY-PILOT-20261110
+
+**Hypothesis.** Could the original comfort comparison detect the fixed practical effect under its observed building design?
+
+**METHOD.** Use the exact completed parent source and the already frozen conditional sensitivity design: all eligible buildings are resampled before the weather-linked naturally ventilated subset is selected, with five fixed signed/null doses, 100 worlds per dose and all 2,000 original full-frame draws. Admit only after both complete constructed publication controls and their independent arithmetic and array replay. Stop at the original first 25-world execution or verification boundary and authenticate every saved file and stopped native identity.
+
+**Found.** The original-source comfort sensitivity study reaches its declared pilot boundary with a complete authenticated checkpoint; full sensitivity and independent replay remain unfinished.
+
+This verify-pilot consumes 9.421875 measured native CPU seconds and preserves 500 complete execution worlds. Its stopping operation is verify. Every original source and design pin authenticates. No incomplete per-dose score, sensitivity decision or revised human claim is reported. The original observational primary remains inconclusive until the complete sensitivity result is separately interpreted; a conditional calibration cannot establish general population power or a causal thermal-history mechanism.
+
+Both full constructed cases have complete native replay and exact baseline/adapter array parity. Sixteen focused checks pass, with the initial shared temporary-directory refusal retained in their build record. All prior setup, qualification, failed checks, pilot and supervisor costs remain inside the original 5,000-second card and 40,000-second family ceilings. This attempt has a 600-CPU-second safety cap, 3,600-second outer wall limit, three GiB projected memory, two GiB output and two numerical threads. No world, draw, building, dose or gate has been reduced.
+
+**Means.** Continue only from the complete authenticated manifest into a new bounded attempt; retain the predecessor and full independent replay. The ready buffer remains deficient while existing source and qualification obligations are completed. No tests harvested from this wake. CPU-only Gear 2, events plus four hours of owner inactivity, one pending wake and the final-packet policy remain unchanged. No new paid, GPU, Ollama or delegation authority is used.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original-source comfort sensitivity study reaches its declared pilot boundary with a complete authenticated checkpoint; full sensitivity and independent replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the complete original conditional-sensitivity grid and fresh replay before any result or parent-claim update.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_HUMAN_VERIFY_PILOT_20261110.md.
+
+### OPS-S15-W5-SP3-IC-HUMAN-SOURCE-PILOT-20261110
+
+**Hypothesis.** Could the original comfort comparison detect the fixed practical effect under its observed building design?
+
+**METHOD.** Use the exact completed parent source and the already frozen conditional sensitivity design: all eligible buildings are resampled before the weather-linked naturally ventilated subset is selected, with five fixed signed/null doses, 100 worlds per dose and all 2,000 original full-frame draws. Admit only after both complete constructed publication controls and their independent arithmetic and array replay. Stop at the original first 25-world execution or verification boundary and authenticate every saved file and stopped native identity.
+
+**Found.** The original-source comfort sensitivity study reaches its declared pilot boundary with a complete authenticated checkpoint; full sensitivity and independent replay remain unfinished.
+
+This source-pilot consumes 2.5 measured native CPU seconds and preserves 25 complete execution worlds. Its stopping operation is execute. Every original source and design pin authenticates. No incomplete per-dose score, sensitivity decision or revised human claim is reported. The original observational primary remains inconclusive until the complete sensitivity result is separately interpreted; a conditional calibration cannot establish general population power or a causal thermal-history mechanism.
+
+Both full constructed cases have complete native replay and exact baseline/adapter array parity. Sixteen focused checks pass, with the initial shared temporary-directory refusal retained in their build record. All prior setup, qualification, failed checks, pilot and supervisor costs remain inside the original 5,000-second card and 40,000-second family ceilings. This attempt has a 600-CPU-second safety cap, 3,600-second outer wall limit, three GiB projected memory, two GiB output and two numerical threads. No world, draw, building, dose or gate has been reduced.
+
+**Means.** Continue only from the complete authenticated manifest into a new bounded attempt; retain the predecessor and full independent replay. The ready buffer remains deficient while existing source and qualification obligations are completed. No tests harvested from this wake. CPU-only Gear 2, events plus four hours of owner inactivity, one pending wake and the final-packet policy remain unchanged. No new paid, GPU, Ollama or delegation authority is used.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original-source comfort sensitivity study reaches its declared pilot boundary with a complete authenticated checkpoint; full sensitivity and independent replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the complete original conditional-sensitivity grid and fresh replay before any result or parent-claim update.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_HUMAN_SOURCE_PILOT_20261110.md.
+
+### OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-COMPLETE-20261110
+
+**Hypothesis.** Can the already validated comfort sensitivity calculation use the qualified JSON publication convention without changing its complete numerical results or checkpoint behavior?
+
+**METHOD.** Run the original qualified constructed handler and the new actual publication entry points on the same pinned source. Compare every retained numerical array and complete summary, preserve the first 25-world execution and verification pilots through immutable native continuations, and require fresh replay of all five doses, 100 worlds per dose and 2,000 full-frame building draws per world. Exact and deliberately noisy cases retain their original pass and failure expectations.
+
+**Found.** The complete constructed comfort sensitivity case has exact publication-adapter parity and full fresh replay through authentic native continuations.
+
+The high-noise case reaches its complete boundary with 28.5625 measured native CPU seconds. Both execution banks contain 500 complete worlds; no partial scientific score or human sensitivity conclusion is reported. Every source, committed design, checkpoint and native exit authenticates. Both original execution and verification pilot boundaries are witnessed; full fresh independent numerical and expanded-row arithmetic checks pass.
+
+This operational adapter uses the existing UUID JSON writer and qualified world-bank validator. No estimator, source inclusion, signed dose, practical bar or bootstrap population changes. The two actual native handlers run in fresh child processes. Prior sources, controls, pauses, failures and all charges are retained. Each attempt stays below 600 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads, within the original 5,000-second SP3.ic and 40,000-second SP family ceilings. Build/test and supervisor allowances remain separately identified as allowances.
+
+Sixteen focused checks pass. The first local test invocation retained 13 setup errors from an inaccessible shared temporary directory and three passes; a new workspace temporary directory passed all sixteen. This was a test-environment refusal, not a numerical gate failure. No existing test directory or unrelated process was removed.
+
+**Means.** Both complete constructed cases are required before this wrapper qualifies. Human-source support and cost admission remain separate. The ready buffer is still deficient; this pass builds an existing commissioned qualification after reviewing the idle-slot order. Original builders delivered, none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged; GPU, Ollama and paid calls remain off. Final scientific reporting stays under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed comfort sensitivity case has exact publication-adapter parity and full fresh replay through authentic native continuations.; project meaning: scoped operational record; next engineering obligation: Finish both complete constructed cases, then review the unchanged human source and cumulative-cost admission; no automatic human release.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_PUBLICATION_HIGH_NOISE_COMPLETE_20261110.md.
+
+### OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-VERIFY-PILOT-20261110
+
+**Hypothesis.** Can the already validated comfort sensitivity calculation use the qualified JSON publication convention without changing its complete numerical results or checkpoint behavior?
+
+**METHOD.** Run the original qualified constructed handler and the new actual publication entry points on the same pinned source. Compare every retained numerical array and complete summary, preserve the first 25-world execution and verification pilots through immutable native continuations, and require fresh replay of all five doses, 100 worlds per dose and 2,000 full-frame building draws per world. Exact and deliberately noisy cases retain their original pass and failure expectations.
+
+**Found.** The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.
+
+The high-noise case reaches its verify-pilot boundary with 14.03125 measured native CPU seconds. Both execution banks contain 500 complete worlds; no partial scientific score or human sensitivity conclusion is reported. Every source, committed design, checkpoint and native exit authenticates. The full grid and independent verification remain required.
+
+This operational adapter uses the existing UUID JSON writer and qualified world-bank validator. No estimator, source inclusion, signed dose, practical bar or bootstrap population changes. The two actual native handlers run in fresh child processes. Prior sources, controls, pauses, failures and all charges are retained. Each attempt stays below 600 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads, within the original 5,000-second SP3.ic and 40,000-second SP family ceilings. Build/test and supervisor allowances remain separately identified as allowances.
+
+Sixteen focused checks pass. The first local test invocation retained 13 setup errors from an inaccessible shared temporary directory and three passes; a new workspace temporary directory passed all sixteen. This was a test-environment refusal, not a numerical gate failure. No existing test directory or unrelated process was removed.
+
+**Means.** Both complete constructed cases are required before this wrapper qualifies. Human-source support and cost admission remain separate. The ready buffer is still deficient; this pass builds an existing commissioned qualification after reviewing the idle-slot order. Original builders delivered, none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged; GPU, Ollama and paid calls remain off. Final scientific reporting stays under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish both complete constructed cases, then review the unchanged human source and cumulative-cost admission; no automatic human release.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_PUBLICATION_HIGH_NOISE_VERIFY_PILOT_20261110.md.
+
+### OPS-S15-W5-SP3-IC-PUBLICATION-HIGH-NOISE-SOURCE-PILOT-20261110
+
+**Hypothesis.** Can the already validated comfort sensitivity calculation use the qualified JSON publication convention without changing its complete numerical results or checkpoint behavior?
+
+**METHOD.** Run the original qualified constructed handler and the new actual publication entry points on the same pinned source. Compare every retained numerical array and complete summary, preserve the first 25-world execution and verification pilots through immutable native continuations, and require fresh replay of all five doses, 100 worlds per dose and 2,000 full-frame building draws per world. Exact and deliberately noisy cases retain their original pass and failure expectations.
+
+**Found.** The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.
+
+The high-noise case reaches its source-pilot boundary with 3.390625 measured native CPU seconds. Both execution banks contain 25 complete worlds; no partial scientific score or human sensitivity conclusion is reported. Every source, committed design, checkpoint and native exit authenticates. The full grid and independent verification remain required.
+
+This operational adapter uses the existing UUID JSON writer and qualified world-bank validator. No estimator, source inclusion, signed dose, practical bar or bootstrap population changes. The two actual native handlers run in fresh child processes. Prior sources, controls, pauses, failures and all charges are retained. Each attempt stays below 600 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads, within the original 5,000-second SP3.ic and 40,000-second SP family ceilings. Build/test and supervisor allowances remain separately identified as allowances.
+
+Sixteen focused checks pass. The first local test invocation retained 13 setup errors from an inaccessible shared temporary directory and three passes; a new workspace temporary directory passed all sixteen. This was a test-environment refusal, not a numerical gate failure. No existing test directory or unrelated process was removed.
+
+**Means.** Both complete constructed cases are required before this wrapper qualifies. Human-source support and cost admission remain separate. The ready buffer is still deficient; this pass builds an existing commissioned qualification after reviewing the idle-slot order. Original builders delivered, none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged; GPU, Ollama and paid calls remain off. Final scientific reporting stays under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish both complete constructed cases, then review the unchanged human source and cumulative-cost admission; no automatic human release.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_PUBLICATION_HIGH_NOISE_SOURCE_PILOT_20261110.md.
+
+### OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-COMPLETE-20261110
+
+**Hypothesis.** Can the already validated comfort sensitivity calculation use the qualified JSON publication convention without changing its complete numerical results or checkpoint behavior?
+
+**METHOD.** Run the original qualified constructed handler and the new actual publication entry points on the same pinned source. Compare every retained numerical array and complete summary, preserve the first 25-world execution and verification pilots through immutable native continuations, and require fresh replay of all five doses, 100 worlds per dose and 2,000 full-frame building draws per world. Exact and deliberately noisy cases retain their original pass and failure expectations.
+
+**Found.** The complete constructed comfort sensitivity case has exact publication-adapter parity and full fresh replay through authentic native continuations.
+
+The exact case reaches its complete boundary with 29.84375 measured native CPU seconds. Both execution banks contain 500 complete worlds; no partial scientific score or human sensitivity conclusion is reported. Every source, committed design, checkpoint and native exit authenticates. Both original execution and verification pilot boundaries are witnessed; full fresh independent numerical and expanded-row arithmetic checks pass.
+
+This operational adapter uses the existing UUID JSON writer and qualified world-bank validator. No estimator, source inclusion, signed dose, practical bar or bootstrap population changes. The two actual native handlers run in fresh child processes. Prior sources, controls, pauses, failures and all charges are retained. Each attempt stays below 600 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads, within the original 5,000-second SP3.ic and 40,000-second SP family ceilings. Build/test and supervisor allowances remain separately identified as allowances.
+
+Sixteen focused checks pass. The first local test invocation retained 13 setup errors from an inaccessible shared temporary directory and three passes; a new workspace temporary directory passed all sixteen. This was a test-environment refusal, not a numerical gate failure. No existing test directory or unrelated process was removed.
+
+**Means.** Both complete constructed cases are required before this wrapper qualifies. Human-source support and cost admission remain separate. The ready buffer is still deficient; this pass builds an existing commissioned qualification after reviewing the idle-slot order. Original builders delivered, none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged; GPU, Ollama and paid calls remain off. Final scientific reporting stays under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed comfort sensitivity case has exact publication-adapter parity and full fresh replay through authentic native continuations.; project meaning: scoped operational record; next engineering obligation: Finish both complete constructed cases, then review the unchanged human source and cumulative-cost admission; no automatic human release.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_PUBLICATION_EXACT_COMPLETE_20261110.md.
+
+### OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-VERIFY-PILOT-20261110
+
+**Hypothesis.** Can the already validated comfort sensitivity calculation use the qualified JSON publication convention without changing its complete numerical results or checkpoint behavior?
+
+**METHOD.** Run the original qualified constructed handler and the new actual publication entry points on the same pinned source. Compare every retained numerical array and complete summary, preserve the first 25-world execution and verification pilots through immutable native continuations, and require fresh replay of all five doses, 100 worlds per dose and 2,000 full-frame building draws per world. Exact and deliberately noisy cases retain their original pass and failure expectations.
+
+**Found.** The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.
+
+The exact case reaches its verify-pilot boundary with 14.125 measured native CPU seconds. Both execution banks contain 500 complete worlds; no partial scientific score or human sensitivity conclusion is reported. Every source, committed design, checkpoint and native exit authenticates. The full grid and independent verification remain required.
+
+This operational adapter uses the existing UUID JSON writer and qualified world-bank validator. No estimator, source inclusion, signed dose, practical bar or bootstrap population changes. The two actual native handlers run in fresh child processes. Prior sources, controls, pauses, failures and all charges are retained. Each attempt stays below 600 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads, within the original 5,000-second SP3.ic and 40,000-second SP family ceilings. Build/test and supervisor allowances remain separately identified as allowances.
+
+Sixteen focused checks pass. The first local test invocation retained 13 setup errors from an inaccessible shared temporary directory and three passes; a new workspace temporary directory passed all sixteen. This was a test-environment refusal, not a numerical gate failure. No existing test directory or unrelated process was removed.
+
+**Means.** Both complete constructed cases are required before this wrapper qualifies. Human-source support and cost admission remain separate. The ready buffer is still deficient; this pass builds an existing commissioned qualification after reviewing the idle-slot order. Original builders delivered, none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged; GPU, Ollama and paid calls remain off. Final scientific reporting stays under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish both complete constructed cases, then review the unchanged human source and cumulative-cost admission; no automatic human release.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_PUBLICATION_EXACT_VERIFY_PILOT_20261110.md.
+
+### OPS-S15-W5-SP3-IC-PUBLICATION-EXACT-SOURCE-PILOT-20261110
+
+**Hypothesis.** Can the already validated comfort sensitivity calculation use the qualified JSON publication convention without changing its complete numerical results or checkpoint behavior?
+
+**METHOD.** Run the original qualified constructed handler and the new actual publication entry points on the same pinned source. Compare every retained numerical array and complete summary, preserve the first 25-world execution and verification pilots through immutable native continuations, and require fresh replay of all five doses, 100 worlds per dose and 2,000 full-frame building draws per world. Exact and deliberately noisy cases retain their original pass and failure expectations.
+
+**Found.** The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.
+
+The exact case reaches its source-pilot boundary with 3.484375 measured native CPU seconds. Both execution banks contain 25 complete worlds; no partial scientific score or human sensitivity conclusion is reported. Every source, committed design, checkpoint and native exit authenticates. The full grid and independent verification remain required.
+
+This operational adapter uses the existing UUID JSON writer and qualified world-bank validator. No estimator, source inclusion, signed dose, practical bar or bootstrap population changes. The two actual native handlers run in fresh child processes. Prior sources, controls, pauses, failures and all charges are retained. Each attempt stays below 600 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads, within the original 5,000-second SP3.ic and 40,000-second SP family ceilings. Build/test and supervisor allowances remain separately identified as allowances.
+
+Sixteen focused checks pass. The first local test invocation retained 13 setup errors from an inaccessible shared temporary directory and three passes; a new workspace temporary directory passed all sixteen. This was a test-environment refusal, not a numerical gate failure. No existing test directory or unrelated process was removed.
+
+**Means.** Both complete constructed cases are required before this wrapper qualifies. Human-source support and cost admission remain separate. The ready buffer is still deficient; this pass builds an existing commissioned qualification after reviewing the idle-slot order. Original builders delivered, none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged; GPU, Ollama and paid calls remain off. Final scientific reporting stays under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The comfort sensitivity publication adapter preserves the original constructed pilot boundary and exact saved-array parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish both complete constructed cases, then review the unchanged human source and cumulative-cost admission; no automatic human release.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_PUBLICATION_EXACT_SOURCE_PILOT_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY9-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2308 complete fit pairs, preserving 77,854 completed pairs in all 155,785 checkpoint files. The native attempt consumes 4021.296875 CPU seconds, including 3455.96875 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 294508.265625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 705491.734375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 155,785, every hash authenticated |
+| Completed fit pairs | 77,854 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY9_PAUSE_20261110.md.
+
+### OPS-S15-W5-DIGEST-20261110
+
+**Hypothesis.** Are completed evidence, costs, repairs, theory filing and remaining Week 5 obligations accounted for accurately?
+
+**METHOD.** Authenticate the calendar marker, reconcile every recorded Week 5 ledger row against its complete report and receipt, verify exact source anchors, and integrate native admission-to-terminal occupancy. Inspect the current worker, lease, progress, resources, locks and watcher. Compare current theory-file bytes with the prior complete errata-reverification receipt. Preserve recorded scientific wording without using scores from unfinished work. This is the internal daily digest, not the final scientific packet.
+
+**Found.** The November 10 Week 5 digest reconciles completed evidence, retained failures and unused capacity; the full comparison continues, while reader memory and other qualification gates remain unresolved.
+
+**Utilization and readiness.** The reporting interval runs from 2026-11-10T05:29:46.879965+00:00 through 2026-11-11T04:05:49.609285+00:00, starting at the preceding digest's actual accounting boundary so no time is lost or counted twice. Eight authorized slots supplied 180.806065 slot-hours: 37.590784 occupied and 143.215281 idle (79.21% idle). These are occupied native-worker hours, not measured CPU utilization. Across all retained allocation windows, gross capacity is 607.877226, occupied 145.676494 and idle 462.200733 slot-hours. Earlier transition-drain excess remains separately recorded.
+
+Idle capacity while commissioned work remains is an unresolved defect. No waiting card currently meets the recorded ready-buffer inventory, against sixteen required. The causes below have direct evidence, but their durations overlap and were not separately timed. All 143.215281 idle slot-hours therefore remain causally unallocated; assigning a numerical split would invent evidence.
+
+The table identifies observed causes and their limits; it does not apportion idle hours.
+
+| Cause | Evidence / remaining action |
+|---|---|
+| Owner qualification and admission backlog | Committed designs and fixtures do not yet establish runnable admission for every remaining source, pipeline or descendant. This backlog is a separate defect, not explained away by memory. |
+| Reader memory admission | Original reader ordinal 128 remains unadmitted; it requires 26 GiB commit headroom and 20 GiB available RAM. No weakened threshold or alternate subset is used. |
+| Chess source/storage dependencies | June whole-source census and independent replay are complete; July retained storage and indivisible-operation latency qualification remain incomplete. No source archive or predecessor is deleted to force admission. |
+| Mood calibration | The positive curvature-adjusted kink control failed its frozen qualification gate. Eight other original controls remain unrun; the all-twelve-control requirement still holds human descendants. |
+| Checkpoint and landing boundaries | The comparison retains authenticated immutable checkpoint copies and complete records at each producer quantum. These costs remain charged; no unvalidated shortcut or incomplete checkpoint is reused. |
+
+
+The builder table preserves the original assignments and current state. None is silently respawned by this wake.
+
+| Original builder | Assigned family | Current state |
+|---|---|---|
+| Builder 1 | CH source, scorer and analysis | Original assigned delivery complete; no active builder. Owner storage/source and admission work remains. |
+| Builder 2 | AT and LA | Original assigned delivery complete; no active builder. Complete corrected reader bank, selection and downstream admissions remain. |
+| Builder 3 | MD, IN, SP, GO and ID | Original assigned delivery complete; no active builder. Some native qualification and source-specific work remains. |
+
+
+Because idle capacity exceeds 25%, the next operating pass must review the packet's idle-slot order before routine checkpoint work: qualified chess scoring, eligible remaining reader work, laughter scoring, goal encoders, the full comparison, then original texture work. The current comparison already occupies one slot; the other named work must retain its source, instrument, cost and resource gates. Where no listed card is admissible, continue the next existing texture or section 2 qualification instead of calling a status inspection a build. No new delegation, paid work or scientific design is granted by this digest.
+
+**Corrections.** The table carries every correction-bearing Week 5 ledger row, its class and exact public wording. Wording describes the state at that row's landing; the current obligation table below identifies subsequent repairs. Original failures, partials, invalid controls and all charges are retained. The comparison monitor's file-rename failure has an isolated qualified accounting successor; archived-process-identifier recovery remains narrowly scoped to reviewed identities and does not weaken current-worker checks.
+
+| Ledger ID | Correction class | Exact recorded public wording |
+|---|---|---|
+| OPS-S15-W5-SOURCE-RECOVERY-20261107 | instrument | The repaired mood source and the conversation sources pass full replay; the deliberate-pause monitoring mismatch is corrected and its original alert retained. |
+| OPS-S15-W5-RUNTIME-V3-20261107 | instrument | The runtime now preserves verification pauses as authenticated checkpoints and completes only after a full independent replay; false verification still fails. |
+| OPS-S15-W5-SP1-RANK-20261107 | instrument | The original thermal slope contrast has invalid bootstrap uncertainty because an irrelevant mixed-mode nuisance group lost rank in two draws; the unchanged primary has a separately validated exact repair. |
+| OPS-S15-W5-AT-COVARIATE-FAILURE-20261107 | data | The complete timing-control reconstruction stopped on a literal-empty reopen before any recorded display; a separately fixtured zero-exposure repair is being built. |
+| OPS-S15-W5-S2-SOURCE-SCOPE-20261107 | scope | The prior revision-source candidate count covers currently wholly typed targets only; it is not an upper bound for every sentence that was wholly typed at first production. |
+| OPS-S15-W5-MD3-PAUSE-MONITOR-20261107 | instrument | The standing-choice pilot paused at its declared checkpoint; the disappearance alert was a notification-schema error and its saved work verifies. |
+| OPS-S15-W5-SEALED-PAUSE-MONITOR-20261107 | instrument | The watcher recognizes sealed producer checkpoints across both draw and document quanta without treating a pause as scientific completion. |
+| OPS-S15-W5-RUNTIME-V4-RECOVERY-20261107 | instrument | Concurrent accounting reads now retry bounded Windows sharing failures, and both stopped chess prefixes resume from preserved journals with fresh source verification still required. |
+| OPS-S15-W5-AT-COVARIATES-H3-20261107 | instrument | The repaired writing-control reconstruction replays the complete session population and records empty menu reopens as zero new display exposure. |
+| OPS-S15-W5-GO2-HISTORY-FAILURE-20261107 | data | The proposal-history pilot stopped on a copied-file ancestry boundary; the original failure is retained and a separately fixtured same-document repair is in build. |
+| OPS-S15-W5-READER-PILOT-DISPATCH-20261107 | instrument | The reader pilot population is frozen from metadata, and the reviewed-plan dispatcher was validated; new automatic reader starts are paused after independent numerical checks failed. |
+| OPS-S15-W5-GO2-BYTE-RECOVERY-20261107 | data | The second proposal-history source correction captures raw Git bytes and treats undeclared undecodable versions as explicit gaps; both previous failures and their costs remain preserved. |
+| OPS-S15-W5-APRIL-CENSUS-RECOVERY-20261107 | instrument | The April chess census resumes its authenticated saved progress under the bounded-sharing-read runtime; the original failure remains charged and complete source replay is still mandatory. |
+| OPS-S15-W5-RESUME-MONITOR-20261107 | instrument | Authenticated continuation now accepts only the declared operational bounds; sealed encoder and fit checkpoints retain their proper pause status. |
+| OPS-S15-W5-S2-EMPTY-SUPPORT-20261107 | instrument | The writing-source repair preserves writers with no eligible timing sentences and recomputes the complete source under the unchanged timing rule. |
+| OPS-S15-W5-BUILD-CONTINUATION-20261107-1350 | instrument | Seven counted CPU workers are progressing; remaining builds continue while the largest numerical-control verification waits for its declared memory margin. |
+| OPS-S15-W5-KLICKE-RUNTIME-20261107 | instrument | The keystroke-source verifier now satisfies the execution interface and passes a counted pause, continuation and fresh-replay fixture. |
+| OPS-S15-W5-BK-SLOT-BANK-20261107 | scope | Backlog admission now uses only the original four CPU slots, with the corrected allocator independently verified and historical allocation deviations retained. |
+| OPS-S15-W5-AT-IDEMPOTENT-COMPLETION-20261107 | instrument | Completed reader scores now survive a real counted pause and continuation without overwriting their original cost or changing numerical checks. |
+| OPS-S15-W5-AT-NUMERICAL-FAILURES-20261107 | instrument | Four original reader chunks failed independent numerical agreement and remain inadmissible; their costs and evidence are retained while the separate precision recovery remains gated. |
+| OPS-S15-W5-CH-BOUNDED-20261107 | instrument | The bounded chess scorer passes authentic owner-pause, immutable continuation and complete native replay; the earlier fixture-envelope failure and all costs remain recorded. |
+| OPS-S15-W5-GO3-JOURNAL-RECOVERY-20261107 | instrument | The SQLite journal enumeration race is repaired and passes counted native replay; the failed source attempt is preserved and recovery is restricted to its earlier authenticated checkpoint. |
+| OPS-S15-W5-AT-PRECISION-MIGRATION-20261108 | instrument | The preserved largest-reader precision control completes its unchanged fresh verification; original score and cost bytes survive migration. |
+| OPS-S15-W5-MD3-PATH-TYPE-FAILURE-20261109 | instrument | The first mood qualification stopped before fitting on a serialized path-type defect; a separately versioned adapter passes the targeted boundary checks and awaits native qualification. |
+| OPS-S15-W5-MD3-INTERNAL-PATH-FAILURE-20261109 | instrument | The first mood path repair stopped on an internal string-valued dependency path; a complete scoped hash-call adapter passes boundary checks, with native repair two still required. |
+| OPS-S15-W5-MD3-M-POSITIVE-GATE-FAILURE-V4-20261110 | instrument | The original positive kink control fails its frozen calibration gate after complete execution; the curvature-adjusted instrument remains unqualified and human descendants remain held. |
+| OPS-S15-W5-V1-ATOMIC-ACCOUNTING-20261110 | instrument | The comparison monitor failed on an atomic temporary-file rename; all failed evidence is preserved and an isolated accounting repair passes targeted and native guard checks. |
+
+
+**Landed results and routes.** Every row below has complete internal write-through. The outcome and control status are copied without promotion or reclassification; the route is the recorded pursuit at that landing. Completed descriptive textures do not upgrade a primary. Primary null or against wording retains its sensitivity limits. Constructed controls do not establish a human mechanism. No running comparison or incomplete reader bank contributes an estimate, p-value or selected model here. Theory rows and afterwords remain subject to the curator's Week 5 theory pass.
+
+| Ledger ID / detail | Control status | Recorded outcome | Exact public wording | Recorded route |
+|---|---|---|---|---|
+| S15-W5-IN1-20261107 (WEEK5/IN1_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | supports | Across the four prompted emotions, the frozen trigger-fit index adds a positive descriptive association with reported intensity beyond valence, confidence and response style; only RAGE and DISGUST clear their separate bars. | IN1.w-RAGE and IN1.w-DISGUST itemwise branches; declared specification grid. No channel upgrade for FEAR or PANIC/GRIEF. |
+| S15-W5-IN2-20261107 (WEEK5/IN2_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | The interaction of consequence anticipation and unpleasantness is inconclusive in the prompted FEAR reports; its negative point estimate does not distinguish uncertainty-sensitive fear from stress in the same rating. | Retain the unresolved interaction and the preregistered rival; run the declared appraisal specifications without relabelling stress or changing the model. |
+| S15-W5-IN3-20261107 (WEEK5/IN3_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | against | The RAGE-minus-FEAR control contrast lies inside the registered practical band in these self-reports; minimum-effect sensitivity remains to be checked before treating this as evidence of absence. | IN3.ic: prospective fixed-design sensitivity at the registered 0.15 contrast before an absence claim; preserve both component slopes. |
+| S15-W5-IN4-20261107 (WEEK5/IN4_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity separate | against | The pooled excess disagreement on the proposed trigger profiles is not detected beyond the registered practical band; minimum-effect sensitivity remains untested. | IN4.ic minimum-effect sensitivity and the three declared text-length strata; preserve every item and channel companion. |
+| S15-W5-SP1-H2-20261107 (WEEK5/SP1_h2_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity separate | supports | The repaired, unchanged thermal contrast supports a larger outdoor-to-neutral-temperature slope in naturally ventilated buildings than in air-conditioned buildings; this is an observational adaptive-comfort comparison. | Run the all-Griffiths specification and the declared climate/range companions; retain the original invalid uncertainty record and its exact repair. |
+| S15-W5-SP2-20261107 (WEEK5/SP2_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity separate | supports | Air-conditioned buildings have a larger median sensation-per-degree slope than naturally ventilated buildings in this observational sample; cooling type does not separate thermal history from perceived control. | Run the declared range-matched, ordinal, at-least-four-degree and recorded personal-control variants before a mechanism claim. |
+| S15-W5-SP3-20261107 (WEEK5/SP3_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity separate | inconclusive | The registered negative relation between thermal sensitivity and distance from 22 degrees is inconclusive; the observational comparison does not establish dulling. | Run the declared hot/cold, clothing, metabolic-rate, study-cluster, range/ordinal and air-speed companions; do not relabel the point estimate as a reversed mechanism. |
+| S15-W5-MD4-20261107 (WEEK5/MD4_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | The condition-specific mood-drift contrast is inconclusive in the accepted first-visit cohorts; it does not establish the analyst’s proposed interest set point. | Register fixed-design minimum-effect sensitivity before an absence reading; retain the three complete condition companions and cohort confounding. |
+| S15-W5-LA2-AMI-20261107 (WEEK5/LA2_AMI_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | The same-language difference in joined laughter is inconclusive in AMI; this does not establish shared background as a marker of shared inference. | Run the declared ICSI metadata-supported comparisons and a fixed-design sensitivity check; retain metadata absence and distinct background constructs. |
+| S15-W5-MD12-20261107 (WEEK5/MD12_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | Both frozen happiness-model comparisons are inconclusive: the level model falls short of its error-gain bar, and the spread effect does not reach its practical magnitude. | Complete the separately admitted standing-choice comparison; register the declared MD1/MD2 specification and fixed-design sensitivity branches without replacing the frozen primary. |
+| S15-W5-LA2-ICSI-20261107 (WEEK5/LA2_ICSI_BACKGROUND.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | Both ICSI background comparisons are inconclusive; recorded English variety and region do not establish a shared-inference mechanism. | Register the declared fixed-design sensitivity comparison before any absence reading; retain separate corpus and metadata meanings. No cross-corpus covariate rerun is licensed by these inconclusive contrasts. |
+| S15-W5-MD3-20261107 (WEEK5/MD3_PRIMARY.md) | passes | supports | The registered first-play comparison supports lower risk-taking further below the starting score. Risk-taking does not rise with surplus in that fit, and the repeat-play pattern depends on the reference used. | Build and qualify MD3.s, MD3.m and MD3.p at 1,800 CPU seconds each within the shared family ceiling; audit rescue support separately without overwriting the unsupported companion. |
+| S15-W5-GO3-PRIMARY-20261108 (WEEK5/GO3_PRIMARY.md) | passes | supports | The frozen diff-feature classifier supports prediction of comment-derived stated editing-reason categories beyond the training-prior baseline on held-out editors in the five-site archive. | Build, freeze and natively qualify GO3.s, GO3.m and GO3.p before admission; retain the seven original descriptive texture cells and their separate one-hour caps. No automatic follow-up or replacement gallery for the unsupported habit companion. |
+| S15-W5-GO3-HABIT-SUPPORT-20261108 (WEEK5/GO3_PRIMARY.md) | untested | unsupported | The personal editing-pattern comparison is unsupported because its fixed galleries lack independent same-post donor coverage. | Retain original support failure; no automatic healing or replacement gallery |
+| S15-W5-GO3-SELF-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Self-edits cell records a gain of 0.055914 with interval [0.053234, 0.058509]; this does not upgrade the original primary. | Admit the remaining original Worldbuilding and English texture cells in free counted slots; preserve descriptive scope and the original stopping rule. Register and qualify any optional Philosophy precision successor before it runs. |
+| S15-W5-GO3-NO-ITERATER-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Without annotation-probability features cell records a gain of 0.038714 with interval [0.035730, 0.041810]; this does not upgrade the original primary. | Admit the remaining original Worldbuilding and English texture cells in free counted slots; preserve descriptive scope and the original stopping rule. Register and qualify any optional Philosophy precision successor before it runs. |
+| S15-W5-GO3-WRITERS-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Writers cell records a gain of 0.096156 with interval [0.085178, 0.107014]; this does not upgrade the original primary. | Admit the remaining original Worldbuilding and English texture cells in free counted slots; preserve descriptive scope and the original stopping rule. Register and qualify any optional Philosophy precision successor before it runs. |
+| S15-W5-GO3-PHILOSOPHY-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Philosophy cell records a gain of 0.053782 with interval [0.044394, 0.063290]; this does not upgrade the original primary. | Admit the remaining original Worldbuilding and English texture cells in free counted slots; preserve descriptive scope and the original stopping rule. Register and qualify any optional Philosophy precision successor before it runs. |
+| S15-W5-GO3-ACADEMIA-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Academia cell records a gain of 0.094147 with interval [0.086031, 0.104244]; this does not upgrade the original primary. | Admit the remaining original Worldbuilding and English texture cells in free counted slots; preserve descriptive scope and the original stopping rule. Register and qualify any optional Philosophy precision successor before it runs. |
+| S15-W5-GO3-WORLDBUILDING-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_REMAINING_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Worldbuilding cell records a gain of 0.092221 with interval [0.083564, 0.099321]; this does not upgrade the original primary. | The original grid is complete. Build and natively qualify the already registered GO3.s, GO3.m and GO3.p obligations; freeze and qualify any optional Philosophy precision successor before it runs. |
+| S15-W5-GO3-ENGLISH-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_REMAINING_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the English cell records a gain of 0.072247 with interval [0.068154, 0.076538]; this does not upgrade the original primary. | The original grid is complete. Build and natively qualify the already registered GO3.s, GO3.m and GO3.p obligations; freeze and qualify any optional Philosophy precision successor before it runs. |
+| S15-W5-IN1-DOUBLE_FIRST-TEXTURE-20261109 (WEEK5/IN_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: the double first cell records 0.162893 with interval [0.121902, 0.206020]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-BINARY4-TEXTURE-20261109 (WEEK5/IN_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: the binary4 cell records 0.122607 with interval [0.087144, 0.167683]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-MIN10-TEXTURE-20261109 (WEEK5/IN_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: the min10 cell records 0.154508 with interval [0.110770, 0.195195]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-REVERSE-TEXTURE-20261109 (WEEK5/IN_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: the reverse cell records -0.171252 with interval [-0.213013, -0.133385]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-REVERSE-FEAR-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.fear cell records -0.028376 with interval [-0.114370, 0.045622]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-REVERSE-ANGER-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.anger cell records -0.273093 with interval [-0.352581, -0.196030]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-REVERSE-SADNESS-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.sadness cell records -0.176189 with interval [-0.249076, -0.095564]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-REVERSE-DISGUST-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.disgust cell records -0.204965 with interval [-0.266214, -0.144309]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-REVERSE-JOY-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.joy cell records 0.081956 with interval [0.008813, 0.160773]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN1-REVERSE-BOREDOM-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.boredom cell records 0.164501 with interval [0.078532, 0.244201]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN4-LENGTH1-TEXTURE-20261109 (WEEK5/IN_TEXTURES_LENGTH_20261109.md) | passes | descriptive | Descriptive only: the agreement length1 cell records 0.021750 with interval [-0.066433, 0.108461]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN4-LENGTH2-TEXTURE-20261109 (WEEK5/IN_TEXTURES_LENGTH_20261109.md) | passes | descriptive | Descriptive only: the agreement length2 cell records -0.001063 with interval [-0.077773, 0.059718]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-IN4-LENGTH3-TEXTURE-20261109 (WEEK5/IN_TEXTURES_LENGTH_20261109.md) | passes | descriptive | Descriptive only: the agreement length3 cell records 0.001026 with interval [-0.052519, 0.068007]; the primary claim is unchanged. | Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution. |
+| S15-W5-SP1-GRIFFITHS-TEXTURE-20261109 (WEEK5/SP_TEXTURES_BASE_20261109.md) | passes | descriptive | Descriptive only: all-Griffiths neutral temperature records 0.383648 with interval [0.332069, 0.467175]; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP2-RANGE-TEXTURE-20261109 (WEEK5/SP_TEXTURES_BASE_20261109.md) | passes | descriptive | Descriptive only: matched temperature range and mean records 0.114305 with interval [0.041755, 0.173296]; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP2-ORDINAL-TEXTURE-20261109 (WEEK5/SP_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: ordinal-probit sensitivity records 0.107023 with interval [0.021200, 0.181821] in latent-probit units; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP2-RANGE4-TEXTURE-20261109 (WEEK5/SP_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: at least four-degree temperature range records 0.149831 with interval [0.049393, 0.205416]; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP2-CONTROL-TEXTURE-20261109 (WEEK5/SP_TEXTURES_FIRST_20261109.md) | unsupported | unsupported | Unsupported: recorded window and fan controls lacks an estimable contrast; no effect claim is licensed. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP3-HOT-TEXTURE-20261109 (WEEK5/SP_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: hot-weather side records 0.031049 with interval [-0.010113, 0.088754]; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP3-COLD-TEXTURE-20261109 (WEEK5/SP_TEXTURES_REMAINING_20261109.md) | passes | descriptive | Descriptive only: cold-weather side records 0.026692 with interval [0.003372, 0.052979]; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP3-CLO-MET-TEXTURE-20261109 (WEEK5/SP_TEXTURES_REMAINING_20261109.md) | passes | descriptive | Descriptive only: clothing and metabolic-rate controls records 0.010144 with interval [-0.016215, 0.048215]; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP3-STUDY-TEXTURE-20261109 (WEEK5/SP_TEXTURES_REMAINING_20261109.md) | passes | descriptive | Descriptive only: whole-study resampling records 0.017247 with interval [-0.006291, 0.048523]; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP3-ORDINAL-RANGE-TEXTURE-20261109 (WEEK5/SP_TEXTURES_REMAINING_20261109.md) | passes | descriptive | Descriptive only: ordinal-probit with range matching records -0.005570 with interval [-0.019992, 0.013809] in latent-probit units; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+| S15-W5-SP3-AIR-SPEED-TEXTURE-20261109 (WEEK5/SP_TEXTURES_REMAINING_20261109.md) | passes | descriptive | Descriptive only: air-speed control records 0.022652 with interval [-0.001160, 0.042872]; the original primary claim is unchanged. | Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units. |
+
+
+The inventory verifies 528 Week 5 ledger rows, including 140 added after the preceding digest's inventory. Complete report and receipt hashes and all source anchors are retained in the inspection. Repeated operational checkpoints remain evidence accounting, not separate scientific findings.
+
+**Texture counts.** Counts below are fully landed original texture cells, not queued plans or intermediate scores. One unsupported comfort texture remains included as an attempted, fully reported cell rather than disappearing from the denominator.
+
+| Family | Completed original texture cells | Scope |
+|---|---|---|
+| IN appraisal | 13 | Descriptive; original primary claims unchanged. |
+| SP comfort | 11 | Descriptive or explicitly unsupported; original primary claims unchanged. |
+| GO3 revision goals | 7 | Descriptive; original primary and unsupported companion retain their scope. |
+| AT / LA, CH and MD | 0 | No newly completed human texture result is inferred from unfinished scoring, source work or constructed calibration. |
+
+
+**Current obligations.** The table distinguishes completed records from the work still needed before further human or primary claims.
+
+| Family | Completed evidence | Remaining gate / next action |
+|---|---|---|
+| IN appraisal | Four primary records, all thirteen original textures and three complete sensitivity qualification cases retained. | Complete eligible original human sensitivity publication/replay admission and remaining-cost review; other registered itemwise or precision branches remain prospective. |
+| SP comfort | Three primary records, eleven original textures, native publication compatibility and both constructed sensitivity cases retained. | Keep human minimum-effect sensitivity and downstream claim gates distinct from constructed instrument checks; admit only the already commissioned remaining work. |
+| CH chess | April/May and complete June source census with independent replay; prior collector/analysis qualification retained. | Finish July whole-source storage/latency qualification and the frozen source/sample dependencies before human Stockfish batches. |
+| AT / LA | Original reader chunks 0 through 127 complete with fresh verification and write-through; all prior numerical repair evidence retained. | Ordinal128 is unadmitted at the unchanged memory gate. Complete the four-whole-writer pilot across all ten readers and the full corrected bank before selecting a reader or releasing dependent work. |
+| MD mood | All three specification calibration cases have complete independent replay. Both path repairs and original failed attempts remain recorded. | The positive curvature-adjusted kink control failed; eight original controls are unrun. Separate prospective diagnostic review and all original controls precede any human descendant. |
+| GO goals | Original primary, unsupported companion and seven original descriptive textures complete. | Other declared support/source limitations and registered descendants retain their build and admission gates. |
+| BK comparison | Recovery 8 checkpoint authenticated and fully landed; original first-five-percent cost prefix remains complete. Recovery 9 active at the inspection. | All 208,236 original pairs, all original controls,2,000 resamples and complete independent replay remain required. The provisional all-in forecast is not certified by the measured fit prefix. |
+
+
+**Execution, resources and cost.** The table binds the active native attempt at 2026-11-11T04:05:49.609285+00:00. The owner and child are identified, the lease matches, and accounting and output progress are fresh. CPU-only Gear 2 uses two numerical threads; GPU, Ollama and paid calls remain off.
+
+| Attempt | Native PID / creation ticks | Plan SHA-256 |
+|---|---|---|
+| BK-V1-output-accounting-recovery-9-20261110 | 269000 / 134388405159127109 | 4173fa53c14e5a8040e65f2d8a644170a7ad28f5e392f312306e94fc8c2a11fa |
+
+
+Available RAM is 39.76GiB, commit headroom 11.99GiB and disk 77.50GiB. Reader 128 remains below its 26 GiB commit gate. A running comparison follows its own unchanged admission and yield guards; the reader's stricter gate is not transferred or relaxed. Native failures before admission contribute zero occupied-slot time but retain supervisor charges. All other failed, paused and active attempts remain in the cost census; separately recorded private qualification allowances remain additional conservative charges, not silently subtracted.
+
+**Recorded native CPU charges.** The table reports the policy census at the frozen inspection in CPU seconds. It is not a complete all-in family total: separately retained private qualification and controller allowances remain additional and must be included in every new admission review.
+
+| Family | Native policy CPU seconds |
+|---|---|
+| AT | 42351.453125 |
+| BK | 280441.252368 |
+| CH | 218698.375000 |
+| GO | 19122.000000 |
+| ID | 212.890625 |
+| IN | 1336.687500 |
+| LA | 724.453125 |
+| MD | 18751.375000 |
+| SP | 2731.687500 |
+
+
+**Validation and filing.** All 21 source locks pass. The prior 159 focused-test receipts remain intact and are identified as retained evidence, not tests rerun for this documentation-only digest. Subsequent native qualifications retain their own receipts. Current theory bytes still match the prior independent 38-edit November 6/7 errata-reverification receipt; this is a fresh integrity comparison, not a claim that those edits were replayed again today. The final end-of-active-work filing check remains a separate obligation. Raw source data, identities and model predictions remain in ignored local storage.
+
+**Watcher and timing.** The current calendar and watcher identities verify, source pins match and there is no current scan error. Three retained notification-error records remain visible, including a later transport error; they are not erased or represented as successful delivery. The present calendar marker has reached this owner turn. Queue acceptance, message consumption and completed write-through remain separate; this marker is ACKed only after all required records exist. Events plus 14,400 seconds of owner inactivity and one pending wake remain unchanged. No hourly or separate ETA schedule is installed.
+
+This digest is filed at its actual completion time after the 20:00 marker; nothing is backdated. Week 5 new starts freeze November 15 at 20:00 PST, drain by 22:00 and the drain addendum is due 23:00. This filing changes no scientific scope or spend authority, makes no new theory synthesis and performs no publication. No new tests were harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The November 10 Week 5 digest reconciles completed evidence, retained failures and unused capacity; the full comparison continues, while reader memory and other qualification gates remain unresolved.; project meaning: scoped operational record; next engineering obligation: Review the original idle-slot order first next turn, preserve all admission gates, and complete remaining commissioned qualification and filing work.; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY8-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2148 complete fit pairs, preserving 75,546 completed pairs in all 151,166 checkpoint files. The native attempt consumes 4065.90625 CPU seconds, including 3542.078125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 290456.96875 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 709543.03125 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 151,166, every hash authenticated |
+| Completed fit pairs | 75,546 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY8_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY7-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2292 complete fit pairs, preserving 73,398 completed pairs in all 146,868 checkpoint files. The native attempt consumes 4012.625 CPU seconds, including 3533.203125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 286361.0625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 713638.9375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 146,868, every hash authenticated |
+| Completed fit pairs | 73,398 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY7_PAUSE_20261110.md.
+
+### OPS-S15-W5-HISTORICAL-PID-REUSE127-20261110
+
+**Hypothesis.** Can the original reader sequence continue through Windows process-identifier reuse without relaxing evidence checks or resource admission?
+
+**METHOD.** Preserve each access-denied audit interruption, bind exact archived owners and plans, and use strict native lookup first. Only for the two reviewed archived owners may two agreeing fresh Windows creation observations establish a later process. Exercise missing, ambiguous and out-of-scope refusals, resume preparation after the already completed write-through, and retain the original source, accounting and memory gates.
+
+**Found.** Historical identity recovery preserves the complete audit; the next original reader chunk remains unadmitted at the unchanged memory gate.
+
+Reader ordinals 126 and 127 and the comparison's sixth checkpoint are fully recorded and acknowledged. The comparison's seventh immutable continuation is active. The first transient historical identifier resolves under strict native absence; its proposed extended helper was not used. A second identifier was reassigned after the completed reader exited. The separately scoped preparation helper retains fresh evidence for exact archived identities, rejects other owners and errors, and reaches the unchanged resource check after the full provenance audit. All failed inspections and candidate helpers remain retained. No process was stopped and no pinned runtime, scientific configuration, source, numerical tolerance or current-worker guard changed.
+
+The current observation has 24.567547 GiB of Windows commit headroom and 42.566212 GiB of available physical memory. The original admission rule requires at least 26 and 20 GiB respectively. Original ordinal128 has no admitted plan, lease or worker. The resource refusal is an environmental hold, not a scientific failure; no lower-memory exception, duplicate load, altered ceiling or favorable subset is admitted. Preparation and cumulative cost admission must be checked afresh when resources permit.
+
+The operational table distinguishes completed records from the held successor.
+
+| Item | Disposition |
+|---|---|
+| Reader126 and reader127 | Complete write-through and ACK |
+| Comparison recovery6 checkpoint | Every saved file authenticated; complete write-through and ACK |
+| Comparison recovery7 | Active CPU-only counted continuation |
+| Reader128 | Unadmitted at unchanged memory gate |
+| Locks and watcher | All 21 locks pass; no pending landing event |
+
+**Means.** Preserve the active comparison and all completed reader evidence. Retry only the original successor's preparation under fresh resources at the next authorized event or inactivity inspection. The ready buffer remains deficient because qualifications and admission are unfinished; all three original builders delivered and none is active. No tests harvested this pass. Scientific scores and model selection remain gated on the full pilot and complete bank; final scientific reporting remains under the active packet. Events, four-hour owner inactivity and one pending wake remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Historical identity recovery preserves the complete audit; the next original reader chunk remains unadmitted at the unchanged memory gate.; project meaning: scoped operational record; next engineering obligation: At the next authorized inspection, recheck original reader128 resources and cumulative costs; continue the active comparison and preserve all scientific and source gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0128_RESOURCE_HOLD_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0127-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 42 words in frozen chunk 128 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 53.296875 seconds and wall time is 52.783930 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689545 GiB for this chunk only. All 77 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 128 original chunks cover 20957 words at 25188.8125 measured descendant CPU seconds. They are 128 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 127 |
+| Completed original prefix | 128 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0127_COST_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY6-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2363 complete fit pairs, preserving 71,106 completed pairs in all 142,282 checkpoint files. The native attempt consumes 4019.015625 CPU seconds, including 3537.28125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 282318.4375 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 717681.5625 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 142,282, every hash authenticated |
+| Completed fit pairs | 71,106 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY6_PAUSE_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0126-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 13 words in frozen chunk 127 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 57.640625 seconds and wall time is 53.733267 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689644 GiB for this chunk only. All 69 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 127 original chunks cover 20915 words at 25135.515625 measured descendant CPU seconds. They are 127 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 126 |
+| Completed original prefix | 127 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0126_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0125-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 126 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 165.609375 seconds and wall time is 108.053315 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691235 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 126 original chunks cover 20902 words at 25077.875 measured descendant CPU seconds. They are 126 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 125 |
+| Completed original prefix | 126 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0125_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0124-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 93 words in frozen chunk 125 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 81.546875 seconds and wall time is 66.480885 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689377 GiB for this chunk only. All 89 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 125 original chunks cover 20646 words at 24912.265625 measured descendant CPU seconds. They are 125 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 124 |
+| Completed original prefix | 125 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0124_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0123-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 14 words in frozen chunk 124 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 55.609375 seconds and wall time is 54.007748 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689602 GiB for this chunk only. All 69 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 124 original chunks cover 20553 words at 24830.71875 measured descendant CPU seconds. They are 124 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 123 |
+| Completed original prefix | 124 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0123_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0122-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 123 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 165.5625 seconds and wall time is 113.010924 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690536 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 123 original chunks cover 20539 words at 24775.109375 measured descendant CPU seconds. They are 123 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 122 |
+| Completed original prefix | 123 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0122_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0121-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 140 words in frozen chunk 122 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 116.125 seconds and wall time is 84.440484 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690136 GiB for this chunk only. All 101 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 122 original chunks cover 20283 words at 24609.546875 measured descendant CPU seconds. They are 122 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 121 |
+| Completed original prefix | 122 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0121_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0120-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 223 words in frozen chunk 121 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 224.359375 seconds and wall time is 141.505058 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691463 GiB for this chunk only. All 121 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 121 original chunks cover 20143 words at 24493.421875 measured descendant CPU seconds. They are 121 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 120 |
+| Completed original prefix | 121 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0120_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0119-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 120 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 167.046875 seconds and wall time is 111.715110 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691700 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 120 original chunks cover 19920 words at 24269.0625 measured descendant CPU seconds. They are 120 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 119 |
+| Completed original prefix | 120 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0119_COST_20261110.md.
+
+### OPS-S15-W5-HISTORICAL-PID-REUSE-20261110
+
+**Hypothesis.** Can retained completed work be authenticated when Windows has assigned its old process number to a protected service?
+
+**METHOD.** Preserve the original access-denied errors and bounded retries. Bind the archived owner to its sealed plan, then require two agreeing fresh Windows process observations showing a later creation time, beyond the timestamp precision margin. Apply this alternative proof only to the identified archived owner during two named operations. All source, output, numerical, cost and live-worker checks remain in force.
+
+**Found.** Independent Windows creation times resolve one reused historical process ID; the complete audit remains required and current-worker identity checks are unchanged.
+
+The affected old process number now belongs to a Windows service created later than the archived Python worker. Access denial alone did not establish exit. Focused checks passed for valid reuse, matching creation times, precision ambiguity, absent or malformed observations, changing observations, wrong process numbers, unrelated roots, plan mismatch and propagation of other errors. The complete chunk118 audit subsequently passed and its full internal write-through preceded its event acknowledgment. Chunk117 was already fully recorded and acknowledged. Earlier failed inspection attempts remain retained.
+
+This table describes the operational proof and its limits.
+
+| Check | Result |
+|---|---|
+| Archived owner and plan | Exact binding retained |
+| Fresh observations | Agree on a later process creation |
+| Incomplete or ambiguous evidence | Refused |
+| Live runtime and scientific definitions | Unchanged |
+
+**Means.** This is an environmental inspection recovery, not a scientific heal or a process cleanup. No service or research process was stopped, no failed attempt was relabelled, and no observation was fabricated as an absent process. The private helper authorizes only landing chunk118 and admitting the already prepared chunk119. Future reuse must receive a separately reviewed exact-owner scope. The full reader pilot remains unfinished. No tests harvested this pass; no new research, gear, paid call or delegation authority is inferred.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Independent Windows creation times resolve one reused historical process ID; the complete audit remains required and current-worker identity checks are unchanged.; project meaning: scoped operational record; next engineering obligation: Continue the original frozen reader workload with full audit and fresh admission; preserve the exact historical reuse proof and all failed inspections.; public scientific claim unchanged; curator decision required: No new decision. Detail: HISTORICAL_PID_REUSE_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0118-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 211 words in frozen chunk 119 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 138.375 seconds and wall time is 97.417304 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690639 GiB for this chunk only. All 119 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 119 original chunks cover 19664 words at 24102.015625 measured descendant CPU seconds. They are 119 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 118 |
+| Completed original prefix | 119 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0118_COST_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY5-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2304 complete fit pairs, preserving 68,743 completed pairs in all 137,554 checkpoint files. The native attempt consumes 3993.984375 CPU seconds, including 3542.140625 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 278269.421875 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 721730.578125 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 137,554, every hash authenticated |
+| Completed fit pairs | 68,743 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY5_PAUSE_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0117-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 71 words in frozen chunk 118 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 76.578125 seconds and wall time is 70.832351 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689316 GiB for this chunk only. All 83 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 118 original chunks cover 19453 words at 23963.640625 measured descendant CPU seconds. They are 118 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 117 |
+| Completed original prefix | 118 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0117_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0116-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 228 words in frozen chunk 117 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 149.84375 seconds and wall time is 102.894828 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691021 GiB for this chunk only. All 123 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 117 original chunks cover 19382 words at 23887.0625 measured descendant CPU seconds. They are 117 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 116 |
+| Completed original prefix | 117 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0116_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0115-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 107 words in frozen chunk 116 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 85.03125 seconds and wall time is 71.608037 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690010 GiB for this chunk only. All 93 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 116 original chunks cover 19154 words at 23737.21875 measured descendant CPU seconds. They are 116 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 115 |
+| Completed original prefix | 116 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0115_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0114-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 221 words in frozen chunk 115 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 152.15625 seconds and wall time is 101.406705 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690655 GiB for this chunk only. All 121 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 115 original chunks cover 19047 words at 23652.1875 measured descendant CPU seconds. They are 115 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 114 |
+| Completed original prefix | 115 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0114_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0113-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 40 words in frozen chunk 114 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 59.515625 seconds and wall time is 59.798650 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689968 GiB for this chunk only. All 75 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 114 original chunks cover 18826 words at 23500.03125 measured descendant CPU seconds. They are 114 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 113 |
+| Completed original prefix | 114 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0113_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0112-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 79 words in frozen chunk 113 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 74.625 seconds and wall time is 60.312387 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689556 GiB for this chunk only. All 85 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 113 original chunks cover 18786 words at 23440.515625 measured descendant CPU seconds. They are 113 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 112 |
+| Completed original prefix | 113 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0112_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0111-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 47 words in frozen chunk 112 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 66.484375 seconds and wall time is 59.645690 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690765 GiB for this chunk only. All 77 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 112 original chunks cover 18707 words at 23365.890625 measured descendant CPU seconds. They are 112 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 111 |
+| Completed original prefix | 112 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0111_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0110-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 239 words in frozen chunk 111 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 152.5 seconds and wall time is 103.099292 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690502 GiB for this chunk only. All 125 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 111 original chunks cover 18660 words at 23299.40625 measured descendant CPU seconds. They are 111 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 110 |
+| Completed original prefix | 111 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0110_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0109-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 89 words in frozen chunk 110 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 79.546875 seconds and wall time is 65.632002 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690643 GiB for this chunk only. All 89 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 110 original chunks cover 18421 words at 23146.90625 measured descendant CPU seconds. They are 110 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 109 |
+| Completed original prefix | 110 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0109_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0108-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 73 words in frozen chunk 109 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 71.078125 seconds and wall time is 60.698019 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690269 GiB for this chunk only. All 85 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 109 original chunks cover 18332 words at 23067.359375 measured descendant CPU seconds. They are 109 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 108 |
+| Completed original prefix | 109 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0108_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0107-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 207 words in frozen chunk 108 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 150.890625 seconds and wall time is 105.245837 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690746 GiB for this chunk only. All 117 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 108 original chunks cover 18259 words at 22996.28125 measured descendant CPU seconds. They are 108 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 107 |
+| Completed original prefix | 108 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0107_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0106-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 7 words in frozen chunk 107 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 52.890625 seconds and wall time is 52.739479 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690109 GiB for this chunk only. All 67 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 107 original chunks cover 18052 words at 22845.390625 measured descendant CPU seconds. They are 107 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 106 |
+| Completed original prefix | 107 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0106_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0105-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 106 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 153.03125 seconds and wall time is 103.002718 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690979 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 106 original chunks cover 18045 words at 22792.5 measured descendant CPU seconds. They are 106 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 105 |
+| Completed original prefix | 106 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0105_COST_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY4-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2292 complete fit pairs, preserving 66,439 completed pairs in all 132,944 checkpoint files. The native attempt consumes 3994.28125 CPU seconds, including 3539.96875 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 274245.4375 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 725754.5625 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 132,944, every hash authenticated |
+| Completed fit pairs | 66,439 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY4_PAUSE_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0104-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 104 words in frozen chunk 105 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 95.65625 seconds and wall time is 74.987755 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690758 GiB for this chunk only. All 91 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 105 original chunks cover 17789 words at 22639.46875 measured descendant CPU seconds. They are 105 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 104 |
+| Completed original prefix | 105 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0104_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0103-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 201 words in frozen chunk 104 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 134.296875 seconds and wall time is 91.699419 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690689 GiB for this chunk only. All 117 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 104 original chunks cover 17685 words at 22543.8125 measured descendant CPU seconds. They are 104 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 103 |
+| Completed original prefix | 104 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0103_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0102-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 104 words in frozen chunk 103 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 91.453125 seconds and wall time is 74.601084 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689804 GiB for this chunk only. All 91 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 103 original chunks cover 17484 words at 22409.515625 measured descendant CPU seconds. They are 103 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 102 |
+| Completed original prefix | 103 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0102_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0101-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 133 words in frozen chunk 102 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 98.890625 seconds and wall time is 74.966156 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691307 GiB for this chunk only. All 99 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 102 original chunks cover 17380 words at 22318.0625 measured descendant CPU seconds. They are 102 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 101 |
+| Completed original prefix | 102 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0101_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0100-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 216 words in frozen chunk 101 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 151.03125 seconds and wall time is 106.745332 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691608 GiB for this chunk only. All 119 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 101 original chunks cover 17247 words at 22219.171875 measured descendant CPU seconds. They are 101 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 100 |
+| Completed original prefix | 101 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0100_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0099-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 61 words in frozen chunk 100 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 72.984375 seconds and wall time is 63.501387 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689339 GiB for this chunk only. All 81 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 100 original chunks cover 17031 words at 22068.140625 measured descendant CPU seconds. They are 100 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 99 |
+| Completed original prefix | 100 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0099_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0098-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 145 words in frozen chunk 99 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 102.53125 seconds and wall time is 82.590266 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690380 GiB for this chunk only. All 103 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 99 original chunks cover 16970 words at 21995.15625 measured descendant CPU seconds. They are 99 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 98 |
+| Completed original prefix | 99 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0098_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0097-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 51 words in frozen chunk 98 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 77.140625 seconds and wall time is 64.320757 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690414 GiB for this chunk only. All 79 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 98 original chunks cover 16825 words at 21892.625 measured descendant CPU seconds. They are 98 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 97 |
+| Completed original prefix | 98 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0097_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0096-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 205 words in frozen chunk 97 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 142.03125 seconds and wall time is 100.152491 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690056 GiB for this chunk only. All 117 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 97 original chunks cover 16774 words at 21815.484375 measured descendant CPU seconds. They are 97 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 96 |
+| Completed original prefix | 97 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0096_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0095-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 146 words in frozen chunk 96 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 122.953125 seconds and wall time is 87.851074 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690552 GiB for this chunk only. All 103 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 96 original chunks cover 16569 words at 21673.453125 measured descendant CPU seconds. They are 96 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 95 |
+| Completed original prefix | 96 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0095_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0094-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 226 words in frozen chunk 95 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 156.828125 seconds and wall time is 111.101296 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690922 GiB for this chunk only. All 123 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 95 original chunks cover 16423 words at 21550.5 measured descendant CPU seconds. They are 95 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 94 |
+| Completed original prefix | 95 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0094_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0093-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 157 words in frozen chunk 94 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 121.265625 seconds and wall time is 88.858656 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689224 GiB for this chunk only. All 105 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 94 original chunks cover 16197 words at 21393.671875 measured descendant CPU seconds. They are 94 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 93 |
+| Completed original prefix | 94 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0093_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0092-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 141 words in frozen chunk 93 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 114.65625 seconds and wall time is 83.978393 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690102 GiB for this chunk only. All 101 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 93 original chunks cover 16040 words at 21272.40625 measured descendant CPU seconds. They are 93 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 92 |
+| Completed original prefix | 93 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0092_COST_20261110.md.
+
+### OPS-S15-W5-CH-JUNE-CENSUS-COMPLETE-20261110
+
+**Hypothesis.** Can the complete June source census preserve its measured execution prefix while independently verifying the entire source from the beginning?
+
+**METHOD.** Authenticate the complete terminal, all fifty-five declared artifacts, immutable source/design/runtime pins, measured native job accounting and exited identities. Inspect the fresh verifier's reconstruction from source ordinal zero, excluding the copied execution database, and its exact comparison of every ordered row in all six tables. Preserve the earlier pilot, prefix and every charge.
+
+**Found.** The complete June chess source census and independent replay are authenticated; downstream engine collection and scientific comparisons remain separately gated.
+
+The source census covers all 11,512,600 expected June games. It records 11,375,510 rated games, 99,726 invalid-clock dispositions, 37,364 unrated/unknown-control dispositions, 425,267 retained history games and 14,574,187 history moves. The separately labelled serialization round-trip check covers 1,000 games; the independent census comparison covers the entire reconstructed database. These are source/accounting counts, not predictive scores or scientific effects.
+
+The table lists database tables and the number of ordered rows compared exactly with independent reconstruction.
+
+| Database table | Rows compared |
+|---|---:|
+| Sampling frame | 474,166 |
+| Player histories | 425,267 |
+| Opening positions | 5,397,004 |
+| Opening occurrences | 10,012,269 |
+| Checkpoint metadata | 1 |
+| Source settings | 1 |
+
+The complete attempt consumed 49821.171875 descendant CPU seconds and 52410.312794 wall seconds, plus the established supervisor allowance. Its admitted 60,000-CPU forecast and 95,000-CPU ceiling cover observed full execution and independent replay. The earlier 575,630-game pilot and all preparation charges remain retained; no cost or prefix is reset. Saved work was reused only for execution. The verifier recomputed from ordinal zero and compared all table contents. Both native children and owner exited cleanly, and the counted lease is released.
+
+The old first-prefix PILOT receipt remains historical and immutable; its incomplete flag describes that earlier timing prefix, not this completed source. April, May and June now supply complete source prerequisites. July full-source admission still requires its complete storage and indivisible-operation forecast; the converted July pilot is not a whole-month census. Delivered merge, sample, history, engine and analytical consumers retain their own native qualification, dependency, measured cost and scientific gates. No substitute month, population reduction or partial-source effect is admitted.
+
+**Means.** Preserve this exact completion as the June source dependency for separately qualified consumers. Continue authorized work under fresh resource and cumulative-cost review. The original reader pilot and full comparison remain unfinished. Events and four hours of owner inactivity with one pending wake remain unchanged. No new research, gear, paid work, delegation, scientific claim or unfinished per-artifact score follows. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete June chess source census and independent replay are authenticated; downstream engine collection and scientific comparisons remain separately gated.; project meaning: scoped operational record; next engineering obligation: Use the exact April, May and June source completions only with separately qualified consumers; finish July source admission and remaining source-specific chess qualification.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_JUNE_CENSUS_COMPLETE_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0091-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 126 words in frozen chunk 92 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 98.25 seconds and wall time is 73.624529 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690231 GiB for this chunk only. All 97 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 92 original chunks cover 15899 words at 21157.75 measured descendant CPU seconds. They are 92 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 91 |
+| Completed original prefix | 92 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0091_COST_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY3-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2780 complete fit pairs, preserving 64,147 completed pairs in all 128,357 checkpoint files. The native attempt consumes 3925.90625 CPU seconds, including 3512.96875 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 270221.15625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 729778.84375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 128,357, every hash authenticated |
+| Completed fit pairs | 64,147 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY3_PAUSE_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0090-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 102 words in frozen chunk 91 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 122.859375 seconds and wall time is 86.429568 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691360 GiB for this chunk only. All 91 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 91 original chunks cover 15773 words at 21059.5 measured descendant CPU seconds. They are 91 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 90 |
+| Completed original prefix | 91 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0090_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0089-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 90 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 162.96875 seconds and wall time is 108.426429 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690674 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 90 original chunks cover 15671 words at 20936.640625 measured descendant CPU seconds. They are 90 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 89 |
+| Completed original prefix | 90 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0089_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0088-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 205 words in frozen chunk 89 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 138.390625 seconds and wall time is 96.161792 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690269 GiB for this chunk only. All 117 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 89 original chunks cover 15415 words at 20773.671875 measured descendant CPU seconds. They are 89 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 88 |
+| Completed original prefix | 89 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0088_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0087-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 218 words in frozen chunk 88 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 138.640625 seconds and wall time is 93.801067 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690437 GiB for this chunk only. All 121 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 88 original chunks cover 15210 words at 20635.28125 measured descendant CPU seconds. They are 88 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 87 |
+| Completed original prefix | 88 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0087_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0086-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 251 words in frozen chunk 87 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 156.140625 seconds and wall time is 104.258218 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691025 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 87 original chunks cover 14992 words at 20496.640625 measured descendant CPU seconds. They are 87 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 86 |
+| Completed original prefix | 87 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0086_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0085-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 237 words in frozen chunk 86 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 145.4375 seconds and wall time is 100.384788 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690529 GiB for this chunk only. All 125 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 86 original chunks cover 14741 words at 20340.5 measured descendant CPU seconds. They are 86 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 85 |
+| Completed original prefix | 86 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0085_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0084-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 208 words in frozen chunk 85 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 153.375 seconds and wall time is 101.239626 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690918 GiB for this chunk only. All 117 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 85 original chunks cover 14504 words at 20195.0625 measured descendant CPU seconds. They are 85 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 84 |
+| Completed original prefix | 85 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0084_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0083-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 187 words in frozen chunk 84 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 121.78125 seconds and wall time is 87.688801 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690044 GiB for this chunk only. All 113 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 84 original chunks cover 14296 words at 20041.6875 measured descendant CPU seconds. They are 84 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 83 |
+| Completed original prefix | 84 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0083_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0082-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 134 words in frozen chunk 83 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 94.328125 seconds and wall time is 71.167406 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690342 GiB for this chunk only. All 99 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 83 original chunks cover 14109 words at 19919.90625 measured descendant CPU seconds. They are 83 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 82 |
+| Completed original prefix | 83 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0082_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0081-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 26 words in frozen chunk 82 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 60.578125 seconds and wall time is 55.303423 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689674 GiB for this chunk only. All 73 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 82 original chunks cover 13975 words at 19825.578125 measured descendant CPU seconds. They are 82 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 81 |
+| Completed original prefix | 82 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0081_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0080-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 81 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 162.734375 seconds and wall time is 110.819310 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690594 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 81 original chunks cover 13949 words at 19765.0 measured descendant CPU seconds. They are 81 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 80 |
+| Completed original prefix | 81 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0080_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0079-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 174 words in frozen chunk 80 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 108.3125 seconds and wall time is 80.045090 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690128 GiB for this chunk only. All 109 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 80 original chunks cover 13693 words at 19602.265625 measured descendant CPU seconds. They are 80 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 79 |
+| Completed original prefix | 80 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0079_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0078-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 140 words in frozen chunk 79 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 105.359375 seconds and wall time is 79.818663 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689281 GiB for this chunk only. All 101 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 79 original chunks cover 13519 words at 19493.953125 measured descendant CPU seconds. They are 79 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 78 |
+| Completed original prefix | 79 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0078_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0077-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 99 words in frozen chunk 78 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 75.703125 seconds and wall time is 60.450388 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689526 GiB for this chunk only. All 91 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 78 original chunks cover 13379 words at 19388.59375 measured descendant CPU seconds. They are 78 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 77 |
+| Completed original prefix | 78 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0077_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0076-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 77 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 158.125 seconds and wall time is 102.935111 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690807 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 77 original chunks cover 13280 words at 19312.890625 measured descendant CPU seconds. They are 77 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 76 |
+| Completed original prefix | 77 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0076_COST_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY2-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2776 complete fit pairs, preserving 61,367 completed pairs in all 122,795 checkpoint files. The native attempt consumes 3897.96875 CPU seconds, including 3529.390625 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 266265.25 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 733734.75 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 122,795, every hash authenticated |
+| Completed fit pairs | 61,367 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY2_PAUSE_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0075-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 71 words in frozen chunk 76 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 71.125 seconds and wall time is 59.647773 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689186 GiB for this chunk only. All 83 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 76 original chunks cover 13024 words at 19154.765625 measured descendant CPU seconds. They are 76 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 75 |
+| Completed original prefix | 76 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0075_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0074-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 216 words in frozen chunk 75 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 194.375 seconds and wall time is 120.687430 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.692265 GiB for this chunk only. All 119 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 75 original chunks cover 12953 words at 19083.640625 measured descendant CPU seconds. They are 75 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 74 |
+| Completed original prefix | 75 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0074_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0073-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 74 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 161.484375 seconds and wall time is 103.074548 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691177 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 74 original chunks cover 12737 words at 18889.265625 measured descendant CPU seconds. They are 74 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 73 |
+| Completed original prefix | 74 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0073_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0072-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 168 words in frozen chunk 73 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 112.265625 seconds and wall time is 81.426244 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689880 GiB for this chunk only. All 107 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 73 original chunks cover 12481 words at 18727.78125 measured descendant CPU seconds. They are 73 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 72 |
+| Completed original prefix | 73 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0072_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0071-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 171 words in frozen chunk 72 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 120.6875 seconds and wall time is 110.999285 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691433 GiB for this chunk only. All 109 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 72 original chunks cover 12313 words at 18615.515625 measured descendant CPU seconds. They are 72 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 71 |
+| Completed original prefix | 72 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0071_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0070-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 167 words in frozen chunk 71 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 107.453125 seconds and wall time is 81.031583 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690083 GiB for this chunk only. All 107 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 71 original chunks cover 12142 words at 18494.828125 measured descendant CPU seconds. They are 71 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 70 |
+| Completed original prefix | 71 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0070_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0069-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 59 words in frozen chunk 70 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 68.921875 seconds and wall time is 58.882545 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689857 GiB for this chunk only. All 81 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 70 original chunks cover 11975 words at 18387.375 measured descendant CPU seconds. They are 70 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 69 |
+| Completed original prefix | 70 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0069_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0068-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 179 words in frozen chunk 69 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 115.78125 seconds and wall time is 82.129406 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690292 GiB for this chunk only. All 111 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 69 original chunks cover 11916 words at 18318.453125 measured descendant CPU seconds. They are 69 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 68 |
+| Completed original prefix | 69 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0068_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0067-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 250 words in frozen chunk 68 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 146.421875 seconds and wall time is 98.071103 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.691479 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 68 original chunks cover 11737 words at 18202.671875 measured descendant CPU seconds. They are 68 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 67 |
+| Completed original prefix | 68 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0067_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0066-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 40 words in frozen chunk 67 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 55.703125 seconds and wall time is 49.984544 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690147 GiB for this chunk only. All 75 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 67 original chunks cover 11487 words at 18056.25 measured descendant CPU seconds. They are 67 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 66 |
+| Completed original prefix | 67 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0066_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0065-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 248 words in frozen chunk 66 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 150.84375 seconds and wall time is 104.371866 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690845 GiB for this chunk only. All 127 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 66 original chunks cover 11447 words at 18000.546875 measured descendant CPU seconds. They are 66 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 65 |
+| Completed original prefix | 66 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0065_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0064-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 201 words in frozen chunk 65 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 126.125 seconds and wall time is 87.046946 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690338 GiB for this chunk only. All 117 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 65 original chunks cover 11199 words at 17849.703125 measured descendant CPU seconds. They are 65 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 64 |
+| Completed original prefix | 65 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0064_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0063-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 140 words in frozen chunk 64 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 88.953125 seconds and wall time is 69.780190 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690857 GiB for this chunk only. All 101 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 64 original chunks cover 10998 words at 17723.578125 measured descendant CPU seconds. They are 64 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 63 |
+| Completed original prefix | 64 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0063_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0062-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 104 words in frozen chunk 63 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 2181.03125 seconds and completed-continuation wall time is 158.217779 seconds, with the existing 30-second supervisor allowance for each of the two retained native attempts additional. The measured chain includes the original 1,915.109375-second planned scoring quantum; all 27 saved files remain unchanged. Observed peak working set is 4.772198 GiB for this chunk only. All 94 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 63 original chunks cover 10858 words at 17634.625 measured descendant CPU seconds. They are 63 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the same 7,200-CPU-second cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. The event and four-hour inactivity policy remains; the separately authorized wake-delivery repair serializes pending notifications without changing research scope.
+
+The operational table distinguishes completed chunk evidence from the unfinished full pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 62 |
+| Native attempt chain | Both attempts retained and charged |
+| Completed original prefix | 63 of 165 chunks for this reader |
+| Output hashes / independent fresh checks | Complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. No tests harvested this pass. This introduces no new test, scientific claim, paid call, GPU or Ollama work. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0062_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0062-CHECKPOINT-PAUSE-20261110
+
+**Hypothesis.** Can the original reader pilot preserve its completed computation when the fixed scoring quantum ends before a chunk finishes?
+
+**METHOD.** Authenticate the original plan and source closure, stopped native identities, every checkpoint hash and each complete numerical block receipt. Reconcile descendant CPU accounting, the original stopping boundary and fresh resource admission without inspecting scientific scores or changing the chunk order.
+
+**Found.** The original reader chunk preserves a complete authenticated checkpoint at its planned scoring-time boundary; independent verification and the full pilot remain unfinished.
+
+The table describes execution coverage and resource accounting only.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 62 |
+| Preserved words | 96 of 104, in twelve complete blocks |
+| Authenticated checkpoint files | All 27 |
+| Measured descendant CPU | 1,915.109375 seconds, plus the existing supervisor allowance |
+| Producer boundary | Original 900 wall seconds, checked at a complete block boundary |
+| Independent verification | Still required for the complete chunk |
+
+The recorded scoring wall time is 978.826543 seconds. This is a planned cooperative quantum, with no saved resource-yield request, scientific gate failure or new engineering repair. All completed blocks and earlier attempts remain retained. The first 62 original chunks are already complete; ordinal 62 remains unfinished. The full four-writer, 27,007-word pilot across all ten readers still gates model selection and downstream use.
+
+Prepare one immutable continuation of this exact chunk with the same source, model, 1,024-token context, FP64 precision, numerical kernel and seeded fresh-forward checks. Preserve the 7,200-CPU-second attempt cap, 1,700-second outer wall cap, twenty-GiB projected peak, two numerical threads and original memory floors. Fresh resource inspection returns admit; recheck immediately before admission. Resume, copies and independent verification remain charged alongside this attempt and the retained diagnostic/startup costs. No reduced cohort, reader selection or whole-bank forecast is inferred.
+
+**Means.** Fully record and acknowledge the checkpoint before continuation. The ready buffer remains deficient because owner qualification and admission work remain; original builders delivered and none is active. Events and four hours of owner inactivity with one pending wake remain unchanged. No tests harvested, new scientific claim, paid call, GPU, Ollama or delegation authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original reader chunk preserves a complete authenticated checkpoint at its planned scoring-time boundary; independent verification and the full pilot remain unfinished.; project meaning: scoped operational record; next engineering obligation: Resume the same original chunk from authenticated blocks under fresh unchanged memory and cumulative-cost gates; require complete fresh verification.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0062_CHECKPOINT_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY1-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2788 complete fit pairs, preserving 58,591 completed pairs in all 117,240 checkpoint files. The native attempt consumes 3883.5625 CPU seconds, including 3526.0625 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 262337.28125 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 737662.71875 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 117,240, every hash authenticated |
+| Completed fit pairs | 58,591 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY1_PAUSE_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0061-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 62 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 232.75 seconds and wall time is 144.411746 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690601 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 62 original chunks cover 10754 words at 15453.59375 measured descendant CPU seconds. They are 62 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 61 |
+| Completed original prefix | 62 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0061_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0060-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 61 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 143.875 seconds and wall time is 95.875652 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689816 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 61 original chunks cover 10498 words at 15220.84375 measured descendant CPU seconds. They are 61 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 60 |
+| Completed original prefix | 61 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0060_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0059-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 240 words in frozen chunk 60 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 133.046875 seconds and wall time is 92.787283 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690956 GiB for this chunk only. All 125 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 60 original chunks cover 10242 words at 15076.96875 measured descendant CPU seconds. They are 60 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 59 |
+| Completed original prefix | 60 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0059_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0058-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 101 words in frozen chunk 59 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 92.359375 seconds and wall time is 71.191155 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690472 GiB for this chunk only. All 91 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 59 original chunks cover 10002 words at 14943.921875 measured descendant CPU seconds. They are 59 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 58 |
+| Completed original prefix | 59 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0058_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0057-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 223 words in frozen chunk 58 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 153.71875 seconds and wall time is 104.317065 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690712 GiB for this chunk only. All 121 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 58 original chunks cover 9901 words at 14851.5625 measured descendant CPU seconds. They are 58 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 57 |
+| Completed original prefix | 58 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0057_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0056-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 192 words in frozen chunk 57 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 118.921875 seconds and wall time is 83.926791 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690548 GiB for this chunk only. All 113 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 57 original chunks cover 9678 words at 14697.84375 measured descendant CPU seconds. They are 57 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 56 |
+| Completed original prefix | 57 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0056_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0055-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 139 words in frozen chunk 56 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 103.578125 seconds and wall time is 75.416226 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690899 GiB for this chunk only. All 101 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 56 original chunks cover 9486 words at 14578.921875 measured descendant CPU seconds. They are 56 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 55 |
+| Completed original prefix | 56 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0055_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0054-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 152 words in frozen chunk 55 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 107.578125 seconds and wall time is 77.529876 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690769 GiB for this chunk only. All 103 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 55 original chunks cover 9347 words at 14475.34375 measured descendant CPU seconds. They are 55 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 54 |
+| Completed original prefix | 55 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0054_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0053-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 80 words in frozen chunk 54 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 69.796875 seconds and wall time is 60.552157 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689213 GiB for this chunk only. All 85 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 54 original chunks cover 9195 words at 14367.765625 measured descendant CPU seconds. They are 54 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 53 |
+| Completed original prefix | 54 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0053_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0052-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 109 words in frozen chunk 53 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 86.0 seconds and wall time is 67.566842 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689476 GiB for this chunk only. All 93 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 53 original chunks cover 9115 words at 14297.96875 measured descendant CPU seconds. They are 53 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 52 |
+| Completed original prefix | 53 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0052_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0051-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 27 words in frozen chunk 52 are retained. All 1 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 61.828125 seconds and wall time is 56.908316 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689995 GiB for this chunk only. All 73 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 52 original chunks cover 9006 words at 14211.96875 measured descendant CPU seconds. They are 52 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 51 |
+| Completed original prefix | 52 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0051_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0050-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 256 words in frozen chunk 51 are retained. All 6 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 167.390625 seconds and wall time is 110.922423 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689945 GiB for this chunk only. All 129 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 51 original chunks cover 8979 words at 14150.140625 measured descendant CPU seconds. They are 51 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 50 |
+| Completed original prefix | 51 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0050_COST_20261110.md.
+
+### OPS-S15-W5-V1-ATOMIC-ACCOUNTING-20261110
+
+**Hypothesis.** Can the comparison retain its complete frozen workload while its monitor safely accounts for files atomically installed by the original producer?
+
+**METHOD.** Authenticate continuation 62's native exits, unchanged source pins, original failure and every retained output file. Reproduce the producer's exact temporary renames between enumeration and stat, preserve fail-closed filesystem checks, and run complete constructed arithmetic with independent native replay plus an intentional native byte-cap refusal through the real counted policy.
+
+**Found.** The comparison monitor failed on an atomic temporary-file rename; all failed evidence is preserved and an isolated accounting repair passes targeted and native guard checks.
+
+The operational table separates the failed production attempt from constructed repair qualification.
+
+| Evidence | Recorded disposition |
+|---|---|
+| Original comparison attempt | Engineering failure in the monitor's output-byte scan |
+| Retained failed output files | 114,230, privately hashed; no invented pause or salvage |
+| Original descendant CPU / wall seconds | 2024.15625 / 2709.084631, retained and charged |
+| Targeted checks | 65 pass, including real writer renames and unchanged runtime/launcher behavior |
+| Native complete arithmetic and independent replay | Pass; 0.34375 descendant CPU seconds |
+| Native output-cap fixture | Expected refusal; 0.234375 descendant CPU seconds |
+| Fixture accounting | Both exact native exits and leases reconcile; sixty supervisor CPU seconds remain additional |
+| Recovery source | Continuation 61's authentic pause only; 111,661 checkpoint files |
+
+The crash occurred after enumeration of a PID-suffixed fit-seal temporary and before its stat. The producer had atomically installed the target. The old helper accepted other temporary conventions but not this one. The separate v8 runtime and v2 byte helper recognize only V1's exact producer paths and require the installed regular target. All present temporaries count. Stable missing files, unknown paths, nonregular targets, permission and I/O faults and links still refuse. Old runtimes, source capsules and live workers remain unchanged. A complete later scan counts an installed file absent from the current enumeration; this remains periodically sampled accounting.
+
+This is the first engineering recovery for this V1 monitor defect. It changes no scientific model, input, comparator, seed, control, population, stopping rule or acceptance gate and does not consume another mood-control repair. The existing V1 design and fixture remain committed and pinned. The locally pinned operational note and new native proof add evidence to the original admission, rather than substituting for its scientific design. Full comparison production still requires all original fits, controls, resamples and independent replay. No intermediate score or whole-run forecast is licensed.
+
+**Means.** Fully record the failure and both constructed terminal cases, then admit a new immutable recovery from the last authenticated pause only if current family room, original-bank capacity and resource guards pass. Preserve all failed partials, predecessor pins, repeated-work costs and supervisor charges. Ready-buffer qualification remains deficient. No new test was harvested from this wake; no GPU, Ollama, paid call or delegation is introduced. Events plus four hours of owner inactivity and one pending wake remain unchanged; final scientific reporting stays under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The comparison monitor failed on an atomic temporary-file rename; all failed evidence is preserved and an isolated accounting repair passes targeted and native guard checks.; project meaning: scoped operational record; next engineering obligation: Resume the unchanged comparison from continuation 61 only after complete fresh admission; preserve failed partials and all accounting.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ATOMIC_ACCOUNTING_RECOVERY_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0049-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 165 words in frozen chunk 50 are retained. All 4 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 97.84375 seconds and wall time is 74.031571 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689941 GiB for this chunk only. All 107 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 50 original chunks cover 8723 words at 13982.75 measured descendant CPU seconds. They are 50 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 49 |
+| Completed original prefix | 50 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0049_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0048-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 211 words in frozen chunk 49 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 134.828125 seconds and wall time is 93.511226 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690060 GiB for this chunk only. All 119 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 49 original chunks cover 8558 words at 13884.90625 measured descendant CPU seconds. They are 49 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 48 |
+| Completed original prefix | 49 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0048_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0047-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 83 words in frozen chunk 48 are retained. All 2 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 92.6875 seconds and wall time is 70.775572 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689133 GiB for this chunk only. All 87 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 48 original chunks cover 8347 words at 13750.078125 measured descendant CPU seconds. They are 48 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 47 |
+| Completed original prefix | 48 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0047_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0046-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 243 words in frozen chunk 47 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 151.921875 seconds and wall time is 102.128012 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690666 GiB for this chunk only. All 127 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 47 original chunks cover 8264 words at 13657.390625 measured descendant CPU seconds. They are 47 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 46 |
+| Completed original prefix | 47 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0046_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0045-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 221 words in frozen chunk 46 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 150.390625 seconds and wall time is 102.754271 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.690506 GiB for this chunk only. All 121 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 46 original chunks cover 8021 words at 13505.46875 measured descendant CPU seconds. They are 46 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 45 |
+| Completed original prefix | 46 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0045_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0044-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 109 words in frozen chunk 45 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 95.484375 seconds and wall time is 72.787677 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689373 GiB for this chunk only. All 93 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 45 original chunks cover 7800 words at 13355.078125 measured descendant CPU seconds. They are 45 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 44 |
+| Completed original prefix | 45 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0044_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0043-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 136 words in frozen chunk 44 are retained. All 3 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 96.15625 seconds and wall time is 75.011495 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689610 GiB for this chunk only. All 99 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 44 original chunks cover 7691 words at 13259.59375 measured descendant CPU seconds. They are 44 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 43 |
+| Completed original prefix | 44 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0043_COST_20261110.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0042-COST-20261110
+
+**Hypothesis.** Can the next chunk in the original reader pilot supply complete cost evidence without changing its frozen order, source or numerical checks?
+
+**METHOD.** Admit the next frozen GPT-2 medium source chunk only after the unchanged native memory gate passes; score every word, run the original seeded fresh-forward checks in a distinct native process, and authenticate every output, source pin, guard identity, process exit and complete accounting receipt.
+
+**Found.** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.
+
+All 212 words in frozen chunk 43 are retained. All 5 seeded fresh-forward checks pass the unchanged 0.0001-nat tolerance. Measured descendant CPU is 136.109375 seconds and wall time is 118.626127 seconds, with the existing 30-second supervisor allowance additional. Observed peak working set is 4.689198 GiB for this chunk only. All 119 completion-declared output hashes match. These are engineering coverage and resource measurements, not scientific scores or a reader ranking.
+
+The first 43 original chunks cover 7555 words at 13163.4375 measured descendant CPU seconds. They are 43 of 165 fixed chunks for this reader. The original pilot remains 27,007 words from four whole writers for every one of all ten readers. The complete pilot, model comparison and downstream bank stay unfinished. This validated-chain prefix excludes separately retained failed attempts and supervisory allowances, which remain charged to actual cumulative family use. No measured prefix is relabelled as a whole-bank forecast. Model revision, tokenizer, 1,024-token context, FP64 precision, source bytes, numerical kernel and seeded 2% check remain unchanged. Both native guards bind distinct execute and verify identities. Original float32 failures, all earlier attempts and the diagnostic/startup charges remain retained.
+
+The unchanged start gate was met at this attempt's actual admission; no lower-memory exception was used. Prepare only the next frozen chunk under the existing reviewed 7,200-CPU-second attempt cap, 1,700 wall seconds, twenty-GiB projected peak and two numerical threads. These are safety caps, not hidden scientific allocations. Another admission requires a fresh memory and cumulative-cost check. Existing native workers and the prepared chess qualification retain their original scope and bindings. The ready buffer remains below target because owner qualification and admission work is unfinished; the original builders delivered and none is active. Wakes follow events and four hours of owner inactivity. No fixed build or health schedule is restored.
+
+The operational table separates complete chunk evidence from the unfinished pilot.
+
+| Check | Disposition |
+|---|---|
+| Original chunk ordinal | 42 |
+| Completed original prefix | 43 of 165 chunks for this reader |
+| Output hashes / fresh verification | All complete and matched |
+| Model selection / full bank | Still gated |
+
+The environmental hold released only after the unchanged 26-GiB commit and 20-GiB available-RAM start gates passed. The original preparation had left no saved proposal. A new restricted-shell preparation refused native identity inspection before launch; the same unchanged audit passed through authorized native inspection and produced a newly dated private proposal. Its exact frozen source order, guards and original caps were retained. Both prelaunch failures and all prior charges remain recorded; no production source changed.
+
+**Means.** Record and acknowledge the complete chunk, then continue the original pilot in order. This introduces no new test, scientific claim, paid call, GPU or Ollama work. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the next original frozen pilot chunk under fresh resources and cumulative costs; preserve full-pilot and all-model bank gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0042_COST_20261110.md.
+
+### OPS-S15-W5-V1-FULL-CONT61-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2542 complete fit pairs, preserving 55,803 completed pairs in all 111,661 checkpoint files. The native attempt consumes 3833.65625 CPU seconds, including 3417.609375 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 256308.984375 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 743691.015625 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The table summarizes preserved work and the unchanged continuation limits.
+
+| Operational check | Recorded value |
+|---|---|
+| Complete fit pairs retained | 55,803 of 208,236 |
+| Saved checkpoint files verified | 111,661 |
+| Measured attempt CPU seconds | 3833.65625 |
+| Next attempt CPU / outer wall cap | 25,000 / 7,200 seconds |
+| Producer quantum | 3,600 seconds |
+| RAM / numerical threads | Six GiB / two |
+| Scientific completion and independent replay | Still required |
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_FULL_CONT61_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-FULL-CONT60-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2288 complete fit pairs, preserving 53,261 completed pairs in all 106,575 checkpoint files. The native attempt consumes 3939.4375 CPU seconds, including 3544.125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 252445.328125 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 747554.671875 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The table summarizes preserved work and the unchanged continuation limits.
+
+| Operational check | Recorded value |
+|---|---|
+| Complete fit pairs retained | 53,261 of 208,236 |
+| Saved checkpoint files verified | 106,575 |
+| Measured attempt CPU seconds | 3939.4375 |
+| Next attempt CPU / outer wall cap | 25,000 / 7,200 seconds |
+| Producer quantum | 3,600 seconds |
+| RAM / numerical threads | Six GiB / two |
+| Scientific completion and independent replay | Still required |
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_FULL_CONT60_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-FULL-CONT59-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2265 complete fit pairs, preserving 50,973 completed pairs in all 101,997 checkpoint files. The native attempt consumes 3919.09375 CPU seconds, including 3552.203125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 248475.890625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 751524.109375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The table summarizes preserved work and the unchanged continuation limits.
+
+| Operational check | Recorded value |
+|---|---|
+| Complete fit pairs retained | 50,973 of 208,236 |
+| Saved checkpoint files verified | 101,997 |
+| Measured attempt CPU seconds | 3919.09375 |
+| Next attempt CPU / outer wall cap | 25,000 / 7,200 seconds |
+| Producer quantum | 3,600 seconds |
+| RAM / numerical threads | Six GiB / two |
+| Scientific completion and independent replay | Still required |
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_FULL_CONT59_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-FULL-CONT58-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2360 complete fit pairs, preserving 48,708 completed pairs in all 97,465 checkpoint files. The native attempt consumes 3918.890625 CPU seconds, including 3541.078125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 244526.796875 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 755473.203125 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The table summarizes preserved work and the unchanged continuation limits.
+
+| Operational check | Recorded value |
+|---|---|
+| Complete fit pairs retained | 48,708 of 208,236 |
+| Saved checkpoint files verified | 97,465 |
+| Measured attempt CPU seconds | 3918.890625 |
+| Next attempt CPU / outer wall cap | 25,000 / 7,200 seconds |
+| Producer quantum | 3,600 seconds |
+| RAM / numerical threads | Six GiB / two |
+| Scientific completion and independent replay | Still required |
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_FULL_CONT58_PAUSE_20261110.md.
+
+### OPS-S15-W5-MD3-M-POSITIVE-GATE-FAILURE-V4-20261110
+
+**Hypothesis.** Does the original positive kink plant satisfy the complete declared calibration rule when the instrument also includes smooth standing curvature?
+
+**METHOD.** Continue the authenticated first-five-percent checkpoint without changing source, model, draw count, discount, seeds, threshold or support floors. Inspect the original native failure, complete sealed execution bank, retained source/output pins, copied predecessor, process exit and qualification-driver refusal. Distinguish completed execution from unperformed independent verification.
+
+**Found.** The original positive kink control fails its frozen calibration gate after complete execution; the curvature-adjusted instrument remains unqualified and human descendants remain held.
+
+The table records the failed qualification and complete operational disposition, without numerical scientific estimates from an unverified case.
+
+| Check | Result |
+|---|---|
+| Original constructed population | 96 participants, thirty trials each |
+| Native execution bank | All 2,000 participant draws and twenty dynamic nulls sealed |
+| Numerical fit / missing draws | Complete fits; no failed draws or null fits reported |
+| Frozen positive known-answer gate | Expected support; returned inconclusive; fixture refused |
+| Human support floor | Retained as below-floor/descriptive |
+| Independent verification | Never started; no verified receipt |
+| Actual source-pilot / failed-continuation CPU seconds | 1.953125 / 17.71875 |
+| Conservative MD3.m charge including two supervisor allowances | 139.671875 CPU seconds |
+
+The raw supervisor labels any child exit as engineering; the retained child traceback identifies an instrument-calibration gate mismatch, not a path exception or resource interruption. The owner has not inferred a software bug from a failed acceptance rule. Original execution files, source pilot, manifests, traceback and qualification refusal are preserved, with a separate hashed inspection. No failed attempt is resumed as a successful checkpoint. All prior shared source/repair costs remain charged to MD3.s and the MD family.
+
+**Means.** MD3.m is unqualified; do not weaken its gate, select another planted dose, alter the source or spend a third shared engineering repair to force a pass. The remaining original controls are unrun, and the all-twelve-control requirement continues to block every human descendant. Three MD3.s specification cases retain their independently verified status. Review only a separately justified, prospectively specified diagnostic route; this failed constructed qualification supplies no human mechanism verdict. Other authorized comparison and chess work continues. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original positive kink control fails its frozen calibration gate after complete execution; the curvature-adjusted instrument remains unqualified and human descendants remain held.; project meaning: scoped operational record; next engineering obligation: Retain the failed calibration and all charges; require separate prospective diagnostic review and every original control before any human descendant admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_M_POSITIVE_GATE_FAILURE_V4_20261110.md.
+
+### OPS-S15-W5-MD3-M-POSITIVE-SOURCE-PILOT-V4-20261110
+
+**Hypothesis.** Can the declared curvature-adjusted kink instrument preserve its original complete constructed case through actual native pauses, immutable continuation and independent replay?
+
+**METHOD.** Authenticate the original constructed source, fixed discount, complete dynamic-null and participant-draw banks, all source and design pins, exited native identities and ancestry. Require the actual first-five-percent boundary in execution and independent verification and exact saved numerical records on full replay. Preserve the previously retained shared path failures, repairs and costs.
+
+**Found.** The predeclared positive kink qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.
+
+This table records operational validation and cost, without an unfinished scientific score.
+
+| Operational check | Recorded value |
+|---|---|
+| Original constructed population | 96 participants, thirty trials each |
+| Complete required bank | 2,000 participant draws and twenty dynamic nulls at discount 0.65 |
+| Native boundary | source-pilot |
+| Measured attempt CPU seconds | 1.953125 |
+| Execution, source and saved checkpoint hashes | Authenticate |
+| Full case replay | Still required |
+
+Only this predeclared case is admitted. Source, curvature term, original models, seeds, calibration rules and support floors remain unchanged. All twelve full controls remain required before any human descendant admission. A successful constructed boundary does not establish a human mechanism or release population support floors.
+
+**Means.** Continue only inside actual original descendant and family budgets. Charge every pilot, complete replay and supervisor allowance; shared preparation and path repair reservations remain charged to MD3.s and the MD family, not erased on moving to MD3.m. No scientific result or p-value is inferred. No tests were harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The predeclared positive kink qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete the original remaining signed/curved/null controls within actual budgets before separate human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_M_POSITIVE_SOURCE_PILOT_V4_20261110.md.
+
+### OPS-S15-W5-MD3-S-NULL-COMPLETE-V4-20261110
+
+**Hypothesis.** Can the repaired mood specification instrument retain its complete original signed and null case requirements through authentic native continuation and independent replay?
+
+**METHOD.** Authenticate the original constructed source, all three fixed discounts, complete dynamic null and participant-draw banks, source and design pins, stopped native identities and copied ancestry. Preserve every failed attempt and charge. Require the actual first-five-percent boundary in both execution and verification and compare every saved numerical record before accepting a complete case.
+
+**Found.** The complete predeclared null mood specification fixture independently reproduces its full numerical bank; remaining original cases and human admission are still gated.
+
+The table records completed constructed validation and execution accounting.
+
+| Check | Result |
+|---|---|
+| Original fixed discounts | 0.25, 0.50 and 0.75 |
+| Execution and independent replay | All 2,000 draws and twenty dynamic nulls per discount |
+| Actual execution and verification pilot boundaries | Both witnessed in authenticated ancestry |
+| Native exits, source pins and complete output hashes | Verified |
+| Measured complete-attempt CPU seconds | 108.28125 |
+| Human descendant admission | Still gated by the complete original control roster |
+
+This complete attempt consumes 108.28125 measured CPU seconds. The unchanged complete case requires 2,000 participant draws and twenty dynamic nulls per discount. All three complete execution and independent replay banks authenticate. The original 96 constructed participants and source, models, seeds, thresholds and support rules remain unchanged. Complete original qualification of all twelve cases is still required before human admission.
+
+**Means.** Continue only through actual remaining card/family accounting, including the source constructor, both pre-fit failures, both repairs, every earlier pilot and complete replay, conservative component reservation and supervisor allowances. This is the already declared case roster, not a new hypothesis or repair. No scientific result, human sensitivity or causal mechanism is inferred. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete predeclared null mood specification fixture independently reproduces its full numerical bank; remaining original cases and human admission are still gated.; project meaning: scoped operational record; next engineering obligation: Complete the remaining original native signed/null cases within actual budgets, then separately review human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_S_NULL_COMPLETE_V4_20261110.md.
+
+### OPS-S15-W5-MD3-S-NULL-VERIFY-PILOT-V4-20261110
+
+**Hypothesis.** Can the repaired mood specification instrument retain its complete original signed and null case requirements through authentic native continuation and independent replay?
+
+**METHOD.** Authenticate the original constructed source, all three fixed discounts, complete dynamic null and participant-draw banks, source and design pins, stopped native identities and copied ancestry. Preserve every failed attempt and charge. Require the actual first-five-percent boundary in both execution and verification and compare every saved numerical record before accepting a complete case.
+
+**Found.** The predeclared null mood qualification preserves its authentic verify-pilot checkpoint; full qualification remains unfinished.
+
+This verify-pilot attempt consumes 58.484375 measured CPU seconds. The unchanged complete case requires 2,000 participant draws and twenty dynamic nulls per discount. Only the authentic operational boundary is accepted here; no partial scientific score or case verdict is reported. The original 96 constructed participants and source, models, seeds, thresholds and support rules remain unchanged. Complete original qualification of all twelve cases is still required before human admission.
+
+**Means.** Continue only through actual remaining card/family accounting, including the source constructor, both pre-fit failures, both repairs, every earlier pilot and complete replay, conservative component reservation and supervisor allowances. This is the already declared case roster, not a new hypothesis or repair. No scientific result, human sensitivity or causal mechanism is inferred. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The predeclared null mood qualification preserves its authentic verify-pilot checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete the remaining original native signed/null cases within actual budgets, then separately review human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_S_NULL_VERIFY_PILOT_V4_20261110.md.
+
+### OPS-S15-W5-MD3-S-NULL-SOURCE-PILOT-V4-20261110
+
+**Hypothesis.** Can the repaired mood specification instrument retain its complete original signed and null case requirements through authentic native continuation and independent replay?
+
+**METHOD.** Authenticate the original constructed source, all three fixed discounts, complete dynamic null and participant-draw banks, source and design pins, stopped native identities and copied ancestry. Preserve every failed attempt and charge. Require the actual first-five-percent boundary in both execution and verification and compare every saved numerical record before accepting a complete case.
+
+**Found.** The predeclared null mood qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.
+
+This source-pilot attempt consumes 4.421875 measured CPU seconds. The unchanged complete case requires 2,000 participant draws and twenty dynamic nulls per discount. Only the authentic operational boundary is accepted here; no partial scientific score or case verdict is reported. The original 96 constructed participants and source, models, seeds, thresholds and support rules remain unchanged. Complete original qualification of all twelve cases is still required before human admission.
+
+**Means.** Continue only through actual remaining card/family accounting, including the source constructor, both pre-fit failures, both repairs, every earlier pilot and complete replay, conservative component reservation and supervisor allowances. This is the already declared case roster, not a new hypothesis or repair. No scientific result, human sensitivity or causal mechanism is inferred. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The predeclared null mood qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete the remaining original native signed/null cases within actual budgets, then separately review human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_S_NULL_SOURCE_PILOT_V4_20261110.md.
+
+### OPS-S15-W5-MD3-S-NEGATIVE-COMPLETE-V4-20261110
+
+**Hypothesis.** Can the repaired mood specification instrument retain its complete original signed and null case requirements through authentic native continuation and independent replay?
+
+**METHOD.** Authenticate the original constructed source, all three fixed discounts, complete dynamic null and participant-draw banks, source and design pins, stopped native identities and copied ancestry. Preserve every failed attempt and charge. Require the actual first-five-percent boundary in both execution and verification and compare every saved numerical record before accepting a complete case.
+
+**Found.** The complete predeclared negative mood specification fixture independently reproduces its full numerical bank; remaining original cases and human admission are still gated.
+
+This complete attempt consumes 117.34375 measured CPU seconds. The unchanged complete case requires 2,000 participant draws and twenty dynamic nulls per discount. All three complete execution and independent replay banks authenticate. The original 96 constructed participants and source, models, seeds, thresholds and support rules remain unchanged. Complete original qualification of all twelve cases is still required before human admission.
+
+**Means.** Continue only through actual remaining card/family accounting, including the source constructor, both pre-fit failures, both repairs, every earlier pilot and complete replay, conservative component reservation and supervisor allowances. This is the already declared case roster, not a new hypothesis or repair. No scientific result, human sensitivity or causal mechanism is inferred. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete predeclared negative mood specification fixture independently reproduces its full numerical bank; remaining original cases and human admission are still gated.; project meaning: scoped operational record; next engineering obligation: Complete the remaining original native signed/null cases within actual budgets, then separately review human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_S_NEGATIVE_COMPLETE_V4_20261110.md.
+
+### OPS-S15-W5-MD3-S-NEGATIVE-VERIFY-PILOT-V4-20261110
+
+**Hypothesis.** Can the repaired mood specification instrument retain its complete original signed and null case requirements through authentic native continuation and independent replay?
+
+**METHOD.** Authenticate the original constructed source, all three fixed discounts, complete dynamic null and participant-draw banks, source and design pins, stopped native identities and copied ancestry. Preserve every failed attempt and charge. Require the actual first-five-percent boundary in both execution and verification and compare every saved numerical record before accepting a complete case.
+
+**Found.** The predeclared negative mood qualification preserves its authentic verify-pilot checkpoint; full qualification remains unfinished.
+
+This verify-pilot attempt consumes 59.953125 measured CPU seconds. The unchanged complete case requires 2,000 participant draws and twenty dynamic nulls per discount. Only the authentic operational boundary is accepted here; no partial scientific score or case verdict is reported. The original 96 constructed participants and source, models, seeds, thresholds and support rules remain unchanged. Complete original qualification of all twelve cases is still required before human admission.
+
+**Means.** Continue only through actual remaining card/family accounting, including the source constructor, both pre-fit failures, both repairs, every earlier pilot and complete replay, conservative component reservation and supervisor allowances. This is the already declared case roster, not a new hypothesis or repair. No scientific result, human sensitivity or causal mechanism is inferred. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The predeclared negative mood qualification preserves its authentic verify-pilot checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete the remaining original native signed/null cases within actual budgets, then separately review human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_S_NEGATIVE_VERIFY_PILOT_V4_20261110.md.
+
+### OPS-S15-W5-MD3-S-NEGATIVE-SOURCE-PILOT-V4-20261110
+
+**Hypothesis.** Can the repaired mood specification instrument retain its complete original signed and null case requirements through authentic native continuation and independent replay?
+
+**METHOD.** Authenticate the original constructed source, all three fixed discounts, complete dynamic null and participant-draw banks, source and design pins, stopped native identities and copied ancestry. Preserve every failed attempt and charge. Require the actual first-five-percent boundary in both execution and verification and compare every saved numerical record before accepting a complete case.
+
+**Found.** The predeclared negative mood qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.
+
+This source-pilot attempt consumes 4.609375 measured CPU seconds. The unchanged complete case requires 2,000 participant draws and twenty dynamic nulls per discount. Only the authentic operational boundary is accepted here; no partial scientific score or case verdict is reported. The original 96 constructed participants and source, models, seeds, thresholds and support rules remain unchanged. Complete original qualification of all twelve cases is still required before human admission.
+
+**Means.** Continue only through actual remaining card/family accounting, including the source constructor, both pre-fit failures, both repairs, every earlier pilot and complete replay, conservative component reservation and supervisor allowances. This is the already declared case roster, not a new hypothesis or repair. No scientific result, human sensitivity or causal mechanism is inferred. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The predeclared negative mood qualification preserves its authentic source-pilot checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete the remaining original native signed/null cases within actual budgets, then separately review human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_S_NEGATIVE_SOURCE_PILOT_V4_20261110.md.
+
+### OPS-S15-W5-V1-FULL-CONT57-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2303 complete fit pairs, preserving 46,348 completed pairs in all 92,742 checkpoint files. The native attempt consumes 3882.671875 CPU seconds, including 3552.53125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 240577.90625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 759422.09375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_FULL_CONT57_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-FULL-CONT56-PAUSE-20261109
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2251 complete fit pairs, preserving 44,045 completed pairs in all 88,134 checkpoint files. The native attempt consumes 3871.203125 CPU seconds, including 3548.046875 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 236665.234375 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 763334.765625 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_FULL_CONT56_PAUSE_20261109.md.
+
 ### OPS-S15-W5-MD3-S-POSITIVE-COMPLETE-V4-20261109
 
 **Hypothesis.** Can the repaired mood specification instrument preserve the original complete numerical bank through independent native replay?
