@@ -2656,6 +2656,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-CH1-SOURCE-PREFIX-20261111:** The three-month chess source reaches its planned first-five-percent checkpoint with intact output; the unchanged full-source continuation and actual-attempt repeat-play comparison are running in counted CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_SOURCE_PREFIX_20261111.md).
+
 **OPS-S15-W5-FRAME-RR1-ACTIVE-20261111:** The repaired chess source reader passes complete native qualification and independent replay; the three-month source prefix and actual-attempt repeat-play continuation are running in counted CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/FRAME_RR1_ACTIVE_20261111.md).
 
 **OPS-S15-W5-RR1-PREFIX-20261111:** The actual-attempt repeat-play prefix reached its planned hundred-draw checkpoint with authenticated output; the unchanged complete re-read is ready for bounded continuation, with all missing-record exclusions retained. [Record](../results/phase_2_4_stage_15/WEEK5/RR1_PREFIX_20261111.md).

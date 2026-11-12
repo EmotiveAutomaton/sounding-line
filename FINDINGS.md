@@ -1,5 +1,28 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-CH1-SOURCE-PREFIX-20261111
+
+**Hypothesis.** Can the admitted three-month chess source complete its sampling pass and fresh replay within the existing family and resource bounds?
+
+**METHOD.** Inspect the planned producer pause, authenticate the complete checkpoint manifest, verify the original native owners have exited, and inspect SQLite through an immutable read-only connection. Check database integrity, transaction position, original unique-player quotas and post-inspection hashes. Use the measured first-prefix cost to admit a bounded continuation of the same committed source reader; verify counted leases, native identities, fresh progress, guards, locks and watcher delivery before acknowledgement.
+
+**Found.** The three-month chess source reaches its planned first-five-percent checkpoint with intact output; the unchanged full-source continuation and actual-attempt repeat-play comparison are running in counted CPU-only Gear 2.
+
+The source paused after the first transaction crossing its frozen boundary: 1,728,000 of 34,555,025 raw records. This is a planned source-row checkpoint, not a scientific sample result or a failure. All three sealed checkpoint files authenticate, SQLite quick-check returns ok, and the original owner and execution child have exited. The saved roster contains 10,000 distinct players with the original 7,000 blitz and 1,000 each bullet, rapid and classical quotas. No record or source month is dropped. Reading the checkpoint leaves its complete manifest unchanged.
+
+Native prefix accounting is 1,175.609375 CPU seconds. Its internal handler timer records 1,101.328125 CPU seconds and a same-phase linear projection of 22,023.39172024197 seconds. Doubling that latter figure for complete execution plus replay is approximately 44,046.78 CPU seconds; it is an operational projection, not a measured replay rate or completion guarantee. Setup, resume decompression and later-month rates remain uncertain. The admitted continuation permits at most 60,000 CPU seconds and twelve hours of wall time, within the unchanged CH family ceiling, with two numerical threads, 2 GiB projected memory, the 8-GiB output cap and original resource guards. The continuation changes only the source-row stopping quantum and native operational bounds. Every original source, design, implementation and qualification pin remains; the runtime separately authenticates the predecessor and copies its exact checkpoint before use. Transactions checkpoint every thousand processed records. Full production and fresh raw-source replay remain required before scientific interpretation; a guard or time boundary preserves a pause rather than licensing a partial result.
+
+The first owner inspection failed before admission because the private SQLite inspection call omitted its URI-mode flag. The owner corrected that flag and repeated the inspection successfully. No native attempt was created by the failed inspection, no database bytes changed, and the scientific worker was not repaired or retried. This administrative failure is retained separately from the normal producer checkpoint.
+
+**Queue and health.** The new chess owner and the ongoing actual-attempt repeat-play owner match their creation identities and hold valid counted leases. The latter keeps its actual 1/2/3 entry cohort, missing-record exclusions, original uncertainty and complete replay requirements. Resources, process snapshots and both exact plan hashes are attached. All 21 content locks pass. The watcher and current calendar are alive, watcher source matches, and there is no current transport error; historical delivery errors remain retained. The legacy September queue log is inactive history, not the current counted runtime. Events plus four hours of inactivity and one pending wake remain unchanged.
+
+The remaining six slots and sixteen-card ready-buffer target remain an explicit deficit. Other builder implementations have been delivered but still need owner review and source-specific admission; no independent unbuilt assignment is silently marked ready. IN8 and EM1 retain their source gaps; identity expansion remains storage-held, reader 128 remains memory-held and mood continuation awaits its original cost review. The original full comparison remains behind the back-half priorities. July and the withdrawn mood mechanism branch stay withdrawn. No GPU, paid or Ollama work is started.
+
+**Means.** Continue the unchanged source collection and full replay under the frozen scope and current guards. This operational checkpoint changes no scientific claim or theory standing. No tests were harvested from the operational wake. Results remain subject to complete internal filing and the final curator packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The three-month chess source reaches its planned first-five-percent checkpoint with intact output; the unchanged full-source continuation and actual-attempt repeat-play comparison are running in counted CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Complete the unchanged three-month source and independent replay; review remaining commissioned admissions in packet order.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH1_SOURCE_PREFIX_20261111.md.
+
 ### OPS-S15-W5-FRAME-RR1-ACTIVE-20261111
 
 **Hypothesis.** Can the preserved three-month chess source be read without modifying its database, and can the clarified repeat-play comparison continue inside its original bounds?

@@ -1385,3 +1385,5 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-12T01:31:43.906268+00:00 OPS-S15-W5-RR1-PREFIX-20261111: The actual-attempt repeat-play prefix reached its planned hundred-draw checkpoint with authenticated output; the unchanged complete re-read is ready for bounded continuation, with all missing-record exclusions retained.
 
 2026-11-12T01:45:27.543576+00:00 OPS-S15-W5-FRAME-RR1-ACTIVE-20261111: The repaired chess source reader passes complete native qualification and independent replay; the three-month source prefix and actual-attempt repeat-play continuation are running in counted CPU-only Gear 2.
+
+2026-11-12T02:09:55.805935+00:00 OPS-S15-W5-CH1-SOURCE-PREFIX-20261111: The three-month chess source reaches its planned first-five-percent checkpoint with intact output; the unchanged full-source continuation and actual-attempt repeat-play comparison are running in counted CPU-only Gear 2.
