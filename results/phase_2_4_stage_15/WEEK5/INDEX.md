@@ -1,5 +1,13 @@
 # Week 5 verified records
 
+**OPS-S15-W5-GO1-LONG-CONTINUATION-20261112:** [Record](GO1_LONG_CONTINUATION_20261112.md). The complete prescribed encoder cost prefix is authenticated and retained; a tested long continuation now runs from its saved vectors alongside chess verification in CPU-only Gear 2.
+
+**OPS-S15-W5-HEALTH-20261112-0230:** [Record](HEALTH_20261112_0230.md). Chess verification and the newly admitted encoder cost prefix are active in CPU-only Gear 2; native ownership, fresh outputs, locks and watcher delivery reconcile, while six slots remain unused.
+
+**OPS-S15-W5-GO1-LEXICAL-COMPLETE-20261112:** [Record](GO1_LEXICAL_COMPLETE_20261112.md). The unchanged lexical goal-reader bank has complete independent replay and authenticated source coverage; the two-reader scientific comparison remains unfinished.
+
+**OPS-S15-W5-GO1-ENCODER-QUALIFIED-20261112:** [Record](GO1_ENCODER_QUALIFIED_20261112.md). The actual goal encoder passes complete constructed execution and independent native replay after one separately preserved tokenizer-reference repair; its scientific reader remains unfinished.
+
 **OPS-S15-W5-EX3-COMPLETE-20261111:** [Record](EX3_COMPLETE_20261111.md). The complete public goal-task export and independent replay are verified; its text-free local ToMpathy copy matches every file hash and preserves the original source roster and ordered distractors.
 
 **OPS-S15-W5-GO1-R4-SOURCE-READY-20261111:** [Record](GO1_R4_SOURCE_READY_20261111.md). The revised goal-task interface passes complete native constructed replay, and the unchanged public-source roster is independently prepared; the identifier-only export is admitted while real encoder scoring remains separately gated.

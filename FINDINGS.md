@@ -1,5 +1,121 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-GO1-LONG-CONTINUATION-20261112
+
+**Hypothesis.** Can the already qualified encoder continue across its frozen source roster without making every small checkpoint a separate owner wake?
+
+**METHOD.** Authenticate the stopped first-five-percent attempt, every sealed vector and predecessor pin. Forecast complete execution plus fresh replay from measured new work, include fixed reader files in projected output, and review remaining card/family room. Test the exact original producer through a larger stopping quantum, independent replay and corruption refusals; run stopped-owner copy and fresh verification in separate native processes. Admit a separately pinned continuation with the original scorer and scientific parameters.
+
+**Found.** The complete prescribed encoder cost prefix is authenticated and retained; a tested long continuation now runs from its saved vectors alongside chess verification in CPU-only Gear 2.
+
+The table reports operational progress, forecast and limits. It contains no reader score or unfinished scientific effect.
+
+| Measured prefix or prospective bound | Value |
+|---|---:|
+| Complete prefix vectors | 143 of 2,855 |
+| Authenticated checkpoint files | 286 |
+| Producer prefix CPU-seconds | 1,036.765625 |
+| Complete attempt CPU-seconds | 1,052.890625 |
+| Supervisor allowance | 30 CPU-seconds |
+| Full execution plus fresh-replay rate forecast | 41,398.123907 CPU-seconds |
+| Twice that rate forecast | 82,796.247815 CPU-seconds |
+| New attempt CPU ceiling | 100,000 CPU-seconds |
+| New attempt wall ceiling | 12 hours |
+| New attempt output cap | 256 MiB |
+
+**Scope and cost.** This is the exact original 143-text prefix, not a chosen outcome sample. The original source, model manifest, full-text pooling, 49 distractors, author unit, reader and seed remain fixed. The pause is the expected producer quantum, not a failed queue or permission to change gear. Its owner and children have exited. All 286 sealed files and predecessor source pins match; original bytes remain untouched. Full-cost extrapolation may miss longer later documents and is a forecast, not a guarantee. Conservatively counting all prior GO-family use against GO1 gives 20,504.8125 CPU-seconds at admission; that plus the entire new 100,000 cap and supervisor allowance stays below the original 150,000 card limit. Family and campaign room independently pass. Resource and accounting guards remain authoritative.
+
+**Output-sizing correction before launch.** The first long-run proposal allowed 100 MiB but counted only vector files. The completed lexical bank supplies the missing fixed reader footprint: 38,510,149 bytes per pass. The largest observed vector/seal pair across the unchanged population plus those files and full replay projects 136,929,618 bytes, before a ten-MiB margin. The original long proposal was never admitted. A separate committed design sets the new attempt to 256 MiB; the prefix's original cap and all existing workers are unchanged. Both prospective designs remain. This applies the existing full-output-footprint lesson without deleting evidence or weakening runtime enforcement.
+
+**Qualification and continuation.** Twenty-five targeted checks pass, including the actual R4 producer's constructed pause, larger-quantum resume, unchanged retained vectors and full score replay. The separate native fixture proves stopped-owner identity, complete immutable copies and fresh verification across all five explicitly scoped modules. It adds no model or corpus call. Resume version 4 adds only positive `max_new_texts` and `max_cpu_seconds` stopping controls for the exact R4 module; unknown modules and changed scientific parameters still refuse. The child and supervisor successors differ only in imported adapter/child identities, independently checked by exact source comparison. Original versions stay unchanged. The actual model's separate completed qualification remains the numerical proof; the continuation tests do not claim a new empirical result.
+
+The new counted owner is PID 299776 with creation ticks 134389540375086753 and plan SHA-256 `a3838510be8d626e2ef5e76c5b67035f02b196dc63afecc957d21d82d7e8b3c6`. It has copied all 286 authenticated files and is making new progress. The producer now permits the complete unchanged text count, checkpoints every complete vector and honors the original resource-yield checks; fresh verification follows the complete bank. Its local stopping bound is 41,400 CPU-seconds within the twelve-hour outer queue. This removes routine tiny-quantum pauses; terminal, failure and actual guard events remain registered. No new timer is added.
+
+**Current queue and delivery.** Chess verification remains active. Two counted slots are occupied and six remain idle, with delivered-card owner review and the previously recorded source/qualification holds still preventing full use; the ready buffer is deficient. All 21 locks pass. The frozen post-launch snapshot has 46.32 GiB physical RAM, 24.65 GiB commit headroom and 39.77 GiB free disk. Matching native leases, current progress and watcher source identity pass. GPU, Ollama and paid work stay off. Events plus four hours of inactivity and single-pending wake delivery are unchanged. The earlier health row is the pre-continuation snapshot, not a current claim that the prefix is still running.
+
+**Means and next work.** A long admitted queue now owns the remaining original encoder work. The lexical bank is complete, but no scientific contrast is reported until the encoder bank, full independent replay and original collector finish. Six idle slots remain an operational deficiency, not hidden capacity. No new tests are harvested from the wake, no theory standing changes, and final-packet obligations remain. Full internal filing precedes ACK of the prefix pause.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete prescribed encoder cost prefix is authenticated and retained; a tested long continuation now runs from its saved vectors alongside chess verification in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Let the complete encoder bank and fresh replay finish, then run the unchanged two-reader collector; review the next delivered card.; public scientific claim unchanged; curator decision required: No new decision. Detail: GO1_LONG_CONTINUATION_20261112.md.
+
+### OPS-S15-W5-HEALTH-20261112-0230
+
+**Hypothesis.** Is the authorized queue making genuine progress, and can an existing admission hold be removed without changing gear, scope or wake policy?
+
+**METHOD.** Inspect native process creation identities, child CPU use and priority, matching counted-slot leases, output timestamps, attempt accounting, resource floors, immutable locks, current calendar and dispatch identities, durable watcher source identity and native delivery reconciliation. Review the delivered-card holds. Qualify the outstanding real encoder, retain its compatibility failure and recovery, and admit the existing measured prefix before this health landing.
+
+**Found.** Chess verification and the newly admitted encoder cost prefix are active in CPU-only Gear 2; native ownership, fresh outputs, locks and watcher delivery reconcile, while six slots remain unused.
+
+The table is the frozen health snapshot at 10:30 UTC on November 12. Identity means Windows PID plus creation ticks; progress is operational and supplies no scientific score.
+
+| Worker | Native owner | Active phase | Fresh output evidence |
+|---|---|---|---|
+| Three-month chess source | 299444 / 134389228364595885 | Independent verification | Independent sampling progress and SQLite writes younger than one second at the extended inspection |
+| Goal encoder prefix | 289296 / 134389529766476955 | Original encoder execution | New sealed vector and vector-progress writes younger than one second |
+
+The actual children are chess verifier 303044 / 134389423414696974 and encoder 141448 / 134389529813334508. Both have below-normal priority and all four observed numerical-thread environment limits set to two. Their supervisors have matching live leases. Chess's older execute-progress file is historical to its completed execution phase; live verifier writes and increasing CPU establish current progress. Chess retains its 60,000 CPU-second, twelve-hour and eight-GiB output limits; the encoder prefix retains 7,200 CPU-seconds, four hours, 100 MiB output and a 143-text or 1,800 producer-CPU-second quantum. Qualification repair and lexical completion are fully recorded separately in this same pass.
+
+**Resources, locks and failures.** Available physical RAM is 46.96 GiB, Windows commit headroom 25.27 GiB and free disk 39.78 GiB. Existing admission and runtime guards remain active. All 21 content locks pass. There is no new failure on either active worker. The original encoder qualification failure is retained as engineering and resolved by its separately completed repair; ended identities are checked before its successor starts. Historical resource pauses and failed controls remain preserved. GPU, Ollama and paid work remain off; no intentional GPU pause is treated as queue failure.
+
+**Delivery.** The actual watcher is 306772 / 134389316453244200 with matching source hash and no current watch error. The current calendar and original dispatch coordinator remain live, with current heartbeats; the superseded second coordinator is complete and exited. Native queue reconciliation reports no queued duplicate or unrecognized wake. This health event is already delivered to the active owner; three later terminal events remain durably pending while it awaits ACK. Historical notification errors are retained and are not a current delivery failure. Configuration remains events plus 14,400 seconds of owner inactivity, zero routine interval, one pending wake, no fixed health schedule and no ETA plan. No watcher restart or schedule change is required.
+
+**Runnable work and unused capacity.** Two of eight counted slots are occupied; six are idle and the sixteen-card ready buffer remains deficient. This is recorded owner-admission capacity loss, not a claim that all eight slots are working. The reviewed lexical bank completed; the real-encoder admission hold was removed and its prescribed prefix started. Further encoder continuation awaits measured prefix cost. CH7 awaits complete three-month source and its reviewed native path. Delivered laughter, trait, export and reader-memory implementations still require their named owner review, design/source closure and applicable native proofs; mood work retains its original failed-control restrictions. IN8 lacks its named source and terms, EM1 retains its original-prefix definition hold, and storage-gated work stays held. July and MD3.m remain withdrawn. Existing builder deliveries are preserved; no new unbuilt assignment is established by this wake, so no new agent is spawned. No accepted gate or restriction is waived merely to fill slots.
+
+**Means.** The liveness inspection and authorized recovery are complete. This is operational evidence, not a scientific verdict. No tests were harvested from the wake; the qualification implements the already commissioned GO1 design. All scientific standings and the final-packet obligation remain unchanged. Full write-through, exact event checks and generated-view refresh precede acknowledgement.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Chess verification and the newly admitted encoder cost prefix are active in CPU-only Gear 2; native ownership, fresh outputs, locks and watcher delivery reconcile, while six slots remain unused.; project meaning: scoped operational record; next engineering obligation: Land the measured encoder prefix, continue chess verification and review the next delivered card in dispatch order.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261112_0230.md.
+
+### OPS-S15-W5-GO1-LEXICAL-COMPLETE-20261112
+
+**Hypothesis.** Can the lexical comparator score the complete original public-document task reproducibly without changing its candidate roster?
+
+**METHOD.** Bind the committed R4 design and independently completed source preparation. Run the original lexical scorer over every prepared query, then reproduce every source row, allocation and score in a fresh native verifier. Authenticate completion inventory and all source pins before accepting the bank.
+
+**Found.** The unchanged lexical goal-reader bank has complete independent replay and authenticated source coverage; the two-reader scientific comparison remains unfinished.
+
+The table reports execution coverage and cost, not reader accuracy or an unfinished scientific contrast.
+
+| Complete bank | Value |
+|---|---:|
+| Original queries | 1,431 |
+| Candidates per query | 50 |
+| Completion-bound files | 72 |
+| Measured CPU-seconds, including replay | 35.25 |
+| Supervisor allowance, CPU-seconds | 30 |
+| Wall-seconds | 55.237739 |
+
+**Integrity and limits.** Every saved score reproduces, source and allocation hashes match, source pins are unchanged, and the native owner and children have exited with no failure or pause. Total charged cost is 65.25 CPU-seconds within the original 7,200 attempt bound and shared card/family accounting. The saved bank stays in ignored raw storage. No scientific accuracy, partial comparison or per-artifact score is reported. No source, estimator, seed or candidate ordering was changed.
+
+**Means and next work.** The comparator bank is ready for the original collector once the complete encoder bank and its independent replay exist. The complete two-reader primary still requires matching support, the original author-cluster bootstrap and amendment P sensitivity reporting. No scientific interpretation or canonical theory change is licensed by this operation. Full internal filing precedes ACK.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged lexical goal-reader bank has complete independent replay and authenticated source coverage; the two-reader scientific comparison remains unfinished.; project meaning: scoped operational record; next engineering obligation: Retain this complete bank for the unchanged two-reader collector after encoder completion.; public scientific claim unchanged; curator decision required: No new decision. Detail: GO1_LEXICAL_COMPLETE_20261112.md.
+
+### OPS-S15-W5-GO1-ENCODER-QUALIFIED-20261112
+
+**Hypothesis.** Does the original goal-task encoder process all text and safely reuse its saved vectors under the installed runtime?
+
+**METHOD.** Run the unchanged pretrained CPU encoder and original vector-cache path on empty, short, duplicated, multilingual and multi-chunk constructed strings. Pause after two unique vectors, authenticate and resume, forbid model calls on complete-cache reentry, and compare all vectors against an independent token-partition and pooling reference. Reject changed sealed bytes, changed bindings and model revision. Repeat the entire qualification in a separate native verifier.
+
+**Found.** The actual goal encoder passes complete constructed execution and independent native replay after one separately preserved tokenizer-reference repair; its scientific reader remains unfinished.
+
+The table separates the failed original reference from the successful compatibility repair. Charges include the fixed supervisor allowance in addition to measured execution and verification.
+
+| Attempt | Disposition | Measured CPU-seconds | Supervisor allowance |
+|---|---|---:|---:|
+| Original reference | Engineering failure; retained | 35.937500 | 30 |
+| Version 2 reference | Complete native execution and fresh replay | 65.515625 | 30 |
+
+**Failure and repair.** The original independent reference called `build_inputs_with_special_tokens`, which the installed tokenizer backend does not expose. Production encoding and cache resume ran before that exception; they did not grant qualification. Original code, plan, stderr and failed attempt remain intact. Repair one is a separate module and committed design using the installed full-token call's explicit special-token mask. It requires exactly one boundary token at each end. Production reader, pooling, input strings, numerical tolerances and all scientific definitions remain unchanged. Ten original focused checks passed but did not exercise that real backend call; the successor's twelve checks add the exact interface regression and malformed-template refusal. This is the existing native-interface verification lesson, not a scientific null.
+
+**Complete validation.** The successful attempt uses four unique constructed strings, including an exact duplicate and a five-chunk long case. All full vectors agree with the independent reference within absolute tolerance one millionth, and fresh native replay reproduces stored vectors exactly. The first-chunk-only control fails as required; corrupt seal, binding and manifest cases refuse. All 92 completion-bound files and original source pins authenticate; owner and children have exited. Actual libraries are NumPy 2.4.6, tokenizers 0.22.2, Torch 2.13.0+cu126 and Transformers 5.14.1. The installed Torch build does not imply GPU use: inference explicitly uses CPU, local assets and two numerical threads. The original manifest is retained unchanged. The two attempts charge 161.453125 CPU-seconds altogether, within GO1 and GO ceilings.
+
+**Means and next work.** This qualifies the actual encoding and cache implementation, not goal inference or a corpus effect. The complete source preparation fixes 143 texts as the first five percent of 2,855 unique encoder inputs. That prescribed measured prefix is now admitted separately in a counted slot; full continuation still requires authenticated checkpoints, observed cost and resource review. The two-reader contrast remains unfinished. No p-value, scientific claim, theory standing or new test is harvested from this operational wake. Full internal filing precedes both attempt acknowledgements.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The actual goal encoder passes complete constructed execution and independent native replay after one separately preserved tokenizer-reference repair; its scientific reader remains unfinished.; project meaning: scoped operational record; next engineering obligation: Measure the frozen encoder prefix, preserve complete checkpoints and admit continuation only within original bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: GO1_ENCODER_QUALIFIED_20261112.md.
+
 ### OPS-S15-W5-EX3-COMPLETE-20261111
 
 **Hypothesis.** Can the engine receive the original public-document goal task as identifiers and offsets, with the same sources and candidate ordering, without copying proposal text or changing the task?

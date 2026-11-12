@@ -2,7 +2,7 @@
 
 Generated from the reviewed register, not inferred from runs. Check freshness with `python tools/record_views.py check`.
 
-Coverage: 1409 legacy records retained; 12 reviewed annotations; 1397 unreviewed. This pilot is not an exhaustive theory synthesis.
+Coverage: 1413 legacy records retained; 12 reviewed annotations; 1401 unreviewed. This pilot is not an exhaustive theory synthesis.
 
 Families group individual claims; they do not share one voted standing. Dates distinguish standing changes from annotation review. Unknown dates are explicit. A control/source/dependency failure can invalidate evidence immediately; theory interpretation remains curator-owned.
 
