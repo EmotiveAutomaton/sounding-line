@@ -1,5 +1,172 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112
+
+**Hypothesis.** Can the newly qualified scoring queue begin on the complete original source while preserving scope, cost limits and the current Gear 2 allocation?
+
+**METHOD.** Bind the complete source terminal and source roster, committed queue design, native qualification chain, maximum-unit overhead proof and complete runtime source closure. Check actual resource floors, family charges, counted leases and native ownership before launch. Admit only the first closed unit crossing five percent of the original position roster, and inspect fresh process, output and watcher evidence afterward.
+
+**Found.** The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification.
+
+The admitted original roster has 398,065 positions from 10,000 unique players. The prefix boundary is 19,904 positions, preserving original order and all three months; it is an operational prefix, not a scientific subsample. Each unit holds at most 64 positions, at one million nodes with the unchanged engine. Two single-thread engine processes run below normal priority. Each unit completes a separately started native replay before its cursor advances. Final queue authentication re-traverses original source ordinals and checks every sealed artifact. No partial interval can stand for the full population.
+
+The attempt is capped at 60,000 native CPU seconds, twelve hours wall time and 8 GiB output, with 2 GiB projected memory, two numerical threads and all original physical-RAM, Windows commit and disk guards. The queue reserves final-authentication time. The constructed rate is recorded only as qualification context, not a measured real-source forecast. Full continuation requires the actual source-prefix cost and current family headroom. The active first unit has already closed with exact native replay; the next unit is producing fresh progress. The goal-reader encoder's complete execution is now in independent verification, with fresh replay-vector progress; its finished execution progress is correctly treated as historical.
+
+Both owners and leases match native PID/creation identities. All research descendants inspected are below normal priority. Available physical RAM, commit headroom, disk, exact plan hashes and current CH charges are attached. All 21 locks pass. The durable watcher and current calendar are alive with matching source and fresh scan; no current delivery inspection error is reported. Historical delivery errors and intentionally retired infrastructure remain retained. Events plus four hours of inactivity and one pending wake remain unchanged.
+
+Two of eight counted slots are occupied; six are idle and the sixteen-card ready buffer remains deficient. No other reviewed, native-qualified and source-admissible staged plan was identified in the current delivered queue. Remaining builder implementations are owner-review/admission backlog or retain their named source/control/resource gates. The selected reader dependency, language-source gaps and identity storage restriction are not relaxed to fill slots. No fresh delegation is needed merely to re-inspect delivered implementations; the cause of the builder deficit is the owner-admission backlog. July and the withdrawn mood mechanism branch remain withdrawn. This is a recorded utilization defect, not a claim that the machine is full.
+
+**Means and next.** Preserve both healthy active jobs and use their registered terminals. On the chess prefix event, authenticate all output and independent unit replay, reconcile actual cost and admit an unchanged continuation if eligible. Collect the goal comparison only after its encoder replay is complete. Finish remaining owner reviews in packet order; all scientific comparisons and the final curator packet retain their gates. No new tests, gear, spending or delegation are inferred from this wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification.; project meaning: scoped operational record; next engineering obligation: Inspect the real-source chess cost prefix and completed goal-reader replay; continue owner admissions in packet order.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH1_N_SCORING_ADMISSION_20261112.md.
+
+### OPS-S15-W5-CH-N-UNIT64-20261112
+
+**Hypothesis.** Can a complete maximum-size queue unit retain exact independent replay while leaving the required time margin for checkpoint work?
+
+**METHOD.** Repeat the same eight legal constructed boards across one 64-position unit with distinct source ordinals. Run the unchanged scorer and separate native replay in a counted attempt, authenticate every sealed artifact and known answer, inspect actual native exits and all-descendant accounting, and measure the complete unit from directory creation to immutable sealing. Subtract the two native process lifetimes through their closed-Job usage receipts to measure the remaining setup/seal overhead.
+
+**Found.** The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately.
+
+All 151 terminal-bound files and every source pin authenticate. All 64 positions and original ordinals have complete separate native engine replay. Every repeated single-legal-move and unique-mate known answer passes. Owners and descendants are stopped and the counted lease is released. This maximum-size test supplements the complete execution-pause, final-verifier-pause and resumed-completion chain; it replaces none of those records.
+
+Table: observed timing and accounting for the constructed maximum-size unit. Observed overhead is a measurement under this workload, not a universal guarantee for every host condition.
+
+| Quantity | Seconds |
+|---|---:|
+| Complete unit, creation through seal | 85.01254272460938 |
+| Native execute lifetime through closed-Job receipt | 42.153749227523804 |
+| Native replay lifetime through closed-Job receipt | 42.138421297073364 |
+| Remaining input, setup and seal overhead | 0.720372200012207 |
+| Allowed overhead margin | 40 |
+| Outer native CPU | 151.828125 |
+| Nested CPU, already included in outer CPU | 149.1875 |
+| Supervision allowance | 30 |
+
+The observed overhead is below forty seconds; adding it to the existing 1,760-second combined child supervision/grace bound gives 1760.7203722000122 seconds. The actual unit took about eighty-five seconds. The complete outer attempt used 108.08762459992431 wall seconds and is charged 181.828125 CPU seconds. Four qualification attempts together use 182.90625 native CPU seconds, plus 120 seconds of supervision. The seven pre-existing focused checks passed separately with measured 8.0625 CPU seconds; they are not relabelled native engine proof.
+
+**Means.** The queue is qualified for its bounded operational role. Production keeps the unchanged child timeouts, cooperative yield, resource guards, native ownership and exact replay. This observed constructed rate does not establish cost or an effect on the human-source roster; its first-five-percent prefix must measure that cost in-slot. Complete interval coverage and analytical collection remain required. No theory claim changes and no new test was harvested.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately.; project meaning: scoped operational record; next engineering obligation: Measure the unchanged real-source scoring prefix, preserving every replay and guard.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_N_UNIT64_20261112.md.
+
+### OPS-S15-W5-CH-N-COMPLETE-20261112
+
+**Hypothesis.** Can one counted chess queue preserve exact scores, independent native replay and all accounting across execution and verifier pauses?
+
+**METHOD.** Use the reviewed eight-board constructed fixture, including a single legal move and a unique mate in one, with the original one-million-node scorer. Inspect complete checkpoint or terminal manifests, independently replayed unit seals, distinct native PID/creation identities, all-descendant Windows Job usage, immutable predecessor copies, source ordinals and released counted leases. No human position is used for this qualification.
+
+**Found.** The constructed chess pause-and-resume chain completes full roster authentication with separate native engine replay for every scored position.
+
+The third counted attempt reuses only completed, independently replayed units whose complete copied bytes authenticate. It traverses the original roster again and finishes the remaining verifier unit. The complete receipt affirms exact interval coverage, every score covered, original roster ordinals and separate native engine replay. No second whole-queue engine pass is claimed or needed: each score already has its separately started native replay. Original execution and verifier pauses, copied manifests, all native identities and charges remain preserved. All attempt owners and descendants exited and every lease is released.
+
+Table: this attempt's operational counts and charge. Closed positions have already passed their own fresh native engine replay; that count does not itself establish final queue verification.
+
+| Quantity | Value |
+|---|---:|
+| Closed constructed positions | 8 |
+| Native CPU seconds | 2.265625 |
+| Supervision allowance seconds | 30 |
+| Charged CPU seconds | 32.265625 |
+
+Single-legal-move and unique-mate answers pass. Across the complete three-attempt chain, the 24.484375 seconds in unique nested native Jobs are subdivisions of 31.078125 outer native CPU seconds, not additional charges. The chain is charged 121.078125 seconds including all three allowances. Duplicate copies of earlier nested receipts are counted once. The supplemental maximum-size unit qualification and real-source cost measurement remain separate obligations.
+
+**Means.** This is constructed instrument evidence, with no inference about people or chess effects. Preserve every attempt and continue the separately recorded native qualification/admission. No tests were harvested from the operational wake; the fixture was already commissioned. Scientific standing and final-packet policy are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed chess pause-and-resume chain completes full roster authentication with separate native engine replay for every scored position.; project meaning: scoped operational record; next engineering obligation: Retain the complete qualification chain and measure maximum-unit overhead before production.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_N_COMPLETE_20261112.md.
+
+### OPS-S15-W5-CH-N-VERIFY-PAUSE-20261112
+
+**Hypothesis.** Can one counted chess queue preserve exact scores, independent native replay and all accounting across execution and verifier pauses?
+
+**METHOD.** Use the reviewed eight-board constructed fixture, including a single legal move and a unique mate in one, with the original one-million-node scorer. Inspect complete checkpoint or terminal manifests, independently replayed unit seals, distinct native PID/creation identities, all-descendant Windows Job usage, immutable predecessor copies, source ordinals and released counted leases. No human position is used for this qualification.
+
+**Found.** The constructed continuation completes execution and reaches its planned final-verifier pause; the preserved execution and verification checkpoints authenticate.
+
+The last two positions complete fresh native engine replay, giving four sealed units covering all eight constructed positions. Final roster-and-seal verification authenticates the first three units and pauses at its six-position quantum, with one unit still to authenticate. This does not credit an unfinished verifier. The next counted attempt must retain the complete copier manifest and re-traverse original roster ordinals. Every predecessor byte remains unchanged; all owners and recorded descendants are stopped and leases released.
+
+Table: this attempt's operational counts and charge. Closed positions have already passed their own fresh native engine replay; that count does not itself establish final queue verification.
+
+| Quantity | Value |
+|---|---:|
+| Closed constructed positions | 8 |
+| Native CPU seconds | 9.71875 |
+| Supervision allowance seconds | 30 |
+| Charged CPU seconds | 39.71875 |
+
+Single-legal-move and unique-mate answers pass. Across the complete three-attempt chain, the 24.484375 seconds in unique nested native Jobs are subdivisions of 31.078125 outer native CPU seconds, not additional charges. The chain is charged 121.078125 seconds including all three allowances. Duplicate copies of earlier nested receipts are counted once. The supplemental maximum-size unit qualification and real-source cost measurement remain separate obligations.
+
+**Means.** This is constructed instrument evidence, with no inference about people or chess effects. Preserve every attempt and continue the separately recorded native qualification/admission. No tests were harvested from the operational wake; the fixture was already commissioned. Scientific standing and final-packet policy are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed continuation completes execution and reaches its planned final-verifier pause; the preserved execution and verification checkpoints authenticate.; project meaning: scoped operational record; next engineering obligation: Retain the complete qualification chain and measure maximum-unit overhead before production.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_N_VERIFY_PAUSE_20261112.md.
+
+### OPS-S15-W5-CH-N-EXECUTE-PAUSE-20261112
+
+**Hypothesis.** Can one counted chess queue preserve exact scores, independent native replay and all accounting across execution and verifier pauses?
+
+**METHOD.** Use the reviewed eight-board constructed fixture, including a single legal move and a unique mate in one, with the original one-million-node scorer. Inspect complete checkpoint or terminal manifests, independently replayed unit seals, distinct native PID/creation identities, all-descendant Windows Job usage, immutable predecessor copies, source ordinals and released counted leases. No human position is used for this qualification.
+
+**Found.** The constructed chess queue reaches its planned execution pause after three fully replayed units; every saved byte and native exit authenticate.
+
+Three units of two positions are fully recomputed by distinct native replay processes before the queue cursor advances. Six positions are closed; two remain unrun in this attempt. This is the planned execution checkpoint, not a failed gate or a complete eight-position queue. The continuation copies the complete authenticated output into a new counted attempt. Its original owner and all recorded descendants are stopped, and its lease is released.
+
+Table: this attempt's operational counts and charge. Closed positions have already passed their own fresh native engine replay; that count does not itself establish final queue verification.
+
+| Quantity | Value |
+|---|---:|
+| Closed constructed positions | 6 |
+| Native CPU seconds | 19.09375 |
+| Supervision allowance seconds | 30 |
+| Charged CPU seconds | 49.09375 |
+
+Single-legal-move and unique-mate answers pass. Across the complete three-attempt chain, the 24.484375 seconds in unique nested native Jobs are subdivisions of 31.078125 outer native CPU seconds, not additional charges. The chain is charged 121.078125 seconds including all three allowances. Duplicate copies of earlier nested receipts are counted once. The supplemental maximum-size unit qualification and real-source cost measurement remain separate obligations.
+
+**Means.** This is constructed instrument evidence, with no inference about people or chess effects. Preserve every attempt and continue the separately recorded native qualification/admission. No tests were harvested from the operational wake; the fixture was already commissioned. Scientific standing and final-packet policy are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed chess queue reaches its planned execution pause after three fully replayed units; every saved byte and native exit authenticate.; project meaning: scoped operational record; next engineering obligation: Retain the complete qualification chain and measure maximum-unit overhead before production.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_N_EXECUTE_PAUSE_20261112.md.
+
+### OPS-S15-W5-CH1-SOURCE-COMPLETE-20261112
+
+**Hypothesis.** Can the original three-month chess sample be collected completely and independently reproduced, without replacing missing records or changing its player quotas?
+
+**METHOD.** Authenticate all terminal-bound files and every frozen source and implementation pin. Inspect the completed raw-source replay, which starts at ordinal zero and excludes execution candidates. Verify stopped native owners and children, preserved predecessor checkpoints and the complete aggregate source census. Review the already delivered checkpointed scoring queue and exercise its constructed native pause/replay chain before any real-source scoring.
+
+**Found.** The complete three-month chess source and independent raw replay authenticate; downstream engine scoring remains subject to its native queue qualification and cost admission.
+
+All 67 completion-bound files authenticate. Independent replay covers the full original 34,555,025 raw source records from April, May and June 2017, starts at ordinal zero and rebuilds the source rather than using execution candidates. The owner and every recorded child have exited. The final source contains 10,000 unique selected players and 398,065 positions. All original control quotas are filled, with no shortfall or reallocation. Eligibility counts below refer to uniquely assigned players; month appearances are a different denominator and are retained separately in the aggregate receipt.
+
+Table: each row is one original time control. Eligible means distinct players assigned to that control; selected is the frozen quota filled. Month columns show selected players assigned to each month, not repeat appearances.
+
+| Time control | Eligible | Selected | April | May | June |
+|---|---:|---:|---:|---:|---:|
+| Blitz | 80,444 | 7,000 | 2,391 | 2,178 | 2,431 |
+| Bullet | 25,926 | 1,000 | 347 | 308 | 345 |
+| Classical | 5,679 | 1,000 | 367 | 299 | 334 |
+| Rapid | 57,436 | 1,000 | 353 | 311 | 336 |
+
+The collector records 14,340 selected player/game encounters with no post-opening moves and two retained players with fewer than ten usable games. It keeps at most four post-opening moves per retained game and ten games per player; some games supply fewer moves. The resulting 398,065 positions are 1,935 below the nominal 400,000 maximum. This is observed availability, not a replacement sample, a reduced quota, an engine failure or a scientific effect. No single exclusion counter is claimed to explain that entire difference. Full time-control, month and rating-band aggregates remain attached; player identifiers and positions remain in ignored storage.
+
+Table: CPU charges for this source sampling lineage. Each attempt is charged its native all-descendant CPU once, plus the existing thirty-second supervision allowance. Earlier census, merge, fixtures and retained failures remain in campaign accounting and are not erased by this subtotal.
+
+| Attempt | Native CPU seconds | Allowance | Charged CPU seconds |
+|---|---:|---:|---:|
+| First planned source prefix | 1,175.609375 | 30 | 1,205.609375 |
+| Full continuation and independent replay | 39,625.921875 | 30 | 39,655.921875 |
+| Source sampling lineage | 40,801.53125 | 60 | 40,861.53125 |
+
+The continuation used 41,156.974746 wall seconds, inside its twelve-hour bound and 60,000-CPU-second cap. Its original source archives, merged frame, salt, design and qualification remain pinned. The prefix and its original accounting remain intact. No guard, source gate or scientific criterion was weakened.
+
+**Disposition.** Source verification releases the sampling prerequisite. It does not make chess effects available: complete fixed-node scoring, complete interval coverage, independent engine replay, April-only temperature calibration, held-out-month entropy treatment and the original analysis controls still precede scientific claims. July and the two cross-era comparisons remain withdrawn. The native queue qualification is an instrument operation; its pauses, complete continuation and maximum-unit overhead test are separately filed. The goal-reader encoder continues in CPU-only Gear 2. Other slots remain unused while delivered implementations require owner admission or their stated source/control/resource prerequisites; this is an admission backlog, not a fully stocked queue. No new builder assignment is inferred from this source event.
+
+**Means.** The source is complete and reproducible at its frozen scope. Continue the commissioned scoring admission in packet order, retain all downstream limits, and carry this source census into the final curator packet. No scientific estimate or theory status changes. No tests were harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete three-month chess source and independent raw replay authenticate; downstream engine scoring remains subject to its native queue qualification and cost admission.; project meaning: scoped operational record; next engineering obligation: Qualify and admit complete fixed-node chess scoring; retain April calibration and all original analysis controls.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH1_SOURCE_COMPLETE_20261112.md.
+
 ### OPS-S15-W5-GO1-D-ADMISSION-20261112
 
 **Hypothesis.** Can the registered branch begin within the original authority, with complete evidence and resource accounting?

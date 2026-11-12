@@ -1,5 +1,17 @@
 # Week 5 verified records
 
+**OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112:** [Record](CH1_N_SCORING_ADMISSION_20261112.md). The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification.
+
+**OPS-S15-W5-CH-N-UNIT64-20261112:** [Record](CH_N_UNIT64_20261112.md). The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately.
+
+**OPS-S15-W5-CH-N-COMPLETE-20261112:** [Record](CH_N_COMPLETE_20261112.md). The constructed chess pause-and-resume chain completes full roster authentication with separate native engine replay for every scored position.
+
+**OPS-S15-W5-CH-N-VERIFY-PAUSE-20261112:** [Record](CH_N_VERIFY_PAUSE_20261112.md). The constructed continuation completes execution and reaches its planned final-verifier pause; the preserved execution and verification checkpoints authenticate.
+
+**OPS-S15-W5-CH-N-EXECUTE-PAUSE-20261112:** [Record](CH_N_EXECUTE_PAUSE_20261112.md). The constructed chess queue reaches its planned execution pause after three fully replayed units; every saved byte and native exit authenticate.
+
+**OPS-S15-W5-CH1-SOURCE-COMPLETE-20261112:** [Record](CH1_SOURCE_COMPLETE_20261112.md). The complete three-month chess source and independent raw replay authenticate; downstream engine scoring remains subject to its native queue qualification and cost admission.
+
 **GO1 R4 handoff copied:** [Hash receipt](GO1_R4_HANDOFF_COPY_20261112.json). Four reviewed aggregate files are locally copied to ToMpathy; no recipient commit, push or uptake test.
 
 **OPS-S15-W5-GO1-D-ADMISSION-20261112:** [Record](GO1_D_ADMISSION_20261112.md). The predeclared other-category goal comparison is admitted in CPU-only Gear 2; its lexical bank is independently complete and the encoder continues alongside chess verification.

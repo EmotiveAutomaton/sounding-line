@@ -1,5 +1,20 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112: The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification.
+
+- [x] OPS-S15-W5-CH-N-UNIT64-20261112: The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately.
+
+- [x] OPS-S15-W5-CH-N-COMPLETE-20261112: The constructed chess pause-and-resume chain completes full roster authentication with separate native engine replay for every scored position.
+
+- [x] OPS-S15-W5-CH-N-VERIFY-PAUSE-20261112: The constructed continuation completes execution and reaches its planned final-verifier pause; the preserved execution and verification checkpoints authenticate.
+
+- [x] OPS-S15-W5-CH-N-EXECUTE-PAUSE-20261112: The constructed chess queue reaches its planned execution pause after three fully replayed units; every saved byte and native exit authenticate.
+
+- [x] CH1 scoring qualification after OPS-S15-W5-CH1-SOURCE-COMPLETE-20261112: Native pause/replay chain and maximum-unit overhead pass; original first-five-percent scoring prefix admitted (OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112).
+- [ ] CH1 scoring continuation: Inspect actual complete cost prefix; continue unchanged original positions if cost/resources admit. Full interval coverage, April-only collector native qualification and original analysis controls precede chess claims.
+
+- [x] OPS-S15-W5-CH1-SOURCE-COMPLETE-20261112: The complete three-month chess source and independent raw replay authenticate; downstream engine scoring remains subject to its native queue qualification and cost admission.
+
 - [x] OPS-S15-W5-GO1-D-ADMISSION-20261112: The predeclared other-category goal comparison is admitted in CPU-only Gear 2; its lexical bank is independently complete and the encoder continues alongside chess verification.
 
 - [x] OPS-S15-W5-GO1-ENCODER-COMPLETE-20261112: The complete original encoder bank and independent replay authenticate; the registered two-reader primary is separately complete and filed.

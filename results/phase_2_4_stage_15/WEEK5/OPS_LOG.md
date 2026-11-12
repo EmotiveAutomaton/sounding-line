@@ -1417,3 +1417,15 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-12T12:51:46.054141+00:00 S15-W5-GO1-R4-PRIMARY-20261112: complete scientific filing, preserved earlier-evidence crosswalk and reviewed aggregate handoff prepared. Independent bootstrap arithmetic passes; canonical theory is unchanged. The selected original branch is running; owner-admission backlog and six idle slots remain explicit.
 
 2026-11-12T12:55:33.524797+00:00 GO1 R4 reviewed handoff: four aggregate files copied to the approved local ToMpathy docs destination; every hash matches. No recipient commit, push or scientific admission.
+
+2026-11-12T13:57:31.579132+00:00 OPS-S15-W5-CH1-SOURCE-COMPLETE-20261112: The complete three-month chess source and independent raw replay authenticate; downstream engine scoring remains subject to its native queue qualification and cost admission.
+
+2026-11-12T14:06:08.565731+00:00 OPS-S15-W5-CH-N-EXECUTE-PAUSE-20261112: The constructed chess queue reaches its planned execution pause after three fully replayed units; every saved byte and native exit authenticate.
+
+2026-11-12T14:06:40.991256+00:00 OPS-S15-W5-CH-N-VERIFY-PAUSE-20261112: The constructed continuation completes execution and reaches its planned final-verifier pause; the preserved execution and verification checkpoints authenticate.
+
+2026-11-12T14:07:14.694697+00:00 OPS-S15-W5-CH-N-COMPLETE-20261112: The constructed chess pause-and-resume chain completes full roster authentication with separate native engine replay for every scored position.
+
+2026-11-12T14:07:48.108063+00:00 OPS-S15-W5-CH-N-UNIT64-20261112: The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately.
+
+2026-11-12T14:08:21.899701+00:00 OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112: The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification.
