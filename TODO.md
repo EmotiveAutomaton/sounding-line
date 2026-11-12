@@ -1,5 +1,8 @@
 # TODO: the study queue
 
+- [x] S15-W5-RR1-ACTUAL-ATTEMPTS-20261111: Complete actual-attempt cohort, every applicable panel and independent replay filed.
+- [ ] S15-W5-RR1-ACTUAL-ATTEMPTS-20261111 filing: Carry the complete slopes, contrasts, exclusions and reference limits into H12-T6 in the final packet; retain the original MD3 verdicts and complete the already commissioned chess counterpart after its source admission.
+
 - [x] OPS-S15-W5-CH1-SOURCE-PREFIX-20261111: The three-month chess source reaches its planned first-five-percent checkpoint with intact output; the unchanged full-source continuation and actual-attempt repeat-play comparison are running in counted CPU-only Gear 2.
 
 - [x] OPS-S15-W5-FRAME-RR1-ACTIVE-20261111: The repaired chess source reader passes complete native qualification and independent replay; the three-month source prefix and actual-attempt repeat-play continuation are running in counted CPU-only Gear 2.

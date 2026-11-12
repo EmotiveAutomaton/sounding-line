@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**S15-W5-RR1-ACTUAL-ATTEMPTS-20261111:** [Complete record](RR1_ACTUAL_ATTEMPTS_20261111.md). Limited sensitivity: the below-minus-above contrasts see effects of about 0.070328 to 0.121334 or more; the inherited bar is 0.066281. Within the fixed returning cohort, the game-start slopes change across observed attempts and the pattern also depends on the reference; this descriptive comparison does not establish learning or social standing.
+
 **OPS-S15-W5-CH1-SOURCE-PREFIX-20261111:** [Record](CH1_SOURCE_PREFIX_20261111.md). The three-month chess source reaches its planned first-five-percent checkpoint with intact output; the unchanged full-source continuation and actual-attempt repeat-play comparison are running in counted CPU-only Gear 2.
 
 **OPS-S15-W5-FRAME-RR1-ACTIVE-20261111:** [Record](FRAME_RR1_ACTIVE_20261111.md). The repaired chess source reader passes complete native qualification and independent replay; the three-month source prefix and actual-attempt repeat-play continuation are running in counted CPU-only Gear 2.
