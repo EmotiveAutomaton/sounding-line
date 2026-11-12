@@ -1,5 +1,43 @@
 # Week 5 verified records
 
+**OPS-S15-W5-FRAME-RR1-ACTIVE-20261111:** [Record](FRAME_RR1_ACTIVE_20261111.md). The repaired chess source reader passes complete native qualification and independent replay; the three-month source prefix and actual-attempt repeat-play continuation are running in counted CPU-only Gear 2.
+
+**OPS-S15-W5-RR1-PREFIX-20261111:** [Record](RR1_PREFIX_20261111.md). The actual-attempt repeat-play prefix reached its planned hundred-draw checkpoint with authenticated output; the unchanged complete re-read is ready for bounded continuation, with all missing-record exclusions retained.
+
+**OPS-S15-W5-REVIEW-RR1-20261111:** [Record](REVIEW_RR1_20261111.md). The laughter delivery and complete constructed chess qualification are filed; the actual-attempt repeat-play prefix is admitted in counted CPU-only Gear 2, while a remaining chess input-connection defect is being corrected before production.
+
+**S15-W5-IN7-BACK-HALF-20261111:** [Complete record](IN7_BACK_HALF_20261111.md). The registered stance-minus-event error difference is against the minimum-effect prediction on previously unused prompts; the other stance items are also inside the practical band, while the transmission contrast remains a separate descriptive result.
+
+**S15-W5-IN6-BACK-HALF-20261111:** [Complete record](IN6_BACK_HALF_20261111.md). The reader-derived trigger-fit slope is inconclusive with limited sensitivity; direct reader-attributed intensity has a supported secondary association with writer intensity, while the same-rater comparison is scale only.
+
+**S15-W5-IN5-BACK-HALF-20261111:** [Complete record](IN5_BACK_HALF_20261111.md). Exploratory re-use of the fear reports leaves all three trigger profiles inconclusive at the registered bar; none earns the frozen support branch, and limited sensitivity prevents treating that as absence.
+
+**OPS-S15-W5-MERGE-DELIVERIES-20261111:** [Record](MERGE_DELIVERIES_20261111.md). The full three-month chess source and independent replay are authenticated; the chess and export builder deliveries are filed with their remaining admission gates explicit.
+
+**OPS-S15-W5-BACK-HALF-VERIFICATION-20261111:** [Record](BACK_HALF_VERIFICATION_20261111.md). The three-month chess merge has entered independent verification; seven constructed chess stopping-behaviour checks pass, while new corpus admissions remain pending.
+
+**OPS-S15-W5-BUILDER-CHECKS-20261111:** [Record](BUILDER_CHECKS_20261111.md). The text-free export and laughter implementations pass their constructed checks; three exact builder-delivery events are registered under the unchanged wake policy, with production admission still pending.
+
+**OPS-S15-W5-BACK-HALF-ADMISSIONS-20261111:** [Record](BACK_HALF_ADMISSIONS_20261111.md). The full three-month chess merge is running in counted CPU-only Gear 2; the mood pilot has safely reached its planned cost checkpoint, the back-half builders continue, and unfinished inference remains unreported.
+
+**OPS-S15-W5-BACK-HALF-SOURCE-PILOTS-20261111:** [Record](BACK_HALF_SOURCE_PILOTS_20261111.md). The identity and three-month chess source pilots preserve authenticated first-five-percent checkpoints; identity expansion is storage-held while the higher-priority chess continuation is reviewed.
+
+**OPS-S15-W5-BACK-HALF-HANDOFF-20261111:** [Record](BACK_HALF_HANDOFF_20261111.md). The ratified back-half packet is filed, three builder queues are active, and the unchanged identity source pilot is running in CPU-only Gear 2 under counted resource guards.
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY19-RESOURCE-PAUSE-20261111:** [Record](V1_ACCOUNTING_RECOVERY19_RESOURCE_PAUSE_20261111.md). The Windows commit-memory guard preserved the full-scope comparison checkpoint; the unchanged continuation is resource-held and scientific production and replay remain unfinished.
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY18-PAUSE-20261110:** [Record](V1_ACCOUNTING_RECOVERY18_PAUSE_20261110.md). The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY17-PAUSE-20261110:** [Record](V1_ACCOUNTING_RECOVERY17_PAUSE_20261110.md). The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+**OPS-S15-RECORD-REVIEW-G203-20261111:** [Record](RECORD_REVIEW_G203_20261111.md). The bounded G203 evidence re-read confirms that existing records preserve the supported association and unresolved mechanism separately; original evidence and claim standing are unchanged.
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY16-PAUSE-20261110:** [Record](V1_ACCOUNTING_RECOVERY16_PAUSE_20261110.md). The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+**OPS-S15-RECORD-VIEWS-20261111:** [Record](RECORD_VIEWS_ADDITIVE_20261111.md). The approved additive navigation pilot preserves the original evidence and exposes reviewed claims, science, operations, textures, quotations and unclassified records with freshness checks.
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY15-PAUSE-20261110:** [Record](V1_ACCOUNTING_RECOVERY15_PAUSE_20261110.md). The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
 **OPS-S15-W5-IN-IC-COMPLETE-CONTINUATION-20261111:** [Record](IN_IC_COMPLETE_CONTINUATION_20261111.md). Both commissioned appraisal sensitivity checks and their full independent replays are filed; the original full-source comparison continues in CPU-only Gear 2.
 
 **S15-W5-IN4-IC-20261111:** [Complete conditional calibration](IN4_IC_HUMAN_COMPLETE_20261111.md). The reader-versus-writer appraisal-error comparison passes its registered conditional sensitivity criterion under the observed source design; the original within-band result remains scoped to that observational contrast.

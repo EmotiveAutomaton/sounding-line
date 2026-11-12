@@ -1332,3 +1332,56 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-11T13:39:00.657100+00:00 S15-W5-IN4-IC-20261111: Complete conditional sensitivity and independent replay filed; original scope and all costs preserved.
 
 2026-11-11T13:41:48.525038+00:00 OPS-S15-W5-IN-IC-COMPLETE-CONTINUATION-20261111: Both commissioned appraisal sensitivity checks and their full independent replays are filed; the original full-source comparison continues in CPU-only Gear 2.
+
+2026-11-11T15:07:46.189477+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY15-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T15:08:52.470685+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY15-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery16 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T15:35:38.055697+00:00 OPS-S15-RECORD-VIEWS-20261111: The approved additive navigation pilot preserves the original evidence and exposes reviewed claims, science, operations, textures, quotations and unclassified records with freshness checks.
+
+2026-11-11T16:51:05.451011+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY16-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T16:53:39.416398+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY16-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery17 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T16:58:56.326007+00:00 OPS-S15-RECORD-REVIEW-G203-20261111: The bounded G203 evidence re-read confirms that existing records preserve the supported association and unresolved mechanism separately; original evidence and claim standing are unchanged.
+
+2026-11-11T18:34:17.356456+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY17-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T18:36:15.708203+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY17-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery18 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T20:19:25.720817+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY18-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T20:20:40.834711+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY18-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery19 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T21:20:28.304671+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY19-RESOURCE-PAUSE-20261111: The Windows commit-memory guard preserved the full-scope comparison checkpoint; the unchanged continuation is resource-held and scientific production and replay remain unfinished.
+
+
+2026-11-11T21:24:02.042438+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY19-RESOURCE-PAUSE-20261111: Filing closure corrected its empty-inventory assumption; retained historical terminal admissions remain intact and actual native liveness determines the worker count. Environmental commit-memory floor, complete checkpoint authentication, full write-through and ACK. CPU-only Gear2 remains selected with zero research workers and zero leases. No successor admitted; original comparison and reader resource gates remain. No unrelated process cleanup. All21 locks and current watcher delivery verify; no pending events. Ready-buffer defect and qualification holds retained.
+
+2026-11-11T22:28:03.230779+00:00 OPS-S15-W5-BACK-HALF-HANDOFF-20261111: The ratified back-half packet is filed, three builder queues are active, and the unchanged identity source pilot is running in CPU-only Gear 2 under counted resource guards.
+
+2026-11-11T22:51:51.926864+00:00 OPS-S15-W5-BACK-HALF-SOURCE-PILOTS-20261111: The identity and three-month chess source pilots preserve authenticated first-five-percent checkpoints; identity expansion is storage-held while the higher-priority chess continuation is reviewed.
+
+2026-11-11T23:11:46.919905+00:00 OPS-S15-W5-BACK-HALF-ADMISSIONS-20261111: The full three-month chess merge is running in counted CPU-only Gear 2; the mood pilot has safely reached its planned cost checkpoint, the back-half builders continue, and unfinished inference remains unreported.
+
+2026-11-11T23:19:42.829654+00:00 OPS-S15-W5-BUILDER-CHECKS-20261111: The text-free export and laughter implementations pass their constructed checks; three exact builder-delivery events are registered under the unchanged wake policy, with production admission still pending.
+
+2026-11-11T23:31:01.820486+00:00 OPS-S15-W5-BACK-HALF-VERIFICATION-20261111: The three-month chess merge has entered independent verification; seven constructed chess stopping-behaviour checks pass, while new corpus admissions remain pending.
+
+2026-11-12T01:02:05.643610+00:00 OPS-S15-W5-MERGE-DELIVERIES-20261111: The full three-month chess source and independent replay are authenticated; the chess and export builder deliveries are filed with their remaining admission gates explicit.
+
+2026-11-12T01:20:52.890672+00:00 S15-W5-IN5-BACK-HALF-20261111: full scientific write-through; all declared maps and secondary comparisons retained; 16.0625 counted CPU seconds.
+
+2026-11-12T01:20:53.027087+00:00 S15-W5-IN6-BACK-HALF-20261111: full scientific write-through; all declared maps and secondary comparisons retained; 5.5625 counted CPU seconds.
+
+2026-11-12T01:20:53.302880+00:00 S15-W5-IN7-BACK-HALF-20261111: full scientific write-through; all declared maps and secondary comparisons retained; 8.484375 counted CPU seconds.
+
+2026-11-12T01:28:01.576856+00:00 OPS-S15-W5-REVIEW-RR1-20261111: The laughter delivery and complete constructed chess qualification are filed; the actual-attempt repeat-play prefix is admitted in counted CPU-only Gear 2, while a remaining chess input-connection defect is being corrected before production.
+
+2026-11-12T01:31:43.906268+00:00 OPS-S15-W5-RR1-PREFIX-20261111: The actual-attempt repeat-play prefix reached its planned hundred-draw checkpoint with authenticated output; the unchanged complete re-read is ready for bounded continuation, with all missing-record exclusions retained.
+
+2026-11-12T01:45:27.543576+00:00 OPS-S15-W5-FRAME-RR1-ACTIVE-20261111: The repaired chess source reader passes complete native qualification and independent replay; the three-month source prefix and actual-attempt repeat-play continuation are running in counted CPU-only Gear 2.

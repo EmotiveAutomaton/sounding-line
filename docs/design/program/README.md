@@ -6,6 +6,7 @@ Current launch authority and finite study bounds come from the
 
 | Document | Use and authority |
 |---|---|
+| [Record-keeping recommendation](RECORD_KEEPING_RECOMMENDATION_20261110.md) and [implementation review](RECORD_KEEPING_REVIEW_20261111.md) | Revised additive plan approved November 11; [generated navigation and format contract](../../records/README.md) preserve the original filing sources |
 | [Phase 2.4 context](PHASE_2_4_CONTEXT.md) | Original phase framing; later ratified stage limits control execution |
 | [Exploration addendum](PHASE_2_4_EXPLORATION_ADDENDUM.md) | Historical approved expansion; no automatic renewed work |
 | [Registry](PHASE_2_4_REGISTRY.md) | Phase-wide evidence and decision history |

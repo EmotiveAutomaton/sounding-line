@@ -1,5 +1,695 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-FRAME-RR1-ACTIVE-20261111
+
+**Hypothesis.** Can the preserved three-month chess source be read without modifying its database, and can the clarified repeat-play comparison continue inside its original bounds?
+
+**METHOD.** Review the input-connection repair, run the five focused source-integrity checks and complete native constructed qualification with fresh-process recalculation. Authenticate every declared output and all exited process identities. Recheck frozen admission plans, live native identities, source and progress freshness, leases, resources, locks and watcher delivery before filing both launches.
+
+**Found.** The repaired chess source reader passes complete native qualification and independent replay; the three-month source prefix and actual-attempt repeat-play continuation are running in counted CPU-only Gear 2.
+
+The first selector repair did not cover an earlier database connection in the sampler's preparation path. Version 3 makes both input connections immutable and read-only, rejects a nonempty write-ahead log or journal and incomplete month flags, and restores the scoped adapter afterward. It does not change the original selection, salt, quotas or estimand. Earlier versions and all their charges remain preserved. The five focused checks exercised the preparation tuple, execute and verifier connections, wrong salt, incomplete sources and real live-WAL rejection. They used 7.0 CPU seconds and 7.4178 wall seconds. Complete native qualification and its fresh independent replay used 12.609375 CPU seconds and 24.9193595 wall seconds; all 121 declared outputs match their hashes and the three native identities have exited. These are constructed instrument checks, not human scientific findings.
+
+The source prefix reads the completed April, May and June frame under committed version-3 design 65657ac986e10ba8b686b03cd4622f921a0c62c1. The outcome-blind roster remains 10,000 unique players, with 7,000 blitz and 1,000 in each other declared category. Its first checkpoint is the first transaction crossing 1,727,752 of 34,555,025 raw records. This is five percent of source rows, not a CPU fraction, finished scientific sample or measured whole-card forecast. Its native attempt retains a 7,200-CPU-second and 14,400-wall-second bound, two numerical threads, 2 GiB projected memory and the frozen output and disk guards. Full source preparation and independent replay remain required before downstream chess interpretation.
+
+The repeat-play continuation resumes the authenticated hundred-draw checkpoint. The curator selected actual attempt numbers and missing-record exclusions: the entry cohort requires saved completed actual attempts 1, 2 and 3; available records are never renumbered. Fourth-and-later return coverage stays separately counted; best-earlier score at attempt 1 is not applicable. The unchanged original estimator, seven applicable panels, 2,000 whole-person resamples, seeds and full independent replay remain required. The continuation admits 9,000 CPU seconds within the original card and family ceilings, with a 3,600-second handler checkpoint bound; later-panel cost is still unmeasured. No unfinished panel estimate is reported.
+
+**Health and remaining work.** At 01:40:48 UTC on November 12, both native owners and their execution children match creation identities, and both counted leases are valid. Supervisor progress was fresh within thirty seconds; repeat-play had advanced from the prefix into subsequent panels, and chess had entered execution. Available RAM was 47.95 GiB, Windows commit headroom 23.21 GiB and disk free 41.18 GiB. All 21 content locks pass. The watcher, active dispatcher and current calendar match their recorded identities; watcher source matches, with no current transport error. Three historical delivery errors remain retained. The intentionally retired second dispatcher has a complete marker and is not a failure. Events plus four hours of inactivity and one pending owner wake remain unchanged.
+
+All three completed appraisal extensions are fully filed with their scope, uncertainty and sensitivity records in the internal theory return. The remaining builder deliveries require owner admission review; all three assigned builder queues have delivered their current implementations, with no independent unbuilt assignment left except the recorded source gaps. IN8 awaits its source and curator terms note; EM1 lacks the original prefix definition and is not reconstructed by matching a target count. Identity expansion remains storage-held, reader 128 remains below its unchanged 26-GiB Windows commit start floor, and mood continuation needs its original cost-route review. The original full comparison stays behind the back-half priority work. Six research slots are idle and the sixteen-card ready buffer remains deficient because remaining implementations lack completed owner admission or qualified inputs; this is recorded as an operational deficit, not filled with unauthorized work. July and the withdrawn mood mechanism branch remain withdrawn. No GPU, paid or Ollama work or recipient export was started.
+
+**Means.** Qualification licenses this exact source-reading implementation, not a scientific claim. Continue both admitted attempts to their registered checkpoints or completion, then authenticate and file the complete outputs before acknowledgement. The curator's clarification changes the recorded repeat-play cohort definition only as explicitly requested. No new hypothesis was harvested; the final curator packet remains the scientific reporting boundary.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The repaired chess source reader passes complete native qualification and independent replay; the three-month source prefix and actual-attempt repeat-play continuation are running in counted CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Complete unchanged source and repeated-play attempts and independent replay; admit remaining commissioned implementations in packet order.; public scientific claim unchanged; curator decision required: No new decision. Detail: FRAME_RR1_ACTIVE_20261111.md.
+
+### OPS-S15-W5-RR1-PREFIX-20261111
+
+**Hypothesis.** Can the clarified repeat-play cohort run under the original estimator and counted limits?
+
+**METHOD.** Inspect the native pause, authenticate every checkpoint member and owner exit, and compare the first completed draw count with its frozen boundary. Preserve the original source, estimator, fixed actual-attempt cohort, all registered panels and full independent replay.
+
+**Found.** The actual-attempt repeat-play prefix reached its planned hundred-draw checkpoint with authenticated output; the unchanged complete re-read is ready for bounded continuation, with all missing-record exclusions retained.
+
+The prefix used 17.96875 native CPU seconds for source authentication, setup and the first 100 of 2,000 draws in the first applicable panel. These are operational progress counts, not a scientific interval. Its 100-draw fraction is five percent of that panel, not five percent of the seven-panel card or replay. A simple equal-cost multiplication would be approximately 5,031 CPU seconds for all seven panels and both passes, but later repeated-play panels can cost more; that arithmetic is not a measured whole-card forecast. The continuation therefore keeps a bounded allowance within the original 10,000-CPU-second RR1 ceiling and unchanged resource guards, preserves checkpoints, and supplies no result before every required panel and replay finish.
+
+Missing actual attempts are never renumbered. The fixed entry cohort has actual attempts 1, 2 and 3; fourth-and-later coverage is separately counted. Best-earlier score at attempt 1 remains not applicable. No test, seed, selection or model changes.
+
+**Means.** This is an operational checkpoint, not a null or theory claim. Continue the unchanged card with measured costs retained; the final packet remains the scientific reporting boundary. No new hypothesis was harvested.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The actual-attempt repeat-play prefix reached its planned hundred-draw checkpoint with authenticated output; the unchanged complete re-read is ready for bounded continuation, with all missing-record exclusions retained.; project meaning: scoped operational record; next engineering obligation: Continue all declared panels and independent replay inside the unchanged RR1 and MD ceilings; full filing at completion.; public scientific claim unchanged; curator decision required: No new decision. Detail: RR1_PREFIX_20261111.md.
+
+### OPS-S15-W5-REVIEW-RR1-20261111
+
+**Hypothesis.** Are the delivered laughter, local-export, trait and repeat-play implementations accounted for, and can the next authorized source computation preserve its evidence?
+
+**METHOD.** Authenticate the laughter package against every frozen source pin, read its full design and test/resource receipts, and inspect the historical-prefix recovery gap. Authenticate every file in the complete constructed chess qualification and all exited native identities. Review the isolated export correction and trait fixture qualification, then review and commit the repeat-play configuration using the curator’s actual-attempt choice before admitting its counted cost prefix.
+
+**Found.** The laughter delivery and complete constructed chess qualification are filed; the actual-attempt repeat-play prefix is admitted in counted CPU-only Gear 2, while a remaining chess input-connection defect is being corrected before production.
+
+The table separates engineering evidence from production admission; no row is a scientific result.
+
+| Package | Verified or inspected state | Remaining gate |
+|---|---|---|
+| Laughter repetition/social layer | Twelve constructed checks passed; frozen source pins unchanged; full design reviewed | Complete code/mapping review, committed design, actual source/NLP load and counted execution; ICSI chronology remains held |
+| Chess source selector v2 | Five focused checks and complete counted constructed raw-parser/reference execution and independent replay passed | Owner found the inherited sampler preparation still opens the input through an ordinary SQLite connection; isolated v3 must close this path before production |
+| Final-essay local export v2 | Twenty-two constructed checks passed; predecessor request, operation binding and README omissions corrected in isolated successor | Original word/timing mapping review, complete source replay and counted cost; no corpus/export/copy yet |
+| Trait stability | Twelve checks passed, all three 2,000-person controls and complete 2,000-draw replay | Owner source/estimator review, committed design and production admission |
+| Repeat play | Full wrapper/design and unchanged estimator use reviewed; actual-attempt decision pinned | Counted first 100 draws or in-handler time boundary, then measured continuation review |
+
+The laughter fixture uses substituted deterministic lemmas, so it is not evidence of actual NLP resource loading. The observed test-tree CPU was 22.296875 seconds and wall time 24.501246 seconds; memory observations are sampled fixture values. Actual word timing includes words outside supported dialogue acts; untimed/reversed words are counted. Missing AMI clocks remain bounded, and phase order never invents a thirty-second separation. ICSI numeric meeting labels do not prove chronology. Fresh cases share no content lemma with any earlier laugh-getting act; close overlapping material cannot silently become fresh. The starter main effect is absorbed by the required laugh fixed effect and remains explicitly non-identifiable. The commissioned independent AMI and identifiable ICSI routes remain available for owner admission.
+
+The bounded historical ScholaWrite search recovered the original whole-project fold rule but not the original prefix width, unit, normalization, empty-prefix rule or audit capsule. Seven historical runner revisions and eight preserved split metadata records were checked. No width was chosen to reproduce the historical count; EM1 remains source-provenance held, and the frozen package is unchanged. IN8 still lacks its required source and curator terms note.
+
+The counted chess qualification authenticated all 120 sealed members and consumed 12.0 CPU seconds. It validates the tested constructed pipeline, but it does not cover every production input connection: owner code review found the inherited preparation read before selection. This is an engineering hold, not a scientific failure. V1, v2, both tests and the completed native qualification stay intact; the separate v3 repair is assigned to the existing chess builder. The first preparation refusal was a native-account access error on a pytest-owned receipt; a byte-identical aggregate copy in the admission directory preserved the original receipt and allowed the unchanged counted qualification.
+
+The repeat-play configuration requires completed actual attempts 1, 2 and 3 for a fixed entry cohort, counts missing-record and ambiguous-history exclusions, and retains fourth-and-later selection explicitly. Best earlier score is not applicable at actual attempt 1. It uses the unchanged qualified MD3 estimator, as the packet’s no-new-fixture instruction directs, and retains all 2,000 draws and independent replay. Local reviewed commit 86de52112 contains this configuration and its authenticated input helper. Its first native attempt has a 1,800-CPU-second cap, a 100-draw/900-second in-handler cost boundary, two numerical threads and the inherited 3.5-GiB allowance. All costs charge to RR1 and the ratified MD family ceiling. No unfinished estimate is reported.
+
+The latest full health inspection found no worker before RR1 admission, 47.97 GiB available RAM, 24.39 GiB commit headroom and 41.19 GiB disk; all twenty-one locks pass. Event and four-hour inactivity delivery remain unchanged. Builder A handles the identified chess repair; B and C have delivered their built queues and have no independent unbuilt eligible assignment while source gaps and owner review remain. The ready-buffer deficit and idle slots are recorded, not called a gear pause. No GPU, paid work, new delegation, external copy or scientific scope is added.
+
+**Means.** Completed evidence and engineering gaps now have separate dispositions. Review and admit eligible work under the same campaign; retain unresolved source and resource gates. No new hypothesis was harvested from the cohort clarification.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The laughter delivery and complete constructed chess qualification are filed; the actual-attempt repeat-play prefix is admitted in counted CPU-only Gear 2, while a remaining chess input-connection defect is being corrected before production.; project meaning: scoped operational record; next engineering obligation: Review RR1 counted prefix; complete chess input-read repair, qualify successor and admit the full declared source route. Review remaining delivered cards without changing their estimands.; public scientific claim unchanged; curator decision required: No new decision. Detail: REVIEW_RR1_20261111.md.
+
+### S15-W5-IN7-BACK-HALF-20261111
+
+untouched-prompt stance comparison.
+
+**Hypothesis.** On previously unused prompts, do readers miss the writer more on the three named stance items than on event items?
+
+**METHOD.** Exclude all fear, anger, sadness and disgust texts used to select the three items. Analyze all 795 remaining complete five-reader panels. For each item subtract mean error among the ten distinct reader pairs from mean error of the five readers against the writer. Compare equally weighted named-stance and event means in original rating points using 2,000 text-cluster resamples that preserve panels. Keep the five other stance items, frozen prompt-group contrasts, all 21 items and writer-to-reader-mean transmission on the same draws.
+
+**Found.** The registered stance-minus-event error difference is against the minimum-effect prediction on previously unused prompts; the other stance items are also inside the practical band, while the transmission contrast remains a separate descriptive result.
+
+All intervals are percentile bootstrap intervals. SE is the sample standard deviation of the same resamples; “sees” is 2.8 × SE and “supports at” is the bar plus 2.8 × SE. These normal approximations are slightly optimistic and are not new empirical calibration rates. Zero-bar differences are diagnostics, not minimum-effect sensitivity thresholds. Estimates are standardized slopes except the named error contrasts (rating points) and Fisher-z transmission. Each table preserves its registered draw count and cluster count.
+
+The sole primary and its complete uncertainty and approximate sensitivity are shown here.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| primary | 0.007390 | [-0.025445, 0.045175] | 0.018350 | 0.100000 | 0.051379 | 0.151379 | 2000 / 795 | against |
+
+Complete secondary results; row labels identify the profile, prompt or item. Signed joint-item slopes use the registered direction; full maps are scale-only and unique maps are descriptive.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| group / negative prompts / named stance minus event | 0.086474 | [0.008324, 0.162612] | 0.039130 | 0.100000 | 0.109565 | 0.209565 | 2000 / 199 | descriptive texture |
+| group / negative prompts / other stance minus event | 0.025101 | [-0.034966, 0.085850] | 0.031709 | 0.100000 | 0.088784 | 0.188784 | 2000 / 199 | descriptive texture |
+| group / other prompts / named stance minus event | 0.005163 | [-0.052687, 0.064495] | 0.029031 | 0.100000 | 0.081285 | 0.181285 | 2000 / 297 | descriptive texture |
+| group / other prompts / other stance minus event | 0.004714 | [-0.040633, 0.051360] | 0.023831 | 0.100000 | 0.066728 | 0.166728 | 2000 / 297 | descriptive texture |
+| group / positive prompts / named stance minus event | -0.043032 | [-0.101259, 0.014578] | 0.029409 | 0.100000 | 0.082346 | 0.182346 | 2000 / 299 | descriptive texture |
+| group / positive prompts / other stance minus event | -0.011505 | [-0.062484, 0.039670] | 0.025677 | 0.100000 | 0.071894 | 0.171894 | 2000 / 299 | descriptive texture |
+| other stance minus event | 0.003717 | [-0.025492, 0.033209] | 0.015315 | 0.100000 | 0.042882 | 0.142882 | 2000 / 795 | against |
+| event minus all stance transmission, Fisher z | 0.054904 | [0.015299, 0.097463] | 0.020714 | 0.000000 | 0.058000 | 0.058000 | 2000 / 795 | descriptive texture |
+
+The table reports every appraisal item, its frozen class, excess error and transmission. Correlation describes agreement in ranking between the writer and mean reader rating; the Fisher transformation is used for the registered average contrast. All per-item entries are descriptive.
+
+| Item | Frozen class | Excess error [95% interval] | Transmission correlation | Fisher z [95% interval] |
+|---|---|---|---:|---|
+| acceptance of consequences | named stance | 0.067925 [0.020113, 0.119000] | 0.097231 | 0.097539 [0.029313, 0.162550] |
+| attention | unclassed | 0.023145 [-0.020642, 0.069434] | 0.373679 | 0.392692 [0.324768, 0.464418] |
+| chance control | event | 0.064151 [0.009296, 0.122031] | 0.367157 | 0.385134 [0.302816, 0.466636] |
+| chance responsibility | event | 0.085283 [0.031440, 0.139623] | 0.430549 | 0.460571 [0.387233, 0.538503] |
+| effort | unclassed | 0.089811 [0.043264, 0.139629] | 0.426279 | 0.455340 [0.383810, 0.527609] |
+| familiarity | named stance | 0.046289 [0.001252, 0.097862] | 0.524354 | 0.582326 [0.505960, 0.657690] |
+| goal relevance | other stance | 0.072201 [0.019868, 0.123780] | 0.531890 | 0.592777 [0.521212, 0.674727] |
+| goal support | other stance | 0.094591 [0.042264, 0.148937] | 0.563261 | 0.637597 [0.569254, 0.709716] |
+| not considering consequences | named stance | 0.100881 [0.046289, 0.155730] | 0.494556 | 0.542074 [0.463184, 0.620174] |
+| another person’s control | event | 0.072453 [0.019868, 0.127050] | 0.489160 | 0.534955 [0.463042, 0.615111] |
+| another person’s responsibility | event | 0.102893 [0.050057, 0.160503] | 0.559222 | 0.631701 [0.554537, 0.708382] |
+| pleasantness | unclassed | 0.041006 [-0.005560, 0.087044] | 0.761008 | 0.998607 [0.919372, 1.083781] |
+| consequence anticipation | other stance | 0.062642 [0.017101, 0.110189] | 0.326603 | 0.339021 [0.268915, 0.410807] |
+| event predictability | other stance | 0.067925 [0.021132, 0.113214] | 0.490060 | 0.536139 [0.466898, 0.607493] |
+| own control | unclassed | 0.071447 [0.024906, 0.119503] | 0.494972 | 0.542624 [0.474089, 0.609706] |
+| own responsibility | event | 0.010566 [-0.033208, 0.054094] | 0.683352 | 0.835376 [0.758949, 0.913112] |
+| social norms | event | -0.006792 [-0.049314, 0.038748] | 0.490902 | 0.537247 [0.433026, 0.643894] |
+| personal standards | other stance | 0.042767 [-0.005541, 0.097113] | 0.515340 | 0.569974 [0.489724, 0.648791] |
+| suddenness | event | 0.099371 [0.047044, 0.151950] | 0.527402 | 0.586539 [0.515571, 0.661624] |
+| unpleasantness | unclassed | 0.053836 [0.003767, 0.104660] | 0.706958 | 0.881075 [0.801216, 0.969464] |
+| urgency | event | 0.086541 [0.036975, 0.139371] | 0.349747 | 0.365155 [0.292198, 0.435051] |
+
+Prompt counts: boredom 100, guilt 49, joy 100, no-emotion 98, pride 100, relief 99, shame 50, surprise 100, trust 99. Frozen grouping and all per-item SE values are preserved in the aggregate receipt.
+
+**Controls and provenance.** Eight constructed checks cover signed and exact-null slopes, writer ownership, pair arithmetic, full execute/replay, continuation and refusal cases. The qualified source and all sealed native output files authenticate; every native execution/verification identity has exited, as recorded in the owner authentication. The source excludes invented events under the original rule. No new raw text, individual identity or demographics are published. Source: Crowd-enVENT, Troiano, Oberländer and Klinger (2023), doi:10.1162/coli_a_00461, CC BY 4.0. Native total CPU 8.484375 seconds; wall 29.609016 seconds. No p-values are introduced.
+
+**Means and scope.** The previously selected three-item lead does not carry to the untouched prompts at the registered 0.10-point bar. This is evidence against that scoped positive prediction, not proof that text carries all mental states equally or that the writer has no ladder of values. The direct event-minus-stance transmission contrast is positive descriptively; both primary and transmission point estimates are positive, so the packet’s “spread, not transmission” trigger does not fire. Error and correlation answer different questions. The full item table and frozen classes remain visible; no class is reassigned to improve the result. Observational prompted reports do not identify biological channels, causal triggers or persistent values.
+
+**Next.** Return the scoped failure of the selected-item generalization and the separate transmission map to H12-T3 in the final packet. Preserve the original four-prompt discovery and IN4 calibration; no outcome-driven class repair. Theory-file edits and the curator synthesis remain deferred by the active final-packet policy; the Round 12 return is updated now.
+
+Curator roll-up: appraisal and reader inference; On previously unused prompts, do readers miss the writer more on the three named stance items than on event items?; **Narrows**; The registered stance-minus-event error difference is against the minimum-effect prediction on previously unused prompts; the other stance items are also inside the practical band, while the transmission contrast remains a separate descriptive result.; project meaning: scoped human appraisal evidence; next engineering obligation: Return the scoped failure of the selected-item generalization and the separate transmission map to H12-T3 in the final packet. Preserve the original four-prompt discovery and IN4 calibration; no outcome-driven class repair.; public claim: scoped registered comparison, no biological or causal upgrade; curator decision required: No. Detail: WEEK5/IN7_BACK_HALF_20261111.md.
+
+### S15-W5-IN6-BACK-HALF-20261111
+
+limited sensitivity: sees effects of about 0.164 or more; the bar is 0.1.
+
+**Hypothesis.** Can readers’ appraisal of an event’s trigger fit grade how strongly its writer felt the emotion?
+
+**METHOD.** Use 396 mapped-prompt texts and exactly five human readers per text (1,980 reader rows). Standardize items and indices within prompt, average reader indices, then standardize the text predictor. Regress the writer’s own standardized intensity on mean reader fit, with prompt intercepts and reader-mean unpleasantness. Refit using 2,000 whole-original-writer resamples; all 396 writer clusters, paired profile substitutions and intensity secondary are retained.
+
+**Found.** The reader-derived trigger-fit slope is inconclusive with limited sensitivity; direct reader-attributed intensity has a supported secondary association with writer intensity, while the same-rater comparison is scale only.
+
+All intervals are percentile bootstrap intervals. SE is the sample standard deviation of the same resamples; “sees” is 2.8 × SE and “supports at” is the bar plus 2.8 × SE. These normal approximations are slightly optimistic and are not new empirical calibration rates. Zero-bar differences are diagnostics, not minimum-effect sensitivity thresholds. Estimates are standardized slopes except the named error contrasts (rating points) and Fisher-z transmission. Each table preserves its registered draw count and cluster count.
+
+The sole primary and its complete uncertainty and approximate sensitivity are shown here.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| primary | 0.105152 | [-0.006085, 0.222294] | 0.058723 | 0.100000 | 0.164426 | 0.264426 | 2000 / 396 | inconclusive |
+
+Complete secondary results; row labels identify the profile, prompt or item. Signed joint-item slopes use the registered direction; full maps are scale-only and unique maps are descriptive.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| urgent | 0.083149 | [-0.031515, 0.198286] | 0.057808 | 0.100000 | 0.161863 | 0.261863 | 2000 / 396 | inconclusive |
+| unresolved and uncontrollable | 0.122841 | [0.008523, 0.243533] | 0.061237 | 0.100000 | 0.171463 | 0.271463 | 2000 / 396 | inconclusive |
+| readers’ mean attributed intensity | 0.322801 | [0.198461, 0.444442] | 0.063871 | 0.100000 | 0.178840 | 0.278840 | 2000 / 396 | supports |
+| same-reader fit and attributed intensity | 0.173706 | [0.121910, 0.223150] | 0.026028 | 0.100000 | 0.072878 | 0.172878 | 2000 / 396 | scale report, fixed partly by construction |
+
+**Controls and provenance.** Eight constructed checks cover signed and exact-null slopes, writer ownership, pair arithmetic, full execute/replay, continuation and refusal cases. The qualified source and all sealed native output files authenticate; every native execution/verification identity has exited, as recorded in the owner authentication. The source excludes invented events under the original rule. No new raw text, individual identity or demographics are published. Source: Crowd-enVENT, Troiano, Oberländer and Klinger (2023), doi:10.1162/coli_a_00461, CC BY 4.0. Native total CPU 5.562500 seconds; wall 24.297138 seconds. No p-values are introduced.
+
+**Means and scope.** The primary does not establish a useful trigger-to-intensity route at the declared minimum slope. The direct-intensity secondary measures a distinct route and cannot rescue that primary. Each reader’s fit versus her own intensity uses overlapping same-rater judgments, so its association is by construction and cannot count as independent backward inference. These are human panels, not measured performance of the proposed software engine. This analyst-added question has no H12 theory tag. Observational prompted reports do not identify biological channels, causal triggers or persistent values.
+
+**Next.** File the complete magnitude and secondary-route evidence in the final packet; keep software-engine calibration and causal or biological interpretations separate. Theory-file edits and the curator synthesis remain deferred by the active final-packet policy; the Round 12 return is updated now.
+
+Curator roll-up: appraisal and reader inference; Can readers’ appraisal of an event’s trigger fit grade how strongly its writer felt the emotion?; **Narrows**; The reader-derived trigger-fit slope is inconclusive with limited sensitivity; direct reader-attributed intensity has a supported secondary association with writer intensity, while the same-rater comparison is scale only.; project meaning: scoped human appraisal evidence; next engineering obligation: File the complete magnitude and secondary-route evidence in the final packet; keep software-engine calibration and causal or biological interpretations separate.; public claim: scoped registered comparison, no biological or causal upgrade; curator decision required: No. Detail: WEEK5/IN6_BACK_HALF_20261111.md.
+
+### S15-W5-IN5-BACK-HALF-20261111
+
+limited sensitivity: sees effects of about 0.121 or more; the bar is 0.1.
+
+**Hypothesis.** Do unresolved, uncontrollable events explain reported fear intensity better than predicted harm or urgency?
+
+**METHOD.** Use the same 547 prompted fear reports from 473 writers, with the frozen predicted-harm, unresolved and urgent profiles. Re-estimate standardized intensity on each profile with unpleasantness, confidence and the six-item response-style control; use 2,000 paired whole-writer resamples for profiles, differences, joint item models and unique-item specificity. Compute both complete six-by-four maps using 200 paired writer resamples across mapped prompts.
+
+**Found.** Exploratory re-use of the fear reports leaves all three trigger profiles inconclusive at the registered bar; none earns the frozen support branch, and limited sensitivity prevents treating that as absence.
+
+All intervals are percentile bootstrap intervals. SE is the sample standard deviation of the same resamples; “sees” is 2.8 × SE and “supports at” is the bar plus 2.8 × SE. These normal approximations are slightly optimistic and are not new empirical calibration rates. Zero-bar differences are diagnostics, not minimum-effect sensitivity thresholds. Estimates are standardized slopes except the named error contrasts (rating points) and Fisher-z transmission. Each table preserves its registered draw count and cluster count.
+
+The sole primary and its complete uncertainty and approximate sensitivity are shown here.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| primary | 0.103449 | [0.018548, 0.186789] | 0.043062 | 0.100000 | 0.120575 | 0.220575 | 2000 / 473 | inconclusive |
+
+Complete joint item models results; row labels identify the profile, prompt or item. Signed joint-item slopes use the registered direction; full maps are scale-only and unique maps are descriptive.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| anger reports / goal support | 0.112727 | [0.036027, 0.189965] | 0.038978 | 0.100000 | 0.109138 | 0.209138 | 2000 / 475 | inconclusive |
+| anger reports / another person’s control | 0.145664 | [0.041825, 0.247336] | 0.052089 | 0.100000 | 0.145850 | 0.245850 | 2000 / 475 | inconclusive |
+| anger reports / another person’s responsibility | 0.089013 | [-0.002930, 0.191103] | 0.050281 | 0.100000 | 0.140786 | 0.240786 | 2000 / 475 | inconclusive |
+| anger reports / own control | 0.003386 | [-0.080741, 0.082257] | 0.040601 | 0.100000 | 0.113684 | 0.213684 | 2000 / 475 | against |
+| anger reports / urgency | 0.223094 | [0.138786, 0.304164] | 0.042457 | 0.100000 | 0.118879 | 0.218879 | 2000 / 475 | supports |
+| disgust reports / not considering consequences | 0.111958 | [0.033860, 0.188455] | 0.038465 | 0.100000 | 0.107701 | 0.207701 | 2000 / 473 | inconclusive |
+| disgust reports / another person’s responsibility | 0.051533 | [-0.028338, 0.134865] | 0.041815 | 0.100000 | 0.117082 | 0.217082 | 2000 / 473 | inconclusive |
+| disgust reports / social norms | 0.116027 | [0.020506, 0.214960] | 0.048990 | 0.100000 | 0.137172 | 0.237172 | 2000 / 473 | inconclusive |
+| disgust reports / personal standards | 0.055763 | [-0.034987, 0.147579] | 0.046566 | 0.100000 | 0.130383 | 0.230383 | 2000 / 473 | inconclusive |
+| fear reports / attention | 0.109010 | [0.023751, 0.207202] | 0.048457 | 0.100000 | 0.135680 | 0.235680 | 2000 / 473 | inconclusive |
+| fear reports / goal support | -0.027405 | [-0.114804, 0.063359] | 0.045248 | 0.100000 | 0.126695 | 0.226695 | 2000 / 473 | inconclusive |
+| fear reports / consequence anticipation | 0.007305 | [-0.078907, 0.085389] | 0.040754 | 0.100000 | 0.114112 | 0.214112 | 2000 / 473 | against |
+| fear reports / event predictability | 0.025639 | [-0.062023, 0.114289] | 0.046988 | 0.100000 | 0.131566 | 0.231566 | 2000 / 473 | inconclusive |
+| fear reports / own control | -0.007340 | [-0.091105, 0.076582] | 0.041700 | 0.100000 | 0.116759 | 0.216759 | 2000 / 473 | against |
+| fear reports / suddenness | 0.119254 | [0.017528, 0.225854] | 0.052710 | 0.100000 | 0.147588 | 0.247588 | 2000 / 473 | inconclusive |
+| fear reports / urgency | 0.035586 | [-0.062200, 0.133466] | 0.048612 | 0.100000 | 0.136114 | 0.236114 | 2000 / 473 | inconclusive |
+| sadness reports / acceptance of consequences | 0.154184 | [0.064776, 0.242571] | 0.044980 | 0.100000 | 0.125944 | 0.225944 | 2000 / 492 | inconclusive |
+| sadness reports / goal support | 0.078349 | [-0.000415, 0.160020] | 0.040724 | 0.100000 | 0.114027 | 0.214027 | 2000 / 492 | inconclusive |
+| sadness reports / own control | 0.018854 | [-0.058466, 0.096127] | 0.039300 | 0.100000 | 0.110040 | 0.210040 | 2000 / 492 | against |
+
+Complete map results; row labels identify the profile, prompt or item. Signed joint-item slopes use the registered direction; full maps are scale-only and unique maps are descriptive.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| full-profile scale map / DISGUST / anger reports | 0.303115 | [0.215441, 0.380982] | 0.040867 | 0.100000 | 0.114428 | 0.214428 | 200 / 475 | scale report, fixed partly by construction |
+| full-profile scale map / DISGUST / disgust reports | 0.208242 | [0.138401, 0.267785] | 0.034361 | 0.100000 | 0.096210 | 0.196210 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / DISGUST / fear reports | 0.134678 | [0.080299, 0.195994] | 0.031558 | 0.100000 | 0.088362 | 0.188362 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / DISGUST / sadness reports | 0.093726 | [0.033432, 0.178987] | 0.039344 | 0.100000 | 0.110162 | 0.210162 | 200 / 492 | scale report, fixed partly by construction |
+| full-profile scale map / urgent / anger reports | 0.281061 | [0.179341, 0.368888] | 0.047497 | 0.100000 | 0.132993 | 0.232993 | 200 / 475 | scale report, fixed partly by construction |
+| full-profile scale map / urgent / disgust reports | 0.188650 | [0.103762, 0.276011] | 0.043640 | 0.100000 | 0.122191 | 0.222191 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / urgent / fear reports | 0.155866 | [0.069694, 0.229308] | 0.039530 | 0.100000 | 0.110684 | 0.210684 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / urgent / sadness reports | 0.226209 | [0.141041, 0.306325] | 0.044530 | 0.100000 | 0.124683 | 0.224683 | 200 / 492 | scale report, fixed partly by construction |
+| full-profile scale map / predicted harm / anger reports | 0.168572 | [0.080044, 0.240599] | 0.042465 | 0.100000 | 0.118901 | 0.218901 | 200 / 475 | scale report, fixed partly by construction |
+| full-profile scale map / predicted harm / disgust reports | 0.146090 | [0.058808, 0.228869] | 0.041649 | 0.100000 | 0.116616 | 0.216616 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / predicted harm / fear reports | 0.039401 | [-0.038449, 0.127333] | 0.041595 | 0.100000 | 0.116465 | 0.216465 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / predicted harm / sadness reports | 0.141330 | [0.071852, 0.218467] | 0.039345 | 0.100000 | 0.110167 | 0.210167 | 200 / 492 | scale report, fixed partly by construction |
+| full-profile scale map / PANIC/GRIEF / anger reports | 0.156104 | [0.070548, 0.233276] | 0.045270 | 0.100000 | 0.126756 | 0.226756 | 200 / 475 | scale report, fixed partly by construction |
+| full-profile scale map / PANIC/GRIEF / disgust reports | 0.167320 | [0.091233, 0.239179] | 0.041211 | 0.100000 | 0.115392 | 0.215392 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / PANIC/GRIEF / fear reports | 0.055166 | [-0.030352, 0.117340] | 0.039285 | 0.100000 | 0.109998 | 0.209998 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / PANIC/GRIEF / sadness reports | 0.175337 | [0.086579, 0.250497] | 0.042146 | 0.100000 | 0.118008 | 0.218008 | 200 / 492 | scale report, fixed partly by construction |
+| full-profile scale map / RAGE / anger reports | 0.307555 | [0.223393, 0.377426] | 0.040747 | 0.100000 | 0.114091 | 0.214091 | 200 / 475 | scale report, fixed partly by construction |
+| full-profile scale map / RAGE / disgust reports | 0.130021 | [0.062582, 0.199012] | 0.034011 | 0.100000 | 0.095230 | 0.195230 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / RAGE / fear reports | 0.084427 | [0.007513, 0.156649] | 0.038735 | 0.100000 | 0.108458 | 0.208458 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / RAGE / sadness reports | 0.090882 | [0.029381, 0.156210] | 0.035118 | 0.100000 | 0.098331 | 0.198331 | 200 / 492 | scale report, fixed partly by construction |
+| full-profile scale map / unresolved and uncontrollable / anger reports | 0.165773 | [0.098552, 0.248129] | 0.040383 | 0.100000 | 0.113072 | 0.213072 | 200 / 475 | scale report, fixed partly by construction |
+| full-profile scale map / unresolved and uncontrollable / disgust reports | 0.154774 | [0.087923, 0.229840] | 0.037448 | 0.100000 | 0.104854 | 0.204854 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / unresolved and uncontrollable / fear reports | 0.103449 | [0.011785, 0.187416] | 0.047521 | 0.100000 | 0.133058 | 0.233058 | 200 / 473 | scale report, fixed partly by construction |
+| full-profile scale map / unresolved and uncontrollable / sadness reports | 0.147061 | [0.071121, 0.214562] | 0.036576 | 0.100000 | 0.102412 | 0.202412 | 200 / 492 | scale report, fixed partly by construction |
+| unique-item diagnostic map / DISGUST / anger reports | 0.283706 | [0.200410, 0.369571] | 0.041729 | 0.100000 | 0.116841 | 0.216841 | 200 / 475 | descriptive texture |
+| unique-item diagnostic map / DISGUST / disgust reports | 0.202636 | [0.136499, 0.264410] | 0.033589 | 0.100000 | 0.094049 | 0.194049 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / DISGUST / fear reports | 0.140875 | [0.080137, 0.199898] | 0.031914 | 0.100000 | 0.089359 | 0.189359 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / DISGUST / sadness reports | 0.093692 | [0.030375, 0.180464] | 0.039241 | 0.100000 | 0.109876 | 0.209876 | 200 / 492 | descriptive texture |
+| unique-item diagnostic map / urgent / anger reports | 0.190082 | [0.096457, 0.263897] | 0.043223 | 0.100000 | 0.121025 | 0.221025 | 200 / 475 | descriptive texture |
+| unique-item diagnostic map / urgent / disgust reports | 0.214196 | [0.131873, 0.297021] | 0.043882 | 0.100000 | 0.122870 | 0.222870 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / urgent / fear reports | 0.138480 | [0.053580, 0.210585] | 0.041519 | 0.100000 | 0.116254 | 0.216254 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / urgent / sadness reports | 0.237558 | [0.146980, 0.327941] | 0.047825 | 0.100000 | 0.133910 | 0.233910 | 200 / 492 | descriptive texture |
+| unique-item diagnostic map / predicted harm / anger reports | -0.060994 | [-0.125657, 0.006024] | 0.037998 | 0.100000 | 0.106394 | 0.206394 | 200 / 475 | descriptive texture |
+| unique-item diagnostic map / predicted harm / disgust reports | -0.018229 | [-0.092472, 0.043491] | 0.036267 | 0.100000 | 0.101549 | 0.201549 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / predicted harm / fear reports | -0.032789 | [-0.107272, 0.052421] | 0.041937 | 0.100000 | 0.117425 | 0.217425 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / predicted harm / sadness reports | -0.042455 | [-0.093184, 0.023459] | 0.033956 | 0.100000 | 0.095077 | 0.195077 | 200 / 492 | descriptive texture |
+| unique-item diagnostic map / PANIC/GRIEF / anger reports | 0.144867 | [0.052698, 0.224787] | 0.047199 | 0.100000 | 0.132158 | 0.232158 | 200 / 475 | descriptive texture |
+| unique-item diagnostic map / PANIC/GRIEF / disgust reports | 0.120861 | [0.039233, 0.192815] | 0.041583 | 0.100000 | 0.116433 | 0.216433 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / PANIC/GRIEF / fear reports | 0.103562 | [0.031630, 0.166495] | 0.036779 | 0.100000 | 0.102982 | 0.202982 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / PANIC/GRIEF / sadness reports | 0.177162 | [0.084092, 0.274760] | 0.046302 | 0.100000 | 0.129645 | 0.229645 | 200 / 492 | descriptive texture |
+| unique-item diagnostic map / RAGE / anger reports | 0.203931 | [0.108456, 0.291526] | 0.045425 | 0.100000 | 0.127191 | 0.227191 | 200 / 475 | descriptive texture |
+| unique-item diagnostic map / RAGE / disgust reports | 0.109156 | [0.029021, 0.186874] | 0.040308 | 0.100000 | 0.112863 | 0.212863 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / RAGE / fear reports | 0.028675 | [-0.049039, 0.095716] | 0.037256 | 0.100000 | 0.104316 | 0.204316 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / RAGE / sadness reports | -0.017864 | [-0.096054, 0.054350] | 0.037021 | 0.100000 | 0.103660 | 0.203660 | 200 / 492 | descriptive texture |
+| unique-item diagnostic map / unresolved and uncontrollable / anger reports | 0.181682 | [0.117033, 0.254484] | 0.038728 | 0.100000 | 0.108439 | 0.208439 | 200 / 475 | descriptive texture |
+| unique-item diagnostic map / unresolved and uncontrollable / disgust reports | 0.128538 | [0.061442, 0.215789] | 0.038175 | 0.100000 | 0.106891 | 0.206891 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / unresolved and uncontrollable / fear reports | 0.137572 | [0.041059, 0.222238] | 0.045880 | 0.100000 | 0.128463 | 0.228463 | 200 / 473 | descriptive texture |
+| unique-item diagnostic map / unresolved and uncontrollable / sadness reports | 0.148784 | [0.076715, 0.213839] | 0.034884 | 0.100000 | 0.097675 | 0.197675 | 200 / 492 | descriptive texture |
+
+Complete map summary results; row labels identify the profile, prompt or item. Signed joint-item slopes use the registered direction; full maps are scale-only and unique maps are descriptive.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| full-profile scale map | 0.043348 | [0.004998, 0.075470] | 0.018157 | 0.000000 | 0.050840 | 0.050840 | 200 / 1322 | scale report, fixed partly by construction |
+| unique-item diagnostic map | 0.063914 | [0.022546, 0.111553] | 0.023567 | 0.000000 | 0.065988 | 0.065988 | 200 / 1322 | descriptive texture |
+
+Complete paired contrasts results; row labels identify the profile, prompt or item. Signed joint-item slopes use the registered direction; full maps are scale-only and unique maps are descriptive.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| unresolved minus urgent | -0.052417 | [-0.153760, 0.045347] | 0.052160 | 0.000000 | 0.146049 | 0.146049 | 2000 / 473 | inconclusive |
+| unresolved minus predicted harm | 0.064048 | [-0.021721, 0.150158] | 0.044649 | 0.000000 | 0.125018 | 0.125018 | 2000 / 473 | inconclusive |
+
+Complete profiles in fear results; row labels identify the profile, prompt or item. Signed joint-item slopes use the registered direction; full maps are scale-only and unique maps are descriptive.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| urgent | 0.155866 | [0.085769, 0.230157] | 0.037202 | 0.100000 | 0.104167 | 0.204167 | 2000 / 473 | inconclusive |
+| predicted harm | 0.039401 | [-0.033412, 0.113942] | 0.037885 | 0.100000 | 0.106078 | 0.206078 | 2000 / 473 | inconclusive |
+| unresolved and uncontrollable | 0.103449 | [0.018548, 0.186789] | 0.043062 | 0.100000 | 0.120575 | 0.220575 | 2000 / 473 | inconclusive |
+
+Complete unique item specificity results; row labels identify the profile, prompt or item. Signed joint-item slopes use the registered direction; full maps are scale-only and unique maps are descriptive.
+
+| Contrast | Estimate | 95% interval | SE | Bar | Sees | Supports at | Draws / clusters | Reading |
+|---|---:|---|---:|---:|---:|---:|---|---|
+| DISGUST | -0.054353 | [-0.139612, 0.027567] | 0.042827 | 0.000000 | 0.119916 | 0.119916 | 2000 / 1322 | inconclusive |
+| urgent | -0.074486 | [-0.171266, 0.022093] | 0.049531 | 0.000000 | 0.138688 | 0.138688 | 2000 / 1322 | inconclusive |
+| predicted harm | 0.008576 | [-0.079324, 0.091149] | 0.043064 | 0.000000 | 0.120579 | 0.120579 | 2000 / 1322 | inconclusive |
+| PANIC/GRIEF | -0.046071 | [-0.130675, 0.041470] | 0.044348 | 0.000000 | 0.124173 | 0.124173 | 2000 / 1322 | inconclusive |
+| RAGE | -0.072938 | [-0.160082, 0.017587] | 0.044824 | 0.000000 | 0.125506 | 0.125506 | 2000 / 1322 | inconclusive |
+| unresolved and uncontrollable | -0.017654 | [-0.113584, 0.075425] | 0.047672 | 0.000000 | 0.133482 | 0.133482 | 2000 / 1322 | inconclusive |
+
+Profiles: predicted harm combines lower goal support, more consequence anticipation, urgency and lower own control; unresolved combines lower predictability, lower own control and suddenness; urgent combines urgency and attention. Unique sets retain consequence anticipation; predictability and suddenness; attention; other control; nonacceptance; and standards/social norms/not considering consequences, respectively for predicted harm, unresolved, urgent, RAGE, PANIC/GRIEF and DISGUST. Shared full-profile items cannot establish channel specificity. Joint item signs, full precision and every metric remain in the aggregate receipt.
+
+**Controls and provenance.** Eight constructed checks cover signed and exact-null slopes, writer ownership, pair arithmetic, full execute/replay, continuation and refusal cases. The qualified source and all sealed native output files authenticate; every native execution/verification identity has exited, as recorded in the owner authentication. The source excludes invented events under the original rule. No new raw text, individual identity or demographics are published. Source: Crowd-enVENT, Troiano, Oberländer and Klinger (2023), doi:10.1162/coli_a_00461, CC BY 4.0. Native total CPU 16.062500 seconds; wall 40.767735 seconds. No p-values are introduced.
+
+**Means and scope.** The frozen branch is “None fits”: no profile’s lower interval endpoint clears the bar. It does not say all three slopes are zero, that urgency is worse, or that these data prove appraisals unusable. All unique-item fear-specificity intervals span zero. The positive unique-map own-minus-cross point and interval are descriptive texture from 200 resamples, not a supported primary or a replacement winner. The full map shares items by construction and reports scale only. The joint-item models discharge the commissioned itemwise work, while their separate exploratory outcomes do not promote the primary. This is the third look at the same reports; an apparent support in a secondary remains an exploratory lead. Observational prompted reports do not identify biological channels, causal triggers or persistent values.
+
+**Next.** Carry every profile, joint item, specificity and both maps into the final packet. IN8 remains conditional on a new source plus its curator terms note; do not create a new sample or alter FEAR’s theory row from this exploratory branch. Theory-file edits and the curator synthesis remain deferred by the active final-packet policy; the Round 12 return is updated now.
+
+Curator roll-up: appraisal and reader inference; Do unresolved, uncontrollable events explain reported fear intensity better than predicted harm or urgency?; **Narrows**; Exploratory re-use of the fear reports leaves all three trigger profiles inconclusive at the registered bar; none earns the frozen support branch, and limited sensitivity prevents treating that as absence.; project meaning: scoped human appraisal evidence; next engineering obligation: Carry every profile, joint item, specificity and both maps into the final packet. IN8 remains conditional on a new source plus its curator terms note; do not create a new sample or alter FEAR’s theory row from this exploratory branch.; public claim: scoped registered comparison, no biological or causal upgrade; curator decision required: No. Detail: WEEK5/IN5_BACK_HALF_20261111.md.
+
+### OPS-S15-W5-MERGE-DELIVERIES-20261111
+
+**Hypothesis.** Can the complete April-to-June chess source preserve every qualified source row, and are the delivered chess and export implementations ready for their next authorized stage?
+
+**METHOD.** Authenticate all fifty-nine files sealed by the completed merge, inspect its independent-verification receipt and exact exited native identities, and compare the delivered builder file hashes with their frozen manifests. Read the prospective designs, constructed-check records and candidate limits, distinguish static review from production admission, and resume the assigned builders under amendment O. Inspect current resource/lock/watcher state and admit the already-qualified appraisal extension under amendment Q after its design commit.
+
+**Found.** The full three-month chess source and independent replay are authenticated; the chess and export builder deliveries are filed with their remaining admission gates explicit.
+
+The source verifier compared all 49,750,089 scientific-table rows from source ordinal zero. The completion authenticates 26,794,155,547 bytes across its full manifest. The continuation used 1,855.5625 counted CPU seconds and 2,285.673 seconds wall time, in addition to the retained 123.59375-CPU-second pilot. Original April, May and June inputs and the pilot remain intact. Worker, execute child and verifier creation identities no longer identify live processes. This is source completion, not a chess effect, complete player roster or completed engine scoring.
+
+The table records builder validation and remaining gates, not scientific estimates.
+
+| Delivery | Verified engineering state | Next gate |
+|---|---|---|
+| Chess stopping behaviour and retained grid | Frozen package hashes match; nine constructed checks pass, including sealed continuation, complete handler replay and authentication yield; forty configurations retained and four era component rows withdrawn | Complete native qualification, source/history and cost/resource review; original tests and driver failure retained |
+| Stack Exchange edit-reason export EX2 | Frozen package unchanged; seven constructed checks pass, exercising the complete balanced five-thousand-row bundle and independent replay | Owner source/provenance review, committed design, counted source run and final local handoff review |
+| Public goal-task export EX3 | Frozen package unchanged; eight constructed checks pass, exercising fifty constructed documents, allocation and independent replay | Completed matching R4 preparation, committed design and counted source run |
+
+The EX2/EX3 test observer measured sampled interpreter-tree CPU of 18.828125 and 3.75 seconds respectively. These observations are lower bounds and fixture resources, not real-source forecasts. No corpus export, recipient copy, model call or provider communication took place. The delivered manifests remain unchanged; later qualification receipts are separate. The original EX4 and later source-selector issues remain engineering work before production, with no unreviewed replacement admitted.
+
+Owner review of the separate appraisal extension confirmed the packet's exact profile definitions, writer/text cluster units, paired resamples, untouched prompt exclusion, full constructed handler replay and eight passing checks. The qualified source's forty-eight sealed outputs authenticate. The seven reviewed authority/design/code files were committed as `0a06a8f9dd34b5198841e9bc33187e1fa44bc3a9`; no raw data or private state was included. IN5, IN6 and IN7 were admitted with ceilings of 8,000, 5,000 and 8,000 CPU seconds, two numerical threads and a conservative two-GiB memory allowance. Their first block cost check is inside each counted run, as Q directs. They have since produced COMPLETE terminals and require their own full scientific write-through; their estimates are not reported in this operational record.
+
+The first launch preparation was refused by the native user's access to the pytest temporary fixture receipt. Its exact aggregate receipt was copied to the normal private admission directory and its hash rechecked, preserving the original path, bytes and failure. No test result, scientific code, source or gate changed. All three native launch handshakes and their four terminal watcher paths verify. The three jobs have exited; no research worker remains live at the health snapshot. Available RAM is 49.83 GiB, commit headroom 24.61 GiB and disk 41.19 GiB; all twenty-one locks pass. The watcher retains the original owner, event batching, four-hour inactivity fallback and single pending wake.
+
+Builder A continues the last export's engineering checks and the reviewed SQLite input-preservation correction; B investigates the historical material-package source gap; C tests the remaining packages and implements the repeat-play configuration. The curator clarified that repeat-play bins mean actual attempt numbers, with missing-record exclusions reported; that decision is retained verbatim in the private handoff. No extra test was harvested beyond the commissioned packet. Current idle research slots reflect the remaining source/native/design admission work and pending owner scientific landings, not an intentional gear pause or authority to restart parked GPU work.
+
+**Means.** The complete chess source is available to the reviewed successor pipeline. The builder packages and appraisal completions retain distinct admission and reporting obligations. Scientific claims remain unchanged by this operational landing; the original campaign, privacy limits and final-packet policy remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full three-month chess source and independent replay are authenticated; the chess and export builder deliveries are filed with their remaining admission gates explicit.; project meaning: scoped operational record; next engineering obligation: File completed appraisal primaries; qualify the preserved-source chess successor, review remaining packages and admit eligible counted work.; public scientific claim unchanged; curator decision required: No new decision. Detail: MERGE_DELIVERIES_20261111.md.
+
+### OPS-S15-W5-BACK-HALF-VERIFICATION-20261111
+
+**Hypothesis.** Can the commissioned chess stopping-behaviour implementation preserve the declared history, censoring and controls while the complete source merge independently verifies?
+
+**METHOD.** Inspect the owned constructed-test result, stdout and preserved initial driver failure; read the seven tests and record their exact resource observations. Inspect native job creation identities, the active verifier, output freshness, slot lease, resource floors, source locks, campaign calendar and durable watcher. This is an operational and fixture record, not a human-data estimate.
+
+**Found.** The three-month chess merge has entered independent verification; seven constructed chess stopping-behaviour checks pass, while new corpus admissions remain pending.
+
+Seven constructed checks cover cross-month history and month-tail censoring, provisional-session exclusion, three-outcome probabilities, preservation of the prior source projection, agreement with an independent dense fixed-effect fit, complete simulated histories, joint decision rules and unchanged retained grid configurations. The fixture includes a planted recovery and a twenty-history null check. These checks do not establish human sensitivity or complete native source/primary admission. The production package is still being prepared for owner review.
+
+The successful test used 12.15625 owned Job CPU seconds and 13.486 seconds wall time. Sampled interpreter-tree peaks were 128,573,440 bytes resident and 190,570,496 bytes private; these are fixture observations, not real-corpus forecasts. The first driver invocation failed before starting a child because its containment wrapper was given open file handles instead of output paths. Its failure is preserved; correcting those arguments allowed the unchanged test file to run.
+
+At the recorded health inspection, the full chess execute phase had handed over to a live independent verifier. The worker creation identity and occupied-slot lease agree, numerical threads remain two, and the runtime heartbeat is fresh. Available RAM was 46.99 GiB, commit headroom 23.41 GiB and free disk 41.48 GiB, above the existing floors. All twenty-one locks pass. Watcher and calendar native identities verify; current watcher error is absent, no unlanded event is pending, and three older transport failures remain retained. No research restart or resource-floor change was needed.
+
+One counted research slot is occupied. The remaining ready-buffer deficit persists: new committed designs and applicable native qualification are unfinished, the mood pilot needs its E/L cost-route review, and concurrent full identity expansion does not fit the conservative disk allowance. The three assigned builders remain active. The earlier nine-check laughter receipt is retained; subsequent preprocessing-yield and ambiguous cross-meeting timing repairs are unadmitted and await their changed-source checks. Export packages remain local builds, with no copy performed.
+
+The supplied theory handoff and its filed copy are byte-identical. No additional test beyond the commissioned packet was harvested in this operational pass. Events plus four hours of owner inactivity, one pending wake and the final-packet policy remain unchanged. The next actionable events are a sealed builder package or the complete source verification terminal.
+
+**Means.** The source pipeline is making verified operational progress. Constructed checks remain distinct from native admission and from complete scientific results; no unfinished effect or claim upgrade is reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The three-month chess merge has entered independent verification; seven constructed chess stopping-behaviour checks pass, while new corpus admissions remain pending.; project meaning: scoped operational record; next engineering obligation: Review sealed builder packages and admit eligible work; complete source replay, mood cost routing and reader native qualification without changing scope.; public scientific claim unchanged; curator decision required: No new decision. Detail: BACK_HALF_VERIFICATION_20261111.md.
+
+### OPS-S15-W5-BUILDER-CHECKS-20261111
+
+**Hypothesis.** Can the next local export and laughter implementations preserve their source and statistical contracts, and can completed builder packages reach an idle operating agent without repeated timers?
+
+**METHOD.** Execute the commissioned constructed-only suites serially in owned interpreter trees, retain their exact source/test/resource receipts, and register one exact final-manifest path per assigned builder with the existing durable watcher. Check the existing event/inactivity and single-pending configuration without changing its timing.
+
+**Found.** The text-free export and laughter implementations pass their constructed checks; three exact builder-delivery events are registered under the unchanged wake policy, with production admission still pending.
+
+The table describes engineering checks and their limits, not corpus effects or export completion.
+
+| Preparation | Constructed checks | Scope remaining |
+|---|---:|---|
+| Text-free CoAuthor word-label export EX1 | 16 passed | Owner review, counted source prefix, full source reconstruction, independent verification and authorized local-only handoff remain pending; no source/export/materializer was run |
+| Fresh/repeated laughter and social-background LA3/LA4 | 9 passed | Owner review and admission remain pending; no real lemmatizer or human source was loaded; ICSI chronology and co-attendance limits remain explicit |
+
+The EX1 suite used 6.214 seconds wall time and approximately 3.234 sampled interpreter CPU seconds; LA used 19.702 seconds wall and approximately 18.094 sampled interpreter-tree CPU seconds. Sampled peaks are fixture observations, not model/corpus memory forecasts. Unsupported mixed word provenance remains explicit and never becomes an invented fourth scientific source class. The mandatory laughter effects remain retained; an absorbed starter term is not reported as an estimated coefficient.
+
+The three registered paths are review-package completion events only. Registration is not a scientific result, admission or proof of eventual message delivery. Actual delivery is reconciled when those final files appear. Active-owner suppression, events plus four hours of inactivity and one pending wake remain unchanged; no hourly or additional ETA timer was installed. The owner continues serial test coordination and reviews delivered packages before admission. CH7 checks are next; the full chess merge continues under its existing counted limits. No GPU, paid call, export copy or publication occurred.
+
+**Means.** These preparations are available for owner review, while complete source execution and scientific inference remain unfinished. All standing source/privacy/control limits and the final-packet reporting policy remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The text-free export and laughter implementations pass their constructed checks; three exact builder-delivery events are registered under the unchanged wake policy, with production admission still pending.; project meaning: scoped operational record; next engineering obligation: Review the completed builder packages and admit only verified source/runtime plans; retain serial checks and exact event delivery.; public scientific claim unchanged; curator decision required: No new decision. Detail: BUILDER_CHECKS_20261111.md.
+
+### OPS-S15-W5-BACK-HALF-ADMISSIONS-20261111
+
+**Hypothesis.** Can the packet's released work run through the existing guarded runtime while the remaining test implementations are built and reviewed?
+
+**METHOD.** Authenticate the complete source and qualification outputs, retain existing committed scientific designs, pin isolated operational adapters and the packet amendment, and launch through the counted native runtime. Recheck exact process creation identities, real interpreter children, output freshness, numerical-thread limits, resources, locks and durable watcher delivery. Run new constructed checks serially and distinguish those checks from native model or corpus admission.
+
+**Found.** The full three-month chess merge is running in counted CPU-only Gear 2; the mood pilot has safely reached its planned cost checkpoint, the back-half builders continue, and unfinished inference remains unreported.
+
+The table reports execution and engineering readiness, not scientific estimates.
+
+| Work | Current disposition | What remains |
+|---|---|---|
+| April–June chess merge | Full continuation started from the fully filed five-percent pilot; exact predecessor and source pins retained | Complete every table and independently compare every source row from row zero |
+| Mood recent-history specifications | Original full first-play cohort, all three original discounts and unchanged complete uncertainty/control banks; first pilot paused at its planned 300-fit boundary | Cost-route review, complete execution and fresh independent replay |
+| Appraisal extensions IN5–IN7 | Builder delivered handler/design/plans; eight constructed checks pass | Owner source/design review and committed-design admission |
+| Two-reader goal comparison | Builder delivered isolated R4 handler and plans; eleven constructed checks pass | Real encoder/source admission, complete two-bank support and owner review |
+| Chess roster and long queue | Builder delivered isolated R2 roster, bounded queue and April calibration; seven constructed checks pass | Native source/engine/queue qualification, owner review and complete collector |
+| R1 measured memory guard | Twelve focused owner checks pass; original FP64 scorer delegated unchanged | Completed production-peak census, native proof, collector and long-queue admission |
+| Remaining new cards and exports | Three commissioned builders active on their assigned next items | Complete builds, evidence review and applicable admission; no export is inferred complete |
+
+The chess continuation has a 20,000-CPU-second attempt cap, twelve-hour outer wall cap and 36-GiB output cap. Its same-phase execute forecast is about 1,404 CPU seconds; this does not measure the full replay. Its conservative incremental disk allowance is 1.25 times the original input database sizes plus two GiB; the existing twenty-GiB free-space floor remains binding. The identity source stays checkpointed because its two-database forecast plus indexes and copies conflicts with concurrent full chess storage. Nothing was deleted to create capacity.
+
+The mood pilot retains the original 1,800-CPU-second attempt ceiling, 300 new bootstrap-fit quantum and 900-second cooperative wall quantum. Its three complete signed/null calibration banks and complete parent outputs were authenticated. R3 releases this handler only; the failed MD3.m control remains failed and that card stays withdrawn. The compatibility adapter changes only Path normalization and the already qualified JSON/numerical publication methods; seven targeted production-boundary checks passed.
+
+The mood pilot completed all three setup/null stages and the first 100 of 2,000 bootstrap fits per cell, saving 300 of 6,000 planned fits. Its actual attempt CPU was 433.34375 seconds. Scaling the entire attempt cost conservatively to all fits and both execution/replay gives about 17,333.75 CPU seconds; setup is overcounted and complete replay remains unmeasured. This exceeds the original card doubling threshold. The E/L whole-person sample and family-ceiling continuation route requires explicit cost review before a new attempt; no statistical result or sample change is inferred from this pilot. Every checkpoint hash and the native exit verify.
+
+At the native inspection, the chess worker and its owned child were live with two numerical threads; the available resource snapshot was 47.13 GiB RAM, 23.74 GiB commit headroom and 57.72 GiB disk. All 21 locks passed. Both source-pilot events were fully filed and ACKed; the new mood pause is fully filed by this record before its acknowledgement. The watcher and campaign calendar retained their exact native identities and current source pins. No GPU, Ollama or paid call was enabled.
+
+The SQLite inspection of the stopped chess pilot created an empty WAL and a shared-memory bookkeeping file. The continuation refused the extra manifest entries before work. Original database and checkpoint hashes were unchanged. Only those identified inspection sidecars were preserved separately; the full sealed manifest was rechecked before the successful continuation. Future inspections of authenticated stopped snapshots use immutable read-only SQLite mode. This correction and the initial default-pytest-temp permission failure remain recorded; neither is concealed as a scientific failure.
+
+The unfilled slots reflect explicit remaining build, fixture, source, storage and committed-design admission steps. Builder checks do not substitute for owner review, and fixture memory is not a human-card forecast. No additional hypothesis was harvested beyond the supplied packet/handoff. Existing claims and open theory choices remain unchanged.
+
+**Means.** The commissioned work is executing, and the ready-buffer deficiency remains explicit. Continue owner review of the delivered cards, the R1 native/collection path, laughter and stopping-behaviour builds, and the precisely scoped local exports. Wakes remain events plus four hours of owner inactivity, with one pending message; final scientific reporting stays with complete cards and the final packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full three-month chess merge is running in counted CPU-only Gear 2; the mood pilot has safely reached its planned cost checkpoint, the back-half builders continue, and unfinished inference remains unreported.; project meaning: scoped operational record; next engineering obligation: Complete active guarded jobs; review delivered IN/GO/CH designs and fixtures, finish reader admission and continue the assigned builders.; public scientific claim unchanged; curator decision required: No new decision. Detail: BACK_HALF_ADMISSIONS_20261111.md.
+
+### OPS-S15-W5-BACK-HALF-SOURCE-PILOTS-20261111
+
+**Hypothesis.** Can the complete identity source and the three-month chess frame be prepared within their existing CPU and storage limits without treating prefixes as finished populations?
+
+**METHOD.** Run the unchanged qualified source handlers in counted native Gear 2 attempts, stop at their declared first-five-percent transaction boundaries, verify exact native exits and every retained checkpoint hash, and run SQLite integrity checks. Compare measured source-phase CPU and database growth with remaining campaign resources and the twenty-GiB disk reserve.
+
+**Found.** The identity and three-month chess source pilots preserve authenticated first-five-percent checkpoints; identity expansion is storage-held while the higher-priority chess continuation is reviewed.
+
+The table reports source preparation and cost only. It contains no inferential estimate or unfinished artifact score.
+
+| Pilot | Saved source rows / complete-source rows | Attempt CPU seconds | Saved database bytes | Disposition |
+|---|---:|---:|---:|---|
+| Identity source | 3,516,618 / 70,332,355 | 344.265625 | 976,322,560 | Exact pilot pause; complete pair state retained |
+| April–June chess merge | 2,488,361 / 49,750,089 | 123.59375 | 486,678,528 | Transaction crossed the declared 2,488,000-row boundary; all source months retained |
+
+Identity ingestion plus fresh source replay projects 13,308.75 CPU seconds and 39,052,899,624 bytes for two pair databases, before indexes, projection, case parts or immutable copies. These are incomplete cost forecasts. They do not license a full source run. The chess source files total 27,293,233,152 bytes; a conservative full-merge allowance of 1.25 times their size plus preserved pilot storage and the unchanged disk floor fits the inspected free space, whereas both full preparations together do not. The packet ranks chess first. Identity remains checkpointed; no data was removed or population reduced.
+
+Chess's within-handler pilot projects 1,403.89 CPU seconds for the same execute phase only. Actual attempt cost includes additional authentication/startup overhead. Full independent source-row verification is separately required and not measured by this prefix; the continuation must retain a bounded ceiling and native resource guards. Original census and native fixture outputs were authenticated before admission. The existing committed generic merge design covers the new three-month input set; July remains untouched and withdrawn.
+
+Both pauses are planned source boundaries, not failures or scientific results. No first-play, identity, chess score or theoretical claim is made. All 21 locks pass; the native watcher and active campaign calendar are alive, and pending events remain durable. Historical notification errors remain in their original records; this inspection found no current watcher error. Events, four-hour inactivity and single-pending delivery remain unchanged.
+
+**Means.** Full source construction and independent replay remain necessary. Review and launch the affordable chess continuation; keep identity's storage constraint explicit, and continue the three assigned builders and released mood admission. The original findings and all failed or paused attempts remain preserved.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The identity and three-month chess source pilots preserve authenticated first-five-percent checkpoints; identity expansion is storage-held while the higher-priority chess continuation is reviewed.; project meaning: scoped operational record; next engineering obligation: Continue the authenticated chess merge after measured resource/cost admission; retain identity storage hold and finish independent source replays.; public scientific claim unchanged; curator decision required: No new decision. Detail: BACK_HALF_SOURCE_PILOTS_20261111.md.
+
+### OPS-S15-W5-BACK-HALF-HANDOFF-20261111
+
+**Hypothesis.** Can the newly commissioned back-half work enter the existing campaign while preserving its source evidence, scientific controls, resource limits and wake discipline?
+
+**METHOD.** Read the complete supplied packet and Round 12 handoff, preserve their exact bytes, apply the six operating amendments and two family-ceiling changes, inspect native workers and resource holders, and restart the three expressly assigned builder queues. Authenticate the existing identity-source design, native fixture, archive and complete source closure; admit its original first-five-percent pilot through the counted native runtime and verify actual worker ownership and monitoring.
+
+**Found.** The ratified back-half packet is filed, three builder queues are active, and the unchanged identity source pilot is running in CPU-only Gear 2 under counted resource guards.
+
+The table records implementation and admission, not scientific effects.
+
+| Requirement | Disposition |
+|---|---|
+| Packet authority | November 11 back-half amendment, same S15-WEEK5 campaign and November 15 cutoff |
+| R1 reader memory | Measured-guard successor commissioned; old readers remain unstarted pending implementation and their resource gate |
+| R2 chess | April, May and June 2017 only; July withdrawn for this week and retained untouched; three-month frame/roster and long queue building |
+| R3 mood | MD3.s released by its own three fully verified calibration cases; production path/publication adapter under review; MD3.m withdrawn, its failed control retained |
+| R4 goals | Encoder minus TF-IDF primary commissioned; two-reader support successor building; language-model arm secondary |
+| Builder A | Three-month chess frame and roster, long CH1 queues; then CH7 and CH2–CH6 plans |
+| Builder B | IN5–IN7 extension; then LA3/LA4 and source-conditional IN8 |
+| Builder C | GO1 successor and named local exports, TR1, RR1, EM1, EX4; minimal MD3.s compatibility support |
+| Family ceilings | MD 120,000 and EX 100,000 CPU seconds; other families and campaign 6,000,000 unchanged |
+| Actual research workers / leases | One / one at the inspected snapshot |
+| Identity source | Exact original first-five-percent pilot; full pairing, source replay and identity analysis remain unfinished |
+| Locks and watcher | All 21 locks pass; no pending landing event or current delivery error |
+| Wake policy | Events and four hours of owner inactivity; one pending operational message |
+
+The identity attempt uses the already committed design ac13874f4c73ddc774fed96d0bba9cc98fb67772 and its complete constructed native fixture. Its pilot preserves response pairs across the exact 3,516,618-record boundary of the 70,332,355-record census. The attempt has a 20,000-CPU-second ceiling, 7,200-second outer wall limit, 1,800-second cooperative source quantum, two numerical threads and two-GiB projected RAM. It must stop for measured ingestion and two-database disk-cost review before expansion. A prefix supplies no population result.
+
+The first R1(b) resource record is retained with this receipt and linked for the daily digest. It records the host commit limit and charge, page-file size/current/peak use, and only image names and GiB for the five largest private-commit holders. No unrelated process was stopped and no page-file setting changed. The earlier V1 checkpoint remains preserved; its next recovery is lower priority than the packet's first four staged items.
+
+The supporting theory handoff was supplied during this pass and is now preserved exactly. It separates the curator's positions, the theory thread's guesses, prior results and unanswered choices. This filing makes no new literature verification, theory-table edit or scientific verdict. Each new ledger row receives record_kind, theory_tags and by_construction; operations entries carry no supports/against field. New primary landings owe the packet's sensitivity quantities or applicable measured calibration rates. Local export copies remain strictly confined to amendment T and are not included in publication.
+
+**Means.** The new commission is operative and one existing eligible source job is executing. New designs and runtimes remain subject to owner review, fixture evidence and committed-design admission. The remaining idle slots reflect those explicit build/admission steps, not permission to fill them with unreviewed work. Final curator reporting and the daily theory return retain unfinished states without per-artifact scores.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The ratified back-half packet is filed, three builder queues are active, and the unchanged identity source pilot is running in CPU-only Gear 2 under counted resource guards.; project meaning: scoped operational record; next engineering obligation: Review builder deliveries, admit eligible work under R1–R4 and preserve counted costs, source boundaries and full write-through.; public scientific claim unchanged; curator decision required: No new decision. Detail: BACK_HALF_HANDOFF_20261111.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY19-RESOURCE-PAUSE-20261111
+
+**Hypothesis.** Can a memory interruption preserve the commissioned comparison without losing saved work, weakening its guards or changing its scientific scope?
+
+**METHOD.** Authenticate the complete paused output manifest, plan and source bindings, exact stopped native identities, sealed fit pairs and all-descendant CPU accounting. Compare the runtime resource observation with the frozen yield floors, then inspect current native resources, admission policy, leases, runnable work, source locks and watcher delivery. Admit no continuation while its original start gate refuses.
+
+**Found.** The Windows commit-memory guard preserved the full-scope comparison checkpoint; the unchanged continuation is resource-held and scientific production and replay remain unfinished.
+
+This is an environmental resource interruption, not a producer-quantum pause, engineering failure, scientific gate failure or intentional gear change. The recorded Windows commit headroom was 3.392429 GiB, below the unchanged six-GiB running floor; available physical RAM and disk remained above their respective four-GiB and twenty-GiB floors. The process stopped cooperatively and every saved output authenticates. No healing attempt is consumed.
+
+The table records operational preservation and resource admission, not scientific scores.
+
+| Check | Disposition |
+|---|---|
+| Authenticated checkpoint | 196,522 files; 98,213 complete sealed fit pairs |
+| Additional saved work | 627 complete fit pairs |
+| Attempt CPU, including descendants | 1759.140625 seconds, plus the standard supervisor charge |
+| Current commit headroom | 1.477139 GiB; below the unchanged eight-GiB start floor |
+| Current available physical RAM / disk | 33.073761 / 67.892544 GiB |
+| Research workers / leases | Zero / zero |
+| Source locks | All 21 pass |
+
+CPU-only Gear 2 remains selected. Recovery 20 is not created or launched. The continuation remains the original full 208,236-pair workload over 1,036 people, both groups, 200 choice-label controls, 2,000 resamples and complete independent replay. The original first-five-percent cost prefix is complete; the provisional all-in forecast remains uncertified and growing checkpoint overhead unresolved. Conservative BK-family use is 333628.671875 CPU seconds with 666371.328125 remaining; memory admission, rather than exhausted family allowance, currently prevents execution. The six-GiB projected peak, two numerical threads, 25,000-CPU-second attempt cap, 7,200-second outer wall cap and 3,600-second producer quantum remain unchanged.
+
+Reader ordinal 128 is also unadmitted at its existing 26-GiB commit and 20-GiB physical-RAM start gate. Other source and qualification holds remain explicit. The sixteen-card ready buffer remains deficient; the original builders delivered and none is active. No unrelated process, page-file setting, scientific definition, input, score, reference count or parked GPU job is changed. This hold permits checkpoint resumption only after a fresh unchanged admission review passes; it does not guarantee completion or authorize new scope.
+
+**Means.** Complete the full internal filing and ACK this event. Preserve the authenticated checkpoint, original failures and all charges. Events plus four hours of actual owner inactivity and one pending wake remain the monitoring policy; no fixed retry timer is added. The watcher native identity, source and current delivery state verify, with historical notification failures retained. No tests harvested this pass. Scientific reporting remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The Windows commit-memory guard preserved the full-scope comparison checkpoint; the unchanged continuation is resource-held and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Resume the unchanged authenticated checkpoint only after its original resource and cost admission gates pass; preserve the separate reader and qualification holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY19_RESOURCE_PAUSE_20261111.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY18-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2178 complete fit pairs, preserving 97,586 completed pairs in all 195,268 checkpoint files. The native attempt consumes 4244.5 CPU seconds, including 3529.109375 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 331839.53125 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 668160.46875 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 195,268, every hash authenticated |
+| Completed fit pairs | 97,586 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY18_PAUSE_20261110.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY17-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 1838 complete fit pairs, preserving 95,408 completed pairs in all 190,910 checkpoint files. The native attempt consumes 3933.515625 CPU seconds, including 3231.046875 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 327565.03125 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 672434.96875 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 190,910, every hash authenticated |
+| Completed fit pairs | 95,408 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY17_PAUSE_20261110.md.
+
+### OPS-S15-RECORD-REVIEW-G203-20261111
+
+**Hypothesis.** Does the new evidence navigation preserve the distinction between a measured personal-history pause association and the broader proposed communal-fluency mechanism?
+
+**METHOD.** Re-read the two complete original D33 reports and ledger rows against G203's section, afterword and relevant October 18 filing corrections. Match the theory file to the frozen migration revision; verify the reviewed report and substantive-row pins. File one bounded annotation with exact source versions, and compare the existing two claim mappings without recomputing results or changing theory.
+
+**Found.** The bounded G203 evidence re-read confirms that existing records preserve the supported association and unresolved mechanism separately; original evidence and claim standing are unchanged.
+
+The source-pinned annotation is `docs/records/REVIEW_W4_G203_20261111.md`, with its adjacent machine-readable source receipt. The primary association, diagnostic uncertainty failure, distinct supported populations and absence of an isolated topical-reuse contrast are already distinguished in the current G203 row and afterword. These are existing evidence scopes, not new scientific findings. The original source-state correction, quotation repair and inherited literature-reading limits remain intact. No p-value or new scientific estimate is introduced.
+
+The existing association and advantage claim identities, their scoped evidence links and all original substantive ledger rows remain unchanged. The attention navigation tag is explicitly qualified as a nearby question rather than an identified mechanism. The one bounded review task is complete; broader annotation, authoritative CURRENT input and physical migration remain unfinished. No new experiment, successor card, schedule, agent or theory promotion is created.
+
+**Means.** Continue the original full write-through and freshness boundary. The healthy comparison remains under its existing CPU-only Gear 2 limits; resource and qualification holds remain. No tests harvested this pass. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The bounded G203 evidence re-read confirms that existing records preserve the supported association and unresolved mechanism separately; original evidence and claim standing are unchanged.; project meaning: scoped operational record; next engineering obligation: Keep generated views fresh after complete landings; identify the authoritative CURRENT source before any later physical migration.; public scientific claim unchanged; curator decision required: No new decision. Detail: RECORD_REVIEW_G203_20261111.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY16-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2048 complete fit pairs, preserving 93,570 completed pairs in all 187,232 checkpoint files. The native attempt consumes 4060.875 CPU seconds, including 3366.15625 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 323601.515625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 676398.484375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 187,232, every hash authenticated |
+| Completed fit pairs | 93,570 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY16_PAUSE_20261110.md.
+
+### OPS-S15-RECORD-VIEWS-20261111
+
+**Hypothesis.** Can an agent find the evidence relevant to a scoped claim without confusing routine operations, scientific controls, descriptive texture or unreviewed material with a new theory verdict?
+
+**METHOD.** Preserve the supplied recommendation and freeze an inventory of all 1,227 original Stage 15 ledger IDs, source bindings, detail locations and hashes. Identify 388 current owner-helper writer entry points without treating a text match as a complete migration audit. Add a versioned annotation overlay and a five-claim register with scoped many-to-many evidence links. Review twelve complete existing records, retaining all original fields and source wording. Generate a short startup map, claim scoreboard, separate science/operations/unclassified views, four texture notes, five checked queries and an exact inventory of currently filed theory blockquotes. Test deterministic regeneration and refusal paths with isolated fixtures; verify actual source bindings and preservation against the initial inventory.
+
+**Found.** The approved additive navigation pilot preserves the original evidence and exposes reviewed claims, science, operations, textures, quotations and unclassified records with freshness checks.
+
+The table reports navigation and engineering validation, not new scientific results.
+
+| Check | Result |
+|---|---|
+| Initial original ledger IDs | All 1,227 retained with unchanged substantive row content |
+| Reviewed pilot | Twelve evidence records, five individual scoped claims, four texture notes |
+| Other initial records | 1,215 explicitly unreviewed; unknown is not false or uninformative |
+| Checked worked queries | Human attention-adjacent evidence; constructed method checks; claim evidence and corrections; G235 textures; instrument-related operational repair |
+| Filed blockquote inventory | 462 exact source-linked blocks; attribution, dates and supersession unreviewed, no transcript-authentication claim |
+| Focused tests | All 23 pass |
+| Source and native integrity | All 21 locks pass; existing CPU-only Gear 2 comparison remains active |
+
+Tests cover original-field and ID retention, source-locator rebinding, missing sources, duplicate and dangling IDs, stale and partial views, altered reviewed reports, concurrent writer markers, two different claim bearings for the same execution, immediate evidence-validity withdrawal, operations rows never promoting standing, literal versus mixed population classification, and exact quote bytes outside code fences. The first test invocation could not create its default temporary directory; no tests executed in that attempt. The local workspace fixture directories then ran successfully, without changing any scientific criterion or live job.
+
+The reviewed scoreboard transcribes existing scoped interpretations. Its family grouping is not a single global standing; a primary association and its invalid diagnostic interval can bear on different claims. Mixed human-design/constructed-outcome calibrations remain distinct from pure constructed controls and administrative pauses. The sign-reversal texture is marked as an algebraic diagnostic, while synthetic data alone never imply a guaranteed outcome. All original estimates, controls, correction history, source relationships and public wording remain in the original ledger and the generated full-record projection. No p-value or new scientific claim is introduced.
+
+AGENTS now points to the short navigation page and requires build/check after a full landing. The current Week 5 record helper marks views pending before writing and exposes a final build/check boundary. Older writers still require the final CLI refresh; they are not represented as fully migrated. The generator and checker read local saved evidence only and never dispatch a job, change a source pin, refresh a reviewed annotation blindly, schedule a wake or contact a companion repository.
+
+**Means and limits.** The additive phase is implemented and validated. The full filing contract, source locations, theory reading rules and curator theory-pass policy remain in force. The one bounded Week 4/G203 re-read is in the existing work queue and uses existing attention, not a new agent, schedule or experiment. Broader annotation remains unfinished. CURRENT is deliberately ungenerated because no exact versioned authoritative theory-thread state source has been identified. Existing theory files remain active; physical relocation awaits complete writer/reader compatibility and rollback review. The quote inventory must not be mistaken for reviewed current curator quotations. No tests were harvested for the scientific queue from this record-keeping approval. Existing resource holds and final-packet policy remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The approved additive navigation pilot preserves the original evidence and exposes reviewed claims, science, operations, textures, quotations and unclassified records with freshness checks.; project meaning: scoped operational record; next engineering obligation: Maintain freshness after every landing; perform the bounded source-pinned annotation re-read and settle CURRENT authority before any later migration.; public scientific claim unchanged; curator decision required: No new decision. Detail: RECORD_VIEWS_ADDITIVE_20261111.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY15-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2276 complete fit pairs, preserving 91,522 completed pairs in all 183,134 checkpoint files. The native attempt consumes 4181.578125 CPU seconds, including 3524.09375 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 319510.640625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 680489.359375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 183,134, every hash authenticated |
+| Completed fit pairs | 91,522 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY15_PAUSE_20261110.md.
+
 ### OPS-S15-W5-IN-IC-COMPLETE-CONTINUATION-20261111
 
 **Hypothesis.** Are the new completed results fully recorded while eligible original work remains active within its authorized limits?

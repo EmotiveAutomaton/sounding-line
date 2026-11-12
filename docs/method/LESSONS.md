@@ -1472,3 +1472,12 @@ L132 (a shuffle gate that voided the alternative's own signature).
   missing, repeated or reordered IDs, without padding or guessed alignment.
   Software validation does not establish provider format or scientific accuracy.
   (OPS-S15-W4-REV-CALIBRATION-20261105; OPS-S15-W4-REV-PROMPT-PREP-20261105)
+
+- **A read-only SQLite connection can still create WAL bookkeeping files.**
+  On an authenticated, stopped and checkpointed snapshot, use URI `mode=ro&immutable=1`
+  for inspection and compare the complete output manifest afterward. Plain `mode=ro`
+  created an empty WAL and shared-memory sidecar during the chess pilot integrity
+  check; the continuation correctly refused the extra files. Preserve identified
+  sidecars separately, prove the database and original outputs unchanged, and
+  restore the exact manifest before resuming. Do not apply immutable mode to a live
+  database or one requiring uncheckpointed WAL content. (OPS-S15-W5-BACK-HALF-ADMISSIONS-20261111)

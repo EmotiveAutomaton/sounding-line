@@ -62,6 +62,22 @@ must be resolved before accepting final claims; preserve original packets and ev
 
 # Working notes for an agent picking this up
 
+**Additive evidence navigation, curator-approved November 11, 2026.** Read
+`docs/START_HERE_FOR_AGENTS.md` for the short evidence map and run
+`python tools/record_views.py check` before relying on generated views. The
+scoreboard is a bounded reviewed claim register, not a replacement for source
+evidence or the theory-reading contract. Unclassified records remain explicit.
+Keep the current FINDINGS, STATE and TODO handoffs and stage authority below.
+
+After every full landing and its final receipt/ACK updates, run
+`python tools/record_views.py build` and `python tools/record_views.py check`.
+The Week 5 record writer marks views pending at the start of a landing; finish
+the complete write-through before refreshing. Re-review changed reviewed sources
+instead of blindly updating their annotation pins. Evidence validity can be
+withdrawn immediately; theoretical standing still follows the curator pass.
+The overlay, claim register, frozen migration inventory and rollback contract
+are in `docs/records/`. No authoritative records move in this additive phase.
+
 Read [`FINDINGS.md`](FINDINGS.md) first, then [`docs/STATE.md`](docs/STATE.md).
 
 ## Theory reading and context recovery (curator-approved 2026-09-06)
@@ -543,3 +559,41 @@ Ratified by the Week 5 packet and current handoff. Source: `docs/design/stage-15
 - (c) A texture lane stops after seven consecutive cells whose estimates lie inside the parent's practical band around zero (between minus and plus its bar). For Week 5's grids this replaces amendment G's five-similar stop. The curator's 14 October stopping rule, recorded in `docs/design/stage-15/SOUNDING_LINE_NEXT_ROUND_SPEC_2026-10-14.md` as "stop a family after about five to seven null batches, not two", governs families of primaries and stays as the 17 October packet's six-null family stop.
 - (d) Follow-ups may run two generations deep within a week. A positive, or any result outside its parent's interval, may register descendants from amendment C's menu.
 - (e) A failed source moves its cards to the next fallback in section 0.5. It never holds a slot.
+
+## Standing amendments, 11 November
+
+Ratified by the curator on November 11. Source: `docs/design/stage-15/week5/PACKET_BACK_HALF.md`, section 0.2. These amendments supersede earlier conflicting defaults. Events and four hours of owner inactivity, with one pending wake, remain unchanged. Rulings R1 to R4 and the packet ceilings apply to the same Week 5 campaign.
+
+**N. Long queues, and the order of a wake.**
+- Filler work (CH1's collection, reader scoring, encoder and masked-model passes) is admitted as queues: one admitted plan covers consecutive checkpointed batches for up to 12 hours in one slot. A batch checkpoints at least every 30 minutes, so a yield loses at most that. A queue is landed once, when it ends. This replaces the 30-minute filler bound in the 7 November packet's section 3.
+- Queues take at most six of the eight slots. Two stay for short cards, and run one-hour filler batches when nothing short is staged.
+- At every wake, in this order: (1) start staged or admissible work in every idle slot; (2) review any builder delivery and stage it; (3) land what finished; (4) anything else. A wake that ends with an idle slot while staged or admissible work exists records the reason in OPS_LOG.
+
+**O. Builders by queue (amends J).**
+- This packet lists builder assignments, so it is the explicit per-task request `AGENTS.md` requires. Start three builders at handoff on section 3's queues.
+- A builder builds and stages: the design note with its DESIGN CHECK block, the handler or config, the fixture, and a plan ready to admit. The owner reviews, admits and launches.
+- Amendment J had a finishing builder take the next card by itself. Under O the owner restarts it at the wake its delivery arrives, on the next unbuilt item of its queue. A builder with an empty queue takes the last item of the longest other queue.
+- The 8 November reading "No new delegation is inferred from this event" does not apply while any queue in section 3 holds an unbuilt item.
+
+**P. Say what the design could see.**
+- Every primary landed under this packet reports, beside its estimate, interval and bar, two approximate numbers from its own bootstrap standard error (SE):
+  - **sees:** 2.8 × SE, about the smallest true effect whose interval would exclude zero four times in five;
+  - **supports at:** bar + 2.8 × SE, about the smallest true effect the three-way rule would support four times in five.
+- These rest on a normal approximation and run a little optimistic: for IN3 it gives 76% detection at the bar where the calibration measured 70%. Where a calibration card exists for the same design, cite its measured rates instead.
+- When "sees" is larger than the bar, the record's first line reads "limited sensitivity: sees effects of about X or more; the bar is B".
+- This replaces separate sensitivity cards for new work. The calibrations already run keep their records. No verdict already in the ledger changes.
+
+**Q. Small cards admit on design and fixture.**
+- For the new cards of section 2 whose ceiling is 60,000 CPU-seconds or less and which read only sources already qualified this campaign, admission is the design note committed and the fixture passed (amendment K, restated), with the plan pinned as the owner already does. Their cost probe is the first stage of the run. No separate native qualification campaign, bounded variant or timing pilot is required for them.
+- If such a card fails in its first run for a runtime reason, it gets one repair and one rerun under its own ceiling.
+- Cards above that ceiling (CH1, GO1, GO2) keep the owner's existing admission.
+
+**S. Three tags on new rows.** Every ledger row written under this packet carries `record_kind` (claim, run or texture), `theory_tags` (the handoff tests it bears on, as `H12-T1` to `H12-T7`, for Round 12's tests 1 to 7) and `by_construction` (true or false). A run is a row that records an operation, such as a census, an export or a scoring pass; it has no supports or against field. A by-construction row is a scale report.
+
+**T. Engine exports: the one exception to section 0.7.**
+- Section 0.7 says outputs are aggregate only and no raw text leaves the repository. Section 2.6's four exports are the exception, and only as written there:
+  - EX1 holds per-word timing labels, word sources and offsets for CoAuthor, with no text. The older rule for that corpus stands untouched: "No raw CoAuthor text leaves `private/` or `raw/`."
+  - EX2 and EX4 hold text only from sources whose recorded licence permits copies (Stack Exchange under CC BY-SA; KLiCKe under CC BY 4.0). Each README carries the attribution, and EX2's states the share-alike condition.
+  - EX3 holds identifiers and offsets for public documents.
+- Every export stays on this machine's local disk, under paths git ignores in both repositories. None is committed, pushed, published or sent to any provider.
+- Handing over this packet approves these four copies into ToMpathy's `.local/bench/`, by EV4's procedure (copy, hash, record). Nothing else about section 0.7 changes.

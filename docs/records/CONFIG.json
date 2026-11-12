@@ -1,0 +1,76 @@
+{
+  "queries": [
+    {
+      "expected_ids": [
+        "S15-D33-CALIBRATION-SUPPORTED-20261029",
+        "S15-W4-D33-PROMPT-EXCLUDED-20261105"
+      ],
+      "filters": {
+        "population": "people",
+        "theory_tags": "attention"
+      },
+      "limit": "Only the reviewed pilot; these pause associations do not identify attention, value or automaticity.",
+      "name": "human-attention",
+      "question": "Which reviewed human records bear on the attention-adjacent personal-history question?"
+    },
+    {
+      "expected_ids": [
+        "OPS-S15-W5-MD3-M-POSITIVE-GATE-FAILURE-V4-20261110"
+      ],
+      "filters": {
+        "population": "constructed",
+        "purpose": "calibration"
+      },
+      "limit": "The failed gate is included. Mixed-source calibrations are separately labelled mixed; neither independent replay nor full qualification is inferred.",
+      "name": "constructed-checks",
+      "question": "Which reviewed pure constructed method checks are filed?"
+    },
+    {
+      "expected_ids": [
+        "S15-D33-CALIBRATION-SUPPORTED-20261029",
+        "S15-W4-D33-PROMPT-EXCLUDED-20261105"
+      ],
+      "filters": {
+        "claim": "SL-C-D33-ASSOCIATION"
+      },
+      "limit": "The parent scope correction and the probe diagnostic failure remain in their original rows/reports. Relationships are scoped, not votes.",
+      "name": "claim-evidence",
+      "question": "What reviewed evidence and original corrections bear on the personal-history association?"
+    },
+    {
+      "expected_ids": [
+        "S15-W5-IN1-DOUBLE_FIRST-TEXTURE-20261109",
+        "S15-W5-IN1-BINARY4-TEXTURE-20261109",
+        "S15-W5-IN1-MIN10-TEXTURE-20261109",
+        "S15-W5-IN1-REVERSE-TEXTURE-20261109"
+      ],
+      "filters": {
+        "record_kind": "texture",
+        "theory_ids": "G235"
+      },
+      "limit": "Complete frozen outcomes remain linked. The reverse cell is an algebraic diagnostic, not independent contrary evidence.",
+      "name": "theory-textures",
+      "question": "Which reviewed completed textures point to G235?"
+    },
+    {
+      "expected_ids": [
+        "OPS-S15-W5-IN-IC-NOTIFICATION-REPAIR-20261111"
+      ],
+      "filters": {
+        "claim": "SL-C-IN3-SENSITIVITY",
+        "purpose": "engineering_repair"
+      },
+      "limit": "The notification failure and repair concern delivery, not the numerical sensitivity result. Other unreviewed failures remain reachable.",
+      "name": "instrument-operations",
+      "question": "Which reviewed operational repair bears on the FEAR/RAGE calibration pipeline?"
+    }
+  ],
+  "schema_version": 1,
+  "theory_files": [
+    "docs/theory/THE_TRIPLE_INFERENCE.md",
+    "docs/theory/THREE_COGNITIVE_LAYERS.md",
+    "docs/theory/DECISION_TRACES.md",
+    "docs/theory/READER_HEURISTICS.md",
+    "docs/theory/ALIGNMENT.md"
+  ]
+}
