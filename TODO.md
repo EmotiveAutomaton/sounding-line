@@ -1,5 +1,11 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-EX3-COMPLETE-20261111: The complete public goal-task export and independent replay are verified; its text-free local ToMpathy copy matches every file hash and preserves the original source roster and ordered distractors.
+
+- [x] OPS-S15-W5-GO1-R4-SOURCE-READY-20261111: The revised goal-task interface passes complete native constructed replay, and the unchanged public-source roster is independently prepared; the identifier-only export is admitted while real encoder scoring remains separately gated.
+
+- [x] OPS-S15-W5-EX2-COMPLETE-20261111: The complete held-out editing-reason export and independent replay are verified; its authorized local ToMpathy copy matches every file hash, without refitting the classifier.
+
 - [x] OPS-S15-W5-EX1-COMPLETE-20261111: The complete text-free CoAuthor export and independent replay are verified; its local ToMpathy copy matches every file hash, and the next authorized edit export is running alongside chess.
 
 - [x] OPS-S15-W5-DIGEST-20261111: The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused.

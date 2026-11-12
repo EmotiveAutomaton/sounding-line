@@ -1395,3 +1395,9 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-12T04:41:22.749497+00:00 OPS-S15-W5-DIGEST-20261111: The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused.
 
 2026-11-12T05:34:12.606869+00:00 OPS-S15-W5-EX1-COMPLETE-20261111: The complete text-free CoAuthor export and independent replay are verified; its local ToMpathy copy matches every file hash, and the next authorized edit export is running alongside chess.
+
+2026-11-12T05:55:26.793094+00:00 OPS-S15-W5-EX2-COMPLETE-20261111: The complete held-out editing-reason export and independent replay are verified; its authorized local ToMpathy copy matches every file hash, without refitting the classifier.
+
+2026-11-12T05:55:54.833482+00:00 OPS-S15-W5-GO1-R4-SOURCE-READY-20261111: The revised goal-task interface passes complete native constructed replay, and the unchanged public-source roster is independently prepared; the identifier-only export is admitted while real encoder scoring remains separately gated.
+
+2026-11-12T06:01:55.176395+00:00 OPS-S15-W5-EX3-COMPLETE-20261111: The complete public goal-task export and independent replay are verified; its text-free local ToMpathy copy matches every file hash and preserves the original source roster and ordered distractors.

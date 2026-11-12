@@ -1,5 +1,11 @@
 # Week 5 verified records
 
+**OPS-S15-W5-EX3-COMPLETE-20261111:** [Record](EX3_COMPLETE_20261111.md). The complete public goal-task export and independent replay are verified; its text-free local ToMpathy copy matches every file hash and preserves the original source roster and ordered distractors.
+
+**OPS-S15-W5-GO1-R4-SOURCE-READY-20261111:** [Record](GO1_R4_SOURCE_READY_20261111.md). The revised goal-task interface passes complete native constructed replay, and the unchanged public-source roster is independently prepared; the identifier-only export is admitted while real encoder scoring remains separately gated.
+
+**OPS-S15-W5-EX2-COMPLETE-20261111:** [Record](EX2_COMPLETE_20261111.md). The complete held-out editing-reason export and independent replay are verified; its authorized local ToMpathy copy matches every file hash, without refitting the classifier.
+
 **OPS-S15-W5-EX1-COMPLETE-20261111:** [Record](EX1_COMPLETE_20261111.md). The complete text-free CoAuthor export and independent replay are verified; its local ToMpathy copy matches every file hash, and the next authorized edit export is running alongside chess.
 
 **OPS-S15-W5-DIGEST-20261111:** [Record](DIGEST_20261111.md). The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused.

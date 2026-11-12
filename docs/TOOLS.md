@@ -2656,6 +2656,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-EX3-COMPLETE-20261111:** The complete public goal-task export and independent replay are verified; its text-free local ToMpathy copy matches every file hash and preserves the original source roster and ordered distractors. [Record](../results/phase_2_4_stage_15/WEEK5/EX3_COMPLETE_20261111.md).
+
+**OPS-S15-W5-GO1-R4-SOURCE-READY-20261111:** The revised goal-task interface passes complete native constructed replay, and the unchanged public-source roster is independently prepared; the identifier-only export is admitted while real encoder scoring remains separately gated. [Record](../results/phase_2_4_stage_15/WEEK5/GO1_R4_SOURCE_READY_20261111.md).
+
+**OPS-S15-W5-EX2-COMPLETE-20261111:** The complete held-out editing-reason export and independent replay are verified; its authorized local ToMpathy copy matches every file hash, without refitting the classifier. [Record](../results/phase_2_4_stage_15/WEEK5/EX2_COMPLETE_20261111.md).
+
 **OPS-S15-W5-EX1-COMPLETE-20261111:** The complete text-free CoAuthor export and independent replay are verified; its local ToMpathy copy matches every file hash, and the next authorized edit export is running alongside chess. [Record](../results/phase_2_4_stage_15/WEEK5/EX1_COMPLETE_20261111.md).
 
 **OPS-S15-W5-DIGEST-20261111:** The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261111.md).

@@ -1,5 +1,106 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-EX3-COMPLETE-20261111
+
+**Hypothesis.** Can the engine receive the original public-document goal task as identifiers and offsets, with the same sources and candidate ordering, without copying proposal text or changing the task?
+
+**METHOD.** Bind the independently complete GO1 source preparation, original source completion, row digest and allocation digest. Reparse every pinned public document, reproduce original section semantics and hashed first author, and export the original ordered candidate roster. Repeat every document and task join in a fresh verifier; authenticate all completed files and source pins, validate every export field and offset ordering, then copy the exact bundle between ignored local destinations with matching hashes.
+
+**Found.** The complete public goal-task export and independent replay are verified; its text-free local ToMpathy copy matches every file hash and preserves the original source roster and ordered distractors.
+
+The table describes the entire completed export. Repository rows count documents from the original frozen task; each query uses the same declared candidate count.
+
+| Complete task coverage | Count |
+|---|---:|
+| PEP documents | 276 |
+| EIP documents | 555 |
+| ERC documents | 600 |
+| All documents | 1,431 |
+| Queries | 1,431 |
+| Ordered distractors per query | 49 |
+| Exported files | 3 |
+| Bundle bytes | 14,707,460 |
+
+**Definitions and integrity.** Each document retains its public repository-relative path, pinned commit, original byte hash, normalized decoded-text hash, hashed first-listed author, source licence and section spans. Both line and Unicode-code-point spans are zero-based and half-open after UTF-8 decoding with CRLF/CR converted to LF. They identify source pieces: reconstruction still uses the original parser's heading rendering, subtree joins and stripping. Headers, copyright and complete Motivation subtrees remain excluded from the query, including nested sections. No proposal text, title, author name or model score enters the bundle. The exact fifty ordered candidates retain the true document and forty-nine distractors; no later reader context filter or new draw changes the task.
+
+All 2,940 completion-bound files authenticate, every source/code pin is unchanged, and complete production/verifier bundles are byte-identical. Every document passes the exact text-free schema and ordered span checks; every candidate ID resolves within the original roster. The original preparation's source-row and allocation digests match. The native owner and children have exited, with no pause, failure or monitor-failure terminal in this completed attempt. Original per-document public-domain/CC0 PEP scope and CC0 EIP/ERC notices remain recorded; no broader source licence is inferred.
+
+**Local handoff.** The source bundle is at `corpora/store/exports/engine_bench_20261111/EX3`; the authorized recipient copy is ToMpathy's `.local/bench/EX3`. Both paths are Git-ignored. Every destination file matches; the complete inventory hash is `2edfcbe6ad6e6274509c667a375723c565171979c21b489c437f1b3b8ae32b55`. The private receipt retains the exact file inventory. No bundle is committed, pushed, published or transferred to a provider. No recipient commit, push or benchmark run occurs. Local delivery is verified; recipient adapter compatibility and uptake are not established here.
+
+**Cost.** Complete execution and independent replay use 28.546875 CPU-seconds and 96.047563 wall-seconds. The separate supervisor allowance is 30 CPU-seconds, giving 58.546875 charged against the unchanged 5,000-CPU-second ceiling. The initial attempt completes without a pause, repair or source reduction. The associated GO1 constructed qualification and source preparation are separately charged and fully filed in [OPS-S15-W5-GO1-R4-SOURCE-READY-20261111](GO1_R4_SOURCE_READY_20261111.md).
+
+**Queue and remaining work.** Chess source collection remains live in counted CPU-only Gear 2, with native identity, matching lease, advancing progress and current outputs checked. All 21 locks pass and watcher source/delivery health is current. Seven slots are idle; the sixteen-card ready buffer remains deficient. Serial owner qualification/admission of delivered implementations remains the documented bottleneck. The GO1 interface and source are now qualified, but the actual pretrained encoder route still needs its specific qualification and measured exact 143-text prefix before model continuation; the older selected-reader fixture also substitutes constructed encoder vectors and cannot supply that proof. EX4, laughter, trait, reader-memory and mood implementations retain their stated review/qualification gates; CH7 awaits complete chess source. Source-conditional IN8 and EM1 remain held. No gate is waived to fill capacity, and no raw corpus is deleted. All commissioned builders have delivered. GPU, Ollama and paid work remain off; July and MD3.m remain withdrawn. Events, four-hour owner inactivity and one pending wake are unchanged.
+
+**Means.** This is an export operation, not evidence that a model can infer a person's goals. The original source ledger reference remains OPS-S15-W5-GO-BK-SOURCES-20261107. The earlier EX3-admission snapshot remains historical; this complete record closes its export obligation. No scientific claim, p-value or canonical theory standing changes. No tests were harvested from this operational wake. The final packet and unfinished commissioned studies remain due. ACK follows full internal filing.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete public goal-task export and independent replay are verified; its text-free local ToMpathy copy matches every file hash and preserves the original source roster and ordered distractors.; project meaning: scoped operational record; next engineering obligation: Continue chess; complete the specific encoder and remaining delivered-card qualifications, admissions and final packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: EX3_COMPLETE_20261111.md.
+
+### OPS-S15-W5-GO1-R4-SOURCE-READY-20261111
+
+**Hypothesis.** Can the revised two-reader pipeline preserve the original goal task and supply its exact source roster without depending on the unfinished language-model reader?
+
+**METHOD.** Run the committed interface's constructed fixture inside a counted native slot, followed by a separate fresh verifier. Exercise the actual producer, checkpoint cache, collector and all signed/zero-effect bootstrap cases. Then authenticate the original qualified GO source and run the unchanged source preparation in a separate counted attempt with full independent replay. Freeze the resulting source and allocation digests before admitting EX3.
+
+**Found.** The revised goal-task interface passes complete native constructed replay, and the unchanged public-source roster is independently prepared; the identifier-only export is admitted while real encoder scoring remains separately gated.
+
+**Constructed interface qualification.** The actual score/collect/verify routes pass using a deterministic encoder stand-in, preserving the original roster, ordered distractors and author assignment. The encoder prefix pauses and resumes, every score and all 2,000 paired author resamples replay, and an absent language-model bank cannot affect primary support. The known positive case reaches the positive gate; the signed negative and exact-zero cases reach their declared gates. These are known-answer instrument checks, not human evidence for or against a mechanism. Eleven existing focused checks remain passed against unchanged source hashes. All 1,087 completion-bound native files and source pins authenticate; the owner and children have exited. No pretrained encoder or human corpus was used by this fixture. The exact source preparation below uses the real previously qualified public source, separately.
+
+The table describes the completed source-only preparation. It counts the original task before any reader-specific context or support filter.
+
+| Source preparation output | Count |
+|---|---:|
+| Original public documents | 1,431 |
+| Original queries | 1,431 |
+| First-author clusters | 751 |
+| Unique texts the encoder would encounter | 2,855 |
+| First five percent of unique texts, rounded up | 143 |
+| Ordered distractors per query | 49 |
+
+Both passes reproduce the exact row digest `f5271865cf3d36aa2e5dc207028c416c7084581bfba06b2fcf080b56e6875a1d` and candidate-allocation digest `559fc6a84ad8d56aedc44f5251e96305ea1e884ed51812104081d65cc9c040c5`. All 66 completion-bound preparation files and its source/code pins authenticate; both native passes and their owner have exited. This operation computes no reader score and no scientific contrast.
+
+**Cost.** The constructed qualification uses 6.578125 CPU-seconds and 23.796681 wall-seconds; preparation uses 6.640625 CPU-seconds and 23.323467 wall-seconds. Their separate supervisor allowances are 30 CPU-seconds each. Combined measured CPU is 13.21875 and combined charged CPU is 73.21875 within the existing GO family. The 120-CPU-second fixture and 1,800-CPU-second preparation ceilings remain operational bounds inside the unchanged GO1 allowance. No source population, task or scientific ceiling changes.
+
+**Admission released.** EX3's committed design and eight unchanged constructed checks, together with this complete source preparation, satisfy the small-card admission contract. EX3 is launched in an idle counted slot with a 5,000-CPU-second cap, two numerical threads, a 1-GiB memory projection, the existing resource guards and full independent replay. It exports no proposal text or model output. Its complete bundle and recipient copy remain pending at this admission snapshot. The source-only operation does not establish real encoder qualification; actual scoring still requires that original qualification and the measured exact 143-text prefix before continuation. It does not release the language-model secondary.
+
+**Queue and delivery.** Chess and EX3 are active at inspection; all 21 locks pass, leases match native owners, progress is fresh and watcher source/delivery health is current. Events, four-hour owner inactivity and one pending wake remain unchanged. Six slots remain idle and the sixteen-card ready buffer remains deficient. The documented limiting step is owner admission of delivered implementations, with the other source, memory, storage and mood qualification/cost holds retained. All three builders have delivered; no extra agent is started. July and MD3.m remain deliberately withdrawn. GPU, Ollama and paid work remain off. Idle capacity is a recorded defect, not a claim that the commission is complete.
+
+**Means.** The operational source dependency is satisfied; no goal-inference result or canonical theory standing changes. The final packet still owes complete reader comparisons and the other commissioned tests with their stated limits. No new tests were harvested from the wake. These two complete native events are acknowledged only after this full filing.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The revised goal-task interface passes complete native constructed replay, and the unchanged public-source roster is independently prepared; the identifier-only export is admitted while real encoder scoring remains separately gated.; project meaning: scoped operational record; next engineering obligation: Complete EX3 verification/copy, then retain measured real-encoder admission and final-packet obligations.; public scientific claim unchanged; curator decision required: No new decision. Detail: GO1_R4_SOURCE_READY_20261111.md.
+
+### OPS-S15-W5-EX2-COMPLETE-20261111
+
+**Hypothesis.** Can the engine receive the commissioned balanced editing-reason benchmark while preserving the original unseen-editor predictions and source attribution?
+
+**METHOD.** Authenticate the independently complete GO3 primary, features and original source chain. Select fixed source-row hashes within the five registered categories before reading classifier outputs, join the original held-out predictions and unchanged body texts, and recover public post IDs locally from the pinned source. Repeat selection, all joins and attribution in a fresh verifier. Check every completed output, the exact export schema and bundle bytes, then copy the complete bundle between the two ignored local destinations with file-by-file hashes.
+
+**Found.** The complete held-out editing-reason export and independent replay are verified; its authorized local ToMpathy copy matches every file hash, without refitting the classifier.
+
+The table gives the complete export's fixed label balance. Each row is a comment-derived editing-reason category, not a psychological goal measurement.
+
+| Editing-reason category | Exported body edits |
+|---|---:|
+| Added content | 1,000 |
+| Removed content | 1,000 |
+| Spelling or typo | 1,000 |
+| Grammar | 1,000 |
+| Clarity | 1,000 |
+
+All 5,000 edits meet the declared floor. The source-site counts are writing 225, philosophy 494, academia 821, worldbuilding 1,482 and English 1,978. Original editor-fold counts, in fold order zero through four, are 1,065, 866, 1,052, 1,054 and 963. Every selected row retains its original held-out predicted category, rather than a probability or in-sample prediction. Selection does not use model correctness or uncertainty; no classifier, feature scaler or fold assignment is fitted anew. The fourteen diff-feature definitions and external IteraTeR feature provenance remain included.
+
+**Integrity and local handoff.** All 10,090 completion-bound files authenticate, every source/code pin is unchanged, the native owner and children have exited, and the complete independent bundle is byte-identical. The strict schema contains only site, public post ID/attribution URL, before/after body text, reason category, original fold and classifier output. It adds no editor hashes, participant identifiers, raw comments, user profiles or salts. Public post links use recovered numeric public IDs rather than salted identity values.
+
+The four files total 16,000,493 bytes. They are materialized at `corpora/store/exports/engine_bench_20261111/EX2` and copied under packet amendment T to ToMpathy's `.local/bench/EX2`. Both paths are Git-ignored. Every destination hash matches; the complete inventory hash is `c0659380d34e7a1b633656a241b38880afb5a3850772e719207d39d69c702d08`. The supplied CC BY-SA 3.0 notice, contributor attribution links, derivative acknowledgement and retained-licence condition accompany the unchanged excerpts. Neither bundle is committed, pushed, published or sent to a provider. No recipient benchmark, recipient commit or recipient push is performed. Delivery to local disk does not establish recipient adapter compatibility, uptake or accuracy.
+
+**Cost.** Complete execution and fresh verification use 520.40625 CPU-seconds and 709.292942 wall-seconds. The separate supervisor allowance is 30 CPU-seconds, for 550.40625 charged against the unchanged 10,000-CPU-second card ceiling. The initial counted attempt completed without a pause or repair. No failed gate is hidden or reclassified.
+
+**Means and next work.** This is a completed export operation; the original scientific reference remains S15-W5-GO3-PRIMARY-20261108 with its existing proxy-label and control limits. No human inference, engine benchmark verdict or canonical theory standing is added. The companion [GO1 qualification and source-preparation record](GO1_R4_SOURCE_READY_20261111.md) releases only the source prerequisite for the next identifier/offset export, EX3. Chess remains active in counted CPU-only Gear 2. No tests were harvested from this operational wake; ACK follows the full internal write-through.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete held-out editing-reason export and independent replay are verified; its authorized local ToMpathy copy matches every file hash, without refitting the classifier.; project meaning: scoped operational record; next engineering obligation: Continue commissioned source/export work and the final packet; recipient benchmark admission remains separate.; public scientific claim unchanged; curator decision required: No new decision. Detail: EX2_COMPLETE_20261111.md.
+
 ### OPS-S15-W5-EX1-COMPLETE-20261111
 
 **Hypothesis.** Can the engine receive every final-word timing and source label from the qualified CoAuthor records, without transferring the texts or changing the source definitions?
