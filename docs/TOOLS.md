@@ -2656,6 +2656,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-EX1-COMPLETE-20261111:** The complete text-free CoAuthor export and independent replay are verified; its local ToMpathy copy matches every file hash, and the next authorized edit export is running alongside chess. [Record](../results/phase_2_4_stage_15/WEEK5/EX1_COMPLETE_20261111.md).
+
 **OPS-S15-W5-DIGEST-20261111:** The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261111.md).
 
 **OPS-S15-W5-EX1-CHECKPOINT-RECOVERY-20261111:** The text-free export prefix is intact; the false disappearance alert is retained, supervision and continuation compatibility are repaired, and full-source execution has resumed under unchanged scope. [Record](../results/phase_2_4_stage_15/WEEK5/EX1_CHECKPOINT_RECOVERY_20261111.md).

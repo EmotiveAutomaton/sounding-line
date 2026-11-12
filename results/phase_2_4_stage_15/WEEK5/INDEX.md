@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-EX1-COMPLETE-20261111:** [Record](EX1_COMPLETE_20261111.md). The complete text-free CoAuthor export and independent replay are verified; its local ToMpathy copy matches every file hash, and the next authorized edit export is running alongside chess.
+
 **OPS-S15-W5-DIGEST-20261111:** [Record](DIGEST_20261111.md). The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused.
 
 **OPS-S15-W5-EX1-CHECKPOINT-RECOVERY-20261111:** [Record](EX1_CHECKPOINT_RECOVERY_20261111.md). The text-free export prefix is intact; the false disappearance alert is retained, supervision and continuation compatibility are repaired, and full-source execution has resumed under unchanged scope.
