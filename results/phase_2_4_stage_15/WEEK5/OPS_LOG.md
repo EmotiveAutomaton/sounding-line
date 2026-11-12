@@ -1409,3 +1409,11 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-12T10:36:03.827302+00:00 OPS-S15-W5-HEALTH-20261112-0230: Chess verification and the newly admitted encoder cost prefix are active in CPU-only Gear 2; native ownership, fresh outputs, locks and watcher delivery reconcile, while six slots remain unused.
 
 2026-11-12T10:49:49.359221+00:00 OPS-S15-W5-GO1-LONG-CONTINUATION-20261112: The complete prescribed encoder cost prefix is authenticated and retained; a tested long continuation now runs from its saved vectors alongside chess verification in CPU-only Gear 2.
+
+2026-11-12T12:51:46.220258+00:00 OPS-S15-W5-GO1-ENCODER-COMPLETE-20261112: The complete original encoder bank and independent replay authenticate; the registered two-reader primary is separately complete and filed.
+
+2026-11-12T12:52:18.319775+00:00 OPS-S15-W5-GO1-D-ADMISSION-20261112: The predeclared other-category goal comparison is admitted in CPU-only Gear 2; its lexical bank is independently complete and the encoder continues alongside chess verification.
+
+2026-11-12T12:51:46.054141+00:00 S15-W5-GO1-R4-PRIMARY-20261112: complete scientific filing, preserved earlier-evidence crosswalk and reviewed aggregate handoff prepared. Independent bootstrap arithmetic passes; canonical theory is unchanged. The selected original branch is running; owner-admission backlog and six idle slots remain explicit.
+
+2026-11-12T12:55:33.524797+00:00 GO1 R4 reviewed handoff: four aggregate files copied to the approved local ToMpathy docs destination; every hash matches. No recipient commit, push or scientific admission.

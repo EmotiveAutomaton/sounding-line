@@ -1,5 +1,13 @@
 # Week 5 verified records
 
+**GO1 R4 handoff copied:** [Hash receipt](GO1_R4_HANDOFF_COPY_20261112.json). Four reviewed aggregate files are locally copied to ToMpathy; no recipient commit, push or uptake test.
+
+**OPS-S15-W5-GO1-D-ADMISSION-20261112:** [Record](GO1_D_ADMISSION_20261112.md). The predeclared other-category goal comparison is admitted in CPU-only Gear 2; its lexical bank is independently complete and the encoder continues alongside chess verification.
+
+**OPS-S15-W5-GO1-ENCODER-COMPLETE-20261112:** [Record](GO1_ENCODER_COMPLETE_20261112.md). The complete original encoder bank and independent replay authenticate; the registered two-reader primary is separately complete and filed.
+
+**S15-W5-GO1-R4-PRIMARY-20261112:** [Complete primary](GO1_R4_PRIMARY_20261112.md). On the frozen public-proposal task, the encoder retrieves stated Motivations less accurately than the lexical comparator; the registered encoder advantage is rejected within this task.
+
 **OPS-S15-W5-GO1-LONG-CONTINUATION-20261112:** [Record](GO1_LONG_CONTINUATION_20261112.md). The complete prescribed encoder cost prefix is authenticated and retained; a tested long continuation now runs from its saved vectors alongside chess verification in CPU-only Gear 2.
 
 **OPS-S15-W5-HEALTH-20261112-0230:** [Record](HEALTH_20261112_0230.md). Chess verification and the newly admitted encoder cost prefix are active in CPU-only Gear 2; native ownership, fresh outputs, locks and watcher delivery reconcile, while six slots remain unused.

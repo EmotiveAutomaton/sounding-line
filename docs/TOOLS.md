@@ -2656,6 +2656,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-GO1-D-ADMISSION-20261112:** The predeclared other-category goal comparison is admitted in CPU-only Gear 2; its lexical bank is independently complete and the encoder continues alongside chess verification. [Record](../results/phase_2_4_stage_15/WEEK5/GO1_D_ADMISSION_20261112.md).
+
+**OPS-S15-W5-GO1-ENCODER-COMPLETE-20261112:** The complete original encoder bank and independent replay authenticate; the registered two-reader primary is separately complete and filed. [Record](../results/phase_2_4_stage_15/WEEK5/GO1_ENCODER_COMPLETE_20261112.md).
+
+**S15-W5-GO1-R4-PRIMARY-20261112:** Complete qualified two-reader comparison and full fresh replay; all saved resamples, interval and sensitivity arithmetic reconcile. The scientific result does not require a runtime repair. [Record](../results/phase_2_4_stage_15/WEEK5/GO1_R4_PRIMARY_20261112.md).
+
 **OPS-S15-W5-GO1-LONG-CONTINUATION-20261112:** The complete prescribed encoder cost prefix is authenticated and retained; a tested long continuation now runs from its saved vectors alongside chess verification in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/GO1_LONG_CONTINUATION_20261112.md).
 
 **OPS-S15-W5-HEALTH-20261112-0230:** Chess verification and the newly admitted encoder cost prefix are active in CPU-only Gear 2; native ownership, fresh outputs, locks and watcher delivery reconcile, while six slots remain unused. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_20261112_0230.md).

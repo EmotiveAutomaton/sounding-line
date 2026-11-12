@@ -1,5 +1,79 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-GO1-D-ADMISSION-20261112
+
+**Hypothesis.** Can the registered branch begin within the original authority, with complete evidence and resource accounting?
+
+**METHOD.** Authenticate the complete parent and native family fixture, check the committed branch design and exact unchanged allocator on constructed strata, reuse the measured cost of these identical full texts, pin separate plans, and inspect actual native leases, current phase outputs, locks and watcher delivery.
+
+**Found.** The predeclared other-category goal comparison is admitted in CPU-only Gear 2; its lexical bank is independently complete and the encoder continues alongside chess verification.
+
+The original primary selects GO1.d. Only distractor priority changes: prefer other types/categories within the same repository, then use the original stratum where necessary. Deterministic constructed checks confirm distinct candidates, correct truth positions, preferred categories and fallback counts. The inherited output key named other_stratum counts fallback into the original stratum in this branch; its interpretation must be explicit in the final comparison. No outcome or scorer is repaired. No old score cache is reused across the changed allocation.
+
+The same full 2,855 texts and scoring kernels already have a measured first-five-percent prefix and complete-run cost. Their original total encoder CPU charge, excluding allowances, is 18803.171875; twice that measured cost stays below the new 50,000-second encoder cap. This reuses cost evidence, not a claim that a new prefix was measured. Encoder, lexical and eventual collector caps plus allowances total 64,490 seconds, below the half-parent 75,000 ceiling and within the original card/family room. The encoder has a twelve-hour wall limit, per-vector checkpoints, 256-MiB output cap, 3-GiB projected peak and two numerical threads. Original resource guards remain.
+
+The follow-up lexical bank has complete fresh replay, all 72 bound files authenticated, unchanged input pins and stopped owner/children. It used 40.90625 native CPU seconds and 61.75030419998802 wall seconds plus 30 seconds. Its complete source rows match the original rows; its changed candidate allocation is separately pinned. This is a completed scoring operation, not a completed branch result; no score is reported here.
+
+At inspection the two live owners and leases match their native PID/creation identities. Chess independent verification has processed 31022425 of 34555025 source items; its independent-sample progress is fresh, whereas the old execution progress is a finished phase. The new encoder has sealed 93 of 2855 text vectors; its vector progress is fresh. These are workload counts, not scientific scores. All 21 locks pass. Available physical RAM is 46.787724 GiB, commit headroom 25.068626 GiB and disk 39.466248 GiB. No active job has a conflicting failure terminal. Historical inaccessible process identities and historical delivery errors remain in the inspection record; they are not used for cleanup. The watcher’s actual native identity and source match, scan is current, and current delivery has no inspection error. Events plus four hours of inactivity and single-pending delivery are unchanged.
+
+Six slots remain idle and the sixteen-card ready buffer is deficient. Existing delivered implementations still require owner admission or their source/control/cost prerequisites; chess downstream work waits for complete source verification, the selected language-model dependency remains unresolved, identity expansion is storage-held and the reader memory gate is not relaxed. No unbuilt independent assignment is asserted ready; no extra builder is spawned merely to inspect deliveries. July and MD3.m stay withdrawn. This is an owner-admission backlog, not a successful machine fill.
+
+**Means and next.** Preserve the two healthy active queues. Collect GO1.d only after the second complete bank and replay authenticate. Finish remaining delivered-card reviews in packet order and retain all final-packet obligations. No new test, gear, spend or delegation is inferred from this wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The predeclared other-category goal comparison is admitted in CPU-only Gear 2; its lexical bank is independently complete and the encoder continues alongside chess verification.; project meaning: scoped operational record; next engineering obligation: Finish GO1.d scoring and complete collector; continue owner admission reviews.; public scientific claim unchanged; curator decision required: No new decision. Detail: GO1_D_ADMISSION_20261112.md.
+
+### OPS-S15-W5-GO1-ENCODER-COMPLETE-20261112
+
+**Hypothesis.** Is the original complete encoder bank intact and eligible for its registered comparison?
+
+**METHOD.** Verify every completion member, original source/code pin and fresh replay receipt; check native owner and child exit, retained-prefix identity, and exact lexical-bank source/candidate agreement.
+
+**Found.** The complete original encoder bank and independent replay authenticate; the registered two-reader primary is separately complete and filed.
+
+The complete bank contains all 1,431 rows with fifty candidates each, and all 11,493 bound files authenticate. Both original banks have identical row and allocation hashes. The encoder continuation used 17750.28125 native CPU seconds and 5728.004924300127 wall seconds, plus the standard 30-second allowance. The prefix used 1052.890625 CPU seconds plus its separate allowance. No conflicting failure, pause or monitor-failure terminal exists; all owners and children exited. Every original prefix/vector and all charges remain retained. This run row makes no separate scientific support claim. The collector’s full claim, uncertainty, sensitivity and limits are in [S15-W5-GO1-R4-PRIMARY-20261112](GO1_R4_PRIMARY_20261112.md).
+
+**Means and next.** Original scoring is closed. Continue the already commissioned follow-up under the same gear and resource limits; retain the final curator packet obligation. No tests were harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete original encoder bank and independent replay authenticate; the registered two-reader primary is separately complete and filed.; project meaning: scoped operational record; next engineering obligation: Complete the already registered GO1.d comparison against other types/categories, preserving its fallback census and full replay; keep the later language-model arm secondary on this exact original roster. Carry this complete primary and earlier-evidence crosswalk into the final curator packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: GO1_ENCODER_COMPLETE_20261112.md.
+
+### S15-W5-GO1-R4-PRIMARY-20261112
+
+**Hypothesis.** Does the fixed encoder recover a public proposal’s stated Motivation more accurately than shared-word matching?
+
+**METHOD.** Remove each document’s complete Motivation subtree and copyright, then rank its own Motivation among fifty fixed candidates using the pinned full-text CPU encoder and unchanged TF–IDF word/bigram reader. Compare their top-choice accuracy on identical complete source rows and candidate order; resample whole first-author clusters with the fixed seed for 2,000 paired draws, using the original five-percentage-point practical bar.
+
+**Found.** On the frozen public-proposal task, the encoder retrieves stated Motivations less accurately than the lexical comparator; the registered encoder advantage is rejected within this task.
+
+The table reports the proportion of documents whose own stated Motivation was ranked first. Intervals are the 95% author-cluster bootstrap intervals; the contrast is encoder accuracy minus lexical accuracy. Chance is one correct candidate in fifty.
+
+| Completed measure | Estimate | 95% interval |
+|---|---:|---|
+| Encoder top-choice accuracy | 0.551363 | 0.521645 to 0.581193 |
+| Lexical top-choice accuracy | 0.905660 | 0.886967 to 0.923472 |
+| Primary encoder minus lexical | -0.354298 | -0.381376 to -0.325368 |
+| Encoder above chance (descriptive) | 0.531363 | 0.501645 to 0.561193 |
+| Lexical above chance (descriptive) | 0.885660 | 0.866967 to 0.903472 |
+
+**Sensitivity and rule.** The practical bar is 0.050000. The saved paired-bootstrap standard error is 0.014349; the normal approximation “sees” effects of about 0.040177 and “supports at” about 0.090177. These are 2.8 times the standard error and the bar plus that quantity, respectively, and may be optimistic. The design does not meet the packet’s limited-sensitivity flag because its “sees” value is smaller than its bar. They are approximate design sensitivities, not observed detection rates or additional empirical calibrations. The whole primary interval lies below zero, so the frozen rule returns **against** and selects **GO1.d**. This is a scientific result, not an instrument failure to heal. No p-values are introduced.
+
+**Complete support and source scope.** The comparison contains all 1,431 selected current public PEP/EIP/ERC documents and 751 first-author clusters. Both banks have exactly the same source rows and fifty-candidate allocations; there are no context-unsupported queries. The source selection and first-author assignment are inherited, not newly optimized. Distractors first match repository, type and the registered category; insufficient strata are filled from other eligible documents in the same repository. The other-stratum fallback share is 0.039547. It is a property of this allocation, not a prevalence estimate. The source roster and allocation hashes are preserved in the aggregate receipt.
+
+The encoder is the pinned multilingual MiniLM CA1 reader, with 384-dimensional vectors from all 128-token chunks, averaged and normalized; no text truncation or GPU pass is substituted. The lexical reader fits word and bigram inverse-document-frequency weights on the fixed query/candidate pool. This is a closed candidate-set retrieval benchmark, not a separately trained and held-out goal predictor. Both readers can exploit topic and shared vocabulary; above-chance accuracy alone does not defeat that rival. Clustering on the inherited first-author key does not remove shared topic, repository or coauthor dependence. Public-document exposure during model pretraining is unknown. No claim about unseen authors, private intentions, human empathy or population prevalence follows.
+
+**Meaning and theory boundary.** The tested five-point encoder advantage fails in this task; the lexical reader remains the stronger engineering reference here. The author-written Motivation is a stated purpose attached to a document. It is not independently observed ground truth for the governing goal that explains all of a maker’s decisions. The curator’s distinction between that goal, momentary attention, contextual constraints and learned preferences is retained. Neither a general rejection of recoverable purpose nor a theory death follows. This primary is not one of Round 12’s seven direct handoff tests, so its theory-tag list is empty. Its accuracy and comparative advantage are not guaranteed by construction, although the target is supplied by the source.
+
+**Earlier-evidence crosswalk.** The source and interface rows OPS-S15-W5-GO-BK-SOURCES-20261107 and OPS-S15-W5-GO1-R4-SOURCE-READY-20261111 establish availability and qualified wiring, not a favorable reader comparison. This result closes the comparison they left open without changing their operational claims. G52 and G198 concern the proposed generative structure and joint inference; the current stated-target benchmark does not test their human mechanism. The earlier complete local comparisons L414/L421/L422/L424/L426 (S12-LOCAL-1), the constructed expertise result KL-S7, the model diagnostics P-S8 and the failed architecture interpretation M-S6 retain their own sources, rivals and scopes. The new score is neither their input nor an already registered covariate, filter or prior, so no outcome-driven re-read of their data is admitted. The goal definitions, corrections and section afterword were reread; canonical theory files remain unchanged under the back-half packet. This crosswalk and scoped branch are filed in THEORY_RETURN for the curator pass.
+
+**Verification and cost.** The completed encoder bank authenticates all 11,493 bound files, including full fresh independent replay. Its original stopped prefix and every retained checkpoint remain intact. The complete lexical comparator is independently replayed. The collector authenticates all 68 completion members and independently reconstructs every saved bootstrap draw. Direct owner checks reconcile the saved interval quantiles, sample standard error and both sensitivity formulas exactly. All original bank and collector owners and children have exited; source/code pins are unchanged and no conflicting terminal marker exists. Independent replay repeats the same evidence; it is not an independent human replication. Complete signed and exact-zero native fixtures and the real encoder qualification precede the run.
+
+The final collector used 8.156250 native CPU seconds and 23.238337 wall seconds. Original encoder prefix, encoder continuation, lexical bank and collector together used 18846.578125 native CPU seconds, or 18966.578125 with four supervisor allowances. Source preparation, qualification and retained failed qualification charges are additional and remain in the campaign accounting. Conservatively charging all GO work against the original card left 38323.250000 CPU seconds used at follow-up admission; its entire prospective 64,490-second branch allowance stays below the original 150,000-second card ceiling and the half-parent branch cap. The GO family ceiling stays 600,000 seconds. No uncounted corpus rescoring, reduced source or new spending is admitted.
+
+**Engine handoff and next.** The reviewed aggregate handoff preserves this negative comparison, its source/model pins and its limits. It does not license replacing the lexical reader with this encoder or presenting stated-Motivation retrieval as latent-goal inference. The language-model arm still waits for the verified selected reader; it cannot alter this primary’s support or result. Complete the already registered GO1.d comparison against other types/categories, preserving its fallback census and full replay; keep the later language-model arm secondary on this exact original roster. Carry this complete primary and earlier-evidence crosswalk into the final curator packet. Full scientific reporting remains internal until the final packet.
+
+Curator roll-up: purpose and process inference; Does the fixed encoder recover a public proposal’s stated Motivation more accurately than shared-word matching?; **Narrows**; The fixed encoder loses to shared-word retrieval on the declared stated-goal task.; project meaning: preserve the stronger lexical reference and the distinction between stated purpose and governing goal; next engineering obligation: finish the predeclared other-category comparison and final packet; public claim weakened only for this encoder advantage, broader theory unchanged; curator decision required: No. Detail: WEEK5/GO1_R4_PRIMARY_20261112.md.
+
 ### OPS-S15-W5-GO1-LONG-CONTINUATION-20261112
 
 **Hypothesis.** Can the already qualified encoder continue across its frozen source roster without making every small checkpoint a separate owner wake?

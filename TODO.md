@@ -1,5 +1,12 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-GO1-D-ADMISSION-20261112: The predeclared other-category goal comparison is admitted in CPU-only Gear 2; its lexical bank is independently complete and the encoder continues alongside chess verification.
+
+- [x] OPS-S15-W5-GO1-ENCODER-COMPLETE-20261112: The complete original encoder bank and independent replay authenticate; the registered two-reader primary is separately complete and filed.
+
+- [x] S15-W5-GO1-R4-PRIMARY-20261112: Complete original two-reader comparison and independent replay filed.
+- [ ] S15-W5-GO1-R4-PRIMARY-20261112 follow-up: Complete the already registered GO1.d comparison against other types/categories, preserving its fallback census and full replay; keep the later language-model arm secondary on this exact original roster. Carry this complete primary and earlier-evidence crosswalk into the final curator packet.
+
 - [x] OPS-S15-W5-GO1-LONG-CONTINUATION-20261112: The complete prescribed encoder cost prefix is authenticated and retained; a tested long continuation now runs from its saved vectors alongside chess verification in CPU-only Gear 2.
 
 - [x] OPS-S15-W5-HEALTH-20261112-0230: Chess verification and the newly admitted encoder cost prefix are active in CPU-only Gear 2; native ownership, fresh outputs, locks and watcher delivery reconcile, while six slots remain unused.
