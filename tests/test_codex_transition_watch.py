@@ -196,13 +196,13 @@ def test_week5_counter_pause_owns_notification(context, monkeypatch, change, exp
     assert len(events)==(1 if expected else 2)
 
 
-def test_week5_sealed_document_quantum_without_phase_reason(context, monkeypatch):
+@pytest.mark.parametrize('producer',[dict(status='yielded',source_only=True,documents_complete=10,documents_total=200),dict(status='yielded',completed=70,total=1399,verified=False)])
+def test_week5_sealed_document_quantum_without_phase_reason(context, monkeypatch, producer):
     repo,state,cfg,native=context
     record=dict(at='2026-11-07T20:00:06Z',status='PAUSED',card='GO2-source-pilot',
                 cpu_seconds=10,scientific_admission=False,checkpoint_validation_required=True,
                 paused_operation='execute',checkpoint_outputs={'document-parts/000000/SEAL.json':'b'*64},
-                reason=dict(reason='Producer checkpoint quantum',producer=dict(status='yielded',
-                    source_only=True,documents_complete=10,documents_total=200)))
+                reason=dict(reason='Producer checkpoint quantum',producer=producer))
     (repo/'job').mkdir();(repo/'job/PAUSED.json').write_text(json.dumps(record))
     cfg['paths']=['job/PAUSED.json'];cfg['process_watches'][0]['terminal_paths']=['job/PAUSED.json']
     monkeypatch.setattr(watch,'native_identity',lambda pid:None)
@@ -217,6 +217,9 @@ def test_week5_sealed_document_quantum_without_phase_reason(context, monkeypatch
     ({'status':'yielded','phase':''},False),
     ({'status':'yielded','phase':False},False),
     ({'status':'running','phase':'encoding','texts_completed':512,'texts_total':600},False),
+    ({'status':'yielded','completed':5},False),
+    ({'status':'yielded','completed':True,'total':10},False),
+    ({'status':'yielded','completed':10,'total':10},False),
     ({'status':'yielded','phase':'encoding','completed':5},False),
     ({'status':'yielded','phase':'encoding','completed':True,'total':10},False),
     ({'status':'yielded','phase':'encoding','completed':10,'total':10},False),

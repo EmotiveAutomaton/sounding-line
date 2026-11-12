@@ -203,8 +203,7 @@ def valid_json(path):
                          ("phase" not in producer or
                           (isinstance(producer["phase"], str) and bool(producer["phase"]))) and
                          (not ({"completed", "total"} & producer.keys()) or
-                          (isinstance(producer.get("phase"), str) and bool(producer["phase"])
-                           and type(producer.get("completed")) is int
+                          (type(producer.get("completed")) is int
                            and type(producer.get("total")) is int
                            and 0 <= producer["completed"] < producer["total"])))
         counter_pause = (counter_valid

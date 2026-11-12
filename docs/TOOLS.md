@@ -2656,6 +2656,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-DIGEST-20261111:** The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261111.md).
+
+**OPS-S15-W5-EX1-CHECKPOINT-RECOVERY-20261111:** The text-free export prefix is intact; the false disappearance alert is retained, supervision and continuation compatibility are repaired, and full-source execution has resumed under unchanged scope. [Record](../results/phase_2_4_stage_15/WEEK5/EX1_CHECKPOINT_RECOVERY_20261111.md).
+
 **S15-W5-RR1-ACTUAL-ATTEMPTS-20261111:** Qualified MD3 estimator reused as commissioned: every actual-attempt panel, missing-record census and all bootstrap draws pass complete independent replay; interval/SE arithmetic matches sealed arrays. No new fixture or empirical panel-specific power curve. [Complete record](../results/phase_2_4_stage_15/WEEK5/RR1_ACTUAL_ATTEMPTS_20261111.md).
 
 **OPS-S15-W5-CH1-SOURCE-PREFIX-20261111:** The three-month chess source reaches its planned first-five-percent checkpoint with intact output; the unchanged full-source continuation and actual-attempt repeat-play comparison are running in counted CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_SOURCE_PREFIX_20261111.md).

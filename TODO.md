@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-DIGEST-20261111: The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused.
+
+- [x] OPS-S15-W5-EX1-CHECKPOINT-RECOVERY-20261111: The text-free export prefix is intact; the false disappearance alert is retained, supervision and continuation compatibility are repaired, and full-source execution has resumed under unchanged scope.
+
 - [x] S15-W5-RR1-ACTUAL-ATTEMPTS-20261111: Complete actual-attempt cohort, every applicable panel and independent replay filed.
 - [ ] S15-W5-RR1-ACTUAL-ATTEMPTS-20261111 filing: Carry the complete slopes, contrasts, exclusions and reference limits into H12-T6 in the final packet; retain the original MD3 verdicts and complete the already commissioned chess counterpart after its source admission.
 

@@ -1389,3 +1389,7 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-12T02:09:55.805935+00:00 OPS-S15-W5-CH1-SOURCE-PREFIX-20261111: The three-month chess source reaches its planned first-five-percent checkpoint with intact output; the unchanged full-source continuation and actual-attempt repeat-play comparison are running in counted CPU-only Gear 2.
 
 2026-11-12T03:44:37.273281+00:00 S15-W5-RR1-ACTUAL-ATTEMPTS-20261111: complete scientific write-through and internal H12-T6 return; two original attempts retained. Chess source continuing; seven idle slots, zero ready waiting cards, owner admission backlog and source/resource holds recorded. No unbuilt independent builder queue item is silently counted ready; existing assigned deliveries are awaiting owner review. No tests harvested, new scope or gear change.
+
+2026-11-12T04:40:52.094475+00:00 OPS-S15-W5-EX1-CHECKPOINT-RECOVERY-20261111: The text-free export prefix is intact; the false disappearance alert is retained, supervision and continuation compatibility are repaired, and full-source execution has resumed under unchanged scope.
+
+2026-11-12T04:41:22.749497+00:00 OPS-S15-W5-DIGEST-20261111: The November 11 reconciliation preserves completed evidence and theory filing; chess and the text-free export continue in CPU-only Gear 2, while owner admission and source/resource holds leave substantial capacity unused.

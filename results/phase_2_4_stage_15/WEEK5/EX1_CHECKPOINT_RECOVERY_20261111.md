@@ -1,0 +1,17 @@
+# EX1 CHECKPOINT RECOVERY 20261111
+
+**Hypothesis.** Can the commissioned text-free export continue its valid checkpoint without changing the source, population or verification requirement?
+
+**METHOD.** Authenticate the original native owner and child exits, every sealed output, plan and source pin. Reproduce the actual phase-free producer counter receipt and invalid variants, exercise immutable checkpoint copying in separate native processes, compare successor runtime sources, reload only the watcher and inspect its native delivery service. Resume the unchanged handler in a new counted attempt.
+
+**Found.** The text-free export prefix is intact; the false disappearance alert is retained, supervision and continuation compatibility are repaired, and full-source execution has resumed under unchanged scope.
+
+**Instrument correction.** EX1's planned prefix completed 70 of 1,399 sessions and retained 72 authenticated files. This is progress, not a result or an export. Its PAUSED receipt charged 80.703125 CPU-seconds. The watcher required an optional phase field alongside completion counters and consequently emitted a false MONITOR_FAILED receipt after normal exit. That original alert remains unchanged. The repaired validator recognizes the exact sealed no-science envelope; malformed counters, supplied invalid phases, bad hashes and nonterminal output still fail.
+
+The original resume adapter also omitted this handler's document quantum from its operational fields. The isolated v3 adapter adds only that field for EX1. The v4 child and v9 runtime make only successor-import changes; all original runtime and handler bytes remain pinned. The successor preserves every predecessor pin, exact inputs, full population, source rules and scientific configuration. No current chess worker was restarted or edited. All 126 targeted checks pass; a separate native producer, stopped-owner copy and fresh verifier prove exact copying for every registered adapter family. The initial default temporary-directory test run failed in fixture setup; the fresh workspace-local test run passed. The earlier 16 EX1 instrument checks remain qualified.
+
+**Execution and cost.** Full execution plus replay projects 3,225.819 CPU-seconds from the measured prefix. Doubling this projection remains within the continuation's 9,000-CPU-second cap and EX1's combined 10,000 allowance after the prefix and supervisor charges. This is a forecast, not a guarantee or a new ceiling. The unchanged two-thread, below-normal-priority, resource and complete independent-replay requirements remain. The continuation authenticates and copies all 72 files before doing new work. No local export or recipient copy has yet been materialized.
+
+**Watcher recovery.** The first sandboxed reload loaded the correct source but could not connect to the existing native app delivery service. It was cancelled normally and restarted with its ordinary native access. The final source hash, new native identity, successful scan and delivery connection verify; all three pending event identities and the wake configuration are preserved. Events, four-hour owner inactivity and one pending wake remain unchanged. The reload and retained historical delivery errors are operational evidence, never scientific results.
+
+**Means.** Continue the complete source and fresh replay; only a fully verified export may enter the local copy procedure. No new hypothesis was harvested from this operational wake. No scientific verdict changes.

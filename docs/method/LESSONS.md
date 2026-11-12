@@ -994,6 +994,11 @@ L132 (a shuffle gate that voided the alternative's own signature).
   the actual completion representation alongside running, incomplete and invalid
   records, and verify the reloaded watcher without restarting science.
   (2026-09-19, OPS-S11.2-I5, tests/test_codex_transition_watch.py)
+  EX1 later emitted valid completion counters without an optional phase field.
+  Test the exact handler receipt and its resume adapter together: a correct sealed
+  pause can otherwise become both a false disappearance and an unresumable quantum.
+  Keep source-pinned predecessors intact and qualify a versioned continuation.
+  (OPS-S15-W5-EX1-CHECKPOINT-RECOVERY-20261111)
   The coordinator's statusless `FAILED-<PID>.json` later exposed the filename
   half of the same contract. Exercise exact emitted failure names and fields,
   retaining malformed and explicitly unfinished refusals. A wait timeout can
