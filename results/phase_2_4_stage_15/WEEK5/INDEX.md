@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**S15-W5-RR3-20261113:** [Record](RR3_COMPLETE_20261113.md). In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure.
+
 **OPS-S15-W5-DISK-RECOVERY-20261113:** [Record](DISK_RECOVERY_20261113.md). All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.
 
 **OPS-S15-W5-LEGACY-PROVENANCE-20261113:** [Record](LEGACY_PROVENANCE_20261113.md). The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved.

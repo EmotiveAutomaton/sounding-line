@@ -1,14 +1,18 @@
 # TODO: the study queue
 
+- [x] S15-W5-RR3-20261113: In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure.
+
 - [ ] Carry the 40,000-CPU-second CH/campaign maintenance reserve from OPS-S15-W5-DISK-RECOVERY-20261113 into subsequent owner admissions; unavailable final accounting stays conservatively reserved.
 
-- [ ] Complete the three authenticated disk-recovery continuations and their full scientific filing; retain the original resource floors and exact source/scoring contracts.
+- [ ] Complete the remaining history and serial chess disk-recovery continuations and full filing; RR3 is complete and filed. Retain original resource floors and source/scoring contracts.
 
 - [x] OPS-S15-W5-DISK-RECOVERY-20261113: All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.
 
 - [x] OPS-S15-W5-LEGACY-PROVENANCE-20261113: The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved.
 
-- [ ] RR3: complete the pooled primary, all four actual-attempt panels and independent replay under the recorded total cap; full filing remains required.
+- [x] RR3: complete pooled primary, all four actual-attempt panels, independent replay and full scientific filing.
+- [ ] RR3.s: registered specification-sensitivity obligation; freeze design and qualify before admission, capped at 5,000 CPU seconds and below packet-priority cards. Rationale: distinguish a robust choice association from specification dependence. Not ready.
+- [ ] RR3.m: registered reversal-mechanism obligation; freeze design and qualify before admission, capped at 5,000 CPU seconds and below packet-priority cards. Rationale: identify which task structure produces the reversal without equating choices with feelings. Not ready.
 
 - [x] OPS-S15-W5-RR3-COST-CONTINUATION-20261113: The recent-outcome comparison is qualified, its complete cost checkpoint authenticates, and the unchanged full run is admitted under the existing one-doubling rule.
 

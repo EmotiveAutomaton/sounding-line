@@ -113,3 +113,5 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-RR3-COST-CONTINUATION-20261113:** Operational qualification and continuation only; no human contrast admitted. [Method, cost assumptions and limits](RR3_COST_CONTINUATION_20261113.md).
 
 **OPS-S15-W5-LEGACY-PROVENANCE-20261113:** Operational provenance inspection only; no scientific or native-transition admission. [Scope and remaining gates](LEGACY_PROVENANCE_20261113.md).
+
+**S15-W5-RR3-20261113 / H15-T6:** In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure. The full primary and four secondary panels are complete; choice proxies do not decide the feeling-level claim. [Full method, controls and limits](RR3_COMPLETE_20261113.md).
