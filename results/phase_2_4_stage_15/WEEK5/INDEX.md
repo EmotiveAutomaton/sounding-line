@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-DIGEST-20261112:** [Record](DIGEST_20261112.md). The November 12 reconciliation preserves completed evidence and theory filing; the chess continuation is healthy, its stale inspection index is repaired, and substantial idle capacity remains an explicit admission backlog.
+
 **OPS-S15-W5-BUILD-FILING-20261112:** [Record](BUILD_FILING_20261112.md). All remaining delivered Week 5 code, tests and aggregate handoffs are filed with their validation evidence and outstanding admission gates.
 
 **OPS-S15-W5-CH1-N-PREFIX-20261112:** [Record](CH1_N_PREFIX_20261112.md). The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2.

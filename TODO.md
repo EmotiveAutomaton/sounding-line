@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-DIGEST-20261112: The November 12 reconciliation preserves completed evidence and theory filing; the chess continuation is healthy, its stale inspection index is repaired, and substantial idle capacity remains an explicit admission backlog.
+
 - [ ] OPS-S15-W5-BUILD-FILING-20261112 admission work remains: published preparation is not executable readiness. Preserve CH7 source/fixture fixes, R1 native/profile/queue work, LA/TR1/EX4/MD3.s source and cost admission, and EM1's missing historical prefix definition. The new EM1 eight-check fixture passes; no real materials run is admitted.
 
 - [x] OPS-S15-W5-BUILD-FILING-20261112: All remaining delivered Week 5 code, tests and aggregate handoffs are filed with their validation evidence and outstanding admission gates.
