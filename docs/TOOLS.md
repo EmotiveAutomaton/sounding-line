@@ -2656,6 +2656,16 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-LEGACY-PROVENANCE-20261113:** The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/LEGACY_PROVENANCE_20261113.md).
+
+**OPS-S15-W5-RR3-COST-CONTINUATION-20261113:** The recent-outcome comparison is qualified, its complete cost checkpoint authenticates, and the unchanged full run is admitted under the existing one-doubling rule. [Record](../results/phase_2_4_stage_15/WEEK5/RR3_COST_CONTINUATION_20261113.md).
+
+**S15-W5-TR1-20261113:** The completed phone-game comparison supports a stable response sensitivity to recent luck under its conditional measurement model; it does not identify a mood set point or a biological channel. [Record](../results/phase_2_4_stage_15/WEEK5/TR1_COMPLETE_20261113.md).
+
+**OPS-S15-W5-READER-RETIREMENT-FIXTURE-20261113:** All twenty-four constructed legacy-reader checker tests pass; live transition, historical provenance and checkpoint-copy admission remain separate gates. [Record](../results/phase_2_4_stage_15/WEEK5/READER_RETIREMENT_FIXTURE_20261113.md).
+
+**OPS-S15-W5-TR1-REPLAY-CHECKPOINTS-20261113:** Both planned independent-replay checkpoints authenticate; the unchanged full replay continues within the original allowance, with no scientific result yet admitted. [Record](../results/phase_2_4_stage_15/WEEK5/TR1_REPLAY_CHECKPOINTS_20261113.md).
+
 **OPS-S15-W5-TR1-DRAW-PREFIX-20261113:** The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance. [Record](../results/phase_2_4_stage_15/WEEK5/TR1_DRAW_PREFIX_20261113.md).
 
 **S15-W5-IN9-ITEMS-20261113:** The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels. [Record](../results/phase_2_4_stage_15/WEEK5/IN9_ITEMS_COMPLETE_20261113.md).

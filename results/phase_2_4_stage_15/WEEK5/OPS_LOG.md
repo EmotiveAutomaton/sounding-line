@@ -1471,3 +1471,13 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-13T15:36:58.761101+00:00 S15-W5-IN9-ITEMS-20261113: The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels.
 
 2026-11-13T15:37:39.713148+00:00 OPS-S15-W5-TR1-DRAW-PREFIX-20261113: The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance.
+
+2026-11-13T16:03:30.919685+00:00 OPS-S15-W5-TR1-REPLAY-CHECKPOINTS-20261113: Both planned independent-replay checkpoints authenticate; the unchanged full replay continues within the original allowance, with no scientific result yet admitted.
+
+2026-11-13T16:10:53.967232+00:00 OPS-S15-W5-READER-RETIREMENT-FIXTURE-20261113: All twenty-four constructed legacy-reader checker tests pass; live transition, historical provenance and checkpoint-copy admission remain separate gates.
+
+2026-11-13T16:39:53.296989+00:00 S15-W5-TR1-20261113: The completed phone-game comparison supports a stable response sensitivity to recent luck under its conditional measurement model; it does not identify a mood set point or a biological channel.
+
+2026-11-13T16:53:03.536957+00:00 OPS-S15-W5-RR3-COST-CONTINUATION-20261113: The recent-outcome comparison is qualified, its complete cost checkpoint authenticates, and the unchanged full run is admitted under the existing one-doubling rule.
+
+2026-11-13T16:53:51.055274+00:00 OPS-S15-W5-LEGACY-PROVENANCE-20261113: The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved.

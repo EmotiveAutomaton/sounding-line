@@ -1,5 +1,19 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-LEGACY-PROVENANCE-20261113: The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved.
+
+- [ ] RR3: complete the pooled primary, all four actual-attempt panels and independent replay under the recorded total cap; full filing remains required.
+
+- [x] OPS-S15-W5-RR3-COST-CONTINUATION-20261113: The recent-outcome comparison is qualified, its complete cost checkpoint authenticates, and the unchanged full run is admitted under the existing one-doubling rule.
+
+- [x] S15-W5-TR1-20261113: The completed phone-game comparison supports a stable response sensitivity to recent luck under its conditional measurement model; it does not identify a mood set point or a biological channel.
+
+- [ ] Legacy-reader transition: authenticate historical launch provenance and remaining runtime profiles; qualify native integration and checkpoint-copy coverage before new-family admission.
+
+- [x] OPS-S15-W5-READER-RETIREMENT-FIXTURE-20261113: All twenty-four constructed legacy-reader checker tests pass; live transition, historical provenance and checkpoint-copy admission remain separate gates.
+
+- [x] OPS-S15-W5-TR1-REPLAY-CHECKPOINTS-20261113: Both planned independent-replay checkpoints authenticate; the unchanged full replay continues within the original allowance, with no scientific result yet admitted.
+
 - [x] OPS-S15-W5-TR1-DRAW-PREFIX-20261113: The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance.
 
 - [x] S15-W5-IN9-ITEMS-20261113: The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels.
@@ -23,7 +37,8 @@
 - [ ] IN9 cues: separate private semantic review, prevalence and source admission remain required.
 - [x] TR1 first source-projection checkpoint authenticated; unchanged controls/draw-prefix continuation admitted.
 - [x] TR1 full-program cost checkpoint authenticated and unchanged full continuation admitted.
-- [ ] TR1: complete all uncertainty and fresh independent replay, then full scientific filing.
+- [x] TR1: complete all uncertainty, fresh independent replay and full scientific filing.
+- [ ] TR1 standardized secondary: preserve all failed draws and diagnose its unrecorded refusal reason in a separate counted instrument step; no silent exclusions or primary changes.
 
 - [x] OPS-S15-W5-IN9-ITEMS-READY-20261113: The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit.
 

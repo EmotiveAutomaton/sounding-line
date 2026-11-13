@@ -101,3 +101,13 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **S15-W5-IN9-ITEMS-20261113 / H15-T5:** The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels. Complete two-thousand-draw discrimination is 0.625144, interval [0.523474, 0.667744], against bar 0.60. The cue component remains separately gated. [Full method and limits](IN9_ITEMS_COMPLETE_20261113.md).
 
 **OPS-S15-W5-TR1-DRAW-PREFIX-20261113:** Operational full-program checkpoint only; no human estimate or activation admitted. [Record](TR1_DRAW_PREFIX_20261113.md).
+
+**OPS-S15-W5-TR1-REPLAY-CHECKPOINTS-20261113:** Operational replay checkpoints only; no human estimate or activation admitted. [Record](TR1_REPLAY_CHECKPOINTS_20261113.md).
+
+**OPS-S15-W5-READER-RETIREMENT-FIXTURE-20261113:** Constructed operational qualification only; no scientific claim or activation. [Record](READER_RETIREMENT_FIXTURE_20261113.md).
+
+**S15-W5-TR1-20261113 / H12-T7:** The completed phone-game comparison supports a stable response sensitivity to recent luck under its conditional measurement model; it does not identify a mood set point or a biological channel. The complete primary exceeds its registered bar; standardized gain remains undefined. [Full method, controls and limits](TR1_COMPLETE_20261113.md).
+
+**OPS-S15-W5-RR3-COST-CONTINUATION-20261113:** Operational qualification and continuation only; no human contrast admitted. [Method, cost assumptions and limits](RR3_COST_CONTINUATION_20261113.md).
+
+**OPS-S15-W5-LEGACY-PROVENANCE-20261113:** Operational provenance inspection only; no scientific or native-transition admission. [Scope and remaining gates](LEGACY_PROVENANCE_20261113.md).

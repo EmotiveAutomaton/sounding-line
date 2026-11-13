@@ -1026,14 +1026,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-606075cfe3c95688e9a9-1
 
-[Filed source, lines 2029–2030](../theory/THE_TRIPLE_INFERENCE.md#L2029); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2030–2031](../theory/THE_TRIPLE_INFERENCE.md#L2030); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Saying something isn't possible just means you haven't found the way to do it yet – **especially if
 > the world is doing it.**
 
 ## Q-a23146628412e0c96db6-1
 
-[Filed source, lines 2034–2039](../theory/THE_TRIPLE_INFERENCE.md#L2034); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2035–2040](../theory/THE_TRIPLE_INFERENCE.md#L2035); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I'm not saying humans arrive at a conclusion of value. I'm saying they use **a bunch of tricks to
 > actively try to get closer** to it.
@@ -1044,14 +1044,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-d2e10d8bcb8eedaf8491-1
 
-[Filed source, lines 2041–2042](../theory/THE_TRIPLE_INFERENCE.md#L2041); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2042–2043](../theory/THE_TRIPLE_INFERENCE.md#L2042); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I need to concede that I'm not claiming at this point that convergence is possible, but rather
 > that **substantive human priors can produce a more useful narrowing.**
 
 ## Q-90d3a99cfc0961e73360-1
 
-[Filed source, lines 2044–2046](../theory/THE_TRIPLE_INFERENCE.md#L2044); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2045–2047](../theory/THE_TRIPLE_INFERENCE.md#L2045); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Behavior that looks irrational under simple reward models can instead be **evidence of cognitively
 > bounded agents with multiple, changing, and nested motivations**, expressed through a variable
@@ -1059,20 +1059,20 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-4d259e306c037bda98cd-1
 
-[Filed source, lines 2076–2076](../theory/THE_TRIPLE_INFERENCE.md#L2076); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2077–2077](../theory/THE_TRIPLE_INFERENCE.md#L2077); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > *"Oh my god, it's my three assumptions."*
 
 ## Q-35b3812526b8245f1642-1
 
-[Filed source, lines 2090–2091](../theory/THE_TRIPLE_INFERENCE.md#L2090); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2091–2092](../theory/THE_TRIPLE_INFERENCE.md#L2091); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **CIRL literature makes it easier for you to learn if you assume you have a teacher**, assuming that
 > teacher exists and helps. **You can assume intention to help from the evidence.**
 
 ## Q-c93b9ce5f690bbefe31b-1
 
-[Filed source, lines 2101–2107](../theory/THE_TRIPLE_INFERENCE.md#L2101); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2102–2108](../theory/THE_TRIPLE_INFERENCE.md#L2102); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I am having more trouble with this one. If everything becomes calibration, the theory can't lose.
 > We're all zeroing in on an inference. This is always going to be an inference toward something
@@ -1084,19 +1084,19 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-af072680b77e8958fd57-1
 
-[Filed source, lines 2158–2158](../theory/THE_TRIPLE_INFERENCE.md#L2158); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2159–2159](../theory/THE_TRIPLE_INFERENCE.md#L2159); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > A reader of minds would need it [...] that is how you place that in context [...] otherwise just noise on noise
 
 ## Q-2b61729b500f1622a932-1
 
-[Filed source, lines 2160–2160](../theory/THE_TRIPLE_INFERENCE.md#L2160); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2161–2161](../theory/THE_TRIPLE_INFERENCE.md#L2161); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > these known problems are going to have to come to grips with one by one
 
 ## Q-8ac339277793f4260618-1
 
-[Filed source, lines 2199–2201](../theory/THE_TRIPLE_INFERENCE.md#L2199); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2200–2202](../theory/THE_TRIPLE_INFERENCE.md#L2200); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > My personal end goal is to find a way to **give AI human empathy, but not human emotions**
 > [...] it requires some kind of subordinate solution space that converges on these **predictions of
