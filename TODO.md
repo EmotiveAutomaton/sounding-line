@@ -1,5 +1,12 @@
 # TODO: the study queue
 
+- [ ] Two-day packet: owner reviews LA3/LA4; SG1 with CH6/CH7; CH8/CH12; IN9 items then cues; TR1/RR3; CH9/CH10 after SG1.v/CH11; LA5; IN11/IN12; RF1/CP1; EX5/EX4 and source-conditional ISEAR. Three commissioned builders are active. Preserve the approved independent chess split.
+- [ ] Two-day packet recording: complete the retrospective activation log over preserved Stage 15 evidence; every new row includes activation. Safely load RF/CP/IS/SV family accounting before those launches. Keep absent R13-R15 source handoffs and RF1 election-boundary provenance explicit.
+- [x] LA4 metadata source extension: full fresh native replay; one retained HHhMM parser repair; actual source charge 144.5625 CPU seconds including two supervisors. Analysis and LA3 lemmas remain pending.
+
+
+- [x] OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113: The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair.
+
 - [x] OPS-S15-W5-CH1-N-MEMORY-RESUME-20261113: The chess queue paused safely for low commit headroom; its saved work authenticates and the unchanged roster is advancing again in CPU-only Gear 2.
 
 - [x] OPS-S15-W5-HEALTH-CH7-REPAIR-20261113: The chess queue and watcher are healthy; the versioned CH7 source repair passes its independent checks, while production admission and the ready buffer remain unfinished.

@@ -13,6 +13,18 @@ models, interpreting unfinished cells, or changing the current gear. Never conta
 locked research files, adapters, and process ownership are separate from that choice.
 Read `docs/CODEX_OPERATIONS.md` for hooks, watcher health, session ownership, and rollback.
 
+**Current packet, curator instruction November 13:** implement
+`docs/design/stage-15/week5/PACKET_TWO_DAY.md`, preserving its source and the
+back-half packet. Its sections 2 and 4 add table-card admission, packet fixtures,
+the activation log and a fixed review order with three explicitly commissioned
+builder queues. CPU-only Gear 2, eight counted slots, the original campaign clock,
+resource guards, full internal write-through and final-packet reporting continue.
+Use `TWO_DAY_IMPLEMENTATION.md` for the approved independent chess split and
+implementation boundaries. New family ceilings require a reviewed runtime
+transition before those families launch; never edit a live worker's pinned code.
+Every new result row includes `activation` beside the existing three tags.
+This packet does not change the event/four-hour/single-pending wake policy below.
+
 **Current wake policy, curator instruction 2026-11-08:** wake on events and after
 four hours of owner inactivity. This replaces the hourly/at-most-sixty-minute
 build wakes in amendment I and the fixed six-hour health cadence below, including

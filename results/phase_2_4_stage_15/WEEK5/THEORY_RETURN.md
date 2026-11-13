@@ -61,3 +61,23 @@ The [initial resource record](RESOURCE_20261111_BACK_HALF.json) is retained for 
 **November 13 engineering and liveness.** [OPS-S15-W5-HEALTH-CH7-REPAIR-20261113](HEALTH_CH7_REPAIR_20261113.md): The chess queue and watcher are healthy; the versioned CH7 source repair passes its independent checks, while production admission and the ready buffer remain unfinished. No estimate, theory standing or scientific verdict changes.
 
 **November 13 chess resource recovery.** [OPS-S15-W5-CH1-N-MEMORY-RESUME-20261113](CH1_N_MEMORY_RESUME_20261113.md): The chess queue paused safely for low commit headroom; its saved work authenticates and the unchanged roster is advancing again in CPU-only Gear 2. Full-roster coverage and downstream analysis remain pending; no scientific or theory verdict changes.
+
+## Round 15: two-day packet
+
+Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY.md) and [approved implementation correction](../../../docs/design/stage-15/week5/TWO_DAY_IMPLEMENTATION.md). The table lists commissioned tests, current gates and uncomputed result fields. The missing local Round 13-15 handoffs are not claimed as read. Pending is not a null.
+
+| Handoff test | Card | State | Estimate / interval | Bar | Sees / supports at | Branch / construction limit |
+|---|---|---|---|---|---|---|
+| 1: unexpected versus expected loss | CH8; CH9 | SG1/consumer build; independent split approved | Pending | Stop-rate fraction;0.03 | Pending | Public rating is not standing; state confounding remains |
+| 2: wins/losses moving the claim | CH10 | Build; SG1.v gate required | Pending | Berserk-rate fraction | Pending | Flag must pass its instrument gate |
+| 3: three reads versus two | RF1 | Public intake acquired; election/marker qualifications pending | Pending |0.002nats | Pending | Markers measure words; repeat elections need valid units |
+| 4: warmth and complementarity | CP1 | Public intake acquired; marker qualification pending | Pending |0.02 | Pending | Conversation shuffle; reply dependence |
+| 5: guilt/shame by sender | IN9 cues;IS3;SV1 reserve | IN9 items-first build; cues gated; ISEAR conditional | Pending |0.60AUC; cue rows descriptive | Pending | Prompt usage is not two feelings |
+| 6: slope versus level | RR3 | Build on fixed actual-attempt cohort | Pending |0.05 | Pending | Choices are not feelings |
+| 7-10 | Ghost V29 | Companion work | Not a local estimate | Not applicable | Not applicable | No companion uptake inferred |
+| 11: level versus gain | CH12;IN12;TR1 | Builds/review; source/reliability gates | Pending | Packet-specific | Pending | Adult self-report lowercase; reliability gate |
+| 12: kith index | None | No closeness ratings in local sources | Not run | Not applicable | Not applicable | No substitute measure invented |
+| Round14 carried | CH11;LA5;IN11;IS4;IS2;LA3;LA4;CH7 | Builds/review; meeting metadata complete; conditional sources explicit | Pending | Packet-specific | Pending | PLAY, mockery,rate/level and control remain distinct questions |
+
+
+**OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113**: [The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair.](TWO_DAY_LA_SOURCE_20261113.md)

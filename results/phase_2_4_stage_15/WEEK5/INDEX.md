@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113:** [Record](TWO_DAY_LA_SOURCE_20261113.md). The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair.
+
 **OPS-S15-W5-CH1-N-MEMORY-RESUME-20261113:** [Record](CH1_N_MEMORY_RESUME_20261113.md). The chess queue paused safely for low commit headroom; its saved work authenticates and the unchanged roster is advancing again in CPU-only Gear 2.
 
 **OPS-S15-W5-HEALTH-CH7-REPAIR-20261113:** [Record](HEALTH_CH7_REPAIR_20261113.md). The chess queue and watcher are healthy; the versioned CH7 source repair passes its independent checks, while production admission and the ready buffer remain unfinished.
