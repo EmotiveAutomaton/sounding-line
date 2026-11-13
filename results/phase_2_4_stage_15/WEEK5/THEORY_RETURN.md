@@ -89,3 +89,15 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-LA3-SG1-SOURCES-20261113:** Complete linguistic source and exact source checkpoint recorded; no theory verdict or measured activation. [Full operational record](LA3_SG1_SOURCES_20261113.md).
 
 **OPS-S15-W5-IN9-ITEMS-READY-20261113:** Appraisal-profile method qualified on constructed cases and exact existing source; no human finding or channel-identification claim. [Method and limits](IN9_ITEMS_READY_20261113.md).
+
+**OPS-S15-W5-LA3-IN9-PREFIXES-20261113:** Planned cost checkpoints and unchanged continuations only; no scientific verdict or measured activation. [Full operational record](LA3_IN9_PREFIXES_20261113.md).
+
+**S15-W5-LA3-AMI-20261113 / H12-T4:** The completed AMI vocabulary comparison is below the primary repeat-act floor and remains descriptive; it does not identify an attention cost or a hidden-inference mechanism. The complete 200-draw main contrast is −0.023018, interval [−0.101788, 0.032347], with working bar 0.185147. This is a fixed-definition AMI texture, not the source-held combined primary or its fallback. [Complete method and limits](LA3_AMI_COMPLETE_20261113.md).
+
+**OPS-S15-W5-IN9-REFERENCE-FAILURE-20261113:** Independent numerical verification failed; no human contrast or activation claim is admitted. The original evidence and repair gate remain explicit. [Full operational record](IN9_REFERENCE_FAILURE_20261113.md).
+
+**OPS-S15-W5-TR1-PREFIX-IN9-RECOVERY-20261113:** Authenticated source checkpoint and constructed-only convergence repair; no human effect or activation admitted. [Full operational record](TR1_PREFIX_IN9_RECOVERY_20261113.md).
+
+**S15-W5-IN9-ITEMS-20261113 / H15-T5:** The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels. Complete two-thousand-draw discrimination is 0.625144, interval [0.523474, 0.667744], against bar 0.60. The cue component remains separately gated. [Full method and limits](IN9_ITEMS_COMPLETE_20261113.md).
+
+**OPS-S15-W5-TR1-DRAW-PREFIX-20261113:** Operational full-program checkpoint only; no human estimate or activation admitted. [Record](TR1_DRAW_PREFIX_20261113.md).

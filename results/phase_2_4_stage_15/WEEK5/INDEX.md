@@ -1,5 +1,17 @@
 # Week 5 verified records
 
+**OPS-S15-W5-TR1-DRAW-PREFIX-20261113:** [Record](TR1_DRAW_PREFIX_20261113.md). The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance.
+
+**S15-W5-IN9-ITEMS-20261113:** [Record](IN9_ITEMS_COMPLETE_20261113.md). The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels.
+
+**OPS-S15-W5-TR1-PREFIX-IN9-RECOVERY-20261113:** [Record](TR1_PREFIX_IN9_RECOVERY_20261113.md). The response-to-luck source checkpoint authenticates, and the independently qualified appraisal repair has a fresh counted run; scientific results remain gated.
+
+**OPS-S15-W5-IN9-REFERENCE-FAILURE-20261113:** [Record](IN9_REFERENCE_FAILURE_20261113.md). The appraisal comparison failed its independent convergence check; its complete banks are preserved and no human result is accepted.
+
+**S15-W5-LA3-AMI-20261113:** [Record](LA3_AMI_COMPLETE_20261113.md). The completed AMI vocabulary comparison is below the primary repeat-act floor and remains descriptive; it does not identify an attention cost or a hidden-inference mechanism.
+
+**OPS-S15-W5-LA3-IN9-PREFIXES-20261113:** [Record](LA3_IN9_PREFIXES_20261113.md). The language and appraisal cost prefixes authenticate, and their unchanged full continuations are admitted within the existing CPU allowances.
+
 **OPS-S15-W5-IN9-ITEMS-READY-20261113:** [Record](IN9_ITEMS_READY_20261113.md). The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit.
 
 **OPS-S15-W5-LA3-SG1-SOURCES-20261113:** [Record](LA3_SG1_SOURCES_20261113.md). The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2.

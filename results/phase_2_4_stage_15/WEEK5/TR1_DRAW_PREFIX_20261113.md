@@ -1,0 +1,13 @@
+# TR1 DRAW PREFIX 20261113
+
+**Hypothesis.** Can the commissioned response-to-luck comparison complete its original uncertainty and fresh replay after its measured full-program checkpoint?
+
+**METHOD.** Authenticate the complete paused manifest, source and plan pins, predecessor copy, native child and supervisor exits, full-descendant accounting and released lease. Inspect completed control dispositions and operational draw counts without reporting unfinished human estimates. Extrapolate the whole cost prefix conservatively before admission.
+
+**Found.** The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance.
+
+**Checkpoint and control boundary.** Source projection is complete. All three actual-structure constructed controls, each with two thousand people, have executed; the prespecified qualification rule selects the sampling-noise correction and rejects the split-half correction. Those are retained control dispositions, not human findings; their independent replay remains part of the full run. The first hundred of two thousand whole-person uncertainty draws are saved. All 473 manifest members and predecessor hashes authenticate, both exact native identities exited, and the lease is released. No paused human effect estimate or interim decision is released.
+
+**Forecast and costs.** The full-program prefix used 38.796875 native CPU seconds plus thirty seconds of supervisor allowance. Extrapolating the entire prefix, including its source/control setup, to full uncertainty and fresh replay gives 1,551.875 CPU seconds. The continuation forecasts 3,000 with margin. After the initial projection prefix, this prefix and the 1,692-second qualification reservation, its worker cap is 38,176.890625 CPU seconds plus thirty seconds within the unchanged 40,000-second TR1 ceiling. Only the wall/work quantum changes; population, exclusions, controls, estimator selection, seed and full draw count stay fixed. Resource admission rechecks the unchanged guards. At inspection, available memory was 40.614780 GiB, commit headroom 14.044643 GiB and free disk 30.305225 GiB.
+
+**Means and next.** This is an operational continuation, not a result about human stability. Complete both full banks and all verification before scientific filing. Keep the original source, missing-attempt exclusions and unsuccessful split-half control visible. No biological activation, p-value or new research is supplied by this checkpoint. The original chess jobs remain untouched; CPU-only Gear 2 and the event/four-hour/single-pending wake policy remain unchanged.

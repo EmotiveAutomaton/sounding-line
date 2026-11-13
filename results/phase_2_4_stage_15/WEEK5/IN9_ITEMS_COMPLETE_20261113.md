@@ -1,0 +1,30 @@
+# IN9 ITEMS COMPLETE 20261113
+
+**Hypothesis.** Do reports elicited by shame and guilt prompts have reliably different appraisal profiles, beyond the registered discrimination threshold? The observable target is how adults describe prompted recollections, not whether two feelings or biological systems are identical.
+
+**Limited sensitivity:** this design sees gains above chance of about 0.10154 or more; the practical gain bar is 0.10. The corresponding absolute discrimination level is 0.60154. This is the optimistic normal approximation from the completed bootstrap, not the packet's earlier approximate planning standard error.
+
+**METHOD.** Use all twenty-one original appraisal ratings plus intensity from the already qualified Crowd-enVENT generation table, retaining the original invented-event exclusions. Fit fixed-penalty logistic models in five writer-disjoint folds, with normalization estimated inside each training fold. Pool held-out predictions and measure the area under the receiver-operating-characteristic curve: the probability that a random shame-prompt report ranks above a random guilt-prompt report, counting ties halfway. One half is chance. Refit every fold in all two thousand whole-writer resamples. Recompute the complete bank in a fresh process using a separately implemented optimizer, discrimination formula and uncertainty arithmetic.
+
+**Found.** The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels.
+
+**Primary and support.** There are 273 shame-prompt and 274 guilt-prompt reports from 421 writers; both prompt floors of two hundred and the writer floor are met. Discrimination is 0.6251437127, with a 95% writer-resampling interval [0.5234736212, 0.6677437317] and bootstrap standard error 0.0362636423. The interval is not wholly above the 0.60 practical threshold and is not contained in the 0.45–0.55 equivalence band. Therefore the frozen rule is inconclusive. Approximate sees is 0.1015381983 above chance, and supports-at is absolute discrimination 0.7015381983. The nondegenerate bank retains all two thousand draws, with no failed draw.
+
+Table: all six prespecified item contrasts, in original rating points, shame minus guilt. Intervals and standard errors use the same complete whole-writer draws. These are secondary descriptions; their individual intervals do not replace the primary decision or license a channel interpretation.
+
+| Rating | Mean difference | 95% interval | Bootstrap standard error |
+|---|---:|---|---:|
+| Others’ control | 0.214700 | [-0.019391, 0.444591] | 0.118531 |
+| Event predictability | -0.091749 | [-0.333544, 0.140930] | 0.121704 |
+| Self-responsibility | -0.058367 | [-0.278700, 0.166735] | 0.111818 |
+| Social norms | 0.107256 | [-0.123702, 0.339817] | 0.116099 |
+| Personal standards | -0.118660 | [-0.330300, 0.092622] | 0.108628 |
+| Suddenness | 0.308013 | [0.071806, 0.548043] | 0.120533 |
+
+**Qualification and recovery.** The original instrument passed its analytic shifted-Gaussian checks, hand-counted tied ranks, writer separation and complete paired-prompt null. Its first full-source independent replay then failed the gradient certificate on 178 retained draws; that failed bank and all costs remain separately filed. The versioned repair leaves the model, slope penalty one, source, folds, seeds, all uncertainty draws and scientific gates unchanged. It adds bounded recentered evaluations of the same independent likelihood after an uncertified solve. Nine constructed checks, including three reproduced original failures, qualify that numerical repair. The fresh source run and independent replay both complete all two thousand draws, have no failures and agree exactly on every saved point/draw value. All 62 final manifest files and plan pins authenticate; distinct native execution and verification children and the supervisor exited, and the lease was released. This is independent computational verification of one human dataset, not an independent population replication.
+
+**Costs.** The fresh repair run used 56.390625 native CPU seconds and 83.052534 wall seconds, plus its thirty-second supervisor allowance. Including the original source prefix and failed continuation, counted attempts total 203.75 CPU seconds. Four prior fixture envelopes, including both cue-fixture attempts and the repair, reserve 4,151 seconds conservatively; together these account for 4,354.75 seconds within the original 20,000-second card ceiling shared with cues. The envelopes are accounting bounds, not observed CPU totals. No source requalification or new allowance was added.
+
+**Means and limits.** Eliciting a recollection with a label can shape which event is recalled and how it is rated. Writer-held-out prediction addresses person overlap, not that prompt-selection rival or causal identification. Even discrimination above the bar would separate these prompted appraisal profiles, not establish distinct feelings, action tendencies or tissue. The current interval supports neither the registered practical separation nor equivalence. The six item contrasts do not resolve who sent a signal or what the person could do. Adult self-report remains the packet's lowercase evidence. The missing Round 13–15 handoffs have not been reconstructed; the packet commissions the explicit formulas while its SHAME/CARE interpretation remains attributed context.
+
+**Activation and next.** The activation relation is **says nothing** for both proposed SHAME and CARE mappings; no set point or trigger is observed. The items component is complete, but the already commissioned literal cue component remains separately gated by private semantic review and prevalence. No above-bar follow-up is triggered by this inconclusive result. Retain the original failure, repair proof, complete method and limits in the final curator packet. No new p-value is quoted, so no multiplicity entry is added. No new study is harvested.

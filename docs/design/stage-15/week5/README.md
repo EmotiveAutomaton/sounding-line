@@ -1,6 +1,6 @@
 # Stage 15 Week 5
 
-The [IN9 items design](IN9_TWO_DAY_V1.md) has complete owner formula review and packet-fixture authentication; the first counted cost prefix follows its design commit. Literal cues and their prospective semantic-gate successor remain separate.
+The [IN9 items design](IN9_TWO_DAY_V1.md) remains frozen. Its full-source independent replay failed convergence; the isolated [reference repair](IN9_REFERENCE_CONVERGENCE_V2.md) passes nine constructed checks and has a fresh counted run. The [recovery record](../../../../results/phase_2_4_stage_15/WEEK5/TR1_PREFIX_IN9_RECOVERY_20261113.md) preserves original failures, cumulative costs and remaining verification. Literal cues remain separate.
 
 The [two-day close packet](PACKET_TWO_DAY.md), authorized November 13, is the
 latest addition. Its [implementation record](TWO_DAY_IMPLEMENTATION.md) preserves

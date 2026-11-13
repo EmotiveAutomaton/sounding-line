@@ -1,12 +1,35 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-TR1-DRAW-PREFIX-20261113: The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance.
+
+- [x] S15-W5-IN9-ITEMS-20261113: The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels.
+
+- [x] OPS-S15-W5-TR1-PREFIX-IN9-RECOVERY-20261113: The response-to-luck source checkpoint authenticates, and the independently qualified appraisal repair has a fresh counted run; scientific results remain gated.
+
+- [x] OPS-S15-W5-IN9-REFERENCE-FAILURE-20261113: The appraisal comparison failed its independent convergence check; its complete banks are preserved and no human result is accepted.
+
+- [x] LA3 AMI fixed-definition texture: complete replay and full descriptive filing, below primary repeat-act floor.
+- [ ] LA3 combined primary and its specified fallback: remain held for documentary ICSI chronology; other commissioned textures stay below packet-priority work.
+
+- [x] S15-W5-LA3-AMI-20261113: The completed AMI vocabulary comparison is below the primary repeat-act floor and remains descriptive; it does not identify an attention cost or a hidden-inference mechanism.
+
+- [x] OPS-S15-W5-LA3-IN9-PREFIXES-20261113: The language and appraisal cost prefixes authenticate, and their unchanged full continuations are admitted within the existing CPU allowances.
+
 - [x] IN9 items: full owner formula/source review and packet fixture authentication complete.
-- [ ] IN9 items: commit reviewed design, admit the counted hundred-draw prefix, then forecast full inference/replay inside the original ceiling; cues remain a separate gated component.
+- [x] IN9 items: reviewed design published; counted hundred-draw prefix authenticated and full continuation admitted.
+- [x] LA3 AMI texture: full execution/replay and descriptive filing complete.
+- [x] IN9 items: original replay failure preserved; isolated reference repair qualified and committed; fresh counted successor admitted.
+- [x] IN9 items: complete repaired execution/replay and full scientific filing; primary inconclusive.
+- [ ] IN9 cues: separate private semantic review, prevalence and source admission remain required.
+- [x] TR1 first source-projection checkpoint authenticated; unchanged controls/draw-prefix continuation admitted.
+- [x] TR1 full-program cost checkpoint authenticated and unchanged full continuation admitted.
+- [ ] TR1: complete all uncertainty and fresh independent replay, then full scientific filing.
 
 - [x] OPS-S15-W5-IN9-ITEMS-READY-20261113: The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit.
 
 - [x] LA3 complete lemma source and SG1 planned source prefix authenticated and filed.
-- [ ] LA3 AMI texture prefix and SG1 exact full-source continuation admitted; preserve chronology holds and finish complete replay before scientific interpretation.
+- [x] LA3 AMI texture completed and filed; preserve the separate combined-primary chronology hold.
+- [ ] SG1 exact full-source continuation: finish complete replay before scientific consumer admission.
 
 - [x] OPS-S15-W5-LA3-SG1-SOURCES-20261113: The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2.
 

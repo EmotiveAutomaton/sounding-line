@@ -1,5 +1,181 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-TR1-DRAW-PREFIX-20261113
+
+**Hypothesis.** Can the commissioned response-to-luck comparison complete its original uncertainty and fresh replay after its measured full-program checkpoint?
+
+**METHOD.** Authenticate the complete paused manifest, source and plan pins, predecessor copy, native child and supervisor exits, full-descendant accounting and released lease. Inspect completed control dispositions and operational draw counts without reporting unfinished human estimates. Extrapolate the whole cost prefix conservatively before admission.
+
+**Found.** The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance.
+
+**Checkpoint and control boundary.** Source projection is complete. All three actual-structure constructed controls, each with two thousand people, have executed; the prespecified qualification rule selects the sampling-noise correction and rejects the split-half correction. Those are retained control dispositions, not human findings; their independent replay remains part of the full run. The first hundred of two thousand whole-person uncertainty draws are saved. All 473 manifest members and predecessor hashes authenticate, both exact native identities exited, and the lease is released. No paused human effect estimate or interim decision is released.
+
+**Forecast and costs.** The full-program prefix used 38.796875 native CPU seconds plus thirty seconds of supervisor allowance. Extrapolating the entire prefix, including its source/control setup, to full uncertainty and fresh replay gives 1,551.875 CPU seconds. The continuation forecasts 3,000 with margin. After the initial projection prefix, this prefix and the 1,692-second qualification reservation, its worker cap is 38,176.890625 CPU seconds plus thirty seconds within the unchanged 40,000-second TR1 ceiling. Only the wall/work quantum changes; population, exclusions, controls, estimator selection, seed and full draw count stay fixed. Resource admission rechecks the unchanged guards. At inspection, available memory was 40.614780 GiB, commit headroom 14.044643 GiB and free disk 30.305225 GiB.
+
+**Means and next.** This is an operational continuation, not a result about human stability. Complete both full banks and all verification before scientific filing. Keep the original source, missing-attempt exclusions and unsuccessful split-half control visible. No biological activation, p-value or new research is supplied by this checkpoint. The original chess jobs remain untouched; CPU-only Gear 2 and the event/four-hour/single-pending wake policy remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance.; project meaning: scoped operational record; next engineering obligation: Complete all uncertainty and independent replay before scientific filing.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR1_DRAW_PREFIX_20261113.md.
+
+### S15-W5-IN9-ITEMS-20261113
+
+**Hypothesis.** Do reports elicited by shame and guilt prompts have reliably different appraisal profiles, beyond the registered discrimination threshold? The observable target is how adults describe prompted recollections, not whether two feelings or biological systems are identical.
+
+**Limited sensitivity:** this design sees gains above chance of about 0.10154 or more; the practical gain bar is 0.10. The corresponding absolute discrimination level is 0.60154. This is the optimistic normal approximation from the completed bootstrap, not the packet's earlier approximate planning standard error.
+
+**METHOD.** Use all twenty-one original appraisal ratings plus intensity from the already qualified Crowd-enVENT generation table, retaining the original invented-event exclusions. Fit fixed-penalty logistic models in five writer-disjoint folds, with normalization estimated inside each training fold. Pool held-out predictions and measure the area under the receiver-operating-characteristic curve: the probability that a random shame-prompt report ranks above a random guilt-prompt report, counting ties halfway. One half is chance. Refit every fold in all two thousand whole-writer resamples. Recompute the complete bank in a fresh process using a separately implemented optimizer, discrimination formula and uncertainty arithmetic.
+
+**Found.** The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels.
+
+**Primary and support.** There are 273 shame-prompt and 274 guilt-prompt reports from 421 writers; both prompt floors of two hundred and the writer floor are met. Discrimination is 0.6251437127, with a 95% writer-resampling interval [0.5234736212, 0.6677437317] and bootstrap standard error 0.0362636423. The interval is not wholly above the 0.60 practical threshold and is not contained in the 0.45–0.55 equivalence band. Therefore the frozen rule is inconclusive. Approximate sees is 0.1015381983 above chance, and supports-at is absolute discrimination 0.7015381983. The nondegenerate bank retains all two thousand draws, with no failed draw.
+
+Table: all six prespecified item contrasts, in original rating points, shame minus guilt. Intervals and standard errors use the same complete whole-writer draws. These are secondary descriptions; their individual intervals do not replace the primary decision or license a channel interpretation.
+
+| Rating | Mean difference | 95% interval | Bootstrap standard error |
+|---|---:|---|---:|
+| Others’ control | 0.214700 | [-0.019391, 0.444591] | 0.118531 |
+| Event predictability | -0.091749 | [-0.333544, 0.140930] | 0.121704 |
+| Self-responsibility | -0.058367 | [-0.278700, 0.166735] | 0.111818 |
+| Social norms | 0.107256 | [-0.123702, 0.339817] | 0.116099 |
+| Personal standards | -0.118660 | [-0.330300, 0.092622] | 0.108628 |
+| Suddenness | 0.308013 | [0.071806, 0.548043] | 0.120533 |
+
+**Qualification and recovery.** The original instrument passed its analytic shifted-Gaussian checks, hand-counted tied ranks, writer separation and complete paired-prompt null. Its first full-source independent replay then failed the gradient certificate on 178 retained draws; that failed bank and all costs remain separately filed. The versioned repair leaves the model, slope penalty one, source, folds, seeds, all uncertainty draws and scientific gates unchanged. It adds bounded recentered evaluations of the same independent likelihood after an uncertified solve. Nine constructed checks, including three reproduced original failures, qualify that numerical repair. The fresh source run and independent replay both complete all two thousand draws, have no failures and agree exactly on every saved point/draw value. All 62 final manifest files and plan pins authenticate; distinct native execution and verification children and the supervisor exited, and the lease was released. This is independent computational verification of one human dataset, not an independent population replication.
+
+**Costs.** The fresh repair run used 56.390625 native CPU seconds and 83.052534 wall seconds, plus its thirty-second supervisor allowance. Including the original source prefix and failed continuation, counted attempts total 203.75 CPU seconds. Four prior fixture envelopes, including both cue-fixture attempts and the repair, reserve 4,151 seconds conservatively; together these account for 4,354.75 seconds within the original 20,000-second card ceiling shared with cues. The envelopes are accounting bounds, not observed CPU totals. No source requalification or new allowance was added.
+
+**Means and limits.** Eliciting a recollection with a label can shape which event is recalled and how it is rated. Writer-held-out prediction addresses person overlap, not that prompt-selection rival or causal identification. Even discrimination above the bar would separate these prompted appraisal profiles, not establish distinct feelings, action tendencies or tissue. The current interval supports neither the registered practical separation nor equivalence. The six item contrasts do not resolve who sent a signal or what the person could do. Adult self-report remains the packet's lowercase evidence. The missing Round 13–15 handoffs have not been reconstructed; the packet commissions the explicit formulas while its SHAME/CARE interpretation remains attributed context.
+
+**Activation and next.** The activation relation is **says nothing** for both proposed SHAME and CARE mappings; no set point or trigger is observed. The items component is complete, but the already commissioned literal cue component remains separately gated by private semantic review and prevalence. No above-bar follow-up is triggered by this inconclusive result. Retain the original failure, repair proof, complete method and limits in the final curator packet. No new p-value is quoted, so no multiplicity entry is added. No new study is harvested.
+
+
+Curator roll-up: prompted appraisals and channel interpretation; Do shame and guilt prompts elicit practically distinct appraisal profiles?; **Narrows**; The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels.; project meaning: this source does not settle practical separation or equivalence; next engineering obligation: complete the separately gated cue component and final packet; public scientific claim unchanged; curator decision required: No. Detail: IN9_ITEMS_COMPLETE_20261113.md.
+
+### OPS-S15-W5-TR1-PREFIX-IN9-RECOVERY-20261113
+
+**Hypothesis.** Can the commissioned response-to-luck comparison continue from its verified source checkpoint, and can the appraisal comparison recover independent convergence without changing its scientific question or rules?
+
+**METHOD.** Authenticate TR1's complete paused manifest, exact source and plan pins, native owner/child exits, Job accounting and released lease. Read the frozen appraisal repair, every constructed check and durable proof; compare all six optimizer traces and complete execution/replay null banks. Reconcile all attempted fixture costs before separate monitored admissions. Do not interpret unfinished human scores.
+
+**Found.** The response-to-luck source checkpoint authenticates, and the independently qualified appraisal repair has a fresh counted run; scientific results remain gated.
+
+**TR1 checkpoint.** Twelve of 232 whole-play projection blocks completed, the required first five-percent checkpoint. All 26 manifest members and original pins authenticate; the exact native owner and child exited and their lease was released. It used 2.3125 native CPU seconds plus thirty seconds of supervisor allowance. Extrapolating this prefix to complete projection and fresh projection replay gives about 89.42 CPU seconds. This forecasts source preparation only: the three actual-structure controls, resampling and final replay are additional work, not presumed covered by that number.
+
+The unchanged continuation has 38,245.6875 worker CPU seconds plus thirty seconds, after the original 1,692-second conservative fixture reservation and the 32.3125-second prefix charge, inside the existing 40,000-second TR1 card ceiling. It completes source preparation and the three prespecified two-thousand-person controls, then reaches the separately forced first-hundred-person-draw checkpoint if an estimator qualifies. The work quantum increases; source roster, missing-attempt rules, formulas, seeds, controls, full two-thousand-draw uncertainty and fresh replay do not change. There is no human stability estimate in this record, and the old mood kink gate supplies no waiver of TR1's own controls.
+
+**Appraisal repair qualification.** All nine checks pass. The successor first runs the original independent trust-exact solve. Only an uncertified finite candidate receives up to two further solves around a new origin, evaluating an algebraically identical loss difference without subtracting two large summed losses. The slope penalty remains one, intercept unpenalized; the optimizer gradient target remains 0.00000001, iteration limit one hundred per solve, acceptance infinity-gradient certificate 0.000001 and independent agreement tolerance 0.000002. Training-only scaling, writer folds, source, seeds, failed-draw retention, uncertainty, practical bars and item contrasts remain fixed. The producer body differs only in its reference import and explanatory docstring; old checkpoint bindings refuse changed-code reuse.
+
+Table: all six prespecified constructed precision cases. Each has 720 rows and 22 near-collinear features. Multipliers scale fixed repeated row weights; they are stress cases, not claims about human resampling weights. The numbers are maximum absolute gradient components; the unchanged acceptance limit is 0.000001.
+
+| Seed | Weight multiplier | Original gradient gap | Final gradient gap | Recentered solves |
+|---|---:|---:|---:|---:|
+| 17 | 1 | 0.0000008814931 | 0.0000008814931 | 0 |
+| 17 | 10 | 0.0000088182941 | 0.0000000000131 | 1 |
+| 29 | 1 | 0.0000141151439 | 0.0000000000016 | 1 |
+| 29 | 10 | 0.0001412009649 | 0.0000000000136 | 1 |
+| 43 | 1 | 0.0000000002847 | 0.0000000002847 | 0 |
+| 43 | 10 | 0.0000000028588 | 0.0000000028588 | 0 |
+
+Three cases reproduce the original failure; each meets the unchanged certificate after one recenter. Already-certified original candidates are retained. The complete constructed identical-prompt case saves all 2,000 execution and 2,000 separate-process reference draws, every value exactly one half and interval [0.5, 0.5]. Pause/reentry, old/source binding refusal, weighted held-out discrimination/item agreement, finite-budget refusal and retained failed uncertainty all pass. Twenty-one durable proof files authenticate. A metadata-copy attempt stopped on pytest directory aliases; the partial copy remains, a canonical copy records those aliases, and no numerical rerun occurred. This establishes the repair on constructed cases; the original 178 failed human draws lack optimizer traces, so it does not retroactively prove each failure's cause or accept those banks.
+
+**Cumulative cost correction.** The repair fixture took 29.475404 wall seconds and at least 21.6875 sampled process-tree CPU seconds; sampling is not a complete Job total. Its conservative observed-wall envelope is 768 CPU seconds, replacing the provisional 4,380-second maximum reservation. The fresh admission also includes both already-run cue fixtures, previously omitted from the provisional worker-cap calculation: the failed metadata fixture reserves 662 seconds and its successor 646. Together with the original items fixture's 2,075 seconds, all fixture envelopes total 4,151. These are conservative accounting allowances, not measured usage. The original source-prefix and failed continuation total 117.359375 CPU seconds including supervisors. Thus the new worker cap is 15,701.640625 seconds plus thirty seconds, retaining the original 20,000-second IN9 ceiling shared with cues. Actual cue-source work remains unadmitted.
+
+The first engineering-healing run starts fresh under the separately committed reference successor. It computes every original draw ordinal again and requires the full independent replay. Its prospective 1,000-CPU-second forecast uses the original full execution/replay cost with substantial margin; the worker cap and resource gates remain enforced. No old bank is rebound, deleted or relabelled. The original failure remains an invalid verification record with no human finding.
+
+**Health and next.** Before TR1 continuation admission, available memory was 40.446884 GiB, commit headroom 13.304707 GiB and free disk 30.851002 GiB; each admission independently rechecked current guards. Exact native launches and watcher monitoring are recorded. The original chess scorer and history extension continue untouched; the safe new-family transition is still closed pending separate proof and qualification. Existing builders have completed unconditional components and the retrospective activation proposal, while source gaps, owner integration and admission remain open. The ready buffer is deficient. Complete both new attempts, verify their terminal outputs and file every result under the final-packet policy. No new research is harvested, no biological activation is measured, and events/four-hour inactivity/single-pending delivery remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The response-to-luck source checkpoint authenticates, and the independently qualified appraisal repair has a fresh counted run; scientific results remain gated.; project meaning: scoped operational record; next engineering obligation: Complete independent verification and full filing; retain original failure and source-specific gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR1_PREFIX_IN9_RECOVERY_20261113.md.
+
+### OPS-S15-W5-IN9-REFERENCE-FAILURE-20261113
+
+**Hypothesis.** Can the commissioned comparison of shame- and guilt-prompt appraisal profiles produce complete uncertainty estimates that agree with its independent numerical reference?
+
+**METHOD.** Inspect the complete execution and separate replay banks, their sealed hashes, exact plan and source bindings, native owner and child exits, full-descendant CPU accounting and released lease. Count every retained convergence failure without reading or choosing a repair from human effect estimates. Compare the two bank statuses under the original verification rule.
+
+**Found.** The appraisal comparison failed its independent convergence check; its complete banks are preserved and no human result is accepted.
+
+Table: complete bank accounting. Each bank retains all required whole-writer draws. A failed gradient certificate is a numerical failure, not a missing observation, a redraw request or a negative human finding.
+
+| Bank | Saved draws | Failed draws | Point fit | Acceptance |
+|---|---:|---:|---|---|
+| Execution | 2,000 | 0 | Valid | Not accepted alone |
+| Independent replay | 2,000 | 178 | Valid | Verification failed |
+
+**Failure and preserved evidence.** Every replay failure names the independent ridge gradient certificate. The required infinity-norm gradient tolerance remains 0.000001; the original reference uses the trust-exact optimizer, gradient target 0.00000001 and one hundred iterations. The final verification correctly refuses the unequal support/status dispositions. Both original banks, all 2,000 draw ordinals, their seals, plan and source pins, and the first-prefix predecessor are preserved. The original fixture and exact-null qualification remain valid for their constructed cases, but did not expose this full-source convergence limit. No scientific interval, p-value, supported/against verdict or activation event is released here.
+
+**Recovery boundary.** This is an engineering failure eligible for the commissioned healing pass. A separate frozen reference successor retains the first original solve and adds at most two recentered trust-exact solves of the same objective, gradient and Hessian, with the same penalty, convergence certificates and independent comparison tolerance. Subtraction of large summed losses near an optimum is a candidate explanation, not a diagnosis proved for every failed human draw. The constructed qualification must reproduce an original certificate failure and certify all prespecified weighted, near-collinear cases. The original sources, writer folds, training-only scaling, seeds, full uncertainty bank, item contrasts and scientific thresholds remain unchanged. A real retry is permitted only after owner review, successful constructed qualification and fresh cost admission. Changed module bindings require a fresh separate run; the failed bank is never resumed under changed code or overwritten. The failure event remains unacknowledged until the authorized recovery disposition is documented.
+
+**Accounting and health.** The failed continuation used 55 native CPU seconds, comprising 14.40625 execution and 40.59375 verification seconds, and 121.114696 wall seconds. With its thirty-second supervisor allowance it charges 85 CPU seconds. Together with the first prefix, actual attempts charge 117.359375 seconds; the earlier conservative fixture reservation of 2,075 seconds remains separate within the original 20,000-second IN9 ceiling, shared with cues. The repair fixture initially reserves at most 4,380 CPU seconds from that same ceiling using its bounded wall envelope; this is a reservation, not measured usage. Exact owners and children exited and the lease was released. Both chess jobs had fresh native accounting at the recorded inspection; CPU-only Gear 2 continues. TR1 independently reached its planned source-projection checkpoint and awaits its own authenticated continuation. GPU, paid calls and the event/four-hour/single-pending wake policy are unchanged.
+
+**Means and next.** This finding limits the instrument's present verification, not the hypothesis about elicited appraisals or the curator's channel account. Complete the preserved-failure repair gate, admit a fresh run only if qualified, and file all resulting evidence. The AMI texture is already fully filed separately. The remaining packet still requires source preparation, admission, activation backfill and safe runtime transition; a deficient ready buffer remains explicit. No new test was harvested and no theory row or quotation changes in this operational failure filing.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The appraisal comparison failed its independent convergence check; its complete banks are preserved and no human result is accepted.; project meaning: scoped operational record; next engineering obligation: Qualify the isolated convergence repair before any fresh real-data successor; retain all failed evidence and costs.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN9_REFERENCE_FAILURE_20261113.md.
+
+### S15-W5-LA3-AMI-20261113
+
+**Hypothesis.** Do people pause longer before saying something that draws laughter when its content is new to the recorded conversation than when it repeats content that previously drew laughter? This asks about an observable timing cost; vocabulary overlap does not directly reveal whether a hidden inference was completed.
+
+**METHOD.** Use the qualified AMI act, laughter, timed-speech and complete lemma records. Remove each corpus's two hundred most common content lemmas. A repeat shares two distinct content lemmas in the same order with a prior laughed-after act ending at least thirty seconds earlier; a fresh act shares none with earlier laughed-after acts. Count and set aside intermediate and timing-unsupported cases. Compare log(1 + preceding-pause seconds) using global-speaker effects and the frozen act-length, act-type, meeting-time, previous-speaker, laughter-recency and boundary controls. Refit on two hundred whole-meeting draws and retain twenty within-speaker/meeting label permutations. Rebuild sources, features and every draw in a fresh process and compare result bytes.
+
+**Found.** The completed AMI vocabulary comparison is below the primary repeat-act floor and remains descriptive; it does not identify an attention cost or a hidden-inference mechanism.
+
+**Support first.** The original repetition definition supplies 99 repeat acts across 43 meetings, below the required 200 acts even though the thirty-meeting requirement is met. This is the separately commissioned fixed-definition AMI texture, not the combined-corpus primary. Its frozen texture branch retains that repetition definition and labels the result descriptive; it does not execute the primary's any-order, ten-second fallback. The combined primary and that fallback remain pending their documentary chronology dependency. This texture is not reported as their completion or as evidence of absence.
+
+The source contains 110,769 AMI acts, including 53,747 with no retained content lemma; the literal fresh rule can include empty content and is not a semantic-novelty judgment. There are 38,620 intermediate acts, 917 timing-unsupported acts and no missing source-speaker identities. Exact matching produces 9,698 sets; 1,073 laughed-after acts lack eligible controls and remain counted. Roster/source observation is incomplete, meeting clustering does not establish independence of repeated global people, and source-local dates with missing clocks retain their uncertainty.
+
+Table: all completed estimates. Pause contrasts use natural-log(1 + seconds) units. Filled-pause contrasts and rates use probability units. Intervals are whole-meeting 95% intervals from all two hundred retained draws. The adjusted filled-pause contrast differs from subtracting the unadjusted rates because it includes the frozen controls. Every row is descriptive, and the working bar is a scale reference here.
+
+| Comparison | Meetings | Estimate | 95% interval | Bootstrap SE | Approximate sees | Approximate supports-at |
+|---|---:|---:|---|---:|---:|---|
+| Fresh minus repeat: preceding pause | 139 | -0.023018 | [-0.101788, 0.032347] | 0.034785 | 0.097397 | 0.282545 |
+| Adjusted fresh minus repeat filled-pause probability | 139 | 0.025111 | [-0.003170, 0.052086] | 0.015478 | 0.043338 | Not assigned |
+| Fresh acts: unadjusted filled-pause rate | 139 | 0.047507 | [0.041893, 0.053188] | 0.002931 | 0.008206 | Not assigned |
+| Repeat acts: unadjusted filled-pause rate | 43 | 0.030303 | [0.000000, 0.060634] | 0.015973 | 0.044725 | Not assigned |
+| Fresh laughed minus fresh matched-control pause | 139 | -0.012379 | [-0.030256, 0.004081] | 0.008469 | 0.023715 | Not assigned |
+| Laughed minus matched-control pause contrasts | 139 | -0.024152 | [-0.108397, 0.042915] | 0.038808 | 0.108662 | Not assigned |
+| Matched nonlaughed acts: fresh minus repeat pause | 139 | 0.001134 | [-0.037171, 0.031406] | 0.017999 | 0.050396 | Not assigned |
+
+**Reference bar and sensitivity.** The twenty saved within-speaker/meeting permutations all fit. Applying the frozen formula, max(0.10, twice mean absolute null contrast plus three sample standard deviations), gives a working bar of 0.1851473353 log-pause units. The main estimate is −0.0230177926, interval [−0.1017877320, 0.0323466882], with standard error 0.0347847521. Its approximate sees value is 0.0973973060 and supports-at is 0.2825446413; these normal approximations are slightly optimistic. The entire twenty-value null vector and all secondary estimates are retained in the aggregate receipt. No p-value or supported/against verdict is assigned to this below-floor texture.
+
+**Verification and costs.** The carried hand-specified event, signed/zero and independent dense-formula fixtures qualified the instrument before source use. All 117 final manifest files, plan/source pins and predecessor checkpoint hashes authenticate. Execution and fresh complete replay have identical result bytes; both distinct native children and the supervisor exited and the lease was released. Fresh replay verifies computation, not an independent human replication. The final continuation used 142 native CPU seconds and 184.424042 wall seconds. With the first prefix and both supervisor allowances, this texture used 228.15625 CPU seconds of its existing 3,600-second allowance. The recorded source-plus-texture attempts total 3,610.953125 CPU seconds within the original LA3 envelope; previous source and fixture records remain preserved.
+
+**Means.** The completed comparison describes a timing association in the observed AMI subset. It neither establishes a novelty-related attention cost nor licenses an equivalence conclusion. Even a null among acts that drew laughter could not separate no attention cost from slow jokes failing to elicit laughter. The matched fresh-case contrast makes part of that selection rival visible but does not remove it. Lexical novelty is not completed hidden inference, and a laugh is not a measured PLAY activation. This does not upgrade or overturn the separate shared-native-language comparison or the curator's open mechanism proposal.
+
+**Activation and next.** PLAY is retained only as hypothesis context; no set point or trigger was observed. The relation is **says nothing** about biological activation. Preserve this complete descriptive result, all source exclusions and the pending combined-primary/fallback distinction in the final curator packet. Existing remaining texture variants rank below packet-priority work and require their own admission; no new test is harvested. No multiplicity update is needed because no new p-value is quoted. Acknowledge only after complete theory/instrument, ledger, queue and navigation write-through.
+
+
+Curator roll-up: shared inference and laughter; Does new conversational content carry a timing cost before a laugh?; **Narrows**; The completed AMI vocabulary comparison is below the primary repeat-act floor and remains descriptive; it does not identify an attention cost or a hidden-inference mechanism.; project meaning: the finite observed contrast remains below its primary support floor and does not identify the mechanism; next engineering obligation: preserve the source holds and complete the commissioned packet; public scientific claim unchanged; curator decision required: No. Detail: LA3_AMI_COMPLETE_20261113.md.
+
+### OPS-S15-W5-LA3-IN9-PREFIXES-20261113
+
+**Hypothesis.** Can the commissioned meeting-vocabulary texture and prompt-appraisal comparison complete from their planned first work blocks without changing their populations, formulas, uncertainty or original limits?
+
+**METHOD.** Authenticate each complete checkpoint manifest, frozen source and plan pin, native owner and child exit, full-descendant Job CPU receipt and released lease. Preserve every sealed block and compare scientific settings before admitting separate monitored continuations. Use whole-prefix native costs to forecast complete execution and fresh replay; do not inspect unfinished scientific estimates.
+
+**Found.** The language and appraisal cost prefixes authenticate, and their unchanged full continuations are admitted within the existing CPU allowances.
+
+Table: planned operational prefixes. Work counts are completed uncertainty draws, not scientific results or fractions of CPU. Each native CPU total includes exited descendants; each attempt also incurs the unchanged thirty-second supervisor allowance.
+
+| Prefix | Completed / required draws | Sealed manifest files | Native CPU seconds | Disposition |
+|---|---:|---:|---:|---|
+| AMI vocabulary texture | 16 / 200 | 4 | 26.156250 | Planned checkpoint, authenticated |
+| Appraisal-profile comparison | 100 / 2,000 | 3 | 2.359375 | Planned checkpoint, authenticated |
+
+**Costs and continuation.** The AMI block alone recorded 2.859375 CPU seconds; setup and native coordination are retained in the larger whole-prefix total. The appraisal first-draw timer rounds to zero and is not used as a full-run forecast. Extrapolating the whole native prefixes to all draws and complete fresh replay gives about 654 and 94 CPU seconds respectively, before extra coordination margin. Each continuation conservatively forecasts 1,000 CPU seconds. These are prospective estimates, not usage claims or newly granted ceilings.
+
+The AMI continuation has 3,513.84375 worker CPU seconds plus its thirty-second supervisor allowance, after the prefix's 56.15625 total charge, inside the original 3,600-second texture allowance. LA3 source charges remain separately recorded within its original parent envelope. The appraisal continuation has 17,862.640625 worker CPU seconds plus thirty seconds after its 32.359375 prefix charge and the already declared conservative 2,075-second fixture reservation, inside the original 20,000-second card ceiling. Its separate cue component must share the remaining allowance. Neither continuation changes the input population, draw bank, support floors, model, seed, scientific thresholds or independent verification requirement. Only the operational work quantum increases.
+
+**Source and interpretation limits.** AMI-only remains descriptive; combined-corpus and ICSI history comparisons retain their documentary chronology holds. Appraisal discrimination concerns reports elicited by the two prompts, not identification of feelings or biological tissue. Failed or unsupported draws are preserved rather than omitted or redrawn. Neither paused bank supplies a scientific verdict, a p-value or an activation event. Both rows' disposition is operational, with empty theory tags and activation.
+
+**Health and publication.** Both prefix owners and their exact native children have exited, their leases are released, all pinned files and saved outputs authenticate, and no competing terminal record exists. The resource inspection recorded 40.129700 GiB available physical memory, 16.153812 GiB commit headroom and 32.934654 GiB free disk; admission independently rechecked the live guards. At the continuation snapshot the original chess scorer and separate history extension had fresh native CPU accounting. The watcher had a recent scan and no current watch error; event delivery, four-hour owner inactivity and single-pending suppression remain unchanged. The previous thirty-eight reviewed result, navigation and appraisal implementation files were pushed and exact remote commit d25a5ff482f7fecd7cf6c1daa83e8100698bb028 was verified. This receipt's later publication is tracked separately.
+
+**Next.** Finish the complete continuation outputs and independent replay, then perform scientific write-through under final-packet policy. The three commissioned build queues have produced their unconditional components; remaining source preparation, owner review and activation backfill continue, with the deficient ready buffer explicit. New-family runtime migration, conditional source gaps and chronology limits remain open. No new test was harvested; the curator's already approved chess-bonus and ordinal-duration definitions remain preserved. These prefix events are acknowledged only after this full record and generated views validate.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The language and appraisal cost prefixes authenticate, and their unchanged full continuations are admitted within the existing CPU allowances.; project meaning: scoped operational record; next engineering obligation: Complete fresh replay and full scientific filing; continue owner admission in packet order.; public scientific claim unchanged; curator decision required: No new decision. Detail: LA3_IN9_PREFIXES_20261113.md.
+
 ### OPS-S15-W5-IN9-ITEMS-READY-20261113
 
 **Hypothesis.** Can the commissioned comparison of shame- and guilt-prompt appraisals run with disjoint writer folds, fixed regularization, complete writer uncertainty and a genuinely separate formula replay?

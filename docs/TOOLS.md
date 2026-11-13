@@ -2656,6 +2656,18 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-TR1-DRAW-PREFIX-20261113:** The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance. [Record](../results/phase_2_4_stage_15/WEEK5/TR1_DRAW_PREFIX_20261113.md).
+
+**S15-W5-IN9-ITEMS-20261113:** The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels. [Record](../results/phase_2_4_stage_15/WEEK5/IN9_ITEMS_COMPLETE_20261113.md).
+
+**OPS-S15-W5-TR1-PREFIX-IN9-RECOVERY-20261113:** The response-to-luck source checkpoint authenticates, and the independently qualified appraisal repair has a fresh counted run; scientific results remain gated. [Record](../results/phase_2_4_stage_15/WEEK5/TR1_PREFIX_IN9_RECOVERY_20261113.md).
+
+**OPS-S15-W5-IN9-REFERENCE-FAILURE-20261113:** The appraisal comparison failed its independent convergence check; its complete banks are preserved and no human result is accepted. [Record](../results/phase_2_4_stage_15/WEEK5/IN9_REFERENCE_FAILURE_20261113.md).
+
+**S15-W5-LA3-AMI-20261113:** The completed AMI vocabulary comparison is below the primary repeat-act floor and remains descriptive; it does not identify an attention cost or a hidden-inference mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/LA3_AMI_COMPLETE_20261113.md).
+
+**OPS-S15-W5-LA3-IN9-PREFIXES-20261113:** The language and appraisal cost prefixes authenticate, and their unchanged full continuations are admitted within the existing CPU allowances. [Record](../results/phase_2_4_stage_15/WEEK5/LA3_IN9_PREFIXES_20261113.md).
+
 **OPS-S15-W5-IN9-ITEMS-READY-20261113:** The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit. [Record](../results/phase_2_4_stage_15/WEEK5/IN9_ITEMS_READY_20261113.md).
 
 **OPS-S15-W5-LA3-SG1-SOURCES-20261113:** The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/LA3_SG1_SOURCES_20261113.md).
