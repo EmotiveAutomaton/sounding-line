@@ -2656,6 +2656,16 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-CH1-N-PREFIX-20261112:** The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_N_PREFIX_20261112.md).
+
+**OPS-S15-W5-HEALTH-20261112-1329:** The counted chess queue and watcher are healthy; seven slots remain idle because commissioned work still needs owner admission and specific interface or qualification steps. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_20261112_1329.md).
+
+**OPS-S15-W5-GO1-D-HANDOFF-20261112:** The approved four-file GO1.d aggregate handoff is copied to ToMpathy and all destination hashes match; recipient uptake remains untested. [Record](../results/phase_2_4_stage_15/WEEK5/GO1_D_HANDOFF_COPY_20261112.md).
+
+**OPS-S15-W5-GO1-D-ENCODER-COMPLETE-20261112:** The GO1.d encoder bank, complete conditional comparison and full independent replay authenticate; chess scoring continues in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/GO1_D_ENCODER_COMPLETE_20261112.md).
+
+**S15-W5-GO1-D-R4-20261112:** Complete registered branch passes bank authentication, native replay and exact bootstrap arithmetic. The fallback field is explicitly mapped to same-stratum fallback. No instrument repair is indicated. [Record](../results/phase_2_4_stage_15/WEEK5/GO1_D_R4_COMPLETE_20261112.md).
+
 **OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112:** The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_N_SCORING_ADMISSION_20261112.md).
 
 **OPS-S15-W5-CH-N-UNIT64-20261112:** The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately. [Record](../results/phase_2_4_stage_15/WEEK5/CH_N_UNIT64_20261112.md).

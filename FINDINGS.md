@@ -1,5 +1,143 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-CH1-N-PREFIX-20261112
+
+**Hypothesis.** Can the first real-source chess cost block safely admit continued scoring of the unchanged three-month roster under the existing ceiling?
+
+**METHOD.** Authenticate the complete paused-output manifest, every closed unit seal and its distinct execute/replay native records, exact original source ordinals, engine and node bindings, all-descendant Job usage, terminated native identities and released leases. Use actual prefix cost to assess the remaining original roster, then admit a fresh counted checkpoint copy under the already committed queue design. Verify the copy receipt, new closed work, source pins, native priority, limits, locks and terminal monitoring.
+
+**Found.** The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2. The pause is the predeclared first-five-percent boundary, not an engineering failure, resource interruption or scientific gate.
+
+Table: operational workload and accounting for the completed prefix. Counts describe preserved work; they are not scientific effect estimates.
+
+| Item | Verified value |
+|---|---:|
+| Original roster | 398,065 positions from 10,000 players |
+| Preserved positions with separate native replay | 19,904 |
+| Closed units | 311 |
+| Authenticated checkpoint files | 28,303 |
+| Outer all-descendant native CPU seconds | 59154.437500 |
+| Nested native CPU seconds, already included above | 58895.640625 |
+| Separate conservative supervisor allowance | 30 CPU seconds |
+| CH charged before continuation | 321171.015625 CPU seconds |
+| CH family ceiling | 2,500,000 CPU seconds |
+
+**Cost decision.** The observed execute/replay cost is 2.971987 CPU seconds per preserved position. A linear prefix projection is 1183044.170189 seconds for the full roster and 1123889.732689 for its unscored remainder. The remaining projection plus the already charged family total fits the unchanged CH and campaign ceilings. This is a workload forecast, not a worst-case bound; later queues and the separate April-calibrated collector still require actual accounting and admission. Nested Job usage is a subdivision of the outer measurement and is not added twice. All earlier attempts and costs remain. No population reduction, changed engine setting or outcome-dependent sample was used.
+
+**Preservation and native closure.** Every checkpoint byte matches the paused manifest. Every closed source slice matches its original roster ordinal; source and engine pins, the million-node setting, contiguous coverage, zero native exit codes and distinct fresh replay identities authenticate. The outer Job reports complete descendant accounting. Old owner, wrapper, execution and all closed unit native identities have exited; their counted lease is released. The first sandbox inspection could not query one historical Windows native identity. The approved read-only ordinary-context inspection completed all identity checks; access denial was not treated as evidence of exit. The original checkpoint remains untouched.
+
+**Authorized continuation.** CH1-N-scoring-continuation-1-20261112 removes only the completed operational draw limit and inherits the exact scientific configuration and every predecessor pin. Its new attempt uses the existing committed queue design and qualified runtime. The counted runtime copies and independently hashes all preserved files before resuming. The attempt has a 100,000-native-CPU-second cap, a twelve-hour outer wall cap and the existing 41,400-second queue setting, which reserves time for final authentication. The 8-GiB output cap, 2-GiB projected peak, two numerical threads and below-normal scientific priority remain. Final queue verification and complete original-roster coverage are still required; this prefix is not admitted as a scientific population or downstream analysis result.
+
+**Observed continuation.** At the recorded native inspection the new queue had closed 19,968 original positions, advancing beyond the saved boundary. Its lease and owner identity match, the complete copy receipt authenticates, and the newest closed unit has its own native replay. Available RAM was 49.534172 GiB, Windows commit headroom 25.536194 GiB and free disk 38.997883 GiB. All 21 locks pass. Source pins and watcher source/native identity match; scans are fresh and the current watcher error is null. Complete, pause, failure and disappearance monitoring is registered. The existing event-driven and four-hour inactivity policy, with one pending wake, is unchanged. GPU, Ollama and paid work remain off.
+
+**Remaining work and utilization.** One counted slot runs and seven are idle. The sixteen-card ready buffer remains deficient. CH7 still requires the documented immutable source-open and independent fixture fixes plus owner/native admission; R1 still requires measured profiles, native scoring/replay acceptance and its two-reader long queue. No new memory hold is inferred from the retired fixed threshold. A disjoint parallel chess partition is not currently admitted by this continuation contract; duplicating this roster in the other slots would duplicate work. The existing builders have delivered, and this wake performs serial owner admission rather than adding inspection agents. The utilization defect remains recorded for the digest. Downstream chess collection and analyses retain their source, full-coverage and qualification gates. July and MD3.m remain withdrawn.
+
+**Means and next.** Continue the original chess queue to its registered terminal, reassess actual charges, then complete the qualified full-roster collection and downstream admissions. The queued event is acknowledged only after this complete operational write-through and generated-view validation. Scientific reporting remains reserved for the final curator packet. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Continue the original chess roster, inspect the next queue terminal, and finish CH7/R1 owner admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH1_N_PREFIX_20261112.md.
+
+### OPS-S15-W5-HEALTH-20261112-1329
+
+**Hypothesis.** Is the active queue making real progress under its resource limits, and is any commissioned work currently admissible for the idle slots?
+
+**METHOD.** Inspect native PID/creation identities and descendants, exact plan/source pins, counted leases, fresh output and budget progress, terminal conflicts, locks, resource headroom, coordinator identities, actual owner queue inventory and watcher policy/source. Revisit staged candidate plans and focused-test receipts, and review the CH7 source interface and R1 memory-guard delivery.
+
+**Found.** The counted chess queue and watcher are healthy; seven slots remain idle because commissioned work still needs owner admission and specific interface or qualification steps.
+
+**Actual progress.** CH1-N-scoring-prefix-20261112 has closed 14,976 original positions in 234 units, with full fresh native replay for every closed unit. This advances from 1,664 positions at the preceding closure and 14,720 at the start of this inspection. The full expected population remains 398,065; the admitted prefix boundary is 19,904 positions. These are workload counts, not scientific estimates. Its owner and counted lease match the original native identity, source pins are unchanged, output is fresh, and there is no conflicting terminal or stale live lease. Eight descendants were inspected; observed Python and Stockfish research descendants run below normal priority. The normal-priority supervisor does not perform the scientific scoring.
+
+The original 60,000-native-CPU-second, twelve-hour wall and 8-GiB output caps remain. The next intervention is the registered prefix, resource, cost or wall terminal, whichever arrives first; no partial prefix stands for full population coverage. The complete cost record must precede continuation. No live parameters or checkpoints were changed, and no healthy worker was restarted.
+
+**Resources and ownership.** The attached resource snapshot has 44.007687 GiB available physical RAM, 22.793724 GiB Windows commit headroom and 39.172794 GiB free disk. The active two-thread CPU-only queue retains its 2-GiB projected peak and unchanged resource guards. The conservative charged CH total is 306737.691187 native CPU seconds including current accounted work, against the 2,500,000-second family ceiling. All 21 locks pass. The current calendar and coordinator have matching live identities and fresh heartbeats; the obsolete coordinator remains intentionally complete. Historical inaccessible process identities are retained and were not used for cleanup. GPU, Ollama and paid work remain off.
+
+**Delivery health.** The watcher native identity and all three runtime source hashes match. Its scan is fresh and its current inspection error is null. A direct read-only inventory of the existing owner queue found zero pending messages; the delivered health event remains locally unacknowledged until this write-through is complete. No message was deleted or added by the inspection. The initial sandbox helper could not initialize the native API; the approved ordinary-context read-only inspection succeeded, without changing the production watcher. Historical notification errors remain preserved. Events plus 14,400 seconds of owner inactivity and one pending operational wake remain configured, with no fixed health or hourly schedule. No delivery or research restart is needed.
+
+**Idle capacity and owner review.** One of eight counted slots is occupied; seven are idle and the sixteen-card ready buffer remains deficient. The three existing builders have delivered and are complete. The immediate gap is review/admission of those implementations, not hardware saturation and not a reason to create another inspection agent. EX1-EX3 and both completed GO1 comparisons are already landed. Chess downstream analyses still need their complete source/scoring support and native qualification. Existing identity storage and other recorded source/control prerequisites remain explicit.
+
+The CH7 native, source and full candidate plans still declare owner_reviewed=false, fixture_passed=false and no reviewed design commit. The unchanged nine-check focused receipt is preserved; it does not establish the unrun full native fixture. This pass reviewed its source wrapper, inherited traversal, both fixture adapters and focused tests. Ordinary SQLite input opens do not enforce an immutable read-only evidence contract; no actual source mutation was observed. The native source fixture also derives its expected rows by calling the adapter it is testing. Before admission, require independently specified expected values and a verified read-only source-open/sidecar policy, while preserving the original row selection and fields. Full numerical owner review and native qualification remain pending. This is an engineering preflight finding, not a failed scientific result or a claim that existing focused checks failed.
+
+The R1 design, envelope/profile code, guard wrapper and all twelve focused checks were reviewed against the current ruling. Their saved receipt authenticates, but it explicitly says that no native scoring/replay fixture or production admission exists. Complete historical-peak provenance, exact reader profiles, native proof/collector acceptance and the two-engine long queue with the first-twenty-chunk cost review remain unfinished. The old fixed 26-GiB threshold is not the current decision rule for measured readers. Present headroom may satisfy the new envelope; memory alone is therefore not established as the current blocker. The brief preliminary memory-hold statement in this turn was corrected before filing. The unresolved R1 implementation/admission steps, rather than an invented memory failure, are carried forward.
+
+**Local repair and disposition.** A shell-encoding substitution in the GO1.d transfer-note possessive was repaired in its two local prose copies. Scientific values, ledger semantics, copied payload bytes and recipient hashes remain unchanged. The approved four-file handoff remains verified. No research process, security guard, gear, source or wake schedule was changed. July and MD3.m remain withdrawn.
+
+**Means and next.** Preserve the healthy chess prefix until its registered terminal. Complete the named CH7 source/fixture review and R1 profile/native/queue work in dispatch order, then admit only exact designs that pass their remaining gates. Keep the utilization defect visible in the digest and retain the final curator packet. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The counted chess queue and watcher are healthy; seven slots remain idle because commissioned work still needs owner admission and specific interface or qualification steps.; project meaning: scoped operational record; next engineering obligation: Inspect chess prefix terminal; finish CH7 source/fixture and R1 profile/native/queue admission work.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261112_1329.md.
+
+### OPS-S15-W5-GO1-D-HANDOFF-20261112
+
+**Hypothesis.** Does the approved local handoff preserve the exact reviewed GO1.d evidence without changing recipient code or scientific admission?
+
+**METHOD.** Recheck the prepared four-file manifest, exact payload size and approved destination, copy only those files into the new exchange folder, then compare every source and destination SHA-256.
+
+**Found.** The approved four-file GO1.d aggregate handoff is copied to ToMpathy and all destination hashes match; recipient uptake remains untested.
+
+The payload is 19,072 bytes: README.md, AGGREGATE.json, CLAIM_ROWS.json and MANIFEST.json. It preserves the complete method, fallback census, uncertainty, sensitivity, limits, pinned model/design versions and three scientific claim rows from S15-W5-GO1-D-R4-20261112. No individual source records, author identifiers or score arrays are included. The public file-hash receipt accompanies this record.
+
+The curator explicitly approved this payload and ToMpathy's docs/exchange/sounding-line-week5-go1-d-r4-2026-11-12/ destination after the prior copy was held for approval. The earlier pending-copy statement is superseded by this verified transfer. No recipient commit, push, benchmark, implementation change or scientific uptake occurred. The four copied files are a frozen handoff snapshot; its source-anchor hashes refer to the sender evidence at preparation, while current ledger navigation is refreshed separately. Existing scientific results and limits are unchanged.
+
+**Means and next.** Retain this receipt for the final packet. Any engine uptake must preserve the declared claim boundaries and its own admission gates. No new tests, gear, spending or delegation are inferred from copy approval.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The approved four-file GO1.d aggregate handoff is copied to ToMpathy and all destination hashes match; recipient uptake remains untested.; project meaning: scoped operational record; next engineering obligation: Retain the verified handoff in the final packet; recipient uptake remains independently gated.; public scientific claim unchanged; curator decision required: No new decision. Detail: GO1_D_HANDOFF_COPY_20261112.md.
+
+### OPS-S15-W5-GO1-D-ENCODER-COMPLETE-20261112
+
+**Hypothesis.** Is the completed encoder bank eligible for the registered collector, and is authorized remaining work healthy?
+
+**METHOD.** Authenticate every completion member, pinned source and native exit; check exact two-reader source/allocation agreement, counted collector admission, fresh replay and live chess progress. Inspect leases, resource floors, locks, coordinator and watcher identity and delivery.
+
+**Found.** The GO1.d encoder bank, complete conditional comparison and full independent replay authenticate; chess scoring continues in CPU-only Gear 2.
+
+All 11,492 encoder files authenticate; its unchanged source/plan and 19939.781250 native CPU seconds plus the 30-second allowance are retained. The collector was separately pinned and admitted only after complete bank agreement, committed design, original native fixture, branch ceiling and current resource checks. It completed and is fully filed in S15-W5-GO1-D-R4-20261112. No partial score or wake message was used as a scientific verdict.
+
+The chess owner and counted lease match native PID/creation identity, with 1,280 original positions closed in 20 independently replayed units at inspection; complete expected population remains 398,065. Its source pins remain unchanged, progress is fresh and no conflicting failure terminal exists. It retains its first-five-percent cost boundary and resource guards. Available physical RAM is 48.424385 GiB, commit headroom 25.573772 GiB and disk 39.265030 GiB. All 21 locks pass. The current calendar and coordinator are alive; the obsolete coordinator is intentionally complete. Watcher native identity/source match, scan is current and current inspection has no delivery error. Historical failures and inaccessible historical identities remain retained, not cleaned up. Events, four-hour inactivity and one pending wake are unchanged.
+
+One of eight counted slots remains occupied after collection; seven are idle and the sixteen-card ready buffer is deficient. Existing staged-delivery records were revisited: EX2/EX3 are already completed, chess downstream collection/history and the other delivered implementations retain owner review, committed-design, qualification or source gates. The selected-reader memory dependency and identity storage hold remain. The declared goal texture grid needs its own frozen cost/admission; the complete branch does not instantiate it or authorize a recursive rerun. The bottleneck remains owner admission of delivered work, not machine saturation. No extra agents are needed merely to inspect these delivered implementations. July and MD3.m stay withdrawn.
+
+**Means and next.** Preserve healthy chess scoring; inspect its complete cost prefix at its registered terminal and admit the unchanged continuation if eligible. Continue owner reviews in packet order and retain final-packet obligations. No new tests, gear or spend were harvested from this wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The GO1.d encoder bank, complete conditional comparison and full independent replay authenticate; chess scoring continues in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Inspect chess cost prefix and continue owner admissions; preserve final packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: GO1_D_ENCODER_COMPLETE_20261112.md.
+
+### S15-W5-GO1-D-R4-20261112
+
+**Hypothesis.** Does the fixed encoder beat lexical retrieval of stated Motivations when distractors preferentially come from other proposal categories?
+
+**METHOD.** Use the unchanged full-text CPU encoder and TF–IDF readers on the same complete public-proposal rows, removing each Motivation subtree and copyright. Change only the predeclared candidate priority: prefer other types/categories within the same repository and fill shortages from the original stratum. Rank fifty fixed candidates, then compare top-choice accuracy with 2,000 seeded paired first-author-cluster resamples and the unchanged five-percentage-point bar.
+
+**Found.** With the registered other-category preference and its required fallback, the encoder still retrieves stated Motivations less accurately than the lexical comparator; the proposed encoder advantage is rejected on this task.
+
+The table reports the proportion of documents whose own Motivation ranks first. Intervals are 95% paired author-cluster bootstrap intervals, with chance at one in fifty. The contrast is encoder minus lexical accuracy.
+
+| Completed measure | Estimate | 95% interval |
+|---|---:|---|
+| Encoder accuracy | 0.588400 | 0.560478 to 0.615985 |
+| Lexical accuracy | 0.929420 | 0.912917 to 0.945227 |
+| Encoder minus lexical | -0.341020 | -0.367597 to -0.314039 |
+| Encoder above chance (descriptive) | 0.568400 | 0.540478 to 0.595985 |
+| Lexical above chance (descriptive) | 0.909420 | 0.892917 to 0.925227 |
+
+**Decision and sensitivity.** The complete interval is below zero, so the frozen rule returns **against**, not an instrument failure. The bar is 0.050000; the saved bootstrap standard error is 0.013385. Amendment P’s normal approximation sees about 0.037477 and supports at about 0.087477. These are 2.8 times the standard error and the bar plus that amount, may be optimistic, and are not measured calibration rates. The sees value is below the bar, so the limited-sensitivity flag is false. No p-values are introduced.
+
+**Support and the fallback census.** All 1,431 original selected documents and 751 first-author clusters remain, with no context-unsupported query. Both banks share the exact original source-row hash and the exact new allocation hash. Of 70,119 distractor placements, 34,969 are from the preferred other stratum and 35,150 are same-stratum fallback. There are 850 queries with fallback and 581 without. The fallback share is 0.501291; the actual other-stratum share is 0.498709. Every selected candidate stays in the query’s repository. The inherited JSON field `other_stratum_distractor_share` counts fallback and therefore means **same-stratum fallback in GO1.d**. The aggregate receipt preserves the original output and this explicit semantic mapping. This is not a uniformly cross-category test.
+
+**What is held fixed and what it means.** The target is the source author’s stated Motivation, not independently observed ground truth for the governing purpose behind all decisions. The pinned multilingual MiniLM reader retains its 384-dimensional vectors from all 128-token chunks, averaged and normalized. The lexical reader retains word and bigram inverse-document-frequency weighting on the fixed pool. Source selection, first-author assignment, target removal, fifty-candidate support, seeds, complete text and scoring kernels are unchanged. Shared vocabulary and topic remain useful rivals. Both readers can exploit those cues; accuracy above chance does not isolate latent purpose or semantic understanding. First-author clustering does not remove repository, topic or coauthor dependence; public-source pretraining exposure is unknown. This is a selected closed candidate-set task, not an independent held-out population study. No inference about human empathy, private intentions, unseen authors or population prevalence follows.
+
+**Earlier evidence and follow-up disposition.** This is the branch prospectively selected by S15-W5-GO1-R4-PRIMARY-20261112, not an independent replication or a repaired primary. Its point contrast lies inside the parent’s interval; no formal branch-minus-parent hypothesis was tested and no improvement claim is made. The new negative branch does not meet the Week 5 descendant rule of a positive result or an estimate outside its parent’s interval. The collector’s generic `next_branch: GO1.d` field is preserved as raw output but is not an instruction to recurse. The original primary and its complete support remain unchanged. The language-model arm remains secondary and cannot revise either completed two-reader comparison.
+
+The definitions, corrections, G52/G198, and the forward/inverse section afterword were reread. Stated-target retrieval does not test the proposed human expertise/attention mechanism or joint inference. The source/interface operations establish availability, not reader advantage. S12-LOCAL-1 and L414/L421/L422/L424/L426, KL-S7, P-S8 and M-S6 retain their distinct sources and limitations. No earlier registered re-read takes this new score as a covariate, filter or prior, so their data are not reopened. This branch is not one of the seven direct H12 tests; its theory tags remain empty. Neither comparative accuracy nor its sign is fixed by construction. The scoped crosswalk goes to THEORY_RETURN; canonical theory remains unchanged under the active packet.
+
+**Verification and accounting.** All 11,492 encoder completion members, 72 lexical members and 68 collector members authenticate. Source/code pins are unchanged. Fresh independent replay reconstructs every vector/score and every bootstrap difference; owner checks exactly reproduce interval quantiles, sample standard error and both sensitivity formulas, and independently count all allocations. Native owners and children have exited with no conflicting terminal. Same-implementation replay is verification, not independent human replication. The inherited signed, exact-zero, support and real-encoder qualification evidence remains bound.
+
+The encoder used 19939.781250 native CPU seconds and 6420.959796 wall seconds; the lexical bank used 40.906250 CPU and 61.750304 wall seconds; collection used 8.890625 CPU and 25.400204 wall seconds. Branch native total is 19989.578125, or 20079.578125 with three 30-second supervisor allowances. This is below its prospective 64,490-second reservation and 75,000-second half-parent ceiling. The conservative all-GO charge at the attached health inspection is 58402.828125, below the original 150,000-second card and 600,000-second family ceilings; preparation, qualification, failures and historical attempts remain charged. CPU-only Gear 2, source/privacy guards and final-packet policy are unchanged.
+
+**Means and next.** Preserve the lexical reader as the stronger reference on both completed tasks, with the stated-purpose boundary and fallback limitation attached. Carry the complete parent and GO1.d branch into the final curator packet. Retain the declared descriptive grid for separate cost/source admission and the language-model secondary on the saved original roster when R1 provides its verified reader. No recursive GO1.d rerun or outcome-driven repair is admitted. No new tests were harvested from this operational wake.
+
+Curator roll-up: purpose and process inference; Does the fixed encoder beat lexical retrieval of stated Motivations when distractors preferentially come from other proposal categories?; **Narrows**; The lexical reader remains stronger under the registered distractor change and its fallback.; project meaning: retain the cheap comparator and stated-purpose scope; next engineering obligation: final packet, declared grid admission and verified secondary reader; public claim weakened only for this encoder advantage, broader theory unchanged; curator decision required: No. Detail: WEEK5/GO1_D_R4_COMPLETE_20261112.md.
+
 ### OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112
 
 **Hypothesis.** Can the newly qualified scoring queue begin on the complete original source while preserving scope, cost limits and the current Gear 2 allocation?

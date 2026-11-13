@@ -1,5 +1,19 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-CH1-N-PREFIX-20261112: The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2.
+
+- [ ] CH7 owner-admission preflight (OPS-S15-W5-HEALTH-20261112-1329): enforce and validate immutable read-only source opens and sidecar refusal; replace self-generated native-fixture expectations with independent known answers. Preserve the original sources, population, fields and existing checks. Complete numerical owner review and counted native qualification before admission.
+- [ ] R1 owner-admission preflight (OPS-S15-W5-HEALTH-20261112-1329): freeze complete historical-peak profiles, verify native scoring/replay and collector acceptance, and finish the two-engine long queue plus first-twenty-chunk cost assessment. Do not substitute the retired fixed memory line for current R1 arithmetic.
+
+- [x] OPS-S15-W5-HEALTH-20261112-1329: The counted chess queue and watcher are healthy; seven slots remain idle because commissioned work still needs owner admission and specific interface or qualification steps.
+
+- [x] OPS-S15-W5-GO1-D-HANDOFF-20261112: The approved four-file GO1.d aggregate handoff is copied to ToMpathy and all destination hashes match; recipient uptake remains untested.
+
+- [x] OPS-S15-W5-GO1-D-ENCODER-COMPLETE-20261112: The GO1.d encoder bank, complete conditional comparison and full independent replay authenticate; chess scoring continues in CPU-only Gear 2.
+
+- [x] S15-W5-GO1-D-R4-20261112: Complete branch, fallback census and independent replay filed.
+- [ ] S15-W5-GO1-D-R4-20261112 remaining work: Carry the complete parent and GO1.d branch into the final curator packet. Retain the declared descriptive grid for separate cost/source admission and the language-model secondary on the saved original roster when R1 provides its verified reader. No recursive GO1.d rerun or outcome-driven repair is admitted.
+
 - [x] OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112: The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification.
 
 - [x] OPS-S15-W5-CH-N-UNIT64-20261112: The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately.
@@ -20,7 +34,7 @@
 - [x] OPS-S15-W5-GO1-ENCODER-COMPLETE-20261112: The complete original encoder bank and independent replay authenticate; the registered two-reader primary is separately complete and filed.
 
 - [x] S15-W5-GO1-R4-PRIMARY-20261112: Complete original two-reader comparison and independent replay filed.
-- [ ] S15-W5-GO1-R4-PRIMARY-20261112 follow-up: Complete the already registered GO1.d comparison against other types/categories, preserving its fallback census and full replay; keep the later language-model arm secondary on this exact original roster. Carry this complete primary and earlier-evidence crosswalk into the final curator packet.
+- [x] S15-W5-GO1-R4-PRIMARY-20261112 registered GO1.d follow-up: Complete comparison, fallback census and full replay filed in S15-W5-GO1-D-R4-20261112. The separate secondary-reader and final-packet obligations remain open above.
 
 - [x] OPS-S15-W5-GO1-LONG-CONTINUATION-20261112: The complete prescribed encoder cost prefix is authenticated and retained; a tested long continuation now runs from its saved vectors alongside chess verification in CPU-only Gear 2.
 

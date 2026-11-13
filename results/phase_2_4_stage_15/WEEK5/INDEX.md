@@ -1,5 +1,15 @@
 # Week 5 verified records
 
+**OPS-S15-W5-CH1-N-PREFIX-20261112:** [Record](CH1_N_PREFIX_20261112.md). The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2.
+
+**OPS-S15-W5-HEALTH-20261112-1329:** [Record](HEALTH_20261112_1329.md). The counted chess queue and watcher are healthy; seven slots remain idle because commissioned work still needs owner admission and specific interface or qualification steps.
+
+**OPS-S15-W5-GO1-D-HANDOFF-20261112:** [Record](GO1_D_HANDOFF_COPY_20261112.md). The approved four-file GO1.d aggregate handoff is copied to ToMpathy and all destination hashes match; recipient uptake remains untested.
+
+**OPS-S15-W5-GO1-D-ENCODER-COMPLETE-20261112:** [Record](GO1_D_ENCODER_COMPLETE_20261112.md). The GO1.d encoder bank, complete conditional comparison and full independent replay authenticate; chess scoring continues in CPU-only Gear 2.
+
+**S15-W5-GO1-D-R4-20261112:** [Complete branch](GO1_D_R4_COMPLETE_20261112.md). With the registered other-category preference and its required fallback, the encoder still retrieves stated Motivations less accurately than the lexical comparator; the proposed encoder advantage is rejected on this task.
+
 **OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112:** [Record](CH1_N_SCORING_ADMISSION_20261112.md). The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification.
 
 **OPS-S15-W5-CH-N-UNIT64-20261112:** [Record](CH_N_UNIT64_20261112.md). The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately.
@@ -1163,3 +1173,5 @@
 **OPS-S15-W5-RUNTIME-20261107:** [Record](RUNTIME_NATIVE.md). The independent Week 5 CPU runtime passes native containment, exact replay and clock/resource checks; campaign build and scientific admission continue.
 
 Only complete, reviewed landings are indexed here. Campaign build is ongoing.
+
+**GO1.d reviewed engine handoff:** [Four aggregate files](GO1_D_R4_HANDOFF_20261112/README.md), including method, fallback census, sensitivity, limits, claim rows and manifest. Recipient copy is approved, complete and hash-verified in [OPS-S15-W5-GO1-D-HANDOFF-20261112](GO1_D_HANDOFF_COPY_20261112.md); no recipient commit, push or uptake is claimed.

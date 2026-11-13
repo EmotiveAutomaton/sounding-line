@@ -1429,3 +1429,15 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-12T14:07:48.108063+00:00 OPS-S15-W5-CH-N-UNIT64-20261112: The maximum-size constructed chess unit passes complete native replay and its measured overhead check; the original real-source scoring prefix is admitted separately.
 
 2026-11-12T14:08:21.899701+00:00 OPS-S15-W5-CH1-N-SCORING-ADMISSION-20261112: The verified three-month chess roster is scoring in a counted CPU-only Gear 2 cost prefix while the goal-reader encoder completes independent verification.
+
+2026-11-12T14:49:03.513267+00:00 OPS-S15-W5-GO1-D-ENCODER-COMPLETE-20261112: The GO1.d encoder bank, complete conditional comparison and full independent replay authenticate; chess scoring continues in CPU-only Gear 2.
+
+2026-11-12T14:49:03.210712+00:00 S15-W5-GO1-D-R4-20261112: complete conditional comparison and all source/allocation/uncertainty/cost limits filed. No recursive descendant or outcome repair. Chess remains active; seven slots idle and the delivered-work admission backlog remains explicit. Final curator packet is still pending.
+
+2026-11-12T14:54:37.716924+00:00 S15-W5-GO1-D-R4-20261112: reviewed four-file aggregate handoff prepared (19,072 bytes). Recipient copy is pending explicit approval for this payload and destination; no recipient files were changed. Internal scientific filing and event reconciliation remain complete.
+
+2026-11-12T17:25:38.929544+00:00 OPS-S15-W5-GO1-D-HANDOFF-20261112: The approved four-file GO1.d aggregate handoff is copied to ToMpathy and all destination hashes match; recipient uptake remains untested.
+
+2026-11-12T21:42:47.449970+00:00 OPS-S15-W5-HEALTH-20261112-1329: The counted chess queue and watcher are healthy; seven slots remain idle because commissioned work still needs owner admission and specific interface or qualification steps.
+
+2026-11-13T00:28:11.448206+00:00 OPS-S15-W5-CH1-N-PREFIX-20261112: The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2.
