@@ -1,0 +1,27 @@
+# TWO DAY PREFIX RUNTIME 20261113
+
+**Hypothesis.** Can the new packet continue from bounded cost probes without changing populations, scientific settings, checkpoints or accounting?
+
+**METHOD.** Authenticate every saved output and original plan pin, reconcile native descendant CPU and exit identities, confirm lease release, and inspect current resources and watcher delivery. Exercise the real language handler through a saved checkpoint and complete independent replay. Separately create, stop, copy and freshly verify constructed checkpoints in distinct native processes. Check the exact new family ceilings and refusal paths before any new-family admission.
+
+**Found.** The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks.
+
+Table: terminal operational products, complete manifest authentication and native CPU. These are checkpoint and source-fixture states, not unfinished scientific estimates. Each attempt also incurs the unchanged 30-second supervisor allowance.
+
+| Product | Terminal state | Manifest files authenticated | Native CPU seconds |
+|---|---|---:|---:|
+| Meeting background analysis prefix, LA4 | Planned checkpoint | 4 | 60.484375 |
+| Meeting lemma source prefix, LA3 | Planned checkpoint | 349 | 129.203125 |
+| Constructed chess-history source fixture, SG1 | Complete fresh replay | 80 | 1.500000 |
+
+**Language checkpoint scope.** LA4 saved its first sealed sixteen-draw block after preparation; its final comparison still requires 2,000 whole-meeting draws and complete fresh verification. LA3 saved 174 source blocks, covering the first 11,136 acts of the fixed 221,947-act source; full-corpus lemma frequencies and scientific analysis remain unfinished. Neither checkpoint is a scientific null or an intentional gear pause. All owner and child identities have exited, all saved hashes and source pins match, and both leases are released. Their original scientific settings and source tables remain unchanged. A conservative forecast charging the entire LA4 prefix repeatedly and doubling for replay is 15,121.093750 CPU seconds, within its remaining envelope. The analogous LA3 source/replay projection is below 5,200 CPU seconds; its later analysis needs its own measured cost assessment within the same card ceiling.
+
+**SG1 qualification.** The constructed native source run and its separate verifier both exited successfully, with complete recalculation confirmed. The fixture checks the preserved history projection, clock and session rules, hand-specified edge cases and carried table compatibility. This qualifies the source adapter's declared constructed cases; it is not human evidence and does not complete CH7 numerical qualification. Real monthly history intake remains a separate pinned source admission. The approved independent hash split preserves the original sample.
+
+**Continuation repair.** The old adapter correctly refused removing an unrecognized language block limit. Resume v5 adds that operational key only for the two reviewed language modules. Runtime v11 and child v6 retain the native Windows Job kernel, full descendant accounting, source binding, two-thread pools and all resource, timing and output guards. Twenty-five focused checks and a separate three-process native checkpoint proof passed, using 10.515625 total native CPU seconds. They cover actual language execution/replay, changed scientific parameters and pins, tampered outputs, live predecessors, exact ceilings and fail-closed accounting. A private test-driver collection-type error occurred before any child launch; its original driver is retained, then the corrected driver completed this qualification. No historical pinned source was edited.
+
+**New-family boundary.** Policy v3 includes the packet's RF, CP, IS and SV ceilings, but those families remain unadmitted. Their plans must not appear while legacy policy readers are active, because older readers reject unknown families. The transition check also encountered an uninspectable historical native identity and refused admission. That refusal remains unresolved and visible; it was not treated as a dead process or bypassed. Existing-family v11 continuations do not depend on this transition. The original chess scorer remains live and its progress is fresh. Shared companion leases are preserved.
+
+**Resources and delivery.** At the inspection, physical memory available was 40.881496 GiB, commit headroom 15.222698 GiB and disk free 35.952248 GiB. All locks pass. The watcher has a recent scan, no current watch error and correctly suppresses delivery while the owner is active; retained historical delivery failures remain visible. Events, four-hour inactivity and one pending wake are unchanged. There are no new tests harvested beyond the supplied packet; its three commissioned builders continue. No GPU, Ollama or paid work starts.
+
+**Next.** Commit the reviewed runtime design and source, then resume both language jobs into new counted attempts with authenticated copies. Authenticate the existing three-month history source before its SG1 prefix. Continue packet-order consumer review, activation backfill and new-family transition recovery. The three terminal events are acknowledged only after this complete write-through and generated-view validation. No unfinished per-artifact score is released.

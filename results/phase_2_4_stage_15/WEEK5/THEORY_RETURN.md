@@ -81,3 +81,5 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 
 
 **OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113**: [The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair.](TWO_DAY_LA_SOURCE_20261113.md)
+
+**OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113**: [The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks.](TWO_DAY_PREFIX_RUNTIME_20261113.md). Infrastructure only; scientific comparisons remain pending.

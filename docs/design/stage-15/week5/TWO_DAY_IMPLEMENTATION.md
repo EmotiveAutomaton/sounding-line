@@ -22,6 +22,31 @@ calibration, all others for analysis. This changes no source selection or player
 identity. The split is frozen before the forecast or any CH8–CH12 effect is fit.
 Source: `week5_ch_source.selected_history`; the original packet remains unchanged.
 
+Two further source/design questions were resolved before outcomes. For CH10,
+controlling separately for zero, one and two-or-more consecutive wins already
+encodes the preceding win/loss, making its separate contrast unidentified. Asked
+whether to control for the two-or-more-win bonus instead, the curator answered:
+"Use the 2+ win bonus control (recommended)". The primary uses that indicator;
+the original categorical specification remains recorded as unable to identify
+the requested contrast. Unknown left-edge histories are not invented.
+
+For IN11, the blank source questionnaire offers seconds, minutes, hours, days
+and weeks, not measured elapsed time. Asked about fixed ordered ranks and
+standardizing both intensity and duration before comparison, the curator answered:
+"Use declared ordinal duration (recommended)". The ranks are respectively 1–5;
+both outcomes are standardized within prompt. The event-duration control uses
+the same declared ordering. "I had none" remains a separately counted exclusion
+from the ordered-duration primary. Results concern reported duration categories,
+with no invented conversion to seconds.
+
+The owner's prospective RF1 index definition preserves the packet's three-read
+versus two-read comparison: each signed marker rate is the number of comments
+with a positive marker minus those with a negative marker, divided by early
+comments. A paired read is the sum of its named rates. All six polarity counts,
+denominators and within-comment overlaps remain separate in the source table.
+The earlier six-coefficient draft is retained as a provisional descriptive
+sensitivity, not the primary. Election identity and instrument gates still apply.
+
 ## Admission and review
 
 Three builder queues are explicitly commissioned by packet section 4. A prepares
@@ -63,6 +88,12 @@ does not take review priority from the packet's history-table studies.
 - New family policy must be loaded through a reviewed transition that preserves
   active pinned code and all historical charges. A filed budget is not proof of
   runtime support.
+
+The isolated [v11 continuation runtime](TWO_DAY_RUNTIME_V11.md) passes its scoped
+language continuation and native-copy checks. The existing language families
+can use it alongside the original chess worker. New-family registration remains
+closed pending legacy-reader reconciliation and an unresolved historical native
+identity inspection; passing unit checks alone does not release that hold.
 
 All new result rows carry an activation list. Operational-only rows use an empty
 list because they do not observe a channel firing. The retrospective activation

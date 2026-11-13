@@ -6,6 +6,9 @@ the approved chess split correction, review order and source/runtime boundaries.
 It commissions three builder queues and new history, appraisal, meeting, choice
 and public-text studies; built work still needs owner review and admission.
 
+The [v11 continuation design](TWO_DAY_RUNTIME_V11.md) records the qualified
+language checkpoint repair and the unreleased new-family accounting transition.
+
 The [curator packet](PACKET.md) commissions CPU-only Gear 2 through November 15, 2026. No GPU, paid calls or Ollama calls are authorized for this campaign. Eight counted slots and three builders are commissioned. Wakes follow events and four hours of owner inactivity, with at most one pending wake.
 
 Designs and known-answer fixtures are reviewed before admission. A registry entry alone is not executable readiness. Raw sources, individual records, predictions and identities stay in ignored storage; the back-half packet authorizes only its four named local engine exports; aggregate landings use the Stage 15 claim ledger and one final curator packet.

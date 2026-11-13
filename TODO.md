@@ -1,5 +1,10 @@
 # TODO: the study queue
 
+- [ ] Two-day runtime: language continuations now qualified for admission; new-family registration remains held for legacy-reader reconciliation and the historical native-identity inspection failure.
+- [x] LA3/LA4 planned prefixes and SG1 constructed native source: full operational authentication and write-through complete; scientific results remain pending.
+
+- [x] OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113: The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks.
+
 - [ ] Two-day packet: owner reviews LA3/LA4; SG1 with CH6/CH7; CH8/CH12; IN9 items then cues; TR1/RR3; CH9/CH10 after SG1.v/CH11; LA5; IN11/IN12; RF1/CP1; EX5/EX4 and source-conditional ISEAR. Three commissioned builders are active. Preserve the approved independent chess split.
 - [ ] Two-day packet recording: complete the retrospective activation log over preserved Stage 15 evidence; every new row includes activation. Safely load RF/CP/IS/SV family accounting before those launches. Keep absent R13-R15 source handoffs and RF1 election-boundary provenance explicit.
 - [x] LA4 metadata source extension: full fresh native replay; one retained HHhMM parser repair; actual source charge 144.5625 CPU seconds including two supervisors. Analysis and LA3 lemmas remain pending.

@@ -1,5 +1,13 @@
 # October 16 drive runners
 
+The two-day packet's [v11 continuation runtime](../../docs/design/stage-15/week5/TWO_DAY_RUNTIME_V11.md)
+adds only reviewed language stopping bounds and the new family policy. New owner
+admissions use `week5_launch_v9`; new-family plans must pass its `freeze_plan`
+transition check before being written. The new families remain held pending
+legacy-reader and historical native-identity reconciliation. Existing-family
+continuations preserve all prior pins and use fresh attempts. Older live workers
+retain their original sources and leases.
+
 The isolated Week 5 v8 runtime handles the original V1 producer's PID-named
 atomic JSON temporaries through `cards/week5_output_size_v2.py`. The
 [repair record](../../results/phase_2_4_stage_15/WEEK5/V1_ATOMIC_ACCOUNTING_RECOVERY_20261110.md)

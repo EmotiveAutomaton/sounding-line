@@ -2656,6 +2656,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113:** The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks. [Record](../results/phase_2_4_stage_15/WEEK5/TWO_DAY_PREFIX_RUNTIME_20261113.md).
+
 **OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113:** The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair. [Record](../results/phase_2_4_stage_15/WEEK5/TWO_DAY_LA_SOURCE_20261113.md).
 
 **OPS-S15-W5-CH1-N-MEMORY-RESUME-20261113:** The chess queue paused safely for low commit headroom; its saved work authenticates and the unchanged roster is advancing again in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_N_MEMORY_RESUME_20261113.md).
