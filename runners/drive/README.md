@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+The IN9 items table adapter (`cards/week5_in9_v1.py`) has a separate ridge/AUC replay and a full constructed writer-bank fixture. Its counted admission uses the two-day table-card rule and exact existing source pins; no raw text or cue analysis is part of that adapter.
+
 The two-day packet's [v11 continuation runtime](../../docs/design/stage-15/week5/TWO_DAY_RUNTIME_V11.md)
 adds only reviewed language stopping bounds and the new family policy. New owner
 admissions use `week5_launch_v9`; new-family plans must pass its `freeze_plan`

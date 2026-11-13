@@ -1,5 +1,127 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-IN9-ITEMS-READY-20261113
+
+**Hypothesis.** Can the commissioned comparison of shame- and guilt-prompt appraisals run with disjoint writer folds, fixed regularization, complete writer uncertainty and a genuinely separate formula replay?
+
+**METHOD.** Read the complete prospective design, producer, numerical formulas, independent reference, fixture and ten focused checks. Authenticate the frozen test sources, resource receipt and all ten durable constructed-proof files. Check all forty-eight sealed outputs of the already completed original source and its exact generation-table hash. Do not rerun source qualification or open raw text. Apply the two-day packet's table-card admission rule.
+
+**Found.** The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit.
+
+**Qualification.** All ten targeted tests passed in the native Windows interpreter. Hand-counted tied area-under-curve values, fixed writer-fold membership, training-only normalization and a weighted-gradient certificate pass. The packet's three-shifted-item and one-shifted-item Gaussian cases are checked against analytic population expectations, independently of the production adapter. The paired identical-prompt null completes all 2,000 writer resamples and all 2,000 separate-optimizer replay draws, including saved execution and verification reentry. The observed null bank and interval are exactly one half throughout. Changed source or settings, insufficient prompt support and failed uncertainty draws are explicitly refused or retained; no failed draw is redrawn or omitted.
+
+**Formula and scope.** The primary uses all twenty-one original appraisal items plus intensity, fixed five-fold writer allocation, training-fold-only centering/scaling, and ridge coefficient one declared before data. It pools held-out scores and uses whole-writer resampling with every model refitted. Independent replay uses a trust-region likelihood solver, a separate pair-prefix area formula, separately reconstructed normalization and independent interval/standard-error arithmetic. Numeric comparisons use the frozen tolerance; failure coverage must agree exactly. The human result will concern how prompts elicit reported appraisal profiles. It cannot identify two feelings, biological tissue or a channel firing. The source's original invented-event exclusions remain unchanged.
+
+**Support and limits.** Fewer than two hundred reports under either prompt is unsupported. Fewer than five writers cannot form the declared folds; fewer than twenty retains only descriptive interpretation. The packet's practical and equivalence bands, directed item differences and sensitivity reporting remain prospective. There is no actual source-model estimate in this qualification record. Literal text cues remain separate and cannot hold the items-first analysis. Their original hundred-hit rule stays preserved; the prospective cue successor will review a census below a hundred hits and otherwise its fixed sample, while retaining the five-percent prevalence floor and explicit semantic precision requirement.
+
+**Resources and admission.** The targeted fixture used 83.931187 wall seconds and at least 74.9375 sampled interpreter-tree CPU seconds; the sampling receipt is not an exact Job total. A conservative 2,075-second allowance is reserved from this card using the entire twenty-four-processor wall envelope plus sixty seconds. This is an accounting reservation, not claimed observed usage. The subsequent worker cap is 17,895 CPU seconds plus its thirty-second supervisor allowance within the original 20,000-second envelope, with all cue work sharing the remainder. Initial memory forecast is one GiB and remains unmeasured. The first hundred actual writer draws are a counted cost prefix; forecast complete inference and fresh replay before continuation. The current IN family has 57,079.625 CPU seconds remaining at review and is checked again at admission. CPU-only Gear 2, two numerical threads and existing resource guards continue.
+
+**Means and next.** This qualifies an instrument on constructed cases and authenticates existing inputs; it is not a human finding or theory verdict. Commit the reviewed design and unchanged tested files, then admit the counted prefix. Retain the complete source, construct provenance, all scoped limitations and final-packet policy. No new hypothesis or p-value was introduced. This operational row has empty activation: its synthetic test inputs do not establish a biological activation event.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit.; project meaning: scoped operational record; next engineering obligation: Commit the reviewed design, admit the counted items-first prefix, and preserve separate cue gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN9_ITEMS_READY_20261113.md.
+
+### OPS-S15-W5-LA3-SG1-SOURCES-20261113
+
+**Hypothesis.** Can the commissioned language and chess studies continue from qualified sources while preserving source coverage, checkpoint contents, independent verification and the original limits?
+
+**METHOD.** Authenticate every sealed source output and input pin, reconcile native descendant CPU and exit identities, check lease release, compare the complete lemma-source replay, and validate the exact chess transaction checkpoint. Review the original designs and prospective cost forecasts, then launch separately monitored counted successors with unchanged handlers, populations and scientific settings. Inspect the live scorer, shared companion lease, resources and watcher transport.
+
+**Found.** The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2.
+
+Table: completed source or checkpoint operations. CPU counts include all native child descendants; each attempt also incurs the unchanged thirty-second supervisor allowance. These are operational counts, not partial scientific estimates.
+
+| Operation | Final state | Authenticated manifest files | Native CPU seconds | Scope |
+|---|---|---:|---:|---|
+| Full lemma source continuation | Complete with fresh replay | 13,937 | 3,163.593750 | All 221,947 qualified acts across 246 meetings |
+| Chess-history extension first prefix | Planned checkpoint | 2 | 940.796875 | 63,200 of 1,263,372 selected games; no completed scientific comparison |
+
+**Language source.** The original corpus word boundaries, pinned installed linguistic resource, full-corpus frequency definitions and all prior checkpoints are preserved. The source and fresh replay agree byte-for-byte on lemma acts, extended metadata, timed speech and aggregate summary. The complete LA3 source charge, including its prior prefix and both supervisor allowances, is 3,382.796875 CPU seconds. There are 1,147,768 timed AMI words and 870,650 timed ICSI words; 15 and 133,318 words respectively lack supported timing and remain counted. Missing documentary chronology affects 75 ICSI meetings. No lexical inventory or individual record is published. The combined-corpus primary and ICSI history comparison remain source-held; the already commissioned AMI-only texture does not require invented chronology.
+
+**Chess checkpoint and continuation.** The planned five-percent selected-game boundary closes at the next whole transaction, 63,200 games. It is not five percent of compressed bytes or CPU. Both saved checkpoint files authenticate, the original native worker has exited and its slot is released. The measured same-phase full-source projection is 16,330.9447 CPU seconds. The reviewed successor reserves 35,000 CPU seconds for remaining source work and full independent replay, using a 38,000-second worker cap plus the thirty-second supervisor allowance inside the original extension envelope. The source sample, approved independent calibration hash, source traversal and fresh replay remain unchanged. Consumer-model admission is separate and remains pending.
+
+**Admission repair.** The first continuation request omitted the policy's five-percent-pilot metadata and was refused before a plan or worker was created. The corrected request pins the already completed pilot receipt, records its actual fraction and carries the required pilot field. The refusal and original request remain preserved. No policy, resource gate, input, estimator or acceptance criterion changed; no source work was repeated to satisfy the metadata requirement.
+
+**Running successors.** The AMI texture starts with setup and one sealed sixteen-draw block, then forecasts its complete 200-draw descriptive run and fresh replay. Its total texture cap is 3,600 CPU seconds within LA3's original 40,000-second envelope. The chess-history continuation resumes its authenticated transaction checkpoint and retains a complete fresh raw-source traversal for verification. Both use the qualified v11 runtime, distinct native owners, exact frozen plans and registered terminal/failure monitoring. The original chess scorer remains serial because its committed manifest has no disjoint end ranges; it is progressing and is not restarted.
+
+**Liveness and resource evidence.** At the native inspection the original scorer's PID, creation time and command match its owner record; progress and scored-output offsets are fresh. The companion process and its six-GiB reservation remain intact. A completed lemma worker's PID had already been reused with a later creation time; that unrelated process was neither treated as the old owner nor touched. Available physical memory was 41.249668 GiB, commit headroom 15.802101 GiB and disk free 35.009487 GiB at the resource snapshot; both admissions independently recheck the live gates. The watcher has a recent scan, no current watch error, no pending/unrecognized native wake and the correct active-owner suppression. Three historical delivery failures remain visible. Events, four-hour inactivity and one pending wake remain unchanged.
+
+**Means and next.** Source completion establishes usable preserved inputs, not a scientific effect or a theory verdict. Source limits remain binding. The new rows have record_kind run, empty theory tags, by_construction false and an empty activation list. Continue owner review in packet order; retain builder qualification failures and repairs, the deficient ready buffer, the new-family runtime transition and activation backfill as open work. No new hypothesis was harvested. Final scientific reporting stays with the complete curator packet; these two events are acknowledged only after this full write-through and view validation.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Continue packet-order owner admission, source checks and full final-packet filing.; public scientific claim unchanged; curator decision required: No new decision. Detail: LA3_SG1_SOURCES_20261113.md.
+
+### S15-W5-LA4-20261113
+
+**Hypothesis.** Are people who share a native language with the person starting a laugh more likely to join it, after accounting for the laugh itself, the individual participant within the meeting, and recent speaking and laughter? Shared background is a proxy for what people might infer together; joining does not directly measure a hidden inference or a channel firing.
+
+**METHOD.** Use the qualified AMI and ICSI human meeting annotations and completed metadata extension. A starter begins after at least three seconds without a laugh; tied distinct starters are excluded and counted. Every other person on the source roster is a possible joiner, with an annotated onset in the next one second defining joining. Fit the preregistered linear probability comparison with laugh and person-within-meeting fixed effects and the frozen situational controls. The sole primary is AMI shared native language, with a two-percentage-point practical threshold. Retain 2,000 whole-meeting resamples, stratified by corpus and paired across variants, plus twenty within-meeting background-label permutations for each declared construct. Reconstruct the complete source features and inference in a fresh process, compare the final result bytes, and authenticate every sealed output and predecessor checkpoint.
+
+**Found.** The shared-native-language association with joining laughter is inconclusive at the preregistered practical threshold; the completed meeting comparison does not establish a shared-inference mechanism.
+
+**Sensitivity first.** This run sees differences of about 5.80 percentage points, compared with the two-point threshold; the approximate effect needed for an interval wholly above that threshold is 7.80 points. These are the preregistered 2.8-standard-error approximations, not a new power campaign. The observed primary is +0.2444 percentage points, with a 95% whole-meeting interval from −3.9082 to +4.1886 points. Its bootstrap standard error is 2.0706 points. The interval neither establishes the proposed positive effect nor confines it to the practical-null band. It is inconclusive, not evidence of equivalence or absence.
+
+**Primary support and selection.** The eligible primary comprises 15,381 possible-joiner observations across 5,226 laugh events and 131 meetings. Another 6,848 roster observations lack the required background label or are unavailable for that specification. Seven simultaneous-starter events are excluded by the frozen rule. Roster membership is not continuous observed attendance; that limitation applies to all denominators. Meeting clustering preserves within-meeting dependence but does not establish independence of repeated global people across meetings.
+
+Table: complete fitted coefficients. Estimates and intervals are percentage-point differences in joining probability; each row's meeting count is its independent-cluster support. The role codes are the source's task-role labels, relative to its reference role, not psychological constructs. Only the primary shared-language row carries the commissioned theory contrast. All other rows are descriptive or scale reports. “Cannot test” retains a point estimate when available but refuses population uncertainty when a target is absorbed or any required bootstrap draw is unsupported; draws are neither omitted nor redrawn.
+
+| Variant | Term | Meetings | Estimate, points | 95% interval, points | Standing |
+|---|---|---:|---:|---|---|
+| AMI primary: person and laugh effects | Recent laugh count | 131 | 0.2438 | [-0.3030, 0.8039] | descriptive texture |
+| AMI primary: person and laugh effects | Shared native language | 131 | 0.2444 | [-3.9082, 4.1886] | Inconclusive primary |
+| AMI primary: person and laugh effects | Joiner spoke preceding line | 131 | -5.6520 | [-7.3713, -3.9239] | descriptive texture |
+| AMI primary: person and laugh effects | Joiner spoke recently | 131 | 1.2827 | [-0.0289, 2.6635] | descriptive texture |
+| AMI: starter did not speak preceding line | Recent laugh count | 131 | 0.3371 | [-0.3054, 0.9982] | descriptive texture |
+| AMI: starter did not speak preceding line | Shared native language | 131 | 0.7641 | [-3.6739, 5.2772] | descriptive texture |
+| AMI: starter did not speak preceding line | Joiner spoke preceding line | 131 | -4.9708 | [-7.0027, -3.1017] | descriptive texture |
+| AMI: starter did not speak preceding line | Joiner spoke recently | 131 | 0.4804 | [-1.3389, 2.4541] | descriptive texture |
+| AMI task roles with situational controls | Recent laugh count | 98 | 2.3280 | [1.5035, 3.0229] | scale only |
+| AMI task roles with situational controls | Source role me | 98 | -3.1309 | [-5.5674, -0.9947] | scale only |
+| AMI task roles with situational controls | Source role pm | 98 | -3.7765 | [-6.3833, -1.2668] | scale only |
+| AMI task roles with situational controls | Source role ui | 98 | -1.8301 | [-3.9886, 0.1601] | scale only |
+| AMI task roles with situational controls | Shared native language | 98 | 4.6378 | [1.9778, 7.5606] | scale only |
+| AMI task roles with situational controls | Joiner spoke preceding line | 98 | -5.9510 | [-7.7176, -4.2664] | scale only |
+| AMI task roles with situational controls | Joiner spoke recently | 98 | 1.5970 | [0.0172, 3.1552] | scale only |
+| AMI task roles without situational controls | Source role me | 98 | -3.8757 | [-6.5465, -1.5211] | scale only |
+| AMI task roles without situational controls | Source role pm | 98 | -4.4866 | [-7.2729, -1.7110] | scale only |
+| AMI task roles without situational controls | Source role ui | 98 | -2.4000 | [-4.6924, -0.1472] | scale only |
+| AMI task roles without situational controls | Shared native language | 98 | 5.8950 | [2.7220, 9.0612] | scale only |
+| AMI: starter spoke preceding line | Recent laugh count | 99 | -0.4806 | [-1.5463, 0.5293] | descriptive texture |
+| AMI: starter spoke preceding line | Shared native language | 99 | -0.0761 | Unavailable | Cannot test |
+| AMI: starter spoke preceding line | Joiner spoke preceding line | 99 | 4.2876 | [-17.3992, 27.9456] | descriptive texture |
+| AMI: starter spoke preceding line | Joiner spoke recently | 99 | 2.8447 | [1.0347, 4.6676] | descriptive texture |
+| ICSI English variety | Recent laugh count | 72 | 0.0796 | [-1.7183, 1.6979] | descriptive texture |
+| ICSI English variety | Shared English variety | 72 | -1.1607 | Unavailable | Cannot test |
+| ICSI English variety | Joiner spoke preceding line | 72 | -4.4052 | [-7.5471, -1.0179] | descriptive texture |
+| ICSI English variety | Joiner spoke recently | 72 | 3.9626 | [2.4955, 5.4764] | descriptive texture |
+| ICSI region | Recent laugh count | 57 | 2.0215 | [-0.5982, 4.7042] | descriptive texture |
+| ICSI region | Shared region | 57 | 0.8583 | Unavailable | Cannot test |
+| ICSI region | Joiner spoke preceding line | 57 | -8.4651 | Unavailable | Cannot test |
+| ICSI region | Joiner spoke recently | 57 | 7.8761 | [0.0000, 14.8141] | descriptive texture |
+
+**Secondary limits.** ICSI English-variety and region targets and the AMI starter-spoke background stratum have unsupported resamples and no inferential intervals. ICSI earlier co-attendance remains source-held because documentary chronology or global identity is missing. The starter-spoke main effect itself is constant within each laugh and therefore absorbed by the mandatory laugh fixed effect; it is not estimated. The role-based comparisons replace person effects and use 98 meetings, so their larger shared-language associations do not upgrade the primary. Their within-laugh explained-variance fractions are 0.021184 with situational controls and 0.007015 without them; these are scale reports only.
+
+Table: diagnostic background-label permutations. Each row reports all twenty saved fits; summary statistics describe those fits and impose no new acceptance gate. The fixed primary threshold stays two percentage points. The complete vectors are retained in the aggregate receipt.
+
+| Permuted background | Fits | Mean, points | Minimum, points | Maximum, points |
+|---|---:|---:|---:|---:|
+| AMI native language | 20 | 0.0887 | -4.0379 | 3.0559 |
+| ICSI english variety | 20 | -1.4461 | -9.1441 | 3.7451 |
+| ICSI region | 20 | 0.2854 | -1.0795 | 1.7772 |
+
+**Validation and integrity.** The carried design's hand-specified events, signed/zero constructed cases and independent dense fixed-effect oracles passed before the corpus run; the repaired clock parser passed its thirteen checks. The language continuation adapter then passed its targeted and native stopped-owner-copy checks. This final continuation completed execution and fresh full source/inference replay with identical result bytes. All 565 final manifest files, input pins, numerical-thread bounds and original checkpoint hashes authenticate. Both children and the supervisor exited and the counted lease is released. Fresh replay is computational verification, not an independent human replication.
+
+**Cost.** The final continuation used 158.281250 native CPU seconds and 191.951314 wall seconds. Including the retained original source failure, repaired source, planned analysis prefix and four supervisor allowances, the LA4 card has used 423.328125 CPU seconds of its 30,000-second ceiling. All prior failures and attempts remain. A setup-separated forecast was used at continuation admission rather than charging source preparation once per draw block; the original conservative upper bound remains in the prefix record.
+
+**Means.** This tests a conditional, observational shared-background association in labeled meetings. The broad primary interval leaves the predicted small association unresolved. Shared native language is not shared hidden knowledge, actual co-presence is incompletely observed, and joining can reflect convention, affiliation or other situational causes. The result therefore neither confirms nor rejects laughter as completed inference. Role-only scale fits, unsupported ICSI contrasts and a source-held co-attendance term cannot fill that gap.
+
+**Activation record.** PLAY is the hypothesis context; no set point or trigger was measured or manipulated. Shared-background labels varied, people could join or not join, and annotated joining was observed. The relation to the trigger table is **says nothing**: channel firing and hidden inference were not identified. This records the observation without treating every laugh as a measured PLAY activation.
+
+**Next and reporting.** Carry the primary interval, sensitivity, all descriptive variants and source holds into the final curator packet. The already commissioned two- and three-second windows remain separate lower-priority 200-draw textures with their own cost admission; no outcome-driven repair of the primary is licensed. Continue the source and review queue in packet order. No new hypothesis was harvested and no p-value is quoted. Scientific detail is filed internally under the final-packet policy. Acknowledge the completion event only after full write-through and generated-view validation.
+
+
+Curator roll-up: shared inference and laughter; Does shared native language predict joining a laugh after person and event adjustment?; **Narrows**; The shared-native-language association with joining laughter is inconclusive at the preregistered practical threshold; the completed meeting comparison does not establish a shared-inference mechanism.; project meaning: the small observational contrast remains unresolved and does not identify channel activation; next engineering obligation: preserve sensitivity and source holds in the final packet, then cost-admit commissioned textures; public scientific claim unchanged; curator decision required: No. Detail: LA4_COMPLETE_20261113.md.
+
 ### OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113
 
 **Hypothesis.** Can the new packet continue from bounded cost probes without changing populations, scientific settings, checkpoints or accounting?

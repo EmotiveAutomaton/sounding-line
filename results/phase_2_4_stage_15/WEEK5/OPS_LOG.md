@@ -1453,3 +1453,9 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-13T11:35:31.324239+00:00 OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113: The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair.
 
 2026-11-13T12:47:04.273164+00:00 OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113: The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks.
+
+2026-11-13T13:25:23.251545+00:00 S15-W5-LA4-20261113: The shared-native-language association with joining laughter is inconclusive at the preregistered practical threshold; the completed meeting comparison does not establish a shared-inference mechanism.
+
+2026-11-13T13:57:02.585700+00:00 OPS-S15-W5-LA3-SG1-SOURCES-20261113: The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2.
+
+2026-11-13T14:10:04.307662+00:00 OPS-S15-W5-IN9-ITEMS-READY-20261113: The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit.

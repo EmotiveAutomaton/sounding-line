@@ -83,3 +83,9 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113**: [The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair.](TWO_DAY_LA_SOURCE_20261113.md)
 
 **OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113**: [The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks.](TWO_DAY_PREFIX_RUNTIME_20261113.md). Infrastructure only; scientific comparisons remain pending.
+
+**S15-W5-LA4-20261113 / H12-T5:** The shared-native-language association with joining laughter is inconclusive at the preregistered practical threshold; the completed meeting comparison does not establish a shared-inference mechanism. Primary +0.002444, interval [−0.039082, +0.041886], bar0.02; sees0.057977 and supports-at0.077977. Earlier co-attendance remains held; unsupported secondary intervals are not nulls. [Complete method and limits](LA4_COMPLETE_20261113.md).
+
+**OPS-S15-W5-LA3-SG1-SOURCES-20261113:** Complete linguistic source and exact source checkpoint recorded; no theory verdict or measured activation. [Full operational record](LA3_SG1_SOURCES_20261113.md).
+
+**OPS-S15-W5-IN9-ITEMS-READY-20261113:** Appraisal-profile method qualified on constructed cases and exact existing source; no human finding or channel-identification claim. [Method and limits](IN9_ITEMS_READY_20261113.md).

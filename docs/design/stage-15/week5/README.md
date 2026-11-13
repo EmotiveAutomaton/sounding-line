@@ -1,5 +1,7 @@
 # Stage 15 Week 5
 
+The [IN9 items design](IN9_TWO_DAY_V1.md) has complete owner formula review and packet-fixture authentication; the first counted cost prefix follows its design commit. Literal cues and their prospective semantic-gate successor remain separate.
+
 The [two-day close packet](PACKET_TWO_DAY.md), authorized November 13, is the
 latest addition. Its [implementation record](TWO_DAY_IMPLEMENTATION.md) preserves
 the approved chess split correction, review order and source/runtime boundaries.

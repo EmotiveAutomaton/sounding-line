@@ -2656,6 +2656,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-IN9-ITEMS-READY-20261113:** The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit. [Record](../results/phase_2_4_stage_15/WEEK5/IN9_ITEMS_READY_20261113.md).
+
+**OPS-S15-W5-LA3-SG1-SOURCES-20261113:** The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/LA3_SG1_SOURCES_20261113.md).
+
+**S15-W5-LA4-20261113:** The shared-native-language association with joining laughter is inconclusive at the preregistered practical threshold; the completed meeting comparison does not establish a shared-inference mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/LA4_COMPLETE_20261113.md).
+
 **OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113:** The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks. [Record](../results/phase_2_4_stage_15/WEEK5/TWO_DAY_PREFIX_RUNTIME_20261113.md).
 
 **OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113:** The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair. [Record](../results/phase_2_4_stage_15/WEEK5/TWO_DAY_LA_SOURCE_20261113.md).

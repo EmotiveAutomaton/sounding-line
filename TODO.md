@@ -1,5 +1,20 @@
 # TODO: the study queue
 
+- [x] IN9 items: full owner formula/source review and packet fixture authentication complete.
+- [ ] IN9 items: commit reviewed design, admit the counted hundred-draw prefix, then forecast full inference/replay inside the original ceiling; cues remain a separate gated component.
+
+- [x] OPS-S15-W5-IN9-ITEMS-READY-20261113: The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit.
+
+- [x] LA3 complete lemma source and SG1 planned source prefix authenticated and filed.
+- [ ] LA3 AMI texture prefix and SG1 exact full-source continuation admitted; preserve chronology holds and finish complete replay before scientific interpretation.
+
+- [x] OPS-S15-W5-LA3-SG1-SOURCES-20261113: The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2.
+
+- [x] LA4 primary: complete native execution/replay and full scientific filing; inconclusive at the fixed bar.
+- [ ] LA4 already commissioned two-/three-second textures: lower-priority source/cost admission after packet-priority work; no primary repair or inferential upgrade.
+
+- [x] S15-W5-LA4-20261113: The shared-native-language association with joining laughter is inconclusive at the preregistered practical threshold; the completed meeting comparison does not establish a shared-inference mechanism.
+
 - [ ] Two-day runtime: language continuations now qualified for admission; new-family registration remains held for legacy-reader reconciliation and the historical native-identity inspection failure.
 - [x] LA3/LA4 planned prefixes and SG1 constructed native source: full operational authentication and write-through complete; scientific results remain pending.
 
