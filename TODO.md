@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-CH1-N-MEMORY-RESUME-20261113: The chess queue paused safely for low commit headroom; its saved work authenticates and the unchanged roster is advancing again in CPU-only Gear 2.
+
 - [x] OPS-S15-W5-HEALTH-CH7-REPAIR-20261113: The chess queue and watcher are healthy; the versioned CH7 source repair passes its independent checks, while production admission and the ready buffer remain unfinished.
 
 - [x] OPS-S15-W5-DIGEST-20261112: The November 12 reconciliation preserves completed evidence and theory filing; the chess continuation is healthy, its stale inspection index is repaired, and substantial idle capacity remains an explicit admission backlog.
