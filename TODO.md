@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [ ] OPS-S15-W5-BUILD-FILING-20261112 admission work remains: published preparation is not executable readiness. Preserve CH7 source/fixture fixes, R1 native/profile/queue work, LA/TR1/EX4/MD3.s source and cost admission, and EM1's missing historical prefix definition. The new EM1 eight-check fixture passes; no real materials run is admitted.
+
+- [x] OPS-S15-W5-BUILD-FILING-20261112: All remaining delivered Week 5 code, tests and aggregate handoffs are filed with their validation evidence and outstanding admission gates.
+
 - [x] OPS-S15-W5-CH1-N-PREFIX-20261112: The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2.
 
 - [ ] CH7 owner-admission preflight (OPS-S15-W5-HEALTH-20261112-1329): enforce and validate immutable read-only source opens and sidecar refusal; replace self-generated native-fixture expectations with independent known answers. Preserve the original sources, population, fields and existing checks. Complete numerical owner review and counted native qualification before admission.

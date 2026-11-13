@@ -17,3 +17,5 @@ The [November 11 back-half packet](PACKET_BACK_HALF.md) is the current amendment
 The [Round 12 theory handoff](THEORY_HANDOFF_2026-11-11.md) is preserved verbatim as supporting context. The packet commissions its tests; open theory choices stay open and this filing changes no theory table.
 
 [Measured reader guard](AT_MEMORY_R1.md) is a prospective R1 implementation with focused checks passed; native proof and complete reader collection admission remain pending.
+
+[November 12 prepared-work filing](../../../../results/phase_2_4_stage_15/WEEK5/BUILD_FILING_20261112.md) records the preserved R1, CH7/grid, LA, TR1, MD3.s, EX4 and EM1 implementations, their focused checks and outstanding production gates. Committed preparation is not owner admission; draft-time status lines are superseded only by the explicit validation statuses in that filing.
