@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+**Operational recovery, November 13:** [OPS-S15-W5-DISK-RECOVERY-20261113](DISK_RECOVERY_20261113.md). All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2. Source bytes and scientific definitions are preserved; no unfinished estimate or theory revision. New-family runtime qualification and activation integration remain separate.
+
 Authority: [back-half packet](../../../docs/design/stage-15/week5/PACKET_BACK_HALF.md); [preserved handoff](../../../docs/design/stage-15/week5/THEORY_HANDOFF_2026-11-11.md). This is a rolling evidence and execution-status return, updated at daily digests and closed with the drain addendum. It supplies only complete scoped estimates and current execution states; no theory revision.
 
 The table maps each handoff test to its commissioned card, current blocking step and result fields. “Pending” means uncomputed, not a null.

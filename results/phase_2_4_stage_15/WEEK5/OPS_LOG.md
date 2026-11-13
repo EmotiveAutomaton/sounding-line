@@ -1481,3 +1481,5 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-13T16:53:03.536957+00:00 OPS-S15-W5-RR3-COST-CONTINUATION-20261113: The recent-outcome comparison is qualified, its complete cost checkpoint authenticates, and the unchanged full run is admitted under the existing one-doubling rule.
 
 2026-11-13T16:53:51.055274+00:00 OPS-S15-W5-LEGACY-PROVENANCE-20261113: The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved.
+
+2026-11-13T19:25:51.974402+00:00 OPS-S15-W5-DISK-RECOVERY-20261113: All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.

@@ -2656,6 +2656,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-DISK-RECOVERY-20261113:** All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/DISK_RECOVERY_20261113.md).
+
 **OPS-S15-W5-LEGACY-PROVENANCE-20261113:** The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/LEGACY_PROVENANCE_20261113.md).
 
 **OPS-S15-W5-RR3-COST-CONTINUATION-20261113:** The recent-outcome comparison is qualified, its complete cost checkpoint authenticates, and the unchanged full run is admitted under the existing one-doubling rule. [Record](../results/phase_2_4_stage_15/WEEK5/RR3_COST_CONTINUATION_20261113.md).

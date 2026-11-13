@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-DISK-RECOVERY-20261113:** [Record](DISK_RECOVERY_20261113.md). All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.
+
 **OPS-S15-W5-LEGACY-PROVENANCE-20261113:** [Record](LEGACY_PROVENANCE_20261113.md). The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved.
 
 **OPS-S15-W5-RR3-COST-CONTINUATION-20261113:** [Record](RR3_COST_CONTINUATION_20261113.md). The recent-outcome comparison is qualified, its complete cost checkpoint authenticates, and the unchanged full run is admitted under the existing one-doubling rule.
