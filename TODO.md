@@ -1,14 +1,17 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-HEALTH-CH7-REPAIR-20261113: The chess queue and watcher are healthy; the versioned CH7 source repair passes its independent checks, while production admission and the ready buffer remain unfinished.
+
 - [x] OPS-S15-W5-DIGEST-20261112: The November 12 reconciliation preserves completed evidence and theory filing; the chess continuation is healthy, its stale inspection index is repaired, and substantial idle capacity remains an explicit admission backlog.
 
-- [ ] OPS-S15-W5-BUILD-FILING-20261112 admission work remains: published preparation is not executable readiness. Preserve CH7 source/fixture fixes, R1 native/profile/queue work, LA/TR1/EX4/MD3.s source and cost admission, and EM1's missing historical prefix definition. The new EM1 eight-check fixture passes; no real materials run is admitted.
+- [ ] OPS-S15-W5-BUILD-FILING-20261112 admission work remains: published preparation is not executable readiness. Preserve the tested CH7 source/fixture repair and finish its numerical/consumer admission; retain R1 native/profile/queue work, LA/TR1/EX4/MD3.s source and cost admission, and EM1's missing historical prefix definition. The new EM1 eight-check fixture passes; no real materials run is admitted.
 
 - [x] OPS-S15-W5-BUILD-FILING-20261112: All remaining delivered Week 5 code, tests and aggregate handoffs are filed with their validation evidence and outstanding admission gates.
 
 - [x] OPS-S15-W5-CH1-N-PREFIX-20261112: The planned chess cost prefix is fully authenticated, and its exact original-roster continuation is advancing in counted CPU-only Gear 2.
 
-- [ ] CH7 owner-admission preflight (OPS-S15-W5-HEALTH-20261112-1329): enforce and validate immutable read-only source opens and sidecar refusal; replace self-generated native-fixture expectations with independent known answers. Preserve the original sources, population, fields and existing checks. Complete numerical owner review and counted native qualification before admission.
+- [x] CH7 source/fixture repair (OPS-S15-W5-HEALTH-CH7-REPAIR-20261113): versioned immutable read-only snapshot access and independent known answers pass all 14 focused checks; original sources and candidate plans are preserved.
+- [ ] CH7 remaining admission: complete numerical owner review, full native qualification, versioned consumer integration and pinned plan admission. The source repair alone does not qualify production.
 - [ ] R1 owner-admission preflight (OPS-S15-W5-HEALTH-20261112-1329): freeze complete historical-peak profiles, verify native scoring/replay and collector acceptance, and finish the two-engine long queue plus first-twenty-chunk cost assessment. Do not substitute the retired fixed memory line for current R1 arithmetic.
 
 - [x] OPS-S15-W5-HEALTH-20261112-1329: The counted chess queue and watcher are healthy; seven slots remain idle because commissioned work still needs owner admission and specific interface or qualification steps.

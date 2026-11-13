@@ -18,4 +18,6 @@ The [Round 12 theory handoff](THEORY_HANDOFF_2026-11-11.md) is preserved verbati
 
 [Measured reader guard](AT_MEMORY_R1.md) is a prospective R1 implementation with focused checks passed; native proof and complete reader collection admission remain pending.
 
+[CH7 source repair](CH7_SOURCE_REPAIR_V2.md) isolates immutable snapshot reads and independently specified fixture answers. Numerical qualification and versioned consumer admission remain separate gates.
+
 [November 12 prepared-work filing](../../../../results/phase_2_4_stage_15/WEEK5/BUILD_FILING_20261112.md) records the preserved R1, CH7/grid, LA, TR1, MD3.s, EX4 and EM1 implementations, their focused checks and outstanding production gates. Committed preparation is not owner admission; draft-time status lines are superseded only by the explicit validation statuses in that filing.
