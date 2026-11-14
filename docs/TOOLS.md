@@ -2656,6 +2656,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-CH1-N-INTERVAL-COMPLETE-20261114:** The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_N_INTERVAL_COMPLETE_20261114.md).
+
 **OPS-S15-W5-HEALTH-20261114-0830:** The original chess scorer is advancing in CPU-only Gear 2 with healthy resources and wake delivery; no runtime recovery is required, while the ready-card admission deficit remains open. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_20261114_0830.md).
 
 **OPS-S15-W5-CH7-OWN-FIT-PILOT-20261114:** The first declared CH7 own-player parameter cost prefix is safely checkpointed; full-cohort model and independent-replay admission remain open while original-roster chess scoring continues in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH7_OWN_FIT_PILOT_20261114.md).

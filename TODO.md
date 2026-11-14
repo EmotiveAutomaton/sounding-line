@@ -1,5 +1,10 @@
 # TODO: the study queue
 
+- [x] CH1-N first closed interval [0, 82624): all separate native unit replays and final ordinal authentication filed.
+- [ ] CH1-N next interval from original ordinal 82624 is active; full 398065-position coverage and downstream collection remain required.
+
+- [x] OPS-S15-W5-CH1-N-INTERVAL-COMPLETE-20261114: The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2.
+
 - [ ] CH7 continuation resource admission: bound original retained arrays, exact shared-gain matrix width and temporary copies, complete-history nulls and fresh replay; the first parameter prefix does not price these phases.
 
 - [x] OPS-S15-W5-HEALTH-20261114-0830: The original chess scorer is advancing in CPU-only Gear 2 with healthy resources and wake delivery; no runtime recovery is required, while the ready-card admission deficit remains open.

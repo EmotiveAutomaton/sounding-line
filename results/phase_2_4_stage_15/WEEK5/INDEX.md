@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-CH1-N-INTERVAL-COMPLETE-20261114:** [Record](CH1_N_INTERVAL_COMPLETE_20261114.md). The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2.
+
 **OPS-S15-W5-HEALTH-20261114-0830:** [Record](HEALTH_20261114_0830.md). The original chess scorer is advancing in CPU-only Gear 2 with healthy resources and wake delivery; no runtime recovery is required, while the ready-card admission deficit remains open.
 
 **OPS-S15-W5-CH7-OWN-FIT-PILOT-20261114:** [Record](CH7_OWN_FIT_PILOT_20261114.md). The first declared CH7 own-player parameter cost prefix is safely checkpointed; full-cohort model and independent-replay admission remain open while original-roster chess scoring continues in CPU-only Gear 2.

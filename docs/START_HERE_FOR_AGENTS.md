@@ -8,7 +8,7 @@ Generated additive navigation, approved November 11, 2026. Existing source recor
 4. Follow the original source and detail links for methods, estimates, controls, scope and corrections. [All records](records/RECORDS.json) retains every legacy ID and relationship.
 5. Read the [five checked queries](records/QUERIES.md) and [format contract](records/README.md).
 
-Coverage: 1467 legacy records retained; 12 reviewed annotations; 1455 unreviewed. This pilot is not an exhaustive theory synthesis.
+Coverage: 1468 legacy records retained; 12 reviewed annotations; 1456 unreviewed. This pilot is not an exhaustive theory synthesis.
 
 This view does not replace current AGENTS, STATE, TODO or the relevant current FINDINGS entries. The theory reading and continuity contract still applies before interpretation. A navigation tag such as attention is not evidence that attention was identified.
 
