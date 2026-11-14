@@ -1,5 +1,107 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113
+
+**Hypothesis.** Does the recorded first-clock fraction show the fixed half-clock and full-clock concentrations in zero-increment tournament games, with the half-clock band sufficiently rare outside tournaments to qualify the proposed instrument check?
+
+**METHOD.** Apply the committed twenty-bin rule to every eligible row of the complete, authenticated three-month SG1 player-history table. Preserve missing and outside values. Replay every player from zero in a fresh process, recompute fractions from first-clock and initial-time columns, bin by independent ordered comparisons, compare the complete source histogram and repeat the same fixed decision rule. Native cost includes source authentication, copied checkpoint verification, execution and full replay.
+
+**Found.** The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate.
+
+Table: complete instrument histogram. Rows are first-clock/initial-time intervals; columns count player-game rows in zero-increment tournament games and other zero-increment games. Bins are left-closed/right-open except the last, which includes one. Counts describe this fixed selected history sample, not independent players or independent replications.
+
+| Clock fraction interval | Tournament rows | Other rows |
+|---|---:|---:|
+| [0.00, 0.05) | 0 | 0 |
+| [0.05, 0.10) | 0 | 0 |
+| [0.10, 0.15) | 0 | 0 |
+| [0.15, 0.20) | 0 | 0 |
+| [0.20, 0.25) | 0 | 0 |
+| [0.25, 0.30) | 0 | 0 |
+| [0.30, 0.35) | 0 | 0 |
+| [0.35, 0.40) | 0 | 0 |
+| [0.40, 0.45) | 0 | 0 |
+| [0.45, 0.50) | 0 | 0 |
+| [0.50, 0.55) | 20,171 | 0 |
+| [0.55, 0.60) | 1 | 0 |
+| [0.60, 0.65) | 0 | 0 |
+| [0.65, 0.70) | 0 | 0 |
+| [0.70, 0.75) | 0 | 0 |
+| [0.75, 0.80) | 0 | 0 |
+| [0.80, 0.85) | 0 | 0 |
+| [0.85, 0.90) | 0 | 0 |
+| [0.90, 0.95) | 0 | 2 |
+| [0.95, 1.00] | 179,576 | 807,853 |
+
+**Denominators and exclusions.** Tournament records contain 199,752 observed ratios: 199,748 in [0,1], four outside, and no missing clocks. The inclusive [0.45,0.55] candidate band contains 20,172 tournament rows. Other games contain 807,943 observed ratios: 807,855 in [0,1], eighty-eight outside and no missing clocks. None of those 807,855 valid other-game ratios is in the candidate band, giving the fixed check's zero observed rate, strictly below 0.002. Missing and outside ratios do not dilute that denominator. This is a census statistic of the preserved sample, not an uncertainty bound or a claim that the population error rate is exactly zero. Nonzero-increment rows do not enter this instrument.
+
+**Fixed modes and boundaries.** The maximum of bins 9 and 10 exceeds both exterior bins 8 and 11; bin 19 exceeds bin 18; and at least one intervening bin 11 through 18 is below both peaks. All three prospective conditions pass. The exact 0.55 endpoint belongs to histogram bin 11 while remaining in the inclusive candidate band; its one tournament case is retained. This is the committed coarse-bin operationalization, not a fitted mixture, an optimized threshold, or proof that every flagged game used the platform option. `flag_admitted` remains false and automatic CH10 admission is false in both complete outputs.
+
+**Complete verification.** All 68 final manifest files, all 48 plan pins and every input authenticate. The complete separate replay is equal to execution and to the sealed source histogram, with independently recomputed clock arithmetic. Exact owner and child native identities have exited, all descendant usage reconciles, and the lease is released. No execution prefix receives independent verification credit. The three previously filed constructed checks cover exact boundaries, corrupted ratios, the strict-rate boundary, denominator exclusions, modal/empty refusal, complete handler replay and safe yield. Full replay is computational corroboration; the historical flag still lacks direct option labels for individual accuracy measurement.
+
+**Scope.** This retains the original two-percent salted history sample, three months and 6,968 players described in [the complete source record](SG1_SOURCE_COMPLETE_20261113.md). It introduces no new population, discarded game, source selection, response model or threshold. It measures a clock-derived candidate flag. Public game rating is not social standing in a room; a passing instrument check establishes no effect on choices, feelings or biological channels. The source's duration and censoring limits remain binding.
+
+**Costs and guards.** The complete continuation used 230.75 native CPU seconds across execution and replay, after the 16.078125-second cost prefix. With both thirty-second supervisor allowances, the instrument used 306.828125 seconds. Combined production-source and instrument charges are 35,814.328125 seconds. The separate 1,000-second source-validation/inspection reserve remains inside the forty-thousand SG1 envelope, leaving 3,185.671875 seconds after that reserve; no unused worker reservation is represented as measured CPU. This final authentication measured 8.078125 process CPU seconds and is covered by that reserve. The separate forty-thousand CH/campaign maintenance reserve remains carried forward. Original memory, disk, output, campaign-clock and slot guards were preserved throughout; no GPU, Ollama or paid work was used.
+
+**Queue and next.** At 2026-11-14T01:28:21.108930+00:00, the original serial chess scorer remains live with 947 closed units and 60,608 positions. The full source and instrument have ended normally. No other reviewed and fixtured card is immediately admissible at this inspection: remaining chess consumers need owner/numerical/source admission, other family components retain their recorded qualification or runtime holds, and retrospective activation integration is unfinished. Six of eight counted slots are unoccupied with the preserved companion lease and chess scorer present; the sixteen-card ready buffer remains deficient and idle capacity is an admission backlog. Continue the packet's fixed review order, beginning with source-dependent consumer qualification; do not reinterpret this pass as automatic CH10 admission. No new hypotheses were harvested. Events, four hours of actual owner inactivity, one pending wake and final-packet reporting remain unchanged.
+
+**Record treatment.** This is a completed instrument run, with by-construction true, H15-T2 and empty activation. It is filed in the instrument ledger rather than as a behavioral hypothesis-row update. Original sources, failures, pauses, source limits and theory wording remain preserved.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate.; project meaning: scoped operational record; next engineering obligation: Qualify the remaining source-dependent consumer models in packet order; retain separate CH10 admission and the ready-buffer deficit.; public scientific claim unchanged; curator decision required: No new decision. Detail: SG1V_INSTRUMENT_COMPLETE_20261113.md.
+
+### OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113
+
+**Hypothesis.** Can the original selected chess histories be extended into a complete, reproducible session-game source without changing the sample, silently dropping games or treating a source flag as a behavioral finding?
+
+**METHOD.** Authenticate the complete manifest, plan closure, original inputs and source seal. Replay all three original raw files from their beginnings, compare every original and added table field, reconstruct every player's sessions and reproduce the aggregate census. Inspect native owners, full-descendant accounting, released leases, live scoring progress, resource floors, locks and watcher delivery. Review the prospectively fixed clock-flag validator against constructed answers, then admit its whole-player cost prefix and unchanged full continuation.
+
+**Found.** The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2.
+
+Table: complete source coverage. The left column names each unit; the right gives its aggregate count. Selected games are distinct games; player-game rows can include both selected players from one game and must not be called additional games.
+
+| Unit | Count |
+|---|---:|
+| Original raw records traversed across April, May and June 2017 | 34,555,025 |
+| Selected source games | 1,263,372 |
+| Player-game rows | 1,270,226 |
+| Selected players | 6,968 |
+| Preserved own-move rows | 43,092,665 |
+| New source equality or parsing failures | 0 |
+
+**Population and source limits.** The complete population here is the original two-percent salted player-history sample from the three-month census, not all platform players and not CH1's separate ten-thousand-player scoring roster. Original sample, salt, source ordinals, game identities and CH7 fields remain unchanged. The original raw-record exclusions stay in the source index: April has 41,491 unrated/unknown-control records and 103,562 invalid-clock records; May has 41,779 and 112,481; June has 37,364 and 99,726. These inherited counts do not become new SG1 failures. Opponent and tournament identifiers remain salted and private. No individual record, game text, identifier or private salt is published.
+
+**Session and duration meaning.** Sessions use consecutive starts less than 1,800 seconds apart within player, time control and month, with stable game-ID ordering for ties. A month/control tail is censored, never counted as a voluntary stop; missing starts remain explicit. A rating change above 25 flags the whole session. Clock duration omits both first-move latencies; a decisive time forfeit adds the losing side's last observed clock. It is an estimate from recorded clocks, not measured elapsed time. The original start-gap definition and direct-end/start-gap fallback are preserved.
+
+Table: mutually exclusive duration dispositions across all player-game rows. The first row is the retained clock estimate; each other row is an explicit reason why that estimate is unavailable.
+
+| Duration disposition | Player-game rows |
+|---|---:|
+| Clock estimate omitting two first-move latencies | 1,248,565 |
+| Forfeit without a decisive result | 9,703 |
+| Ambiguous increment or clock reduction | 1,198 |
+| Missing side moves | 1,454 |
+| Negative clock difference | 9,306 |
+
+Unknown termination is separately recorded for 1,483 rows and can overlap duration dispositions. The missing-tournament-ID count is zero. Neither a public rating nor a next action identifies shame, rage, pride, pleasure or social standing.
+
+**Verification and integrity.** All 64 final manifest files and all 77 plan pins authenticate, as do the original raw inputs, salt and source seal. The private database contains 6,038,597,632 logical bytes with SHA-256 `0f1cbbbda21f7c6f8d4c8f8480e6c102cff55d99bb4cb108aa3ef294b41cbe56` and no WAL, SHM or journal sidecar. The complete verifier begins at raw ordinal zero, retraverses all three months, compares the full table and reconstructs every player's sessions without a duplicate full database. It is a fresh computational replay, not an independent parser or independent human replication; previously qualified hand-written answers guard shared parser defects. Exact native execution, replay and owner identities have exited normally, full-descendant totals reconcile and the source lease is released. Earlier cost and disk pauses, compression receipts, immutable source hashes and the accounting reserve remain preserved.
+
+**Costs.** The final source continuation used 18,908.296875 native CPU seconds: 1,914.859375 for execution and 16,993.4375 for verification. All three production source attempts total 35,417.5 native seconds plus ninety supervisor seconds, or 35,507.5. Constructed-source validation, helper checks and owner inspection remain additional costs; a conservative 1,000-second reserve covers them inside the original additional forty-thousand-second SG1 envelope. The current manifest inspection measured 69.484375 process CPU seconds; it is not represented as a full native-descendant total. The separate forty-thousand-second CH/campaign maintenance reserve remains deducted before later admissions; it is not extra SG1 authority.
+
+**Clock-flag admission.** The fixed twenty-bin, strict-rate and modal rules were written before the source histogram was inspected. Three focused constructed tests pass under native descendant accounting: literal boundaries and corrupted ratios; mode/rate/empty-denominator decisions; complete table execution, separate replay and owner-yield handling. The public focused test preserves these assertions from the existing combined suite. The final fixture used 1.984375 native CPU seconds; earlier measured checks remain retained. Only terminal blank lines changed afterward, with byte-equivalence evidence for executable content. Design commit `3833bf560` precedes admission. The source histogram alone admits no flag and no CH10 model.
+
+**Planned instrument checkpoint and continuation.** The first 349 of 6,968 whole players produced the declared first-five-percent checkpoint. Its two files, complete plan closure, exact native exits and lease release authenticate. Native CPU was 16.078125, plus thirty supervisor seconds. This is five percent of players, not a claim about equal row counts or CPU. A simple same-phase extrapolation is about 321 CPU seconds; the reviewed complete-execution-plus-replay forecast is 1,000, with unequal-player and largest-player uncertainty explicit. The unchanged successor removes only the stopping quantum, copies every sealed checkpoint byte into a new counted attempt and starts independent verification from zero. Its native cap is 3,300 seconds plus thirty supervisor seconds. Production-source costs, validation reserve, actual prefix charge and this cap total 39,883.578125, leaving 116.421875 inside the original forty-thousand envelope. The independent flag decision and all behavioral admissions remain pending at this observation.
+
+**Queue health.** At 2026-11-14T01:21:58.502605+00:00, the full instrument is independently verifying and the original serial one-million-node chess scorer is executing. Chess has 945 closed units and 60,480 positions, up from 936 units and 59,904 positions at the initial inspection. Both exact native owners, the calendar and the companion's preserved six-GiB lease are live. All twenty-one locks pass. Free disk is 31.492 GiB, available RAM 42.671 GiB and commit headroom 10.753 GiB; original admission and running floors remain enforced. No current research failure or stale lease was found in the current admissions. No valid work was restarted.
+
+**Watcher and remaining work.** The exact watcher identity authenticates and its current error is empty. Both requested events have recorded delivery; the newly finished instrument prefix is retained pending while this owner turn is active. Three historical notification failures remain visible. Native queue reconciliation reports no unrecognized wake; receipt, notification consumption and scientific filing stay distinct. Events, four hours of actual owner inactivity and one pending wake are unchanged. Five slots are unoccupied at the observation, and the sixteen-card ready buffer remains deficient: source-dependent numerical/model owner reviews, activation integration and the separately held legacy-runtime transition remain outstanding. Commissioned builders have delivered their unconditional components; no new agents were started. Idle time remains an admission backlog, not a gear pause or permission to restart parked GPU work.
+
+**Means and next.** This is a source and instrument-preparation record, with run status, by-construction true, H15-T1/H15-T2 references and empty activation. It establishes the preserved source's coverage and reproducibility, not a behavioral effect. Finish the validator's complete replay and file its instrument decision; separately qualify each behavioral consumer in packet order. No new tests were harvested from this operational notification. GPU, Ollama and paid work remain off, and final-packet scientific reporting remains in force.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Complete the clock instrument, qualify source-dependent consumers, retain the ready-buffer deficit and maintenance reserve.; public scientific claim unchanged; curator decision required: No new decision. Detail: SG1_SOURCE_COMPLETE_20261113.md.
+
 ### S15-W5-RR3-20261113
 
 **Hypothesis.** Does the next choice in a phone game follow recent better-or-worse-than-expected outcomes more strongly than distance from the play's starting score? The comparison tests the packet's choice-based proxy for slope versus level, not pleasure or a biological need.

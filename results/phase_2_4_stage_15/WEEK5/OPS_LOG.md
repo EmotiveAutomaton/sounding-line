@@ -1485,3 +1485,7 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-13T19:25:51.974402+00:00 OPS-S15-W5-DISK-RECOVERY-20261113: All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.
 
 2026-11-13T20:37:10.270632+00:00 S15-W5-RR3-20261113: In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure.
+
+2026-11-14T01:23:44.259305+00:00 OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113: The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2.
+
+2026-11-14T01:28:21.109045+00:00 OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113: The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate.

@@ -1,10 +1,14 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113: The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate.
+
+- [x] OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113: The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2.
+
 - [x] S15-W5-RR3-20261113: In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure.
 
 - [ ] Carry the 40,000-CPU-second CH/campaign maintenance reserve from OPS-S15-W5-DISK-RECOVERY-20261113 into subsequent owner admissions; unavailable final accounting stays conservatively reserved.
 
-- [ ] Complete the remaining history and serial chess disk-recovery continuations and full filing; RR3 is complete and filed. Retain original resource floors and source/scoring contracts.
+- [ ] Complete the serial chess disk-recovery continuation and full filing; RR3 and the history extension are complete and filed. Retain original resource floors and source/scoring contracts.
 
 - [x] OPS-S15-W5-DISK-RECOVERY-20261113: All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.
 
@@ -54,7 +58,9 @@
 
 - [x] LA3 complete lemma source and SG1 planned source prefix authenticated and filed.
 - [x] LA3 AMI texture completed and filed; preserve the separate combined-primary chronology hold.
-- [ ] SG1 exact full-source continuation: finish complete replay before scientific consumer admission.
+- [x] SG1 exact full-source continuation: complete raw/session replay and full operational filing.
+- [x] SG1.v: complete fixed-rule instrument execution, independent replay and full filing.
+- [ ] CH10: separate reviewed feature/model admission after the completed SG1.v instrument; no automatic behavioral launch.
 
 - [x] OPS-S15-W5-LA3-SG1-SOURCES-20261113: The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2.
 
@@ -68,7 +74,7 @@
 
 - [x] OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113: The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks.
 
-- [ ] Two-day packet: owner reviews LA3/LA4; SG1 with CH6/CH7; CH8/CH12; IN9 items then cues; TR1/RR3; CH9/CH10 after SG1.v/CH11; LA5; IN11/IN12; RF1/CP1; EX5/EX4 and source-conditional ISEAR. Three commissioned builders are active. Preserve the approved independent chess split.
+- [ ] Two-day packet: owner reviews LA3/LA4; SG1 with CH6/CH7; CH8/CH12; IN9 items then cues; TR1/RR3; CH9/CH10 after SG1.v/CH11; LA5; IN11/IN12; RF1/CP1; EX5/EX4 and source-conditional ISEAR. Commissioned builders have delivered unconditional components; owner admission and qualified source-dependent work remain. Preserve the approved independent chess split.
 - [ ] Two-day packet recording: complete the retrospective activation log over preserved Stage 15 evidence; every new row includes activation. Safely load RF/CP/IS/SV family accounting before those launches. Keep absent R13-R15 source handoffs and RF1 election-boundary provenance explicit.
 - [x] LA4 metadata source extension: full fresh native replay; one retained HHhMM parser repair; actual source charge 144.5625 CPU seconds including two supervisors. Analysis and LA3 lemmas remain pending.
 

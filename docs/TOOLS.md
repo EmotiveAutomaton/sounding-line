@@ -2656,6 +2656,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113:** The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/SG1V_INSTRUMENT_COMPLETE_20261113.md).
+
+**OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113:** The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/SG1_SOURCE_COMPLETE_20261113.md).
+
 **S15-W5-RR3-20261113:** In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure. [Record](../results/phase_2_4_stage_15/WEEK5/RR3_COMPLETE_20261113.md).
 
 **OPS-S15-W5-DISK-RECOVERY-20261113:** All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/DISK_RECOVERY_20261113.md).

@@ -1,5 +1,9 @@
 # Week 5 verified records
 
+**OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113:** [Record](SG1V_INSTRUMENT_COMPLETE_20261113.md). The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate.
+
+**OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113:** [Record](SG1_SOURCE_COMPLETE_20261113.md). The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2.
+
 **S15-W5-RR3-20261113:** [Record](RR3_COMPLETE_20261113.md). In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure.
 
 **OPS-S15-W5-DISK-RECOVERY-20261113:** [Record](DISK_RECOVERY_20261113.md). All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.
