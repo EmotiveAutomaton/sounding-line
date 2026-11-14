@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [ ] CH7 numerical qualification: full null/floor/ladder cases and fresh native replay, then measured production admission. The 19 passing focused checks and prepared code are filed; a publication inventory is not a passed full fixture.
+
+- [x] OPS-S15-W5-BUILD-FILING-20261114: The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication.
+
 - [x] OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114: Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring.
 
 - [x] OPS-S15-W5-DIGEST-20261113: The November 13 reconciliation authenticates completed records and preserves the theory errata; CPU-only Gear 2 remains selected, with the prepared chess continuation held by the unchanged memory floor.

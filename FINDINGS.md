@@ -1,5 +1,37 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-BUILD-FILING-20261114
+
+**Hypothesis.** Can the delivered two-day work be preserved and its readiness distinguished from actual execution, without losing failed evidence or admitting an unqualified model?
+
+**METHOD.** Inventory the prepared design, runner and test files; parse every delivered Python file without importing or executing it; scan the proposed public files for private credential material; authenticate CH7's original failed and repaired native test receipts, their output logs and all current source pins. Separately inspect the chess scorer's exact native identity, descendants, lease, output freshness, complete runtime checkpoint-copy receipt, resource guards and watcher delivery.
+
+**Found.** The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication.
+
+Table: publication preparation and qualification evidence. File counts describe preserved implementation work, not admitted studies. The original failed test remains part of the instrument history.
+
+| Check | Observation | What it licenses |
+|---|---:|---|
+| Prepared files | 130 | A reproducible publication inventory |
+| Python files parsed | 102 | Syntax validity only |
+| Design notes | 28 | Preserved proposed methods and version history |
+| Original CH7 focused checks | 17 passed, 1 failed | Retained evidence of the separation defect |
+| Repaired CH7 focused checks | 19 passed, 0 failed | The reviewed numerical repair, at constructed-test scope |
+| Repaired source pins authenticated | 36 | The saved checks apply to the current files |
+
+**Build disposition.** The [file manifest](BUILD_FILING_20261114_FILES.json) preserves every proposed file's path, byte count and digest. These files cover the delivered chess, appraisal, language, revision and public-text implementations and their prior versions. Committing preparation does not admit a scientific run. Draft-time statements inside preserved notes remain historical; this filing does not assert that every component passed owner formula review, a native fixture or source-specific admission. The separately received Ghost V29 exchange remains untouched for its own complete intake and theory treatment. No individual records, raw text, predictions, source databases or private runtime configuration enter this publication.
+
+**CH7 review.** The owner reviewed the fixed reference-point design, numerical repair, separate reference formulas, full native fixture, source bridge and focused tests. The repair resets simulated losing streaks at session/month boundaries, preserves the nuisance span when checking target identification, and refuses complete or quasi separation without penalization. Independent dense fixed-effect and raw-sum formulas, scalar history recurrence and hand quantiles supply the answers; the reference generator does not call the production formulas for its truth. The original failed attempt used 10.78125 native CPU seconds and the repaired focused attempt 13.15625; both receipts and charges remain preserved. Authentication reuses the unchanged saved checks instead of repeating them. Three full null/floor/ladder native cases remain required, each with 2,000 whole-player resamples, twenty complete simulated histories, original gates and fresh native replay. Their 600-CPU-second and 1,200-wall-second attempt bounds are ceilings, not measured costs. No human CH7 result is admitted by this filing.
+
+**Actual execution.** At 2026-11-14T10:36:32.214806+00:00, the original-roster scorer has completed its runtime authentication and copy of all 90,838 saved files and has returned to scoring. The destination-copy map matches the predecessor's sealed checkpoint map and its exact plan/pause binding. The original checkpoint remains preserved. Native budget progress is 10242.265625 CPU seconds; the complete-unit checkpoint advances to 1046 units and original offset 66944. These are operational progress counts, not unfinished artifact scores. The owner and all eight inspected descendants match native identities, descendants have below-normal priority, and the research lease is valid. There are 2 live counted leases including the companion's work. Available RAM is 44.459 GiB, commit headroom 20.714 GiB and free disk 29.818 GiB. These snapshots are not peak-memory measurements. No unrelated application is stopped.
+
+**Recording and next work.** The original scientific roster, serial scoring rule, full replay, CPU/family/campaign ceilings, 40,000-second maintenance reserve and separate 1,000-second inspection reserve remain. The qualified source does not automatically qualify every consumer. Review and admission continue in packet order: CH6/CH7, CH8/CH12, remaining IN9 cues, CH9/CH10/CH11 and the other delivered cards. Semantic, chronology, source/licence, resource and new-family runtime gates remain explicit. The retrospective activation log and sixteen-card ready buffer are still incomplete. Builder delivery is complete for the unconditional implementations; the bottleneck is owner review and qualification, so this pass adds no redundant builders.
+
+**Disposition.** CPU-only Gear 2 remains active. Events plus four hours of actual owner inactivity and one pending wake are unchanged; the native queue has no pending operational message at inspection. This is an ordinary authorized build/publication request and there is no event to acknowledge. No tests were harvested from it, no unfinished scientific score is reported, and the final curator packet remains the scientific reporting boundary. This record and its generated views are written through before publication.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication.; project meaning: scoped operational record; next engineering obligation: Complete native numerical qualification and source-specific owner admission in packet order; preserve the ready-buffer and activation-log obligations.; public scientific claim unchanged; curator decision required: No new decision. Detail: BUILD_FILING_20261114.md.
+
 ### OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114
 
 **Hypothesis.** Can the preserved original chess scoring queue resume safely after the resource hold, without changing its scientific contract or losing the accounting of other work?
