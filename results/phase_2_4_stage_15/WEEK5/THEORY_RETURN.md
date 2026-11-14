@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+**Operational memory pause, November 13:** [OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113](CH1_N_COMMIT_PAUSE_20261113.md). The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held. No scientific effect, theory-row change or relaxation of source/scoring requirements.
+
 **Completed clock instrument, November 13:** [OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113](SG1V_INSTRUMENT_COMPLETE_20261113.md). The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate. This run records instrument qualification without a behavioral claim or new theory row.
 
 **Source and instrument preparation, November 13:** [OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113](SG1_SOURCE_COMPLETE_20261113.md). The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2. No behavioral claim, theory-row change or automatic CH10 admission.

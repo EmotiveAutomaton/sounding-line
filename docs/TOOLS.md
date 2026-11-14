@@ -2656,6 +2656,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113:** The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_N_COMMIT_PAUSE_20261113.md).
+
 **OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113:** The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/SG1V_INSTRUMENT_COMPLETE_20261113.md).
 
 **OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113:** The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/SG1_SOURCE_COMPLETE_20261113.md).

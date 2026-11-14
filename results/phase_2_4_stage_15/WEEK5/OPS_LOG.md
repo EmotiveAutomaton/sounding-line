@@ -1489,3 +1489,5 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-14T01:23:44.259305+00:00 OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113: The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2.
 
 2026-11-14T01:28:21.109045+00:00 OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113: The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate.
+
+2026-11-14T03:51:24.145134+00:00 OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113: The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held.

@@ -1,14 +1,16 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113: The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held.
+
 - [x] OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113: The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate.
 
 - [x] OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113: The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2.
 
 - [x] S15-W5-RR3-20261113: In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure.
 
-- [ ] Carry the 40,000-CPU-second CH/campaign maintenance reserve from OPS-S15-W5-DISK-RECOVERY-20261113 into subsequent owner admissions; unavailable final accounting stays conservatively reserved.
+- [ ] Carry the 40,000-CPU-second CH/campaign maintenance reserve from OPS-S15-W5-DISK-RECOVERY-20261113 plus the separate 1,000-second inspection reserve from OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113 into subsequent owner admissions; unavailable final accounting stays conservatively reserved.
 
-- [ ] Complete the serial chess disk-recovery continuation and full filing; RR3 and the history extension are complete and filed. Retain original resource floors and source/scoring contracts.
+- [ ] CH1-N continuation 4: authenticated candidate prepared; admit only after commit headroom recovers to the unchanged eight-GiB start floor. Finish the original roster and complete final verification. RR3 and SG1 source/instrument are filed.
 
 - [x] OPS-S15-W5-DISK-RECOVERY-20261113: All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.
 

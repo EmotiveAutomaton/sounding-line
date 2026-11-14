@@ -1,0 +1,35 @@
+# CH1 N COMMIT PAUSE 20261113
+
+**Hypothesis.** Can the original chess scoring queue preserve its completed independent replays and continue safely after the machine's memory guard stops it?
+
+**METHOD.** Authenticate the complete paused-output manifest, original inputs and pinned plan; traverse original roster ordinals and every closed unit's execution/replay receipts; verify exact native exits and lease release; compare current resources with unchanged admission floors; prepare a new-attempt continuation without starting it. Inspect the watcher, calendar, locks, retained failures and eligible work before acknowledging the event.
+
+**Found.** The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held.
+
+Table: retained work and accounting for the paused attempt. Counts refer to source positions and sealed operational units, not scientific estimates. Native CPU includes all descendant processes; nested unit totals are subdivisions and are not added again.
+
+| Quantity | Value |
+|---|---:|
+| Authenticated checkpoint files | 90,838 |
+| Checkpoint bytes | 103,172,477 |
+| Closed units with complete native replay | 997 |
+| Preserved closed positions | 63,808 |
+| Original target positions | 398,065 |
+| Newly closed units in this attempt | 192 |
+| Newly closed positions in this attempt | 12,288 |
+| Attempt native CPU seconds | 44,177.640625 |
+| Additional supervisor allowance | 30 |
+
+**Pause and resource evidence.** The producer yielded during execution with a resource-floor reason at 2026-11-14T03:28:03.240069+00:00; its pause receipt followed normally. The last pre-pause monitor recorded 1.811665 GiB of Windows commit headroom, below the unchanged six-GiB running floor. Available physical RAM and disk did not breach their floors. At 2026-11-14T03:48:54.109063+00:00, commit headroom is 4.259853 GiB, below the eight-GiB admission floor; available RAM is 36.390961 GiB and disk free is 30.933098 GiB. Physical RAM availability does not substitute for commit headroom. The actual admission check refuses the candidate with its existing resource-floor error. No attempt root, worker or new lease is created.
+
+**Checkpoint integrity.** All 58 plan pins and both original input hashes authenticate. Every saved checkpoint byte and the complete manifest match. Every closed unit covers the next contiguous original roster interval, retains the same original engine and one-million-node setting, and has distinct execution and fresh-from-zero replay identities with successful complete-descendant usage receipts. The 805 inherited closed units exactly match the pinned earlier inspection and its preserved seal/file bindings; their earlier native-exit observations are reused only for those unchanged units. The earlier historical access denial remains retained and is not reinterpreted as proof of exit or new-family runtime qualification. All 384 native identities belonging to the 192 newly closed units, the current owner/children and active unit invocations are checked exited without an unknown identity. The active unsealed unit retains its saved progress but receives no closed-position or independent-replay credit. The source roster and scientific configuration are unchanged.
+
+**Costs and continuation preparation.** The paused attempt's settled charge is 44,207.640625 CPU seconds including its supervisor allowance. The conservative remaining-work forecast is 1225189.070602 CPU seconds, derived from retained observed rates and the remaining original positions; it is not a guarantee about wall time or completion before closure. Current recorded CH charges are 504489.828125 against 2,500,000. The existing forty-thousand-second CH/campaign maintenance reserve remains deducted, and this pass adds a conservative one-thousand-second inspection/filing reserve. The complete bounded checkpoint inspection measured 92.3125 process CPU seconds and 94.716237 wall seconds; this is separate from the native experiment Job total. Full remaining work plus these reserves fits the family and campaign ceilings. Budget is not the current launch blocker.
+
+The prepared successor retains the original full roster, fixed source/engine pins, one-million-node setting, 64-position units, independent replay, 100,000-native-CPU bound, twelve-hour wall bound, one-GiB output guard and two-GiB projected peak. It is a private unadmitted candidate, with the reviewed current runtime closure and every predecessor pin preserved. It requires a fresh resource check and counted complete checkpoint copy before any launch; no resource threshold or scientific criterion was relaxed. The prepared candidate grants no new-family transition, GPU, Ollama, paid or delegation authority.
+
+**Inspection repair retained.** The first read-only helper incorrectly enumerated runtime-mutable progress as if it belonged to the sealed checkpoint map and stopped on that absent key. Its original source and failure remain preserved. The corrected helper applies the existing manifest's exact exclusions for progress, yield requests and temporary files, then authenticates the full saved map. A preparation command also refused an invalid encoding alias before the revised helper was created; the corrected encoding was used. No producer, result, saved manifest or pinned live source was edited. These are inspection-helper defects, not scientific failures or attempts to heal an outcome.
+
+**Queue, locks and delivery.** The paused scorer's exact native owner has exited and its lease is released. There are no counted research leases; the previously observed companion native identity has also exited and is not restarted. All twenty-one locks pass. The exact durable watcher and calendar identities are live, no current watcher error is present, and the event has recorded delivery. Native queue reconciliation reports no unrecognized wake; three historical notification failures remain visible. Events, four hours of actual owner inactivity and one pending wake remain unchanged. Notification delivery alone is not the ACK.
+
+**Disposition and next.** CPU-only Gear 2 remains selected, with zero running research slots at this observation. The authenticated chess continuation is immediately blocked by the unchanged memory admission floor; other commissioned candidates retain their documented owner/source/numerical/runtime gates and share that resource restriction. Eight idle slots and the deficient sixteen-card ready buffer remain explicit; a protected resource pause is not a failed scientific queue or permission to restart parked GPU work. Preserve the prepared continuation and re-evaluate it at the next authorized event or inactivity inspection when resources permit. The completed SG1 source and instrument remain filed; source-dependent consumer qualification and activation integration remain open. No new tests were harvested from this operational wake, no partial scientific scores are reported, and final-packet reporting stays in force.
