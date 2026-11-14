@@ -1,5 +1,17 @@
 # TODO: the study queue
 
+- [x] CH7 first declared own-player parameter cost prefix: checkpoint, full inspection and accounting filed.
+- [ ] CH7 full-cohort memory, fit/matrix, resampling, complete-history null and independent-replay admission; retain the original cohort and gates.
+
+- [x] OPS-S15-W5-CH7-OWN-FIT-PILOT-20261114: The first declared CH7 own-player parameter cost prefix is safely checkpointed; full-cohort model and independent-replay admission remain open while original-roster chess scoring continues in CPU-only Gear 2.
+
+- [x] CH7 complete original source-player projection is checkpointed; zero own-player fits and no scientific output.
+- [ ] CH7 remaining fit/memory/full-replay admission; CH6 actual bridge integration is complete, human source/cost admission remains.
+
+- [x] OPS-S15-W5-CH7-SOURCE-PREPARATION-20261114: The qualified CH7 instrument has checkpointed every original source-player projection and stopped before model fitting; the original chess-scoring queue remains active in CPU-only Gear 2.
+
+- [x] OPS-S15-W5-CH6-SG1-NATIVE-INTEGRATION-20261114: The actual SG1 bridge preserves every original constructed CH6 numerical field through native execute and verifier pauses, authenticated continuation and complete fresh replay.
+
 - [x] OPS-S15-W5-QUALIFICATION-BUILD-20261114: All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2.
 
 - [x] CH7 ladder: complete frozen constructed case, full independent formula checks and fresh native verification. Other cases and human admission remain separate.
@@ -15,7 +27,7 @@
 - [x] OPS-S15-W5-CH7-NULL-NUMERICAL-20261114: The complete CH7 null constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
 
 - [x] CH7 complete null/floor/ladder native numerical qualification and fresh replay are filed.
-- [ ] CH7: measured source-specific production admission. CH6: complete actual source-bridge native pause/continue/replay integration before its human admission.
+- [ ] CH7: measured source-specific production admission. CH6: actual source-bridge native pause/continue/replay integration is complete; human source/cost admission remains open.
 
 - [x] OPS-S15-W5-BUILD-FILING-20261114: The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication.
 

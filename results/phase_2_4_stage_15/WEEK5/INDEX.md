@@ -1,5 +1,11 @@
 # Week 5 verified records
 
+**OPS-S15-W5-CH7-OWN-FIT-PILOT-20261114:** [Record](CH7_OWN_FIT_PILOT_20261114.md). The first declared CH7 own-player parameter cost prefix is safely checkpointed; full-cohort model and independent-replay admission remain open while original-roster chess scoring continues in CPU-only Gear 2.
+
+**OPS-S15-W5-CH7-SOURCE-PREPARATION-20261114:** [Record](CH7_SOURCE_PREPARATION_20261114.md). The qualified CH7 instrument has checkpointed every original source-player projection and stopped before model fitting; the original chess-scoring queue remains active in CPU-only Gear 2.
+
+**OPS-S15-W5-CH6-SG1-NATIVE-INTEGRATION-20261114:** [Record](CH6_SG1_NATIVE_INTEGRATION_COMPLETE_20261114.md). The actual SG1 bridge preserves every original constructed CH6 numerical field through native execute and verifier pauses, authenticated continuation and complete fresh replay.
+
 **OPS-S15-W5-QUALIFICATION-BUILD-20261114:** [Record](QUALIFICATION_BUILD_20261114.md). All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2.
 
 **OPS-S15-W5-CH7-LADDER-NUMERICAL-20261114:** [Record](CH7_LADDER_NUMERICAL_COMPLETE_20261114.md). The complete CH7 ladder constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
