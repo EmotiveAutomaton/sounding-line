@@ -1,5 +1,28 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-HEALTH-20261114-0830
+
+**Hypothesis.** Is the authorized queue still making progress safely, with failures visible and its next work correctly distinguished from an intentional checkpoint pause?
+
+**METHOD.** Compare the scorer's native PID, creation time, executable, plan and owner pins, descendants, counted leases, budget heartbeat and saved progress against the last publication inspection. Inspect the full authenticated predecessor-copy receipt, current resource headroom, all new terminal markers since that inspection, the watcher identity and loaded hashes, the actual native owner queue, the calendar identity and plan, campaign charges and all locked files. Review the next CH7 continuation boundary and prepared delivery records without changing or running their scientific models.
+
+**Found.** The original chess scorer is advancing in CPU-only Gear 2 with healthy resources and wake delivery; no runtime recovery is required, while the ready-card admission deficit remains open.
+
+At 2026-11-14T16:31:06.150248+00:00, saved scoring progress had advanced from 1090 to 1199 closed units and from offset 69760 to 76736. The saved checkpoint was 3.4 seconds old. These are operational progress counters, not artifact scores. The exact scorer owner, eight below-normal descendants, its unique counted lease, original plan and complete 90,838-file predecessor-copy receipt authenticate. Its accumulated native CPU was 44153.640625 seconds, below the existing attempt limit. Two shared leases are valid; the other belongs to the separate companion workload and is untouched.
+
+Available RAM was 40.911 GiB, commit headroom 14.473 GiB and free disk 28.605 GiB, above the unchanged runtime guards. All 21 hash locks pass. CH accounting was 605959.062500 CPU seconds against its original 2,500,000 ceiling; the campaign, per-attempt, memory and storage controls remain in force. No new completion, pause, failure or monitor-failure marker appeared since the last publication inspection. Previously filed intentional pauses remain preserved; none is relabelled a failed queue.
+
+**Delivery.** The watcher and calendar match their native identities and recorded code/plan hashes. The latest scan is fresh, no watcher error is reported and the native owner queue contains zero pending operational messages after delivery. The durable idle event records actual delivery to this owner. Events plus four hours of actual owner inactivity and one pending wake remain configured. A local ACK follows documentation; it is not used as a substitute for delivery evidence. GPU and Ollama remain parked, and no paid work is started.
+
+**Runnable work and admission review.** The scorer is the only live Sounding Line research admission. No newly finished or orphaned admitted worker needs recovery. The unconditional builder deliveries are preserved, but prepared candidates are not automatically owner-admitted ready cards. CH7 has its complete source-player cache and declared first parameter prefix; the next full continuation still needs a bounded memory/model/replay admission. The handler retains all selected datasets and row blocks, then assembles each kind's design and per-player crossproducts before yielding at the first resample. For the exact-gain comparison, matrix width depends on the original number of shared gain strata, so its crossproduct storage grows with the square of that width. The static review now names the retained-array, design, crossproduct, projection-copy, eigensystem and complete-history-null terms that must be priced. No parameter estimates, outcomes or scientific support counts were inspected for this review, and no reduced cohort or approximate stratum replacement is admitted.
+
+CH6 human-source assembly/fit/replay admission, later-card owner reviews, the sixteen-ready-card buffer, retrospective activation log and new-family provenance remain open. Idle capacity caused by these owner admission gaps is an operational deficit, not evidence that a healthy scorer should be restarted. The next fixed-order obligation is the full CH7 resource/replay bound and CH6 production admission, followed by the remaining packet reviews. No redundant builders or numerical qualifications were launched. Incoming Ghost V29 remains unreviewed and preserved.
+
+**Disposition.** Full internal recording and generated-view verification precede acknowledgment of the idle event. No runtime repair or restart is warranted by this inspection. No scientific result, p-value or theory change is made. No new test was harvested from this operational wake. One final curator packet remains the scientific reporting boundary, and the event/four-hour/single-pending wake structure is unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original chess scorer is advancing in CPU-only Gear 2 with healthy resources and wake delivery; no runtime recovery is required, while the ready-card admission deficit remains open.; project meaning: scoped operational record; next engineering obligation: Complete the counted full-cohort resource/model/replay admission and fixed-order owner reviews while preserving the healthy original scorer.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261114_0830.md.
+
 ### OPS-S15-W5-CH7-OWN-FIT-PILOT-20261114
 
 **Hypothesis.** Can the unchanged instrument checkpoint its first declared own-player parameter units without crossing into an unmeasured whole-cohort analysis?

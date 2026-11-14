@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [ ] CH7 continuation resource admission: bound original retained arrays, exact shared-gain matrix width and temporary copies, complete-history nulls and fresh replay; the first parameter prefix does not price these phases.
+
+- [x] OPS-S15-W5-HEALTH-20261114-0830: The original chess scorer is advancing in CPU-only Gear 2 with healthy resources and wake delivery; no runtime recovery is required, while the ready-card admission deficit remains open.
+
 - [x] CH7 first declared own-player parameter cost prefix: checkpoint, full inspection and accounting filed.
 - [ ] CH7 full-cohort memory, fit/matrix, resampling, complete-history null and independent-replay admission; retain the original cohort and gates.
 

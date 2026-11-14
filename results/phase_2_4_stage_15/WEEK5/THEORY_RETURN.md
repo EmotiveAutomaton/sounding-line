@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+**Operational liveness:** [OPS-S15-W5-HEALTH-20261114-0830](HEALTH_20261114_0830.md). The original chess scorer is advancing in CPU-only Gear 2 with healthy resources and wake delivery; no runtime recovery is required, while the ready-card admission deficit remains open. No theoretical standing changes.
+
 **Parameter cost checkpoint:** [OPS-S15-W5-CH7-OWN-FIT-PILOT-20261114](CH7_OWN_FIT_PILOT_20261114.md). The first declared CH7 own-player parameter cost prefix is safely checkpointed; full-cohort model and independent-replay admission remain open while original-roster chess scoring continues in CPU-only Gear 2. This operational filing changes no human claim or theoretical standing.
 
 **Source preparation:** [OPS-S15-W5-CH7-SOURCE-PREPARATION-20261114](CH7_SOURCE_PREPARATION_20261114.md). The qualified CH7 instrument has checkpointed every original source-player projection and stopped before model fitting; the original chess-scoring queue remains active in CPU-only Gear 2. No human inference or theory change is licensed.
