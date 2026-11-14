@@ -1,5 +1,117 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-DIGEST-20261113
+
+**Hypothesis.** Are completed evidence, corrections, costs, unused capacity and remaining obligations fully recorded while unfinished work remains outside scientific verdicts?
+
+**METHOD.** Authenticate the daily calendar marker, every filed Week 5 report and receipt, all ledger source anchors, native owners, leases, terminal status and resources. Integrate admission-to-terminal occupancy from the previous actual digest cutoff. Replay the supplied historical errata against preserved preimages and receipts, verify current quotations and open identifiers, and review later committed result changes. Preserve exact completed ledger wording without new interpretation. Inspect the existing native wake queue without sending a message.
+
+**Found.** The November 13 reconciliation authenticates completed records and preserves the theory errata; CPU-only Gear 2 remains selected, with the prepared chess continuation held by the unchanged memory floor.
+
+**Utilization.** The continuous accounting interval is 2026-11-13T04:06:39.417230+00:00 through 2026-11-14T04:12:46.156816+00:00. It contains 192.814977 authorized slot-hours: 37.157608 occupied and 155.657369 idle (80.73% idle). There is no excess over eight slots. These are counted research admission-to-terminal occupancy hours, not measured CPU utilization or total workstation use; companion activity is not silently counted as research. The interval continues the previous actual cutoff without rounding to the calendar trigger. Pre-admission environment failures have zero admitted occupancy, with their supervisor allowance preserved.
+
+At the inspection there are no counted research leases. One authenticated chess continuation is prepared but fails the current memory admission check; zero candidates are unconditionally ready against the required sixteen. Owner review, source and numerical qualification, runtime provenance, storage recovery and resource limits all contributed during the interval. Their overlapping durations were not separately measured, so every idle slot-hour remains causally unallocated. The backlog and ready-buffer deficit remain explicit. The current protected resource pause is not permission to duplicate a roster or relax a guard.
+
+**Completed evidence.** The inspection authenticates 792 previously filed Week 5 ledger rows and 1493 source anchors. Relative to the previous inventory, excluding its own digest row, 23 rows are newly reconciled: 5 completed claim or descriptive rows and 18 operational rows. Repeated receipts are not additional experiments. Computational replay is not independent empirical replication.
+
+Table: exact existing wording, control status, outcome and next route for completed scientific/descriptive rows. No new verdict is introduced.
+
+| Ledger ID | Controls | Outcome | Recorded wording | Recorded route | Detail |
+|---|---|---|---|---|---|
+| S15-W5-LA4-20261113 | passes | inconclusive | The shared-native-language association with joining laughter is inconclusive at the preregistered practical threshold; the completed meeting comparison does not establish a shared-inference mechanism. | Carry the inconclusive primary and limits into the final packet; admit only already commissioned textures after packet-priority work. | [LA4_COMPLETE_20261113.md](LA4_COMPLETE_20261113.md) |
+| S15-W5-LA3-AMI-20261113 | passes | below floor, descriptive | The completed AMI vocabulary comparison is below the primary repeat-act floor and remains descriptive; it does not identify an attention cost or a hidden-inference mechanism. | Preserve the complete AMI texture and pending combined-primary/fallback scope; continue packet-priority admission. | [LA3_AMI_COMPLETE_20261113.md](LA3_AMI_COMPLETE_20261113.md) |
+| S15-W5-IN9-ITEMS-20261113 | passes | inconclusive | The shame-versus-guilt appraisal comparison is inconclusive at its registered discrimination threshold; prompted reports do not identify distinct feelings or biological channels. | Complete the separately commissioned cue gates; retain inconclusive primary and scoped activation. | [IN9_ITEMS_COMPLETE_20261113.md](IN9_ITEMS_COMPLETE_20261113.md) |
+| S15-W5-TR1-20261113 | passes | supports a stable sensitivity | The completed phone-game comparison supports a stable response sensitivity to recent luck under its conditional measurement model; it does not identify a mood set point or a biological channel. | Retain complete primary and invalid standardized secondary; diagnose the secondary without changing the primary. | [TR1_COMPLETE_20261113.md](TR1_COMPLETE_20261113.md) |
+| S15-W5-RR3-20261113 | passes | against recent-error dominance at task-choice scope | In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure. | Freeze and qualify RR3.s and RR3.m under their own capped admissions; prioritize the remaining commissioned packet and preserve the feeling/choice distinction. | [RR3_COMPLETE_20261113.md](RR3_COMPLETE_20261113.md) |
+
+Table: operational rows added to the cumulative inventory. Historical launch wording is a statement about that boundary, not a claim that the job remains active. The current queue state is the resource hold described here.
+
+| Ledger ID | Recorded wording | Detail |
+|---|---|---|
+| OPS-S15-W5-HEALTH-CH7-REPAIR-20261113 | The chess queue and watcher are healthy; the versioned CH7 source repair passes its independent checks, while production admission and the ready buffer remain unfinished. | [HEALTH_CH7_REPAIR_20261113.md](HEALTH_CH7_REPAIR_20261113.md) |
+| OPS-S15-W5-CH1-N-MEMORY-RESUME-20261113 | The chess queue paused safely for low commit headroom; its saved work authenticates and the unchanged roster is advancing again in CPU-only Gear 2. | [CH1_N_MEMORY_RESUME_20261113.md](CH1_N_MEMORY_RESUME_20261113.md) |
+| OPS-S15-W5-TWO-DAY-LA-SOURCE-20261113 | The two-day packet is preserved, its three build queues are active, and the meeting metadata extension has complete native replay after one retained parser repair. | [TWO_DAY_LA_SOURCE_20261113.md](TWO_DAY_LA_SOURCE_20261113.md) |
+| OPS-S15-W5-TWO-DAY-PREFIX-RUNTIME-20261113 | The two language prefixes are authenticated, the constructed chess-source fixture has complete native replay, and the isolated continuation repair passes its checks. | [TWO_DAY_PREFIX_RUNTIME_20261113.md](TWO_DAY_PREFIX_RUNTIME_20261113.md) |
+| OPS-S15-W5-LA3-SG1-SOURCES-20261113 | The complete lemma source and the planned chess-history checkpoint authenticate; the AMI texture and exact chess-history continuation have been admitted in CPU-only Gear 2. | [LA3_SG1_SOURCES_20261113.md](LA3_SG1_SOURCES_20261113.md) |
+| OPS-S15-W5-IN9-ITEMS-READY-20261113 | The commissioned appraisal-profile table analysis passes its packet fixtures and owner formula review; its original source table authenticates and its counted cost prefix can proceed after the design commit. | [IN9_ITEMS_READY_20261113.md](IN9_ITEMS_READY_20261113.md) |
+| OPS-S15-W5-LA3-IN9-PREFIXES-20261113 | The language and appraisal cost prefixes authenticate, and their unchanged full continuations are admitted within the existing CPU allowances. | [LA3_IN9_PREFIXES_20261113.md](LA3_IN9_PREFIXES_20261113.md) |
+| OPS-S15-W5-IN9-REFERENCE-FAILURE-20261113 | The appraisal comparison failed its independent convergence check; its complete banks are preserved and no human result is accepted. | [IN9_REFERENCE_FAILURE_20261113.md](IN9_REFERENCE_FAILURE_20261113.md) |
+| OPS-S15-W5-TR1-PREFIX-IN9-RECOVERY-20261113 | The response-to-luck source checkpoint authenticates, and the independently qualified appraisal repair has a fresh counted run; scientific results remain gated. | [TR1_PREFIX_IN9_RECOVERY_20261113.md](TR1_PREFIX_IN9_RECOVERY_20261113.md) |
+| OPS-S15-W5-TR1-DRAW-PREFIX-20261113 | The complete response-to-luck cost checkpoint authenticates, and unchanged full uncertainty and fresh replay are admitted within the original allowance. | [TR1_DRAW_PREFIX_20261113.md](TR1_DRAW_PREFIX_20261113.md) |
+| OPS-S15-W5-TR1-REPLAY-CHECKPOINTS-20261113 | Both planned independent-replay checkpoints authenticate; the unchanged full replay continues within the original allowance, with no scientific result yet admitted. | [TR1_REPLAY_CHECKPOINTS_20261113.md](TR1_REPLAY_CHECKPOINTS_20261113.md) |
+| OPS-S15-W5-READER-RETIREMENT-FIXTURE-20261113 | All twenty-four constructed legacy-reader checker tests pass; live transition, historical provenance and checkpoint-copy admission remain separate gates. | [READER_RETIREMENT_FIXTURE_20261113.md](READER_RETIREMENT_FIXTURE_20261113.md) |
+| OPS-S15-W5-RR3-COST-CONTINUATION-20261113 | The recent-outcome comparison is qualified, its complete cost checkpoint authenticates, and the unchanged full run is admitted under the existing one-doubling rule. | [RR3_COST_CONTINUATION_20261113.md](RR3_COST_CONTINUATION_20261113.md) |
+| OPS-S15-W5-LEGACY-PROVENANCE-20261113 | The bounded historical inventory does not establish the missing launch provenance or native transition; original evidence, unclaimed-start holds and the qualified checker remain preserved. | [LEGACY_PROVENANCE_20261113.md](LEGACY_PROVENANCE_20261113.md) |
+| OPS-S15-W5-DISK-RECOVERY-20261113 | All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2. | [DISK_RECOVERY_20261113.md](DISK_RECOVERY_20261113.md) |
+| OPS-S15-W5-SG1-SOURCE-COMPLETE-20261113 | The complete three-month history extension and full replay authenticate; its fixed clock-flag instrument has a verified cost checkpoint and an admitted full continuation in CPU-only Gear 2. | [SG1_SOURCE_COMPLETE_20261113.md](SG1_SOURCE_COMPLETE_20261113.md) |
+| OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113 | The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate. | [SG1V_INSTRUMENT_COMPLETE_20261113.md](SG1V_INSTRUMENT_COMPLETE_20261113.md) |
+| OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113 | The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held. | [CH1_N_COMMIT_PAUSE_20261113.md](CH1_N_COMMIT_PAUSE_20261113.md) |
+
+**Textures.** One newly completed, explicitly classified texture is added: the AMI-only language comparison. It remains below the primary repeated-act floor. Counts below are named complete commissioned cards, not item contrasts or numbers of ledger rows. Unknown classification is not promoted.
+
+| Family | Cumulative complete texture cards | New |
+|---|---|---|
+| GO | 7 | 0 |
+| IN | 13 | 0 |
+| LA | 1 | 1 |
+| SP | 11 | 0 |
+
+**Corrections and original failures.** The independent appraisal-reference failure remains filed alongside its isolated repair and separately qualified successor. Language source and continuation repairs, reader-retirement fixture limits, historical identity/provenance gaps, disk recovery, the retained full-comparison monitor failure, and all earlier paused attempts remain in their original records. The current chess checkpoint retains every sealed unit and its original roster binding; an unsealed execution fragment receives no independent-replay credit. The recent full checkpoint inspection authenticated all saved files and native exits. This daily pass reuses that pinned inspection, checks the same plan and pause bytes and verifies that the owner remains exited; it does not pretend to have repeated the large manifest scan.
+
+The first daily helper stopped at the expected resource refusal because it caught the wrong exception class. A second stopped because it tested a paragraph-form heuristic as a single line. Both original helpers are retained; the final inspector uses the existing resource exception and historical paragraph rule. Neither changed evidence or launched work. The sandboxed native queue client could not initialize its profile; the same read-only inspection succeeded with approved profile access and found no pending messages. These inspection defects are not scientific failures or evidence corrections.
+
+**Resources and costs.** Table: current resource snapshot; physical memory availability does not substitute for Windows commit headroom. These are point observations, not continuous extrema.
+
+| Measurement | GiB |
+|---|---|
+| commit_headroom_GiB | 4.085777 |
+| disk_free_GiB | 30.927353 |
+| ram_available_GiB | 39.785622 |
+
+The fresh admission check refuses the prepared continuation at the unchanged eight-GiB start floor; the running floor remains six GiB. The preceding scorer yielded normally for low commit headroom, and its lease was released. No failed terminal replaces that pause. The candidate retains the original roster, engine, source pins, independent per-unit replay and bounded resource plan. Full remaining projected work plus the retained forty-thousand-second CH/campaign maintenance reserve and separate one-thousand-second inspection reserve fits the current ceilings; memory remains the immediate blocker. No new attempt is created. The daily inspection itself measured 16.718750 process CPU seconds; this is not a claim to measure all editor or service overhead.
+
+Table: policy-accounted native CPU seconds by family at the inspection, including failed attempts and fixed supervisor allowances. Nested engine/unit counters are subsets and are not added again. Conservative maintenance reservations are separately retained rather than relabelled as observed experiment CPU.
+
+| Family | Accounted CPU seconds |
+|---|---|
+| AT | 42351.453125 |
+| BK | 321615.890625 |
+| CH | 504489.828125 |
+| CP | 0.000000 |
+| EX | 3129.484375 |
+| GO | 58402.828125 |
+| ID | 587.156250 |
+| IN | 3124.125000 |
+| IS | 0.000000 |
+| LA | 4728.734375 |
+| MD | 38863.718750 |
+| RF | 0.000000 |
+| SP | 3122.953125 |
+| SV | 0.000000 |
+
+The complete three-month history source and fixed clock instrument are filed. Their source/instrument charges, full replay, original sample limits and the separate SG1 validation reserve remain in their source records. Instrument completion does not automatically admit its behavioral consumers. The older reader threshold is not reintroduced; new-family launch remains held by the documented legacy-reader/runtime transition gates. GPU, Ollama and paid calls remain off. No unrelated process or page-file setting was changed.
+
+**Remaining work and review order.** The commissioned builders have delivered unconditional components; delivery, focused tests, scientific review and production admission remain distinct. Additional unreviewed local deliveries are preserved and are not represented as published or admitted. Source-dependent review continues in the packet order.
+
+| Obligation | Current disposition |
+|---|---|
+| Chess scoring | Prepared original-roster continuation is memory-held; complete the roster and final verification when admitted. Existing manifest does not admit disjoint range shards; serial continuation is retained. |
+| SG1 with CH6/CH7; CH8/CH12 | Full history source is available. Finish the named numerical, independent-fixture, consumer and source-specific admission gates; source availability alone is not qualification. |
+| CH9/CH10/CH11 | Clock instrument complete; separate feature/model, prospective split and uncertainty reviews remain. Preserve the approved independent hash and win-bonus control. |
+| Language and appraisal | LA4 and AMI-only LA3, plus IN9 items, are filed. Combined LA3 chronology, IN9 cue semantics, LA5, IN11/IN12 and source-conditional emotion-duration work retain their specific gates. |
+| Phone-game follow-ons | TR1 and RR3 are complete. Preserve the undefined standardized TR1 secondary and diagnose it separately. Freeze/qualify RR3.s and RR3.m within their own caps and below packet-priority work. |
+| Reader and engine work | Complete historical profiles, native provenance/integration, checkpoint-copy and collector acceptance. RF/CP/IS/SV family starts remain held; EX5/EX4 and other commissioned consumers retain source and interface gates. |
+| Activation and final packet | Retrospective activation log and Round 15 integration remain incomplete. Every new row carries activation; uncomputed cards retain named gates. Preserve the original cutoff and later drain addendum. |
+
+The existing priority order, including the activation log when review is constrained, remains the next owner work. No newly invented research or additional delegation is authorized by this wake. The ready-buffer deficit is not closed by listing prepared code.
+
+**Theory errata and filing.** All 38 historical edits replay to their recorded postimages. The five theory files at the preserved baseline commit exactly match the earlier reverification receipt. In the current files, all 334 supplied quotation-line occurrences and 42 original open identifiers remain preserved. Thirty-two supplied/effective blocks remain exact contiguous text; six overlap later supplied revisions or legitimate result-bearing updates and are not represented as unchanged blocks. The complete baseline-to-current difference was reviewed: only the already-filed LA4, AMI LA3, IN9 items, TR1 and RR3 result rows and their associated afterwords changed across four result commits. The original G264 attribution and OPEN standing remain. Current hashes therefore differ from the old verification, as expected; no old receipt is rewritten. This pass changes no theory file, performs no new literature or original-audio review and adds no scientific interpretation.
+
+**Health, delivery and disposition.** All twenty-one locks pass. Exact watcher and calendar native identities are live; their source/plan pins match. The producer and previously recorded companion are exited, with no research lease or unexpected active attempt. The watcher has a recent successful scan, matching loaded source pins and no current delivery error; its three historical notification failures remain retained. Read-only native queue inspection found zero pending messages. The calendar marker makes no scientific assertion. Events, four hours of actual owner inactivity and one pending wake remain unchanged. The event is acknowledged only after this complete write-through and generated-view verification; the final ACK receipt triggers another view refresh. No tests were harvested from this operational wake. This is the internal daily reconciliation, not the final curator scientific packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The November 13 reconciliation authenticates completed records and preserves the theory errata; CPU-only Gear 2 remains selected, with the prepared chess continuation held by the unchanged memory floor.; project meaning: scoped operational record; next engineering obligation: Continue the packet review and activation backlog; admit the preserved original-roster continuation only when unchanged resource guards pass, then complete the final packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261113.md.
+
 ### OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113
 
 **Hypothesis.** Can the original chess scoring queue preserve its completed independent replays and continue safely after the machine's memory guard stops it?

@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+**November 13 daily reconciliation:** [OPS-S15-W5-DIGEST-20261113](DIGEST_20261113.md). The November 13 reconciliation authenticates completed records and preserves the theory errata; CPU-only Gear 2 remains selected, with the prepared chess continuation held by the unchanged memory floor. The completed claim wording and original limits are carried forward unchanged. Unfinished cells and the retrospective activation log retain their named obligations; no new theory interpretation is added.
+
 **Operational memory pause, November 13:** [OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113](CH1_N_COMMIT_PAUSE_20261113.md). The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held. No scientific effect, theory-row change or relaxation of source/scoring requirements.
 
 **Completed clock instrument, November 13:** [OPS-S15-W5-SG1V-INSTRUMENT-COMPLETE-20261113](SG1V_INSTRUMENT_COMPLETE_20261113.md). The complete clock-flag instrument passes its prospectively fixed histogram checks and independent replay; behavioral interpretation and CH10 model admission remain separate. This run records instrument qualification without a behavioral claim or new theory row.
