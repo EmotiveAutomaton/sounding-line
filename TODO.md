@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114: Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring.
+
 - [x] OPS-S15-W5-DIGEST-20261113: The November 13 reconciliation authenticates completed records and preserves the theory errata; CPU-only Gear 2 remains selected, with the prepared chess continuation held by the unchanged memory floor.
 
 - [x] OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113: The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held.
@@ -12,7 +14,7 @@
 
 - [ ] Carry the 40,000-CPU-second CH/campaign maintenance reserve from OPS-S15-W5-DISK-RECOVERY-20261113 plus the separate 1,000-second inspection reserve from OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113 into subsequent owner admissions; unavailable final accounting stays conservatively reserved.
 
-- [ ] CH1-N continuation 4: authenticated candidate prepared; admit only after commit headroom recovers to the unchanged eight-GiB start floor. Finish the original roster and complete final verification. RR3 and SG1 source/instrument are filed.
+- [ ] CH1-N continuation 4: admitted after recovered memory headroom; native owner, counted lease, checkpoint authentication/copy progress and monitoring verified. Finish the original roster and final verification. RR3 and SG1 source/instrument are filed.
 
 - [x] OPS-S15-W5-DISK-RECOVERY-20261113: All paused checkpoints are accounted for, preserved source databases recover storage without changing their bytes, and the three unchanged scientific jobs continue in CPU-only Gear 2.
 

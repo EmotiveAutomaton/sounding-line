@@ -2656,6 +2656,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114:** Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_MEMORY_RESUME_20261114.md).
+
 **OPS-S15-W5-DIGEST-20261113:** The November 13 reconciliation authenticates completed records and preserves the theory errata; CPU-only Gear 2 remains selected, with the prepared chess continuation held by the unchanged memory floor. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261113.md).
 
 **OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113:** The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_N_COMMIT_PAUSE_20261113.md).

@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+**Operational resumption, November 14:** [OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114](HEALTH_MEMORY_RESUME_20261114.md). Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring. No scientific result, theory-row change or new-family admission is claimed; the named final-packet obligations remain.
+
 **November 13 daily reconciliation:** [OPS-S15-W5-DIGEST-20261113](DIGEST_20261113.md). The November 13 reconciliation authenticates completed records and preserves the theory errata; CPU-only Gear 2 remains selected, with the prepared chess continuation held by the unchanged memory floor. The completed claim wording and original limits are carried forward unchanged. Unfinished cells and the retrospective activation log retain their named obligations; no new theory interpretation is added.
 
 **Operational memory pause, November 13:** [OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113](CH1_N_COMMIT_PAUSE_20261113.md). The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held. No scientific effect, theory-row change or relaxation of source/scoring requirements.

@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114:** [Record](HEALTH_MEMORY_RESUME_20261114.md). Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring.
+
 **OPS-S15-W5-DIGEST-20261113:** [Record](DIGEST_20261113.md). The November 13 reconciliation authenticates completed records and preserves the theory errata; CPU-only Gear 2 remains selected, with the prepared chess continuation held by the unchanged memory floor.
 
 **OPS-S15-W5-CH1-N-COMMIT-PAUSE-20261113:** [Record](CH1_N_COMMIT_PAUSE_20261113.md). The chess scorer paused safely for low Windows commit headroom; its complete checkpoint authenticates, and the unchanged continuation remains resource-held.
