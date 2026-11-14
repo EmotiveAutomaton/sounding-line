@@ -2656,6 +2656,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-QUALIFICATION-BUILD-20261114:** All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/QUALIFICATION_BUILD_20261114.md).
+
+**OPS-S15-W5-CH7-LADDER-NUMERICAL-20261114:** The complete CH7 ladder constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. [Record](../results/phase_2_4_stage_15/WEEK5/CH7_LADDER_NUMERICAL_COMPLETE_20261114.md).
+
+**OPS-S15-W5-CH7-FLOOR-NUMERICAL-20261114:** The complete CH7 floor constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. [Record](../results/phase_2_4_stage_15/WEEK5/CH7_FLOOR_NUMERICAL_COMPLETE_20261114.md).
+
+**OPS-S15-W5-CH7-NULL-NUMERICAL-20261114:** The complete CH7 null constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. [Record](../results/phase_2_4_stage_15/WEEK5/CH7_NULL_NUMERICAL_COMPLETE_20261114.md).
+
 **OPS-S15-W5-BUILD-FILING-20261114:** The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_FILING_20261114.md).
 
 **OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114:** Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_MEMORY_RESUME_20261114.md).

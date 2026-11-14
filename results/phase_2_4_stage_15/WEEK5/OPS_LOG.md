@@ -1497,3 +1497,11 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-14T08:34:24.036437+00:00 OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114: Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring.
 
 2026-11-14T10:38:47.499132+00:00 OPS-S15-W5-BUILD-FILING-20261114: The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication.
+
+2026-11-14T11:00:04.363347+00:00 OPS-S15-W5-CH7-NULL-NUMERICAL-20261114: The complete CH7 null constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+2026-11-14T11:21:45.598136+00:00 OPS-S15-W5-CH7-FLOOR-NUMERICAL-20261114: The complete CH7 floor constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+2026-11-14T11:29:16.754764+00:00 OPS-S15-W5-CH7-LADDER-NUMERICAL-20261114: The complete CH7 ladder constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+2026-11-14T11:31:53.277912+00:00 OPS-S15-W5-QUALIFICATION-BUILD-20261114: All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2.

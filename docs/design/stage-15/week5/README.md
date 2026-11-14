@@ -1,5 +1,10 @@
 # Stage 15 Week 5
 
+[CH6 source-bridge native integration](CH6_SG1_NATIVE_INTEGRATION_V1.md) preserves
+the original validated numerical answer while testing actual execute/verify
+pauses, authenticated continuation and fresh replay through the SG1 bridge.
+Its prepared fixture is a constructed runtime check; human admission remains separate.
+
 The [IN9 items design](IN9_TWO_DAY_V1.md) remains frozen. Its full-source independent replay failed convergence; the isolated [reference repair](IN9_REFERENCE_CONVERGENCE_V2.md) passes nine constructed checks and has a fresh counted run. The [recovery record](../../../../results/phase_2_4_stage_15/WEEK5/TR1_PREFIX_IN9_RECOVERY_20261113.md) preserves original failures, cumulative costs and remaining verification. Literal cues remain separate.
 
 The [two-day close packet](PACKET_TWO_DAY.md), authorized November 13, is the

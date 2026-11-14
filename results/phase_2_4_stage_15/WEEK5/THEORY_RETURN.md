@@ -1,5 +1,13 @@
 # Round 12 theory return — Week 5 back half
 
+**Instrument and build filing:** [OPS-S15-W5-QUALIFICATION-BUILD-20261114](QUALIFICATION_BUILD_20261114.md). All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2. Human and channel claims remain unchanged.
+
+**Instrument qualification:** [OPS-S15-W5-CH7-LADDER-NUMERICAL-20261114](CH7_LADDER_NUMERICAL_COMPLETE_20261114.md). The complete CH7 ladder constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. No theory row changes.
+
+**Instrument qualification:** [OPS-S15-W5-CH7-FLOOR-NUMERICAL-20261114](CH7_FLOOR_NUMERICAL_COMPLETE_20261114.md). The complete CH7 floor constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. No theory row changes.
+
+**Instrument qualification:** [OPS-S15-W5-CH7-NULL-NUMERICAL-20261114](CH7_NULL_NUMERICAL_COMPLETE_20261114.md). The complete CH7 null constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. No theory row changes.
+
 **Implementation filing, November 14:** [OPS-S15-W5-BUILD-FILING-20261114](BUILD_FILING_20261114.md). The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication. No new scientific or channel claim is admitted.
 
 **Operational resumption, November 14:** [OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114](HEALTH_MEMORY_RESUME_20261114.md). Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring. No scientific result, theory-row change or new-family admission is claimed; the named final-packet obligations remain.

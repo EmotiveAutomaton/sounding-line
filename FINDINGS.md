@@ -1,5 +1,125 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-QUALIFICATION-BUILD-20261114
+
+**Hypothesis.** Can the completed instrument checks and prepared runtime bridge be recorded without confusing implementation readiness with human evidence?
+
+**METHOD.** Authenticate and fully file the complete null, floor and ladder native runs, their original gates, independent formula checks, complete resampling and simulated-history banks, fresh native verification and event acknowledgments. For CH6, preserve the previously qualified constructed numerical answer and all player-game values, add only required source-adapter identity and declared activation metadata in a new copy, then test configuration and input refusals and restoration after a deliberately raised child error. Inspect actual scoring progress, process identities, leases, resources and native wake delivery separately.
+
+**Found.** All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2.
+
+**Qualification scope.** The three CH7 cases and their full write-through are [null](CH7_NULL_NUMERICAL_COMPLETE_20261114.md), [floor](CH7_FLOOR_NUMERICAL_COMPLETE_20261114.md) and [ladder](CH7_LADDER_NUMERICAL_COMPLETE_20261114.md). Each retains all 2,000 resamples and twenty complete simulated histories and a separate native verifier. All original gates pass in these declared constructions. This is complete qualification of that bank, not a human result or a general power curve. Human source projection, fits, resampling, peak memory and replay must still be measured and admitted. Earlier failed tests and their costs remain preserved.
+
+**CH6 build.** The [new integration design](../../../docs/design/stage-15/week5/CH6_SG1_NATIVE_INTEGRATION_V1.md) wraps the actual SG1 bridge and original native qualification adapter. Eight preflight assertions authenticate original evidence, preserve all player-game values and the complete numerical answer, reject altered configurations and manifest pins, reject a newly pinned altered answer, and restore process-local bindings after an error. The original sixteen-callback constructed check is retained; human analysis still uses its original full resampling count. These assertions do not substitute for the planned real execute pause, authenticated continuation, verifier pause and fresh final replay. No scientific function or live worker source changed. A candidate inherited the prior fixture's design-path field during preparation; admission explicitly replaces that field with this committed CH6 design before review and freezing. The original candidate is retained as preparation, never a launched plan.
+
+**Live work.** At 2026-11-14T11:22:50.107683+00:00, the original-roster scorer had advanced to 1065 complete units and offset 68160, after the complete authenticated checkpoint copy. These are progress counts, not unfinished scientific scores. Its exact native identity, eight below-normal descendants, registered terminal/disappearance watches and counted lease authenticate. The inspection found 3 live shared leases, including the constructed qualification and companion work. Available RAM was 41.211 GiB, commit headroom 15.748 GiB, and free disk 29.473 GiB. Native operational wakes pending: zero. These resource snapshots are not peak measurements.
+
+**Recording and recovery.** Null completion was fully written through before ACK. Its first post-ACK reporting helper looked for an acknowledged event in the pending-only status view and stopped; a direct durable event-table read confirmed the successful ACK. The helper now queries that table, final receipts and generated views were refreshed, and no duplicate science or ACK was created. The floor and ladder use the corrected post-ACK check. The data, original events and earlier failure remain intact.
+
+**Remaining obligations.** Source-specific owner review and admission proceed in packet order. The carried CH6 integration, CH7 production cost/admission, later delivered cards, retrospective activation log, sixteen-card ready buffer and new-family runtime provenance remain explicit. Builders have delivered the unconditional implementations; adding redundant builders would not clear the owner-review bottleneck. The unreviewed Ghost V29 exchange stays outside this publication. GPU, Ollama and paid calls remain off; the CH/campaign maintenance and inspection reserves remain charged. Events, four-hour actual-owner inactivity and one pending wake are unchanged. No new hypothesis was harvested from this operational instruction, and one final curator packet remains the scientific reporting boundary.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Complete the preserved-model CH6 bridge integration, then source-specific CH6/CH7 cost and production admission in packet order.; public scientific claim unchanged; curator decision required: No new decision. Detail: QUALIFICATION_BUILD_20261114.md.
+
+### OPS-S15-W5-CH7-LADDER-NUMERICAL-20261114
+
+**Hypothesis.** Does the repaired chess reference-point instrument recover the known ladder construction while preserving all uncertainty, simulated-history and replay requirements?
+
+**METHOD.** Run the prospectively fixed ladder case through the reviewed v11 counted runtime with 48 constructed players and 240 games per player. Execute all 2,000 whole-player resamples and twenty complete simulated null histories. Check the planted slopes, complete null bank, invalid-draw refusals and original joint-shape gate; compare the point fit against independent dense player indicators, bootstrap results against raw-sum formulas, and every simulated history against the separately written scalar recurrence. Repeat construction and the complete calculation in a fresh native verifier. Authenticate every saved output and source pin and inspect native exit and lease release before landing.
+
+**Found.** The complete CH7 ladder constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+Table: completed instrument checks. These are constructed-case validation facts, not estimates about human behavior or evidence identifying a biological channel.
+
+| Requirement | Result |
+|---|---|
+| Original slope-recovery tolerance | Pass, unchanged 0.05 tolerance |
+| Complete simulated-history bank | All twenty complete; original mean-absolute-contrast gate passes |
+| Whole-player uncertainty | All 2,000 draws retained; no invalid primary draw |
+| Original case classification | Pass; no threshold or construction changed |
+| Independent formula checks | Dense point, raw-sum resampling, scalar recurrence and working bar pass |
+| Fresh native verification | Full construction and formulas replayed |
+| Saved output authentication | 94 files match |
+| Current source authentication | 69 pins match |
+| Native CPU | 275.609375 seconds, plus the retained 30-second supervisor allowance |
+
+**Scope.** This completes one declared construction, not the other two or a general sensitivity/power curve. Its rating updates remain rounded approximations and its simulation is not Glicko-2. The independent scalar recurrence checks histories conditional on the fitted null parameters; the focused tests separately cover probability, fit and refusal behavior. The production model's meaning and human support remain untested here. No raw human source was opened or requalified. The original failed separation check, repaired 19-check proof, their costs and source versions remain preserved. The complete current attempt is below its 600-CPU-second ceiling.
+
+**Integrity and accounting.** Execution and verification child identities and the supervisor are confirmed exited; the counted lease is released. The original plan, all pinned sources, qualification receipt, native verification and full output manifest authenticate. The first inspection helper incorrectly expected the native identity at the top level of the child receipt; it stopped on a missing key without changing evidence. The corrected inspection reads the actual nested identity and verifies both exits. The helper failure does not change the successful instrument run or its outputs. All attempt and inspection costs remain charged or conservatively reserved under the existing card, family and campaign limits.
+
+**Next work.** Complete the remaining constructed cases before admitting CH7 on human records, then measure its actual source/player, fit, resampling, memory and replay costs. The carried CH6 stopping model retains its original numerical qualification, but its actual SG1 bridge still needs counted execute/pause/continue/fresh-verification integration with independent constructed truth. Its short interface test is not sufficient evidence for that admission. No model, source, resampling count or support floor is relaxed to fill a slot.
+
+**Disposition.** This is an instrument landing in the tools ledger with an empty activation list. The theoretical claims remain unchanged. The original chess scorer remains the ongoing scientific queue; CPU-only Gear 2, eight counted shared slots, original campaign clock and event/four-hour/single-pending wake policy remain. The observed completion event is acknowledged only after this full write-through and generated-view check. No new test was harvested from the operational instruction, and one final curator packet remains the scientific reporting boundary.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete CH7 ladder constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.; project meaning: scoped operational record; next engineering obligation: Complete the other full constructed cases and source-specific cost admission; qualify the actual carried CH6 bridge before its human run.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH7_LADDER_NUMERICAL_COMPLETE_20261114.md.
+
+### OPS-S15-W5-CH7-FLOOR-NUMERICAL-20261114
+
+**Hypothesis.** Does the repaired chess reference-point instrument recover the known floor construction while preserving all uncertainty, simulated-history and replay requirements?
+
+**METHOD.** Run the prospectively fixed floor case through the reviewed v11 counted runtime with 48 constructed players and 240 games per player. Execute all 2,000 whole-player resamples and twenty complete simulated null histories. Check the planted slopes, complete null bank, invalid-draw refusals and original joint-shape gate; compare the point fit against independent dense player indicators, bootstrap results against raw-sum formulas, and every simulated history against the separately written scalar recurrence. Repeat construction and the complete calculation in a fresh native verifier. Authenticate every saved output and source pin and inspect native exit and lease release before landing.
+
+**Found.** The complete CH7 floor constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+Table: completed instrument checks. These are constructed-case validation facts, not estimates about human behavior or evidence identifying a biological channel.
+
+| Requirement | Result |
+|---|---|
+| Original slope-recovery tolerance | Pass, unchanged 0.05 tolerance |
+| Complete simulated-history bank | All twenty complete; original mean-absolute-contrast gate passes |
+| Whole-player uncertainty | All 2,000 draws retained; no invalid primary draw |
+| Original case classification | Pass; no threshold or construction changed |
+| Independent formula checks | Dense point, raw-sum resampling, scalar recurrence and working bar pass |
+| Fresh native verification | Full construction and formulas replayed |
+| Saved output authentication | 94 files match |
+| Current source authentication | 69 pins match |
+| Native CPU | 277.328125 seconds, plus the retained 30-second supervisor allowance |
+
+**Scope.** This completes one declared construction, not the other two or a general sensitivity/power curve. Its rating updates remain rounded approximations and its simulation is not Glicko-2. The independent scalar recurrence checks histories conditional on the fitted null parameters; the focused tests separately cover probability, fit and refusal behavior. The production model's meaning and human support remain untested here. No raw human source was opened or requalified. The original failed separation check, repaired 19-check proof, their costs and source versions remain preserved. The complete current attempt is below its 600-CPU-second ceiling.
+
+**Integrity and accounting.** Execution and verification child identities and the supervisor are confirmed exited; the counted lease is released. The original plan, all pinned sources, qualification receipt, native verification and full output manifest authenticate. The first inspection helper incorrectly expected the native identity at the top level of the child receipt; it stopped on a missing key without changing evidence. The corrected inspection reads the actual nested identity and verifies both exits. The helper failure does not change the successful instrument run or its outputs. All attempt and inspection costs remain charged or conservatively reserved under the existing card, family and campaign limits.
+
+**Next work.** Complete the remaining constructed cases before admitting CH7 on human records, then measure its actual source/player, fit, resampling, memory and replay costs. The carried CH6 stopping model retains its original numerical qualification, but its actual SG1 bridge still needs counted execute/pause/continue/fresh-verification integration with independent constructed truth. Its short interface test is not sufficient evidence for that admission. No model, source, resampling count or support floor is relaxed to fill a slot.
+
+**Disposition.** This is an instrument landing in the tools ledger with an empty activation list. The theoretical claims remain unchanged. The original chess scorer remains the ongoing scientific queue; CPU-only Gear 2, eight counted shared slots, original campaign clock and event/four-hour/single-pending wake policy remain. The observed completion event is acknowledged only after this full write-through and generated-view check. No new test was harvested from the operational instruction, and one final curator packet remains the scientific reporting boundary.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete CH7 floor constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.; project meaning: scoped operational record; next engineering obligation: Complete the other full constructed cases and source-specific cost admission; qualify the actual carried CH6 bridge before its human run.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH7_FLOOR_NUMERICAL_COMPLETE_20261114.md.
+
+### OPS-S15-W5-CH7-NULL-NUMERICAL-20261114
+
+**Hypothesis.** Does the repaired chess reference-point instrument recover the known null construction while preserving all uncertainty, simulated-history and replay requirements?
+
+**METHOD.** Run the prospectively fixed null case through the reviewed v11 counted runtime with 48 constructed players and 240 games per player. Execute all 2,000 whole-player resamples and twenty complete simulated null histories. Check the planted slopes, complete null bank, invalid-draw refusals and original joint-shape gate; compare the point fit against independent dense player indicators, bootstrap results against raw-sum formulas, and every simulated history against the separately written scalar recurrence. Repeat construction and the complete calculation in a fresh native verifier. Authenticate every saved output and source pin and inspect native exit and lease release before landing.
+
+**Found.** The complete CH7 null constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+Table: completed instrument checks. These are constructed-case validation facts, not estimates about human behavior or evidence identifying a biological channel.
+
+| Requirement | Result |
+|---|---|
+| Original slope-recovery tolerance | Pass, unchanged 0.05 tolerance |
+| Complete simulated-history bank | All twenty complete; original mean-absolute-contrast gate passes |
+| Whole-player uncertainty | All 2,000 draws retained; no invalid primary draw |
+| Original case classification | Pass; no threshold or construction changed |
+| Independent formula checks | Dense point, raw-sum resampling, scalar recurrence and working bar pass |
+| Fresh native verification | Full construction and formulas replayed |
+| Saved output authentication | 94 files match |
+| Current source authentication | 69 pins match |
+| Native CPU | 274.421875 seconds, plus the retained 30-second supervisor allowance |
+
+**Scope.** This completes one declared construction, not the other two or a general sensitivity/power curve. Its rating updates remain rounded approximations and its simulation is not Glicko-2. The independent scalar recurrence checks histories conditional on the fitted null parameters; the focused tests separately cover probability, fit and refusal behavior. The production model's meaning and human support remain untested here. No raw human source was opened or requalified. The original failed separation check, repaired 19-check proof, their costs and source versions remain preserved. The complete current attempt is below its 600-CPU-second ceiling.
+
+**Integrity and accounting.** Execution and verification child identities and the supervisor are confirmed exited; the counted lease is released. The original plan, all pinned sources, qualification receipt, native verification and full output manifest authenticate. The first inspection helper incorrectly expected the native identity at the top level of the child receipt; it stopped on a missing key without changing evidence. The corrected inspection reads the actual nested identity and verifies both exits. The helper failure does not change the successful instrument run or its outputs. All attempt and inspection costs remain charged or conservatively reserved under the existing card, family and campaign limits.
+
+**Next work.** Complete the remaining constructed cases before admitting CH7 on human records, then measure its actual source/player, fit, resampling, memory and replay costs. The carried CH6 stopping model retains its original numerical qualification, but its actual SG1 bridge still needs counted execute/pause/continue/fresh-verification integration with independent constructed truth. Its short interface test is not sufficient evidence for that admission. No model, source, resampling count or support floor is relaxed to fill a slot.
+
+**Disposition.** This is an instrument landing in the tools ledger with an empty activation list. The theoretical claims remain unchanged. The original chess scorer remains the ongoing scientific queue; CPU-only Gear 2, eight counted shared slots, original campaign clock and event/four-hour/single-pending wake policy remain. The observed completion event is acknowledged only after this full write-through and generated-view check. No new test was harvested from the operational instruction, and one final curator packet remains the scientific reporting boundary.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete CH7 null constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.; project meaning: scoped operational record; next engineering obligation: Complete the other full constructed cases and source-specific cost admission; qualify the actual carried CH6 bridge before its human run.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH7_NULL_NUMERICAL_COMPLETE_20261114.md.
+
 ### OPS-S15-W5-BUILD-FILING-20261114
 
 **Hypothesis.** Can the delivered two-day work be preserved and its readiness distinguished from actual execution, without losing failed evidence or admitting an unqualified model?

@@ -1,6 +1,21 @@
 # TODO: the study queue
 
-- [ ] CH7 numerical qualification: full null/floor/ladder cases and fresh native replay, then measured production admission. The 19 passing focused checks and prepared code are filed; a publication inventory is not a passed full fixture.
+- [x] OPS-S15-W5-QUALIFICATION-BUILD-20261114: All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2.
+
+- [x] CH7 ladder: complete frozen constructed case, full independent formula checks and fresh native verification. Other cases and human admission remain separate.
+
+- [x] OPS-S15-W5-CH7-LADDER-NUMERICAL-20261114: The complete CH7 ladder constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+- [x] CH7 floor: complete frozen constructed case, full independent formula checks and fresh native verification. Other cases and human admission remain separate.
+
+- [x] OPS-S15-W5-CH7-FLOOR-NUMERICAL-20261114: The complete CH7 floor constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+- [x] CH7 null: complete frozen constructed case, full independent formula checks and fresh native verification. Other cases and human admission remain separate.
+
+- [x] OPS-S15-W5-CH7-NULL-NUMERICAL-20261114: The complete CH7 null constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study.
+
+- [x] CH7 complete null/floor/ladder native numerical qualification and fresh replay are filed.
+- [ ] CH7: measured source-specific production admission. CH6: complete actual source-bridge native pause/continue/replay integration before its human admission.
 
 - [x] OPS-S15-W5-BUILD-FILING-20261114: The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication.
 
