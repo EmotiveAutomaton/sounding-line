@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-CH-DISK-PAUSE-20261115:** [Record](CH_DISK_PAUSE_20261115.md). Chess scoring is safely checkpointed and storage-held; its verified progress and all costs are preserved.
+
 **OPS-S15-DATA-STORE-REVIEW-20261115:** [Record](DATA_STORE_REVIEW_20261115.md). The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted.
 
 **OPS-S15-W6-BUILD-READINESS-20261115:** [Record](WEEK6_BUILD_READINESS_20261115.md). All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.

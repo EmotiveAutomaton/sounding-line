@@ -1,0 +1,17 @@
+# CH DISK PAUSE 20261115
+
+**Hypothesis.** Did the storage guard preserve the running chess queue, and can it resume within its unchanged limits?
+
+**METHOD.** Authenticate the terminal receipt, all 4458 retained checkpoint-file hashes, source and implementation pins, original-roster slices and each sealed unit's independent native replay. Check top-level descendant-inclusive CPU accounting, native exit and lease release. Test unchanged resource admission and inspect calendar heartbeats, watcher identities, queue delivery and source locks.
+
+**Found.** Chess scoring is safely checkpointed and storage-held; its verified progress and all costs are preserved.
+
+The worker paused at its resource floor and exited cleanly. It preserves 48 sealed units covering original ordinals [122752,125824), with 96 sealed execution/replay identities verified. The next active unit is retained but unsealed and receives no completed-unit credit. Every saved checkpoint hash matches. No whole-roster result or scientific conclusion is inferred. Future continuation must authenticate these checkpoints and preserve the earlier failed-attempt prefix already filed under the reboot recovery record.
+
+The attempt retains 9485.1875 CPU seconds, inclusive of descendants and exited children. Sealed-unit CPU is already included and is not added again. This resource pause consumes no engineering-heal attempt. Reserve an additional conservative 60 CPU seconds for the inspection within the existing maintenance allowance; it is an allowance, not an exact measured audit total. Existing charges and campaign clocks remain intact.
+
+At inspection, free disk is 19.867 GiB, below the unchanged 20-GiB floor. Physical memory and commit headroom pass. Actual admission refuses with CPU resource floor. No new attempt, relaxed guard, evidence deletion, source relocation or GPU work is authorized by this pause. A continuation is held until sufficient storage is available and the original checkpoint, budget and time gates pass again. The pending collector documentation/migration proposal is not an admitted migration; its accepted metadata helper cannot relocate a live or pinned source.
+
+Both campaign calendars and the watcher remain live, watcher source hashes match, native delivery inventory has no pending operational message at inspection, and all 21 source locks pass. The research lease is released; the existing companion lease is untouched. Sounding Line research is temporarily idle with CPU-only Gear 2 still selected. The three commissioned builder queues have delivered their bounded preparation packages; zero are active, with the already recorded source, annotation, instrument and owner-admission gates still unresolved. The ready buffer remains deficient. Week 6 production still requires the actual Week 5 drain. The incoming request inbox contains the already reviewed data-store request and a collector status note; its promised separate catalog request has not yet arrived. No new scientific test was harvested.
+
+**Meaning.** The resource guard worked and checkpoint evidence verifies, but execution is not currently progressing. Storage recovery needs a reviewed source/consumer plan before any pinned data move or deletion. Events, four hours of inactivity and single-pending delivery remain unchanged. The triggering event is acknowledged only after this complete write-through; no unfinished per-artifact scores are reported.

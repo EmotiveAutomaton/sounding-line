@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [ ] OPS-S15-W5-STORAGE-RECOVERY-20261115: Restore sufficient disk headroom through a reviewed evidence-preserving plan; then authenticate chess checkpoints and retain original budget/freeze/drain gates before continuation.
+
+- [x] OPS-S15-W5-CH-DISK-PAUSE-20261115: Chess scoring is safely checkpointed and storage-held; its verified progress and all costs are preserved.
+
 - [x] OPS-S15-DATA-STORE-REVIEW-20261115: The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted.
 
 - [x] OPS-S15-W6-BUILD-READINESS-20261115: All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.
