@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115:** [Record](AT_M00_CHUNK0129_COST_20261115.md). The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
 **OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115:** [Record](AT_M00_CHUNK0128_COST_20261115.md). The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
 
 **OPS-S15-DATA-CATALOG-REVIEW-20261115:** [Record](DATA_CATALOG_REVIEW_20261115.md). The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources.

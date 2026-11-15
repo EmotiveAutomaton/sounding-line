@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
 - [x] OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
 
 - [ ] OPS-S15-W5-SUPERVISION-RECONCILE-20261115: Carry the explicit conservative supervisor reservation once through final drain alongside all child-job and maintenance costs; preserve original attempts and ceilings.

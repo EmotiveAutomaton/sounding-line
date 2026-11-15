@@ -195,3 +195,5 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-DATA-CATALOG-REVIEW-20261115:** The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources. No new scientific source or theory claim. [Full record](DATA_CATALOG_REVIEW_20261115.md).
 
 **OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. Numerical instrument evidence only; no theoretical standing changes. [Full record](AT_M00_CHUNK0128_COST_20261115.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. Numerical instrument evidence only; no theoretical standing changes. [Full record](AT_M00_CHUNK0129_COST_20261115.md).

@@ -2693,6 +2693,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0129_COST_20261115.md).
+
 **OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0128_COST_20261115.md).
 
 **OPS-S15-DATA-CATALOG-REVIEW-20261115:** The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources. [Record](../results/phase_2_4_stage_15/WEEK5/DATA_CATALOG_REVIEW_20261115.md).

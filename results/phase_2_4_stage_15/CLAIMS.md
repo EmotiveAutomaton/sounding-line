@@ -1504,3 +1504,4 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W5-STORAGE-RECOVERY-20261115 | operational | infrastructure / passes | Chess, comparison and reader work are active in CPU-only Gear 2 after verified storage recovery and qualified compatibility repairs. |
 | OPS-S15-DATA-CATALOG-REVIEW-20261115 | operational | infrastructure / passes | The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources. |
 | OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115 | operational | infrastructure / passes | The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. |
+| OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115 | operational | infrastructure / passes | The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. |

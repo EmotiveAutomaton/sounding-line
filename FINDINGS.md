@@ -1,5 +1,26 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115
+
+**Hypothesis.** Can the resumed original reader pilot produce complete measured evidence without changing its source order or numerical checks?
+
+**METHOD.** Score the next frozen GPT-2 medium chunk after the unchanged native memory gate passes; run its original seeded fresh-forward checks in a distinct native process. Authenticate every completion-declared output, source and model pin, guard identity, native exit and descendant accounting receipt through the qualified historical-policy preparer.
+
+**Found.** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+All 199 words in original zero-based ordinal 129 are retained. All 4 seeded fresh-forward checks meet the unchanged 0.0001-nat tolerance. Measured descendant CPU is 154.71875 seconds and wall time is 118.933992 seconds; the existing supervisor allowance and the separately filed conservative supervision reservation remain additional. Observed peak working set is 4.690365 GiB for this chunk only. All 118 completion-declared output hashes match, both guard receipts bind the distinct native execution/replay identities, and all owners have exited. These are complete engineering checks and coverage/cost measurements, not scientific effect scores or model selection.
+
+The authenticated prefix now contains 130 of 165 original chunks for this reader, covering 21401 words and 25524.953125 measured descendant CPU seconds. This prefix excludes separately retained failed-attempt costs and supervisor/preparation charges, which remain additional in cumulative accounting. The original full pilot remains 27,007 words from four whole writers for each of all ten readers. Model revision, tokenizer, 1,024-token context, FP64 computation, source order and seeded numerical verification are unchanged. No completed prefix is substituted for a whole-bank forecast.
+
+At this wake's native inspection, chess and comparison workers remain live and their CPU/progress advance; comparison has begun writing restored files but has no completed restore receipt yet. Both calendars remain live, resource floors pass, the watcher has no error and its native queue has no pending operational message. The one delivered reader-completion event is still unacknowledged until this full filing. The collector inbox contains only its two already reviewed deliveries. Shared companion work is untouched. The three commissioned builders remain idle after their delivered preparations because the recorded source, annotation, instrument and owner-admission gates remain; the ready buffer is still deficient and actual Week 5 drain still gates Week 6.
+
+Original ordinal 130 is prepared after this complete-prefix authentication, subject to fresh owner admission and current memory/budget checks. Its existing bounds remain 7,200 CPU seconds, 1,700 wall seconds, a twenty-GiB projected peak and two numerical threads. The operator is completing this internal filing before the next bounded launch. Chess and comparison recovery continue separately. All former float32 failures, environmental interruptions, historical preparation refusals and diagnostic costs remain preserved.
+
+**Meaning.** File this completed chunk and continue the original pilot in order. The bank, model comparison and downstream scientific analyses are still unfinished. No new hypothesis, GPU, Ollama or paid call is introduced. The existing final-packet reporting policy and event/four-hour/single-pending wake policy remain. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Admit only the next original chunk after fresh memory and inclusive cost checks; keep the complete bank and scientific comparison gated.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0129_COST_20261115.md.
+
 ### OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115
 
 **Hypothesis.** Can the resumed original reader pilot produce complete measured evidence without changing its source order or numerical checks?
