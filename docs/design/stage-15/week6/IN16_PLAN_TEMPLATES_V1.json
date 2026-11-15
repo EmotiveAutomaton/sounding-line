@@ -1,0 +1,42 @@
+{
+  "template_only": true,
+  "owner_reviewed": false,
+  "fixture_passed": false,
+  "campaign": "S15-WEEK6",
+  "family": "IN",
+  "card": "IN16",
+  "module": "runners.drive.cards.week6_in16_v1",
+  "design": "docs/design/stage-15/week6/IN16_V1.md",
+  "inputs": {
+    "source_run": "results/phase_2_4_stage_15/raw/drive-week5-20261107/IN-source"
+  },
+  "config": {
+    "source_scope": "real-event-primary",
+    "draws": 2000,
+    "max_new_draws": 100,
+    "max_wall_seconds": 900
+  },
+  "reference_config": {
+    "source_scope": "all-report-reference",
+    "draws": 2000,
+    "max_new_draws": 100,
+    "max_wall_seconds": 900
+  },
+  "card_ceiling_cpu_seconds_including_reference_and_replay": 20000,
+  "family_ceiling_cpu_seconds": 200000,
+  "numerical_threads": 2,
+  "gpu": false,
+  "ollama": false,
+  "paid": false,
+  "pins": {},
+  "validation_receipts": [],
+  "remaining_admission": [
+    "owner review and committed design",
+    "passing packet fixture",
+    "pinned plan and current resources",
+    "in-run cost probe and complete independent formula replay",
+    "completed IN12 for reaction-clearing comparison"
+  ],
+  "admission_route": "Q/U/AA: no separate native qualification campaign, bounded variant, timing pilot or source re-qualification",
+  "control_scope": "Week5 packet 0.6 carries Week4 defaults for CoAuthor timing; Week6 AA packet fixtures apply here. No blanket 200/1000 empirical bank requirement."
+}

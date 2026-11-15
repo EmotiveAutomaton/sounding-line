@@ -666,6 +666,10 @@ L132 (a shuffle gate that voided the alternative's own signature).
   itself first drafted with an order clause the population violates (revise before write), and
   the same one-line check caught that too. (Stage 8 E04, 2026-09-04)
 
+### Independent algebra does not validate the sampling model (2026-11-15)
+
+A covariance-corrected person reliability candidate agreed with an independent dense calculation but failed three of nine frozen whole-survey worlds. Numerical agreement validated its implementation, not its assumed serial sampling covariance. Retain adverse worlds and unclipped corrections; freeze and qualify any replacement model separately. Receipt: `OPS-S15-W6-IN14-PERSON-CALIBRATION-20261115`, in the Stage 15 Week 5 evidence folder.
+
 ## §4. Before the model arm
 
 - **A one-line prose request is not an output-token budget.** PLAN's five-line
@@ -806,6 +810,11 @@ L132 (a shuffle gate that voided the alternative's own signature).
   verdicts). (L139)
 
 ## §5. Before queueing or touching the loop infrastructure
+
+### Check final resource totals at terminal boundaries (2026-11-15)
+
+A fast child can exceed an output cap and exit between periodic inspections. Check final retained bytes after exit and before sealing either success or a checkpointed pause, in addition to periodic guards. A native constructed test exposed this gap; preserve its failure and verify the repaired boundary with a real child. Receipt: `OPS-S15-W6-RUNTIME-QUALIFICATION-20261115`, in the Stage 15 Week 5 evidence folder. Old live sources remain pinned.
+
 
 - **An admitted receipt is immutable even when its queue status becomes historical.**
   The B4 sensitivity landing changed a follow-up state in the parent JSON that its

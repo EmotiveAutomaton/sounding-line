@@ -1521,3 +1521,15 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-15T04:07:20.129623+00:00 OPS-S15-W5-DIGEST-20261114: The November 14 reconciliation authenticates completed records and unchanged theory errata; original-roster scoring continues in CPU-only Gear 2, with production admissions and the ready-buffer deficit still open.
 
 2026-11-15T07:52:14.017270+00:00 OPS-S15-W5-CH1-N-INTERVAL2-COMPLETE-20261115: The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2.
+
+2026-11-15T10:21:53.710533+00:00 OPS-S15-W5-EX5-SOURCE-PREFIX-20261115: The EX5 source prefix is authenticated and filed; its unchanged full-source continuation is admitted within the original allowance in CPU-only Gear 2.
+
+2026-11-15T11:19:33.135344+00:00 OPS-S15-W5-EX5-COMPLETE-20261115: The complete EX5 question export and independent source replay are verified, fully filed and copied with matching hashes to the authorized ignored local engine destination.
+
+2026-11-15T11:41:59.580706+00:00 OPS-S15-W6-IN14-PERSON-CALIBRATION-20261115: The proposed IN14 person-level reliability correction failed its completed constructed qualification; that secondary remains instrument-held.
+
+2026-11-15T12:05:37.336455+00:00 OPS-S15-W6-RUNTIME-QUALIFICATION-20261115: The new Week 6 runtime passes its completed native boundary checks after a final-output byte-cap repair; Week 5 live code remains unchanged.
+
+2026-11-15T12:46:22.510626+00:00 OPS-S15-W6-PREPARATION-20261115: Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks.
+
+2026-11-15T12:53:31.148700+00:00 OPS-S15-W6-TR2-RETURNING-RULING-20261115: The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate.

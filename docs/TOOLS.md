@@ -2656,6 +2656,18 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-TR2-RETURNING-RULING-20261115:** The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_TR2_RETURNING_RULING_20261115.md).
+
+**OPS-S15-W6-PREPARATION-20261115:** Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_PREPARATION_20261115.md).
+
+**OPS-S15-W6-RUNTIME-QUALIFICATION-20261115:** The new Week 6 runtime passes its completed native boundary checks after a final-output byte-cap repair; Week 5 live code remains unchanged. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_RUNTIME_QUALIFICATION_20261115.md).
+
+**OPS-S15-W6-IN14-PERSON-CALIBRATION-20261115:** The proposed IN14 person-level reliability correction failed its completed constructed qualification; that secondary remains instrument-held. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_IN14_PERSON_CALIBRATION_20261115.md).
+
+**OPS-S15-W5-EX5-COMPLETE-20261115:** The complete EX5 question export and independent source replay are verified, fully filed and copied with matching hashes to the authorized ignored local engine destination. [Record](../results/phase_2_4_stage_15/WEEK5/EX5_COMPLETE_20261115.md).
+
+**OPS-S15-W5-EX5-SOURCE-PREFIX-20261115:** The EX5 source prefix is authenticated and filed; its unchanged full-source continuation is admitted within the original allowance in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/EX5_SOURCE_PREFIX_20261115.md).
+
 **OPS-S15-W5-CH1-N-INTERVAL2-COMPLETE-20261115:** The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH1_N_INTERVAL2_COMPLETE_20261115.md).
 
 **OPS-S15-W5-DIGEST-20261114:** The November 14 reconciliation authenticates completed records and unchanged theory errata; original-roster scoring continues in CPU-only Gear 2, with production admissions and the ready-buffer deficit still open. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261114.md).

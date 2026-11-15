@@ -1,5 +1,227 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-TR2-RETURNING-RULING-20261115
+
+**Question.** What does returning across prompts mean in the third temporal-reliability setting?
+
+**METHOD.** Preserve the curator's current definition verbatim in the private decision receipt and translate it into prospective implementation requirements. No source outcomes, category fits, stability estimates or new tests were computed in this filing.
+
+**Recorded decision.** The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate.
+
+The unit is a writer with texts for at least two distinct prompts. Each qualifying text has at least 150 content words, and at least 200 writers must qualify. Failure is filed as unsupported. Before any new projection or category fit, authenticate existing source-census metadata; an original distinct-writer upper bound below 200 is already decisive. Do not substitute another population or lower the floor.
+
+Meaning categories cover lemmatized nouns, verbs and adjectives. Use an appropriate fixed category scheme already in the repository if one exists; otherwise fit and freeze content-word-vector clusters using writers outside the test roster. For each writer and category, subtract the mean category share for that prompt across all other writers from her share of content words. The measurement concerns those prompt-residual departures, not raw category frequency. Source-specific sampling covariance, multiple-text aggregation and held-out category fitting remain prospective implementation obligations.
+
+Apply TR1's sequence across prompts: demonstrate true between-person variance first, then interpret corrected split-half stability against 0.5. Report the same recipe for the four grammatical classes alongside the primary. Grammar-only stability licenses a style-habit description, not subject-matter returning. Keep separate classes and categories visible; no new aggregate score is authorized by this clarification.
+
+The earlier grammatical-primary recommendation was not adopted. Preserve the earlier scaffold, delivery and 30 completed checks as historical engineering evidence; they are not qualification of this new primary. The generic support and reporting boundaries remain useful. The former lexical-meaning decision hold is resolved; exact source support and source-specific reliability qualification remain open. Refusing and slowing retain their own source mappings and original scope.
+
+This current ruling is filed as an implementation decision, not an empirical result or a theory-status upgrade. It changes no original record, running job, budget, gear or wake schedule. Full findings, instrument ledger, queue, claim-ledger, index, operations and theory-return filing is completed here. No watcher event accompanies this direct curator answer.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate.; project meaning: scoped operational record; next engineering obligation: Authenticate source support first; implement only the commissioned subject-matter primary and separate grammar control if the original source passes.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_TR2_RETURNING_RULING_20261115.md.
+
+### OPS-S15-W6-PREPARATION-20261115
+
+**Hypothesis.** Can the commissioned Week 6 program be prepared with preserved source evidence, explicit population rules and checked instruments while the existing campaign continues?
+
+**METHOD.** Inspect the supplied packet, preflight archive and three added theory handoffs; preserve original bytes and hashes. Review each commissioned builder's designs and code, authenticate completed constructed checks and source receipts, and retain unsuccessful attempts. Inspect actual native identities, shared leases, resources, progress and watcher delivery. Start a calendar-only process with registered milestone outputs, without admitting new research.
+
+**Found.** Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks.
+
+The packet and supplied preflight summary are preserved verbatim in the Week 6 design folder. All 35 ZIP members are retained with path/CRC checks and hashes in private intake; no supplied script was run merely because it arrived. Its numerical claims remain external, unverified reference evidence. The three subsequently supplied handoffs are read completely and preserved privately. Round 18 repeats the three reliability settings but does not resolve every source-specific estimator or the meaning of word classes. No theory passage, hypothesis status or curator quotation was changed by this intake.
+
+The approved addendum keeps genuinely experienced events primary and the all-report preflight a separately labelled reference. Exact imagined-event exclusions and linked validation exclusions remain counted; unasked truthfulness and neutral/no-emotion rows retain their declared handling. The new-card default is seed 20261107; the carried IN11/IN12 designs retain their original seed 20261113. Appraisal implementations have been corrected before human use. A late static audit identified LA6/DC1's earlier fixture seed 20261115; those cards require separately preserved seed-corrected successors before admission, without discarding earlier qualification. RW1's untested analysis draft is being corrected prospectively. The appraisal cards do not inherit CoAuthor timing's empirical-control bank merely by proximity in an older packet. This correction preserves applicable source-specific controls, the failed person instrument and genuine dependency holds.
+
+Each row below describes completed constructed work and its remaining admission boundary. Check counts overlap across retained reruns and are not a summed total of independent experiments. These are instrument checks, not human effect estimates.
+
+| Prepared component | Completed checks and retained evidence | Remaining boundary |
+|---|---|---|
+| IN13 profiles and text comparison; IN15 reader inference | Corrected-seed full 2,000-draw profile/null and replay cases; 27 IM1-boundary checks; 48 later reporting checks with unchanged nonreporting code | Owner admission and counted cost stage; IN13C still needs the actual prospective IM1 import |
+| IN14 carry-over and IN16 duration | Original known-answer checks plus 67 corrected reporting/seed checks | Source-specific admission and full fresh replay; person-level correction remains failed and held |
+| IN14 exact independent replay successor | All 22 frozen comparisons pass, including weighted writers, large means, near-rank cases and unchanged dense fallback | Human cost remains unmeasured; no reduced population or new estimator |
+| Carried IN11/IN12 reporting successors | Original complete fixture banks preserved; 28 new checks and AST comparison verify reporting-only changes | Counted Week 5 source/analysis admission under unchanged original ceilings, or reviewed carry-forward without resetting charges |
+| LA6 laughter and DC1 reward-choice comparison | 39 distinct earlier checks and 22 later label checks; the failed degenerate-bank attempt and repair remain preserved | Packet-seed successors, final source/design and cost admission; DC1 covariate timing needs explicit owner review |
+| RW1 source and marker intake | All nine new source/privacy/sample/seal/checkpoint checks pass; existing 15 marker checks retained | Full analysis is being built; actual 200-sentence independent annotations are not yet performed |
+| TR2 reliability scaffold | All 30 metadata, algebra, support, reporting and independent-replay checks pass | No production source adapter or source-specific noise qualification; lexical meaning choice remains pending |
+
+The .h1 replay uses raw-block Householder projection independently of the production normal equations. It uses a frozen sufficient rank bound only to choose the computation; an unproven bound invokes the unchanged dense oracle. All source, primary, seed, resampling, output-comparison and support rules are unchanged. This does not repair or retest the failed person-level covariance model.
+
+The original RW1 release was found in an existing local cache and copied with verified hashes into ignored corpus storage. The original source/licence provenance is preserved; a refused earlier download and its higher intake floor remain recorded. No floor was lowered. Its source selector uses constructed data, and no real annotations are invented. Full analysis will relearn opposite-half vocabularies within whole-person resamples; prospective implementation and actual annotation qualification remain unfinished.
+
+**Cost accounting.** The corrected IN13C and full-seed runs measured 64.375 and 180.390625 whole-job CPU seconds; the later label selector measured 3.5625. The reporting checks for IN14/16 used 5.46875, carried IN11/12 used 2.09375, .h1 used 2.96875, RW1 source used 2.25 and TR2 used 1.28125 whole-job CPU seconds. All owned native test jobs exited with no active descendants. These are invocation costs, not human-run forecasts or complete preparation costs. Earlier attempts remain in their exact receipts. The first six builder-C receipts have incomplete descendant metering: 34.7928702 wall seconds across a 24-logical-processor host give an 836-second conservative envelope, not a measured CPU total. Its separate 300-second editing allowance is a proposed reserve, not a measurement. Builder A proposes conservative preparation reserves of 6,400 and 1,800 seconds for IN13 and IN15; these include earlier work and must not be added again as new actual usage. Carried IN11/IN12 retain historical fixture envelopes of 616 and 4,656 seconds plus the shared 62.09375-second refresh/reserve, charged once to the family and conservatively reserved against each card. Admission must reconcile every prior attempt and preparation allowance.
+
+**Live work and calendar.** The 12:25 UTC native snapshot confirms original-roster chess scoring alive with exact pins and fresh budget progress, plus a separately owned ToMpathy shared-slot job. Neither was restarted or cleaned up. The snapshot records 40.074 GiB available physical memory, 14.628 GiB commit headroom and 35.372 GiB disk headroom. Week 5 and Week 6 calendars are alive. Watcher error is null and delivery is healthy. The Week 6 calendar has ten registered milestone outputs, beginning with review after November 15 at 22:00 Pacific and ending with the approved November 22 freeze/drain/addendum. It dispatches no research. The event/four-hour-inactivity/single-pending policy is unchanged. Three builder delivery markers are registered and reviewed as work deliveries, not automatic scientific verdicts.
+
+The ready-buffer deficit remains explicit: the reviewed candidates still require committed designs and actual admission; six shared slots were idle at this snapshot. The cause is incomplete source/model/cost admission and, for new Week 6 studies, the approved predecessor-drain gate. Applicable carried Week 5 cards are being prepared for admission now. No idle-hour total is inferred from one snapshot. The separately filed runtime qualification covers initial original-ceiling starts; the explicit S4/L(b) extension route remains a versioned implementation task. No GPU, paid call, companion publication or new research scope is introduced.
+
+The full findings, instrument ledger, queue, claim ledger, index, operations, theory-return and navigation write-through precedes the two builder-delivery acknowledgements. Scientific results remain for the final curator packet; no unfinished per-artifact scores are reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks.; project meaning: scoped operational record; next engineering obligation: Admit the reviewed carried cards within original bounds; complete remaining source-specific models and annotations; preserve the actual Week5 drain gate for new Week6 research.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_PREPARATION_20261115.md.
+
+### OPS-S15-W6-RUNTIME-QUALIFICATION-20261115
+
+**Hypothesis.** Can a separate Week 6 runtime enforce the approved campaign transition, preserve accounting across continuations and stop at resource limits without changing live Week 5 work?
+
+**METHOD.** Run constructed policy boundaries and real Windows child execute/verify processes, contained in kill-on-close native jobs with two numerical threads. Use literal known-answer data and synthetic predecessor-drain evidence in isolated fixture roots. Exercise shared slot leases, budget revision checks, exact source pins, cooperative execute and verification checkpoints, final output size and a resource-triggered yield. No human source is read by these tests.
+
+**Found.** The new Week 6 runtime passes its completed native boundary checks after a final-output byte-cap repair; Week 5 live code remains unchanged.
+
+The first policy suite passed all 27 checks. Extending it to native end-to-end cases produced 30 passes and one retained failure: a child could finish an oversized write between periodic checks. A new final byte-cap check now runs after child exit and before success or pause is sealed. The repaired suite passed all 31 checks. One subsequently added native resource-triggered yield check also passed. Thus 32 distinct checks have completed; overlapping reruns are not counted as new checks. The failed output, source bytes, native process identities and all four receipts remain preserved.
+
+All owned test processes exited, their native jobs reported zero active children, and no owned survivors were observed. Total measured process-family CPU across the four invocations was 16.59375 seconds; this is runtime qualification cost, not a human card estimate or a claim that editing overhead was measured. The runtime source pins in the repaired full suite still match; only the test and fixture gained the final resource-yield case. Old policy, runtime, resume, child and launcher pins remain unchanged.
+
+The implementation binds immutable budget revisions to each plan, preserves original card ceilings and prior-campaign charges, charges cumulative preparation once, shares eight CPU-only slots, and enforces the approved family and campaign totals. Week 6 admission requires actual Week 5 terminal/native/lease reconciliation and the filed drain receipt after the approved start time. A timestamp alone cannot open the campaign. The calendar emits milestone inspection events only; it neither admits research nor changes the event/four-hour/single-pending wake policy.
+
+**Limits and next work.** These are completed runtime checks on constructed jobs, not evidence that a new human card is admitted or that the production Week 5 drain has happened. The initial runtime supports original-ceiling admissions; an explicit, tested budget-revision route for the standing S4 doubling and amendment L(b) idle-slot family continuation remains to be completed before either route is used. That implementation gap does not revoke those standing authorizations or turn a cost overrun into a scientific failure. Every scientific card still needs owner-reviewed source/design/fixture pins and its counted first cost stage.
+
+No scientific hypothesis, p-value, theory standing or private source is changed. Full findings, instrument ledger, queue, claim ledger, index, operations and theory-return filing is completed here; there is no watcher event to acknowledge for this local qualification.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The new Week 6 runtime passes its completed native boundary checks after a final-output byte-cap repair; Week 5 live code remains unchanged.; project meaning: scoped operational record; next engineering obligation: Finish reviewed card plans and cost accounting, qualify the standing budget-extension route, and reconcile the actual predecessor drain before Week 6 admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_RUNTIME_QUALIFICATION_20261115.md.
+
+### OPS-S15-W6-IN14-PERSON-CALIBRATION-20261115
+
+**Hypothesis.** Can shared-survey sampling covariance be removed well enough to
+recover differences among writers' carry-over coefficients?
+
+**METHOD.** Freeze the candidate and all gates in
+[the prospective design](docs/design/stage-15/week6/IN14_PERSON_CALIBRATION_V1.md), then run nine complete
+whole-survey worlds: 600 writers per world, balanced 4/8/12 pairs, three planted
+half correlations and three fixed noise families. Correct full and half
+coefficient moments with their joint fitted AR(1)-by-feeling sampling covariance.
+Check the complete matrix calculation against an independent dense reference,
+and test shared boundaries, missing raw pair positions, rank refusal and the
+hand-known correction. No human source outcome was read or computed.
+
+**Found.** The proposed IN14 person-level reliability correction failed its completed constructed qualification; that secondary remains instrument-held.
+
+**Completed constructed evidence.** The candidate fails three fixed correlation gates. All nine adjusted
+trait relations meet their separate gate, but passing that component does not
+admit an instrument whose joint gate failed. No ratio is clipped and no world
+is removed. The person secondary remains instrument-held. No further sweep ran.
+
+Each row below is one complete constructed world. The plant and recovered
+values are left/right half-coefficient correlations. The trait column is the
+attenuation-adjusted coefficient/N relation, whose plant is 0.4 in every row.
+Both tolerances are 0.1; the final column requires both gates to pass.
+
+| Survey noise family | Half plant | Recovered half correlation | Adjusted trait relation | Both gates |
+|---|---:|---:|---:|---|
+| IID recurrence innovations | 0 | 0.006911 | 0.429099 | pass |
+| IID recurrence innovations | 0.5 | 0.486117 | 0.420043 | pass |
+| IID recurrence innovations | 1 | 0.994139 | 0.393725 | pass |
+| AR(1)=0.4 recurrence innovations | 0 | 0.079664 | 0.437229 | pass |
+| AR(1)=0.4 recurrence innovations | 0.5 | 0.641803 | 0.359760 | fail |
+| AR(1)=0.4 recurrence innovations | 1 | 0.997999 | 0.402792 | pass |
+| Independent survey measurement noise | 0 | -0.196053 | 0.415863 | fail |
+| Independent survey measurement noise | 0.5 | 0.451144 | 0.382774 | pass |
+| Independent survey measurement noise | 1 | 1.122817 | 0.363668 | fail |
+
+## Read-only diagnosis and limits
+
+The dense independent coefficient/covariance reference agreed within the frozen
+1e-8 tolerance, and the hand-known shared-boundary correction passed. All 24
+other checks, including the existing IN14/IN16 checks, passed. The failing check
+is recovery by the proposed statistical model, not an exception, timeout,
+rank-refusal accident, dropped world or failed independent matrix calculation.
+No implementation error has been identified; these checks do not prove its
+absence outside their constructed coverage.
+
+The AR(1) family estimates pooled residual phi near 0.186 to 0.193 despite
+innovation phi 0.4. The measurement-noise family estimates phi near -0.066 to
+-0.076. Those are fitted residual parameters, not direct estimates of raw
+innovation correlation: short fitted trajectories and regressors affect them.
+The hostile family has residual eta[t+1] - 0.6 eta[t], with a different covariance
+shape from AR(1), and its baseline contains eta[t]. The conditional covariance
+model does not model that baseline-error relation. These are concrete violated
+or unverified model assumptions consistent with the failed recovery; the
+aggregate report cannot apportion the error among them. It is therefore not
+justified to repair this by choosing a different phi bound or another lag after
+seeing the numbers. No replacement estimator is proposed or implemented here.
+A replacement would require a separately named prospective design retaining
+these hostile worlds and explaining its estimand and baseline-error assumptions.
+
+This failure is confined to the corrected person candidate. The primary,
+decay, shape, dose, same-valence reach and IN16 formula checks retain their own
+constructed evidence. The earlier blanket empirical-control hold was withdrawn after the owner
+identified Week 5 section 0.6's CoAuthor-specific scope; the
+[scope correction](docs/design/stage-15/week6/IN14_IN16_CONTROLS_V1.md) preserves that history. Ordinary
+owner review and the Q/U/AA admission requirements remain. These constructed worlds do
+not measure human carry-over, human trait relations or human sensitivity.
+
+## Auditable run
+
+- Pre-run source pins: `.agent-state/week6-builder-b/person-tests-20261115T104234Z-before.json`.
+- Receipt: `.agent-state/week6-builder-b/person-tests-20261115T104234Z.json`,
+  SHA-256 `83d93210f01cfd61125d94bb45f11735dd78cff91b04830fb751d9d3417d98e4`.
+- Complete nine-world report: sibling `person-tests-20261115T104234Z-calibration.json`,
+  SHA-256 `d55b742b66e69710e2bd7555d3836a884214664ea530618b549d10e661a54fcd`.
+- Captured pytest output: sibling `.stdout.txt`; empty `.stderr.txt` retained.
+- Command: declared venv Python, pytest on `tests/test_week6_in14_in16_v1.py`
+  and `tests/test_week6_in14_person_v1.py`, `-q -p no:cacheprovider`, unique
+  basetemp `.agent-state/week6-builder-b/person-pytest-20261115T104234Z`.
+- Exit 1 at the preserved frozen qualification assertion; 24 other checks pass.
+  Source pins unchanged during execution. Two numerical threads.
+- Native Windows Job Object contains the suspended launcher before resume and
+  all descendants. 180-second complete-tree deadline; no timeout. All four job
+  processes exited, active count zero, no observed owned survivors after close.
+- Whole-job CPU 28.1875 seconds; wall 29.8936935 seconds; peak job commit
+  299,732,992 bytes; peak observed aggregate tree RSS 225,021,952 bytes.
+
+These are fixture costs, not a forecast for 2,000 human resamples. They count
+with all prior attempts inside the card/family accounting. Parent owner receives
+this evidence for the full internal Week 6 write-through; no live pinned source,
+runtime or companion repository was changed by this qualification.
+
+This is pre-campaign Week 6 instrument preparation, filed with the currently active operational evidence. It does not change any human claim, the separate primary analysis, or a theory row. All failed and successful worlds and their costs remain in the record. No p-value or new hypothesis is introduced. The full findings, tools, queue, ledger, index, operations and theory-return write-through is complete in this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The proposed IN14 person-level reliability correction failed its completed constructed qualification; that secondary remains instrument-held.; project meaning: scoped operational record; next engineering obligation: Retain the failed person instrument; any replacement needs a separately frozen model and all hostile worlds. Review independent primary cards in packet order.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_IN14_PERSON_CALIBRATION_20261115.md.
+
+### OPS-S15-W5-EX5-COMPLETE-20261115
+
+**Hypothesis.** Can the engine receive the exact commissioned question-and-chosen-answer benchmark, with independently verified selection, exclusions, attribution and local-only provenance?
+
+**METHOD.** Scan every original pinned source with ElementTree for execution and Expat in a fresh native process for verification. Reconstruct the entire selection and all exported fields independently. Authenticate all 134 plan pins, all 82 completion-bound output files, native identities, descendant CPU accounting and lease release. Inspect the four-file export schema and copy it exclusively to the authorized ignored local destination, then compare every copied hash.
+
+**Found.** The complete EX5 question export and independent source replay are verified, fully filed and copied with matching hashes to the authorized ignored local engine destination.
+
+The export contains exactly 2,000 questions, 400 each from writers, philosophy, academia, worldbuilding and english. Every question has 3–8 actual answer records and exactly one known accepted answer from someone other than the asker. Unknown ownership is excluded and counted. Selection uses the frozen lowest source-row hashes and never score or posting order. Exported question bodies meet the original 80–600-word rule; code-block replacement, source ordering and public attribution links retain their declared semantics. No user or profile fields enter the export. The aggregate receipt retains all site-specific exclusions and eligible counts.
+
+All four bundle files match the independently reconstructed files byte for byte. The copied payload totals 17,258,808 bytes and retains its CC BY-SA 3.0 notice, attribution URLs and transformation description. It is stored only in ToMpathy's git-ignored `.local/bench/EX5/`. Recipient tracked files were not changed; no recipient commit, push or provider transfer occurred. Copy verification is not a claim that the engine has consumed or validated the benchmark in its own task.
+
+Execution and fresh verification used 201.6875 and 198.515625 CPU seconds respectively, with exited descendants included. Both exited successfully, all native identities are stopped and the counted lease is released. Including the earlier prefix, both supervisor allowances and the conservative reserve for both retained fixture attempts, the complete card charge is 988.90625 CPU seconds against the original 20,000-second ceiling. The original failed XML fixture serialization attempt remains preserved; no result or failed attempt was deleted or repaired in place.
+
+The source receipt and all support/exclusion counts are complete. This is an operational export, not a scientific effect or model qualification. Original-roster chess scoring continues in CPU-only Gear 2. Week 6 preparation continues under the approved bounds; its start remains gated on actual Week 5 final drain. Full findings, instrument, queue, claim-ledger, index, operations, theory-return and navigation updates precede acknowledgement. No theory status or p-value changes; no additional hypothesis harvested. Event delivery, four-hour owner inactivity and one pending wake remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete EX5 question export and independent source replay are verified, fully filed and copied with matching hashes to the authorized ignored local engine destination.; project meaning: scoped operational record; next engineering obligation: Engine owner may consume the verified local benchmark; continue Week6 preparation and original Week5 drain obligations.; public scientific claim unchanged; curator decision required: No new decision. Detail: EX5_COMPLETE_20261115.md.
+
+### OPS-S15-W5-EX5-SOURCE-PREFIX-20261115
+
+**Hypothesis.** Can the local question-export build pause at a bounded source checkpoint and resume the original source and selection rules without losing evidence or resetting its cost allowance?
+
+**METHOD.** Authenticate every frozen input and implementation pin, all checkpoint files and the stopped native execution identity. Check exited-descendant accounting, resource headroom, lease release and the unchanged resume semantics. Retain the complete constructed qualification and both fixture attempts, then admit a separate continuation with the original source roster, selection, export format and independent fresh-source replay.
+
+**Found.** The EX5 source prefix is authenticated and filed; its unchanged full-source continuation is admitted within the original allowance in CPU-only Gear 2.
+
+The first byte quantum read 73,501,986 of 1,460,847,138 original source bytes, meeting the first-five-percent pilot requirement. It ended normally at the producer checkpoint. This is an incomplete source build, not a completed export or scientific finding. Independent whole-source verification has not completed, and no recipient copy is licensed by this checkpoint. The cost-prefix file excludes setup and replay; admission instead uses the terminal all-descendant usage of 33.703125 CPU seconds and retains the separate 30-second supervisor allowance.
+
+All 3 checkpoint files authenticate, including the closed SQLite database. Native execution and supervisor exits and released lease are verified. No raw output was repaired or removed. The retained constructed qualification covers exact 2,000-question output, fresh independent parsing/replay, shortage and mutation refusal. The earlier XML fixture serialization failure remains preserved; its corrected fixture changed serialization only, with the production selection unchanged.
+
+The original card ceiling is 20,000 CPU seconds, inclusive of all attempts and verification. Both fixture attempts retain a conservative 495-second reserve because their sampled process counters are lower bounds. After the prefix, its supervisor and the next supervisor, the continuation worker has a hard cap of 19,411.296875 seconds. A linear byte-rate calculation prices a full execute plus replay at approximately 1339.7 seconds; the admitted forecast is 5,000 seconds to allow additional setup, selection and authentication. Selection and full replay remain unmeasured, so this forecast is not a guarantee. The original family ceiling and campaign freeze remain enforced. Operational byte/wall quanta are increased; scientific inputs and selection semantics are identical.
+
+The successor retains two numerical threads, the two-GiB projected peak, the original output-byte cap and the runtime's physical-memory, commit-memory and disk guards. Its plan is edce73dbc5c4d280df3859fc1cefb96b68cbdb6148ef8e3b7fcd090e3328e2de. A contemporaneous native liveness snapshot is retained at 2026-11-15T10:21:53.318681+00:00; it records both the export continuation and original-roster chess scorer, terminal state, resource headroom and watcher delivery health. All lock checks pass. No existing worker was restarted to refresh monitoring.
+
+**Meaning and next work.** Complete the original source build and fresh independent replay before accepting the exact export or copying the authorized local bundle. Short source support would remain unsupported, never a silently smaller EX5 export. Week 6 preparation proceeds under the approved addendum, but its new campaign cannot start before verified Week 5 drain. The initial source artifacts and supplied preflight numbers do not become scientific verdicts through this filing.
+
+The full findings, tools, queue, ledger, index, operations and theory-return write-through precedes event acknowledgement. No theory status or p-value changes. No additional hypothesis was harvested from this operational checkpoint. GPU, Ollama and paid work remain off; events, four hours of owner inactivity and one pending wake remain unchanged. Scientific results remain for the final curator packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The EX5 source prefix is authenticated and filed; its unchanged full-source continuation is admitted within the original allowance in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Complete original source build and independent replay before EX5 local export acceptance; prepare Week6 without advancing its approved start gate.; public scientific claim unchanged; curator decision required: No new decision. Detail: EX5_SOURCE_PREFIX_20261115.md.
+
 ### OPS-S15-W5-CH1-N-INTERVAL2-COMPLETE-20261115
 
 **Hypothesis.** Can the long scoring queue close an authenticated interval, retain every original position and its independent engine replay, and continue at the first unscored ordinal without treating a partial roster as a complete study?

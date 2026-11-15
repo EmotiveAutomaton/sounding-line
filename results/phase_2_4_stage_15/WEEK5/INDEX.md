@@ -1,5 +1,17 @@
 # Week 5 verified records
 
+**OPS-S15-W6-TR2-RETURNING-RULING-20261115:** [Record](WEEK6_TR2_RETURNING_RULING_20261115.md). The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate.
+
+**OPS-S15-W6-PREPARATION-20261115:** [Record](WEEK6_PREPARATION_20261115.md). Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks.
+
+**OPS-S15-W6-RUNTIME-QUALIFICATION-20261115:** [Record](WEEK6_RUNTIME_QUALIFICATION_20261115.md). The new Week 6 runtime passes its completed native boundary checks after a final-output byte-cap repair; Week 5 live code remains unchanged.
+
+**OPS-S15-W6-IN14-PERSON-CALIBRATION-20261115:** [Record](WEEK6_IN14_PERSON_CALIBRATION_20261115.md). The proposed IN14 person-level reliability correction failed its completed constructed qualification; that secondary remains instrument-held.
+
+**OPS-S15-W5-EX5-COMPLETE-20261115:** [Record](EX5_COMPLETE_20261115.md). The complete EX5 question export and independent source replay are verified, fully filed and copied with matching hashes to the authorized ignored local engine destination.
+
+**OPS-S15-W5-EX5-SOURCE-PREFIX-20261115:** [Record](EX5_SOURCE_PREFIX_20261115.md). The EX5 source prefix is authenticated and filed; its unchanged full-source continuation is admitted within the original allowance in CPU-only Gear 2.
+
 **OPS-S15-W5-CH1-N-INTERVAL2-COMPLETE-20261115:** [Record](CH1_N_INTERVAL2_COMPLETE_20261115.md). The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2.
 
 **OPS-S15-W5-DIGEST-20261114:** [Record](DIGEST_20261114.md). The November 14 reconciliation authenticates completed records and unchanged theory errata; original-roster scoring continues in CPU-only Gear 2, with production admissions and the ready-buffer deficit still open.

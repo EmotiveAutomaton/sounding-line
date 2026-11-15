@@ -1,0 +1,17 @@
+# WEEK6 RUNTIME QUALIFICATION 20261115
+
+**Hypothesis.** Can a separate Week 6 runtime enforce the approved campaign transition, preserve accounting across continuations and stop at resource limits without changing live Week 5 work?
+
+**METHOD.** Run constructed policy boundaries and real Windows child execute/verify processes, contained in kill-on-close native jobs with two numerical threads. Use literal known-answer data and synthetic predecessor-drain evidence in isolated fixture roots. Exercise shared slot leases, budget revision checks, exact source pins, cooperative execute and verification checkpoints, final output size and a resource-triggered yield. No human source is read by these tests.
+
+**Found.** The new Week 6 runtime passes its completed native boundary checks after a final-output byte-cap repair; Week 5 live code remains unchanged.
+
+The first policy suite passed all 27 checks. Extending it to native end-to-end cases produced 30 passes and one retained failure: a child could finish an oversized write between periodic checks. A new final byte-cap check now runs after child exit and before success or pause is sealed. The repaired suite passed all 31 checks. One subsequently added native resource-triggered yield check also passed. Thus 32 distinct checks have completed; overlapping reruns are not counted as new checks. The failed output, source bytes, native process identities and all four receipts remain preserved.
+
+All owned test processes exited, their native jobs reported zero active children, and no owned survivors were observed. Total measured process-family CPU across the four invocations was 16.59375 seconds; this is runtime qualification cost, not a human card estimate or a claim that editing overhead was measured. The runtime source pins in the repaired full suite still match; only the test and fixture gained the final resource-yield case. Old policy, runtime, resume, child and launcher pins remain unchanged.
+
+The implementation binds immutable budget revisions to each plan, preserves original card ceilings and prior-campaign charges, charges cumulative preparation once, shares eight CPU-only slots, and enforces the approved family and campaign totals. Week 6 admission requires actual Week 5 terminal/native/lease reconciliation and the filed drain receipt after the approved start time. A timestamp alone cannot open the campaign. The calendar emits milestone inspection events only; it neither admits research nor changes the event/four-hour/single-pending wake policy.
+
+**Limits and next work.** These are completed runtime checks on constructed jobs, not evidence that a new human card is admitted or that the production Week 5 drain has happened. The initial runtime supports original-ceiling admissions; an explicit, tested budget-revision route for the standing S4 doubling and amendment L(b) idle-slot family continuation remains to be completed before either route is used. That implementation gap does not revoke those standing authorizations or turn a cost overrun into a scientific failure. Every scientific card still needs owner-reviewed source/design/fixture pins and its counted first cost stage.
+
+No scientific hypothesis, p-value, theory standing or private source is changed. Full findings, instrument ledger, queue, claim ledger, index, operations and theory-return filing is completed here; there is no watcher event to acknowledge for this local qualification.

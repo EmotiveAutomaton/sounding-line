@@ -1,5 +1,31 @@
 # TODO: the study queue
 
+- [x] TR2 returning meaning resolved by curator: prompt-residual subject matter; grammar is the separate control.
+- [ ] TR2 returning: authenticate the original source against the hard 200-writer / two-prompt / 150-content-word floor before any category fit. Failed support is unsupported; do not expand or substitute the roster. Earlier pending lexical-question bullets are superseded by this ruling.
+
+- [x] OPS-S15-W6-TR2-RETURNING-RULING-20261115: The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate.
+
+- [ ] Week6 remaining: IM1 actual import for IN13C; failed IN14 person model; full RW1 analysis and genuine paired annotations; source-specific TR2 mappings/noise models and lexical meaning decision; DC1 timing review; reviewed source/cost plans and actual predecessor drain.
+- [x] Week6 calendar-only native process and ten milestone events registered; source/preflight/handoff evidence preserved; completed constructed checks fully filed.
+
+- [x] OPS-S15-W6-PREPARATION-20261115: Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks.
+
+- [ ] Week6 budget extension: implement and qualify explicit S4 doubling and amendment L(b) idle-slot family continuation without resetting original charges. Initial original-ceiling admissions remain separately qualified.
+
+- [x] OPS-S15-W6-RUNTIME-QUALIFICATION-20261115: The new Week 6 runtime passes its completed native boundary checks after a final-output byte-cap repair; Week 5 live code remains unchanged.
+
+- [ ] IN14 person secondary remains held on failed covariance-aware qualification; preserve all nine worlds and require a separately frozen replacement before use.
+
+- [x] OPS-S15-W6-IN14-PERSON-CALIBRATION-20261115: The proposed IN14 person-level reliability correction failed its completed constructed qualification; that secondary remains instrument-held.
+
+- [x] OPS-S15-W5-EX5-COMPLETE-20261115: The complete EX5 question export and independent source replay are verified, fully filed and copied with matching hashes to the authorized ignored local engine destination.
+
+- [x] EX5 first source quantum authenticated, charged and continued unchanged.
+- [x] EX5 complete original-source build, full independent replay and authorized hash-verified local ToMpathy copy.
+- [ ] Week6 versioned campaign, reviewed new-card plans and source qualification; start only after actual Week5 drain under approved bounds.
+
+- [x] OPS-S15-W5-EX5-SOURCE-PREFIX-20261115: The EX5 source prefix is authenticated and filed; its unchanged full-source continuation is admitted within the original allowance in CPU-only Gear 2.
+
 - [ ] CH1-N third interval from original ordinal 104064 is active; full 398065-position coverage and downstream collection remain required.
 
 - [x] OPS-S15-W5-CH1-N-INTERVAL2-COMPLETE-20261115: The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2.

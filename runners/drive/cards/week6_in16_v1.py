@@ -1,0 +1,8 @@
+"""IN16 Week 6 entry point. DESIGN CHECK: full contract in IN16_V1.md."""
+from . import week6_in14_in16_run_v1 as run
+
+def execute(output,inputs,config):
+    return run.execute('IN16',output,inputs,config)
+
+def verify(output,inputs,config):
+    return run.verify('IN16',output,inputs,config)

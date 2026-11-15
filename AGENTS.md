@@ -13,7 +13,17 @@ models, interpreting unfinished cells, or changing the current gear. Never conta
 locked research files, adapters, and process ownership are separate from that choice.
 Read `docs/CODEX_OPERATIONS.md` for hooks, watcher health, session ownership, and rollback.
 
-**Current packet, curator instruction November 13:** implement
+**Week 6 preparation, curator instruction November 15:** implement
+`docs/design/stage-15/week6/PACKET.md` with its approved `EXECUTION_ADDENDUM.md`.
+The new campaign starts after actual Week 5 drain reconciliation. Preserve all
+live Week 5 pins, clocks and final-packet obligations. EX5 is first, then the
+packet's appraisal-table review order; the three commissioned builders prepare
+the new cards. The addendum fixes Week 6 dates and ceilings and distinguishes
+qualified-event primaries from the separately labelled all-report preflight
+reference. New runtime admission requires its own verified transition. No
+theory text changes merely on packet arrival. Wake policy remains unchanged.
+
+**Current running packet, curator instruction November 13:** implement
 `docs/design/stage-15/week5/PACKET_TWO_DAY.md`, preserving its source and the
 back-half packet. Its sections 2 and 4 add table-card admission, packet fixtures,
 the activation log and a fixed review order with three explicitly commissioned

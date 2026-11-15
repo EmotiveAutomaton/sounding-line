@@ -1,0 +1,16 @@
+{
+  "status": "prepared templates; owner must pin and admit before execution",
+  "family": "IN",
+  "shared_card_CPU_ceiling_seconds": 20000,
+  "family_CPU_ceiling_seconds": 200000,
+  "numerical_threads": 2,
+  "admission_basis": "Q/AA committed design and passing fixture; owner pins/review; cost probe inside first counted stage; no separate qualification campaign",
+  "output_policy": "new ignored private native run directory; no companion writes",
+  "production_inputs_required": ["complete original IN source_run and all sealed inputs", "all implementation dependencies pinned", "current Week 6 runtime/lease/resource admission"],
+  "plans": [
+    {"module": "runners.drive.cards.week6_in13_v1", "inputs": {"source_run": "OWNER_BIND_COMPLETE_ORIGINAL_IN_SOURCE"}, "config": {"phase": "IN13A", "scope": "qualified_real_events", "draws": 2000, "max_new_draws": 100, "max_wall_seconds": 900}},
+    {"module": "runners.drive.cards.week6_in13_v1", "inputs": {"source_run": "OWNER_BIND_COMPLETE_ORIGINAL_IN_SOURCE"}, "config": {"phase": "IN13B", "scope": "qualified_real_events", "draws": 2000, "max_new_draws": 100, "max_wall_seconds": 900}},
+    {"module": "runners.drive.cards.week6_in13_v1", "record_kind": "run", "inputs": {"source_run": "OWNER_BIND_COMPLETE_ORIGINAL_IN_SOURCE"}, "config": {"phase": "IN13B", "scope": "analyst_all6600", "draws": 2000, "max_new_draws": 100, "max_wall_seconds": 900}},
+    {"module": "runners.drive.cards.week6_in13_v1", "hold": "Actual IM1-v2 complete source and scale pins, prospective primary-coder choice and ordinary owner review; constructed import-boundary fixture passed", "inputs": {"source_run": "OWNER_BIND_COMPLETE_ORIGINAL_IN_SOURCE", "im1_manifest": "OWNER_BIND_DOCS_EXCHANGE_IM1_MANIFEST", "im1_manifest_sha256": "OWNER_BIND_EXACT_MANIFEST_SHA256", "im1_choice_manifest": "OWNER_BIND_PROSPECTIVE_PRIMARY_CHOICE_MANIFEST", "im1_choice_manifest_sha256": "OWNER_BIND_EXACT_CHOICE_SHA256"}, "config": {"phase": "IN13C", "scope": "qualified_real_events", "im1_primary_coder": null, "draws": 2000, "max_new_draws": 100, "max_wall_seconds": 900}}
+  ]
+}
