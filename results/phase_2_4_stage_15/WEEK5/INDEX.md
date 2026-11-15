@@ -1,5 +1,9 @@
 # Week 5 verified records
 
+**OPS-S15-W6-BUILD-READINESS-20261115:** [Record](WEEK6_BUILD_READINESS_20261115.md). All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.
+
+**OPS-S15-W5-REBOOT-RECOVERY-20261115:** [Record](REBOOT_RECOVERY_20261115.md). Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch.
+
 **OPS-S15-W6-ROOT-FILING-20261115:** [Record](ROOT_FILING_HEALTH_20261115.md). Ten duplicate incoming sources are filed with verified hashes; original-roster chess scoring and event-driven monitoring remain healthy in CPU-only Gear 2.
 
 **S15-W5-IN12-COMPLETE-20261115:** [Record](IN12_COMPLETE_20261115.md). The two-item distress score has a positive association with negative-prompt intensity inside the registered small-effect band; this does not identify a common biological channel.

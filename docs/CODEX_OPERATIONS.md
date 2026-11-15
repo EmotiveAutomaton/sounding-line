@@ -1,5 +1,10 @@
 # Codex operations
 
+## November 15 reboot recovery
+
+The [filed recovery](../results/phase_2_4_stage_15/WEEK5/REBOOT_RECOVERY_20261115.md) preserves the failed chess attempt and authenticates its sealed prefix before a fresh bounded successor. Current calendar pointers identify the two restored services; the exited empty dispatcher is retired. The watcher uses the verified installed executable after its historical path disappeared. No wake cadence or scientific gate changed. Legacy AT/BK admission refuses the later-changed historical policy pin; use an explicit reviewed migration, never rewrite old evidence or bypass the byte check.
+
+
 ## Current wake policy: events and four hours of inactivity
 
 The curator's November 8 instruction replaces hourly build wakes and fixed

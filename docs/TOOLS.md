@@ -2656,6 +2656,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-BUILD-READINESS-20261115:** All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_BUILD_READINESS_20261115.md).
+
+**OPS-S15-W5-REBOOT-RECOVERY-20261115:** Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch. [Record](../results/phase_2_4_stage_15/WEEK5/REBOOT_RECOVERY_20261115.md).
+
 **OPS-S15-W6-ROOT-FILING-20261115:** Ten duplicate incoming sources are filed with verified hashes; original-roster chess scoring and event-driven monitoring remain healthy in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/ROOT_FILING_HEALTH_20261115.md).
 
 **S15-W5-IN12-COMPLETE-20261115:** Original weighted-row replay and the additive component replay are complete; all original draws and source pins remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/IN12_COMPLETE_20261115.md).

@@ -1,5 +1,12 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-BUILD-READINESS-20261115: All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.
+
+- [ ] OPS-S15-W5-LEGACY-POLICY-MIGRATION-20261115: Authenticate the archived policy-only change and qualify an explicit continuation/admission migration before resuming comparison recovery19 or original reader128; never rewrite old pins or receipts.
+- [ ] OPS-S15-W5-CH-PREFIX-ASSEMBLY-20261115: Include the authenticated 292-unit prefix from failed queue3 in the eventual source-coverage assembly, without inventing a whole-queue completion.
+
+- [x] OPS-S15-W5-REBOOT-RECOVERY-20261115: Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch.
+
 - [x] OPS-S15-W6-ROOT-FILING-20261115: Ten duplicate incoming sources are filed with verified hashes; original-roster chess scoring and event-driven monitoring remain healthy in CPU-only Gear 2.
 
 - [x] S15-W5-IN12-COMPLETE-20261115: The two-item distress score has a positive association with negative-prompt intensity inside the registered small-effect band; this does not identify a common biological channel.

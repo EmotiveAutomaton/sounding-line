@@ -1553,3 +1553,11 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-15T16:02:16.829598+00:00 S15-W5-IN12-COMPLETE-20261115: The two-item distress score has a positive association with negative-prompt intensity inside the registered small-effect band; this does not identify a common biological channel.
 
 2026-11-15T16:16:35.924619+00:00 OPS-S15-W6-ROOT-FILING-20261115: Ten duplicate incoming sources are filed with verified hashes; original-roster chess scoring and event-driven monitoring remain healthy in CPU-only Gear 2.
+
+2026-11-15T19:32:57.767004+00:00 OPS-S15-W5-REBOOT-RECOVERY-20261115: Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch.
+
+2026-11-15T19:33:34.733988+00:00 Recovery utilization: one Sounding Line worker plus one existing companion lease; six shared slots idle at inspection. No staged admissible Sounding Line work is skipped: legacy AT/BK refuse a changed policy pin; new Week 6 production awaits actual drain. Three commissioned builder queues were restarted after an app-session interruption; final delivery and remaining-gate review are recorded separately. No idle interval is hidden or converted into scientific completion.
+
+2026-11-15T19:38:25.698093+00:00 OPS-S15-W6-BUILD-READINESS-20261115: All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.
+
+2026-11-15T19:39:04.854780+00:00 Builder disposition: all three commissioned queues delivered their bounded metadata packages; zero remain active. Unfinished cards await owner design/budget/drain review, missing IM1/paired annotations or source-specific instrument qualification. Sixteen artifacts are not counted as sixteen ready cards. No redundant test or filler job was launched.

@@ -1,5 +1,9 @@
 # Round 12 theory return — Week 5 back half
 
+**Preparation reconciliation:** [OPS-S15-W6-BUILD-READINESS-20261115](WEEK6_BUILD_READINESS_20261115.md). All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit. This is an operational record and changes no scientific claim.
+
+**Operational recovery:** [OPS-S15-W5-REBOOT-RECOVERY-20261115](REBOOT_RECOVERY_20261115.md). Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch. Scientific claims are unchanged.
+
 **Completed scoped association:** [S15-W5-IN12-COMPLETE-20261115](IN12_COMPLETE_20261115.md). The two-item distress score has a positive association with negative-prompt intensity inside the registered small-effect band; this does not identify a common biological channel.
 
 **Operational continuation:** [OPS-S15-W5-IN12-COMPONENT-PREFIX-20261115](IN12_COMPONENT_PREFIX_20261115.md). The additive personality-report prefix is authenticated and charged; its unchanged full reconstruction and independent replay are admitted.
