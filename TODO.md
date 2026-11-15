@@ -1,11 +1,26 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-IN11-IN12-ANALYSIS-PREFIX-20261115: The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2.
+
+- [x] Carried IN11/IN12 full source projections and fresh independent replays authenticated and filed.
+- [x] Carried IN11/IN12 first 100-draw cost stages authenticated, charged and continued under original inclusive limits.
+- [ ] Carried IN11/IN12: complete full inference and fresh independent replay; verification cost remains separately observed within the same cap.
+
+- [x] OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115: Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings.
+
+- [x] OPS-S15-W6-RW1-SEED-QUALIFICATION-20261115: The completed worry-analysis and corrected-seed successor checks pass; human studies still require source, annotation, budget and campaign admission.
+
+- [x] TR2 returning: original 61-writer upper bound authenticated; unsupported against hard 200-writer floor. Meaning primary and matched grammar control remain unrun; source substitutions are not authorized.
+- [ ] TR2 refusing/slowing: finish original-source mappings and source-specific measurement-noise qualification.
+
+- [x] OPS-S15-W6-TR2-RETURNING-UNSUPPORTED-20261115: Returning is unsupported on the original source: its 61 writers cannot meet the required 200-writer floor.
+
 - [x] TR2 returning meaning resolved by curator: prompt-residual subject matter; grammar is the separate control.
-- [ ] TR2 returning: authenticate the original source against the hard 200-writer / two-prompt / 150-content-word floor before any category fit. Failed support is unsupported; do not expand or substitute the roster. Earlier pending lexical-question bullets are superseded by this ruling.
+- [x] TR2 returning: original source authenticated; the hard writer floor fails before category fitting. Source substitutions and a lower floor remain unauthorized.
 
 - [x] OPS-S15-W6-TR2-RETURNING-RULING-20261115: The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate.
 
-- [ ] Week6 remaining: IM1 actual import for IN13C; failed IN14 person model; full RW1 analysis and genuine paired annotations; source-specific TR2 mappings/noise models and lexical meaning decision; DC1 timing review; reviewed source/cost plans and actual predecessor drain.
+- [ ] Week6 remaining: actual IM1 import for IN13C; failed IN14 person model; genuine paired RW1 annotations; source-specific TR2 refusing/slowing models; reviewed source/cost plans, budget-extension qualification and actual predecessor drain. RW1 constructed analysis, seed successors, DC1 conditional timing and returning support are filed.
 - [x] Week6 calendar-only native process and ten milestone events registered; source/preflight/handoff evidence preserved; completed constructed checks fully filed.
 
 - [x] OPS-S15-W6-PREPARATION-20261115: Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks.

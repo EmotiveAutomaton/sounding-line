@@ -1,5 +1,13 @@
 # Week 5 verified records
 
+**OPS-S15-W5-IN11-IN12-ANALYSIS-PREFIX-20261115:** [Record](IN11_IN12_ANALYSIS_PREFIX_20261115.md). The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2.
+
+**OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115:** [Record](IN11_IN12_SOURCE_COMPLETE_20261115.md). Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings.
+
+**OPS-S15-W6-RW1-SEED-QUALIFICATION-20261115:** [Record](WEEK6_RW1_SEED_QUALIFICATION_20261115.md). The completed worry-analysis and corrected-seed successor checks pass; human studies still require source, annotation, budget and campaign admission.
+
+**OPS-S15-W6-TR2-RETURNING-UNSUPPORTED-20261115:** [Record](WEEK6_TR2_RETURNING_UNSUPPORTED_20261115.md). Returning is unsupported on the original source: its 61 writers cannot meet the required 200-writer floor.
+
 **OPS-S15-W6-TR2-RETURNING-RULING-20261115:** [Record](WEEK6_TR2_RETURNING_RULING_20261115.md). The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate.
 
 **OPS-S15-W6-PREPARATION-20261115:** [Record](WEEK6_PREPARATION_20261115.md). Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks.

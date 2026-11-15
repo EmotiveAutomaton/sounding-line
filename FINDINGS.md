@@ -1,5 +1,107 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-IN11-IN12-ANALYSIS-PREFIX-20261115
+
+**Hypothesis.** Can the carried appraisal analyses proceed from authenticated first analysis quanta without dropping intended work, changing their statistics or resetting their costs?
+
+**METHOD.** Inspect the two complete 100-draw producer pauses, all checkpoint hashes, stopped native owners and whole-job CPU receipts. Preserve every scientific source, seed, parameter and checkpoint. Recompute inclusive remaining allowances and resume into fresh attempts through the existing v11 counted runtime, changing only the allowed work quantum. No point estimate, partial interval or scientific verdict is read for this operational decision.
+
+**Found.** The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2.
+
+The duration prefix used 5.1875 whole-job CPU-seconds; the two-item personality prefix used 7.796875. Each includes 100 of the intended 2,000 whole-writer draws and carries the same additional 30-second supervisor allowance. Both stopped normally at their producer quantum. Their complete sealed manifests match, native owners have exited and previous source/design/fixture pins remain intact. The next attempts preserve the full population, every original analysis panel, all resamples and fresh independent replay.
+
+Linear scaling of execution alone gives 103.75 and 155.9375 CPU-seconds respectively. Those are rough execution-stage projections, not full-program forecasts: these prefixes do not measure the independent row-level replay. The continuations therefore retain the original inclusive card caps and bounded 900-second producer quanta rather than treating unmeasured verification as free. Their remaining worker caps are 19,159.90625 and 15,113.40625 CPU-seconds. All source attempts, these two prefixes, failed historical fixtures, preparation reserves and per-attempt supervisor allowances remain debited. Shared preparation is counted once at family level; there is no new pilot or verification budget.
+
+Scientific interpretation waits for all intended work, full independent verification and complete write-through. No sampling, estimator change, lowered support floor, discarded failure or unfinished per-artifact score is introduced by this continuation. The two versioned reporting modules preserve the original statistics and original seed 20261113. The separately approved Week 6 campaign and its seed do not replace these carried Week 5 contracts.
+
+Original-roster chess scoring and the separately owned shared-slot process remain untouched. Terminal and disappearance outputs for both new attempts are registered with the durable watcher. Events plus four hours of actual owner inactivity, one pending wake, CPU-only Gear 2 and the original campaign cutoff remain unchanged. New Week 6 budget-extension code and source-specific reliability models are still under review; no unqualified Week 6 scientific job is launched.
+
+Full findings, tools, queue, ledger, index, operations, theory-return and generated-view filing precedes acknowledgement of both cost-stage events. This is a complete operational checkpoint record and contains no scientific result or p-value.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Complete the original analyses and full independent replay within cumulative caps; inspect terminal events before any scientific interpretation.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN11_IN12_ANALYSIS_PREFIX_20261115.md.
+
+### OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115
+
+**Hypothesis.** Can the original qualified appraisal source support the carried duration and two-item personality analyses without changing its population, source joins or accounting?
+
+**METHOD.** Authenticate the committed original designs, all fixture and reporting-successor pins, every source checkpoint, native ownership and all completion-bound files. Resume each stopped first source quantum into a new attempt with the same scientific configuration. Run complete independent source reconstruction in fresh native processes, then admit only the first counted analysis quantum under the original card/family limits.
+
+**Found.** Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings.
+
+Each original source projection preserves all 6,558 qualified reports across 2,374 writers. Duration remains an ordered reported category, not elapsed time. Its source accounting records 274 no-emotion reports, no missing duration and 2,737 eligible negative reports; these are source dispositions, not effect estimates. The two-item personality source has both required items for all 2,374 writers, with no missing or conflicting item status. It reads no demographic columns and exposes no individual personality record publicly.
+
+Each first quantum completed 330 whole writers and paused at the planned producer boundary. Its complete 660-file checkpoint manifest matched. The stopped native identity and exact predecessor bindings were authenticated before copying into a fresh continuation. Each continuation completed the entire source and a fresh independent reconstruction; all 9,556 completion-bound files authenticated, including all 9,502 output files. The independent full table and aggregate result comparison passed. The two earlier pauses remain preserved and charged; they are normal checkpoint transitions, not failed studies.
+
+The table below lists complete source attempts. CPU is whole native process-family time. Each attempt also incurs the unchanged 30-second supervisor allowance, included in the final column.
+
+| Carried source | Prefix CPU seconds | Continuation execute/replay CPU seconds | Total with both supervisor allowances |
+|---|---:|---:|---:|
+| Duration, IN11 | 3.375 | 33.4375 | 96.8125 |
+| Two-item personality, IN12 | 3.4375 | 37.265625 | 100.703125 |
+
+The original family ceiling is 60,000 CPU-seconds. The pinned reconciliation retains 11,585.09375 seconds of standalone preparation and overhead allowances: earlier cumulative appraisal preparation 2,100; the four retained IN9 fixture attempts 4,151; original IN11 fixtures 616; both IN12 fixture attempts 4,656; and shared reporting refresh 62.09375 counted once. Native attempts already in policy accounting are not charged twice. Missing historical descendant measurements remain conservative allowances, never newly described as measured CPU. New Week 6 preparation is not rebooked into this carried family.
+
+After both source chains, the family has 45,093.265625 CPU-seconds remaining after the preparation reserve at admission. The first analysis worker limits are 19,195.09375 for IN11 and 15,151.203125 for IN12, with each new supervisor allowance retained. Both remain within their original 20,000-second inclusive card limits. The first 100 of 2,000 intended whole-writer resamples are an in-slot cost stage, not a separate pilot allowance. No scientific score is inspected or reported from that unfinished stage; full inference, every intended panel and fresh replay remain necessary before a result can land. Source timing alone does not price that analysis.
+
+One owner inspection attempt stopped before any analysis admission because it compared a completed run's root-relative manifest to a paused checkpoint's output-relative manifest. Reading the frozen runtime resolved the format difference. The helper now authenticates each format as declared, including every root-relative completion binding; no worker, checkpoint, source, gate or completion receipt changed. The initial quiet-test-log parser likewise stopped before its record write and was corrected to read the captured all-pass progress markers. Neither bookkeeping interruption is a new scientific attempt.
+
+The original chess scorer continues with unchanged pins. The 13:33 UTC native inspection confirms fresh progress, both calendars alive, a separately owned ToMpathy lease preserved, watcher error null, 41.362 GiB available RAM, 13.661 GiB commit headroom and 32.971 GiB disk free. Each newly admitted analysis has its own registered terminal/disappearance watches. CPU-only Gear 2, eight shared slots, original freeze/drain, and event/four-hour-inactivity/single-pending wake delivery remain unchanged. Other Week 6 starts await actual Week 5 drain and card-specific gates. Idle slots and the deficient ready buffer remain an explicit build/admission limitation; no GPU or paid work is started to fill them.
+
+This filing covers the two complete source preparations, their preceding pauses, accounting reconciliation and analysis admission. Findings, tools, queue, ledger, index, operations, theory-return and generated views are written before acknowledgement of all four source events. No human hypothesis, p-value or theory standing changes. Scientific synthesis remains for the final curator packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings.; project meaning: scoped operational record; next engineering obligation: Complete counted cost stages, preserve all original analysis panels and independently replay full inference before scientific landing.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN11_IN12_SOURCE_COMPLETE_20261115.md.
+
+### OPS-S15-W6-RW1-SEED-QUALIFICATION-20261115
+
+**Hypothesis.** Can the worry analysis preserve held-out learning and whole-person uncertainty, and can the laughter and reward-choice successors use the packet seed without changing their original estimands?
+
+**METHOD.** Review the complete prospective designs, implementations and frozen selectors. Run two serial, bounded Windows native jobs on constructed data with two numerical threads, authenticate every source and captured-output hash, and inspect process-family accounting and exit. Preserve all earlier versions and unsuccessful checks. No human source projection, annotation or effect estimate is computed by these jobs.
+
+**Found.** The completed worry-analysis and corrected-seed successor checks pass; human studies still require source, annotation, budget and campaign admission.
+
+The worry selector passes all 26 checks. It tests held-out vocabulary learning in fixed person halves, including mutations of the opposite half; whole-person bootstrap repetitions relearn both vocabularies without moving copies across halves. A dense weighted reference checks the partial relationship after text length and learned bad-news content. The constructed signed worlds cover exact negative and zero residual relationships. Missing ratings, failed draws, checkpoints, source seals and independent-builder gates retain their explicit dispositions. Context unknowns remain in the original 200-sentence denominator. The source and marker-intake versions previously tested are unchanged.
+
+The complete proposed analysis selects the 200 positively worry-related words from the opposite half, with lexical tie-breaking, then measures held-out sentence coverage. It uses 2,000 whole-person resamples and retains the registered secondary emotion comparisons as descriptive. Actual independent annotations of the same 200 sentences have not happened; the planning-marker qualification remains necessary, and unknown context is never silently treated as a successful match. These constructed checks do not establish empirical interval coverage or replace a supported full native analysis/replay.
+
+The laughter/reward-choice selector passes all 14 checks. Abstract-syntax comparisons confirm that the two mathematical successors change only the default seed to 20261107. Constructed resampling counts preserve whole meetings or people; wrong roles, missing parent coverage, wrong attempt numbers and mismatched occasions refuse admission. The original seed-20261115 versions, their earlier checks and the failed degenerate-bank attempt remain historical evidence. The new selector does not rerun the full earlier banks and does not claim a human result.
+
+For the reward-choice comparison, the rating after trial k is paired with the choice at k+1 and history through k. The three eventual next-offer controls remain. Their availability when the rating was made is not asserted: this is a conditional association adjusted for those later offer characteristics, not a causal effect or a deployable rating-time forecast. A future production review must pin the actual completed source, the shared TR1/RR3 first-play roster and identical occasions. The current review template is not admission and has no invented completion hash. This resolves the implementation timing question while preserving the commissioned contrast and controls.
+
+Each row below is one complete native test invocation. CPU measures all contained job processes; wall time is elapsed time. Counts describe distinct checks within that selector, not independent scientific studies.
+
+| Constructed selector | Passed checks | Whole-job CPU seconds | Wall seconds |
+|---|---:|---:|---:|
+| Worry analysis and qualification boundaries | 26 | 9.109375 | 10.5023081 |
+| Laughter and reward-choice seed successors | 14 | 4.109375 | 5.2901199 |
+
+Both jobs contained four processes, exited with code zero, left no active or observed surviving owned process and retained every pinned source unchanged. Prior preparation charges remain: the earlier six Builder C attempts have a conservative 836-second envelope plus a proposed 300-second administrative reserve; those are not newly measured CPU and must be allocated only once. The worry source checks add the already recorded 2.25 seconds, and these two new invocations add their actual job CPU. Final per-card/family allocation remains an admission obligation, not an automatic zero-cost assumption.
+
+The original 117-file preparation publication is verified at d71beb2a547e85b62e891aaf1c1b316148c0be6c on the authorized public repository. This record and the newly reviewed successors are subsequent evidence. Raw sources, text and individual records remain ignored. No recipient repository is committed or pushed here.
+
+The full findings, instruments, queue, ledger, operations, index, theory-return and generated navigation write-through precedes the worry-delivery acknowledgement. No p-value, human claim or theory status changes. New Week 6 research still waits for actual Week 5 drain; the authorized CPU-only gear and event/four-hour/single-pending wake policy are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The completed worry-analysis and corrected-seed successor checks pass; human studies still require source, annotation, budget and campaign admission.; project meaning: scoped operational record; next engineering obligation: Complete source plans, real independent annotations and cumulative budget allocation; preserve actual predecessor drain before Week 6 admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_RW1_SEED_QUALIFICATION_20261115.md.
+
+### OPS-S15-W6-TR2-RETURNING-UNSUPPORTED-20261115
+
+**Hypothesis.** Can the preserved writing source support the curator-defined test of returning to subject matter beyond what each prompt asks for?
+
+**METHOD.** Authenticate the original foundation session index and completed PMAP recovery chain, including their plans and terminal receipts. Independently count distinct writer keys and compare the complete primary session sets. Apply the curator's hard support floor before text projection, category fitting or effect estimation.
+
+**Found.** Returning is unsupported on the original source: its 61 writers cannot meet the required 200-writer floor.
+
+The complete unchanged source contains 1,399 primary sessions and 61 distinct writers. The recovery's primary-session set matches the original index exactly; 46 archive-only sessions remain excluded under the original population rule. Requirements for at least two prompts and at least 150 content words in each text can only reduce the distinct-writer count. Therefore 61 is already a decisive upper bound below 200, and those additional filters need not be computed to establish failure.
+
+The status is **unsupported**, not a scientific null or evidence against returning. No human text was read in this support inspection, no meaning scheme or word-vector clusters were fitted, no stability outcome was calculated, and no grammatical control was run. The requested primary and same-source grammar control remain unrun at this support floor. Grammar-only stability cannot rescue the primary, and no other corpus, lower floor or expanded roster is substituted. The two other TR2 settings retain separate source and qualification work.
+
+The curator's exact definition, prospective support criterion and original grammatical recommendation remain preserved with distinct status. No theory hypothesis changes standing from this source limitation; no sensitivity follow-up is generated for a source that cannot meet its declared case. Full findings, instruments, queue, claim ledger, index, operations, theory-return and navigation filing is completed. This is a completed support inspection, not an unfinished per-artifact score.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Returning is unsupported on the original source: its 61 writers cannot meet the required 200-writer floor.; project meaning: scoped operational record; next engineering obligation: Retain returning as unsupported at the declared floor; continue only the separately commissioned refusing and slowing settings.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_TR2_RETURNING_UNSUPPORTED_20261115.md.
+
 ### OPS-S15-W6-TR2-RETURNING-RULING-20261115
 
 **Question.** What does returning across prompts mean in the third temporal-reliability setting?

@@ -2656,6 +2656,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-IN11-IN12-ANALYSIS-PREFIX-20261115:** The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/IN11_IN12_ANALYSIS_PREFIX_20261115.md).
+
+**OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115:** Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings. [Record](../results/phase_2_4_stage_15/WEEK5/IN11_IN12_SOURCE_COMPLETE_20261115.md).
+
+**OPS-S15-W6-RW1-SEED-QUALIFICATION-20261115:** The completed worry-analysis and corrected-seed successor checks pass; human studies still require source, annotation, budget and campaign admission. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_RW1_SEED_QUALIFICATION_20261115.md).
+
+**OPS-S15-W6-TR2-RETURNING-UNSUPPORTED-20261115:** Returning is unsupported on the original source: its 61 writers cannot meet the required 200-writer floor. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_TR2_RETURNING_UNSUPPORTED_20261115.md).
+
 **OPS-S15-W6-TR2-RETURNING-RULING-20261115:** The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_TR2_RETURNING_RULING_20261115.md).
 
 **OPS-S15-W6-PREPARATION-20261115:** Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_PREPARATION_20261115.md).
