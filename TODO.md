@@ -1,10 +1,17 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-IN12-COMPONENT-QUALIFICATION-20261115: The additive personality-report repair passes its complete constructed checks; the original human result remains preserved pending the missing component summaries.
+
+- [x] S15-W5-IN11-COMPLETE-20261115: The completed appraisal crossover is inconclusive at its practical bar; prompted ordered-duration reports do not establish a channel-rate mechanism.
+
+- [x] OPS-S15-W6-BUDGET-V2-QUALIFICATION-20261115: The versioned Week 6 budget route passes all accounting and native continuation checks; actual production admission remains separate.
+
 - [x] OPS-S15-W5-IN11-IN12-ANALYSIS-PREFIX-20261115: The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2.
 
 - [x] Carried IN11/IN12 full source projections and fresh independent replays authenticated and filed.
 - [x] Carried IN11/IN12 first 100-draw cost stages authenticated, charged and continued under original inclusive limits.
-- [ ] Carried IN11/IN12: complete full inference and fresh independent replay; verification cost remains separately observed within the same cap.
+- [x] IN11 complete original inference and fresh independent replay fully filed.
+- [ ] IN12 completed inference authenticated; add the two omitted paired-correlation component summaries and independently verify against every original draw before final card filing.
 
 - [x] OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115: Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings.
 
@@ -20,12 +27,13 @@
 
 - [x] OPS-S15-W6-TR2-RETURNING-RULING-20261115: The curator defines returning as prompt-residual subject-matter recurrence, with grammar as a separate control and a mandatory 200-writer support gate.
 
-- [ ] Week6 remaining: actual IM1 import for IN13C; failed IN14 person model; genuine paired RW1 annotations; source-specific TR2 refusing/slowing models; reviewed source/cost plans, budget-extension qualification and actual predecessor drain. RW1 constructed analysis, seed successors, DC1 conditional timing and returning support are filed.
+- [ ] Week6 remaining: actual IM1 import for IN13C; failed IN14 person model; genuine paired RW1 annotations; source-specific TR2 refusing/slowing models; reviewed source/cost plans, production budget-extension admission and actual predecessor drain. RW1 constructed analysis, seed successors, DC1 conditional timing and returning support are filed.
 - [x] Week6 calendar-only native process and ten milestone events registered; source/preflight/handoff evidence preserved; completed constructed checks fully filed.
 
 - [x] OPS-S15-W6-PREPARATION-20261115: Week 6 intake, constructed qualifications and milestone monitoring are filed; new human studies remain gated on the actual Week 5 drain and their individual admission checks.
 
-- [ ] Week6 budget extension: implement and qualify explicit S4 doubling and amendment L(b) idle-slot family continuation without resetting original charges. Initial original-ceiling admissions remain separately qualified.
+- [x] Week6 budget extension: versioned accounting and literal native continuation pass all 25 checks with original charges retained.
+- [ ] Week6 budget extension: actual production launcher admission, real predecessor drain and exact per-card extension remain required.
 
 - [x] OPS-S15-W6-RUNTIME-QUALIFICATION-20261115: The new Week 6 runtime passes its completed native boundary checks after a final-output byte-cap repair; Week 5 live code remains unchanged.
 

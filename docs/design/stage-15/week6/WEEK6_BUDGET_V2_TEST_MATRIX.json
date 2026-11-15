@@ -1,0 +1,164 @@
+{
+  "status": "PROSPECTIVE_TEST_SPECIFICATION_NOT_EXECUTED",
+  "selector": "tests/test_week6_budget_v2.py",
+  "logical_checks": 25,
+  "cases": [
+    {
+      "id": "B01",
+      "name": "Base arithmetic",
+      "constructed_setup": "C=20000, prior=400, preparation=100, no attempts",
+      "expected": "original available=19500; family charge=100"
+    },
+    {
+      "id": "B02",
+      "name": "Single doubling arithmetic",
+      "constructed_setup": "same costs, pinned reviewed s4_double revision",
+      "expected": "available=39500; original ceiling remains 20000"
+    },
+    {
+      "id": "B03",
+      "name": "Preparation revision once",
+      "constructed_setup": "append preparation=150 after 100, unchanged original identity",
+      "expected": "family charge=150, doubled available=39450, not 250 prep"
+    },
+    {
+      "id": "B04",
+      "name": "Old plan never auto-promoted",
+      "constructed_setup": "latest extension doubled, old plan bound to base receipt",
+      "expected": "v1 and v2 base-bound plans stay at original allowance with latest prep"
+    },
+    {
+      "id": "B05",
+      "name": "Doubled plan never silently becomes L(b)",
+      "constructed_setup": "latest mode lb_idle_family, plan still pins s4_double",
+      "expected": "doubled cap remains; only newly pinned LB plan uses family room"
+    },
+    {
+      "id": "B06",
+      "name": "Immutable identity and ancestry",
+      "constructed_setup": "changed key/family/C/prior, missing revision, wrong previous hash, dropped evidence, reduced prep",
+      "expected": "every defect refuses without zero-accounting fallback"
+    },
+    {
+      "id": "B07",
+      "name": "Strict extension schema",
+      "constructed_setup": "unknown mode, unreviewed row, missing authority/cost/checkpoint evidence, unpinned evidence, arbitrary multiplier",
+      "expected": "refuse; no source or budget mutation"
+    },
+    {
+      "id": "B08",
+      "name": "One doubling only",
+      "constructed_setup": "successive same-mode rows, attempted 2x current-effective multiplier, backward transition, direct base-to-LB",
+      "expected": "same mode keeps 2*C; invalid transitions/multiplier refuse"
+    },
+    {
+      "id": "B09",
+      "name": "Prior campaign counted once",
+      "constructed_setup": "prior=400, prep=150, preserved prior source/attempt records",
+      "expected": "subtract prior from card room, do not add prior to current family charge"
+    },
+    {
+      "id": "B10",
+      "name": "Failed and paused attempts retained",
+      "constructed_setup": "prep=150 plus one claimed terminal with CPU17 and existing supervisor30",
+      "expected": "family/card current charge=197; doubled card room=39403 with prior400"
+    },
+    {
+      "id": "B11",
+      "name": "Unclaimed and nested diagnostics",
+      "constructed_setup": "unclaimed plans with caps and nested COST_PREFIX inside a terminal",
+      "expected": "unclaimed reservation=0; nested timing adds no second charge"
+    },
+    {
+      "id": "B12",
+      "name": "Fresh active envelope",
+      "constructed_setup": "prep150, claimed CPU10, age1s, two-thread envelope, supervisor30",
+      "expected": "current charge=196; doubled room=39404 with prior400"
+    },
+    {
+      "id": "B13",
+      "name": "Stale or unknown active use",
+      "constructed_setup": "prep150, claimed cap123, missing/stale progress at CPU100",
+      "expected": "current conservative charge=303; doubled room=39297 with prior400"
+    },
+    {
+      "id": "B14",
+      "name": "Ambiguous/unreadable accounting",
+      "constructed_setup": "duplicate terminals, future heartbeat, inaccessible required evidence, missing started-child receipt",
+      "expected": "refuse or preserve conservative immutable cap exactly as existing runtime"
+    },
+    {
+      "id": "B15",
+      "name": "Current attempt exclusion",
+      "constructed_setup": "current exact child use also appears in heartbeat",
+      "expected": "exclude current attempt from shared room, add its exact own use plus supervisor once"
+    },
+    {
+      "id": "B16",
+      "name": "L(b) family and campaign limits",
+      "constructed_setup": "reviewed LB mode beyond nominal doubling, tight family then tight campaign",
+      "expected": "available=min current family/campaign room; no nominal card reset or increase"
+    },
+    {
+      "id": "B17",
+      "name": "Idle slot and shared reservation",
+      "constructed_setup": "eight leases; seven plus active shared reservation; seven without reservation; BK eligible-bank full",
+      "expected": "first two refuse, third may claim, BK refuses unavailable eligible bank"
+    },
+    {
+      "id": "B18",
+      "name": "Review-to-claim race",
+      "constructed_setup": "review observes free slot then another owned claim fills it",
+      "expected": "claim-time admission under common mutex refuses; no overwritten/stolen lease"
+    },
+    {
+      "id": "B19",
+      "name": "Finite checkpoint quantum",
+      "constructed_setup": "LB plan with pinned checkpoint evidence and finite plan bounds; missing evidence or invalid bounds",
+      "expected": "accept only valid checkpoint contract; no requirement to burn remaining doubled allowance"
+    },
+    {
+      "id": "B20",
+      "name": "Owned quantum and next dispatch",
+      "constructed_setup": "LB quantum validly owns lease; other slots fill; next quantum has no free slot",
+      "expected": "do not revoke current finite lease solely for occupancy; refuse next claim until idle"
+    },
+    {
+      "id": "B21",
+      "name": "V1 compatibility and immutable files",
+      "constructed_setup": "append valid v2 extension field preserving original fields; inspect all pinned v1 code/tests/calendar",
+      "expected": "v1 budgets/charges still work and enforce C; every pinned original byte unchanged"
+    },
+    {
+      "id": "B22",
+      "name": "Resume identity and receipt integrity",
+      "constructed_setup": "v1 paused predecessor -> new v2 plan; changed budget key/science/pin/live native/manifest defect variants",
+      "expected": "valid copy retains all costs/pins; every identity or science defect refuses"
+    },
+    {
+      "id": "B23",
+      "name": "Native literal complete",
+      "constructed_setup": "one contained v2 literal execute and fresh verify; actual native ownership/exit",
+      "expected": "complete independent result, exact whole-job accounting, no live descendants or leases"
+    },
+    {
+      "id": "B24",
+      "name": "Native v1 pause to v2 continuation",
+      "constructed_setup": "literal v1 pause, verified native exit, reviewed doubled/LB receipt, immutable new v2 resume root",
+      "expected": "byte-identical checkpoint copy, unchanged scientific payload, distinct charged attempts, fresh replay and clean exits"
+    },
+    {
+      "id": "B25",
+      "name": "Preserved global boundaries",
+      "constructed_setup": "same calendars/actual drain/resources/threads/output/failure charging using constructed controls",
+      "expected": "no early start, gate relaxation, source mutation, new allowance or changed wake policy"
+    }
+  ],
+  "numerical_threads": 2,
+  "human_sources": false,
+  "native_cases": [
+    "B23",
+    "B24"
+  ],
+  "run_authorization": "Exact implementation and tests require runtime-owner review and explicit serial-slot release. No run authorized by this file."
+}

@@ -2656,6 +2656,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-IN12-COMPONENT-QUALIFICATION-20261115:** The additive personality-report repair passes its complete constructed checks; the original human result remains preserved pending the missing component summaries. [Record](../results/phase_2_4_stage_15/WEEK5/IN12_COMPONENT_QUALIFICATION_20261115.md).
+
+**S15-W5-IN11-COMPLETE-20261115:** Full original-source and two-thousand-draw weighted-row replays pass; this validates numerical implementation, not a channel mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN11_COMPLETE_20261115.md).
+
+**OPS-S15-W6-BUDGET-V2-QUALIFICATION-20261115:** The versioned Week 6 budget route passes all accounting and native continuation checks; actual production admission remains separate. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_BUDGET_V2_QUALIFICATION_20261115.md).
+
 **OPS-S15-W5-IN11-IN12-ANALYSIS-PREFIX-20261115:** The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/IN11_IN12_ANALYSIS_PREFIX_20261115.md).
 
 **OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115:** Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings. [Record](../results/phase_2_4_stage_15/WEEK5/IN11_IN12_SOURCE_COMPLETE_20261115.md).

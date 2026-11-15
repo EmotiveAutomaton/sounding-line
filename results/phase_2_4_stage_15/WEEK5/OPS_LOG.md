@@ -1541,3 +1541,9 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-15T13:41:44.441874+00:00 OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115: Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings.
 
 2026-11-15T13:49:55.037727+00:00 OPS-S15-W5-IN11-IN12-ANALYSIS-PREFIX-20261115: The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2.
+
+2026-11-15T14:15:52.116324+00:00 OPS-S15-W6-BUDGET-V2-QUALIFICATION-20261115: The versioned Week 6 budget route passes all accounting and native continuation checks; actual production admission remains separate.
+
+2026-11-15T14:24:20.140142+00:00 S15-W5-IN11-COMPLETE-20261115: The completed appraisal crossover is inconclusive at its practical bar; prompted ordered-duration reports do not establish a channel-rate mechanism.
+
+2026-11-15T14:52:10.143840+00:00 OPS-S15-W5-IN12-COMPONENT-QUALIFICATION-20261115: The additive personality-report repair passes its complete constructed checks; the original human result remains preserved pending the missing component summaries.

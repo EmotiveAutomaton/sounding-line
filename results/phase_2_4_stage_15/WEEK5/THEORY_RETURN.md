@@ -1,5 +1,11 @@
 # Round 12 theory return — Week 5 back half
 
+**Reporting qualification:** [OPS-S15-W5-IN12-COMPONENT-QUALIFICATION-20261115](IN12_COMPONENT_QUALIFICATION_20261115.md). The additive personality-report repair passes its complete constructed checks; the original human result remains preserved pending the missing component summaries.
+
+**H14 rate/level and H15-Q2:** [S15-W5-IN11-COMPLETE-20261115](IN11_COMPLETE_20261115.md). The completed appraisal crossover is inconclusive at its practical bar; prompted ordered-duration reports do not establish a channel-rate mechanism. Full inference and limits are in the linked record.
+
+**Accounting qualification only:** [OPS-S15-W6-BUDGET-V2-QUALIFICATION-20261115](WEEK6_BUDGET_V2_QUALIFICATION_20261115.md). The versioned Week 6 budget route passes all accounting and native continuation checks; actual production admission remains separate.
+
 **Cost and continuation only:** [OPS-S15-W5-IN11-IN12-ANALYSIS-PREFIX-20261115](IN11_IN12_ANALYSIS_PREFIX_20261115.md). The carried appraisal analysis cost quanta are authenticated and charged; unchanged full-analysis continuations are admitted in CPU-only Gear 2. No scientific score reported.
 
 **Source and admission only:** [OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115](IN11_IN12_SOURCE_COMPLETE_20261115.md). Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings. Human effects remain unreported.
