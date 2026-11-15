@@ -1,6 +1,6 @@
 # Week 5 operations
 
-The November 7 packet originally assigned three builders and eight CPU slots. The owner has now selected first gear: one CPU worker maximum, builder compute and parallel refill held.
+Current allocation is CPU-only Gear 2 with eight shared counted slots. The earlier November 7 first-gear allocation below is historical; current admission and builder holds are recorded in the latest entries.
 Prior campaign deadlines and source capsules stay unchanged. The November 7
 theory errata was absent at intake and has since been supplied, applied and independently checked. The approved aggregate Ghost copy is delivered; recipient uptake remains unconfirmed.
 
@@ -1547,3 +1547,9 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-15T14:24:20.140142+00:00 S15-W5-IN11-COMPLETE-20261115: The completed appraisal crossover is inconclusive at its practical bar; prompted ordered-duration reports do not establish a channel-rate mechanism.
 
 2026-11-15T14:52:10.143840+00:00 OPS-S15-W5-IN12-COMPONENT-QUALIFICATION-20261115: The additive personality-report repair passes its complete constructed checks; the original human result remains preserved pending the missing component summaries.
+
+2026-11-15T15:09:36.769341+00:00 OPS-S15-W5-IN12-COMPONENT-PREFIX-20261115: The additive personality-report prefix is authenticated and charged; its unchanged full reconstruction and independent replay are admitted.
+
+2026-11-15T16:02:16.829598+00:00 S15-W5-IN12-COMPLETE-20261115: The two-item distress score has a positive association with negative-prompt intensity inside the registered small-effect band; this does not identify a common biological channel.
+
+2026-11-15T16:16:35.924619+00:00 OPS-S15-W6-ROOT-FILING-20261115: Ten duplicate incoming sources are filed with verified hashes; original-roster chess scoring and event-driven monitoring remain healthy in CPU-only Gear 2.

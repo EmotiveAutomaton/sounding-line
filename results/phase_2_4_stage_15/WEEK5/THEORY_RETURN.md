@@ -1,5 +1,9 @@
 # Round 12 theory return — Week 5 back half
 
+**Completed scoped association:** [S15-W5-IN12-COMPLETE-20261115](IN12_COMPLETE_20261115.md). The two-item distress score has a positive association with negative-prompt intensity inside the registered small-effect band; this does not identify a common biological channel.
+
+**Operational continuation:** [OPS-S15-W5-IN12-COMPONENT-PREFIX-20261115](IN12_COMPONENT_PREFIX_20261115.md). The additive personality-report prefix is authenticated and charged; its unchanged full reconstruction and independent replay are admitted.
+
 **Reporting qualification:** [OPS-S15-W5-IN12-COMPONENT-QUALIFICATION-20261115](IN12_COMPONENT_QUALIFICATION_20261115.md). The additive personality-report repair passes its complete constructed checks; the original human result remains preserved pending the missing component summaries.
 
 **H14 rate/level and H15-Q2:** [S15-W5-IN11-COMPLETE-20261115](IN11_COMPLETE_20261115.md). The completed appraisal crossover is inconclusive at its practical bar; prompted ordered-duration reports do not establish a channel-rate mechanism. Full inference and limits are in the linked record.

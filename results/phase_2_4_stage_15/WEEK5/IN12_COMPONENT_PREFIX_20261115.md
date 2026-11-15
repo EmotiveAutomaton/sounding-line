@@ -1,0 +1,13 @@
+# IN12 COMPONENT PREFIX 20261115
+
+**Hypothesis.** Can the omitted report components continue from their first complete computational quantum without changing the original analysis or resetting its cost?
+
+**METHOD.** Authenticate the committed reporting design, complete source/code/fixture pins, original and prefix native exits, all sealed checkpoint outputs and native whole-job accounting. Inspect completed work counts only; no partial component score or interval is used. Preserve the source, seed, original two-thousand-draw bank and every reporting comparison when creating a fresh counted continuation.
+
+**Found.** The additive personality-report prefix is authenticated and charged; its unchanged full reconstruction and independent replay are admitted.
+
+The producer stopped normally after exactly 100 of its 2,000 original draw ordinals. Its 3 checkpoint files match their sealed manifest, and the native owner has exited. The prefix uses 8.015625 whole-job CPU-seconds plus the existing thirty-second supervisor allowance. The continuation keeps all original science and output pins and resumes the exact prefix, changing only the operational quantum to finish the complete bank. Fresh independent replay of both component values and every original difference remains mandatory.
+
+All prior card charges, the new three-hundred-second unmetered-preparation reserve and the separately measured 30.140625-second constructed fixture remain included. The next finite worker allowance is 14606.890625 CPU-seconds after its supervisor provision, inside the same original IN12 twenty-thousand-second ceiling. Family preparation is reserved once, with actual family room checked at admission. Linear execution-only scaling of this prefix is 160.3125 seconds; it is not a full-program forecast because it does not measure independent replay. The unchanged card bound and operational wall quanta still govern that work. No Week 6 reset, new pilot budget or shortened population is introduced.
+
+Terminal and disappearance paths are registered with the durable watcher. Original-roster chess work and separately owned jobs are untouched. Events plus four hours of real owner inactivity and one pending wake remain unchanged. Full scientific IN12 filing waits for every required component and complete independent verification; the outstanding original analysis completion event remains pending. This operational prefix receives full findings, tools, queue, ledger, index, operations, theory-return and generated-view filing before its own acknowledgement. No scientific result or p-value is reported here.

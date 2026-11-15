@@ -2656,6 +2656,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-ROOT-FILING-20261115:** Ten duplicate incoming sources are filed with verified hashes; original-roster chess scoring and event-driven monitoring remain healthy in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/ROOT_FILING_HEALTH_20261115.md).
+
+**S15-W5-IN12-COMPLETE-20261115:** Original weighted-row replay and the additive component replay are complete; all original draws and source pins remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/IN12_COMPLETE_20261115.md).
+
+**OPS-S15-W5-IN12-COMPONENT-PREFIX-20261115:** The additive personality-report prefix is authenticated and charged; its unchanged full reconstruction and independent replay are admitted. [Record](../results/phase_2_4_stage_15/WEEK5/IN12_COMPONENT_PREFIX_20261115.md).
+
 **OPS-S15-W5-IN12-COMPONENT-QUALIFICATION-20261115:** The additive personality-report repair passes its complete constructed checks; the original human result remains preserved pending the missing component summaries. [Record](../results/phase_2_4_stage_15/WEEK5/IN12_COMPONENT_QUALIFICATION_20261115.md).
 
 **S15-W5-IN11-COMPLETE-20261115:** Full original-source and two-thousand-draw weighted-row replays pass; this validates numerical implementation, not a channel mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN11_COMPLETE_20261115.md).

@@ -1,5 +1,11 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-ROOT-FILING-20261115: Ten duplicate incoming sources are filed with verified hashes; original-roster chess scoring and event-driven monitoring remain healthy in CPU-only Gear 2.
+
+- [x] S15-W5-IN12-COMPLETE-20261115: The two-item distress score has a positive association with negative-prompt intensity inside the registered small-effect band; this does not identify a common biological channel.
+
+- [x] OPS-S15-W5-IN12-COMPONENT-PREFIX-20261115: The additive personality-report prefix is authenticated and charged; its unchanged full reconstruction and independent replay are admitted.
+
 - [x] OPS-S15-W5-IN12-COMPONENT-QUALIFICATION-20261115: The additive personality-report repair passes its complete constructed checks; the original human result remains preserved pending the missing component summaries.
 
 - [x] S15-W5-IN11-COMPLETE-20261115: The completed appraisal crossover is inconclusive at its practical bar; prompted ordered-duration reports do not establish a channel-rate mechanism.
@@ -11,7 +17,7 @@
 - [x] Carried IN11/IN12 full source projections and fresh independent replays authenticated and filed.
 - [x] Carried IN11/IN12 first 100-draw cost stages authenticated, charged and continued under original inclusive limits.
 - [x] IN11 complete original inference and fresh independent replay fully filed.
-- [ ] IN12 completed inference authenticated; add the two omitted paired-correlation component summaries and independently verify against every original draw before final card filing.
+- [x] IN12 original inference and additive component summaries complete, independently verified and fully filed; all original draws and charges preserved.
 
 - [x] OPS-S15-W5-IN11-IN12-SOURCE-COMPLETE-20261115: Both carried appraisal sources and their full independent replays are authenticated; their first counted analysis quanta are admitted within the original ceilings.
 

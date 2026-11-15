@@ -57,9 +57,11 @@ root operating files and frozen experimental paths remain in place.
 | `.agents/`, `.codex/`, `.claude/` | Existing local instruction/runtime surfaces |
 
 Raw text, local models and operational evidence remain in their existing ignored
-paths. The independent health cadence is six hours; a documentation pass does not
-reset it or authorize new work.
+paths. Wakes follow events and four hours of owner inactivity, with one pending delivery.
+A documentation pass grants no new work or gear authority.
 
 The [October 25 filing ledger](archive/operations/DOCUMENT_RELOCATIONS_20261025.json) records four exact source copies filed by stage and date. Incoming root files are temporary intake locations. After review, preserve one canonical source on the stage shelf, put decisions and implementation state beside it, update the ledger, then move the duplicate original to the private processed-stage archive. Keep unprocessed items visibly pending; keep locked and runtime-bound paths fixed.
 
 The [November 8 filing ledger](archive/operations/DOCUMENT_RELOCATIONS_20261108.json) records independent verification of both November theory errata and filing of their duplicate incoming originals alongside the Week 5 packet. Current theory and source bytes remain unchanged; working results and runtime paths remain in place.
+
+The [November 15 filing ledger](archive/operations/DOCUMENT_RELOCATIONS_20261115.json) maps ten duplicate incoming sources to their preserved public or private copies. Active Week 6 preparation is indexed on its [stage shelf](design/stage-15/week6/README.md); new campaign execution still requires actual Week 5 drain. Canonical evidence and runtime paths remain fixed.
