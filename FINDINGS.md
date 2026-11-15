@@ -1,5 +1,28 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-HEALTH-20261114-1700
+
+**Hypothesis.** Is the authorized scoring continuation advancing safely, with failures visible, and is there admitted work waiting for an idle slot?
+
+**METHOD.** Compare the exact native supervisor identity, plan and owner pins, descendants, counted leases, budget heartbeat and saved queue cursor with the previous publication inspection. Inspect runtime resource headroom, all new terminal markers, current admissions and builder-delivery pins, watcher identity and loaded source hashes, the existing native owner message queue, calendar identity and plan, campaign accounting and all locked files. Preserve all original inputs, scoring settings and intentional pauses.
+
+**Found.** The next original-roster scoring interval is advancing in CPU-only Gear 2 with verified resources and wake delivery; no recovery is needed, while other production admissions remain unfinished.
+
+At 2026-11-15T00:57:59.155844+00:00, the current interval had advanced from 4 to 124 closed units and from original offset 82880 to 90560. Its checkpoint was 41.9 seconds old; accumulated native CPU was 25303.546875 seconds. These are operational progress counters, not scientific scores. The exact supervisor identity, pinned plan, 8 below-normal descendants, unique counted lease and terminal/disappearance watches authenticate. The interval still begins at original ordinal 82624 and retains the full 398065-position roster, independent unit replays and original attempt limits. Whole-roster coverage remains incomplete.
+
+Available RAM was 46.887 GiB, commit headroom 22.687 GiB and free disk 24.658 GiB, above the unchanged runtime floors. The disk floor remains 20 GiB; it has not been relaxed. The sole counted lease matches this scorer's live native owner. No unrelated application or companion process was modified. All 21 hash locks pass. CH accounting was 595756.548074 CPU seconds against its original 2500000-second ceiling; campaign and per-attempt controls remain in force. No new completion, pause, failure or monitor-failure marker appeared after the previous publication inspection. No restart, process cleanup or checkpoint repair is indicated.
+
+**Wake delivery.** The watcher matches its exact native identity and loaded code hashes, its scan is fresh and no delivery error is reported. The calendar identity and pinned plan authenticate. The durable idle event records delivery to the owner; the existing native owner queue has zero pending operational messages after consumption. Events, four hours of actual owner inactivity and one pending wake remain configured. Acknowledgment follows the documented inspection and full write-through. No wake schedule was changed.
+
+**Runnable work and remaining deficit.** This scorer is the only live Sounding Line research admission. Current builder-delivery pins and the previously reviewed CH7 implementation are unchanged, and no new builder delivery appeared after the previous publication. The complete constructed CH7 qualifications, full source-player projection and first parameter prefix remain filed. That prefix does not establish the full-cohort matrix, complete-history null, model-cost or fresh-replay resource bounds. The earlier review already identifies these terms; this inspection does not claim to have measured them anew. CH6 human-source assembly, model-cost and full-replay admission likewise remains open. More available machine memory alone does not satisfy those missing admission checks.
+
+No owner-admitted waiting job was found. Idle capacity reflects the unresolved owner admission work and deficient sixteen-card ready buffer, not a failed queue or permission to overlap the serial source roster. Later fixed-order reviews, the activation log, new-family runtime provenance and unavailable source/licence gates remain open. No redundant builder or numerical qualification was launched. Incoming Ghost V29 files remain preserved and unreviewed, outside this publication.
+
+**Disposition.** Record this inspection in findings, tools, queue, ledger, index, operations and theory return; regenerate and verify navigation before ACK. No scientific result, p-value or theory change is made, and no new test was harvested from this operational wake. Scientific findings remain subject to the final curator packet. CPU-only Gear 2, GPU/Ollama parking, paid-work holds and the event/four-hour/single-pending wake policy are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next original-roster scoring interval is advancing in CPU-only Gear 2 with verified resources and wake delivery; no recovery is needed, while other production admissions remain unfinished.; project meaning: scoped operational record; next engineering obligation: Finish the source-specific production resource/replay admissions and fixed-order owner reviews while preserving the healthy original-roster scorer.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261114_1700.md.
+
 ### OPS-S15-W5-CH1-N-INTERVAL-COMPLETE-20261114
 
 **Hypothesis.** Can the long scoring queue close an authenticated interval, retain every original position and its independent engine replay, and continue at the first unscored ordinal without treating a partial roster as a complete study?
