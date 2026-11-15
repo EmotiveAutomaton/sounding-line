@@ -1565,3 +1565,13 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-15T20:49:29.788150+00:00 OPS-S15-DATA-STORE-REVIEW-20261115: The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted.
 
 2026-11-15T21:04:26.412675+00:00 OPS-S15-W5-CH-DISK-PAUSE-20261115: Chess scoring is safely checkpointed and storage-held; its verified progress and all costs are preserved.
+
+2026-11-15T22:00:48.016961+00:00 OPS-S15-W5-STORAGE-RECOVERY-20261115: Chess, comparison and reader work are active in CPU-only Gear 2 after verified storage recovery and qualified compatibility repairs.
+
+2026-11-15T22:01:22.257222+00:00 OPS-S15-DATA-CATALOG-REVIEW-20261115: The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources.
+
+Recovery dispatch: three counted research jobs active; five slots idle because no other individually admissible card is staged. All three commissioned builders are idle after delivered preparation packages, with actual Week 5 drain, owner admission, missing independent annotations and source/instrument gates documented in WEEK6_BUILD_READINESS_20261115.md. The sixteen-card ready buffer is still deficient. The supervisor accounting distinction and one-time reservation are explicit in this recovery receipt.
+
+2026-11-15T22:06:29.242994+00:00 OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+2026-11-15T22:10:12.539310+00:00: Recovery closure: original reader128 is complete, fully filed and ACKed; original129 is now admitted with fresh memory/cost checks. Three Sounding Line jobs are live, with four total shared leases at the final inspection. All lease identities are live; the other project is untouched. Calendars, resources, watcher source hashes and zero pending native wake delivery verify. Comparison remains in checkpoint authentication, with increasing measured CPU and I/O; no new comparison fits are claimed. An additional one-time 3,400 CPU-second supervision reserve covers reader129 within existing caps. Concurrent capability-map edits in docs/TOOLS.md are preserved but excluded from this publication.

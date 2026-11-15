@@ -189,3 +189,9 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-LEGACY-PROVENANCE-20261113:** Operational provenance inspection only; no scientific or native-transition admission. [Scope and remaining gates](LEGACY_PROVENANCE_20261113.md).
 
 **S15-W5-RR3-20261113 / H15-T6:** In the registered phone-game choice model, distance from the starting score has a larger standardized association than recent prediction errors; this does not adjudicate what feelings measure. The full primary and four secondary panels are complete; choice proxies do not decide the feeling-level claim. [Full method, controls and limits](RR3_COMPLETE_20261113.md).
+
+**OPS-S15-W5-STORAGE-RECOVERY-20261115:** Chess, comparison and reader work are active in CPU-only Gear 2 after verified storage recovery and qualified compatibility repairs. Operational recovery only; no theory standing changes. [Full record](STORAGE_AND_LEGACY_RECOVERY_20261115.md).
+
+**OPS-S15-DATA-CATALOG-REVIEW-20261115:** The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources. No new scientific source or theory claim. [Full record](DATA_CATALOG_REVIEW_20261115.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. Numerical instrument evidence only; no theoretical standing changes. [Full record](AT_M00_CHUNK0128_COST_20261115.md).

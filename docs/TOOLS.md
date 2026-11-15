@@ -1,5 +1,42 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+## External collection inventory — November 15, 2026
+
+The collector reports that the external collection registry records 75 newly acquired source entries, including 62 openESM member releases, plus four curator-provided collections. These are acquisition records, not independent scientific studies or admitted adapters. Thirty additional metadata entries index existing repository holdings and unresolved historical task pointers; those sources were not refetched.
+
+Resolve the private collection root through the owner metadata adapter, an explicit `--root`, or `SOUNDING_LINE_DATA_ROOT` as described in [Codex operations](CODEX_OPERATIONS.md). `_registry/REGISTRY.json`, each `SOURCE.json`/`CARD.md`/`SCHEMA.json`, and the batch `DC-20261115-01` are authoritative for this intake. Paths below are relative to that root. No machine hostname or raw human record belongs in this catalog.
+
+The owner authenticated the sealed delivery and checked all 120 registry-to-manifest identities through the accepted metadata adapter. This catalog records the collector’s acquisition, hash and licence assessments; the owner did not independently rehash the raw collections or issue new rights rulings in this documentation review. The registry keeps every entry held, needing curator review or stopped. Individual source admission still requires the original notices, applicable rights checks, source hashes and the study’s scientific gates.
+
+Each row lists a retained source, its primitive and the restriction still required before use. Licence silence and noncommercial permission do not authorize a released trained reader.
+
+| Source | Retained primitive and location | Readiness and limits |
+|---|---|---|
+| ESConv emotional support conversations | `open/esconv/raw/` | Main and failed releases kept distinct; successful-support selection differs. Noncommercial academic research. |
+| HappyDB happy moments | `open/happydb/raw/` | Own happy moments; original/cleaned views distinct. Predicted categories are not own-state labels. Licence not stated. |
+| Little Alchemy validation behaviour | `open/alchemy/raw/` | Published validation JSON only; original large player dataset request-only; software/data licence scope unresolved. |
+| enISEAR and deISEAR | `open/en-de-isear/raw/` | Event generation and reader-validation files distinct; no explicit licence established. |
+| Upworthy Research Archive | `open/upworthy/raw/` | Exploratory, confirmatory, holdout and undeployed files separate; published checksums match. Retain authors’ 2024 assignment-reliability warning. |
+| Public survey subsample: interest ratings | `open/sexual-interests/raw/` | Public rating-only subsample, provider MD5 verified, CC BY 4.0. No explicit item content reproduced here. |
+| ISEAR emotion reports | `open/isear/raw/` | Curator terms note retained: noncommercial research. Fresh official-page fetch failed; downloaded notice remains. |
+| Trivia curiosity normative database | `open/trivia-curiosity/raw/` | Normative item workbook; not a participant-level diary. Licence not stated. |
+| Touché24 ValueEval | `private/valueeval24/raw/` | Private restricted release; value-detection research only, no third-party sharing. Original versus translated splits and ValueEval23 compatibility data distinct. |
+| NetHealth longitudinal social and health data | `open/nethealth/raw/` | Surveys, network, activity, sleep and communication files; registration/rights review pending. Large CSVs header-only; Stata header counts available. Misplaced duplicate trivia workbook excluded from NetHealth use. |
+| New Yorker NEXT caption ratings | `open/newyorker-next/raw/` | Only contests 497/499/505. Actual LFS response archives hash-verified. Full repository archive quarantined for a symlink. Adaptive and random sampling differ; CC BY 4.0 data notice. |
+| Columbia speed dating — commissioned OpenML version | `open/speed-dating/raw/` | Commissioned OpenML reformatting, provider checksum verified; not complete original Columbia source. Decision columns retained; specific rights grant unresolved. |
+| Hippocorpus recalled, imagined and retold stories | `open/hippocorpus/raw/` | Own task-stress/importance/openness and paired stories; stress item concerns writing task. No explicit data licence found. |
+| Persuasion for Good — original author release | `open/persuasion-for-good/raw/` | Original author data, surveys and actual donations, Apache 2.0 notice. Annotated intended donation is not a writer self-report; subsets overlap. |
+| Deal or No Deal negotiation dialogues | `open/deal-or-no-deal/raw/` | Original train/validation/test text; two perspectives per dialogue, assigned utilities. CC BY-NC 4.0. |
+| Deception in Diplomacy — ConvoKit release | `open/diplomacy/raw/` | Official ConvoKit conversion of messages and belief/lie annotations. Original data rights unresolved by wrapper code licence. |
+| Winning Arguments / Change My View — ConvoKit release | `open/change-my-view/raw/` | Official ConvoKit Winning Arguments conversion; delta awards are behaviour, not necessarily private belief change. Original text rights review pending; macOS resource forks excluded. |
+| openESM, 62 member releases | `open/openesm-*/raw/`; full item/design inventory in `_registry/OPENESM_MEMBER_INVENTORY.json` | Per-member licence and checksum retained; one of 63 members remains metadata-only for missing licence. Construct tags do not prove trait coverage. Member 0049 version alignment and two member-0072 supplementary raw encodings need review; harmonized series remains structurally readable. |
+
+The pending-source list retains CANDOR, PANDORA, EMOTE, Vent, K-EmoCon and Wikipedia browsing diaries. UR-FUNNY is held for its pickle format; CMU-MOSEI was deliberately not fetched. Kiva snapshot retrieval/size/terms remain unqualified; Reddit r/Jokes reuse terms remain unresolved. See `_registry/NEEDS_CURATOR.md` and `_registry/LICENCE_AUDIT.md`. ValueEval is already filed privately and is no longer merely an outstanding request.
+
+The collector’s structure-only tooling records hashes, file structure and counts without exposing data rows or outcome distributions. Original unsafe/failed attempts remain recorded. Source availability does not establish scientific validity, consent re-audit or analysis admission.
+
+Analysis can read ordinary files directly from the external store when the actual reader supports UNC paths. This catalog does not authorize moving existing pinned sources, checkpoints or job state; any owner migration is recorded separately. `_registry/MIGRATION_REVIEW.md` and `LOCAL_STORAGE_INVENTORY.json` identify candidates for a separate owner-reviewed copy/hash/reader/pointer transition.
+
 ## Current capability map — November 7, 2026
 
 This is the canonical tools catalog (the requested “tools.markdown”). Use this
@@ -2655,6 +2692,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0128_COST_20261115.md).
+
+**OPS-S15-DATA-CATALOG-REVIEW-20261115:** The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources. [Record](../results/phase_2_4_stage_15/WEEK5/DATA_CATALOG_REVIEW_20261115.md).
+
+**OPS-S15-W5-STORAGE-RECOVERY-20261115:** Chess, comparison and reader work are active in CPU-only Gear 2 after verified storage recovery and qualified compatibility repairs. [Record](../results/phase_2_4_stage_15/WEEK5/STORAGE_AND_LEGACY_RECOVERY_20261115.md).
 
 **OPS-S15-W5-CH-DISK-PAUSE-20261115:** Chess scoring is safely checkpointed and storage-held; its verified progress and all costs are preserved. [Record](../results/phase_2_4_stage_15/WEEK5/CH_DISK_PAUSE_20261115.md).
 

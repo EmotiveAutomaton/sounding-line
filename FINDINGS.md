@@ -1,5 +1,74 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115
+
+**Hypothesis.** Can the resumed original reader pilot produce complete measured evidence without changing its source order or numerical checks?
+
+**METHOD.** Score the next frozen GPT-2 medium chunk after the unchanged native memory gate passes; run its original seeded fresh-forward checks in a distinct native process. Authenticate every completion-declared output, source and model pin, guard identity, native exit and descendant accounting receipt through the qualified historical-policy preparer.
+
+**Found.** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+All 245 words in original zero-based ordinal 128 are retained. All 5 seeded fresh-forward checks meet the unchanged 0.0001-nat tolerance. Measured descendant CPU is 181.421875 seconds and wall time is 156.174186 seconds; the existing supervisor allowance and the separately filed conservative supervision reservation remain additional. Observed peak working set is 4.691181 GiB for this chunk only. All 130 completion-declared output hashes match, both guard receipts bind the distinct native execution/replay identities, and all owners have exited. These are complete engineering checks and coverage/cost measurements, not scientific effect scores or model selection.
+
+The authenticated prefix now contains 129 of 165 original chunks for this reader, covering 21202 words and 25370.234375 measured descendant CPU seconds. This prefix excludes separately retained failed-attempt costs and supervisor/preparation charges, which remain additional in cumulative accounting. The original full pilot remains 27,007 words from four whole writers for each of all ten readers. Model revision, tokenizer, 1,024-token context, FP64 computation, source order and seeded numerical verification are unchanged. No completed prefix is substituted for a whole-bank forecast.
+
+Original ordinal 129 is prepared after this complete-prefix authentication, subject to fresh owner admission and current memory/budget checks. Its existing bounds remain 7,200 CPU seconds, 1,700 wall seconds, a twenty-GiB projected peak and two numerical threads. The operator is completing this internal filing before the next bounded launch. Chess and comparison recovery continue separately. All former float32 failures, environmental interruptions, historical preparation refusals and diagnostic costs remain preserved.
+
+**Meaning.** File this completed chunk and continue the original pilot in order. The bank, model comparison and downstream scientific analyses are still unfinished. No new hypothesis, GPU, Ollama or paid call is introduced. The existing final-packet reporting policy and event/four-hour/single-pending wake policy remain. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Admit only the next original chunk after fresh memory and inclusive cost checks; keep the complete bank and scientific comparison gated.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0128_COST_20261115.md.
+
+### OPS-S15-DATA-CATALOG-REVIEW-20261115
+
+**Hypothesis.** Can the collector's inventory be filed without mistaking acquisition metadata for verified scientific inputs or rights approval?
+
+**METHOD.** Read the sealed documentation delivery, design and proposed insertion, authenticate their file hashes and the original tools-document base, inspect the collector's collection report and final-verification metadata, and check every registry-to-manifest identity through the already accepted metadata adapter. Preserve the proposed bytes and record the owner's attribution and admission revisions before committing the documentation.
+
+**Found.** The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources.
+
+The sealed documentation package matches its declared hashes. All 120 registry-to-manifest identities match; no raw participant file was opened. The registry reports 101 held entries, nine needing curator review and ten stopped entries. The collector reports 75 newly acquired entries plus four curator-provided collections, alongside metadata for existing holdings and pending pointers. These figures describe acquisition and registry entries, not independent studies, valid measurements or ready cards.
+
+The owner retained the source inventory and source-specific limitations, attributed the collector's acquisition, hash and licence assessments explicitly, and removed the stale blanket claim that no source had moved. The separate owner-authenticated July archive relocation is filed under OPS-S15-W5-STORAGE-RECOVERY-20261115. This documentation review does not independently rehash the raw collections or issue new rights rulings. Original notices, source bytes, applicable handling restrictions and study-specific population and scientific gates still require admission for each real use. No privately restricted content, machine hostname or raw record enters the public catalog.
+
+The original delivery, patch base, accepted insertion and owner review hashes remain in the private handoff record. This is a documentation-only addition; the already accepted metadata helper and its stronger fifteen-test fixture are unchanged. No new code test or acquisition rerun was needed. The owner commits the admitted documentation and returns its disposition in the collector's handoff folder; the collector does not edit the repository. Delivery contents supplied evidence, not execution authority.
+
+**Meaning.** The new holdings are discoverable with their unresolved limitations visible. The catalog is not a new source authorization, scientific finding, licence ruling or model-training permission. Existing research retains its own pinned inputs and the source/annotation/instrument holds recorded in the build-readiness review. No new test or unfinished scientific result was inferred.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources.; project meaning: scoped operational record; next engineering obligation: Return the admitted commit to the collector; qualify source bytes, original notices and scientific gates individually before real use.; public scientific claim unchanged; curator decision required: No new decision. Detail: DATA_CATALOG_REVIEW_20261115.md.
+
+### OPS-S15-W5-STORAGE-RECOVERY-20261115
+
+**Hypothesis.** Can the interrupted research resume without losing evidence, changing its scientific settings or relaxing resource guards?
+
+**METHOD.** Authenticate the inactive July chess archive and its stopped consumers, copy it to the private external data root, independently hash the complete destination and read it with the original census codec before removing the verified local duplicate. Qualify an exact historical policy transition on constructed fixtures and native continuation/replay. Prove one historical reader exit from agreeing Windows and kernel boot observations, authenticate all previously completed reader chunks, then admit fresh attempts through the existing counted launcher and inspect their native identities, checkpoint activity, resources and wake delivery.
+
+**Found.** Chess, comparison and reader work are active in CPU-only Gear 2 after verified storage recovery and qualified compatibility repairs.
+
+The relocation preserved 29,051,046,504 bytes with SHA-256 `68738b1c448f051dc8d42db645d5b01749988a3bc1c24981adfe44ea92060dc7`. The source and independent full destination hashes agree; the original Arrow decompression reader accepts the retained archive. Only that verified local duplicate was removed. Its source and intake receipts, stopped consumer plans and all results remain unchanged. The private original folder carries an explicit location/rollback pointer. Future July consumers require a deliberate path admission or verified restoration. The active three-month scorer uses a different preserved source. No participant records or machine endpoint are published. The first copy utility's missing optional decoder is retained as a failure; it was resolved using the original available codec, with another complete destination hash before removal.
+
+The legacy mismatch was confined to the previously approved mood/export allocation line. The additive AT/BK compatibility adapter authenticates both complete policy hashes and that exact transformation; it keeps every other source pin, original capsule and receipt. AT/BK ceilings, inputs, rosters, scientific settings, guards and campaign clocks do not change. Twenty-one focused checks and a three-process constructed create/continue/fresh-replay qualification pass. The successor runtime only selects the qualified adapter through a new child entry point. No running worker's pinned source was edited.
+
+Reader preparation initially refused an inaccessible reused historical PID. That refusal remains recorded. The separate historical checker requires valid original identity and terminal times, owner-to-plan binding, and independently agreeing boot observations before accepting a preboot exit. It does not inspect or stop the current PID holder. Ten focused checks pass; the actual old identity satisfies the two boot observations. Preparation then authenticated all 128 completed original chunks and their accounting before admitting the next original ordinal. No completed chunk was relabelled or recomputed merely to bypass a pin.
+
+The rows below describe operational attempts, not scientific scores. Restoring a checkpoint is distinguished from completing new scientific work.
+
+| Work | Verified state at the recovery inspection | Preserved boundary |
+|---|---|---|
+| Chess scoring | Fresh native continuation restored all 4,458 checkpoint files; new sealed units advance beyond its predecessor | Original roster, node count, active unit and earlier failed-attempt prefix remain |
+| Complete-population comparison | Fresh native continuation is reading and authenticating the retained 196,522-file checkpoint; restore receipt is not yet emitted | Original configuration, inputs, fit population and all prior charges remain; no new-fit completion claimed |
+| Reader scoring | Next original ordinal is active and writing sealed block pairs after complete prior-chunk authentication | All ten readers, original order, precision and unchanged memory guard remain |
+
+The first post-launch inspection binds each native PID and creation time to its frozen plan. It finds three live research leases, live campaign calendars, fresh budget heartbeats, zero terminal failures, no watcher error and no pending operational wake. Reader stderr contains only the ordinary model-loading progress display. Available memory, commit headroom and disk pass their unchanged floors; free disk was 46.198 GiB at that snapshot. The private receipt preserves exact native identities, measured child-job usage and process I/O counters. Subsequent checkpoints show continued chess and reader progress; comparison is still in authenticated restore, so no fit-count improvement is asserted.
+
+Child-job accounting does not include the top-level supervisor's own CPU. The inspection makes that distinction explicit: retain the existing 41,000-second maintenance allowance and a separate conservative 76,972.345264 CPU-second supervision reservation, bounded by two CPUs through each attempt's existing wall/drain limit. Remaining family and campaign ceilings pass even with these allowances; no ceiling increases. Carry this reservation once to final reconciliation, rather than adding it at each inspection or claiming it is an exact measured cost. The 72.875-second reader preparation, native qualification, storage checks and this filing remain inside the maintenance allowance, with earlier preparation costs retained. Runtime repairs preserve previous descendant accounting and do not silently rewrite historical costs.
+
+**Meaning.** Research is moving again, with original evidence retained and explicit compatibility proofs. This is an operational recovery, not completion of the research packet. The previously reviewed sixteen builder preparation artifacts are not sixteen ready studies: missing independent annotations, source-specific qualification, the failed covariance instrument and owner admission still gate unfinished cards. All three commissioned builders have delivered their current bounded packages and remain idle for those documented reasons. The ready buffer is deficient; no admissible additional card is silently parked. Week 6 production still waits for actual Week 5 drain reconciliation. Week 5 freezes new starts at 20:00 Pacific, drains by 22:00 and requires its addendum by 23:00 on November 15. Events plus four hours of inactivity and one pending wake remain unchanged. No new test was harvested, no unfinished score interpreted and no new GPU, Ollama or paid work started.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Chess, comparison and reader work are active in CPU-only Gear 2 after verified storage recovery and qualified compatibility repairs.; project meaning: scoped operational record; next engineering obligation: Continue original bounded attempts; reconcile supervisory costs and every terminal before the campaign drain; individually admit remaining built cards only after their existing gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: STORAGE_AND_LEGACY_RECOVERY_20261115.md.
+
 ### OPS-S15-W5-CH-DISK-PAUSE-20261115
 
 **Hypothesis.** Did the storage guard preserve the running chess queue, and can it resume within its unchanged limits?

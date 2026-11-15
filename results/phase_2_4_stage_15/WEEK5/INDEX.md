@@ -1,5 +1,11 @@
 # Week 5 verified records
 
+**OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115:** [Record](AT_M00_CHUNK0128_COST_20261115.md). The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+**OPS-S15-DATA-CATALOG-REVIEW-20261115:** [Record](DATA_CATALOG_REVIEW_20261115.md). The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources.
+
+**OPS-S15-W5-STORAGE-RECOVERY-20261115:** [Record](STORAGE_AND_LEGACY_RECOVERY_20261115.md). Chess, comparison and reader work are active in CPU-only Gear 2 after verified storage recovery and qualified compatibility repairs.
+
 **OPS-S15-W5-CH-DISK-PAUSE-20261115:** [Record](CH_DISK_PAUSE_20261115.md). Chess scoring is safely checkpointed and storage-held; its verified progress and all costs are preserved.
 
 **OPS-S15-DATA-STORE-REVIEW-20261115:** [Record](DATA_STORE_REVIEW_20261115.md). The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted.

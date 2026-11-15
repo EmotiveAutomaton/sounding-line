@@ -1,6 +1,13 @@
 # TODO: the study queue
 
-- [ ] OPS-S15-W5-STORAGE-RECOVERY-20261115: Restore sufficient disk headroom through a reviewed evidence-preserving plan; then authenticate chess checkpoints and retain original budget/freeze/drain gates before continuation.
+- [x] OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+- [ ] OPS-S15-W5-SUPERVISION-RECONCILE-20261115: Carry the explicit conservative supervisor reservation once through final drain alongside all child-job and maintenance costs; preserve original attempts and ceilings.
+
+- [x] OPS-S15-DATA-CATALOG-REVIEW-20261115: The external collection catalog is accepted with explicit attribution and admission limits; its inventory does not qualify new scientific sources.
+
+- [x] OPS-S15-W5-STORAGE-RECOVERY-20261115: Chess, comparison and reader work are active in CPU-only Gear 2 after verified storage recovery and qualified compatibility repairs.
+
 
 - [x] OPS-S15-W5-CH-DISK-PAUSE-20261115: Chess scoring is safely checkpointed and storage-held; its verified progress and all costs are preserved.
 
@@ -8,7 +15,7 @@
 
 - [x] OPS-S15-W6-BUILD-READINESS-20261115: All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.
 
-- [ ] OPS-S15-W5-LEGACY-POLICY-MIGRATION-20261115: Authenticate the archived policy-only change and qualify an explicit continuation/admission migration before resuming comparison recovery19 or original reader128; never rewrite old pins or receipts.
+- [x] OPS-S15-W5-LEGACY-POLICY-MIGRATION-20261115: Exact archived policy compatibility and historical-exit qualification pass; comparison continuation and original reader128 are admitted. See OPS-S15-W5-STORAGE-RECOVERY-20261115.
 - [ ] OPS-S15-W5-CH-PREFIX-ASSEMBLY-20261115: Include the authenticated 292-unit prefix from failed queue3 in the eventual source-coverage assembly, without inventing a whole-queue completion.
 
 - [x] OPS-S15-W5-REBOOT-RECOVERY-20261115: Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch.
