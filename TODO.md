@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-DIGEST-20261114: The November 14 reconciliation authenticates completed records and unchanged theory errata; original-roster scoring continues in CPU-only Gear 2, with production admissions and the ready-buffer deficit still open.
+
 - [x] OPS-S15-W5-HEALTH-20261114-1700: The next original-roster scoring interval is advancing in CPU-only Gear 2 with verified resources and wake delivery; no recovery is needed, while other production admissions remain unfinished.
 
 - [x] CH1-N first closed interval [0, 82624): all separate native unit replays and final ordinal authentication filed.

@@ -1,5 +1,106 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-DIGEST-20261114
+
+**Hypothesis.** Are completed evidence, corrections, costs, unused capacity and remaining obligations fully recorded while unfinished work stays outside scientific verdicts?
+
+**METHOD.** Authenticate the calendar marker, every filed Week 5 report and receipt, all ledger source anchors, exact live native identities, leases, progress, terminal markers, resources and delivery. Integrate counted research admission-to-terminal occupancy from the previous actual digest cutoff, clipping the active admission at the current inspection. Compare current theory bytes with the preceding complete errata verification and retain its original scope. Carry exact filed wording without introducing new scientific interpretation.
+
+**Found.** The November 14 reconciliation authenticates completed records and unchanged theory errata; original-roster scoring continues in CPU-only Gear 2, with production admissions and the ready-buffer deficit still open.
+
+**Corrections and retained failures.** No scientific claim, control or outcome is revised by this digest. Three operational inspection corrections remain explicit. The CH7 qualification filing initially queried the pending-only watcher view after a successful ACK; the corrected reader used the durable event table without duplicating the run or ACK (OPS-S15-W5-QUALIFICATION-BUILD-20261114). The completed chess interval's first owner inspection used a pause-relative manifest schema for a root-relative completion manifest; the corrected inspector authenticated the full actual completion before accepting or continuing it (OPS-S15-W5-CH1-N-INTERVAL-COMPLETE-20261114). The afternoon health prose carried forward a companion-lease assumption; it was corrected before publication to match the observed single scorer lease, with the actual inspection unchanged (OPS-S15-W5-HEALTH-20261114-1700). These are inspection and wording corrections, not scientific failures. Original failed helpers, checks, raw evidence and charges remain preserved.
+
+**Utilization.** The continuous accounting interval is 2026-11-14T04:12:46.156816+00:00 through 2026-11-15T04:03:52.298349+00:00. It contains 190.813648 authorized slot-hours: 19.573587 occupied and 171.240061 idle (89.74% idle). There is no excess over eight slots. These are counted research admission-to-terminal occupancy hours, not measured CPU utilization or total workstation use; other applications are not silently counted as research. The interval continues the preceding actual cutoff without resetting to the calendar trigger. Pre-admission environment failures have zero admitted occupancy, with their original supervisor allowances retained.
+
+Owner review and source-specific production admission remain the observed bottleneck. The interval also retains the earlier guarded memory pause and later recovery, qualification and source-preparation work. Their overlapping causal durations were not separately measured: all 171.240061 idle slot-hours remain causally unallocated rather than assigned invented durations. The current inspection finds one active research admission and no additional owner-admitted waiting job. The sixteen-card ready-buffer obligation is unfinished; a prepared-file inventory is not a completed readiness review. Idle capacity remains a defect, not evidence that the functioning scorer needs a restart.
+
+Table: commissioned builder assignments and current delivery state. These are implementation statuses, not admissions or human findings; no new builder is created by this digest.
+
+| Queue | Assigned work | Current state |
+|---|---|---|
+| A | Chess source and later chess consumers | Unconditional implementations delivered; source and constructed qualification progress is filed; remaining owner/source/model admissions are open. |
+| B | RF1 and CP1 public-text intakes, markers and instrument checks | Prepared components are filed; this digest does not establish source-specific marker qualification or release the new-family runtime gate. |
+| C | IN9 cues, IN11, IN12, LA5, RR3 and EX5 | Unconditional components and targeted constructed checks delivered; cue semantics and remaining source/production reviews stay explicit. |
+| Owner and carried work | CH6/CH7 source, numerical qualification and production review | Complete CH7 constructed cases and CH6 native bridge integration are filed; production memory, cost and replay admission remains. |
+
+**Completed evidence.** The inspection authenticates 805 previously filed Week 5 ledger rows and 1506 source anchors. Relative to the preceding inventory, excluding its own digest row, 12 operational rows are newly reconciled. No new human scientific or descriptive claim is added in this interval. Repeated receipts do not count as additional experiments, and computational replay is not independent empirical replication.
+
+Table: exact filed ledger wording, control status, outcome and route for the newly reconciled operational records. Historical launch statements describe their own boundary; only the live-state paragraph below describes the current worker.
+
+| Ledger ID | Controls | Outcome | Recorded wording | Recorded route | Detail |
+|---|---|---|---|---|---|
+| OPS-S15-W5-HEALTH-MEMORY-RESUME-20261114 | passes | infrastructure | Recovered memory headroom admits the unchanged chess continuation in CPU-only Gear 2; native monitoring is healthy and its saved checkpoint is being authenticated before scoring. | Continue the authenticated original-roster queue through complete replay and final verification; finish the named packet review and activation backlog without relaxing source/runtime gates. | [HEALTH_MEMORY_RESUME_20261114.md](HEALTH_MEMORY_RESUME_20261114.md) |
+| OPS-S15-W5-BUILD-FILING-20261114 | passes | infrastructure | The prepared two-day implementations are preserved for publication, the CH7 repair matches its passing focused checks, and CPU-only Gear 2 is actively scoring after complete checkpoint-copy authentication. | Complete native numerical qualification and source-specific owner admission in packet order; preserve the ready-buffer and activation-log obligations. | [BUILD_FILING_20261114.md](BUILD_FILING_20261114.md) |
+| OPS-S15-W5-CH7-NULL-NUMERICAL-20261114 | passes | infrastructure | The complete CH7 null constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. | Complete the other full constructed cases and source-specific cost admission; qualify the actual carried CH6 bridge before its human run. | [CH7_NULL_NUMERICAL_COMPLETE_20261114.md](CH7_NULL_NUMERICAL_COMPLETE_20261114.md) |
+| OPS-S15-W5-CH7-FLOOR-NUMERICAL-20261114 | passes | infrastructure | The complete CH7 floor constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. | Complete the other full constructed cases and source-specific cost admission; qualify the actual carried CH6 bridge before its human run. | [CH7_FLOOR_NUMERICAL_COMPLETE_20261114.md](CH7_FLOOR_NUMERICAL_COMPLETE_20261114.md) |
+| OPS-S15-W5-CH7-LADDER-NUMERICAL-20261114 | passes | infrastructure | The complete CH7 ladder constructed case passes its frozen numerical gates, independent formula checks and fresh native replay; this does not admit the human study. | Complete the other full constructed cases and source-specific cost admission; qualify the actual carried CH6 bridge before its human run. | [CH7_LADDER_NUMERICAL_COMPLETE_20261114.md](CH7_LADDER_NUMERICAL_COMPLETE_20261114.md) |
+| OPS-S15-W5-QUALIFICATION-BUILD-20261114 | passes | infrastructure | All three complete CH7 constructed qualification cases are filed; the preserved-model CH6 source-bridge integration is prepared, and original-roster chess scoring continues in CPU-only Gear 2. | Complete the preserved-model CH6 bridge integration, then source-specific CH6/CH7 cost and production admission in packet order. | [QUALIFICATION_BUILD_20261114.md](QUALIFICATION_BUILD_20261114.md) |
+| OPS-S15-W5-CH6-SG1-NATIVE-INTEGRATION-20261114 | passes | infrastructure | The actual SG1 bridge preserves every original constructed CH6 numerical field through native execute and verifier pauses, authenticated continuation and complete fresh replay. | Admit the unchanged carried CH6 model only after source-specific cost and resource review; continue the commissioned packet order. | [CH6_SG1_NATIVE_INTEGRATION_COMPLETE_20261114.md](CH6_SG1_NATIVE_INTEGRATION_COMPLETE_20261114.md) |
+| OPS-S15-W5-CH7-SOURCE-PREPARATION-20261114 | passes | infrastructure | The qualified CH7 instrument has checkpointed every original source-player projection and stopped before model fitting; the original chess-scoring queue remains active in CPU-only Gear 2. | Measure and admit the remaining own-player/full-cohort model phases and full replay without changing the cohort; continue CH6 source-specific admission and the fixed packet order. | [CH7_SOURCE_PREPARATION_20261114.md](CH7_SOURCE_PREPARATION_20261114.md) |
+| OPS-S15-W5-CH7-OWN-FIT-PILOT-20261114 | passes | infrastructure | The first declared CH7 own-player parameter cost prefix is safely checkpointed; full-cohort model and independent-replay admission remain open while original-roster chess scoring continues in CPU-only Gear 2. | Bound full-cohort memory, remaining fits, matrix work, resampling, simulated histories and fresh replay before full continuation; complete the fixed owner-review order. | [CH7_OWN_FIT_PILOT_20261114.md](CH7_OWN_FIT_PILOT_20261114.md) |
+| OPS-S15-W5-HEALTH-20261114-0830 | passes | infrastructure | The original chess scorer is advancing in CPU-only Gear 2 with healthy resources and wake delivery; no runtime recovery is required, while the ready-card admission deficit remains open. | Complete the counted full-cohort resource/model/replay admission and fixed-order owner reviews while preserving the healthy original scorer. | [HEALTH_20261114_0830.md](HEALTH_20261114_0830.md) |
+| OPS-S15-W5-CH1-N-INTERVAL-COMPLETE-20261114 | passes | infrastructure | The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2. | Continue exact nonoverlapping original-roster scoring and require full coverage before collection; complete CH6/CH7 production admission and fixed-order reviews. | [CH1_N_INTERVAL_COMPLETE_20261114.md](CH1_N_INTERVAL_COMPLETE_20261114.md) |
+| OPS-S15-W5-HEALTH-20261114-1700 | passes | infrastructure | The next original-roster scoring interval is advancing in CPU-only Gear 2 with verified resources and wake delivery; no recovery is needed, while other production admissions remain unfinished. | Finish the source-specific production resource/replay admissions and fixed-order owner reviews while preserving the healthy original-roster scorer. | [HEALTH_20261114_1700.md](HEALTH_20261114_1700.md) |
+
+**Textures.** No additional completed texture card is introduced. The cumulative counts retain only the named complete cards in the preceding digest; constructed qualification cases, source prefixes and scoring units are not textures.
+
+Table: cumulative complete texture cards by family and additions in this accounting interval. Family codes identify the existing commissioned grids.
+
+| Family | Cumulative complete cards | New |
+|---|---|---|
+| GO | 7 | 0 |
+| IN | 13 | 0 |
+| LA | 1 | 0 |
+| SP | 11 | 0 |
+
+**Live execution and resources.** At 2026-11-15T04:03:48.016838+00:00, the exact original-roster scorer had 218 closed units in its current interval and had reached original offset 96576; its saved cursor was 13.1 seconds old. Its accumulated native CPU was 43318.968750 seconds. These are progress counters, not artifact scores. The current interval begins at original ordinal 82624, following the separately completed and fully authenticated [0, 82624) interval. The fixed roster has 398065 positions. Full coverage and the collection manifest remain incomplete; the current interval is not a whole-study result.
+
+The native supervisor, plan/owner pins, 8 below-normal descendants and all 1 counted leases authenticate. No new terminal or monitor failure appeared after the last publication close. The original serial source range, separate native unit replays, attempt limits, campaign ceilings and resource guards remain unchanged. No unrelated application was modified.
+
+Table: resource snapshot in GiB. These are point observations, not peak-memory measurements; available physical memory does not substitute for Windows commit headroom.
+
+| Resource | GiB |
+|---|---|
+| commit_headroom_GiB | 20.302040 |
+| disk_free_GiB | 24.611378 |
+| ram_available_GiB | 43.321522 |
+
+All runtime floors pass. The 20-GiB disk floor remains active. The forty-thousand-CPU-second maintenance and separate one-thousand-second inspection reserves remain retained; greater headroom alone does not price the unmeasured production model phases. No paid, GPU or Ollama work is active or newly authorized.
+
+Table: policy-accounted native CPU seconds by family, including failed attempts and supervisor allowances. Nested engine/unit CPU is a subdivision and is not added again.
+
+| Family | Accounted CPU seconds |
+|---|---|
+| AT | 42351.453125 |
+| BK | 321615.890625 |
+| CH | 613773.155506 |
+| CP | 0.000000 |
+| EX | 3129.484375 |
+| GO | 58402.828125 |
+| ID | 587.156250 |
+| IN | 3124.125000 |
+| IS | 0.000000 |
+| LA | 4728.734375 |
+| MD | 38863.718750 |
+| RF | 0.000000 |
+| SP | 3122.953125 |
+| SV | 0.000000 |
+
+The digest inventory/occupancy reconciliation measured 11.640625 process CPU seconds after its live-health check; this is not a measure of all editor, service or tool overhead.
+
+**Remaining work and fixed review order.** Complete original-roster scoring and final collection authentication; then preserve the declared population when producing its downstream analyses. CH6 human-source assembly, point fits and full independent replay still need admission. CH7 has complete constructed null/floor/ladder checks, its full source-player projection and the first own-player parameter prefix; full-cohort matrix memory, model cost, complete-history nulls and fresh replay remain unpriced. The completed prefix does not establish those bounds. No overlapping scorer or reduced scientific population is introduced to fill slots.
+
+The next reviews retain packet order: CH6/CH7, CH8/CH12, remaining IN9 cues, CH9/CH10/CH11, LA5 and IN11/IN12, new-family and export consumers, then source-conditional work. The approved fixed-hash chess split, win-bonus control and ordinal duration decision remain unchanged. Runtime provenance still gates new families, and unavailable source/licence conditions remain explicit. The retrospective activation log, Round 15 integration and ready-buffer work are incomplete. Prepared unconditional builder components are preserved; no fresh delivery or changed pin appeared since the prior publication. Ghost V29 remains unreviewed and excluded from this publication.
+
+The idle fraction exceeds the packet's threshold. At the next actionable turn, prioritize existing eligible starts and their missing owner reviews, followed by the already commissioned idle-slot and texture work; do not spend a turn on a redundant healthy-worker restart or call unfinished preparation a ready queue. The original new-start freeze, drain and final addendum clocks remain unchanged.
+
+**Theory errata and filing.** Current theory-file bytes exactly match the preceding digest's fully verified current state. That earlier record replayed the historical edits, checked preserved quotations and open identifiers, and reviewed intervening result updates. This pass authenticates that unchanged state against its pinned receipt; it does not claim a new historical replay, literature review or audio comparison. No theory file or theoretical standing changes.
+
+**Delivery and disposition.** All 21 locks pass. Watcher and calendar native identities, loaded source/plan pins, fresh scans and terminal/disappearance registrations verify. The actual owner queue contains no pending operational message after delivery; the durable digest event records consumption. Full findings, tools, queue, ledger, index, operations, theory-return and generated-view reconciliation precede ACK, followed by a final ACK refresh. Events, four hours of actual owner inactivity and one pending wake are unchanged. No new test was harvested. This is the internal daily digest; the final curator packet remains the scientific reporting boundary.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The November 14 reconciliation authenticates completed records and unchanged theory errata; original-roster scoring continues in CPU-only Gear 2, with production admissions and the ready-buffer deficit still open.; project meaning: scoped operational record; next engineering obligation: Prioritize existing eligible starts and complete source-specific production admission, fixed-order reviews and activation records; preserve the final campaign clocks.; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261114.md.
+
 ### OPS-S15-W5-HEALTH-20261114-1700
 
 **Hypothesis.** Is the authorized scoring continuation advancing safely, with failures visible, and is there admitted work waiting for an idle slot?
