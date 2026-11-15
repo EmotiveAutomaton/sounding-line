@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+**Operational intake:** [OPS-S15-DATA-STORE-REVIEW-20261115](DATA_STORE_REVIEW_20261115.md). The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted. Scientific claims are unchanged.
+
 **Preparation reconciliation:** [OPS-S15-W6-BUILD-READINESS-20261115](WEEK6_BUILD_READINESS_20261115.md). All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit. This is an operational record and changes no scientific claim.
 
 **Operational recovery:** [OPS-S15-W5-REBOOT-RECOVERY-20261115](REBOOT_RECOVERY_20261115.md). Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch. Scientific claims are unchanged.

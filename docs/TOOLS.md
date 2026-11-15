@@ -2656,6 +2656,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-DATA-STORE-REVIEW-20261115:** The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted. [Record](../results/phase_2_4_stage_15/WEEK5/DATA_STORE_REVIEW_20261115.md).
+
 **OPS-S15-W6-BUILD-READINESS-20261115:** All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_BUILD_READINESS_20261115.md).
 
 **OPS-S15-W5-REBOOT-RECOVERY-20261115:** Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch. [Record](../results/phase_2_4_stage_15/WEEK5/REBOOT_RECOVERY_20261115.md).

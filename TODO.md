@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-DATA-STORE-REVIEW-20261115: The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted.
+
 - [x] OPS-S15-W6-BUILD-READINESS-20261115: All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.
 
 - [ ] OPS-S15-W5-LEGACY-POLICY-MIGRATION-20261115: Authenticate the archived policy-only change and qualify an explicit continuation/admission migration before resuming comparison recovery19 or original reader128; never rewrite old pins or receipts.

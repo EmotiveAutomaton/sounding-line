@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-DATA-STORE-REVIEW-20261115:** [Record](DATA_STORE_REVIEW_20261115.md). The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted.
+
 **OPS-S15-W6-BUILD-READINESS-20261115:** [Record](WEEK6_BUILD_READINESS_20261115.md). All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.
 
 **OPS-S15-W5-REBOOT-RECOVERY-20261115:** [Record](REBOOT_RECOVERY_20261115.md). Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch.
