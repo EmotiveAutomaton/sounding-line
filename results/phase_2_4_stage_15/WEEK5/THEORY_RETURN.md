@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+**Bounded scoring interval:** [OPS-S15-W5-CH1-N-INTERVAL2-COMPLETE-20261115](CH1_N_INTERVAL2_COMPLETE_20261115.md). The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2. The full roster is incomplete; no scientific claim or theoretical standing changes.
+
 **November 14 daily reconciliation:** [OPS-S15-W5-DIGEST-20261114](DIGEST_20261114.md). The November 14 reconciliation authenticates completed records and unchanged theory errata; original-roster scoring continues in CPU-only Gear 2, with production admissions and the ready-buffer deficit still open. Existing scientific wording is unchanged; unfinished cells remain outside verdicts.
 
 **Operational liveness:** [OPS-S15-W5-HEALTH-20261114-1700](HEALTH_20261114_1700.md). The next original-roster scoring interval is advancing in CPU-only Gear 2 with verified resources and wake delivery; no recovery is needed, while other production admissions remain unfinished. No theoretical standing changes.

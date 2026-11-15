@@ -1,11 +1,15 @@
 # TODO: the study queue
 
+- [ ] CH1-N third interval from original ordinal 104064 is active; full 398065-position coverage and downstream collection remain required.
+
+- [x] OPS-S15-W5-CH1-N-INTERVAL2-COMPLETE-20261115: The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2.
+
 - [x] OPS-S15-W5-DIGEST-20261114: The November 14 reconciliation authenticates completed records and unchanged theory errata; original-roster scoring continues in CPU-only Gear 2, with production admissions and the ready-buffer deficit still open.
 
 - [x] OPS-S15-W5-HEALTH-20261114-1700: The next original-roster scoring interval is advancing in CPU-only Gear 2 with verified resources and wake delivery; no recovery is needed, while other production admissions remain unfinished.
 
 - [x] CH1-N first closed interval [0, 82624): all separate native unit replays and final ordinal authentication filed.
-- [ ] CH1-N next interval from original ordinal 82624 is active; full 398065-position coverage and downstream collection remain required.
+- [x] CH1-N second interval [82624, 104064): native replays and exact contiguous coverage filed.
 
 - [x] OPS-S15-W5-CH1-N-INTERVAL-COMPLETE-20261114: The bounded chess-scoring interval is complete with every score independently replayed; the next nonoverlapping interval continues the unchanged roster in CPU-only Gear 2.
 
