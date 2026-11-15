@@ -108,24 +108,27 @@ def inspect(root,receipt):
         need(targeted['passed'] is True and targeted['tests']>0,'Counted targeted checks not passed')
         for key in ('serial_fresh_native_pairs','authenticated_pause_copy_and_resume','prior_evidence_unchanged',
                     'tampered_chunk_refused','fast_exit_output_cap_refused','forced_native_deadline_refused',
-                    'refused_attempt_native_costs_retained','changed_summary_context_refused'):
+                    'refused_attempt_native_costs_retained','changed_summary_context_refused',
+                    'actual_scorer_membership_verified','launcher_and_scorer_exits_verified',
+                    'owned_job_empty_before_close','foreign_process_membership_refused','changed_membership_proof_refused'):
             need(fixture.get(key) is True,'Required native case absent: '+key)
-        # Tamper copies preserve duplicate receipts intentionally. Count each
-        # exact PID+creation identity once, and require every copied value equal.
-        unique={}
-        for path in work.rglob('*_OWNED.json'):
+        # Count only the fixture's three actual native execution trees.
+        # Deliberately corrupted scratch copies are negative controls, not jobs.
+        unique={};native_paths=[]
+        for native_tree in ('queue','pause-queue','constructed-native-cases'):
+            native_paths.extend((work/native_tree).rglob('*_OWNED.json'))
+        for path in native_paths:
             prefix=path.name[:-len('_OWNED.json')];identity=read(path)['native']
             key=(identity['pid'],identity['created_ticks'])
             usage=read(path.parent/(prefix+'_JOB_USAGE.json'))
+            from runners.drive.cards.week5_at_queue_native_v2 import require_phase_proof
+            roles=require_phase_proof(path.parent,prefix,allow_forced=True)
             closed=read(path.parent/(prefix+'_CLOSED.json'))
-            need(closed['native']==identity and closed['known_not_same_live'] is True and
-                 closed['native_inspection_completed'] is True,'Actual nested closure absent')
             if closed['forced']:
                 forced=read(path.parent/(prefix+'_FORCED_STOP.json'))
-                need(forced['native']==identity and forced['reason']=='chunk_or_queue_wall_boundary','Wrong forced refusal')
-            else:need(read(path.parent/(prefix+'_EXIT.json'))['native']==identity,'Native phase exit mismatch')
+                need(forced['reason']=='chunk_or_queue_wall_boundary','Wrong forced refusal')
             need(usage['includes_all_descendants_and_exited_processes'] is True,'Nested exited CPU omitted')
-            value=dict(identity=identity,measured_cpu_seconds=usage['measured_cpu_seconds'],
+            value=dict(identity=identity,actual_scorer=roles['native'],measured_cpu_seconds=usage['measured_cpu_seconds'],
                        cpu_seconds=usage['cpu_seconds'],forced=closed['forced'])
             need(key not in unique or unique[key]==value,'Conflicting copied native cost evidence')
             unique[key]=value
@@ -151,6 +154,7 @@ def inspect_collector(root,receipt):
     native_complete(root,done)
     required=('exact_row_binding_and_native_guard_consumer_passed','incomplete_165_chunk_pilot_refused',
               'corrupt_score_block_refused','missing_queue_complete_refused',
+              'exact_job_membership_and_both_exits_required',
               'changed_context_revision_precision_core_fresh_native_and_row_order_refused')
     branches={}
     for phase in ('execute','verify'):

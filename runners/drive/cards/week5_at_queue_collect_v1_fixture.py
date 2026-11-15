@@ -62,6 +62,13 @@ def run(output,inputs,config,verifying=False):
     def drop_guard(value):
         value['pins']={p:h for p,h in value['pins'].items() if not p.endswith('week5_at_precision_guard.py')}
     mutate_copy(root,output/'missing-core','PLAN.json',drop_guard,score,'Original numerical/guard code pin missing')
+    mutate_copy(root,output/'not-job-member','EXECUTE_MEMBER.json',
+                lambda x:x.update(member_of_exact_owned_job=False),phase,'Exact nested native closure missing')
+    mutate_copy(root,output/'nonempty-job','EXECUTE_JOB_EMPTY.json',
+                lambda x:x.update(active_processes=1),phase,'Exact nested native closure missing')
+    mutate_copy(root,output/'missing-scorer-exit','EXECUTE_CLOSED.json',
+                lambda x:x.update(identity_checks=[c for c in x['identity_checks'] if c['expected']!=x['native']]),
+                phase,'Exact nested native closure missing')
     def corrupt_score(value):
         value['values'][0]['score']['surprisal_nats']=999.0
     mutate_copy(root,output/'corrupt-score','output/block-00000.json',corrupt_score,score,'Score block hash differs')
@@ -78,6 +85,7 @@ def run(output,inputs,config,verifying=False):
                       'Incomplete queue produced a complete-pilot envelope')
     result=dict(fixture_only=True,actual_constructed_native_rows=counts,original_numeric_kernel_used=True,
         exact_row_binding_and_native_guard_consumer_passed=True,
+        exact_job_membership_and_both_exits_required=True,
         incomplete_165_chunk_pilot_refused=True,corrupt_score_block_refused=True,missing_queue_complete_refused=True,
         changed_context_revision_precision_core_fresh_native_and_row_order_refused=True,
         complete_original_m00_pilot=False,whole_ten_reader_bank_ready=False,scientific_admission=False,

@@ -283,3 +283,46 @@ It depends on the completed queue qualification and reviewed adapter design.
 All these tests are unrun. The final full original-pilot catalog and independent
 replay run only after the real original queue is complete and the owner admits
 the consumer. No human row was decoded in preparing this delivery.
+
+
+## Native launcher/scorer identity repair (candidate v2a)
+
+The first counted queue qualification failed because Windows starts a virtual
+environment redirector and an actual Python scorer with distinct native PIDs
+and creation ticks. Their equality was incorrectly required. The failed native
+attempt and its source capsule remain evidence and remain charged.
+
+The repair does not relax identity equality. It separates the launch identity
+from the actual scorer identity. A new additive child boundary publishes its
+actual native identity and waits before invoking unchanged week5_child_v7. The
+parent opens that exact process handle, verifies creation ticks and executable,
+and calls IsProcessInJob with its owned Job handle. Only an authenticated member
+receives the acknowledgement that permits scoring. Both launch and scorer roles
+are retained; no parent-PID or ancestry inference is accepted.
+
+The parent retains the exact Job handle until native accounting reports zero
+active processes and a complete empty Job PID list. On forced interruption it
+terminates only that Job and waits up to ten seconds for the same emptiness
+proof; failure cannot produce a successful closure. Final descendant CPU is
+sampled after draining. The Job closes, then independent native inspection must
+show both roles and every observed member exited. Unknown/access-denied is not
+exit. The original 1700-second chunk quantum leaves room for this closure inside
+the amendment's thirty-minute loss bound. Original scorer, FP64, 1024 context,
+fresh-forward comparison, memory gates and inclusive card/campaign caps remain.
+
+The repaired native fixture requires real distinct redirector/scorer identities,
+actual membership, both exit proofs and empty Job evidence. It tries to admit
+the live outer fixture process to the nested Job and requires the exact
+nonmember refusal. It also rejects a changed membership receipt. The collector
+rejects missing actual-scorer exit proof, nonempty Job proof and changed
+membership, beside its existing corruption/no-COMPLETE controls. Unit checks
+require unknown and still-live identities to refuse. Every new check is unrun.
+
+The owner harness counts the fixture's three actual native execution trees;
+deliberately corrupted scratch copies are negative controls, never separate
+jobs or cost claims. Queue qualification and its fresh replay remain one
+counted plan capped at 2000 CPU seconds plus 30 supervisor, 3600 wall seconds,
+4 GiB projected RAM and 512 MiB output. Consumer qualification remains 300 CPU
+seconds plus 30 supervisor, 600 wall seconds, 2 GiB RAM and 128 MiB output.
+Production admission still requires the owner's reviewed complete qualification
+and collector evidence; no build or installation is a passing native test.

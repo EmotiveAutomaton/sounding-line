@@ -18,10 +18,13 @@ import time
 from .batch_runtime import read, freeze, atomic, filehash, check_files, now, REPO, PYTHON
 from .batch_runtime_v8 import measured_child, job_cpu, output_bytes
 from .week5_resume import output_manifest
+from . import week5_at_queue_native_v2 as native_proof
+from .week5_at_queue_native_v2 import prove_member
+from . import week5_at_queue_child_v2  # explicit closure pin for native boundary
 
 MODULE = 'runners.drive.cards.week5_at_queue_v1'
 SCORER = 'runners.drive.cards.week5_at_scoring_guard_v1'
-CHILD = 'runners.drive.cards.week5_child_v7'
+CHILD = 'runners.drive.cards.week5_at_queue_child_v2'
 NUMERIC = dict(version='AT-FP64-1', model_computation='float64_from_pinned_float32',
     log_softmax_and_entropy='float32', cache_fresh_tolerance_nats=1e-4,
     attention_backend='original_model_default')
@@ -184,12 +187,7 @@ def audit_chunk(root, spec, ordinal):
         need(usage['includes_all_descendants_and_exited_processes'] is True and
              usage['exit_code'] == 0 and usage['cpu_seconds'] >= 0, 'Native phase usage missing')
         native = read(root/f'{phase}_NATIVE.json')['native']; natives.append(native)
-        exit_proof = read(root/f'{phase}_EXIT.json')
-        need(exit_proof['exit_code'] == 0 and exit_proof['native'] == native, 'Native exit mismatch')
-        owned=read(root/f'{phase}_OWNED.json'); closed=read(root/f'{phase}_CLOSED.json')
-        need(owned['native']==native and closed['native']==native and
-             closed['known_not_same_live'] is True and closed['native_inspection_completed'] is True and
-             closed['forced'] is False, 'Exact native closure proof missing')
+        native_proof.require_phase_proof(root, phase, native)
         environment = read(root/f'{phase}_ENVIRONMENT.json')
         need(environment['threads'] == 2 and environment['cuda_visible'] == '' and
              all(p['num_threads'] <= 2 for p in environment['pools']), 'Actual numerical environment mismatch')
@@ -212,48 +210,73 @@ def request_yield(root, reason):
 
 
 def native_phase(root, operation, queue_output, deadline, cpu_left, output_cap):
-    """Exact owned nested job, all descendants remain billed by the outer job."""
+    """Authenticate launcher and actual scorer separately inside the exact Job."""
     from runners.stage9.process_identity import native_identity
     command = [str(PYTHON), '-X', 'utf8', '-B', '-m', CHILD, operation, str(root)]
-    requested = None; reason = None; forced = False
-    next_size_check = time.monotonic()
-    phase = operation.upper()
+    requested = reason = actual = error = None; forced = False
+    observed = {}; phase = operation.upper(); next_size_check = time.monotonic()
+    def remember(snapshot):
+        for identity in snapshot['identities']:
+            observed[(identity['pid'],identity['created_ticks'])] = identity
     with measured_child(root, operation, command) as worker:
-        owned = native_identity(worker.pid)
-        need(owned is not None, 'Child native identity unavailable')
-        freeze(root/(phase+'_OWNED.json'), dict(at=now(), native=owned))
-        while worker.poll() is None:
-            moment = time.monotonic()
-            if requested is None:
-                if (queue_output/'YIELD_REQUEST.json').exists(): reason = 'outer_yield_request'
-                elif moment >= deadline-60: reason = 'chunk_or_queue_wall_boundary'
-                elif job_cpu(worker) >= cpu_left: reason = 'inclusive_chunk_cpu_boundary'
-                elif moment >= next_size_check:
-                    next_size_check = moment+30
-                    if output_bytes(queue_output) > output_cap: reason = 'queue_output_cap'
-                if reason:
-                    request_yield(root,reason); requested=moment
-            if moment >= deadline or (requested is not None and moment-requested >= 60):
+        launch = native_identity(worker.pid)
+        need(launch is not None, 'Launch native identity unavailable')
+        observed[(launch['pid'],launch['created_ticks'])] = launch
+        freeze(root/(phase+'_OWNED.json'),dict(at=now(),native=launch,role='launch_redirector'))
+        try:
+            freeze(root/(phase+'_LAUNCH_MEMBER.json'),prove_member(worker,launch))
+            while True:
+                snapshot = native_proof.sample_job(worker); remember(snapshot)
+                ready_path = root/(phase+'_READY.json')
+                if actual is None and ready_path.is_file():
+                    ready = read(ready_path)
+                    need(ready['phase']==operation and ready['plan_sha256']==filehash(root/'PLAN.json'),
+                         'Scorer ready handshake has wrong phase or plan')
+                    actual = ready['native']; member = prove_member(worker,actual)
+                    observed[(actual['pid'],actual['created_ticks'])] = actual
+                    freeze(root/(phase+'_MEMBER.json'),dict(member,launch_native=launch,
+                           ready_sha256=filehash(ready_path)))
+                code = worker.poll()
+                if code is not None and native_proof.empty(snapshot): break
+                moment = time.monotonic()
+                if requested is None:
+                    if (queue_output/'YIELD_REQUEST.json').exists(): reason='outer_yield_request'
+                    elif moment >= deadline-60: reason='chunk_or_queue_wall_boundary'
+                    elif snapshot['cpu_seconds'] >= cpu_left: reason='inclusive_chunk_cpu_boundary'
+                    elif moment >= next_size_check:
+                        next_size_check=moment+30
+                        if output_bytes(queue_output)>output_cap: reason='queue_output_cap'
+                    if reason: request_yield(root,reason); requested=moment
+                if moment >= deadline or (requested is not None and moment-requested>=60):
+                    forced=True; break
+                time.sleep(.05)
+        except BaseException as exc:
+            error=exc; forced=True; reason=reason or 'native_phase_exception'
+        finally:
+            snapshot=native_proof.sample_job(worker);remember(snapshot)
+            if forced or not native_proof.empty(snapshot):
                 forced=True
-                freeze(root/(phase+'_FORCED_STOP.json'),dict(at=now(),reason=reason,native=owned))
-                break
-            time.sleep(.25)
-        if not forced:
+                freeze(root/(phase+'_FORCED_STOP.json'),dict(at=now(),reason=reason,
+                       native=actual,launch_native=launch,observed_identities=list(observed.values())))
+                snapshot=native_proof.terminate_and_drain(worker,remember)
+            need(native_proof.empty(snapshot),'Owned Job emptiness not proved')
+            freeze(root/(phase+'_JOB_EMPTY.json'),snapshot)
             code=worker.poll()
-            freeze(root/(phase+'_EXIT.json'),dict(at=now(),native=owned,exit_code=code))
-    # measured_child has now closed the exact job and waited on its process.
-    # Unknown native inspection raises; absence is never inferred from a PID.
-    current=native_identity(owned['pid'])
-    need(current != owned, 'Owned child remains live after contained closure')
-    freeze(root/(phase+'_CLOSED.json'),dict(at=now(),native=owned,known_not_same_live=True,
-           native_inspection_completed=True,forced=forced))
-    if forced:
-        raise RuntimeError('Native child exceeded checkpoint grace; authenticated resume review required')
-    need(output_bytes(queue_output) <= output_cap, 'Final retained output exceeds cap')
-    need(code == 0, 'Native phase failed; preserve all costs and require owner recovery')
+            need(code is not None,'Launch exit unknown after empty Job')
+            freeze(root/(phase+'_EXIT.json'),dict(at=now(),native=actual,launch_native=launch,exit_code=code))
+    # Context close follows the empty-Job observation. Unknown identities raise.
+    checks=native_proof.exited_identities(list(observed.values()))
+    freeze(root/(phase+'_CLOSED.json'),dict(at=now(),native=actual,launch_native=launch,
+           identity_checks=checks,known_not_same_live=True,native_inspection_completed=True,
+           job_empty_before_close=True,job_closed=True,forced=forced))
+    if error is not None: raise error
+    if forced: raise RuntimeError('Native child exceeded checkpoint grace; authenticated resume review required')
+    need(actual is not None,'Actual scorer membership was never authenticated')
+    need(output_bytes(queue_output)<=output_cap,'Final retained output exceeds cap')
+    need(code==0,'Native phase failed; preserve all costs and require owner recovery')
     value=read(root/('RESULT.json' if operation=='execute' else 'VERIFIED.json'))
     usage=read(root/(phase+'_JOB_USAGE.json'))
-    need(usage['cpu_seconds'] <= cpu_left,'Native child exceeded inclusive chunk CPU boundary')
+    need(usage['cpu_seconds']<=cpu_left,'Native child exceeded inclusive chunk CPU boundary')
     return value,usage['cpu_seconds']
 
 

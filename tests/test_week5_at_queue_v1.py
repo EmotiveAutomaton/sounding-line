@@ -75,4 +75,33 @@ class Contracts(unittest.TestCase):
             self.assertEqual(set(q.inventory(root)),{'block-00000.json'})
 
 
+
+class NativeRoleContracts(unittest.TestCase):
+    def test_empty_job_requires_all_native_views_empty(self):
+        from runners.drive.cards import week5_at_queue_native_v2 as proof
+        zero=dict(active_processes=0,assigned_processes=0,listed_process_ids=[],identities=[])
+        self.assertTrue(proof.empty(zero))
+        for field,value in [('active_processes',1),('assigned_processes',1),('listed_process_ids',[99]),
+                            ('identities',[{'constructed':True}])]:
+            with self.subTest(field=field):self.assertFalse(proof.empty(dict(zero,**{field:value})))
+
+    def test_unknown_native_exit_does_not_pass(self):
+        from unittest.mock import patch
+        from runners.drive.cards import week5_at_queue_native_v2 as proof
+        identity=dict(pid=99,created_ticks=123,executable='constructed-only')
+        with patch.object(proof,'native_identity',side_effect=OSError('constructed query unavailable')):
+            with self.assertRaises(OSError):proof.exited_identities([identity])
+
+    def test_still_live_native_identity_does_not_pass(self):
+        from unittest.mock import patch
+        from runners.drive.cards import week5_at_queue_native_v2 as proof
+        identity=dict(pid=99,created_ticks=123,executable='constructed-only')
+        with patch.object(proof,'native_identity',return_value=identity):
+            with self.assertRaisesRegex(ValueError,'Owned native identity remains live'):
+                proof.exited_identities([identity])
+
+    def test_original_scorer_and_handshake_are_separate_modules(self):
+        self.assertEqual(q.SCORER,'runners.drive.cards.week5_at_scoring_guard_v1')
+        self.assertEqual(q.CHILD,'runners.drive.cards.week5_at_queue_child_v2')
+
 if __name__=='__main__':unittest.main()

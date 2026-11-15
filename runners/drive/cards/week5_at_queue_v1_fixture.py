@@ -24,6 +24,8 @@ def fixture_child(operation, root):
     from . import week5_child_v7 as child
     from . import week5_at_scoring_guard_v1 as guard
     from .week5_at_scoring_v4_fixture import loader
+    from .week5_at_queue_child_v2 import handshake
+    handshake(root, operation)
     plan = read(root/'PLAN.json')
     case = plan.get('fixture_native_case')
     if case:
@@ -36,7 +38,7 @@ def fixture_child(operation, root):
         else:
             from runners.stage9.process_identity import native_identity
             freeze(root/'OWNED_IDENTITY.json',dict(native=native_identity()))
-            time.sleep(10)
+            time.sleep(90)
         return
     q.need(plan['module'] == q.SCORER and plan.get('counted_parent_only') is True, 'Wrong constructed child plan')
     manifest = read(plan['inputs']['model_manifest'])
@@ -79,7 +81,17 @@ def clone(function, **overrides):
 
 
 def native_runner():
-    return clone(q.native_phase, CHILD=FIXTURE_MODULE)
+    def checked_member(worker, expected):
+        proof=q.native_proof.prove_member(worker,expected)
+        from runners.stage9.process_identity import native_identity
+        outside=native_identity()
+        try:q.native_proof.prove_member(worker,outside)
+        except ValueError as error:
+            q.need(str(error)=='Native identity is not a member of owned Job','Wrong outside-Job refusal')
+        else:raise ValueError('Outside parent was accepted as nested Job member')
+        proof['fixture_foreign_nonmember_refused']=True
+        return proof
+    return clone(q.native_phase, CHILD=FIXTURE_MODULE, prove_member=checked_member)
 
 
 def run(output, inputs, config, verifying=False):
@@ -134,7 +146,7 @@ def run(output, inputs, config, verifying=False):
     for case in ('fast-output-overflow','forced-deadline'):
         target=work/'constructed-native-cases'/case;target.mkdir(parents=True)
         freeze(target/'PLAN.json',dict(fixture_native_case=case))
-        deadline=time.monotonic()+(120 if case=='fast-output-overflow' else 2)
+        deadline=time.monotonic()+(120 if case=='fast-output-overflow' else 30)
         try:native_runner()(target,'execute',target,deadline,120,65536 if case=='fast-output-overflow' else 2**20)
         except (ValueError,RuntimeError) as error:
             wanted=('Final retained output exceeds cap' if case=='fast-output-overflow' else
@@ -142,17 +154,33 @@ def run(output, inputs, config, verifying=False):
             q.need(str(error)==wanted,'Wrong native refusal reason: '+repr(error))
         else:raise ValueError('Native refusal case did not refuse: '+case)
         q.need((target/'EXECUTE_JOB_USAGE.json').is_file(),'Refused native cost disappeared')
-        owned=read(target/'EXECUTE_OWNED.json')['native'];closed=read(target/'EXECUTE_CLOSED.json')
-        q.need(closed['native']==owned and closed['known_not_same_live'] is True and
-               closed['native_inspection_completed'] is True,'Actual known native closure absent')
+        roles=q.native_proof.require_phase_proof(target,'EXECUTE',allow_forced=True)
+        closed=read(target/'EXECUTE_CLOSED.json')
+        q.need(roles['native_roles_distinct'],'Constructed venv redirector/scorer roles were not exercised')
         if case=='forced-deadline':
             forced=read(target/'EXECUTE_FORCED_STOP.json')
-            q.need(forced['native']==owned and forced['reason']=='chunk_or_queue_wall_boundary' and
-                   closed['forced'] is True,'Deadline did not close the actual owned job')
+            q.need(forced['native']==roles['native'] and forced['launch_native']==roles['launch_native'] and
+                   forced['reason']=='chunk_or_queue_wall_boundary' and closed['forced'] is True,
+                   'Deadline did not close actual launcher and scorer Job')
         else:
             q.need(read(target/'EXECUTE_EXIT.json')['exit_code']==0 and
                    read(target/'RESULT.json').get('status')=='complete' and closed['forced'] is False,
                    'Fast output test did not reach its successful child return')
+    membership_bad=work/'changed-membership';shutil.copytree(work/'queue',membership_bad)
+    bad_member=membership_bad/'chunks/0163/a000/EXECUTE_MEMBER.json'
+    import json
+    altered_member=read(bad_member);altered_member['member_of_exact_owned_job']=False
+    bad_member.write_text(json.dumps(altered_member),encoding='utf8')
+    try:q.audit_chunk(bad_member.parent,spec,163)
+    except ValueError as error:
+        q.need(str(error)=='Exact owned Job membership proof missing','Wrong membership mutation refusal')
+    else:raise ValueError('Changed Job membership proof accepted')
+    for row in result['completed_chunks']:
+        chunk=work/'queue'/row['root']
+        for phase in ('EXECUTE','VERIFY'):
+            roles=q.native_proof.require_phase_proof(chunk,phase,read(chunk/(phase+'_NATIVE.json'))['native'])
+            q.need(roles['native_roles_distinct'] and read(chunk/(phase+'_MEMBER.json'))['fixture_foreign_nonmember_refused'],
+                   'Actual redirector/scorer membership cases absent')
     context_bad=work/'changed-summary-context';shutil.copytree(work/'queue',context_bad)
     bad_root=context_bad/'chunks/0163/a000'
     altered=read(bad_root/'output/SUMMARY.json');altered['context_length']=64
@@ -181,6 +209,9 @@ def run(output, inputs, config, verifying=False):
         authenticated_pause_copy_and_resume=True,prior_evidence_unchanged=True,tampered_chunk_refused=True)
     receipt.update(fast_exit_output_cap_refused=True,forced_native_deadline_refused=True,
                    refused_attempt_native_costs_retained=True,changed_summary_context_refused=True)
+    receipt.update(actual_scorer_membership_verified=True,launcher_and_scorer_exits_verified=True,
+                   owned_job_empty_before_close=True,foreign_process_membership_refused=True,
+                   changed_membership_proof_refused=True)
     freeze(work/'FIXTURE.json',receipt)
     if verifying:
         q.need(receipt==read(output/'execution/FIXTURE.json'),'Constructed replay differs')

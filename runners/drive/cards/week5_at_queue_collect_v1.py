@@ -66,12 +66,9 @@ def phase_proof(root, batch, nested):
         require(environment['cuda_visible']=='' and environment['threads']==2 and
                 all(p['num_threads']<=2 for p in environment['pools']),'Actual numerical environment changed')
         if nested:
-            exit_record=read(root/(phase+'_EXIT.json'))
-            closed=read(root/(phase+'_CLOSED.json'))
-            require(exit_record['exit_code']==0 and exit_record['native']==identity and
-                    read(root/(phase+'_OWNED.json'))['native']==identity and closed['native']==identity and
-                    closed['known_not_same_live'] is True and closed['native_inspection_completed'] is True and
-                    closed['forced'] is False,'Exact nested native closure missing')
+            try:queue.native_proof.require_phase_proof(root,phase,identity)
+            except ValueError as error:
+                raise ValueError('Exact nested native closure missing') from error
         valid=[]
         for p in (root/'output').glob('GUARD_'+phase+'_*.json'):
             g=read(p)
