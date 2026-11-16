@@ -1,12 +1,88 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+This is the canonical tools catalog (the requested “tools.markdown”). The November 15
+refresh reconciles installed package metadata, model-file presence, the live Ollama
+tag inventory, repository source receipts and external collection manifests.
+Earlier tool descriptions and the instrument ledger are retained. Installed,
+retained, executed, scientifically qualified and currently admitted are separate
+states; historical test counts and “running” notices keep their original dates.
+
+Start with the [current capability map](#current-capability-map--november-15-2026),
+[external collection](#external-collection-inventory--november-15-2026),
+[remaining acquisition list](#remaining-acquisition-and-source-qualification),
+[model inventory](#models-actually-present) and
+[instrument ledger](#the-instrument-ledger--built-here-tools-and-their-validation-state).
+Current execution authority and resource holds belong to [STATE](STATE.md)
+and [operations](CODEX_OPERATIONS.md). This refresh ran no scientific analysis or model inference. The follow-up intake
+downloaded public datasets and isolated metadata-reader dependencies onto the NAS;
+the project environment was not changed.
+
 ## External collection inventory — November 15, 2026
+
+### Follow-up intake — DC-20261115-02
+
+The curator-authorized follow-up is filed in `_handoffs/DC-20261115-02.md`.
+The current registry contains **136 entries: 92 with NAS source files, 32
+repository metadata indexes, and 12 other pending/stopped entries**. Its 412 registered
+raw/expanded files total 17,502,221,477 bytes (16.30 GiB). Archives and extracted
+views overlap; this is storage, not an independent-study count. Enron's complete
+443,254,787-byte download is separately quarantined, outside ordinary file totals.
+All paths in this section are relative to the configured external data root.
+
+This follow-up added seven downloaded sources, two repository indexes, the
+quarantined Enron source and six curator-provided MIDUS source pairs. The first 120
+registry entries are unchanged. The collector verified all 136 manifests through
+the accepted repository metadata adapter, new physical file sizes and agreement
+among public-source/schema/HTTP hashes. Public-source hashes were computed during
+intake. The twelve MIDUS files have only filename/size/timestamp verification;
+their hashes remain explicitly null pending curator-local verification. These are collector checks; the owner's earlier review below covered
+the first intake and does not admit these follow-up datasets.
+
+| Source | Retained primitive and location | Readiness and limits |
+|---|---|---|
+| PANDORA Big Five, Hugging Face derivative | All four Parquet splits of [jingjietan/pandora-big5](https://huggingface.co/datasets/jingjietan/pandora-big5), pinned revision and provider SHA-256 verified; `open/pandora-big5/raw/`. | Full HF derivative, **provisional and non-reportable** by curator instruction. Separate from original gated PANDORA. Uploader Apache 2.0 assertion does not settle upstream rights; no authenticated person key or person-disjoint split established. |
+| LifeSnaps | Complete [Zenodo v4 release](https://zenodo.org/records/7229547), published MD5 verified, selected CSVs/documents expanded; `open/lifesnaps/raw/`. | CC BY 4.0 and source duties retained. Fitbit Sense, mood/PANAS, anxiety and personality fields. Two nine-week rounds, 71 people with one repeat; not four months per person. Local timestamps have withheld offsets. Full BSON retained in ZIP, unparsed. |
+| MMASH 1.0.0 | Complete [PhysioNet release](https://physionet.org/content/mmash/1.0.0/), published SHA-256 verified and safe expansion; `open/mmash/raw/`. | ODbL 1.0. Beat intervals, activity, mood, stress and hormonal measures for 22 young healthy men over one day. Does not establish simultaneous Fitbit calibration; database share-alike duties and population limits remain. |
+| Enron email 20150507 | Complete [CMU source](https://www.cs.cmu.edu/~enron/) preserved at `_quarantine/enron-20150507/`; manifest at `open/enron/QUARANTINE.json`. | **Downloaded, quarantined, not reader-ready.** TAR regular-file names end in dots/spaces unsafe for native Windows extraction. Qualify an exact-name stream reader; no silent renaming. No explicit dataset grant established. Preserve CMU's 2026 forgery warning and privacy request; claimed sender identity is not authenticated. |
+| Colors in Context | Pinned author-filtered English CSV; `open/colors-in-context/raw/`; [source page](https://cocolab.stanford.edu/datasets/colors). | Context/target/color and timed dialogue structure. Dataset licence not established: internal tests only. Unfiltered English and Chinese releases not acquired. Worker repetition, filtering and unknown time-zone semantics remain. |
+| CaSiNo | Full [author corpus](https://github.com/kushalchawla/CaSiNo), original train/validation/test and HF Parquet; `open/casino/raw/`. | CC BY 4.0. All 1,030 negotiations, with Big Five, SVO, priorities, reasons, satisfaction and partner liking. Representations/splits overlap and are not separate populations. Trait/liking fields are available; no new consumer qualification asserted. |
+| WESAD | Complete [author release](https://ubi29.informatik.uni-siegen.de/usi/data_wesad.html), safe ZIP metadata and small readme-named members; `open/wesad/raw/`. | Scientific noncommercial use with credit. Fifteen lab participants; E4 wrist and RespiBAN chest, not Fitbit. Some readmes contain participant metadata and were not displayed. Sensor CSV headers need a specific reader; no pickle executed. Raw streams remain in the full ZIP. |
+| Supreme Court oral arguments | Complete official `supreme-corpus` v2 ZIP, core JSON/JSONL and separate `cases.jsonl`; `open/supreme-corpus/raw/`; [ConvoKit documentation](https://convokit.cornell.edu/documentation/supreme.html). | **Transcripts/metadata, no audio recordings.** Structural count: 1,700,789 utterances and 7,748 case records; documentation says approximately 1.8M utterances and 1955–2023. Exact year/case coverage is not independently reconciled. Optional parsed/arcs/tokens stay in ZIP. Repeated case votes, inferred roles and original-source licence remain explicit limits. |
+| AMI/ICSI repository index | `open/repository-ami-icsi/` indexes the three existing `corpora/store/external/week5_laughter/` archives; fresh hashes agree with original receipts. | Existing annotation/transcript bytes, no duplicate download or full audio/video. Packaged CC BY 4.0, AMI package/URL version difference and overlapping ICSI-plus remain recorded. |
+| Stack Exchange repository index | `open/repository-stackexchange/` indexes five existing site archives: academia, English, philosophy, worldbuilding and writers; fresh hashes recorded. | Per-revision CC BY-SA versions matter; retained item/description notices differ. UTC is not participant-local time. More official dumps require curator review of the current account access/LLM-training affirmation; no form or terms were accepted here. |
+| MIDUS M3/M2/MR1, P1 and P2 | Six private metadata indexes; supplied SAV/codebook pairs at `private/midus/raw/<sample>_<project>/`. Setup and exact item report at `private/midus/README.md` and `SCALES_AND_COMPARABILITY.md`. | **All six source pairs present; metadata/integrity qualification pending.** Filenames, sizes and timestamps match after authorized within-NAS relocation. Raw hashes are null; portal versions unknown. November 15 download date is curator-reported. No SAV or PDF codebook opened. Curator-run dictionary export only; M2ID versus MRID, person versus person-day, MR1 held out with no analysis planned. No pooling before each variable's Concordance notes; suppress cells with 10 or fewer distinct people. |
+
+The public MIDUS scales prose documents type, severity, seven areas at risk and
+perceived control for M2/M3/MR1 diaries, plus the exact 14 daily negative-affect
+items. This is an instrument inventory, not a study result or proof of cross-wave
+equivalence. The 297-entry `CONCORDANCE_WORKLIST.json` has zero retrieved notes;
+survey variables must be added after curator-run dictionary export. Public
+[conditions](https://midus.wisc.edu/data-access/) prohibit raw-data uploads to
+public AI platforms; the local workflow keeps observations out of this session.
+
+Follow-up evidence is `_registry/evidence/batch02/FINAL_VERIFICATION.json`.
+Source cards retain original notices, source pins, hashes, units, parser limits
+and failures. `_registry/NEEDS_CURATOR.md` separates missing data from existing
+bytes needing a reader, rights clarification or metadata. No existing local
+corpus was moved and no new source was scientifically admitted.
+
+### First intake baseline — DC-20261115-01
 
 The collector reports that the external collection registry records 75 newly acquired source entries, including 62 openESM member releases, plus four curator-provided collections. These are acquisition records, not independent scientific studies or admitted adapters. Thirty additional metadata entries index existing repository holdings and unresolved historical task pointers; those sources were not refetched.
 
 Resolve the private collection root through the owner metadata adapter, an explicit `--root`, or `SOUNDING_LINE_DATA_ROOT` as described in [Codex operations](CODEX_OPERATIONS.md). `_registry/REGISTRY.json`, each `SOURCE.json`/`CARD.md`/`SCHEMA.json`, and the batch `DC-20261115-01` are authoritative for this intake. Paths below are relative to that root. No machine hostname or raw human record belongs in this catalog.
 
 The owner authenticated the sealed delivery and checked all 120 registry-to-manifest identities through the accepted metadata adapter. This catalog records the collector’s acquisition, hash and licence assessments; the owner did not independently rehash the raw collections or issue new rights rulings in this documentation review. The registry keeps every entry held, needing curator review or stopped. Individual source admission still requires the original notices, applicable rights checks, source hashes and the study’s scientific gates.
+
+The batch contains 120 entries: 79 with NAS source files (75 newly acquired
+entries and four curator-provided collections), 30 repository metadata entries and
+11 unacquired entries. Its 204 registered source files total 11,552,986,500 bytes
+(10.76 GiB), including archives, expanded views and source documents. This is
+retained storage, not newly transferred bytes or independent studies.
+The collector's final receipt reconciles every registered path and size, fresh
+hash checks for 78 source entries, earlier complete original/destination checks
+for NetHealth, and seven constructed safety checks. These checks do not admit
+scientific use.
 
 Each row lists a retained source, its primitive and the restriction still required before use. Licence silence and noncommercial permission do not authorize a released trained reader.
 
@@ -31,18 +107,20 @@ Each row lists a retained source, its primitive and the restriction still requir
 | Winning Arguments / Change My View — ConvoKit release | `open/change-my-view/raw/` | Official ConvoKit Winning Arguments conversion; delta awards are behaviour, not necessarily private belief change. Original text rights review pending; macOS resource forks excluded. |
 | openESM, 62 member releases | `open/openesm-*/raw/`; full item/design inventory in `_registry/OPENESM_MEMBER_INVENTORY.json` | Per-member licence and checksum retained; one of 63 members remains metadata-only for missing licence. Construct tags do not prove trait coverage. Member 0049 version alignment and two member-0072 supplementary raw encodings need review; harmonized series remains structurally readable. |
 
-The pending-source list retains CANDOR, PANDORA, EMOTE, Vent, K-EmoCon and Wikipedia browsing diaries. UR-FUNNY is held for its pickle format; CMU-MOSEI was deliberately not fetched. Kiva snapshot retrieval/size/terms remain unqualified; Reddit r/Jokes reuse terms remain unresolved. See `_registry/NEEDS_CURATOR.md` and `_registry/LICENCE_AUDIT.md`. ValueEval is already filed privately and is no longer merely an outstanding request.
+The pending-source list retains CANDOR, original gated PANDORA, EMOTE, Vent, K-EmoCon and Wikipedia browsing diaries. UR-FUNNY is held for its pickle format; CMU-MOSEI was deliberately not fetched. Kiva snapshot retrieval/size/terms remain unqualified; Reddit r/Jokes reuse terms remain unresolved. See `_registry/NEEDS_CURATOR.md` and `_registry/LICENCE_AUDIT.md`. ValueEval is already filed privately and is no longer merely an outstanding request.
 
 The collector’s structure-only tooling records hashes, file structure and counts without exposing data rows or outcome distributions. Original unsafe/failed attempts remain recorded. Source availability does not establish scientific validity, consent re-audit or analysis admission.
 
 Analysis can read ordinary files directly from the external store when the actual reader supports UNC paths. This catalog does not authorize moving existing pinned sources, checkpoints or job state; any owner migration is recorded separately. `_registry/MIGRATION_REVIEW.md` and `LOCAL_STORAGE_INVENTORY.json` identify candidates for a separate owner-reviewed copy/hash/reader/pointer transition.
 
-## Current capability map — November 7, 2026
+## Current capability map — November 15, 2026
 
-This is the canonical tools catalog (the requested “tools.markdown”). Use this
-map for current source availability and environment primitives; dated records below
-retain their original validation boundaries. Available bytes, installed libraries,
-working readers and admitted scientific analyses are separate states.
+Use this map together with the external-source table above. Repository and NAS
+holdings are complementary: zero NAS bytes for a repository-only entry do not
+imply its source is missing locally. The collector's 32 repository index entries
+are a partial cross-reference, not a complete replacement for this catalog.
+Conservative collector licence flags do not revoke an original reviewed source
+grant. Exact source receipts and unresolved rights remain attached to each entry.
 
 ### Data and task environments
 
@@ -57,20 +135,38 @@ identifiers stay private; source availability does not grant redistribution righ
 | GoEmotions raw annotations | Pinned raw parquet, revision `add492243ff905527e67aeb8b80c082af02207c3`; allowlisted reader in `runners/theory_days/intake.py`; TD4–TD6 consumers in `emotions.py`, `word_followups.py`, `disagreement_sensitivity.py`, `mind_sensitivity.py`. | Source and consumers have completed receipts in the [theory-days index](../results/phase_2_4_stage_15/THEORY_DAYS/INDEX.md). Apache-2.0; never request or decode the author column. Preserve repeated-rater dependence and the recorded source-count discrepancy. |
 | NRC Emotion Intensity v1 and VAD v2.1 | Pinned source archives in the private theory-days intake; lexicon joins used by the emotion consumers. | Retrieved, licence/schema inspected and replayed. Noncommercial research use; **no raw redistribution**. Word coverage and task validity remain distinct from file availability. [Intake record](../results/phase_2_4_stage_15/THEORY_DAYS/SETUP_AND_SOURCE_INTAKE_20261106.md). |
 | Moral Machine | Licensed retained source; bounded archive intake and exact source consumer in `backlog_intake.py` and `moral.py`; components, expectation, exposure and cached texture modules under `runners/theory_days/`. | B2 source, analyses and bounded follow-ups have full internal receipts. The finite texture grid is complete and grants no descendant work. Preserve the original population, exposure and reference limits; identities remain local. |
-| Annotated chess games | Pinned-month PGN/Zstandard source; streaming sampling, evaluation/clock extraction and source checks in `chess_source.py`; modelling and sensitivity in `chess_model.py` and `chess_sensitivity.py`. | B4 source/model/control receipts are indexed. This parser uses retained annotations; it is not a chess engine or a general legal-move verifier. `python-chess`/`chess` are not installed. No player names are needed by the source projection. |
+| Annotated chess games | Pinned-month PGN/Zstandard source; streaming sampling, evaluation/clock extraction and source checks in `chess_source.py`; modelling and sensitivity in `chess_model.py` and `chess_sensitivity.py`. | B4 source/model/control receipts are indexed. This historical parser uses retained annotations. The separate Week 5 path now has `chess` 1.11.2 and Stockfish 19 for legal moves and engine scoring, described below. No player names are needed by the source projection. |
 | CoAuthor process records | Existing private canonical source and Stage 15 `runners/drive/cards/` consumers for typed edits, offered menus, selections, timing, histories, features and source-bound comparisons; `runners/theory_days/writing_support.py` for TD7 support. | Executed source and consumer paths have dated receipts in the [Drive index](../results/phase_2_4_stage_15/DRIVE/INDEX.md). TD7 retains its support hold. Source repair, uncertainty, scientific controls and cost holds on other cards remain card-specific. Offered/accepted model text must remain distinct from human typing. |
 | **ArgRewrite V.2** | Local `corpora/public/argrewrite/ArgRewrite.V2.zip` and all extracted members; [corpus manifest](../corpora/public/MANIFEST.json). Drafts, annotations, own pre/post-study surveys, feedback, verification logs and scores are present. | All extracted bytes verify. `Pre_Study.csv` contains 86 writer responses and typical revision-goal self-reports (Q26–Q28); exclude its question-label row and retain missing responses. These are distinct from annotation labels and do not by themselves validate per-draft intention/initiator semantics. There are 172 data workbooks plus one excluded Excel lock file. [Inventory](../results/phase_2_4_stage_15/THEORY_DAYS/ARGREWRITE_LOCAL_INVENTORY_20261107.md). |
 | Other retained human-source tasks | Earlier bounded ArgRewrite, ArXivEdits, IteraTeR, ScholaWrite, CommitBench, genetic-edition, PAN/CROSSNEWS/RAID and OpAI-Bench paths; Community Alignment, DICES and Jester consumers in the Stage 15 evidence/runner tree. | See the [source and reference catalog](#data-references-and-adjacent-workspaces) and each intake receipt. These are retained task-specific assets, not a claim that every upstream release is complete, freely redistributable or admitted for any new contrast. ScholaWrite fallback and Community Alignment encoding still have recorded build/support limits. |
 | Constructed worlds and exact controls | Stage 9 finite-world/automata/choice machinery; Stage 10 comparison/context banks; Stage 12 program, controlled and discrete modules; Stage 15 signed plants, fake references, arithmetic and replay fixtures. | Available for testing instruments under declared assumptions. Constructed checks do not establish a human effect. Keep each consumer's sensitivity and invalid-reference outcomes attached. |
 | External reference environments | Seventeen separate `reference/` research checkouts, enumerated below; shared/native packet consumers under Stage 12. | Checkout presence is not reproduction. Do not modify sibling checkouts or infer execution authority from their presence. B1 source/licence is now admitted as described above; its scientific build remains pending. B3 licence/initiator-semantics holds remain unresolved. |
 
+
+Additional retained sources and the metadata reader are listed here with their remaining limits.
+
+| Source / capability | Available primitive and entry point | Readiness and limits |
+|---|---|---|
+| External collection discovery | `tools/external_data_store.py`, `DataStore.inventory()`, `manifest(slug)` and `source_directory(slug)`; root via explicit `--root` or `SOUNDING_LINE_DATA_ROOT`. | Accepted owner adapter checks types, duplicate keys, sizes, handling folders and path containment; 15 constructed checks passed in the owner receipt. It reads metadata only. The private pointer is documented in operations; the CLI does not automatically load it. |
+| Crowd-enVENT appraisal reports | `corpora/store/external/week5/crowd_envent.zip`; Week 5 IN consumers in `runners/drive/cards/`. | Generation and independent validation tables remain distinct. Packet records CC BY 4.0. Qualified source projections and consumer checks are in the [Week 5 index](../results/phase_2_4_stage_15/WEEK5/INDEX.md); acquisition does not qualify every appraisal contrast. |
+| ASHRAE Global Thermal Comfort Database II v2.1 | Measurement CSV gzip and metadata CSV in `corpora/store/external/week5/`; Week 5 SP consumers. | Retained comfort reports and context. Preserve the packet's CC BY 4.0 licence-of-record treatment and Dryad/Zenodo notice discrepancy; actual consumers retain their source and publication checks. |
+| AMI and ICSI meeting annotations | Three annotation archives under `corpora/store/external/week5_laughter/`; private `SOURCE.md` and `RETRIEVAL.json`; Week 5 LA consumers. | Packaged CC BY 4.0 notices. Annotation/transcript releases, not a full audio/video collection. AMI URL/package version difference retained; ICSI-plus overlaps core and is not another population. |
+| Public proposal documents and histories | Pinned Python PEP, Ethereum EIP and ERC checkouts plus history checkouts under `corpora/store/external/week5/`; `runners/drive/cards/week5_go.py` and later GO consumers. | Per-document PEP terms, CC0 EIP/ERC notices and exact revisions travel with the intake. History, goal masking and reader qualification remain consumer-specific. |
+| Stack Exchange revision and question archives | Five site archives (academia, English, philosophy, worldbuilding, writers) and notices under `corpora/store/external/week5/`; GO3/EX2/EX5 paths. | Preserve item-notice CC BY-SA 3.0 versus description CC BY-SA 4.0 discrepancy. Attribution, share-alike, source revisions and identifier handling apply. These five archives do not mean the whole network is held. |
+| KLiCKe writing-task subset | `corpora/store/external/week5_bk_intakes/`, `WritingTask.zip` and private parser/source receipts; S4/EX4 consumers. | WritingTask only; demographic, vocabulary and typing-test archives were not acquired. Dataset CC BY 4.0 is distinct from repository MIT. Event/final-text pairs do not establish unique writers; identifying filenames stay private. |
+| Real World Worry, original phase 1 | `corpora/store/external/real_world_worry/phase1_original_7324d508/`; [source intake](design/stage-15/week6/RW1_INTAKE.md). | Exact local copy authenticated against Git blob and OSF SHA-256. Dataset-project GPL 3.0 applicability resolved in the receipt. Cleaned/later waves are separate. Genuine independent sentence annotations and source/marker admission remain required. |
+| ConvoKit wiki-corpus | `corpora/store/external/convokit_wiki_corpus/`; private source receipts; CP consumers. | CC BY-SA 4.0 recorded for this specific corpus, distinct from other ConvoKit Wikipedia releases and conversations-gone-awry. Identifiers stay out of outputs; source/instrument qualification uses exact receipts. |
+| Stanford Wikipedia RfA | `corpora/store/external/stanford_wiki_rfa/`; private source receipts; RF consumers. | Original archive retained. The page's software-BSD link is not a dataset-specific grant. Intake lacked explicit election IDs; later consumers require their reviewed boundaries, not an invented candidate-year proxy. |
+| PRISM and MultiPref | Existing private intake and original JSONL; [source contract](design/stage-15/PUBLIC_JSONL_INTAKE.md). | PRISM human/model text has different terms and repeated utterance views. MultiPref preserves original ties, reasons and annotator provenance; binarized/GPT variants are not substitutes. No refetch or new rights ruling here. |
+| DICES, Community Alignment and Jester | Existing Stage 15 source/consumer receipts; [intake contract](design/stage-15/DATA_INTAKE.md), [Drive index](../results/phase_2_4_stage_15/DRIVE/INDEX.md). | Preserve full-versus-quality-filtered panel distinctions and task gates. Jester's failed original intake and verified 50,691-complete-record recovery both remain; its advertised full-population discrepancy is unrepaired. |
+
 ### Local execution and verification primitives
 
-The November 7 refresh checked installed package metadata and executable presence,
-ran a constructed MATLAB save/load round trip, and independently rehashed the new
-source and every extracted member. It did not reload model weights, run a GPU job,
-call a paid provider or rerun the entire test suite. Prior scientific validation
-remains in its dated receipts.
+November 15 rechecked installed distribution metadata and command presence,
+listed the local model stores and queried only Ollama's read-only tag endpoint.
+The November 7 MATLAB round trip and earlier import/forward/feature checks retain
+their dates; they were not repeated for this documentation edit. No model was
+loaded or prompted. Unchanged versions below were checked again.
 
 | Primitive | Installed or implemented surface | Current verification boundary |
 |---|---|---|
@@ -79,16 +175,98 @@ remains in its dated receipts.
 | PDF, figures and file reports | PyMuPDF 1.28.2, pypdf 6.15.0, Pillow 12.3.0, Matplotlib 3.11.1, Seaborn 0.13.2, OpenPyXL 3.1.5, NetworkX 3.6.1. | Package metadata rechecked; original execution evidence remains below. These support reading field guides, standalone scientific figures and structured exports. |
 | Text measurement and search | spaCy 3.8.14, LFTK 1.0.9, BiberPlus 0.4.0, TextDescriptives 2.8.4, NLTK 3.10.3, wordfreq 3.1.1; tsfresh 0.21.2, ribs 0.12.0, Optuna 4.9.0. | Versions unchanged from the executed inventory below. Preserve the Biber workarounds and TextDescriptives/NumPy dependency mismatch; installed search packages are not automatically integrated runners. |
 | Neural/model primitives | torch 2.13.0+cu126, Transformers 5.14.1, Accelerate 1.14.0, PEFT 0.20.0, TransformerLens 3.6.0; TensorFlow 2.21.0, Hub 0.16.1 and tf-keras 2.21.0. | Versions rechecked; cached model/adapter inventory and prior execution checks are [below](#models-actually-present). No fresh residency, all-model execution or reader admission claim. GPU work remains parked under the active CPU-only allocation. |
-| Native bounded CPU campaigns | `runners/theory_days/{launch,runtime,policy,calendar}.py`; shared Week 4 runtime/policy; immutable plans, source pins, Windows Job Objects and CPU accounting. | Gear 2 remains CPU-only with four counted slots, 15 CPU-hour theory-days ceiling and original freeze/drain times. Source intake does not create a ready scientific card. |
+| Native bounded CPU campaigns | `runners/theory_days/{launch,runtime,policy,calendar}.py`; shared Week 4 runtime/policy; versioned Week 5 and Week 6 modules under `runners/drive/cards/`; immutable plans, source pins, Windows Job Objects and CPU accounting. | The theory-days runtime retains its closed campaign bounds. Current Week 5 authority is CPU-only Gear 2 with eight counted slots; Week 6 has separate prepared runtime/budget machinery and needs its own admission after actual Week 5 drain. Read the active packet and STATE; installed runtimes do not grant new starts. |
 | Tests, locks and independent replay | pytest 9.1.1, focused `tests/test_theory_days*.py`, `tools/verify_locks.py`, design/theory lint, stage-specific verifier consumers and claim-source anchors. | Latest publication check passed 68 focused theory-days tests; latest health verified 21 locks. These are dated checks, not a full-suite pass. Known instrument failures remain failures. Use targeted serial checks while research runs. |
-| Monitoring and resource gates | psutil 7.2.2; `tools/codex_watch.py`, durable outbox, native identity checks, completion/failure receipts and campaign calendars. | Watcher status checked during intake: current owner, fresh scan, no watcher error; six-hour health deadline unchanged. No event was acknowledged merely for receiving these files. |
+| Monitoring and resource gates | psutil 7.2.2; `tools/codex_watch.py`, durable outbox, native identity checks, completion/failure receipts and campaign calendars. | Current policy is events plus four hours of owner inactivity, with one pending operational wake. Six-hour and hourly schedules below are historical. This refresh did not change or acknowledge operational events. |
 | Shells and optional runtimes | PowerShell plus Git, Node/npm, WSL and Docker commands present. | WSL/container execution not retested. MATLAB, Octave, Julia and Rscript are absent from this session's PATH; an extracted `.m` script is reference code, not a runnable MATLAB installation. |
 | Provider and interactive surfaces | Installed Ollama 0.6.2 client, Anthropic 0.120.2 client and Modal 1.5.4; agent browser/artifact tools are separate runtime surfaces. | Client availability is distinct from account, model, task and spend admission. Week 4 paid dispatch is closed. Python Playwright, python-docx, python-pptx, reportlab, Hypothesis and pytest-cov remain absent here; an agent skill does not install those APIs. |
 
-For exact provenance of the new data, use the private `SOURCE.md` and the
+For exact provenance of the November 7 Rutledge intake, use its private `SOURCE.md` and the
 [aggregate intake record](../results/phase_2_4_stage_15/THEORY_DAYS/RUTLEDGE_LOCAL_SOURCE_20261107.md).
 No participant ID belongs in a URL, query or committed output. The source folder,
 including its ZIP, README, extracted files and `SOURCE.md`, remains Git-ignored.
+
+
+Additional current primitives and their checked limits:
+
+| Primitive | Entry point | Verification and use boundary |
+|---|---|---|
+| Chess legality and engine scoring | Installed `chess` 1.11.2; `corpora/store/external/week5_tools/stockfish/stockfish-windows-x86-64-universal.exe`; Week 5 `week5_ch_source.py`, checkpoint and queue modules. | Stockfish 19 (`sf_19`) and chess retained with GPL notices and source hashes. Executable is local, absent from PATH. November 15 storage-pause receipt authenticates checkpoint units; no whole-roster completion or fresh engine execution claimed. The absent `python-chess` distribution name does not mean the installed `chess` API is missing. |
+| Sentence embedding API | `sentence-transformers` 6.2.0; MiniLM/MPNet caches and the pinned multilingual MiniLM store below. | Installed metadata verified; supersedes the earlier package-absent entry. Actual tokenizer/pooling/reader execution and resources remain model-specific. |
+| Compressed sources | Existing native/stdlib archive paths and source handlers. | Third-party `zstandard` distribution is absent at this check. Existing PGN/Zstandard support must use its documented handler; do not infer this package is installed. |
+| NAS structural intake | External `_tools/schema_only.py`, `collect_io.py`, `catalog.py`, `verify_registry.py`. | Serial bounded identity transfers, hashes/checksums, safe ZIP checks, streaming TAR header safety (13 constructed cases), bounded JSONL structure inspection (7 cases), schema counts and explicit parser failures. No pickle execution, data-row output or outcome distributions. Two openESM supplementary CSV encodings remain unqualified. |
+| MIDUS private dictionary export | External `_tools/midus_dictionary_export.py` and `private/midus/setup/run_dictionary_exports.ps1`; isolated NAS pyreadstat 1.3.8/narwhals 2.28.0 wheels with verified provider hashes. | **Curator-run only.** Eight synthetic contract checks and a native constructed SAV round trip pass; wrapper syntax parses. Emits names/labels, value-label definitions and missing definitions, never observations, case counts or notes. No actual MIDUS SAV/codebook was opened. Generic-verifier deferral checked on all six source manifests with an independent raw-open audit guard: zero open attempts. No project package installation or analytical adapter is asserted. |
+| Evidence navigation | `tools/record_views.py`, [agent evidence map](START_HERE_FOR_AGENTS.md), `docs/records/` and source-bound claim ledger. | Additive views and freshness checks exist; views do not replace primary evidence. This pass did not rebuild views or land a result. |
+| Local engine exports | `runners/drive/cards/week5_ex1.py`, `week5_ex2.py`, `week5_ex3.py`, `week5_ex4_v3.py`, `week5_ex5_v1.py`. | EX1 timing/source labels, EX2 editing reasons, EX3 goal identifiers and EX5 questions have complete export/copy receipts in the Week 5 index. EX4 has code/fixture records but no complete-export receipt identified in this refresh. Keep each export's text/rights boundary; none implies deployed product support. |
+| Week 6 preparation | `runners/drive/cards/week6_*` and [Week 6 design index](design/stage-15/week6/README.md). | Reviewed preparation, runtime/budget checks and candidate plans exist. Missing paired annotations/imports, failed instruments and per-card admission remain explicit; a fixture is not an executed human study. |
+
+### Remaining acquisition and source qualification
+
+This is the outstanding acquisition list as of November 15. A named folder or
+metadata card does not mean its dataset was downloaded.
+
+| Source / complement | What is actually held | Next requirement |
+|---|---|---|
+| MIDUS six planned releases | Six SAV/codebook pairs filed under the prescribed sample/project paths, plus public scales documents and tested local dictionary tooling. Raw hashes and portal versions remain unverified. | Run the local exporter yourself; share only dictionary JSON and portal receipts/Concordance notes. The general verifier explicitly defers MIDUS without opening raw files. MR1 stays held out; no pooling and no codebook reading. |
+| Enron native reader | Full original archive retained in quarantine with its hash. | Qualify exact TAR-name streaming/containment before use; do not extract or rename through Windows defaults. Resolve rights and forgery/authorship limits. |
+| LifeSnaps/WESAD raw-format readers | Complete ZIPs held; selected LifeSnaps CSVs readable, full BSON and WESAD streams retained. | Qualify BSON and non-pickle sensor readers; WESAD E4 CSV preambles are not ordinary headers. No more download is required for those retained bytes. |
+| Supreme Court coverage and audio | Full current ConvoKit ZIP plus case companion; no audio. | Reconcile documented versus actual release coverage before a census claim. Audio would be a separate acquisition; original-source rights remain unresolved. |
+| AMI/ICSI and Stack Exchange extensions | Existing annotations and five site archives are indexed and authenticated. | Audio/video and more sites remain optional. Current official Stack access requires curator review of its affirmation; archived CC BY-SA notices remain revision-specific. |
+| Colors in Context complements | Author-filtered English CSV only. | Unfiltered English/Chinese files and their rights are separate complements; no licence inferred from public hosting. |
+| **PANDORA** | **Original gated release: metadata only, zero raw files.** `private/pandora/raw/` remains empty. All four curator-named HF derivative files are separately held under `open/pandora-big5/`, provisional and non-reportable. | The [official request page](https://psy.takelab.fer.hr/datasets/all/pandora/) timed out during the first refresh. Original-release approval and current agreement remain required; the derivative does not discharge supplied no-transfer, aggregate-only and deletion-check duties. |
+| CANDOR tabular | Public card and v2.1 terms; no gated dataset. | Curator approval and download; approximately 11 GB, above the automatic 10-GiB cap. Private-terminal instructions are in external `_registry/NEEDS_CURATOR.md`. Preserve privacy, removal and downstream-recipient duties. |
+| Vent, K-EmoCon and Wikipedia browsing diaries | Request/status metadata only; no supplied data or approval receipt in this intake. | Curator receives the approved source and records terms. No additional author contact made; these are separate sources, not substitutes for PANDORA. |
+| EMOTE | Access documentation and openESM comparison; no EMOTE data. | Identify extra variables/populations beyond acquired openESM before a project-specific ORCID request. Verify provider storage/co-user conditions. |
+| openESM member 0075 | Metadata only; the other 62 member releases are held. | Resolve missing licence declaration before acquisition under the member-list rule. |
+| Kiva snapshots | Terms evidence only; no snapshot body. | Qualify terms and size, then resolve recorded TLS retrieval failure without disabling certificate checks. |
+| r/Jokes | Official README/metadata only. | Resolve reuse and deletion/API conditions before fetching. |
+| UR-FUNNY | Source metadata only. | Pickle-based feature release was deliberately not downloaded/executed; a separately reviewed safe ingestion route is needed. |
+| CMU-MOSEI | Reference metadata only. | Deliberate no-fetch item in the brief; size/rights and specific voice-pipeline scope need review before changing disposition. |
+| New Yorker extensions | NEXT contests 497, 499 and 505 only; actual LFS response bytes verified. | More NEXT contests and separate Hessel multimodal release remain optional acquisitions with their own size/licence checks. Unsafe full-repository ZIP remains quarantined. |
+| Little Alchemy full logs | Published validation JSON only. | Full original logs request-only; complementary Keeper material remains unacquired/unqualified. |
+| Further scouting | MagicCATs and author-linked curiosity/memory OpenNeuro study are candidates, not holdings. | Resolve exact official records, notices and behavioural-file sizes. Contemporary AI suggestion-span logs, thought probes and openly licensed speaker self-ratings remain coverage gaps. |
+
+ValueEval 2024 is **already held privately**; ISEAR, trivia and NetHealth are
+filed in their recorded handling folders. Do not reacquire them merely because
+older notes say pending. NetHealth needs registration/rights confirmation;
+ISEAR's supplied notice is retained. The external comparison, curator actions
+and licence audit are `_registry/EMOTE_VS_OPENESM.md`,
+`_registry/NEEDS_CURATOR.md` and `_registry/LICENCE_AUDIT.md`.
+
+Existing-byte qualification remains: openESM 0049 catalogue/release alignment;
+two openESM 0072 raw encodings; rights gaps for HappyDB, Hippocorpus, trivia,
+en/de ISEAR, speed dating, original Diplomacy/CMV and Alchemy; and exact source
+reconciliation for older repository reference-only entries. Historical Jakesch/U1
+and Wikipedia/T2.r metadata routes retain their original licence/design/source
+holds in the backlog receipt. The wider catalog includes holdings absent from
+the collector's 32-entry repository index, including ASHRAE. AMI/ICSI and the
+five Stack Exchange archives now have explicit metadata indexes.
+
+### Storage and reading the external collection
+
+From the repository root, with the collection path configured locally:
+
+```powershell
+./.venv/Scripts/python.exe -B tools/external_data_store.py --root $env:SOUNDING_LINE_DATA_ROOT
+```
+
+This prints allowlisted inventory, never participant records. Set the variable
+to the private root recorded by the owner; do not commit a machine hostname or
+literal private path. Source manifests, cards, schemas and original notices
+give exact files, units, duties and parser limits.
+
+Direct NAS structural reads worked for CSV/TSV/JSON/JSONL/ARFF/XLSX, Parquet
+footers and Stata metadata; the MIDUS SAV reader was tested only on constructed data. A consumer
+supporting UNC paths can read there directly without a workstation copy. Existing
+consumers can enforce pinned roots/paths; SMB random reads can be slower. Qualify
+the actual reader before changing its source location.
+
+The external migration review identifies the approximately 27-GiB original
+Lichess intake and 6.9-GiB prepared chess store as candidates needing dependency
+review; the approximately 15.9-GiB Week 5 model store is separately identified as
+weights. These are potential savings, not completed moves. Preserve checkpoints,
+locks and job state. Copy, verify hashes, qualify the reader and review pointers
+before separately authorized original removal. The collector made no local move.
 
 ### Earlier dated inventory and instrument updates
 
@@ -956,8 +1134,10 @@ refused; these checks do not change it or reopen the closed stages.
 
 ## Current environments and execution surfaces
 
-The table distinguishes implemented capabilities from validated execution paths.
-Hardware capacity is approximate and is not a work allocation.
+This table retains earlier execution evidence. November 15 rechecked selected
+versions, command presence and model inventories; the current map above records
+additions and current campaign limits. Older execution evidence does not assert
+a fresh full-environment test. Hardware capacity is not a work allocation.
 
 | Surface | Available capability | Verified state and limit |
 |---|---|---|
@@ -976,7 +1156,7 @@ Hardware capacity is approximate and is not a work allocation.
 
 ### Ollama models
 
-These tags were returned by the live local service. Size is stored bytes in decimal
+These five tags were returned again by the local service on November 15. Size is stored bytes in decimal
 GB, and digest is the identifying prefix; full digests are retained in the local audit.
 The two DeepSeek tags are different packages, not aliases for one model.
 
@@ -994,7 +1174,7 @@ The bounded project probe grants its reader no tools regardless of model support
 
 ### Hugging Face cache
 
-All 24 model repositories below have local runtime weight/configuration assets.
+All 24 model repositories below still have weight files at the November 15 presence check. The following loader/header checks describe the earlier executed audit:
 Configuration and tokenizer loading passed offline for each, with the explicit-path
 exception described below. Weight files and shard indexes were checked for presence;
 safetensors headers were checked against file lengths. This is not a new full-weight
@@ -1018,8 +1198,7 @@ client's `snapshot_download(..., local_files_only=True)` refuses that snapshot b
 `.gitattributes`, `LICENSE` and `README.md` are missing. Callers using that helper are
 not currently ready for this model. No cache files were downloaded or altered.
 DeBERTa and ERNIE also retain separate weight-only snapshots; those are not additional
-complete models. The `sentence-transformers` package itself is absent: cached embedding
-weights are usable through suitable Transformers code, not proof that that API exists.
+complete models. The earlier audit found `sentence-transformers` absent; November 15 finds version 6.2.0 installed. Cached weights and the API now both exist, while model-specific execution/admission remains separate.
 
 ### Additional local weights and trained artifacts
 
@@ -1043,6 +1222,21 @@ failed gates; an installed package or completed transport is not an admitted rea
 Raw model calls, adapters and per-writer records remain local. The live card and
 capability boundaries are in the [October handoff](design/stage-14/IMPLEMENTATION_HANDOFF.md).
 
+
+The November 15 presence check additionally inventories **12 directories** under
+`corpora/store/external/week5_models/`, each with weight files. Eleven use pinned
+model/revision directories; one is the separately manifested `ca1-encoder`.
+Some duplicate default-cache model families. Directory counts are not distinct
+admitted models. No all-weight rehash, loading or new reader/GPU admission occurred.
+
+| Week 5 model purpose | Exact retained identities |
+|---|---|
+| Deduplicated Pythia ladder | `EleutherAI/pythia-70m-deduped`, `EleutherAI/pythia-160m-deduped`, `EleutherAI/pythia-410m-deduped`, `EleutherAI/pythia-1b-deduped`, `EleutherAI/pythia-1.4b-deduped` |
+| GPT-2 ladder | `openai-community/gpt2`, `openai-community/gpt2-medium`, `openai-community/gpt2-large` |
+| Small causal comparators | `Qwen/Qwen2.5-0.5B`, `HuggingFaceTB/SmolLM2-360M` |
+| Masked-model reader | `distilbert/distilroberta-base` |
+| Multilingual encoder (`ca1-encoder`) | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, revision `e8f8c211226b894fcb81acc59f3b34ba3efd5f42`; private `MANIFEST.json` pins files with Apache-2.0 notice |
+
 ### Remote and paid model paths
 
 `soundingline/probe/client.py` configures local `qwen3.5:9b` and an Anthropic
@@ -1058,9 +1252,10 @@ This audit made no paid call, cloud dispatch or provider upload.
 
 ## Libraries and built-in analysis capabilities
 
-Versions below are installed in the project venv. Imports pass; the final column
-states extra execution evidence or an integration boundary. These selected research
-dependencies describe the capability stack; the full installation snapshot stays local.
+Versions below were rechecked on November 15. Import/execution statements retain
+the earlier audit's scope; this refresh read package metadata. Additional current
+packages are `chess` 1.11.2 and `sentence-transformers` 6.2.0. These selected
+dependencies describe the capability stack; full installation details stay local.
 
 | Capability | Installed libraries / versions | Execution or integration state |
 |---|---|---|
@@ -1079,8 +1274,10 @@ dependencies describe the capability stack; the full installation snapshot stays
 
 ## Testing environments and research infrastructure
 
-Each row names the implemented entry points and what they establish. Historical
-scientific findings remain in their original receipts; this is a capability map.
+Each row preserves an earlier entry point and dated validation. Test-collection
+totals, test counts and active-job descriptions below belong to that earlier audit,
+not a November 15 full-suite run. The current map, STATE and newer source receipts
+supersede old operational states. Historical findings retain their original receipts.
 
 | Capability | Entry points | Boundaries / current check |
 |---|---|---|
@@ -1152,7 +1349,7 @@ reference catalog below and [workspace layout](WORKSPACE_LAYOUT.md).
   or scientific lock.
 - Qwen2.5-3B's snapshot-helper refusal is a concrete readiness limit. Container,
   WSL and browser execution require fresh checks before being treated as ready.
-- Project Python lacks `bitsandbytes`, `sentence-transformers`, `sae-lens`,
+- At the November 15 metadata check, project Python still lacks `bitsandbytes`, `sae-lens`,
   `nnsight`, `pysr`, `gplearn`, `mlflow`, `dvc`, `hydra-core`, `ax-platform`,
   `botorch`, `hypothesis`, `pytest-cov`, `playwright`, `gymnasium`, JupyterLab and
   ipykernel. `openai`, `python-docx`, `python-pptx` and `reportlab` are also absent
@@ -1162,6 +1359,14 @@ reference catalog below and [workspace layout](WORKSPACE_LAYOUT.md).
   old receipts and available software never waive scientific admission gates.
 
 ## How this inventory was triple-checked
+
+The steps below document the earlier execution audit. November 15 checked package
+metadata, command presence, five live Ollama tags, 24 default-cache model folders,
+12 Week 5 weight folders, 17 reference folders, source receipts and the collector
+inventory. PANDORA's empty raw directory was checked explicitly. A before-copy
+and edit verification receipt are retained on the NAS. Prior forwards, tests,
+feature extraction and complete raw hashing were not repeated; fresh metadata
+does not constitute fresh scientific validation.
 
 1. **Declarations:** compared the existing ledger with package/pytest configuration,
    runner/client entry points, model definitions and adjacent-workspace records.
@@ -2695,27 +2900,35 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 **OPS-S15-GEAR2-SIX-QUEUES-20261115:** Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_SIX_QUEUES_20261115.md).
 
-**OPS-S15-GEAR2-STATUS-20261115:** Five original research queues are progressing in CPU-only Gear 2; completed evidence verifies, while prepared reader and Week 6 work retain explicit resource, source and campaign admission gates. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_STATUS_20261115.md).
+**OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_CHECKPOINT_CONTINUATION_20261115.md).
 
 **OPS-S15-W6-TR2-B2-PROJECTION-20261115:** The original refusal-source projection and independent replay pass all 189 constructed checks; complete archive reconstruction and source-specific reliability qualification remain pending. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_B2_PROJECTION_20261115.md).
 
-**OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_CHECKPOINT_CONTINUATION_20261115.md).
-
-**OPS-S15-W5-CH-FULL-PREFIX-20261115:** The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission. [Record](../results/phase_2_4_stage_15/WEEK5/CH_FULL_PREFIX_20261115.md).
+**OPS-S15-GEAR2-STATUS-20261115:** Five original research queues are progressing in CPU-only Gear 2; completed evidence verifies, while prepared reader and Week 6 work retain explicit resource, source and campaign admission gates. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_STATUS_20261115.md).
 
 **OPS-S15-W5-CH-RANGES-ACTIVE-20261115:** Four disjoint original-roster chess scoring queues are active alongside the comparison continuation in CPU-only Gear 2, after complete preserved-prefix authentication. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RANGES_ACTIVE_20261115.md).
 
-**OPS-S15-W5-CH-IO-CONTROLS-20261115:** All 49 focused controls pass for the additive chess metadata audit optimization; the full preserved human prefix remains unqualified until actual authentication completes. [Record](../results/phase_2_4_stage_15/WEEK5/CH_IO_CONTROLS_20261115.md).
-
-**OPS-S15-W5-CH-IO-NATIVE-20261115:** The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate. [Record](../results/phase_2_4_stage_15/WEEK5/CH_IO_NATIVE_20261115.md).
+**OPS-S15-W5-CH-FULL-PREFIX-20261115:** The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission. [Record](../results/phase_2_4_stage_15/WEEK5/CH_FULL_PREFIX_20261115.md).
 
 **OPS-S15-FULL-RUN-ACTIVE-20261115:** CPU-only Gear 2 has a live comparison continuation and full chess evidence audit; prepared reader work remains memory-held and Week 6 retains its actual predecessor-drain gate. [Record](../results/phase_2_4_stage_15/WEEK5/FULL_RUN_ACTIVE_20261115.md).
 
-**OPS-S15-W5-AT-M00-CHUNK0130-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0130_COST_20261115.md).
+**OPS-S15-W5-CH-IO-NATIVE-20261115:** The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate. [Record](../results/phase_2_4_stage_15/WEEK5/CH_IO_NATIVE_20261115.md).
 
-**OPS-S15-W5-AT-M00-CHUNK0131-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0131_COST_20261115.md).
+**OPS-S15-W5-CH-IO-CONTROLS-20261115:** All 49 focused controls pass for the additive chess metadata audit optimization; the full preserved human prefix remains unqualified until actual authentication completes. [Record](../results/phase_2_4_stage_15/WEEK5/CH_IO_CONTROLS_20261115.md).
 
-**OPS-S15-W5-AT-M00-CHUNK0132-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0132_COST_20261115.md).
+**OPS-S15-FULL-RUN-PREPARATION-20261115:** CPU-only Gear 2 continues with preserved evidence; reader and appraisal queues are prepared, while complete chess-history authentication and live admission gates remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/FULL_RUN_PREPARATION_20261115.md).
+
+**OPS-S15-W5-HANDOVER-OBSERVATION-20261115:** The chess handover is stopped at a clean boundary while full-history authentication proceeds; the reader start was refused safely after concurrent memory demand changed. [Record](../results/phase_2_4_stage_15/WEEK5/HANDOVER_OBSERVATION_20261115.md).
+
+**OPS-S15-W5-AT-QUEUE-PREPARED-20261115:** The remaining original reader pilot is fully prepared and independently verified; production admission retains its memory, clock and cost gates. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_PREPARED_20261115.md).
+
+**OPS-S15-W5-CH-COLLECTOR-QUALIFIED-20261115:** The chess range collector passes constructed integration and exact historical-exit controls; the preserved human prefix still requires complete counted authentication. [Record](../results/phase_2_4_stage_15/WEEK5/CH_COLLECTOR_QUALIFIED_20261115.md).
+
+**OPS-S15-W5-AT-QUEUE-QUALIFIED-20261115:** The original reader queue and its evidence collector pass complete constructed native execution and independent replay; human queue admission remains separately guarded. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_QUALIFIED_20261115.md).
+
+**OPS-S15-W5-BK-RESTORE-WALL-RECOVERY-20261115:** The comparison restoration reached its wall boundary; its checkpoint is preserved and a longer bounded continuation is active in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/BK_RESTORE_WALL_RECOVERY_20261115.md).
+
+**OPS-S15-W6-APPRAISAL-EVIDENCE-QUALIFIED-20261115:** All 51 unchanged appraisal checks pass and bind the preserved source evidence; Week 6 production still requires actual predecessor drain. [Record](../results/phase_2_4_stage_15/WEEK5/APPRAISAL_EVIDENCE_QUALIFIED_20261115.md).
 
 **OPS-S15-W5-AT-QUEUE-NATIVE-FAILURE-20261115:** The constructed reader queue refuses a Windows launcher-versus-worker identity mismatch; production queue admission remains held. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_NATIVE_FAILURE_20261115.md).
 
@@ -2723,19 +2936,11 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 **OPS-S15-W5-CH-RANGE-NATIVE-20261115:** The original-engine range rehearsal passes; the full-history collector remains in bounded engineering qualification. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RANGE_NATIVE_20261115.md).
 
-**OPS-S15-W6-APPRAISAL-EVIDENCE-QUALIFIED-20261115:** All 51 unchanged appraisal checks pass and bind the preserved source evidence; Week 6 production still requires actual predecessor drain. [Record](../results/phase_2_4_stage_15/WEEK5/APPRAISAL_EVIDENCE_QUALIFIED_20261115.md).
+**OPS-S15-W5-AT-M00-CHUNK0132-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0132_COST_20261115.md).
 
-**OPS-S15-W5-BK-RESTORE-WALL-RECOVERY-20261115:** The comparison restoration reached its wall boundary; its checkpoint is preserved and a longer bounded continuation is active in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/BK_RESTORE_WALL_RECOVERY_20261115.md).
+**OPS-S15-W5-AT-M00-CHUNK0131-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0131_COST_20261115.md).
 
-**OPS-S15-W5-AT-QUEUE-QUALIFIED-20261115:** The original reader queue and its evidence collector pass complete constructed native execution and independent replay; human queue admission remains separately guarded. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_QUALIFIED_20261115.md).
-
-**OPS-S15-W5-CH-COLLECTOR-QUALIFIED-20261115:** The chess range collector passes constructed integration and exact historical-exit controls; the preserved human prefix still requires complete counted authentication. [Record](../results/phase_2_4_stage_15/WEEK5/CH_COLLECTOR_QUALIFIED_20261115.md).
-
-**OPS-S15-W5-AT-QUEUE-PREPARED-20261115:** The remaining original reader pilot is fully prepared and independently verified; production admission retains its memory, clock and cost gates. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_PREPARED_20261115.md).
-
-**OPS-S15-W5-HANDOVER-OBSERVATION-20261115:** The chess handover is stopped at a clean boundary while full-history authentication proceeds; the reader start was refused safely after concurrent memory demand changed. [Record](../results/phase_2_4_stage_15/WEEK5/HANDOVER_OBSERVATION_20261115.md).
-
-**OPS-S15-FULL-RUN-PREPARATION-20261115:** CPU-only Gear 2 continues with preserved evidence; reader and appraisal queues are prepared, while complete chess-history authentication and live admission gates remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/FULL_RUN_PREPARATION_20261115.md).
+**OPS-S15-W5-AT-M00-CHUNK0130-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0130_COST_20261115.md).
 
 **OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0129_COST_20261115.md).
 
