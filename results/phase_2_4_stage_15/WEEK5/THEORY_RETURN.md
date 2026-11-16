@@ -223,3 +223,9 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-HANDOVER-OBSERVATION-20261115:** The chess handover is stopped at a clean boundary while full-history authentication proceeds; the reader start was refused safely after concurrent memory demand changed. Operational observations only; no source admission or theory standing changes. [Record](HANDOVER_OBSERVATION_20261115.md).
 
 **OPS-S15-FULL-RUN-PREPARATION-20261115:** CPU-only Gear 2 continues with preserved evidence; reader and appraisal queues are prepared, while complete chess-history authentication and live admission gates remain explicit. Operational evidence only; no theory standing changes. [Record](FULL_RUN_PREPARATION_20261115.md).
+
+**OPS-S15-W5-CH-IO-CONTROLS-20261115:** All 49 focused controls pass for the additive chess metadata audit optimization; the full preserved human prefix remains unqualified until actual authentication completes. Constructed instrument evidence only; no theory standing changes. [Record](CH_IO_CONTROLS_20261115.md).
+
+**OPS-S15-W5-CH-IO-NATIVE-20261115:** The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate. Constructed instrument evidence only; no theory standing changes. [Record](CH_IO_NATIVE_20261115.md).
+
+**OPS-S15-FULL-RUN-ACTIVE-20261115:** CPU-only Gear 2 has a live comparison continuation and full chess evidence audit; prepared reader work remains memory-held and Week 6 retains its actual predecessor-drain gate. No theory standing changes. [Record](FULL_RUN_ACTIVE_20261115.md).

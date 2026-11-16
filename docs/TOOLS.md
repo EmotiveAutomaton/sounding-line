@@ -2693,6 +2693,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-CH-IO-CONTROLS-20261115:** All 49 focused controls pass for the additive chess metadata audit optimization; the full preserved human prefix remains unqualified until actual authentication completes. [Record](../results/phase_2_4_stage_15/WEEK5/CH_IO_CONTROLS_20261115.md).
+
+**OPS-S15-W5-CH-IO-NATIVE-20261115:** The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate. [Record](../results/phase_2_4_stage_15/WEEK5/CH_IO_NATIVE_20261115.md).
+
+**OPS-S15-FULL-RUN-ACTIVE-20261115:** CPU-only Gear 2 has a live comparison continuation and full chess evidence audit; prepared reader work remains memory-held and Week 6 retains its actual predecessor-drain gate. [Record](../results/phase_2_4_stage_15/WEEK5/FULL_RUN_ACTIVE_20261115.md).
+
 **OPS-S15-W5-AT-M00-CHUNK0130-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0130_COST_20261115.md).
 
 **OPS-S15-W5-AT-M00-CHUNK0131-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0131_COST_20261115.md).

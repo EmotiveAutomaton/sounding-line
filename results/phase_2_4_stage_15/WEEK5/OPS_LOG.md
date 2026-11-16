@@ -1607,3 +1607,9 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T00:42:32.300269+00:00 OPS-S15-W5-HANDOVER-OBSERVATION-20261115: The chess handover is stopped at a clean boundary while full-history authentication proceeds; the reader start was refused safely after concurrent memory demand changed.
 
 2026-11-16T00:47:50.078117+00:00 OPS-S15-FULL-RUN-PREPARATION-20261115: CPU-only Gear 2 continues with preserved evidence; reader and appraisal queues are prepared, while complete chess-history authentication and live admission gates remain explicit.
+
+2026-11-16T01:03:22.184406+00:00 OPS-S15-W5-CH-IO-CONTROLS-20261115: All 49 focused controls pass for the additive chess metadata audit optimization; the full preserved human prefix remains unqualified until actual authentication completes.
+
+2026-11-16T01:12:18.633902+00:00 OPS-S15-W5-CH-IO-NATIVE-20261115: The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate.
+
+2026-11-16T01:23:01.528737+00:00 OPS-S15-FULL-RUN-ACTIVE-20261115: CPU-only Gear 2 has a live comparison continuation and full chess evidence audit; prepared reader work remains memory-held and Week 6 retains its actual predecessor-drain gate.
