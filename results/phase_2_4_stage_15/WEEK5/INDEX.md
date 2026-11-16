@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-KP-CAPSULE-QUALIFIED-20261116:** [Record](KP_CAPSULE_QUALIFIED_20261116.md). All 24 constructed sealed-source boundary checks pass with effective thread limits and complete native accounting; the full source-to-native pause, resume and replay rehearsal remains unrun.
+
 **OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116:** [Record](KP_REPAIR_QUALIFIED_20261116.md). All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate.
 
 **OPS-S15-W6-KP-THREAD-FAILURE-20261116:** [Record](KP_THREAD_FAILURE_20261116.md). The constructed pause-study fixture stopped before testing because its child did not receive the required thread settings; evidence and actual cost are retained, with human-source admission held.

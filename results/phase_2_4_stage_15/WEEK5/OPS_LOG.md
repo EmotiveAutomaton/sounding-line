@@ -1677,3 +1677,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T11:25:55.763323+00:00 OPS-S15-W6-KP-THREAD-FAILURE-20261116: The constructed pause-study fixture stopped before testing because its child did not receive the required thread settings; evidence and actual cost are retained, with human-source admission held.
 
 2026-11-16T11:47:33.742307+00:00 OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116: All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate.
+
+2026-11-16T12:11:49.350489+00:00 OPS-S15-W6-KP-CAPSULE-QUALIFIED-20261116: All 24 constructed sealed-source boundary checks pass with effective thread limits and complete native accounting; the full source-to-native pause, resume and replay rehearsal remains unrun.
