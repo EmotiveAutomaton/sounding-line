@@ -2693,6 +2693,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-GEAR2-STATUS-20261115:** Five original research queues are progressing in CPU-only Gear 2; completed evidence verifies, while prepared reader and Week 6 work retain explicit resource, source and campaign admission gates. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_STATUS_20261115.md).
+
+**OPS-S15-W6-TR2-B2-PROJECTION-20261115:** The original refusal-source projection and independent replay pass all 189 constructed checks; complete archive reconstruction and source-specific reliability qualification remain pending. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_B2_PROJECTION_20261115.md).
+
+**OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_CHECKPOINT_CONTINUATION_20261115.md).
+
 **OPS-S15-W5-CH-FULL-PREFIX-20261115:** The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission. [Record](../results/phase_2_4_stage_15/WEEK5/CH_FULL_PREFIX_20261115.md).
 
 **OPS-S15-W5-CH-RANGES-ACTIVE-20261115:** Four disjoint original-roster chess scoring queues are active alongside the comparison continuation in CPU-only Gear 2, after complete preserved-prefix authentication. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RANGES_ACTIVE_20261115.md).

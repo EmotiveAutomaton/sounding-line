@@ -233,3 +233,9 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-CH-FULL-PREFIX-20261115:** The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission. Operational continuity only; no theory standing changes. [Record](CH_FULL_PREFIX_20261115.md).
 
 **OPS-S15-W5-CH-RANGES-ACTIVE-20261115:** Four disjoint original-roster chess scoring queues are active alongside the comparison continuation in CPU-only Gear 2, after complete preserved-prefix authentication. Operational execution only; full collection and scientific inference remain pending. [Record](CH_RANGES_ACTIVE_20261115.md).
+
+**OPS-S15-GEAR2-STATUS-20261115:** Five original research queues are progressing in CPU-only Gear 2; completed evidence verifies, while prepared reader and Week 6 work retain explicit resource, source and campaign admission gates. No theory standing changes. [Record](GEAR2_STATUS_20261115.md).
+
+**OPS-S15-W6-TR2-B2-PROJECTION-20261115:** The original refusal-source projection and independent replay pass all 189 constructed checks; complete archive reconstruction and source-specific reliability qualification remain pending. No theory standing changes. [Record](TR2_B2_PROJECTION_20261115.md).
+
+**OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates. No theory standing changes. [Record](GEAR2_CHECKPOINT_CONTINUATION_20261115.md).
