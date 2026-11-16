@@ -19,11 +19,40 @@ the project environment was not changed.
 
 ## External collection inventory — November 15, 2026
 
+### PANDORA author delivery and CANDOR acquisition — November 16, 2026
+
+The new author-provided PANDORA release and approved CANDOR access are recorded
+in `_handoffs/DC-20261116-01.md`. Live counts belong to `REGISTRY.json` and
+`SOURCE.json`; Raw downloads continue beyond this catalog's cutoff.
+
+| Source / capability | Retained files and entry point | Readiness and limits |
+|---|---|---|
+| PANDORA author-provided original | `private/pandora/raw/`: comments ZIP (2,349,170,242 bytes), profiles ZIP (388,620 bytes), exact curator terms note. | Author delivery reported November 16; both archive hashes and central-directory safety pass. Comments CSV header qualified through a bounded reader; profile header, row counts and label provenance remain unqualified. Archives stay intact. Private: no redistribution, identification, contact or public sensitive content; public findings aggregate only. Commercial/model-release rights silent. Full release coverage not certified without an author manifest. |
+| CANDOR Tabular v1.1 | All 70 files at pinned revision; historical physical directory `private/candor/processed/`. Provider manifest: 11,862,246,295 bytes. | Complete pinned Tabular file set and provider hashes verified, including archive MD5. Parquet footer schemas/counts recorded. Multiple transcript/CSV/Parquet views overlap. Source dictionaries and quality flags retained; no analysis or media playback. |
+| CANDOR Processed subset | One existing archive plus retained shared/replication files under `private/candor/processed/`. | One of 34 media archives verified. Folder name does not establish full Processed coverage. Full Raw already includes processed material; no duplicate full Processed acquisition commissioned. |
+| CANDOR Raw v1.1 | Full pinned flavor authorized and acquiring under `private/candor/raw/`: 170 files, 166 archives, 951,716,844,531 bytes expected. | Serial resumable authenticated NAS transfers; each completed file verified against provider SHA/Git blob and manifest MD5 where available. At least 100 GiB NAS free-space reserve. Actual status: `_registry/evidence/DC-20261116-01/RAW_PROGRESS.json`; completion requires `RAW_VERIFIED.json`. Partial cache files excluded from registry holdings. No extraction or raw-reader admission. |
+| Intake verification helpers | NAS `_tools/intake_20261116.py`; bounded compressed-CSV header helper in `_tools/schema_only.py`. | Existing login used without exposing credentials or creating accounts. Below-normal priority, one transfer at a time. Five constructed header privacy checks pass. Two interrupted attempts retained; diagnosed transient SMB metadata replacement repaired with bounded retries. No raw row, media, identifiers or outcome distributions emitted. |
+
+PANDORA's original author delivery remains separate from `jingjietan/pandora-big5`,
+which is still explicitly provisional and non-reportable. Acquiring the original
+does not retroactively validate the derivative's rights or splits.
+
+CANDOR approval and all-flavor access are resolved. Its
+[current licence](https://huggingface.co/datasets/betterup/candor-raw)
+permits conditional research/commercial use and model sharing, with corpus and
+derivative redistribution restrictions, privacy/biometric prohibitions,
+recipient obligations and required attribution/card metadata. Recheck current
+removals before future use; listed material and benchmark references must be
+removed within thirty days. The pinned log currently has no removals.
+v1.1 corrections, partial recording coverage, optional questionnaires and
+pre-join/post-leave turns remain source-specific qualification requirements.
+This intake does not grant a scientific adapter, result or new campaign.
+
 ### IPIP-NEO intake — November 15, 2026
 
 All **21 supplied files (329,072,644 bytes)** are recorded under
 `open/ipip-neo/` with SHA-256 hashes, component identities and source notices.
-The registry now has **137 entries**, 93 with NAS files, 32 repository indexes
+At that intake cutoff, the registry had **137 entries**, 93 with NAS files, 32 repository indexes
 and 12 other pending/stopped entries; **433 files, 17,831,294,121 bytes** total.
 The preceding follow-up counts below retain their earlier cutoff.
 
@@ -130,7 +159,7 @@ Each row lists a retained source, its primitive and the restriction still requir
 | Winning Arguments / Change My View — ConvoKit release | `open/change-my-view/raw/` | Official ConvoKit Winning Arguments conversion; delta awards are behaviour, not necessarily private belief change. Original text rights review pending; macOS resource forks excluded. |
 | openESM, 62 member releases | `open/openesm-*/raw/`; full item/design inventory in `_registry/OPENESM_MEMBER_INVENTORY.json` | Per-member licence and checksum retained; one of 63 members remains metadata-only for missing licence. Construct tags do not prove trait coverage. Member 0049 version alignment and two member-0072 supplementary raw encodings need review; harmonized series remains structurally readable. |
 
-The pending-source list retains CANDOR, original gated PANDORA, EMOTE, Vent, K-EmoCon and Wikipedia browsing diaries. UR-FUNNY is held for its pickle format; CMU-MOSEI was deliberately not fetched. Kiva snapshot retrieval/size/terms remain unqualified; Reddit r/Jokes reuse terms remain unresolved. See `_registry/NEEDS_CURATOR.md` and `_registry/LICENCE_AUDIT.md`. ValueEval is already filed privately and is no longer merely an outstanding request.
+The pending-source list retains EMOTE, Vent, K-EmoCon and Wikipedia browsing diaries. Original author PANDORA and CANDOR Tabular are now held; CANDOR Raw acquisition is separately tracked. UR-FUNNY is held for its pickle format; CMU-MOSEI was deliberately not fetched. Kiva snapshot retrieval/size/terms remain unqualified; Reddit r/Jokes reuse terms remain unresolved. See `_registry/NEEDS_CURATOR.md` and `_registry/LICENCE_AUDIT.md`. ValueEval is already filed privately and is no longer merely an outstanding request.
 
 The collector’s structure-only tooling records hashes, file structure and counts without exposing data rows or outcome distributions. Original unsafe/failed attempts remain recorded. Source availability does not establish scientific validity, consent re-audit or analysis admission.
 
@@ -236,8 +265,8 @@ metadata card does not mean its dataset was downloaded.
 | Supreme Court coverage and audio | Full current ConvoKit ZIP plus case companion; no audio. | Reconcile documented versus actual release coverage before a census claim. Audio would be a separate acquisition; original-source rights remain unresolved. |
 | AMI/ICSI and Stack Exchange extensions | Existing annotations and five site archives are indexed and authenticated. | Audio/video and more sites remain optional. Current official Stack access requires curator review of its affirmation; archived CC BY-SA notices remain revision-specific. |
 | Colors in Context complements | Author-filtered English CSV only. | Unfiltered English/Chinese files and their rights are separate complements; no licence inferred from public hosting. |
-| **PANDORA** | **Original gated release: metadata only, zero raw files.** `private/pandora/raw/` remains empty. All four curator-named HF derivative files are separately held under `open/pandora-big5/`, provisional and non-reportable. | The [official request page](https://psy.takelab.fer.hr/datasets/all/pandora/) timed out during the first refresh. Original-release approval and current agreement remain required; the derivative does not discharge supplied no-transfer, aggregate-only and deletion-check duties. |
-| CANDOR tabular | Public card and v2.1 terms; no gated dataset. | Curator approval and download; approximately 11 GB, above the automatic 10-GiB cap. Private-terminal instructions are in external `_registry/NEEDS_CURATOR.md`. Preserve privacy, removal and downstream-recipient duties. |
+| **PANDORA** | Original author comments/profiles ZIPs and supplied terms note are held privately; local hashes/archive safety verified. HF derivative remains separately provisional and non-reportable. | [Official source](https://psy.takelab.fer.hr/datasets/all/pandora/) page retrieval remains unreliable; actual author terms are retained. Qualify profile fields/label provenance and release coverage; no redistribution/identification/contact, public aggregate reporting only. Commercial/model-release rights and current deletion procedure remain unresolved. |
+| CANDOR tabular | All 70 pinned Tabular files hash-verified; approval and existing authenticated access confirmed. One Processed archive also verified; full Raw acquiring separately. | Use current source coverage and RAW_PROGRESS.json; preserve v2.1 privacy, attribution, recipient and thirty-day removal duties. No further login/download request is needed for Tabular. |
 | Vent, K-EmoCon and Wikipedia browsing diaries | Request/status metadata only; no supplied data or approval receipt in this intake. | Curator receives the approved source and records terms. No additional author contact made; these are separate sources, not substitutes for PANDORA. |
 | EMOTE | Access documentation and openESM comparison; no EMOTE data. | Identify extra variables/populations beyond acquired openESM before a project-specific ORCID request. Verify provider storage/co-user conditions. |
 | openESM member 0075 | Metadata only; the other 62 member releases are held. | Resolve missing licence declaration before acquisition under the member-list rule. |
