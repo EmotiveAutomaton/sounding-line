@@ -2921,6 +2921,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-BK-FINAL-PAUSE-20261115:** The final active comparison queue reached an authenticated clean checkpoint; all Week 5 research owners have exited, while formal drain reconciliation and Week 6 admission remain pending. [Record](../results/phase_2_4_stage_15/WEEK5/BK_FINAL_PAUSE_20261115.md).
+
 **OPS-S15-W5-CH-RANGE-PAUSES-20261115:** All four chess range queues reached authenticated clean checkpoints; their incomplete ranges are preserved, and the comparison queue alone continues the frozen Week 5 drain in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RANGE_PAUSES_20261115.md).
 
 **OPS-S15-W6-TR2-B2-ARCHIVE-RUNTIME-20261115:** In constructed fixtures, the full original refusal-archive source and two-phase runtime pass all 76 checks; production and scientific measurement retain their separate admission requirements. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_B2_ARCHIVE_RUNTIME_20261115.md).

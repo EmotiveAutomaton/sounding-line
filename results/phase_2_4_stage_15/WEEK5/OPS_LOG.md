@@ -1637,3 +1637,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T04:54:31.536886+00:00 OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115: Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate.
 
 2026-11-16T05:21:16.760370+00:00 OPS-S15-W5-CH-RANGE-PAUSES-20261115: All four chess range queues reached authenticated clean checkpoints; their incomplete ranges are preserved, and the comparison queue alone continues the frozen Week 5 drain in CPU-only Gear 2.
+
+2026-11-16T05:52:53.360314+00:00 OPS-S15-W5-BK-FINAL-PAUSE-20261115: The final active comparison queue reached an authenticated clean checkpoint; all Week 5 research owners have exited, while formal drain reconciliation and Week 6 admission remain pending.

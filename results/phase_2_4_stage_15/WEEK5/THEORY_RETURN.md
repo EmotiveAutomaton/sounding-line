@@ -253,3 +253,5 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115.** Catalog proposal disposition only; no human-data read, theory edit or scientific admission. [Review](COLLECTOR_CATALOG_DISPOSITION_20261115.md).
 
 **OPS-S15-W5-CH-RANGE-PAUSES-20261115.** Authenticated operational checkpoints only; scientific interpretation and theory standing are unchanged. [Complete record](CH_RANGE_PAUSES_20261115.md).
+
+**OPS-S15-W5-BK-FINAL-PAUSE-20261115.** Authenticated incomplete comparison checkpoint and research-owner exit only; no new scientific interpretation or theory standing. [Record](BK_FINAL_PAUSE_20261115.md).

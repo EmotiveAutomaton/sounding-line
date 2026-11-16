@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W5-BK-FINAL-PAUSE-20261115:** [Record](BK_FINAL_PAUSE_20261115.md). The final active comparison queue reached an authenticated clean checkpoint; all Week 5 research owners have exited, while formal drain reconciliation and Week 6 admission remain pending.
+
 **OPS-S15-W5-CH-RANGE-PAUSES-20261115:** [Record](CH_RANGE_PAUSES_20261115.md). All four chess range queues reached authenticated clean checkpoints; their incomplete ranges are preserved, and the comparison queue alone continues the frozen Week 5 drain in CPU-only Gear 2.
 
 **OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115:** [Record](COLLECTOR_CATALOG_DISPOSITION_20261115.md). Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate.
