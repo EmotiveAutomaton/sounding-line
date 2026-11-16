@@ -2921,6 +2921,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-KP-SOURCE-ACCESS-FAILURE-20261116:** The original pause-study source stopped on an inaccessible historical evidence path before inference; its failure, native exits and full cost are preserved. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_ACCESS_FAILURE_20261116.md).
+
 **OPS-S15-W6-KP-SOURCE-FIXTURE-20261116:** The invented pause-study source completes its actual native build and independent full replay; checkpoint and resume qualification remains next. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_FIXTURE_20261116.md).
 
 **OPS-S15-W6-KP-NATIVE-PREFIX-20261116:** The constructed native pause-study rehearsal reaches its fixed checkpoint with authenticated outputs and complete cost accounting; full continuation and replay remain unrun. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_PREFIX_20261116.md).

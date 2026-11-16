@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-KP-SOURCE-ACCESS-FAILURE-20261116: The original pause-study source stopped on an inaccessible historical evidence path before inference; its failure, native exits and full cost are preserved.
+
 - [x] OPS-S15-W6-KP-NATIVE-COMPLETE-20261116: The constructed pause-study rehearsal completes authenticated native checkpoint recovery and all fixed draws with fresh full replay; human-source admission remains separate.
 
 - [x] OPS-S15-W6-KP-NATIVE-ADMISSION-REFUSAL-20261116: The constructed continuation refused an unexplained workspace reader before analysis; its checkpoint and cost are retained for a serialized unchanged retry.

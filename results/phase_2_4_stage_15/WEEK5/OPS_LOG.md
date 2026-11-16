@@ -1687,3 +1687,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T12:56:04.863683+00:00 OPS-S15-W6-KP-NATIVE-ADMISSION-REFUSAL-20261116: The constructed continuation refused an unexplained workspace reader before analysis; its checkpoint and cost are retained for a serialized unchanged retry.
 
 2026-11-16T13:07:11.875146+00:00 OPS-S15-W6-KP-NATIVE-COMPLETE-20261116: The constructed pause-study rehearsal completes authenticated native checkpoint recovery and all fixed draws with fresh full replay; human-source admission remains separate.
+
+2026-11-16T13:58:57.776632+00:00 OPS-S15-W6-KP-SOURCE-ACCESS-FAILURE-20261116: The original pause-study source stopped on an inaccessible historical evidence path before inference; its failure, native exits and full cost are preserved.

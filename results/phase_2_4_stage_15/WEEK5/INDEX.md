@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-KP-SOURCE-ACCESS-FAILURE-20261116:** [Record](KP_SOURCE_ACCESS_FAILURE_20261116.md). The original pause-study source stopped on an inaccessible historical evidence path before inference; its failure, native exits and full cost are preserved.
+
 **OPS-S15-W6-KP-NATIVE-COMPLETE-20261116:** [Record](KP_NATIVE_COMPLETE_20261116.md). The constructed pause-study rehearsal completes authenticated native checkpoint recovery and all fixed draws with fresh full replay; human-source admission remains separate.
 
 **OPS-S15-W6-KP-NATIVE-ADMISSION-REFUSAL-20261116:** [Record](KP_NATIVE_ADMISSION_REFUSAL_20261116.md). The constructed continuation refused an unexplained workspace reader before analysis; its checkpoint and cost are retained for a serialized unchanged retry.

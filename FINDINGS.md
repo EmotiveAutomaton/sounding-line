@@ -1,5 +1,20 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-KP-SOURCE-ACCESS-FAILURE-20261116
+
+**Hypothesis.** Can the original pause-study source enter the qualified native runtime and authenticate every historical dependency before inference?
+
+**METHOD.** Admit the frozen original-source plan through the unchanged current runtime, with one counted slot, two numerical threads, complete descendant accounting and original source pins. Inspect the actual terminal and traceback, source pins, native exits, lease ownership and costs before recovery. No compatibility exception or permission change is installed.
+
+**Found.** Native admission and effective thread settings pass, but the source loader stops when an older dependency validator tries to read a historical parity receipt through an inaccessible directory. The operating system returns access denied; the current contents or existence of the leaf cannot be established through that denied ancestor. Original-source projection does not complete and no inferential result is produced. The terminal's generic classification is engineering; the observed cause is an environmental access refusal. It does not consume an engineering-heal attempt or justify changing a scientific gate.
+
+**Accounting and recovery.** All three recorded owner/child native identities have exited and the owned counted lease is released. Whole-Job CPU is 0.984375 seconds; the unchanged ordinary coordination charge is 30 seconds. The total cumulative KP1 charge is 252.3125 seconds. Its 47.78125-second preparation amount is unchanged, and the completed constructed fixture remains 221.328125 seconds; this ordinary source attempt is not reposted as preparation or fixture work. The original shared 20,000-second family ceiling remains. The recovery review seeks the exact old-pin-authenticated receipt bytes already preserved elsewhere; it must not infer that the inaccessible leaf is unchanged, rewrite an old pin, skip validation or alter access controls.
+
+**Queue and delivery.** The separately owned reader released its slot and exited normally before source admission. Its prepared compatibility capsule remains uninstalled and unrun. A transient process-exit race refused an earlier launch check without creating a claimed attempt; the unchanged frozen plan was then admitted. The durable watcher captured this failure while the owner was active, with no queued duplicate or scan error. CPU-only Gear 2 remains selected; scientific execution is idle while the exact evidence-access recovery is prepared. The ready buffer remains incomplete. Two builders are preparing the evidence resolver and curator-local MIDUS entry; the email candidate is delivered and awaits owner review. No new hypothesis is harvested and scientific claims remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original pause-study source stopped on an inaccessible historical evidence path before inference; its failure, native exits and full cost are preserved.; project meaning: scoped operational record; next engineering obligation: Review an exact-byte evidence resolver from independently authenticated preserved receipts; retain the original inaccessible path, hash, source design and caps.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP_SOURCE_ACCESS_FAILURE_20261116.md.
+
 ### OPS-S15-W6-KP-NATIVE-COMPLETE-20261116
 
 **Hypothesis.** Can the actual pause-study rider preserve its fixed calculation across a native checkpoint and a new process, then independently reproduce the complete result?
