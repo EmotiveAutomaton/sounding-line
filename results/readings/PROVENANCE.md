@@ -18,6 +18,14 @@ with the reason.
 
 ---
 
+## November 16 study design clarifications
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| Preserve differences for the MIDUS happiness-level comparison | Retains between-person baseline differences for MI4 while preserving the requested within-person treatment elsewhere; additive candidate remains unrun | written | [Ruling](../../docs/design/stage-15/week6/DESIGN_RULINGS_20261116.md#mi4-preserve-the-level-comparison) |
+| Grammatical writing style for the email comparison | Fixes EN1's primary feature family; concrete roster and pooling await owner review, with no topic study authorized | written | [Ruling](../../docs/design/stage-15/week6/DESIGN_RULINGS_20261116.md#en1-grammatical-style) |
+| Short-minus-long anger carry-over for the diary person comparison | Resolves ES3's person-level secondary while preserving its primary and generally-bad-day adjustment; additive candidate remains unrun | written | [Ruling](../../docs/design/stage-15/week6/DESIGN_RULINGS_20261116.md#es3-compare-short-gap-with-long-gap-carry-over) |
+
 ## November 15 theory errata, filed 2026-11-15
 
 Source dates below are not filing timestamps. These are supplied analyst excerpts,

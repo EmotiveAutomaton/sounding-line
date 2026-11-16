@@ -2921,6 +2921,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-KP-SOURCE-FIXTURE-20261116:** The invented pause-study source completes its actual native build and independent full replay; checkpoint and resume qualification remains next. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_FIXTURE_20261116.md).
+
+**OPS-S15-W6-KP-NATIVE-PREFIX-20261116:** The constructed native pause-study rehearsal reaches its fixed checkpoint with authenticated outputs and complete cost accounting; full continuation and replay remain unrun. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_PREFIX_20261116.md).
+
+**OPS-S15-W6-KP-NATIVE-ADMISSION-REFUSAL-20261116:** The constructed continuation refused an unexplained workspace reader before analysis; its checkpoint and cost are retained for a serialized unchanged retry. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_ADMISSION_REFUSAL_20261116.md).
+
+**OPS-S15-W6-KP-NATIVE-COMPLETE-20261116:** The constructed pause-study rehearsal completes authenticated native checkpoint recovery and all fixed draws with fresh full replay; human-source admission remains separate. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_COMPLETE_20261116.md).
+
 **OPS-S15-W6-KP-CAPSULE-QUALIFIED-20261116:** All 24 constructed sealed-source boundary checks pass with effective thread limits and complete native accounting; the full source-to-native pause, resume and replay rehearsal remains unrun. [Record](../results/phase_2_4_stage_15/WEEK5/KP_CAPSULE_QUALIFIED_20261116.md).
 
 **S15-W6-IN16-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REFERENCE_20261116.md).

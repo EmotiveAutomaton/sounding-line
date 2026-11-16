@@ -1,5 +1,13 @@
 # Week 5 verified records
 
+**OPS-S15-W6-KP-NATIVE-COMPLETE-20261116:** [Record](KP_NATIVE_COMPLETE_20261116.md). The constructed pause-study rehearsal completes authenticated native checkpoint recovery and all fixed draws with fresh full replay; human-source admission remains separate.
+
+**OPS-S15-W6-KP-NATIVE-ADMISSION-REFUSAL-20261116:** [Record](KP_NATIVE_ADMISSION_REFUSAL_20261116.md). The constructed continuation refused an unexplained workspace reader before analysis; its checkpoint and cost are retained for a serialized unchanged retry.
+
+**OPS-S15-W6-KP-NATIVE-PREFIX-20261116:** [Record](KP_NATIVE_PREFIX_20261116.md). The constructed native pause-study rehearsal reaches its fixed checkpoint with authenticated outputs and complete cost accounting; full continuation and replay remain unrun.
+
+**OPS-S15-W6-KP-SOURCE-FIXTURE-20261116:** [Record](KP_SOURCE_FIXTURE_20261116.md). The invented pause-study source completes its actual native build and independent full replay; checkpoint and resume qualification remains next.
+
 **OPS-S15-W6-KP-CAPSULE-QUALIFIED-20261116:** [Record](KP_CAPSULE_QUALIFIED_20261116.md). All 24 constructed sealed-source boundary checks pass with effective thread limits and complete native accounting; the full source-to-native pause, resume and replay rehearsal remains unrun.
 
 **OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116:** [Record](KP_REPAIR_QUALIFIED_20261116.md). All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate.

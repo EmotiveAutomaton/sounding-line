@@ -1,0 +1,11 @@
+# KP NATIVE ADMISSION REFUSAL 20261116
+
+**Hypothesis.** Can the constructed native continuation enter the existing counted runtime without an unexplained concurrent workspace reader?
+
+**METHOD.** Launch the reviewed continuation from the fully authenticated and filed prefix. Preserve the strict native process census, source pins, shared slots, original clocks and limits. On refusal, inspect the exact failed owner, terminal and traceback; verify the saved plan, absence of a slot admission or analysis child, current native absence and cumulative costs before recovery.
+
+**Found.** Admission refused a workspace Python PID that the current transition could not classify. The continuation wrote its failure before claiming a slot or starting execution or verification. Its native owner is exited. The named PID is now absent, but its original creation identity and command were not retained, so ownership is not asserted. Both active builders report completed metadata helpers without recorded PIDs; those reports do not establish that either owned the observed process. The original fixed checkpoint and every frozen pin remain unchanged. No scientific calculation, null or effect result is inferred.
+
+**Accounting and recovery.** The terminal records zero analysis CPU and no unresolved accounting. The ordinary claimed-attempt coordination charge of 30 seconds remains counted once, bringing all retained fixture work to 141.875 seconds and leaving 1,658.125 of the original 1,800. No preparation charge is duplicated and the original shared 20,000-second family ceiling remains. The first retry uses the same source, checkpoint, configuration, code and 900-second outer CPU cap under a fresh attempt identity. Native admissions will be serialized with transient preparation helpers; builders can continue text work meanwhile. No process is killed, no compatibility exception is installed and the census guard is unchanged.
+
+**Meaning.** This is an operational admission failure, not a failed scientific gate. CPU-only Gear 2 remains selected and the ready buffer remains incomplete. Full constructed continuation and independent replay are still required before the original human source may be admitted. No new hypothesis is harvested.

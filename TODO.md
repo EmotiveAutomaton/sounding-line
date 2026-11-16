@@ -1,5 +1,13 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-KP-NATIVE-COMPLETE-20261116: The constructed pause-study rehearsal completes authenticated native checkpoint recovery and all fixed draws with fresh full replay; human-source admission remains separate.
+
+- [x] OPS-S15-W6-KP-NATIVE-ADMISSION-REFUSAL-20261116: The constructed continuation refused an unexplained workspace reader before analysis; its checkpoint and cost are retained for a serialized unchanged retry.
+
+- [x] OPS-S15-W6-KP-NATIVE-PREFIX-20261116: The constructed native pause-study rehearsal reaches its fixed checkpoint with authenticated outputs and complete cost accounting; full continuation and replay remain unrun.
+
+- [x] OPS-S15-W6-KP-SOURCE-FIXTURE-20261116: The invented pause-study source completes its actual native build and independent full replay; checkpoint and resume qualification remains next.
+
 - [x] OPS-S15-W6-KP-CAPSULE-QUALIFIED-20261116: All 24 constructed sealed-source boundary checks pass with effective thread limits and complete native accounting; the full source-to-native pause, resume and replay rehearsal remains unrun.
 
 - [x] OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116: All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate.
