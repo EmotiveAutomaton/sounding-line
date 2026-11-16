@@ -2921,6 +2921,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W6-IN16-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REFERENCE_20261116.md).
+
+**OPS-S15-W6-KP-THREAD-FAILURE-20261116:** The constructed pause-study fixture stopped before testing because its child did not receive the required thread settings; evidence and actual cost are retained, with human-source admission held. [Record](../results/phase_2_4_stage_15/WEEK5/KP_THREAD_FAILURE_20261116.md).
+
+**OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116:** All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate. [Record](../results/phase_2_4_stage_15/WEEK5/KP_REPAIR_QUALIFIED_20261116.md).
+
 **OPS-S15-W6-CLOSURE-HEALTH-20261116:** The Week 5 calendar closed normally after its filed drain addendum; Week 6 continues in CPU-only Gear 2 with preserved evidence and explicit admission gaps. [Record](../results/phase_2_4_stage_15/WEEK5/CLOSURE_HEALTH_20261116.md).
 
 **S15-W6-IN13A-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13A_COMPLETE_20261116.md).

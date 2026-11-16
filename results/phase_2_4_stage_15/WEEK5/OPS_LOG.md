@@ -1671,3 +1671,9 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T09:52:49.401141+00:00 OPS-S15-W6-SERVICE-RUNTIME-QUALIFIED-20261116: All 72 constructed extension and service-runtime controls pass with exact native closure and once-only cost accounting; actual transition and scientific admissions remain separate.
 
 2026-11-16T10:25:24.589574+00:00 OPS-S15-W6-SERVICE-DISPATCH-20261116: The reviewed service transition admitted one all-report reference; it is verifying in Gear 2, while a separately owned reader holds additional admission pending exact compatibility review.
+
+2026-11-16T11:03:14.328444+00:00 S15-W6-IN16-REFERENCE-20261116: The all-report ordered-duration reference is fully reproduced at its original scope and carries no new scientific verdict.
+
+2026-11-16T11:25:55.763323+00:00 OPS-S15-W6-KP-THREAD-FAILURE-20261116: The constructed pause-study fixture stopped before testing because its child did not receive the required thread settings; evidence and actual cost are retained, with human-source admission held.
+
+2026-11-16T11:47:33.742307+00:00 OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116: All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate.

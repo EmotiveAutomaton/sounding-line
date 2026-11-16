@@ -1,5 +1,11 @@
 # Week 5 verified records
 
+**OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116:** [Record](KP_REPAIR_QUALIFIED_20261116.md). All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate.
+
+**OPS-S15-W6-KP-THREAD-FAILURE-20261116:** [Record](KP_THREAD_FAILURE_20261116.md). The constructed pause-study fixture stopped before testing because its child did not receive the required thread settings; evidence and actual cost are retained, with human-source admission held.
+
+**S15-W6-IN16-REFERENCE-20261116:** [Record](IN16_REFERENCE_20261116.md). The all-report ordered-duration reference is fully reproduced at its original scope and carries no new scientific verdict.
+
 **OPS-S15-W6-SERVICE-DISPATCH-20261116:** [Record](SERVICE_DISPATCH_20261116.md). The reviewed service transition admitted one all-report reference; it is verifying in Gear 2, while a separately owned reader holds additional admission pending exact compatibility review.
 
 **OPS-S15-W6-SERVICE-RUNTIME-QUALIFIED-20261116:** [Record](SERVICE_RUNTIME_QUALIFIED_20261116.md). All 72 constructed extension and service-runtime controls pass with exact native closure and once-only cost accounting; actual transition and scientific admissions remain separate.

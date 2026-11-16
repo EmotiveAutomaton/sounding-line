@@ -1,5 +1,11 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116: All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate.
+
+- [x] OPS-S15-W6-KP-THREAD-FAILURE-20261116: The constructed pause-study fixture stopped before testing because its child did not receive the required thread settings; evidence and actual cost are retained, with human-source admission held.
+
+- [x] S15-W6-IN16-REFERENCE-20261116: The all-report ordered-duration reference is fully reproduced at its original scope and carries no new scientific verdict.
+
 - [x] OPS-S15-W6-SERVICE-DISPATCH-20261116: The reviewed service transition admitted one all-report reference; it is verifying in Gear 2, while a separately owned reader holds additional admission pending exact compatibility review.
 
 - [x] OPS-S15-W6-SERVICE-RUNTIME-QUALIFIED-20261116: All 72 constructed extension and service-runtime controls pass with exact native closure and once-only cost accounting; actual transition and scientific admissions remain separate.
