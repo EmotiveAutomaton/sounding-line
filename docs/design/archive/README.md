@@ -1,5 +1,12 @@
 # Historical study designs
 
+The November 15 [version 2](SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v2.md) and
+[version 3 delta](SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v3.md) are applied in order.
+Their [first receipt](THEORY_ERRATA_20261115_APPLIED.json) and
+[delta receipt](THEORY_ERRATA_20261115_V3_APPLIED.json) preserve all 41 exact edits,
+original rows and quotations, correction timelines and supplied-review limits.
+
+
 The [November 8 independent verification](THEORY_ERRATA_REVERIFIED_20261108.json) replays all 38 edits from both November source packets against retained preimages and authenticates the current theory files. Documented adaptations and the intervening result row and afterword remain intact. The [filing ledger](../../archive/operations/DOCUMENT_RELOCATIONS_20261108.json) records byte-preserved duplicate originals; existing application receipts remain unchanged.
 
 The [November 7 theory errata](SOUNDING_LINE_THEORY_ERRATA_2026-11-07.md) is

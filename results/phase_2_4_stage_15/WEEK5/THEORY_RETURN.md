@@ -1,5 +1,19 @@
 # Round 12 theory return — Week 5 back half
 
+**S15-W6-IN13B-REFERENCE-20261116:** [IN13B-reference](IN13B_REFERENCE_20261116.md). The all-report nearby-label classifier reference is fully reproduced at its original scope and carries no new scientific verdict. Full scope and limits are in the linked record.
+
+**S15-W6-IN16-COMPLETE-20261116:** [IN16](IN16_COMPLETE_20261116.md). The complete prompted-report duration association is smaller than the registered practical size; it does not identify a clearing rate or channel sensitivity. Full scope and limits are in the linked record.
+
+**S15-W6-IN15-COMPLETE-20261116:** [IN15](IN15_COMPLETE_20261116.md). The complete reader-prior comparison is inconclusive at its practical bar; temporary state and standing reader habits remain unseparated. Full scope and limits are in the linked record.
+
+**S15-W6-IN14-REFERENCE-20261116:** [IN14-reference](IN14_REFERENCE_20261116.md). The all-report appraisal carry-over reference is fully reproduced and remains a reference without a scientific verdict. Full scope and limits are in the linked record.
+
+**S15-W6-IN14-COMPLETE-20261116:** [IN14](IN14_COMPLETE_20261116.md). The complete short-gap appraisal comparison is against carry-over at the registered practical size; it does not establish absence of emotional persistence. Full scope and limits are in the linked record.
+
+**S15-W6-IN13B-COMPLETE-20261116:** [IN13B](IN13B_COMPLETE_20261116.md). Words support better separation of the five nearby feeling-label pairs than the rated appraisals under the frozen learners; mechanism and channel identity remain unresolved. Full scope and limits are in the linked record.
+
+**S15-W6-IN13A-COMPLETE-20261116:** [IN13A](IN13A_COMPLETE_20261116.md). The complete appraisal profile contains supported and inconclusive cell contrasts on held-out writers; it does not identify biological channels. Full scope and limits are in the linked record.
+
 **Operational pause:** [OPS-S15-W5-CH-DISK-PAUSE-20261115](CH_DISK_PAUSE_20261115.md). Chess scoring is safely checkpointed and storage-held; its verified progress and all costs are preserved. Scientific claims are unchanged.
 
 **Operational intake:** [OPS-S15-DATA-STORE-REVIEW-20261115](DATA_STORE_REVIEW_20261115.md). The reviewed external metadata adapter passes its constructed checks while existing Gear 2 workers continue; no dataset or migration is admitted. Scientific claims are unchanged.

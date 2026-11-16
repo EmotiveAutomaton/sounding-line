@@ -1,0 +1,9 @@
+# IN16 REPAIR QUALIFIED 20261116
+
+**Hypothesis.** Can the same conditional variance model be computed consistently without weakening its independent-replay criterion?
+
+**METHOD.** Run the reviewed additive implementation and all 17 frozen constructed checks in one native counted slot, with two numerical threads, a 300 CPU-second cap and 900-second wall cap. Compare balanced-model closed-form answers, direct covariance calculations, an analytic derivative, repeated-writer multiplicities, response translations and a ragged multicolumn bootstrap bank. Retain explicit unsupported, rank-loss, zero-residual, optimizer, bracket and strict-tolerance refusals. Inspect source hashes before and after execution, whole-Job cost, exact native exits and owned-lease release.
+
+**Found.** All 17 unskipped checks pass. The new code calculates the same restricted-likelihood objective using stable residual sums, then refines only the bounded optimizer's local minimum through its analytic derivative. The original 0.0000001 absolute comparison tolerance, zero relative tolerance, model, source selection, rank rule, upper boundary and all bootstrap draws remain unchanged. The fixture used 3.984375 inclusive CPU-seconds and 4.679729 wall seconds. Its measured CPU is added exactly once to cumulative IN16 preparation; the failed original run is separately retained. All observed native identities exited and the owned shared slot was released.
+
+**Means.** The repair is qualified as an instrument under these constructed conditions. It is not a completed human result, a change to the estimand, a sensitivity measurement, or an independent scientific replication. Five additive code/design/test files are committed at f4fa6501d3e6415d01e1b72eb5d607996bb6d90a; original modules and saved attempts are unchanged. Fresh full-scope analysis and complete independent replay remain required under the original shared card and family ceilings.

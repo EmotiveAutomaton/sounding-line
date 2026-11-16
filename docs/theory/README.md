@@ -125,6 +125,21 @@ edits here.
 
 ## Approved wording and source history
 
+
+The November 15 version-2 errata and its version-3 delta are applied in that order.
+Their [version-2 source](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v2.md)
+and [receipt](../design/archive/THEORY_ERRATA_20261115_APPLIED.json), followed by the
+[version-3 source](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v3.md)
+and [receipt](../design/archive/THEORY_ERRATA_20261115_V3_APPLIED.json), preserve all
+41 exact unique-anchor edits, before/after hashes and the existing quotations and
+hypothesis rows. G266–G304 and the nine new reader rows retain their supplied OPEN
+standing. The current names are Toolbox and Capital; earlier names and rulings
+remain with their correction timelines. The three affected afterwords are updated.
+The supplied November 15 excerpts could not be checked against full transcripts;
+all quotation notes and literature read levels belong to the supplied analyst
+review. This filing claims no new literature review or empirical confirmation.
+
+
 The November 7 curator errata is applied across the three named theory files.
 The [supplied source](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-07.md)
 and [twelve-edit receipt](../design/archive/THEORY_ERRATA_20261107_APPLIED.json)

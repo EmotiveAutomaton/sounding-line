@@ -1,10 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The actual Week 5 drain is fully reconciled and filed.
-Four qualified appraisal primaries have fresh native Week 6 admissions,
-authenticated first checkpoints and full continuation plans. Every additional
-start still requires its own reviewed plan, resource and shared-budget checks.
-See the [transition record](../../../../results/phase_2_4_stage_15/WEEK5/WEEK6_START_GATE_20261115.md).
+**Current boundary:** The initial appraisal studies and completed all-report references are fully filed. At the November 16 inspection, the remaining duration reference is undergoing independent verification in CPU-only Gear 2. The service runtime passes 72 constructed controls and its actual legacy transition is authenticated. A separate ToMpathy reader holds further admission pending exact compatibility review; existing jobs and all checkpoints remain intact. The full ready buffer is still incomplete, with three commissioned builders and owner fixture reviews continuing. MIDUS PDF codebooks provide the needed dictionary; its participant files remain sealed. Resource guards, original budgets and event/four-hour/single-pending wakes are unchanged. See the [filed inspection](../../../../results/phase_2_4_stage_15/WEEK5/SERVICE_DISPATCH_20261116.md).
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
@@ -12,6 +8,8 @@ checks at the installed code hashes. The [qualification record](../../../../resu
 preserves native proof, inclusive costs and unresolved scientific mapping.
 The [production template review](../../../../results/phase_2_4_stage_15/WEEK5/TR2_PRODUCTION_PREPARED_20261115.md)
 is preparation only; its optional assembler fixture remains unrun.
+
+The [full-week extension](PACKET_EXTENSION_2026-11-15.md), its [prospective predictions](PREDICTIONS_2026-11-15.md), [supplied preflight summary](PREFLIGHT_SUMMARY_2026-11-15.md) and [Round 24 handoff](THEORY_HANDOFF_R24.md) extend this campaign within its approved bounds. The [theory index](../../../theory/README.md) links the version-2 and version-3 errata and exact application receipts. Supplied preflight programs and outputs remain preserved intake evidence pending publication review. They are not executed or scientifically accepted merely by arrival.
 
 The curator authorized careful viability review and implementation on November 15,
 2026, with CPU-only Gear 2. The [supplied packet](PACKET.md) is preserved verbatim.

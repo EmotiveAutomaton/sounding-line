@@ -18,6 +18,24 @@ with the reason.
 
 ---
 
+## November 15 theory errata, filed 2026-11-15
+
+Source dates below are not filing timestamps. These are supplied analyst excerpts,
+with the original transcript and reading limitations retained in both receipts.
+No existing result is upgraded by this filing.
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| November 13, morning PST | Needs, channels, CARE, attention and the arrangement of context; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v2.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_APPLIED.json) |
+| November 14, morning PST | Needs as bands, channel functions, Stress, Capital and the learned layer; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v2.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_APPLIED.json) |
+| November 14, 15:01 PST | Precision, channel and social-needs corrections; money and learned priorities; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v2.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_APPLIED.json) |
+| November 15, 03:08 PST | Sensitivity, expressions and revised learned kinds; excerpts survive only in the analyst retained record; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v2.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_APPLIED.json) |
+| November 15, 08:01 and 09:03 PST (one two-part contribution) | Capital, identity replacing rule, appraisal naming and the corrected exchange attribution; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v2.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_APPLIED.json) |
+| November 15, 12:12 PST | Toolbox naming, rank, Capital as reachable futures, prompts and the three costs of a priced identity; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v3.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_V3_APPLIED.json) |
+| November 15, 13:40 PST | Fluency readiness, price and effect; preservation of the curator two-input readiness attribution; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v3.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_V3_APPLIED.json) |
+| November 15, 18:07 PST | Two listening routes and two readers, colored leftover, cadence and settings; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v3.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_V3_APPLIED.json) |
+| November 15, 20:07 PST | Pause as a proposed attention marker, flow and brain rhythms as a marker; filed as attributed proposals and correction history | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v3.md); [receipt](../../docs/design/archive/THEORY_ERRATA_20261115_V3_APPLIED.json) |
+
 ## November 7 theory errata filing
 
 | Contribution | What changed | Status | Record |

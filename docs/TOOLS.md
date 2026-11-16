@@ -2921,6 +2921,34 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-CLOSURE-HEALTH-20261116:** The Week 5 calendar closed normally after its filed drain addendum; Week 6 continues in CPU-only Gear 2 with preserved evidence and explicit admission gaps. [Record](../results/phase_2_4_stage_15/WEEK5/CLOSURE_HEALTH_20261116.md).
+
+**S15-W6-IN13A-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13A_COMPLETE_20261116.md).
+
+**S15-W6-IN13B-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13B_COMPLETE_20261116.md).
+
+**S15-W6-IN13B-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13B_REFERENCE_20261116.md).
+
+**S15-W6-IN14-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN14_COMPLETE_20261116.md).
+
+**S15-W6-IN14-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN14_REFERENCE_20261116.md).
+
+**S15-W6-IN15-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN15_COMPLETE_20261116.md).
+
+**S15-W6-IN16-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_COMPLETE_20261116.md).
+
+**OPS-S15-W6-IN16-REPAIR-PREFIX-20261116:** The repaired appraisal calculation has an authenticated clean checkpoint; full execution and independent replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REPAIR_PREFIX_20261116.md).
+
+**OPS-S15-W6-IN16-REPAIR-QUALIFIED-20261116:** The isolated appraisal numerical repair passes all 17 constructed checks at the unchanged tolerance; human-result admission still requires a fresh complete execution and replay. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REPAIR_QUALIFIED_20261116.md).
+
+**OPS-S15-W6-IN16-REPLAY-FAILURE-20261116:** The original appraisal clearing analysis failed its full numerical replay; its complete draws and costs are preserved, with no scientific result admitted. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REPLAY_FAILURE_20261116.md).
+
+**OPS-S15-W6-SERVICE-RUNTIME-QUALIFIED-20261116:** All 72 constructed extension and service-runtime controls pass with exact native closure and once-only cost accounting; actual transition and scientific admissions remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_RUNTIME_QUALIFIED_20261116.md).
+
+**OPS-S15-W6-SERVICE-RUNTIME-SANDBOX-20261116:** The service-runtime fixture stopped before testing on an evidence-read permission error; its original evidence and once-only cost are retained. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_RUNTIME_SANDBOX_20261116.md).
+
+**OPS-S15-W6-SERVICE-DISPATCH-20261116:** The reviewed service transition admitted one all-report reference; it is verifying in Gear 2, while a separately owned reader holds additional admission pending exact compatibility review. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_DISPATCH_20261116.md).
+
 **OPS-S15-W5-FINAL-DRAIN-20261115:** The Week 5 drain is fully reconciled: every recorded attempt has a terminal and an exited owner, all filed claims remain preserved, and unfinished work retains its checkpoints and costs for separately admitted continuation. [Record](../results/phase_2_4_stage_15/WEEK5/FINAL_DRAIN_20261115.md).
 
 **OPS-S15-W6-START-GATE-20261115:** Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_START_GATE_20261115.md).

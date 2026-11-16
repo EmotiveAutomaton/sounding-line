@@ -1,5 +1,33 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-SERVICE-DISPATCH-20261116: The reviewed service transition admitted one all-report reference; it is verifying in Gear 2, while a separately owned reader holds additional admission pending exact compatibility review.
+
+- [x] OPS-S15-W6-SERVICE-RUNTIME-QUALIFIED-20261116: All 72 constructed extension and service-runtime controls pass with exact native closure and once-only cost accounting; actual transition and scientific admissions remain separate.
+
+- [x] OPS-S15-W6-SERVICE-RUNTIME-SANDBOX-20261116: The service-runtime fixture stopped before testing on an evidence-read permission error; its original evidence and once-only cost are retained.
+
+- [x] S15-W6-IN13B-REFERENCE-20261116: The all-report nearby-label classifier reference is fully reproduced at its original scope and carries no new scientific verdict.
+
+- [x] S15-W6-IN16-COMPLETE-20261116: The complete prompted-report duration association is smaller than the registered practical size; it does not identify a clearing rate or channel sensitivity.
+
+- [x] OPS-S15-W6-CLOSURE-HEALTH-20261116: The Week 5 calendar closed normally after its filed drain addendum; Week 6 continues in CPU-only Gear 2 with preserved evidence and explicit admission gaps.
+
+- [x] S15-W6-IN15-COMPLETE-20261116: The complete reader-prior comparison is inconclusive at its practical bar; temporary state and standing reader habits remain unseparated.
+
+- [x] S15-W6-IN14-REFERENCE-20261116: The all-report appraisal carry-over reference is fully reproduced and remains a reference without a scientific verdict.
+
+- [x] S15-W6-IN14-COMPLETE-20261116: The complete short-gap appraisal comparison is against carry-over at the registered practical size; it does not establish absence of emotional persistence.
+
+- [x] S15-W6-IN13B-COMPLETE-20261116: Words support better separation of the five nearby feeling-label pairs than the rated appraisals under the frozen learners; mechanism and channel identity remain unresolved.
+
+- [x] S15-W6-IN13A-COMPLETE-20261116: The complete appraisal profile contains supported and inconclusive cell contrasts on held-out writers; it does not identify biological channels.
+
+- [x] OPS-S15-W6-IN16-REPAIR-PREFIX-20261116: The repaired appraisal calculation has an authenticated clean checkpoint; full execution and independent replay remain unfinished.
+
+- [x] OPS-S15-W6-IN16-REPAIR-QUALIFIED-20261116: The isolated appraisal numerical repair passes all 17 constructed checks at the unchanged tolerance; human-result admission still requires a fresh complete execution and replay.
+
+- [x] OPS-S15-W6-IN16-REPLAY-FAILURE-20261116: The original appraisal clearing analysis failed its full numerical replay; its complete draws and costs are preserved, with no scientific result admitted.
+
 - [x] OPS-S15-W6-START-GATE-20261115: Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets.
 
 - [x] OPS-S15-W5-FINAL-DRAIN-20261115: The Week 5 drain is fully reconciled: every recorded attempt has a terminal and an exited owner, all filed claims remain preserved, and unfinished work retains its checkpoints and costs for separately admitted continuation.

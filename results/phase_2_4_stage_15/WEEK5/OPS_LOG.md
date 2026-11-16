@@ -1643,3 +1643,31 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T06:10:30.542703+00:00 OPS-S15-W5-FINAL-DRAIN-20261115: The Week 5 drain is fully reconciled: every recorded attempt has a terminal and an exited owner, all filed claims remain preserved, and unfinished work retains its checkpoints and costs for separately admitted continuation.
 
 2026-11-16T06:30:34.937295+00:00 OPS-S15-W6-START-GATE-20261115: Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets.
+
+2026-11-16T07:47:25.914147+00:00 OPS-S15-W6-IN16-REPLAY-FAILURE-20261116: The original appraisal clearing analysis failed its full numerical replay; its complete draws and costs are preserved, with no scientific result admitted.
+
+2026-11-16T07:47:51.610362+00:00 OPS-S15-W6-IN16-REPAIR-QUALIFIED-20261116: The isolated appraisal numerical repair passes all 17 constructed checks at the unchanged tolerance; human-result admission still requires a fresh complete execution and replay.
+
+2026-11-16T08:07:51.889799+00:00 OPS-S15-W6-IN16-REPAIR-PREFIX-20261116: The repaired appraisal calculation has an authenticated clean checkpoint; full execution and independent replay remain unfinished.
+
+2026-11-16T08:23:36.650243+00:00 S15-W6-IN13A-COMPLETE-20261116: The complete appraisal profile contains supported and inconclusive cell contrasts on held-out writers; it does not identify biological channels.
+
+2026-11-16T08:24:08.172355+00:00 S15-W6-IN13B-COMPLETE-20261116: Words support better separation of the five nearby feeling-label pairs than the rated appraisals under the frozen learners; mechanism and channel identity remain unresolved.
+
+2026-11-16T08:24:40.811164+00:00 S15-W6-IN14-COMPLETE-20261116: The complete short-gap appraisal comparison is against carry-over at the registered practical size; it does not establish absence of emotional persistence.
+
+2026-11-16T08:25:12.578774+00:00 S15-W6-IN14-REFERENCE-20261116: The all-report appraisal carry-over reference is fully reproduced and remains a reference without a scientific verdict.
+
+2026-11-16T08:25:45.480472+00:00 S15-W6-IN15-COMPLETE-20261116: The complete reader-prior comparison is inconclusive at its practical bar; temporary state and standing reader habits remain unseparated.
+
+2026-11-16T08:50:33.171842+00:00 OPS-S15-W6-CLOSURE-HEALTH-20261116: The Week 5 calendar closed normally after its filed drain addendum; Week 6 continues in CPU-only Gear 2 with preserved evidence and explicit admission gaps.
+
+2026-11-16T09:29:50.955779+00:00 S15-W6-IN16-COMPLETE-20261116: The complete prompted-report duration association is smaller than the registered practical size; it does not identify a clearing rate or channel sensitivity.
+
+2026-11-16T09:30:18.990314+00:00 S15-W6-IN13B-REFERENCE-20261116: The all-report nearby-label classifier reference is fully reproduced at its original scope and carries no new scientific verdict.
+
+2026-11-16T09:47:43.201131+00:00 OPS-S15-W6-SERVICE-RUNTIME-SANDBOX-20261116: The service-runtime fixture stopped before testing on an evidence-read permission error; its original evidence and once-only cost are retained.
+
+2026-11-16T09:52:49.401141+00:00 OPS-S15-W6-SERVICE-RUNTIME-QUALIFIED-20261116: All 72 constructed extension and service-runtime controls pass with exact native closure and once-only cost accounting; actual transition and scientific admissions remain separate.
+
+2026-11-16T10:25:24.589574+00:00 OPS-S15-W6-SERVICE-DISPATCH-20261116: The reviewed service transition admitted one all-report reference; it is verifying in Gear 2, while a separately owned reader holds additional admission pending exact compatibility review.
