@@ -2921,6 +2921,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-FINAL-DRAIN-20261115:** The Week 5 drain is fully reconciled: every recorded attempt has a terminal and an exited owner, all filed claims remain preserved, and unfinished work retains its checkpoints and costs for separately admitted continuation. [Record](../results/phase_2_4_stage_15/WEEK5/FINAL_DRAIN_20261115.md).
+
+**OPS-S15-W6-START-GATE-20261115:** Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_START_GATE_20261115.md).
+
 **OPS-S15-W5-BK-FINAL-PAUSE-20261115:** The final active comparison queue reached an authenticated clean checkpoint; all Week 5 research owners have exited, while formal drain reconciliation and Week 6 admission remain pending. [Record](../results/phase_2_4_stage_15/WEEK5/BK_FINAL_PAUSE_20261115.md).
 
 **OPS-S15-W5-CH-RANGE-PAUSES-20261115:** All four chess range queues reached authenticated clean checkpoints; their incomplete ranges are preserved, and the comparison queue alone continues the frozen Week 5 drain in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RANGE_PAUSES_20261115.md).

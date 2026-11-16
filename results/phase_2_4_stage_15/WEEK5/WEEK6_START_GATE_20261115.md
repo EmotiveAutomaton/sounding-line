@@ -1,0 +1,26 @@
+# WEEK6 START GATE 20261115
+
+**Hypothesis.** Can the approved Week 6 campaign begin on preserved evidence and costs, with real native work rather than a calendar marker or prepared plans alone?
+
+**METHOD.** Require the fully filed Week 5 drain and exact canonical predecessor inventory after the approved boundary. Bind the reviewed appraisal plans to that immutable drain proof and the existing cumulative budget registry, then use the native Week 6 launcher to verify every source, fixture, code-closure and committed-design pin, available shared slots, resource floors and monitored ownership. Authenticate each first terminal's complete checkpoint manifest, exact native parent and child exits and measured descendant Job CPU. Preserve the source population, estimand, seed, 2,000 draws, controls and full independent replay in fresh continuation plans.
+
+**Admission and recovery.** The actual Week 5 reconciliation is filed in OPS-S15-W5-FINAL-DRAIN-20261115; elapsed time alone did not open this campaign. EX5 is already complete, independently replayed, fully filed and copied at matching hashes under OPS-S15-W5-EX5-COMPLETE-20261115, so it was not duplicated. The next packet reviews admitted IN13 A, IN14's reviewed exact .h1 implementation, IN16 and IN15. IN11 and IN12 already have complete Week 5 findings. The eight bound appraisal plans cover four shared card budgets, rather than eight new allowances. Each retains its 20,000 CPU-second inclusive ceiling; preparation charges remain IN13 6,793.5546875, IN14 552.390625, IN15 2,193.5546875 and IN16 401.234375. Failed preparation and prior requalification remain charged once. Primary, reference, all attempts and replay share their card key inside the 200,000-second IN family and 6,000,000-second campaign ceilings.
+
+The first metadata binding read met a sandbox access error on a protected prior fixture; the sanctioned retry authenticated its unchanged bytes and wrote only private plans. The first IN16 admission encountered a lease that another completed worker removed between listing and reading. No IN16 run root or research attempt had been created. A fresh guarded admission succeeded without changing runtime code, dropping checks, reclaiming another process's lease or restarting an existing attempt. The refusal and retry are preserved in the private launch receipts. IN15 then admitted normally.
+
+**Authenticated first checkpoints.** These are complete operational checkpoint receipts, not finished scientific cells. The table records saved draw progress, immutable output-file counts and measured descendant CPU-seconds. No partial estimate or verdict is reported.
+
+| Attempt | Saved draws | Immutable files | Job CPU-seconds |
+|---|---:|---:|---:|
+| IN13A-PRIMARY-full-source-prefix-v1 | 200 of 2000 | 3 | 5.718750 |
+| IN14-h1-primary-prefix | 100 of 2000 | 2 | 12.265625 |
+| IN16-primary-prefix | 100 of 2000 | 2 | 23.281250 |
+| IN15-PRIMARY-full-source-prefix-v1 | 200 of 2000 | 3 | 1.484375 |
+
+Every terminal is a normal producer-quantum pause with a complete authenticated output manifest. All original input and implementation pins pass; every parent and phase child has exited; all four shared leases released. The combined measured Job charge is 42.750000 CPU-seconds, with the original 30-second coordination charge per attempt retained separately. There is no scientific completion, final replay or human-result interpretation in these checkpoints.
+
+Four fresh continuations were admitted through the same guarded launcher after authentication. Only operational producer quanta and safety walls changed: each can finish the remaining original 2,000 draws and full independent replay. Scientific configuration and prior pins are unchanged, the saved files are copied with hash checks, and available shared budgets are recomputed before each start. Exact native identities, plan hashes and final-output monitors are preserved locally. A launch is not a completed result; every resulting terminal still requires its own full write-through.
+
+**Liveness and remaining work.** The prefix-exit inspection found both calendar services live, no stale research lease, no watcher error, no outstanding native wake and resource headroom above the unchanged RAM, commit and disk floors. All terminal and disappearance paths remain registered. Events, four hours of owner inactivity and one pending wake remain the policy. CPU-only Gear 2, eight shared slots and two numerical threads per worker are unchanged; GPU, Ollama and paid work stay off.
+
+The same-key IN13 B and labelled all-report references are staged behind their current primary's accounting and complete landing. IN13 C still lacks the actual two-coder IM1 import and prospective coder binding. IN14's failed person-level correction remains instrument-held and does not block its qualified primary. Remaining archive/measurement, source and carried-work admission gaps are not cleared by this transition. A complete sixteen-card ready buffer is not claimed. Idle capacity during owner review, filing and separate admission remains an operational deficit, not lack of authorization to use available qualified work. The three commissioned builders have delivered their current bounded packages; no extra agent is used for polling. No tests were harvested from these operational events and no theory text changed.

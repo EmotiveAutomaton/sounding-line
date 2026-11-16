@@ -1639,3 +1639,7 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T05:21:16.760370+00:00 OPS-S15-W5-CH-RANGE-PAUSES-20261115: All four chess range queues reached authenticated clean checkpoints; their incomplete ranges are preserved, and the comparison queue alone continues the frozen Week 5 drain in CPU-only Gear 2.
 
 2026-11-16T05:52:53.360314+00:00 OPS-S15-W5-BK-FINAL-PAUSE-20261115: The final active comparison queue reached an authenticated clean checkpoint; all Week 5 research owners have exited, while formal drain reconciliation and Week 6 admission remain pending.
+
+2026-11-16T06:10:30.542703+00:00 OPS-S15-W5-FINAL-DRAIN-20261115: The Week 5 drain is fully reconciled: every recorded attempt has a terminal and an exited owner, all filed claims remain preserved, and unfinished work retains its checkpoints and costs for separately admitted continuation.
+
+2026-11-16T06:30:34.937295+00:00 OPS-S15-W6-START-GATE-20261115: Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets.

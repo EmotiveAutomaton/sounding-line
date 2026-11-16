@@ -1,5 +1,9 @@
 # Week 5 verified records
 
+**OPS-S15-W6-START-GATE-20261115:** [Record](WEEK6_START_GATE_20261115.md). Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets.
+
+**OPS-S15-W5-FINAL-DRAIN-20261115:** [Record](FINAL_DRAIN_20261115.md). The Week 5 drain is fully reconciled: every recorded attempt has a terminal and an exited owner, all filed claims remain preserved, and unfinished work retains its checkpoints and costs for separately admitted continuation.
+
 **OPS-S15-W5-BK-FINAL-PAUSE-20261115:** [Record](BK_FINAL_PAUSE_20261115.md). The final active comparison queue reached an authenticated clean checkpoint; all Week 5 research owners have exited, while formal drain reconciliation and Week 6 admission remain pending.
 
 **OPS-S15-W5-CH-RANGE-PAUSES-20261115:** [Record](CH_RANGE_PAUSES_20261115.md). All four chess range queues reached authenticated clean checkpoints; their incomplete ranges are preserved, and the comparison queue alone continues the frozen Week 5 drain in CPU-only Gear 2.

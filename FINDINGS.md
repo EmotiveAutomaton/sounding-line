@@ -1,5 +1,69 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-START-GATE-20261115
+
+**Hypothesis.** Can the approved Week 6 campaign begin on preserved evidence and costs, with real native work rather than a calendar marker or prepared plans alone?
+
+**METHOD.** Require the fully filed Week 5 drain and exact canonical predecessor inventory after the approved boundary. Bind the reviewed appraisal plans to that immutable drain proof and the existing cumulative budget registry, then use the native Week 6 launcher to verify every source, fixture, code-closure and committed-design pin, available shared slots, resource floors and monitored ownership. Authenticate each first terminal's complete checkpoint manifest, exact native parent and child exits and measured descendant Job CPU. Preserve the source population, estimand, seed, 2,000 draws, controls and full independent replay in fresh continuation plans.
+
+**Admission and recovery.** The actual Week 5 reconciliation is filed in OPS-S15-W5-FINAL-DRAIN-20261115; elapsed time alone did not open this campaign. EX5 is already complete, independently replayed, fully filed and copied at matching hashes under OPS-S15-W5-EX5-COMPLETE-20261115, so it was not duplicated. The next packet reviews admitted IN13 A, IN14's reviewed exact .h1 implementation, IN16 and IN15. IN11 and IN12 already have complete Week 5 findings. The eight bound appraisal plans cover four shared card budgets, rather than eight new allowances. Each retains its 20,000 CPU-second inclusive ceiling; preparation charges remain IN13 6,793.5546875, IN14 552.390625, IN15 2,193.5546875 and IN16 401.234375. Failed preparation and prior requalification remain charged once. Primary, reference, all attempts and replay share their card key inside the 200,000-second IN family and 6,000,000-second campaign ceilings.
+
+The first metadata binding read met a sandbox access error on a protected prior fixture; the sanctioned retry authenticated its unchanged bytes and wrote only private plans. The first IN16 admission encountered a lease that another completed worker removed between listing and reading. No IN16 run root or research attempt had been created. A fresh guarded admission succeeded without changing runtime code, dropping checks, reclaiming another process's lease or restarting an existing attempt. The refusal and retry are preserved in the private launch receipts. IN15 then admitted normally.
+
+**Authenticated first checkpoints.** These are complete operational checkpoint receipts, not finished scientific cells. The table records saved draw progress, immutable output-file counts and measured descendant CPU-seconds. No partial estimate or verdict is reported.
+
+| Attempt | Saved draws | Immutable files | Job CPU-seconds |
+|---|---:|---:|---:|
+| IN13A-PRIMARY-full-source-prefix-v1 | 200 of 2000 | 3 | 5.718750 |
+| IN14-h1-primary-prefix | 100 of 2000 | 2 | 12.265625 |
+| IN16-primary-prefix | 100 of 2000 | 2 | 23.281250 |
+| IN15-PRIMARY-full-source-prefix-v1 | 200 of 2000 | 3 | 1.484375 |
+
+Every terminal is a normal producer-quantum pause with a complete authenticated output manifest. All original input and implementation pins pass; every parent and phase child has exited; all four shared leases released. The combined measured Job charge is 42.750000 CPU-seconds, with the original 30-second coordination charge per attempt retained separately. There is no scientific completion, final replay or human-result interpretation in these checkpoints.
+
+Four fresh continuations were admitted through the same guarded launcher after authentication. Only operational producer quanta and safety walls changed: each can finish the remaining original 2,000 draws and full independent replay. Scientific configuration and prior pins are unchanged, the saved files are copied with hash checks, and available shared budgets are recomputed before each start. Exact native identities, plan hashes and final-output monitors are preserved locally. A launch is not a completed result; every resulting terminal still requires its own full write-through.
+
+**Liveness and remaining work.** The prefix-exit inspection found both calendar services live, no stale research lease, no watcher error, no outstanding native wake and resource headroom above the unchanged RAM, commit and disk floors. All terminal and disappearance paths remain registered. Events, four hours of owner inactivity and one pending wake remain the policy. CPU-only Gear 2, eight shared slots and two numerical threads per worker are unchanged; GPU, Ollama and paid work stay off.
+
+The same-key IN13 B and labelled all-report references are staged behind their current primary's accounting and complete landing. IN13 C still lacks the actual two-coder IM1 import and prospective coder binding. IN14's failed person-level correction remains instrument-held and does not block its qualified primary. Remaining archive/measurement, source and carried-work admission gaps are not cleared by this transition. A complete sixteen-card ready buffer is not claimed. Idle capacity during owner review, filing and separate admission remains an operational deficit, not lack of authorization to use available qualified work. The three commissioned builders have delivered their current bounded packages; no extra agent is used for polling. No tests were harvested from these operational events and no theory text changed.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets.; project meaning: scoped operational record; next engineering obligation: Land each complete appraisal result and replay, then admit the same-key queued scopes within retained budgets; continue qualified carried and source work through separate admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_START_GATE_20261115.md.
+
+### OPS-S15-W5-FINAL-DRAIN-20261115
+
+**Hypothesis.** Can Week 5 close with every attempt, final checkpoint, cost and filed claim accounted for, without treating unfinished work as completed science or resetting its allowance in Week 6?
+
+**METHOD.** Rebuild the canonical predecessor inventory from every claimed or owned Week 5 plan, requiring one terminal, a matching owner-plan hash and finite cost. Inspect each exact native owner identity after the approved drain boundary; reconcile the one inaccessible historical process against the independently observed reboot. Verify no counted leases remain. Compare every cutoff-register row's substantive fields and all theory-file hashes with the final digest, authenticate every currently filed report and receipt, and append the post-cutoff terminal, utilization and accounting inventory. No unfinished model or artifact scores enter this reconciliation.
+
+**Drain and evidence.** All 683 recorded attempts have one authenticated terminal and an exited owner: 340 complete, 310 paused and 33 failed. These are attempt counts, not independent studies or successful scientific results. The last native research terminal was at 2026-11-16T05:41:54.723416+00:00, before the original 06:00 UTC drain deadline. No admission occurred after the 04:00 UTC start freeze. Shared research leases are empty. An access-denied process query was not accepted as exit proof: that saved process was created November 9, before the independently verified November 15 reboot. The remaining exact native checks resolved normally. No process was killed, restarted or reidentified by PID alone.
+
+The complete inventory preserves 862 filed Week 5 rows, including all 858 rows in the cutoff digest with their substantive wording, controls, outcomes and routes unchanged. Theory-file hashes match the cutoff record, including its previously reviewed IN11/IN12 additions. The final cutoff packet and claim register remain the scientific synthesis. No new scientific result arose during this drain. The reader, four chess shards and comparison have their complete checkpoint authentication and separate operational records. The chess full population and comparison full execution/replay remain incomplete; source availability and engineering qualification do not supply missing scientific evidence.
+
+**Final accounting.** The table lists each charged family and its final policy-booked CPU-seconds, including original terminal charges and 30-second per-attempt coordination. Retained failures and conservative terminal charges are included; this is not a claim that every charge is measured useful computation.
+
+| Family | Final policy-booked CPU-seconds |
+|---|---:|
+| AT | 47796.187500 |
+| BK | 334158.328125 |
+| CH | 789594.687500 |
+| EX | 3623.390625 |
+| GO | 58402.828125 |
+| ID | 587.156250 |
+| IN | 3730.906250 |
+| LA | 4728.734375 |
+| MD | 38863.718750 |
+| SP | 3122.953125 |
+
+The policy ledger totals 1284608.890625 CPU-seconds. Separately reserved maintenance and supervision allowances total 392776.345264 CPU-seconds and remain retained once, giving a conservative combined booking of 1677385.235889 CPU-seconds under the unchanged 6,000,000-second campaign ceiling. These allowances cover previously identified external supervision, engineering and inspection work; they are not reclassified as measured CPU and are not refunded as if absence of a final measurement proved zero use. Nested Job diagnostics are not added again. Their exact components and source preflight are preserved in the receipt. Carried studies retain original prior charges and inclusive caps; a new campaign is not a cost reset. No paid, GPU or Ollama work was introduced during this closure.
+
+**Drain utilization.** During the fixed 04:00–06:00 UTC drain window, the eight-slot capacity is 16.000000 slot-hours: 5.889880 recorded occupied and 10.110120 residual idle. Occupancy uses admitted research roots through their exact terminals; small owner-release overhead is not separately measured. Empty slots after cutoff are required by the explicit start freeze. These values extend, rather than rewrite, the cutoff digest's prior utilization windows and recorded pre-cutoff buffer defects. No causal durations or untracked helper occupancy are invented.
+
+**Transition and limits.** Actual predecessor drain is now filed after its approved boundary and before the 07:00 UTC addendum deadline. Both calendar services and watcher delivery are healthy; events, four-hour inactivity and one pending wake remain unchanged. This clears the predecessor-drain prerequisite only. Week 6 still requires its separately reviewed plans, exact committed designs and fixtures, preserved budgets, shared leases, resource checks and native monitoring. EX5 retains first priority, followed by the approved appraisal review order. The remaining source annotations, measurement mapping and qualification gaps remain explicit; no complete ready buffer is claimed. The three commissioned builders have delivered their current bounded packages; no agent is started merely to poll. No tests harvested and no theory text changed by these calendar events.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The Week 5 drain is fully reconciled: every recorded attempt has a terminal and an exited owner, all filed claims remain preserved, and unfinished work retains its checkpoints and costs for separately admitted continuation.; project meaning: scoped operational record; next engineering obligation: Review the Week 6 start gate and admit only qualified work under preserved carried costs, shared slots and original source scope.; public scientific claim unchanged; curator decision required: No new decision. Detail: FINAL_DRAIN_20261115.md.
+
 ### OPS-S15-W5-BK-FINAL-PAUSE-20261115
 
 **Hypothesis.** Did the last active comparison queue preserve its completed work when its bounded producer stopped, and is the original Week 5 research queue now free of live owners?

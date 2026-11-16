@@ -1,8 +1,10 @@
 # Stage 15 Week 6
 
-**Current boundary:** Week 5 new starts are frozen and its existing queues are
-draining. Week 6 production requires the actual fully filed predecessor drain
-and fresh native admission; prepared files and elapsed time do not release it.
+**Current boundary:** The actual Week 5 drain is fully reconciled and filed.
+Four qualified appraisal primaries have fresh native Week 6 admissions,
+authenticated first checkpoints and full continuation plans. Every additional
+start still requires its own reviewed plan, resource and shared-budget checks.
+See the [transition record](../../../../results/phase_2_4_stage_15/WEEK5/WEEK6_START_GATE_20261115.md).
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed

@@ -255,3 +255,7 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-CH-RANGE-PAUSES-20261115.** Authenticated operational checkpoints only; scientific interpretation and theory standing are unchanged. [Complete record](CH_RANGE_PAUSES_20261115.md).
 
 **OPS-S15-W5-BK-FINAL-PAUSE-20261115.** Authenticated incomplete comparison checkpoint and research-owner exit only; no new scientific interpretation or theory standing. [Record](BK_FINAL_PAUSE_20261115.md).
+
+**OPS-S15-W5-FINAL-DRAIN-20261115.** Final actual drain and accounting only. All cutoff scientific wording and theory hashes remain unchanged. [Addendum](FINAL_DRAIN_20261115.md).
+
+**OPS-S15-W6-START-GATE-20261115.** Operational Week 6 transition and authenticated checkpoints only; no human score, scientific claim or theory change. [Record](WEEK6_START_GATE_20261115.md).
