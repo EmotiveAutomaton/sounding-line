@@ -1,0 +1,22 @@
+# CH RANGE PAUSES 20261115
+
+**Hypothesis.** Did the four chess queues preserve every completed scoring unit and its independent replay when they reached their wall-time checkpoints, and can their unfinished ranges remain recoverable through the campaign cutoff?
+
+**METHOD.** Authenticate each admitted plan and terminal, every immutable checkpoint file, every sealed unit's complete file inventory, contiguous range coverage, distinct execute and fresh-replay native identities, successful all-descendant Job exits and released slot. Compare current small input and implementation pins with the admitted plans, retaining the previously authenticated original source and prefix. Inspect the remaining native comparison process, output freshness, resources, calendar identities and watcher delivery. This is an evidence audit, not a new scoring run or scientific interpretation.
+
+**Found.** All four queues stopped normally at a declared clean wall checkpoint. All 24,487 immutable checkpoint files and 269 sealed units authenticate. Each sealed unit has complete scoring and a distinct fresh replay, with matching saved proof, successful child exit and full descendant accounting. The four roots and their phase children have exited; their slots are released. No root failure or monitor-failure terminal exists. The original ranges remain fixed and incomplete, with no active half-finished unit. The 17,216 newly closed positions are operational progress only. The prior 128,448-position prefix and source pin are retained from their filed authentication; this pass did not rescan the original source or claim a completed population or queue-level final verification.
+
+The table gives each fixed shard, its inclusive starting ordinal, the next unprocessed ordinal, its exclusive original range end, newly sealed units and positions, and measured outer Job CPU-seconds. These are coverage and accounting quantities, not scientific scores.
+
+| Shard | Start | Next | Range end | Sealed units | New positions | Job CPU-seconds |
+|---|---:|---:|---:|---:|---:|---:|
+| shard-1 | 128,448 | 132,736 | 195,904 | 67 | 4,288 | 18400.015625 |
+| shard-2 | 195,904 | 200,256 | 263,296 | 68 | 4,352 | 18247.484375 |
+| shard-3 | 263,296 | 267,584 | 330,688 | 67 | 4,288 | 18142.968750 |
+| shard-4 | 330,688 | 334,976 | 398,065 | 67 | 4,288 | 18075.171875 |
+
+**Cost and limits.** Measured outer Jobs total 72,865.640625 CPU-seconds. The policy ledger adds its existing 30-second coordination charge per attempt, for 72,985.640625 CPU-seconds. Nested execute/replay usage is already inside those Jobs and is not charged again. The separately booked 129,312-second four-queue supervision reservation remains retained once through actual drain; it is an allowance, not measured CPU. Other prior supervision and maintenance reservations remain unchanged. This checkpoint audit used 84 measured CPU-seconds inside the existing maintenance envelope; no additional ceiling or reservation is created. The saved terminal charges replace their live-progress estimates under the existing policy.
+
+**Operational state and next work.** At 05:18:35 UTC on November 16, the original comparison continuation is the only live research queue, using one counted slot in CPU-only Gear 2. Its exact native identity and plan match; progress is fresh. Available RAM is 43.13 GiB, commit headroom 29.30 GiB and disk space 512.87 GiB. Both calendar services are live; the watcher reports no delivery error and no pending native wake. All four chess events remain pending until this complete filing. The first sandboxed native watcher query could not initialize its API; the read-only inspection with the required native access succeeded. No monitor was restarted or policy changed.
+
+Week 5 new starts remain frozen. These pauses are intentional checkpoints, not engineering failures and not permission to launch successors. The comparison remains bounded by its original drain deadline. Week 6 requires actual fully filed predecessor drain and fresh admissions. Empty slots during this closure are recorded as required by the start freeze, not as available admission authority. The three commissioned builders have delivered their current packages; remaining source annotations, measurement mapping, qualification and buffer deficits retain their prior records. No new builder is commissioned by these events. Events, four-hour inactivity and one pending operational wake remain unchanged. No new tests harvested; no scientific claim, theory text or unfinished artifact score is produced.

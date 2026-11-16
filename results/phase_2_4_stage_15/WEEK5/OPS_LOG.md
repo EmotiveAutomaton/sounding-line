@@ -1635,3 +1635,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T04:48:37.695320+00:00 OPS-S15-W5-FINAL-DIGEST-20261115: The Week 5 final cutoff digest authenticates filed evidence and closes new starts; five original Gear 2 queues remain in the drain, with Week 6 production awaiting actual reconciliation.
 
 2026-11-16T04:54:31.536886+00:00 OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115: Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate.
+
+2026-11-16T05:21:16.760370+00:00 OPS-S15-W5-CH-RANGE-PAUSES-20261115: All four chess range queues reached authenticated clean checkpoints; their incomplete ranges are preserved, and the comparison queue alone continues the frozen Week 5 drain in CPU-only Gear 2.

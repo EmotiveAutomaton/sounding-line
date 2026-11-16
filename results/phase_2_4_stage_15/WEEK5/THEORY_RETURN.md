@@ -251,3 +251,5 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-FINAL-DIGEST-20261115.** Exact already-filed claim transcription and infrastructure reconciliation only. The owner reviewed the committed IN11/IN12 row and afterword additions since the prior digest; removing only those exact additions reconstructs the prior theory file, while other hashes match. No theory edits or new standing changes in this pass. [Final cutoff packet](FINAL_DIGEST_20261115.md).
 
 **OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115.** Catalog proposal disposition only; no human-data read, theory edit or scientific admission. [Review](COLLECTOR_CATALOG_DISPOSITION_20261115.md).
+
+**OPS-S15-W5-CH-RANGE-PAUSES-20261115.** Authenticated operational checkpoints only; scientific interpretation and theory standing are unchanged. [Complete record](CH_RANGE_PAUSES_20261115.md).
