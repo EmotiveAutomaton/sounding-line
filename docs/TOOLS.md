@@ -19,10 +19,33 @@ the project environment was not changed.
 
 ## External collection inventory — November 15, 2026
 
+### IPIP-NEO intake — November 15, 2026
+
+All **21 supplied files (329,072,644 bytes)** are recorded under
+`open/ipip-neo/` with SHA-256 hashes, component identities and source notices.
+The registry now has **137 entries**, 93 with NAS files, 32 repository indexes
+and 12 other pending/stopped entries; **433 files, 17,831,294,121 bytes** total.
+The preceding follow-up counts below retain their earlier cutoff.
+
+| Source / capability | Available files | Readiness and limits |
+|---|---|---|
+| Johnson 2005 IPIP-NEO-300 | OSF sxeq5: DAT, POR, SAV and format guide | Documented 20,993 retained cases. The 307,313-person file belongs to the 2014 package. Alternate formats overlap; no local participant census or scoring validation. |
+| Johnson 2014 IPIP-NEO-120 and IPIP-NEO-300 | OSF wxvth: both DAT files, both portable-SPSS ZIPs and format guides | Documented 619,150 (120 items) and 307,313 (300 items). Thirty facets with four versus ten items each. Fixed-width layout, missing codes and cross-sample comparability still need qualification. |
+| IPIP-NEO scoring references | OSF ycvdk: 120/300 questionnaires, scoring workbooks, item key and six UK norm/profile documents | All supplied companions cataloged. Workbook presence is not executable/scoring validation; no norm tables opened or new norming population inferred. |
+
+[IPIP instrument permission](https://ipip.ori.org/newPermission.htm) is public
+domain for the items/scales/inventories. The [OSF repository](https://osf.io/tbmh5/)
+and all three components have **no declared node licence** in the retrieved API
+records. Response-data reuse rights remain unresolved; no blanket OSF licence
+is inferred. The source is conservatively open-tests-only, with no trained-model
+release permission inferred. Only file hashes/metadata and ZIP structure were
+inspected; no response records or outcome distributions were emitted.
+The complete source card and evidence are in `open/ipip-neo/`.
+
 ### Follow-up intake — DC-20261115-02
 
 The curator-authorized follow-up is filed in `_handoffs/DC-20261115-02.md`.
-The current registry contains **136 entries: 92 with NAS source files, 32
+At the DC-20261115-02 cutoff, the registry contained **136 entries: 92 with NAS source files, 32
 repository metadata indexes, and 12 other pending/stopped entries**. Its 412 registered
 raw/expanded files total 17,502,221,477 bytes (16.30 GiB). Archives and extracted
 views overlap; this is storage, not an independent-study count. Enron's complete
