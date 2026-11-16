@@ -239,3 +239,5 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W6-TR2-B2-PROJECTION-20261115:** The original refusal-source projection and independent replay pass all 189 constructed checks; complete archive reconstruction and source-specific reliability qualification remain pending. No theory standing changes. [Record](TR2_B2_PROJECTION_20261115.md).
 
 **OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates. No theory standing changes. [Record](GEAR2_CHECKPOINT_CONTINUATION_20261115.md).
+
+**OPS-S15-GEAR2-SIX-QUEUES-20261115:** Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit. No theory standing changes. [Record](GEAR2_SIX_QUEUES_20261115.md).

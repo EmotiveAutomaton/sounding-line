@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-GEAR2-SIX-QUEUES-20261115:** [Record](GEAR2_SIX_QUEUES_20261115.md). Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit.
+
 **OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** [Record](GEAR2_CHECKPOINT_CONTINUATION_20261115.md). Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates.
 
 **OPS-S15-W6-TR2-B2-PROJECTION-20261115:** [Record](TR2_B2_PROJECTION_20261115.md). The original refusal-source projection and independent replay pass all 189 constructed checks; complete archive reconstruction and source-specific reliability qualification remain pending.

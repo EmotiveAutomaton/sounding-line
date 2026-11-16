@@ -1623,3 +1623,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T02:21:05.952923+00:00 OPS-S15-W6-TR2-B2-PROJECTION-20261115: The original refusal-source projection and independent replay pass all 189 constructed checks; complete archive reconstruction and source-specific reliability qualification remain pending.
 
 2026-11-16T02:45:46.646237+00:00 OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115: Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates.
+
+2026-11-16T03:04:38.154193+00:00 OPS-S15-GEAR2-SIX-QUEUES-20261115: Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit.
