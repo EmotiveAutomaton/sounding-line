@@ -1,5 +1,320 @@
 # FINDINGS — the method archive
 
+### OPS-S15-FULL-RUN-PREPARATION-20261115
+
+**Hypothesis.** Can the cleared storage gate restore the full authorized queue while preserving evidence, accounting, shared resources and the campaign transition?
+
+**METHOD.** Review the three commissioned builder deliveries, run their focused native qualifications, authenticate prepared source bindings and post immutable shared budget records. Inspect actual worker identities, progress, counted leases, calendar services and watcher delivery. Retain and diagnose every failed admission and full-history audit before retrying.
+
+**Found.** The original comparison continuation is live under its longer bounded plan, with fresh execution and budget progress. Original reader chunks through ordinal 132 are fully filed. The long reader queue and evidence collector pass actual constructed execution and fresh replay; the remaining 32 original chunks have complete counted metadata preparation and an exact owner launch review. The subsequent native admission correctly refuses changed concurrent memory demand before any reader execution starts. Its prepared source and queue remain intact.
+
+Chess has a clean preserved pause and qualified disjoint-range implementation. The full-history metadata audit reaches its original thirty-minute wall boundary after one complete inventory; its FAILED result, intermediate inventory and 684.453125 CPU seconds, including the termination margin, are retained. With the thirty-second supervisor allowance, the charge is 714.453125. The owner and recorded child have exited and the exact lease is released. The prior historical-access failure and all qualification charges remain separately recorded. This maintenance charge is carried once within the existing maintenance reservation, not silently omitted or added again to scientific CPU. Full-prefix authentication has not passed. A prospective exact metadata optimization is being prepared; no scientific scorer or live pinned implementation is modified.
+
+The appraisal evidence repair passes all 51 unchanged controls. Eight prospective plans retain their original source/scientific bindings. Four immutable Week 6 shared budget revisions are now posted: IN13 retains 6793.5546875 preparation CPU seconds; IN14, 552.390625; IN15, 2193.5546875; and IN16, 401.234375. These are four shared budgets for the declared cells, not eight independent allowances. The qualified real-event primaries and separately labelled all-report reference remain distinct. No Week 6 production job has started, and no elapsed clock is substituted for actual fully filed Week 5 drain.
+
+The health inspection finds both campaign calendars live, fresh comparison progress, a healthy watcher, no delivery error and no stacked pending native wake. The external data request inbox still contains only the two already reviewed deliveries. CPU-only Gear 2, eight shared slots, six filler slots, two numerical threads, event/four-hour/single-pending wakes and the original closure deadlines remain unchanged. Storage passes; memory and actual shared-resource claims remain admission conditions.
+
+**Meaning.** The queue is built further and evidence is retained, but the sixteen-card ready buffer remains deficient. Idle capacity is attributable to full-history authentication, actual memory reservations, source/annotation requirements and the mandatory predecessor-drain transition, not permission to bypass those gates. The appraisal and reader builders have delivered their bounded packages; the chess builder is preparing the exact audit repair. No additional agents or hypotheses are commissioned in this operational pass. Existing scientific and source holds remain explicit. No unfinished scientific scores are reported. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; CPU-only Gear 2 continues with preserved evidence; reader and appraisal queues are prepared, while complete chess-history authentication and live admission gates remain explicit.; project meaning: scoped operational record; next engineering obligation: Qualify the exact metadata repair, complete prefix authentication, admit eligible original queues and retain actual drain before Week 6.; public scientific claim unchanged; curator decision required: No new decision. Detail: FULL_RUN_PREPARATION_20261115.md.
+
+### OPS-S15-W5-HANDOVER-OBSERVATION-20261115
+
+**Hypothesis.** Are the stopped chess attempts preserved, and can a stale reader preflight start work after another job changes the available memory?
+
+**METHOD.** Inspect the original terminal and plan hashes, exact native owner and execution-child identities, actual shared leases and the clean successor cursor. Inspect the reader launch, final native admission failure and absence of an execution child. Keep these operational observations separate from the counted full-history checkpoint audit.
+
+**Found.** The original chess storage continuation ended with an owner-requested PAUSED receipt after 9,281.921875 CPU seconds. Its clean successor ended PAUSED after 137.015625 CPU seconds, with no active unit and the next original ordinal at 128448. Both owners and their recorded execution children are gone, and neither owns a counted lease. Both terminal and plan hashes are preserved. These costs and one ordinary thirty-second allowance per attempt remain in existing campaign accounting; this record does not add them a second time. The complete checkpoint inventories are still undergoing counted authentication. The new four-range production launch is held until that audit passes; a clean cursor alone does not qualify its source.
+
+The reader metadata preparation has separately completed execution and fresh verification. Its production preflight passed the original resource thresholds, but a companion reader job acquired a six-GiB projected lease before the new native worker claimed its slot. The worker's fresh admission check refused the projected concurrent peak. The FAILED receipt is retained exactly, including its generic engineering label. Owner diagnosis is environmental resource contention, not a scientific or instrument failure. No reader execution child, score output or counted production lease was created. The attempt reports zero descendant CPU seconds and retains the normal thirty-second allowance; its exited owner does not retain an unspent future-work reservation. No companion process was signalled or changed.
+
+**Meaning.** The pause events are fully recorded as operational observations, with checkpoint authentication explicitly pending. Their acknowledgement is not source admission or a scientific verdict. Original evidence, source population, scoring settings, budgets and closure clock remain. The prepared reader queue can be admitted in a fresh attempt when actual resources and capacity pass; its numerical work is not rerun merely to repair this start. The comparison continuation remains independently active. No tests harvested this pass and no unfinished scientific scores reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The chess handover is stopped at a clean boundary while full-history authentication proceeds; the reader start was refused safely after concurrent memory demand changed.; project meaning: scoped operational record; next engineering obligation: Finish counted full-prefix authentication and admit original ranges; retry the prepared reader only when fresh capacity permits.; public scientific claim unchanged; curator decision required: No new decision. Detail: HANDOVER_OBSERVATION_20261115.md.
+
+### OPS-S15-W5-AT-QUEUE-PREPARED-20261115
+
+**Hypothesis.** Can the remaining original reader batches be assembled into a single bounded queue without changing their source, order, model or scoring contract?
+
+**METHOD.** Run the reviewed metadata preparation under one counted Windows Job, then verify its manifest and candidate in a separate native process. Bind the already authenticated historical prefix, unchanged implementation and actual queue/collector qualifications. Check both native ownership and empty-Job exit evidence before owner review.
+
+**Found.** Preparation and fresh verification complete. The candidate contains the remaining 32 original chunks, ordinals 133 through 164, after the preserved 133-chunk prefix. The first reader, source order, double precision, context and fresh-forward verification remain unchanged. The preparation identifies 15,048 unique historical pins; full source-data authentication occurs at the counted queue entry. No human rows were decoded by this metadata preparation.
+
+The inclusive preparation charge is 102.984375 CPU seconds, including enclosing owner work and its measurement margin, plus the ordinary 30-second policy allowance. The nested measured execution and verification costs are included, not charged twice. Both native phases have complete ownership, empty Job and exit proofs; the enclosing owner has exited and its counted lease is released. Candidate, manifest and receipt hashes are rechecked by the owner. The queue retains a 31,970-second work cap plus 30 seconds, one counted slot, two numerical threads, a twenty-GiB projected memory peak and the unchanged twenty-six-GiB commit-headroom start floor. Its wall allowance is shortened at admission to the original campaign drain.
+
+**Meaning.** This is a fully prepared, owner-reviewed production candidate, not a completed human pilot or a ten-reader result. The latest resource inspection and actual counted leases govern its separate launch. The cleared disk gate does not override memory, original freeze/drain, full-prefix authentication or family/campaign ceilings. No unfinished scientific scores are reported. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The remaining original reader pilot is fully prepared and independently verified; production admission retains its memory, clock and cost gates.; project meaning: scoped operational record; next engineering obligation: Admit the reviewed queue when actual resource, slot, clock and retained cost envelopes all pass.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_QUEUE_PREPARED_20261115.md.
+
+### OPS-S15-W5-CH-COLLECTOR-QUALIFIED-20261115
+
+**Hypothesis.** Can the chess collector authenticate every original ordinal and its replay while preserving historical failures, clean pauses and native exit evidence?
+
+**METHOD.** Test the additive collector against literal coverage and corruption cases, then consume the actual native eight-position rehearsal. Preserve each unsuccessful qualification, correct the original pause-inventory convention, and test the separately qualified reboot predicate against exact native-identity metadata before retrying the human prefix authentication.
+
+**Found.** The first expanded suite passes 47 checks at 80.921875 CPU seconds. Native integration then fails at the pause inventory comparison, retaining 1.34375 CPU seconds. The original resume format intentionally excludes telemetry; the repaired collector matches that exact original checkpoint filter while preserving the complete post-exit inventory audit. Forty-nine checks then pass at 101.140625 CPU seconds, and actual native union integration passes at 8.828125 seconds. No scientific output or original runtime was changed.
+
+The production handover subsequently reaches a clean saved unit boundary. Its first counted full-history audit fails at native identity inspection, retaining 2.015625 CPU seconds. Bounded metadata inspection locates two historical verification identities whose PID is now inaccessible. Their authenticated creation times and exact original completion both precede independently agreeing operating-system and kernel boot times. Access denial alone is not exit; no identity is inferred for the current PID holder.
+
+An additive historical collector now applies the existing qualified preboot predicate only after actual access denial, records the exact identity-file and terminal hashes, revalidates the proof, and preserves every original ordinal, inventory, source, replay and cost check. All 23 focused historical controls pass at 3.859375 CPU seconds. They cover live and normally absent identities, current-boot refusal, disagreeing boot observations, missing timezone, unrelated errors, changed proof bytes and path escape. The metadata-only recovery helper cannot signal, restart or launch research workers.
+
+The six attempts above add 198.109375 measured CPU seconds plus six 30-second supervisor allowances, total 378.109375. Earlier range rehearsal and failed cap-limited checks remain separately filed and charged. The maintenance reservation covers these private qualification charges once; none is omitted from final drain or added again as nested scientific work. All six enclosing owners and launched children were checked exited.
+
+**Meaning.** The collector and historical compatibility route are qualified. Complete counted authentication of the preserved human prefix is still required before preparing disjoint production ranges; this record claims no successful human-prefix audit or scientific result. The original clean PAUSED successor remains intact, and the recovery does not repeat its handover. Existing nodes, full original population, budgets, CPU-only Gear 2 and campaign clock remain unchanged. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The chess range collector passes constructed integration and exact historical-exit controls; the preserved human prefix still requires complete counted authentication.; project meaning: scoped operational record; next engineering obligation: Authenticate the complete preserved prefix in the counted metadata job, then admit up to four disjoint original ranges.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_COLLECTOR_QUALIFIED_20261115.md.
+
+### OPS-S15-W5-AT-QUEUE-QUALIFIED-20261115
+
+**Hypothesis.** Can the unchanged original reader kernel run in a long queue while preserving exact source order, containment, checkpoints, fresh verification and complete evidence collection?
+
+**METHOD.** Run thirteen targeted contracts and a complete constructed queue through the actual counted launcher, then repeat the fixture in a fresh process. Exercise actual Windows redirector/scorer membership, execution and verification, pause-copy-resume, forced deadline, output overflow, foreign-process refusal and corrupted evidence. Separately run and replay the collector against those actual constructed native outputs and deliberate missing or altered proofs.
+
+**Found.** Both queue execution and independent replay pass all thirteen targeted checks and every required native case. Each phase records eleven distinct nested launched jobs; the actual scorer identity is separately bound to its owned Job. The exact Job reaches zero active/assigned processes with an empty PID list before closure; all observed identities must exit. Unknown identity queries, nonmembership and changed proof bytes refuse. Forced interruption and fast successful output overflow are exercised as distinct refusal cases, with their costs retained. Prior checkpoint evidence remains unchanged after authenticated resume.
+
+The queue outer Job records 138.8125 execution CPU seconds and 143 verification seconds, total 281.8125; its supervisor allowance is 30 seconds. Nested measured totals of 132.15625 and 135.859375 are included in those enclosing totals and are not added again. The collector then completes execution and independent replay at 5.234375 CPU seconds plus 30 supervisor seconds. Its checks reject missing whole-pilot completion, corrupt scores, changed source order/context/revision/precision/core pins, nonempty Job evidence and omitted scorer exit proof. Both collector fixture receipts match. The earlier failed qualification remains preserved and charged separately at 33.140625 plus 30 seconds.
+
+The qualification uses generated texts and tiny constructed model weights, not participant records or a real pretrained-model memory measurement. The original numerical scorer, double precision, 1024-token context, two-percent fresh-forward checks and memory thresholds remain unchanged. It does not complete the human first-reader pilot or the ten-reader bank.
+
+**Meaning.** The repaired queue and collector are qualified for owner admission of the original remaining ordinals. Actual production still requires the authenticated 133-chunk prefix, unchanged remaining roster, inclusive cost/clock review, twenty-GiB projected peak and the unchanged 26-GiB commit-headroom start gate. CPU-only Gear 2, shared-slot and filler limits, campaign freeze/drain and event/four-hour/single-pending wakes remain. No unfinished scientific scores are reported. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original reader queue and its evidence collector pass complete constructed native execution and independent replay; human queue admission remains separately guarded.; project meaning: scoped operational record; next engineering obligation: Bind the exact original remaining pilot and admit only after current resource, cost, slot and clock checks.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_QUEUE_QUALIFIED_20261115.md.
+
+### OPS-S15-W5-BK-RESTORE-WALL-RECOVERY-20261115
+
+**Hypothesis.** Can the original full comparison continue from its preserved checkpoint after restoration consumes the attempt's wall allowance?
+
+**METHOD.** Inspect the failed attempt, original resume receipt and native process records; compare the new and old plans byte-bound scientific inputs and configuration; start a fresh ordinary continuation from the last authenticated PAUSED checkpoint with a larger outer wall allowance inside the unchanged campaign drain.
+
+**Found.** Restoration of 196,522 checkpoint files finished, then the old attempt reached its 7,200-second outer wall boundary. It retains a cost failure at 7207.754922 wall seconds and 1180.375 charged descendant CPU seconds, with no pending accounting-reconciliation flag. The failure and all its outputs remain preserved. The last progress record showed reuse through bank 18 and zero new fits; this does not establish an exhaustive audit of the failed output tree or a scientific result.
+
+The last observed supervisor CPU was 5240.015625 seconds, a lower bound rather than a final total. It remains covered by the existing 14,400-second supervision reservation for that attempt and is not added as a duplicate charge. Static inspection identifies repeated whole-terminal accounting reads and output-directory walks as substantial overhead; no live code was changed and no unqualified optimization was admitted.
+
+The new continuation uses the authenticated recovery-19 pause, never the failed directory. The exact source, population, model, controls, 2,000 resamples, producer configuration and 25,000-second child CPU ceiling remain unchanged. Its outer wall allowance is 21,600 seconds, still bounded by the original campaign drain. Admission retains the prior 90,572.345264-second supervision reserve, 41,000-second maintenance reserve and adds 43,200 seconds for this new supervisor, once. Actual native identity and plan hash were checked after launch. Restoration is active; a fresh complete result has not yet landed.
+
+**Meaning.** The saved evidence remains usable and the same full comparison is running with enough wall room for measured restoration overhead. All failures and charges carry into final reconciliation. GPU, Ollama, spending, scientific scope, start freeze and final drain remain unchanged. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The comparison restoration reached its wall boundary; its checkpoint is preserved and a longer bounded continuation is active in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Continue original checkpoint recovery and reconcile actual child and supervisor costs once at drain.; public scientific claim unchanged; curator decision required: No new decision. Detail: BK_RESTORE_WALL_RECOVERY_20261115.md.
+
+### OPS-S15-W6-APPRAISAL-EVIDENCE-QUALIFIED-20261115
+
+**Hypothesis.** Can the existing appraisal designs regain complete environmental qualification evidence without changing their inputs, measures or controls?
+
+**METHOD.** Rerun the same three full 2,000-draw constructed seed-refresh/replay cases and 48 label checks in one counted two-thread Windows Job. Verify the exact JUnit case set, output manifest, source pins, native Job emptiness, observed process exits and lease release; then bind only the explicitly approved evidence replacements into four private candidates.
+
+**Found.** All 51 required cases pass without skips. The Job records 159.21875 descendant CPU seconds, the supervisor 1.046875 seconds, and the inclusive measured total is 160.265625 seconds over 174.0799271 wall seconds. All three observed native identities have explicit post-close exit evidence; the Job was empty before closure and its owned lease was released. The prior interrupted qualification remains preserved and charged at 226.84375 seconds. Neither attempt is silently removed or counted twice.
+
+The exact private binding retains 107 original pins per plan, including all 51 scientific source/code pins and eight mandatory private dependencies. The 33 explicit replacement/inactive roles retain historical provenance. Four candidates cover the two qualified-event appraisal variants, the separately labelled all-report reference, and the reader comparison. No human outcome was computed by this requalification. The resulting preparation totals are 6793.5546875 CPU seconds for the shared IN13 key and 2193.5546875 for IN15; each retains its original inclusive 20,000-second ceiling across all scopes and independent replays. The unused V2 allowance is replaced by actual cost, not added again.
+
+**Meaning.** The environmental qualification and private evidence binding are complete. Immutable cumulative budget posting, final owner review and binding the actual fully filed Week 5 drain remain required for production. IN13C remains independently held; IN14's failed person-covariance secondary is not a new gate on its separately qualified primary. Original data, identity salt, primary/reference scopes and scientific rules are unchanged. This is operational qualification, not an appraisal result. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All 51 unchanged appraisal checks pass and bind the preserved source evidence; Week 6 production still requires actual predecessor drain.; project meaning: scoped operational record; next engineering obligation: Post reviewed immutable cumulative budgets and bind actual fully filed Week 5 drain before production.; public scientific claim unchanged; curator decision required: No new decision. Detail: APPRAISAL_EVIDENCE_QUALIFIED_20261115.md.
+
+### OPS-S15-W5-AT-QUEUE-NATIVE-FAILURE-20261115
+
+**Hypothesis.** Can the original reader scorer run as a bounded queue while preserving exact native identity, fresh verification and complete cost accounting?
+
+**METHOD.** Launch the new queue fixture through the existing counted runtime with generated texts and tiny constructed model weights. Run the original guarded numerical kernel in separate native execution and verification jobs, preserving the original precision, context, memory-control logic and fresh-forward checks. The two-thread fixture has no human source or pretrained model input.
+
+**Found.** The nine targeted contract checks pass, but the first actual chunk is refused at native identity comparison. Windows starts the virtual-environment redirector as the owned launch process and a distinct Python executable as the actual scorer. Both native records exist; they are correctly different processes, so requiring their identities to be equal is an integration defect. No queue checkpoint is promoted to complete and no production queue is admitted. The original single-chunk evidence remains valid and unchanged.
+
+The failed outer attempt retains 33.140625 descendant CPU seconds and 70.3653102 wall seconds, plus the existing 30-second supervisor allowance. Its failure is engineering, with no accounting-reconciliation flag. Owner inspection confirms the outer and recorded nested identities have exited. The original source capsule, generated outputs, usage and failure remain preserved. A prospective repair must explicitly bind the launched redirector and actual worker through measured Job membership and prove both have exited; merely weakening equality or treating an absent marker as success is not acceptable.
+
+**Meaning.** Complete the native compatibility repair and repeat the unchanged qualification before the original remaining-pilot queue starts. The full original reader pilot and ten-reader bank remain unfinished. This is an instrument failure on constructed data, not a scientific null, memory-policy change or authorization to drop guard checks. CPU-only Gear 2 and existing budgets, freeze/drain and wake policy remain. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed reader queue refuses a Windows launcher-versus-worker identity mismatch; production queue admission remains held.; project meaning: scoped operational record; next engineering obligation: Repair exact redirector/worker containment and exit binding, retaining failed costs, before repeating native qualification.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_QUEUE_NATIVE_FAILURE_20261115.md.
+
+### OPS-S15-W6-APPRAISAL-EVIDENCE-REPAIR-20261115
+
+**Hypothesis.** Can the existing appraisal designs retain their scientific identity while reconstructing unreadable environmental qualification evidence?
+
+**METHOD.** Review the exact original source, salt, code, historical fixture and cost pins; rerun the same 51 constructed checks in one bounded, contained two-thread native job; preserve its interrupted outcome and classify every private dependency before preparing an additive evidence successor. No human outcome is computed.
+
+**Found.** The fresh IN13A/B and
+IN15 qualification attempt reached its configured 900-second wall boundary.
+The failed attempt and all historical evidence remain preserved. No scientific
+assertion failure was reported, but the incomplete attempt is not a passing
+qualification. The V2 retry is prepared with the same tests and CPU ceiling;
+this record authenticates no V2 completion or production admission.
+
+The intended check is environmental evidence requalification after historical
+constructed-output paths became unreadable. It is not a new scientific gate.
+The unchanged selection contains three complete 2,000-draw seed-refresh tests:
+IN13A planted/null execute and replay, IN13B null/checkpoint/reference replay,
+and IN15 whole-reader replay/draw support. The unchanged label suite adds 48
+checks, making 51 required passing, unskipped cases. No IN13C test or human
+outcome computation is included. Historical passing receipts remain historical
+evidence; an incomplete fresh attempt does not replace them.
+
+V1 used one exclusively held shared CPU slot, two numerical threads, a native
+Windows Job with suspended assignment before resume and kill-on-close
+containment. The bounds were 600 total CPU seconds and 900 wall seconds, with
+the unchanged Gear 2 resource floors. It wrote its failure at 905.2911921 elapsed
+seconds, including shutdown/filing. The native Job recorded 222.296875 descendant
+CPU seconds; the retained total charge is 226.84375, including supervisor
+accounting and a two-second termination margin. IN13 and IN15 each retain
+113.421875 once. The recorded supervisor field is a later snapshot than the
+frozen total, differing by one 0.015625-second CPU tick; the recorded total is
+preserved rather than recalculated from asynchronously sampled fields.
+
+The failure receipt has no verified-case count. Standard output contains one
+progress dot and standard error is empty. Neither proves the 51-case bank
+passed. Its final usage record says the Job closed and its owned lease was
+released. The final pre-close sample had three active processes, and V1 did
+not preserve explicit post-close native-identity exit checks. Thus this record
+does not relabel that sample as verified absence of survivors.
+
+A separate builder error was found before live admission. The rejected V1
+binding recipe removed every `.agent-state` pin, which would have discarded
+the scientific identity salt and private source/control/review evidence along
+with inaccessible test outputs. No live plan, source bytes or budget was
+changed. The flawed recipe remains preserved as rejected history.
+
+The corrected V2 map classifies all 41 private dependencies individually:
+
+- Eight mandatory private dependencies stay active, including the exact
+  original identity salt and readable review, control and cost records.
+- Twenty A/B/IN15 constructed-output pins may be superseded only by the
+  authenticated fresh 51-check proof. Their old paths and expected hashes remain.
+- Ten IN13C-only constructed outputs remain inactive historical provenance
+  for this A/B/IN15 binding. IN13C remains held; this run does not qualify it.
+- Three unreadable metadata receipts have a separately owner-reviewed,
+  same-design metadata successor: `BUILDER_DELIVERY.json`,
+  `BUILDER_READINESS_ADDENDUM.json` and `SOURCE_ADMISSION_CHECKLIST.json`.
+
+The owner's successor verifies the original completed appraisal source,
+archive, exact salt, source disposition and sealed outputs. The static review
+rehashes 57 owner-bound evidence files, covers all 51 original source pins and
+rechecks the eight retained private dependencies. Each of the four candidates
+keeps 107 of its original 140 pins; only the explicit 33 replacement/inactive
+entries change role. Qualified-event primaries and the separately labelled
+all-report reference retain their original inputs/configuration. Original
+unreadable files are neither deleted nor claimed recovered; no ACL changes
+or substitute source were used.
+
+V2 keeps the same 51 checks, unchanged scientific code, 600 total CPU seconds,
+two threads and one shared slot. Its wall allowance is 3,600 seconds because
+the observed first attempt exhausted wall time well below its CPU ceiling.
+It adds Job-member native identities, explicit termination of only its owned
+Job on failure, a final Job-empty check and post-close native-identity exit
+evidence. Missing or unknown exit evidence cannot produce COMPLETE. This is
+an operational evidence repair, not weaker scientific acceptance criteria.
+
+At most 300 CPU seconds per key are reserved for V2. On its actual terminal,
+replace that unused reservation with half its measured total; do not add both.
+For a passing V2 result the preparation totals are IN13=6600+113.421875+V2/2
+and IN15=2000+113.421875+V2/2. Existing preparation/history is not charged again.
+Each original 20,000-second card ceiling still covers every primary, reference,
+failed attempt, continuation and independent replay. IN13's three active
+scopes share one budget key.
+
+The frozen private final-binding script checks the owner successor, exact
+role map, every retained source/identity/code pin, fresh JUnit and manifest,
+native exit/lease evidence and cost split. It writes private candidates and
+budget drafts only. The operating owner must still review those exact files,
+post immutable cumulative budgets, bind the actual Week5 drain review and
+fully filed drain receipt, and perform normal resource/runtime admission.
+Calendar time alone is insufficient. IN14's failed person-covariance secondary
+remains held without becoming a gate on its independently qualified primary.
+No scientific effect, theory update, production result or successful V2
+qualification is asserted by this operational record.
+
+
+**Meaning.** Retain the failure and require complete unchanged qualification before binding the new evidence. A later owner inspection found all three previously observed contained PIDs absent; it does not retroactively supply the missing V1 post-close identity record. The V2 harness records exact Job-member identities and exit evidence prospectively. No permissions or old evidence files are changed. The original source, primary/reference scopes, estimator controls and caps stay fixed. Week 6 production also remains gated on actual Week 5 drain. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The interrupted appraisal evidence check and corrected private dependency bindings are preserved; fresh complete qualification remains pending.; project meaning: scoped operational record; next engineering obligation: Complete the unchanged counted qualification, bind exact retained/replaced evidence and actual cumulative budgets, then wait for authenticated predecessor drain.; public scientific claim unchanged; curator decision required: No new decision. Detail: APPRAISAL_EVIDENCE_REPAIR_20261115.md.
+
+### OPS-S15-W5-CH-RANGE-NATIVE-20261115
+
+**Hypothesis.** Can disjoint original chess ranges preserve every scored position, checkpoint, independent replay and cost through an active-unit handover?
+
+**METHOD.** Run the original frozen engine on a constructed eight-position roster through the actual counted Windows launcher. Exercise an original active-unit pause and authenticated clean continuation, range execution and verification pauses, complete resumed replay, and a second disjoint range. Check original ordinal coverage, separate native identities, output hashes, native exits, leases and enclosing Job accounting. Separately test the additive history collector against literal complete, paused and failed-prefix evidence.
+
+**Found.** The six real-engine attempts preserve the original checkpoints and cover their declared disjoint constructed ordinals with separate native replay. The original range controls pass thirty focused checks across the initial and continuation suites. This establishes the tested range protocol on constructed positions; it does not establish a completed human chess population or a scientific effect.
+
+The six native attempts and their preparation consume 90.890625 measured outer CPU seconds. Their seven supervisor envelopes add 210 seconds. Earlier focused qualification adds 12.609375 measured CPU and 30 supervisor seconds, for 343.5 charged seconds before the collector checks. Nested diagnostic CPU is included in the outer Job and is not added again. Every original failed, paused and completed disposition remains unchanged.
+
+The watcher reported disappearance for the first active-unit rehearsal because its valid-JSON schema rejected the free-text pause reason. The actual PAUSED receipt preceded that observation; its exact original owner has exited, its fourteen checkpoint hashes remain intact, and the clean resume binds the same copied map through resume-v5. The MONITOR_FAILED marker is retained as a monitoring discrepancy, not a scientific failure or a completion. Future handover requests use the existing canonical owner_cancel reason with a separate explanatory detail. The selected clean successor has no monitor-failure marker; the collector still refuses unresolved monitor failures.
+
+Two bounded collector checks reached their 60-second CPU cap without an observed assertion failure, retaining 62.078125 and 62.03125 charged native CPU seconds including termination margins, plus 30 supervisor seconds each. The first revealed wasteful large buffer allocation for tiny metadata. The additive collector now reads the declared bounded file length and rejects growth or truncation; the second advanced farther but still reached the cap. A measured larger qualification envelope is being prepared within the existing family budget. Neither incomplete check is called passed. The original live scorer and its pinned code are untouched.
+
+**Meaning.** The range adapter is qualified on actual constructed native execution. Production partitioning still requires complete collector qualification, counted authentication of all historical sealed intervals including the failed attempt, clean retirement of the original worker and fresh resource, family-cost and original-clock checks. Four chess ranges are planned so the comparison and reader lanes fit the six-filler limit. CPU-only Gear 2, eight shared slots, two numerical threads and the Week 5 drain remain unchanged. No unfinished scores or new scientific hypotheses are reported; no tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original-engine range rehearsal passes; the full-history collector remains in bounded engineering qualification.; project meaning: scoped operational record; next engineering obligation: Finish counted history-collector qualification and authenticate the full sealed original prefix before range admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_RANGE_NATIVE_20261115.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0132-COST-20261115
+
+**Hypothesis.** Can the resumed original reader pilot produce complete measured evidence without changing its source order or numerical checks?
+
+**METHOD.** Score the next frozen GPT-2 medium chunk after the unchanged native memory gate passes; run its original seeded fresh-forward checks in a distinct native process. Authenticate every completion-declared output, source and model pin, guard identity, native exit and descendant accounting receipt through the qualified historical-policy preparer.
+
+**Found.** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+All 165 words in original zero-based ordinal 132 are retained. All 4 seeded fresh-forward checks meet the unchanged 0.0001-nat tolerance. Measured descendant CPU is 277.03125 seconds and wall time is 693.546752 seconds; the existing supervisor allowance and the separately filed conservative supervision reservation remain additional. Observed peak working set is 4.689529 GiB for this chunk only. All 110 completion-declared output hashes match, both guard receipts bind the distinct native execution/replay identities, and all owners have exited. These are complete engineering checks and coverage/cost measurements, not scientific effect scores or model selection.
+
+The authenticated prefix now contains 133 of 165 original chunks for this reader, covering 21926 words and 26097.734375 measured descendant CPU seconds. This prefix excludes separately retained failed-attempt costs and supervisor/preparation charges, which remain additional in cumulative accounting. The original full pilot remains 27,007 words from four whole writers for each of all ten readers. Model revision, tokenizer, 1,024-token context, FP64 computation, source order and seeded numerical verification are unchanged. No completed prefix is substituted for a whole-bank forecast.
+
+At this wake's native inspection, chess and comparison workers remain live and their CPU/progress advance; comparison has begun writing restored files but has no completed restore receipt yet. Both calendars remain live, resource floors pass, the watcher has no error and its native queue has no pending operational message. The one pending reader-completion event is still unacknowledged until this full filing. The collector inbox contains only its two already reviewed deliveries. Shared companion work is untouched. The curator reports cleared storage and requests full eligible Gear 2 execution. Three commissioned builders are active on disjoint chess-range engineering, appraisal evidence recovery and the fixed remaining reader queue; the ready buffer is still deficient and actual Week 5 drain still gates Week 6.
+
+Original ordinal 133 is prepared after this complete-prefix authentication, subject to fresh owner admission and current memory/budget checks. Its existing bounds remain 7,200 CPU seconds, 1,700 wall seconds, a twenty-GiB projected peak and two numerical threads. The next fixed ordinal is held for owner admission of the longer queue; no successor is claimed running. The idle reader slot is a temporary engineering-admission wait, recorded while the original queue successor is built and checked. Chess and comparison recovery continue separately. All former float32 failures, environmental interruptions, historical preparation refusals and diagnostic costs remain preserved.
+
+**Meaning.** File this completed chunk and continue the original pilot in order. The bank, model comparison and downstream scientific analyses are still unfinished. No new hypothesis, GPU, Ollama or paid call is introduced. The existing final-packet reporting policy and event/four-hour/single-pending wake policy remain. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Admit only the next original chunk after fresh memory and inclusive cost checks; keep the complete bank and scientific comparison gated.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0132_COST_20261115.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0131-COST-20261115
+
+**Hypothesis.** Can the resumed original reader pilot produce complete measured evidence without changing its source order or numerical checks?
+
+**METHOD.** Score the next frozen GPT-2 medium chunk after the unchanged native memory gate passes; run its original seeded fresh-forward checks in a distinct native process. Authenticate every completion-declared output, source and model pin, guard identity, native exit and descendant accounting receipt through the qualified historical-policy preparer.
+
+**Found.** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+All 206 words in original zero-based ordinal 131 are retained. All 5 seeded fresh-forward checks meet the unchanged 0.0001-nat tolerance. Measured descendant CPU is 173.28125 seconds and wall time is 142.637326 seconds; the existing supervisor allowance and the separately filed conservative supervision reservation remain additional. Observed peak working set is 4.690258 GiB for this chunk only. All 120 completion-declared output hashes match, both guard receipts bind the distinct native execution/replay identities, and all owners have exited. These are complete engineering checks and coverage/cost measurements, not scientific effect scores or model selection.
+
+The authenticated prefix now contains 132 of 165 original chunks for this reader, covering 21761 words and 25820.703125 measured descendant CPU seconds. This prefix excludes separately retained failed-attempt costs and supervisor/preparation charges, which remain additional in cumulative accounting. The original full pilot remains 27,007 words from four whole writers for each of all ten readers. Model revision, tokenizer, 1,024-token context, FP64 computation, source order and seeded numerical verification are unchanged. No completed prefix is substituted for a whole-bank forecast.
+
+At this wake's native inspection, chess and comparison workers remain live and their CPU/progress advance; comparison has begun writing restored files but has no completed restore receipt yet. Both calendars remain live, resource floors pass, the watcher has no error and its native queue has no pending operational message. The one pending reader-completion event is still unacknowledged until this full filing. The collector inbox contains only its two already reviewed deliveries. Shared companion work is untouched. The curator reports cleared storage and requests full eligible Gear 2 execution. Three commissioned builders are active on disjoint chess-range engineering, IN14/IN16 owner admission preparation and RW1/LA6/DC1 intake preparation; the ready buffer is still deficient and actual Week 5 drain still gates Week 6.
+
+Original ordinal 132 is prepared after this complete-prefix authentication, subject to fresh owner admission and current memory/budget checks. Its existing bounds remain 7,200 CPU seconds, 1,700 wall seconds, a twenty-GiB projected peak and two numerical threads. The next bounded worker has passed fresh admission and is running while this internal filing completes. Chess and comparison recovery continue separately. All former float32 failures, environmental interruptions, historical preparation refusals and diagnostic costs remain preserved.
+
+**Meaning.** File this completed chunk and continue the original pilot in order. The bank, model comparison and downstream scientific analyses are still unfinished. No new hypothesis, GPU, Ollama or paid call is introduced. The existing final-packet reporting policy and event/four-hour/single-pending wake policy remain. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Admit only the next original chunk after fresh memory and inclusive cost checks; keep the complete bank and scientific comparison gated.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0131_COST_20261115.md.
+
+### OPS-S15-W5-AT-M00-CHUNK0130-COST-20261115
+
+**Hypothesis.** Can the resumed original reader pilot produce complete measured evidence without changing its source order or numerical checks?
+
+**METHOD.** Score the next frozen GPT-2 medium chunk after the unchanged native memory gate passes; run its original seeded fresh-forward checks in a distinct native process. Authenticate every completion-declared output, source and model pin, guard identity, native exit and descendant accounting receipt through the qualified historical-policy preparer.
+
+**Found.** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+All 154 words in original zero-based ordinal 130 are retained. All 4 seeded fresh-forward checks meet the unchanged 0.0001-nat tolerance. Measured descendant CPU is 122.46875 seconds and wall time is 97.117685 seconds; the existing supervisor allowance and the separately filed conservative supervision reservation remain additional. Observed peak working set is 4.690346 GiB for this chunk only. All 108 completion-declared output hashes match, both guard receipts bind the distinct native execution/replay identities, and all owners have exited. These are complete engineering checks and coverage/cost measurements, not scientific effect scores or model selection.
+
+The authenticated prefix now contains 131 of 165 original chunks for this reader, covering 21555 words and 25647.421875 measured descendant CPU seconds. This prefix excludes separately retained failed-attempt costs and supervisor/preparation charges, which remain additional in cumulative accounting. The original full pilot remains 27,007 words from four whole writers for each of all ten readers. Model revision, tokenizer, 1,024-token context, FP64 computation, source order and seeded numerical verification are unchanged. No completed prefix is substituted for a whole-bank forecast.
+
+At this wake's native inspection, chess and comparison workers remain live and their CPU/progress advance; comparison has begun writing restored files but has no completed restore receipt yet. Both calendars remain live, resource floors pass, the watcher has no error and its native queue has no pending operational message. The one delivered reader-completion event is still unacknowledged until this full filing. The collector inbox contains only its two already reviewed deliveries. Shared companion work is untouched. The curator reports cleared storage and requests full eligible Gear 2 execution. Three commissioned builders are active on disjoint chess-range engineering, IN14/IN16 owner admission preparation and RW1/LA6/DC1 intake preparation; the ready buffer is still deficient and actual Week 5 drain still gates Week 6.
+
+Original ordinal 131 is prepared after this complete-prefix authentication, subject to fresh owner admission and current memory/budget checks. Its existing bounds remain 7,200 CPU seconds, 1,700 wall seconds, a twenty-GiB projected peak and two numerical threads. The next bounded worker has passed fresh admission and is running while this internal filing completes. Chess and comparison recovery continue separately. All former float32 failures, environmental interruptions, historical preparation refusals and diagnostic costs remain preserved.
+
+**Meaning.** File this completed chunk and continue the original pilot in order. The bank, model comparison and downstream scientific analyses are still unfinished. No new hypothesis, GPU, Ollama or paid call is introduced. The existing final-packet reporting policy and event/four-hour/single-pending wake policy remain. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.; project meaning: scoped operational record; next engineering obligation: Admit only the next original chunk after fresh memory and inclusive cost checks; keep the complete bank and scientific comparison gated.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_M00_CHUNK0130_COST_20261115.md.
+
 ### OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115
 
 **Hypothesis.** Can the resumed original reader pilot produce complete measured evidence without changing its source order or numerical checks?

@@ -2693,6 +2693,32 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-AT-M00-CHUNK0130-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0130_COST_20261115.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0131-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0131_COST_20261115.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0132-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0132_COST_20261115.md).
+
+**OPS-S15-W5-AT-QUEUE-NATIVE-FAILURE-20261115:** The constructed reader queue refuses a Windows launcher-versus-worker identity mismatch; production queue admission remains held. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_NATIVE_FAILURE_20261115.md).
+
+**OPS-S15-W6-APPRAISAL-EVIDENCE-REPAIR-20261115:** The interrupted appraisal evidence check and corrected private dependency bindings are preserved; fresh complete qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/APPRAISAL_EVIDENCE_REPAIR_20261115.md).
+
+**OPS-S15-W5-CH-RANGE-NATIVE-20261115:** The original-engine range rehearsal passes; the full-history collector remains in bounded engineering qualification. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RANGE_NATIVE_20261115.md).
+
+**OPS-S15-W6-APPRAISAL-EVIDENCE-QUALIFIED-20261115:** All 51 unchanged appraisal checks pass and bind the preserved source evidence; Week 6 production still requires actual predecessor drain. [Record](../results/phase_2_4_stage_15/WEEK5/APPRAISAL_EVIDENCE_QUALIFIED_20261115.md).
+
+**OPS-S15-W5-BK-RESTORE-WALL-RECOVERY-20261115:** The comparison restoration reached its wall boundary; its checkpoint is preserved and a longer bounded continuation is active in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/BK_RESTORE_WALL_RECOVERY_20261115.md).
+
+**OPS-S15-W5-AT-QUEUE-QUALIFIED-20261115:** The original reader queue and its evidence collector pass complete constructed native execution and independent replay; human queue admission remains separately guarded. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_QUALIFIED_20261115.md).
+
+**OPS-S15-W5-CH-COLLECTOR-QUALIFIED-20261115:** The chess range collector passes constructed integration and exact historical-exit controls; the preserved human prefix still requires complete counted authentication. [Record](../results/phase_2_4_stage_15/WEEK5/CH_COLLECTOR_QUALIFIED_20261115.md).
+
+**OPS-S15-W5-AT-QUEUE-PREPARED-20261115:** The remaining original reader pilot is fully prepared and independently verified; production admission retains its memory, clock and cost gates. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_PREPARED_20261115.md).
+
+**OPS-S15-W5-HANDOVER-OBSERVATION-20261115:** The chess handover is stopped at a clean boundary while full-history authentication proceeds; the reader start was refused safely after concurrent memory demand changed. [Record](../results/phase_2_4_stage_15/WEEK5/HANDOVER_OBSERVATION_20261115.md).
+
+**OPS-S15-FULL-RUN-PREPARATION-20261115:** CPU-only Gear 2 continues with preserved evidence; reader and appraisal queues are prepared, while complete chess-history authentication and live admission gates remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/FULL_RUN_PREPARATION_20261115.md).
+
 **OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0129_COST_20261115.md).
 
 **OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115:** The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0128_COST_20261115.md).

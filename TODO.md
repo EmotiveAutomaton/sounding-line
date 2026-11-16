@@ -1,5 +1,31 @@
 # TODO: the study queue
 
+- [x] OPS-S15-FULL-RUN-PREPARATION-20261115: CPU-only Gear 2 continues with preserved evidence; reader and appraisal queues are prepared, while complete chess-history authentication and live admission gates remain explicit.
+
+- [x] OPS-S15-W5-HANDOVER-OBSERVATION-20261115: The chess handover is stopped at a clean boundary while full-history authentication proceeds; the reader start was refused safely after concurrent memory demand changed.
+
+- [x] OPS-S15-W5-AT-QUEUE-PREPARED-20261115: The remaining original reader pilot is fully prepared and independently verified; production admission retains its memory, clock and cost gates.
+
+- [x] OPS-S15-W5-CH-COLLECTOR-QUALIFIED-20261115: The chess range collector passes constructed integration and exact historical-exit controls; the preserved human prefix still requires complete counted authentication.
+
+- [x] OPS-S15-W5-AT-QUEUE-QUALIFIED-20261115: The original reader queue and its evidence collector pass complete constructed native execution and independent replay; human queue admission remains separately guarded.
+
+- [x] OPS-S15-W5-BK-RESTORE-WALL-RECOVERY-20261115: The comparison restoration reached its wall boundary; its checkpoint is preserved and a longer bounded continuation is active in CPU-only Gear 2.
+
+- [x] OPS-S15-W6-APPRAISAL-EVIDENCE-QUALIFIED-20261115: All 51 unchanged appraisal checks pass and bind the preserved source evidence; Week 6 production still requires actual predecessor drain.
+
+- [x] OPS-S15-W5-AT-QUEUE-NATIVE-FAILURE-20261115: The constructed reader queue refuses a Windows launcher-versus-worker identity mismatch; production queue admission remains held.
+
+- [x] OPS-S15-W6-APPRAISAL-EVIDENCE-REPAIR-20261115: The interrupted appraisal evidence check and corrected private dependency bindings are preserved; fresh complete qualification remains pending.
+
+- [x] OPS-S15-W5-CH-RANGE-NATIVE-20261115: The original-engine range rehearsal passes; the full-history collector remains in bounded engineering qualification.
+
+- [x] OPS-S15-W5-AT-M00-CHUNK0132-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+- [x] OPS-S15-W5-AT-M00-CHUNK0131-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+- [x] OPS-S15-W5-AT-M00-CHUNK0130-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
 - [x] OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
 
 - [x] OPS-S15-W5-AT-M00-CHUNK0128-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.

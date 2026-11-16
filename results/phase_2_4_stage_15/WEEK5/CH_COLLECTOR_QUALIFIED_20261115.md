@@ -1,0 +1,15 @@
+# CH COLLECTOR QUALIFIED 20261115
+
+**Hypothesis.** Can the chess collector authenticate every original ordinal and its replay while preserving historical failures, clean pauses and native exit evidence?
+
+**METHOD.** Test the additive collector against literal coverage and corruption cases, then consume the actual native eight-position rehearsal. Preserve each unsuccessful qualification, correct the original pause-inventory convention, and test the separately qualified reboot predicate against exact native-identity metadata before retrying the human prefix authentication.
+
+**Found.** The first expanded suite passes 47 checks at 80.921875 CPU seconds. Native integration then fails at the pause inventory comparison, retaining 1.34375 CPU seconds. The original resume format intentionally excludes telemetry; the repaired collector matches that exact original checkpoint filter while preserving the complete post-exit inventory audit. Forty-nine checks then pass at 101.140625 CPU seconds, and actual native union integration passes at 8.828125 seconds. No scientific output or original runtime was changed.
+
+The production handover subsequently reaches a clean saved unit boundary. Its first counted full-history audit fails at native identity inspection, retaining 2.015625 CPU seconds. Bounded metadata inspection locates two historical verification identities whose PID is now inaccessible. Their authenticated creation times and exact original completion both precede independently agreeing operating-system and kernel boot times. Access denial alone is not exit; no identity is inferred for the current PID holder.
+
+An additive historical collector now applies the existing qualified preboot predicate only after actual access denial, records the exact identity-file and terminal hashes, revalidates the proof, and preserves every original ordinal, inventory, source, replay and cost check. All 23 focused historical controls pass at 3.859375 CPU seconds. They cover live and normally absent identities, current-boot refusal, disagreeing boot observations, missing timezone, unrelated errors, changed proof bytes and path escape. The metadata-only recovery helper cannot signal, restart or launch research workers.
+
+The six attempts above add 198.109375 measured CPU seconds plus six 30-second supervisor allowances, total 378.109375. Earlier range rehearsal and failed cap-limited checks remain separately filed and charged. The maintenance reservation covers these private qualification charges once; none is omitted from final drain or added again as nested scientific work. All six enclosing owners and launched children were checked exited.
+
+**Meaning.** The collector and historical compatibility route are qualified. Complete counted authentication of the preserved human prefix is still required before preparing disjoint production ranges; this record claims no successful human-prefix audit or scientific result. The original clean PAUSED successor remains intact, and the recovery does not repeat its handover. Existing nodes, full original population, budgets, CPU-only Gear 2 and campaign clock remain unchanged. No tests harvested this pass.

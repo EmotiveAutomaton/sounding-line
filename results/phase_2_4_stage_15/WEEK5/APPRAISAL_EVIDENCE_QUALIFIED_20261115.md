@@ -1,0 +1,11 @@
+# APPRAISAL EVIDENCE QUALIFIED 20261115
+
+**Hypothesis.** Can the existing appraisal designs regain complete environmental qualification evidence without changing their inputs, measures or controls?
+
+**METHOD.** Rerun the same three full 2,000-draw constructed seed-refresh/replay cases and 48 label checks in one counted two-thread Windows Job. Verify the exact JUnit case set, output manifest, source pins, native Job emptiness, observed process exits and lease release; then bind only the explicitly approved evidence replacements into four private candidates.
+
+**Found.** All 51 required cases pass without skips. The Job records 159.21875 descendant CPU seconds, the supervisor 1.046875 seconds, and the inclusive measured total is 160.265625 seconds over 174.0799271 wall seconds. All three observed native identities have explicit post-close exit evidence; the Job was empty before closure and its owned lease was released. The prior interrupted qualification remains preserved and charged at 226.84375 seconds. Neither attempt is silently removed or counted twice.
+
+The exact private binding retains 107 original pins per plan, including all 51 scientific source/code pins and eight mandatory private dependencies. The 33 explicit replacement/inactive roles retain historical provenance. Four candidates cover the two qualified-event appraisal variants, the separately labelled all-report reference, and the reader comparison. No human outcome was computed by this requalification. The resulting preparation totals are 6793.5546875 CPU seconds for the shared IN13 key and 2193.5546875 for IN15; each retains its original inclusive 20,000-second ceiling across all scopes and independent replays. The unused V2 allowance is replaced by actual cost, not added again.
+
+**Meaning.** The environmental qualification and private evidence binding are complete. Immutable cumulative budget posting, final owner review and binding the actual fully filed Week 5 drain remain required for production. IN13C remains independently held; IN14's failed person-covariance secondary is not a new gate on its separately qualified primary. Original data, identity salt, primary/reference scopes and scientific rules are unchanged. This is operational qualification, not an appraisal result. No tests harvested this pass.

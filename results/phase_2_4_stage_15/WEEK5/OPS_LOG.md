@@ -1579,3 +1579,31 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-15T22:16:00.783856+00:00 OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
 
 2026-11-15T22:19:38.638397+00:00: OPS-S15-W5-AT-M00-CHUNK0129-COST-20261115: Full chunk authentication and filing complete before event ACK. Original130 is admitted and live. Chess advances and comparison checkpoint copying has begun; three Sounding Line jobs and four total shared leases are live. Resources, calendars and watcher delivery pass; no new failure or pending wake at final inspection. The curator reports clearing space; actual disk headroom is now about 524 GiB, so storage no longer holds admission. Independent source, annotation, instrument, owner review and actual Week5-drain gates remain. An additional one-time 3400 CPU-second supervisory reserve is retained. The existing three builder preparation queues have delivered; remaining owner review/source gates and deficient ready buffer remain explicit. Concurrent tools-catalog edits are preserved outside this publication.
+
+2026-11-15T22:30:09.120425+00:00 OPS-S15-W5-AT-M00-CHUNK0130-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+**2026-11-15 full-run build:** The curator reports cleared local storage and requests all eligible Gear 2 work. Three packet-commissioned builders are active on additive disjoint chess ranges, IN14/IN16 admission dossiers, and RW1/LA6/DC1 source and marker preparation. No human outcome or numerical test is delegated without owner slot admission. Existing chess and comparison processes continue; original reader131 was launched after full-prefix authentication and current limits. Actual Week 5 drain still gates Week 6 production.
+
+2026-11-15T22:43:00.727056+00:00 OPS-S15-W5-AT-M00-CHUNK0131-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+2026-11-15T23:03:24.059680+00:00 OPS-S15-W5-AT-M00-CHUNK0132-COST-20261115: The next original reader chunk completes scoring and fresh native checks; the full pilot and corrected bank remain unfinished.
+
+2026-11-15T23:34:54.168239+00:00 OPS-S15-W5-CH-RANGE-NATIVE-20261115: The original-engine range rehearsal passes; the full-history collector remains in bounded engineering qualification.
+
+2026-11-15T23:39:41.739964+00:00 OPS-S15-W6-APPRAISAL-EVIDENCE-REPAIR-20261115: The interrupted appraisal evidence check and corrected private dependency bindings are preserved; fresh complete qualification remains pending.
+
+2026-11-15T23:43:34.178184+00:00 OPS-S15-W5-AT-QUEUE-NATIVE-FAILURE-20261115: The constructed reader queue refuses a Windows launcher-versus-worker identity mismatch; production queue admission remains held.
+
+2026-11-16T00:03:19.320568+00:00 OPS-S15-W6-APPRAISAL-EVIDENCE-QUALIFIED-20261115: All 51 unchanged appraisal checks pass and bind the preserved source evidence; Week 6 production still requires actual predecessor drain.
+
+2026-11-16T00:04:08.340473+00:00 OPS-S15-W5-BK-RESTORE-WALL-RECOVERY-20261115: The comparison restoration reached its wall boundary; its checkpoint is preserved and a longer bounded continuation is active in CPU-only Gear 2.
+
+2026-11-16T00:13:03.147454+00:00 OPS-S15-W5-AT-QUEUE-QUALIFIED-20261115: The original reader queue and its evidence collector pass complete constructed native execution and independent replay; human queue admission remains separately guarded.
+
+2026-11-16T00:14:39.040099+00:00 OPS-S15-W5-CH-COLLECTOR-QUALIFIED-20261115: The chess range collector passes constructed integration and exact historical-exit controls; the preserved human prefix still requires complete counted authentication.
+
+2026-11-16T00:36:51.939525+00:00 OPS-S15-W5-AT-QUEUE-PREPARED-20261115: The remaining original reader pilot is fully prepared and independently verified; production admission retains its memory, clock and cost gates.
+
+2026-11-16T00:42:32.300269+00:00 OPS-S15-W5-HANDOVER-OBSERVATION-20261115: The chess handover is stopped at a clean boundary while full-history authentication proceeds; the reader start was refused safely after concurrent memory demand changed.
+
+2026-11-16T00:47:50.078117+00:00 OPS-S15-FULL-RUN-PREPARATION-20261115: CPU-only Gear 2 continues with preserved evidence; reader and appraisal queues are prepared, while complete chess-history authentication and live admission gates remain explicit.
