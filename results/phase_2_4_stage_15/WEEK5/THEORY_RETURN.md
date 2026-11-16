@@ -241,3 +241,13 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates. No theory standing changes. [Record](GEAR2_CHECKPOINT_CONTINUATION_20261115.md).
 
 **OPS-S15-GEAR2-SIX-QUEUES-20261115:** Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit. No theory standing changes. [Record](GEAR2_SIX_QUEUES_20261115.md).
+
+**OPS-S15-W6-TR2-B2-ARCHIVE-RUNTIME-20261115.** Instrument/operations filing in TOOLS; no scientific standing or theory prose changes. In constructed fixtures, the full original refusal-archive source and two-phase runtime pass all 76 checks; production and scientific measurement retain their separate admission requirements. Full method and limits: [TR2_B2_ARCHIVE_RUNTIME_20261115](TR2_B2_ARCHIVE_RUNTIME_20261115.md).
+
+**OPS-S15-W5-AT-QUEUE-PAUSE-20261115.** Instrument/operations filing in TOOLS; no scientific standing or theory prose changes. The original reader queue paused cleanly with its completed chunks and checkpoint authenticated; remaining pilot work is preserved for a later admitted continuation. Full method and limits: [AT_QUEUE_PAUSE_20261115](AT_QUEUE_PAUSE_20261115.md).
+
+**OPS-S15-W6-TR2-PRODUCTION-PREPARED-20261115.** Instrument/operations filing in TOOLS; no scientific standing or theory prose changes. The archive production template is authenticated and preserved as preparation; it launches no job and leaves final qualification, committed design and actual drain bindings unresolved. Full method and limits: [TR2_PRODUCTION_PREPARED_20261115](TR2_PRODUCTION_PREPARED_20261115.md).
+
+**OPS-S15-W5-FINAL-DIGEST-20261115.** Exact already-filed claim transcription and infrastructure reconciliation only. The owner reviewed the committed IN11/IN12 row and afterword additions since the prior digest; removing only those exact additions reconstructs the prior theory file, while other hashes match. No theory edits or new standing changes in this pass. [Final cutoff packet](FINAL_DIGEST_20261115.md).
+
+**OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115.** Catalog proposal disposition only; no human-data read, theory edit or scientific admission. [Review](COLLECTOR_CATALOG_DISPOSITION_20261115.md).

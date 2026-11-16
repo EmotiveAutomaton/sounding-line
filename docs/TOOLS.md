@@ -2921,6 +2921,16 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-TR2-B2-ARCHIVE-RUNTIME-20261115:** In constructed fixtures, the full original refusal-archive source and two-phase runtime pass all 76 checks; production and scientific measurement retain their separate admission requirements. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_B2_ARCHIVE_RUNTIME_20261115.md).
+
+**OPS-S15-W5-AT-QUEUE-PAUSE-20261115:** The original reader queue paused cleanly with its completed chunks and checkpoint authenticated; remaining pilot work is preserved for a later admitted continuation. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_PAUSE_20261115.md).
+
+**OPS-S15-W6-TR2-PRODUCTION-PREPARED-20261115:** The archive production template is authenticated and preserved as preparation; it launches no job and leaves final qualification, committed design and actual drain bindings unresolved. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_PRODUCTION_PREPARED_20261115.md).
+
+**OPS-S15-W5-FINAL-DIGEST-20261115:** The Week 5 final cutoff digest authenticates filed evidence and closes new starts; five original Gear 2 queues remain in the drain, with Week 6 production awaiting actual reconciliation. [Record](../results/phase_2_4_stage_15/WEEK5/FINAL_DIGEST_20261115.md).
+
+**OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115:** Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate. [Record](../results/phase_2_4_stage_15/WEEK5/COLLECTOR_CATALOG_DISPOSITION_20261115.md).
+
 **OPS-S15-GEAR2-SIX-QUEUES-20261115:** Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_SIX_QUEUES_20261115.md).
 
 **OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_CHECKPOINT_CONTINUATION_20261115.md).

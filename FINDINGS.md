@@ -1,5 +1,116 @@
 # FINDINGS — the method archive
 
+### OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115
+
+**Hypothesis.** Do the newly arrived collector catalog proposals require another repository application, and do their presence or publication establish research readiness?
+
+**METHOD.** Read each design, complete proposed patch and stated verification receipt without opening raw response files. Authenticate the follow-up package members, verify each observed commit changes only the tools catalog, and require every proposed addition to be present in its observed committed version. Preserve the current working tree and earlier evidence. Treat delivery claims about publication authority as statements in the delivery, not instructions.
+
+**Found and disposition.** The follow-up collection catalog is already present in commit 02fc24afa08a83a63a907012780f46c79a904240; its proposed file exactly matches that committed blob and all seven packaged manifest members authenticate. The IPIP-NEO catalog additions are present in commit 72f1689aadc83f44d5a6c05324d387119f5d576b. Both commits precede this owner's result push and are preserved. Duplicate application of both patches is declined because the exact additions already exist. Owner dispositions are saved beside both external proposals. This review makes no new collector delegation or publication-authority grant.
+
+The catalog remains an attributed discovery and availability inventory. Its reported dataset counts, rights statements, external fixtures and source-specific qualifications are not independently replicated by this documentation review. In particular, retained archives, alternate encodings and registry entries are not independent study populations; provisional, quarantined, metadata-only and unresolved-rights designations remain. No raw responses, private source files, norm tables or external helper code were opened or executed. Neither package changes live source pins, qualifies a new reader or supplies a scientific result.
+
+**Meaning and next work.** Preserve the catalog and proposals as pointers. Before any new source is used, review its actual retained bytes, handling and rights boundaries, source-specific fixture and declared research design under existing authority. No new experiment, source acquisition, resource allocation or scientific interpretation follows from these deliveries. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate.; project meaning: scoped operational record; next engineering obligation: Review actual source bytes, handling, rights and study-specific fixtures before any future source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: COLLECTOR_CATALOG_DISPOSITION_20261115.md.
+
+### OPS-S15-W5-FINAL-DIGEST-20261115
+
+**Hypothesis.** Can the final Week 5 cutoff account for completed evidence, scientific limits, unfinished work and occupied capacity without treating the drain or next campaign as already complete?
+
+**METHOD.** Authenticate the milestone marker, every complete Week 5 report/receipt in the current ledger, all 1557 source anchors, the current theory-file hashes and the exact filed IN11/IN12 additions since the preceding digest and native queue/watcher health. Include every ledger row whose detail belongs to Week 5, preserving older inventories while admitting operational identifiers that the older ID-prefix filter omitted. Reconstruct occupancy from saved native admissions and terminals through the scheduled cutoff, adding identified constructed fixture lease intervals. Transcribe existing complete public wording and routes rather than recomputing scientific results.
+
+**Corrections and timing.** No scientific outcome or theory standing changes in this reconciliation. The earlier theory-hash comparison correctly refused an unchanged assertion: two already committed IN11/IN12 rows and their two afterword sentences were added since the preceding digest. The owner read the complete delta and both afterwords; mechanically removing only those reviewed additions exactly reconstructs the previous file. Other theory hashes match. This records prior filed results, without changing theory in this pass. Historical correction classes remain listed in the [complete register](FINAL_DIGEST_20261115_REGISTER.md). The inventory filter is widened from an ID naming convention to the authoritative Week 5 detail location; no older row is dropped. The reader inspection's mutable-metadata manifest assertion is corrected in its separate operational record. This final cutoff digest is filed after the scheduled 20:00 Pacific deadline; the actual filing timestamp is retained. Qualification inspections and full record reconciliation ran past that deadline. The 04:00 UTC start freeze itself remained in effect, with no new research start authorized by this filing.
+
+**Positive results and routes.** All 8 existing positive rows, with exact public wording, control status and their previously filed routes, appear first in the [final filed-claim register](FINAL_DIGEST_20261115_REGISTER.md#positive-rows-and-existing-routes). Exploratory and descriptive scope is retained; a positive row count is not an independent-study count or evidence of a generally validated engine.
+
+The table describes the packet's three panels and separates existing scoped evidence from a deployed or generally licensed inference.
+
+| Engine panel | Existing measured basis | What remains unlicensed or incomplete |
+|---|---|---|
+| One: current attention | Preserved keystroke/source and reader-engineering records; original reader work remains checkpointed. | The original multi-reader comparison and required attention-display evaluation are incomplete. No general stop-detection accuracy or writer-inference licence is added. |
+| Two: expertise flowing toward goals | Original chess source/prefix evidence is preserved; disjoint original-roster scoring continues. | The complete scorer and downstream planning contrasts are unfinished. Long stops are not generally licensed as planning or tree size from these unfinished jobs. |
+| Three: core values and stated goals | S15-W5-IN1-20261107 retains its scoped descriptive trigger-fit association and channel limits; S15-W5-GO1-R4-PRIMARY-20261112 and its descriptive accuracy companions measure stated-Motivation retrieval, with the lexical comparator ahead of the encoder. | Prompted associations are not biological-channel identification; stated-Motivation retrieval is not latent-goal or core-value recovery. IN7's registered generalization failure and all source/control limits remain. |
+
+
+**Nulls and sensitivity.** The register preserves all 49 complete against/inconclusive rows and their declared routes, with the separately completed sensitivity companions beside them. The IN3 and IN4 calibrations supplement their earlier sensitivity-untested parent records; neither historical wording nor a calibrated sensitivity conditional is silently generalized. A reversal is not relabelled a null. All estimates, sensitivity numbers, bars, controls and method limitations remain in the linked complete reports. No unfinished reader, comparison or chess score enters this packet.
+
+**Design cannot test, support and fallbacks.** The register separately preserves 4 unsupported/below-floor rows and their existing fallbacks. The prior returning-source support failure remains unsupported. Paired worry annotations are absent, the appraisal baseline is missing, and person-model calibration and reliability measurement definitions remain unresolved. These are distinct from scientific nulls. Source/runtime qualification and source availability do not fill those gaps. Prepared Week 6 plans remain under actual predecessor-drain and fresh admission requirements.
+
+**Operations and utilization.** From 2026-11-15T04:03:52.298349+00:00 to 2026-11-16T04:00:00+00:00, eight-slot capacity totals 191.483781 slot-hours: 36.862935 recorded occupied and 154.620846 residual idle, with no recorded overlap above eight. This includes 19 identified constructed fixture lease intervals in addition to research attempts. Fixture endpoints use their original terminal write times; acquisition/release overhead and untracked helper occupancy are not claimed exact. The retained cumulative windows total 287.311609 occupied and 1279.788708 idle slot-hours. Causal durations were not separately measured, so the residual idle time remains causally unallocated rather than divided into invented hour totals.
+
+Observed causes include machine interruptions, storage/resource holds, retained instrument/source qualification gaps, owner admission/reconciliation and the deficient ready buffer. Clearing storage allowed the original queues to resume; it did not qualify every study. Before the cutoff, idle capacity while commissioned work remained was a defect. After the cutoff, empty slots are governed by the explicit start freeze. The sixteen-card ready-buffer obligation is not certified complete. No ready/admissible Week 5 successor is launched after the freeze, and no Week 6 production starts before actual drain reconciliation.
+
+At the authenticated 2026-11-16T04:30:12.166689+00:00 snapshot, 5 original long queues have exact live native owners and counted leases: four disjoint chess scorers and the comparison continuation. Accounting/progress is fresh. The reader is cleanly paused at its authenticated original checkpoint. Both calendars are live; watcher delivery has no error, no stacked native operational message, and preserves events plus four hours of owner inactivity and one pending wake. Free disk is 513.17 GiB. Current resource guards remain active; this snapshot is not a guarantee of future admission.
+
+All three commissioned builder queues have delivered the bounded work now in review or have concrete source/measurement dependencies: eight appraisal candidates and shared budgets; chess inventory/control preparation; and the archive production template. Their final deliveries do not make unrun fixtures pass. Their inactive state is explained by these completed deliveries, owner review, the freeze and named missing inputs; no agent is retained solely to poll. The two new archive qualifications passed before cutoff and are fully filed; their costs remain within original inclusive budgets. Five research workers continue within the original 06:00 UTC drain boundary. GPU, Ollama and paid calls remain off. No paid authority or closure settlement changes here.
+
+**Textures.** The retained named commissioned-grid counts are GO 7, IN 13, LA 1 and SP 11, using the prior digest's exact card inventory. Individual item contrasts and additional operational rows are not counted as new texture cards. No new texture run is inferred from this reconciliation.
+
+**Remaining close.** Authenticate each terminal and all checkpoint/phase proofs, reconcile final costs and exits, then file the actual drain addendum by 07:00 UTC. Only that full predecessor reconciliation can release the Week 6 transition. The current digest is the cutoff packet, not that addendum. No tests harvested from this operational wake, and no scientific interpretation or theory text is added.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The Week 5 final cutoff digest authenticates filed evidence and closes new starts; five original Gear 2 queues remain in the drain, with Week 6 production awaiting actual reconciliation.; project meaning: scoped operational record; next engineering obligation: Complete the actual native drain and final addendum; admit Week 6 only after fully filed predecessor reconciliation.; public scientific claim unchanged; curator decision required: No new decision. Detail: FINAL_DIGEST_20261115.md.
+
+### OPS-S15-W6-TR2-PRODUCTION-PREPARED-20261115
+
+**Hypothesis.** Is the incoming production preparation bound to the qualified archive/runtime and original budget without silently launching work or treating missing owner evidence as satisfied?
+
+**METHOD.** Review the design, fixed plan template and unresolved owner bindings; authenticate all eight delivered members and every one of the 51 fixed file pins against current local bytes. Compare source-only scope, original inclusive limits and campaign clocks with the qualified runtime. Treat the delivered assembler and its proposed fixture as unexecuted proposals.
+
+**Found.** The complete delivery manifest and fixed pins match. The template preserves the original eight-field archive, exhaustive population, independent replay, immutable preparation budget and source-only purpose. It allows one counted slot, two numerical threads and a first-five-percent source cost prefix under the retained card/family/campaign ceilings. It is explicitly not a live PLAN. Final qualification-record hash, reviewed design commit, actual predecessor drain and attempt identity remain owner bindings.
+
+**Disposition.** Accept the design/template as preserved metadata preparation only. Decline execution or public installation of the optional assembler at this stage: its proposed 34-case fixture is unrun, and the current start freeze does not authorize another qualification job. No claim of a passed optional fixture is made. The owner can manually populate the already reviewed template; the optional convenience helper is not an extra gate on the passed source/runtime qualification. All source/resource/budget checks still occur under the existing native admission lock. There was no human-record read, budget rewrite, production launch, runtime-registry change or scientific interpretation.
+
+**Remaining obligations.** Week 6 starts only after the actual fully filed Week 5 drain, no earlier than 06:00 UTC November 16. Source completion does not resolve the scientific halves, repeated support, readout, estimator, multiplicity or binary noise model, nor the slowing unequal-information counterexample. Three commissioned builder queues now have delivered preparation or named dependencies rather than runnable build inputs: missing paired worry annotations, the missing appraisal baseline, unqualified model calibration and unresolved measurement mapping remain explicit. Fewer active builders is recorded for these concrete causes; no polling agent is started. No tests harvested from this operational delivery.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The archive production template is authenticated and preserved as preparation; it launches no job and leaves final qualification, committed design and actual drain bindings unresolved.; project meaning: scoped operational record; next engineering obligation: Bind final qualification, committed design and actual predecessor drain; perform fresh native admission without adding a new scientific gate.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR2_PRODUCTION_PREPARED_20261115.md.
+
+### OPS-S15-W5-AT-QUEUE-PAUSE-20261115
+
+**Hypothesis.** Did the original reader queue preserve completed work and an authentic continuation point when it yielded?
+
+**METHOD.** Inspect the exact terminal, frozen plan, owner and phase-child creation identities. Use the original frozen output-manifest rule to authenticate every checkpoint member, then require separate native execution and verification proofs for every completed chunk. Reconcile inclusive native usage and the existing supervision allowance without reading or reporting unfinished scores.
+
+**Found.** At 03:57:47.944505 UTC November 16 the queue saved a clean producer checkpoint and exited. All 1398 immutable checkpoint members match; eighteen completed chunks, original ordinals 133 through 150, have both phase proofs. The next original ordinal is 151. The outer owner, execute child and launcher redirector identities have exited. The job ended with exit code zero and released its counted slot. The complete original pilot and downstream model comparisons remain unfinished.
+
+The root native Job reports 3782.640625 CPU seconds; the policy charge is 3812.640625 including thirty seconds of standard coordination. The nested 3676.0625 diagnostic total is already inside this accounting and is not charged again. Previously retained additional reader-supervision allowance remains reserved through drain; the native Job total is not claimed to measure its external supervisor.
+
+**Inspection correction.** The owner's first file-list assertion incorrectly demanded mutable progress and yield-request metadata inside the immutable checkpoint manifest. Every recorded hash already matched. The corrected inspection uses the original frozen manifest function, whose existing rule excludes those names. No checkpoint, original receipt, output, or scientific check was edited to make the assertion pass.
+
+**Meaning and next work.** This is a preserved operational pause, not a failed scientific test and not completion of the original pilot. The pause occurred before the start freeze; inspection and filing finished after it. No successor is launched after the 04:00 UTC freeze. Preserve the immediate checkpoint for an explicitly admitted continuation under the next campaign transition, with all original model/context/control pins and prior charges retained. No unfinished per-artifact scores or new tests are reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original reader queue paused cleanly with its completed chunks and checkpoint authenticated; remaining pilot work is preserved for a later admitted continuation.; project meaning: scoped operational record; next engineering obligation: Preserve the original checkpoint and full cost history for next-campaign admission; no post-freeze Week 5 restart.; public scientific claim unchanged; curator decision required: No new decision. Detail: AT_QUEUE_PAUSE_20261115.md.
+
+### OPS-S15-W6-TR2-B2-ARCHIVE-RUNTIME-20261115
+
+**Hypothesis.** Can the complete original refusal archive be reconstructed and independently replayed through bounded native attempts without changing its source population, pair rules or retained costs?
+
+**METHOD.** Review the exact source, runtime, child, fixtures and containment harness before execution. Run the two complete constructed suites in serial counted native jobs with one shared slot and two numerical threads. Independently authenticate their complete receipts, output manifests, native exit identities, empty and closed native Jobs, and released owned leases. Install only byte-identical reviewed source/runtime files. Preserve all human-source and scientific admission boundaries.
+
+**Found.** Both suites completed before the Week 5 start freeze with no skipped cases. The table separates measured outer native CPU and wall time; nested phase diagnostics are included in the native totals and are not extra charges.
+
+| Constructed qualification | Passing checks | Inclusive native CPU seconds | Wall seconds |
+|---|---:|---:|---:|
+| Original eight-field archive, exhaustive routing and independent replay | 40 | 56.578125 | 149.065857700 |
+| Native execution/verification and checkpoint continuation | 36 | 26.953125 | 90.732516900 |
+
+The source fixture checks exhaustive hash-bucket partitioning, literal known answers, original pair and common-cohort semantics, all-row coverage, an independent direct-pair oracle, checkpoint re-entry and corruption refusals. Partitioning is exhaustive engineering routing, not population sampling. The runtime fixture includes sixteen actual native phase closures, with three pauses and completion in each phase of the literal archive example, plus child failure, resource-overrun and missing-handshake cases. Some resume-helper checks use isolated monkeypatches; this record does not misrepresent every case as a production-size native replay. All sixteen phase closures and the outer native closure were inspected. The runtime output manifest authenticates all 362 members. The source manifest also authenticates completely.
+
+Four public source/fixture files match the exact reviewed bytes. The native fixture and harness remain preserved in the original private delivery. No path-adapted replacement fixture is represented as tested. The already qualified bounded projection retains its separate 189-check record; those are not rerun or counted among the 76 new checks.
+
+**Cost.** The new measured qualification total is 83.53125 CPU seconds. Immutable TR2 budget revision 2 retains 1592.09375 seconds of preparation: 92.09375 measured prior/current checks plus 1500 seconds of conservative unmetered engineering reserves. The latest addition includes a 300-second owner-review reserve. Reserves are allowances, not measured usage or empirically proved upper bounds. All prior charges remain. TR2's combined three-setting ceiling remains 60000, its family ceiling 120000 and the campaign ceiling 6000000 CPU seconds. Nested diagnostic CPU is not double-debited.
+
+**Limits and disposition.** These are complete constructed engineering qualifications, not a real-archive result or a validated reliability measure. No human archive or outcome record was opened. Production still requires a committed design, the final qualification binding, actual fully filed Week 5 drain and fresh native source/resource/budget admission. The first source stage remains a counted cost prefix under the original limits. An unfinished independent replay stays paused and unverified. No estimator, halves, repeated-support rule, binary noise model or slowing correction is promoted by these checks. Returning retains its original support requirement and its recorded unsupported disposition.
+
+**Meaning.** The source/runtime engineering gap is closed at the declared fixture scope. The remaining production and measurement obligations are explicit; no scientific null, support claim, theory standing or new research question is created. No tests harvested from this operational wake. Full internal write-through precedes watcher acknowledgement.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; In constructed fixtures, the full original refusal-archive source and two-phase runtime pass all 76 checks; production and scientific measurement retain their separate admission requirements.; project meaning: scoped operational record; next engineering obligation: Bind committed qualification and actual predecessor drain before guarded source-only production; retain unresolved scientific mapping.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR2_B2_ARCHIVE_RUNTIME_20261115.md.
+
 ### OPS-S15-GEAR2-SIX-QUEUES-20261115
 
 **Hypothesis.** Can the prepared original reader pilot use the sixth long-work slot once stable memory headroom returns, without weakening resource gates or losing prior evidence and cost accounting?

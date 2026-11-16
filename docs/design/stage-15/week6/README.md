@@ -1,5 +1,16 @@
 # Stage 15 Week 6
 
+**Current boundary:** Week 5 new starts are frozen and its existing queues are
+draining. Week 6 production requires the actual fully filed predecessor drain
+and fresh native admission; prepared files and elapsed time do not release it.
+
+The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
+[two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
+checks at the installed code hashes. The [qualification record](../../../../results/phase_2_4_stage_15/WEEK5/TR2_B2_ARCHIVE_RUNTIME_20261115.md)
+preserves native proof, inclusive costs and unresolved scientific mapping.
+The [production template review](../../../../results/phase_2_4_stage_15/WEEK5/TR2_PRODUCTION_PREPARED_20261115.md)
+is preparation only; its optional assembler fixture remains unrun.
+
 The curator authorized careful viability review and implementation on November 15,
 2026, with CPU-only Gear 2. The [supplied packet](PACKET.md) is preserved verbatim.
 It carries the Week 5 designs forward and puts EX5, then the appraisal-table
@@ -19,8 +30,8 @@ fixture, cost and runtime boundary before a human outcome run.
 The [execution addendum](EXECUTION_ADDENDUM.md) records the curator-approved
 clock, budgets and primary/reference population distinction.
 Existing Week 5 plans retain their original clocks, pins, accounting and drain.
-No live runtime is edited. The original chess scorer can continue, and EX5's
-existing Week 5 authorization remains available for review and admission.
+No live runtime is edited. Existing original chess queues can drain; all
+remaining Week 5 starts are subject to its current freeze and closing schedule.
 
 Raw sources and individual records stay in ignored storage. Only the explicitly
 authorized local export destinations may receive their declared payloads.

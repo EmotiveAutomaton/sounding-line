@@ -1,5 +1,15 @@
 # Week 5 verified records
 
+**OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115:** [Record](COLLECTOR_CATALOG_DISPOSITION_20261115.md). Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate.
+
+**OPS-S15-W5-FINAL-DIGEST-20261115:** [Record](FINAL_DIGEST_20261115.md). The Week 5 final cutoff digest authenticates filed evidence and closes new starts; five original Gear 2 queues remain in the drain, with Week 6 production awaiting actual reconciliation.
+
+**OPS-S15-W6-TR2-PRODUCTION-PREPARED-20261115:** [Record](TR2_PRODUCTION_PREPARED_20261115.md). The archive production template is authenticated and preserved as preparation; it launches no job and leaves final qualification, committed design and actual drain bindings unresolved.
+
+**OPS-S15-W5-AT-QUEUE-PAUSE-20261115:** [Record](AT_QUEUE_PAUSE_20261115.md). The original reader queue paused cleanly with its completed chunks and checkpoint authenticated; remaining pilot work is preserved for a later admitted continuation.
+
+**OPS-S15-W6-TR2-B2-ARCHIVE-RUNTIME-20261115:** [Record](TR2_B2_ARCHIVE_RUNTIME_20261115.md). In constructed fixtures, the full original refusal-archive source and two-phase runtime pass all 76 checks; production and scientific measurement retain their separate admission requirements.
+
 **OPS-S15-GEAR2-SIX-QUEUES-20261115:** [Record](GEAR2_SIX_QUEUES_20261115.md). Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit.
 
 **OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115:** [Record](GEAR2_CHECKPOINT_CONTINUATION_20261115.md). Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates.

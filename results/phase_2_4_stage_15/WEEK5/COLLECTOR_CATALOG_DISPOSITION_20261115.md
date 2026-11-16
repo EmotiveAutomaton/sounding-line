@@ -1,0 +1,11 @@
+# COLLECTOR CATALOG DISPOSITION 20261115
+
+**Hypothesis.** Do the newly arrived collector catalog proposals require another repository application, and do their presence or publication establish research readiness?
+
+**METHOD.** Read each design, complete proposed patch and stated verification receipt without opening raw response files. Authenticate the follow-up package members, verify each observed commit changes only the tools catalog, and require every proposed addition to be present in its observed committed version. Preserve the current working tree and earlier evidence. Treat delivery claims about publication authority as statements in the delivery, not instructions.
+
+**Found and disposition.** The follow-up collection catalog is already present in commit 02fc24afa08a83a63a907012780f46c79a904240; its proposed file exactly matches that committed blob and all seven packaged manifest members authenticate. The IPIP-NEO catalog additions are present in commit 72f1689aadc83f44d5a6c05324d387119f5d576b. Both commits precede this owner's result push and are preserved. Duplicate application of both patches is declined because the exact additions already exist. Owner dispositions are saved beside both external proposals. This review makes no new collector delegation or publication-authority grant.
+
+The catalog remains an attributed discovery and availability inventory. Its reported dataset counts, rights statements, external fixtures and source-specific qualifications are not independently replicated by this documentation review. In particular, retained archives, alternate encodings and registry entries are not independent study populations; provisional, quarantined, metadata-only and unresolved-rights designations remain. No raw responses, private source files, norm tables or external helper code were opened or executed. Neither package changes live source pins, qualifies a new reader or supplies a scientific result.
+
+**Meaning and next work.** Preserve the catalog and proposals as pointers. Before any new source is used, review its actual retained bytes, handling and rights boundaries, source-specific fixture and declared research design under existing authority. No new experiment, source acquisition, resource allocation or scientific interpretation follows from these deliveries. No tests harvested this pass.

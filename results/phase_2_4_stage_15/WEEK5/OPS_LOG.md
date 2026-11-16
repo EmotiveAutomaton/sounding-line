@@ -1625,3 +1625,13 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T02:45:46.646237+00:00 OPS-S15-GEAR2-CHECKPOINT-CONTINUATION-20261115: Five original research workers are active in CPU-only Gear 2 after a clean comparison-checkpoint continuation; reader admission and unfinished source qualification retain their original gates.
 
 2026-11-16T03:04:38.154193+00:00 OPS-S15-GEAR2-SIX-QUEUES-20261115: Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit.
+
+2026-11-16T04:34:09.758333+00:00 OPS-S15-W6-TR2-B2-ARCHIVE-RUNTIME-20261115: In constructed fixtures, the full original refusal-archive source and two-phase runtime pass all 76 checks; production and scientific measurement retain their separate admission requirements.
+
+2026-11-16T04:34:54.348095+00:00 OPS-S15-W5-AT-QUEUE-PAUSE-20261115: The original reader queue paused cleanly with its completed chunks and checkpoint authenticated; remaining pilot work is preserved for a later admitted continuation.
+
+2026-11-16T04:35:42.108445+00:00 OPS-S15-W6-TR2-PRODUCTION-PREPARED-20261115: The archive production template is authenticated and preserved as preparation; it launches no job and leaves final qualification, committed design and actual drain bindings unresolved.
+
+2026-11-16T04:48:37.695320+00:00 OPS-S15-W5-FINAL-DIGEST-20261115: The Week 5 final cutoff digest authenticates filed evidence and closes new starts; five original Gear 2 queues remain in the drain, with Week 6 production awaiting actual reconciliation.
+
+2026-11-16T04:54:31.536886+00:00 OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115: Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate.
