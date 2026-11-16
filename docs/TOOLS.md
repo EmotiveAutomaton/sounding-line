@@ -2693,6 +2693,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-CH-FULL-PREFIX-20261115:** The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission. [Record](../results/phase_2_4_stage_15/WEEK5/CH_FULL_PREFIX_20261115.md).
+
+**OPS-S15-W5-CH-RANGES-ACTIVE-20261115:** Four disjoint original-roster chess scoring queues are active alongside the comparison continuation in CPU-only Gear 2, after complete preserved-prefix authentication. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RANGES_ACTIVE_20261115.md).
+
 **OPS-S15-W5-CH-IO-CONTROLS-20261115:** All 49 focused controls pass for the additive chess metadata audit optimization; the full preserved human prefix remains unqualified until actual authentication completes. [Record](../results/phase_2_4_stage_15/WEEK5/CH_IO_CONTROLS_20261115.md).
 
 **OPS-S15-W5-CH-IO-NATIVE-20261115:** The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate. [Record](../results/phase_2_4_stage_15/WEEK5/CH_IO_NATIVE_20261115.md).

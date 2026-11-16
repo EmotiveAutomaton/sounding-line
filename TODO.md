@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-CH-RANGES-ACTIVE-20261115: Four disjoint original-roster chess scoring queues are active alongside the comparison continuation in CPU-only Gear 2, after complete preserved-prefix authentication.
+
+- [x] OPS-S15-W5-CH-FULL-PREFIX-20261115: The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission.
+
 - [x] OPS-S15-FULL-RUN-ACTIVE-20261115: CPU-only Gear 2 has a live comparison continuation and full chess evidence audit; prepared reader work remains memory-held and Week 6 retains its actual predecessor-drain gate.
 
 - [x] OPS-S15-W5-CH-IO-NATIVE-20261115: The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate.
@@ -50,7 +54,7 @@
 - [x] OPS-S15-W6-BUILD-READINESS-20261115: All three commissioned builder handoffs have current verified bytes and committed designs; production admission and source-specific gates remain explicit.
 
 - [x] OPS-S15-W5-LEGACY-POLICY-MIGRATION-20261115: Exact archived policy compatibility and historical-exit qualification pass; comparison continuation and original reader128 are admitted. See OPS-S15-W5-STORAGE-RECOVERY-20261115.
-- [ ] OPS-S15-W5-CH-PREFIX-ASSEMBLY-20261115: Include the authenticated 292-unit prefix from failed queue3 in the eventual source-coverage assembly, without inventing a whole-queue completion.
+- [x] OPS-S15-W5-CH-PREFIX-ASSEMBLY-20261115: The retained failed-queue prefix is included in complete original-history authentication; its original FAILED disposition is preserved (OPS-S15-W5-CH-FULL-PREFIX-20261115).
 
 - [x] OPS-S15-W5-REBOOT-RECOVERY-20261115: Original-roster chess scoring, campaign calendars and event delivery are restored in CPU-only Gear 2; two older studies remain held by a preserved policy-pin mismatch.
 

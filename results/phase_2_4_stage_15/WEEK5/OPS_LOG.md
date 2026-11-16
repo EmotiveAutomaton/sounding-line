@@ -1613,3 +1613,7 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-16T01:12:18.633902+00:00 OPS-S15-W5-CH-IO-NATIVE-20261115: The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate.
 
 2026-11-16T01:23:01.528737+00:00 OPS-S15-FULL-RUN-ACTIVE-20261115: CPU-only Gear 2 has a live comparison continuation and full chess evidence audit; prepared reader work remains memory-held and Week 6 retains its actual predecessor-drain gate.
+
+2026-11-16T01:27:50.609600+00:00 OPS-S15-W5-CH-FULL-PREFIX-20261115: The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission.
+
+2026-11-16T01:35:37.256085+00:00 OPS-S15-W5-CH-RANGES-ACTIVE-20261115: Four disjoint original-roster chess scoring queues are active alongside the comparison continuation in CPU-only Gear 2, after complete preserved-prefix authentication.

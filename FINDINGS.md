@@ -1,5 +1,37 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-CH-RANGES-ACTIVE-20261115
+
+**Hypothesis.** Can the authenticated remainder of the original chess roster run concurrently without duplicated positions, lost prior evidence or exceeded shared limits?
+
+**METHOD.** Bind the completed full-prefix proof and clean predecessor retirement to one immutable four-range manifest. Review the original qualified design and all prospective plans, reserve one attempt chain per range, and use the ordinary monitored launcher sequentially. Recheck shared leases, actual external identities, memory, true campaign/family ceilings and original freeze/drain before each admission. Require an exact native owner, counted lease, independent execution identity and fresh accounting progress for every launched range.
+
+**Found.** All four queues are admitted and alive. Their end-exclusive original ordinal intervals are [128448,195904), [195904,263296), [263296,330688) and [330688,398065). These cover the unprocessed remainder exactly once and meet the fully authenticated prefix without a gap or overlap. Each retains the original source hash, Stockfish executable, one-million-node setting, complete-unit checkpoints, separate native replay and two numerical threads. No rows were resampled or reordered. Each has a 100000-CPU-second attempt ceiling; its wall duration is clipped to the original drain. Actual scoring has started, but no complete collection or scientific result is claimed.
+
+The comparison continuation remains live. Five Sounding Line filler workers now run; the separately inspected external reader occupies the sixth filler slot. The two short-work slots remain available under the eight-slot shared limit. The remaining original reader pilot is prepared but still requires both resource headroom and a filler vacancy. New range supervision retains 129312 conservative CPU seconds once through drain; the reviewed prospective reader reserve remains separate. These are unspent upper bounds, not extra measurements or duplicate additions to actual child CPU. All actual preflight campaign and family bounds pass; the explicit supervisor reconciliation remains due at drain.
+
+The full-history audit's 493.1875-second inclusive charge, constructed qualifications, earlier unsuccessful audits and original complete/failed/paused attempts are fully filed and retained. Prior artifacts remain in place. Completion, pause, failure and native disappearance monitoring is registered for every new worker. The exact launch index and chain reservations permit safe recovery without blindly restarting any existing root.
+
+**Meaning.** Eligible original-roster work is now running across the allowed filler capacity. The final union still requires every range, native replay and complete coverage before scientific analysis. Other source, annotation and scientific control holds remain explicit, and the sixteen-card ready buffer is not declared complete. Prepared Week 6 plans retain their actual fully filed predecessor-drain gate. GPU, Ollama and paid work remain off. Events plus four hours of owner inactivity and one pending wake are unchanged. No tests harvested this operational pass; no unfinished scientific scores reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four disjoint original-roster chess scoring queues are active alongside the comparison continuation in CPU-only Gear 2, after complete preserved-prefix authentication.; project meaning: scoped operational record; next engineering obligation: Collect every complete range and native replay, reconcile supervision and actual drain, then admit eligible Week 6 production.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_RANGES_ACTIVE_20261115.md.
+
+### OPS-S15-W5-CH-FULL-PREFIX-20261115
+
+**Hypothesis.** Can all preserved chess scoring evidence be authenticated after interruptions so that independent continuations cover only the unprocessed original positions?
+
+**METHOD.** Reread the complete file inventories and every sealed unit from all four original prefix intervals in a counted native Windows Job. Validate unchanged original plans, source and engine pins, unit coverage and independent replay, terminal dispositions, native exits and corroborated historical-exit evidence. Require contiguous coverage to the clean pause and no active partial unit before constructing the handover proof.
+
+**Found.** Complete prefix authentication passes through ordinal 128448, across the four preserved intervals. Original complete, failed and paused attempts retain their original dispositions and hashes. The clean predecessor has no active unit. Every selected sealed unit and its evidence is validated; this is not a filename-only or spot-check audit. The full original population is still unfinished. This metadata audit starts no chess engine and makes no scientific inference.
+
+The contained Job uses 463.1875 CPU seconds and exits with zero active descendants. Its supervisor uses 8.765625 measured seconds; the inclusive retained supervisor charge is 30.0. Total new charge is 493.1875 CPU seconds, carried once within the existing maintenance reservation. Actual enclosing owner and recorded child exits and release of the exact lease are independently verified. Earlier unsuccessful audits and all original scoring charges remain separately recorded without duplication.
+
+**Meaning.** The authenticated boundary permits the four prepared disjoint original-roster intervals to enter normal resource, family/campaign, native qualification and closure admission. It does not establish a completed collection or scientific result. Original source population, engine, one-million-node setting, unit replay and numerical threads remain unchanged. No tests harvested this pass and no unfinished scientific scores reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission.; project meaning: scoped operational record; next engineering obligation: Admit the four fixed disjoint ranges under original resource, cost, freeze and drain gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_FULL_PREFIX_20261115.md.
+
 ### OPS-S15-FULL-RUN-ACTIVE-20261115
 
 **Hypothesis.** Does the cleared storage gate permit further authorized execution while preserving complete evidence and independent resource admission?

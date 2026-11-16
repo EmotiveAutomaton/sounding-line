@@ -1,5 +1,9 @@
 # Week 5 verified records
 
+**OPS-S15-W5-CH-RANGES-ACTIVE-20261115:** [Record](CH_RANGES_ACTIVE_20261115.md). Four disjoint original-roster chess scoring queues are active alongside the comparison continuation in CPU-only Gear 2, after complete preserved-prefix authentication.
+
+**OPS-S15-W5-CH-FULL-PREFIX-20261115:** [Record](CH_FULL_PREFIX_20261115.md). The complete preserved chess prefix is authenticated through its clean pause, with original evidence and charges retained; disjoint original-roster scoring is eligible for guarded admission.
+
 **OPS-S15-FULL-RUN-ACTIVE-20261115:** [Record](FULL_RUN_ACTIVE_20261115.md). CPU-only Gear 2 has a live comparison continuation and full chess evidence audit; prepared reader work remains memory-held and Week 6 retains its actual predecessor-drain gate.
 
 **OPS-S15-W5-CH-IO-NATIVE-20261115:** [Record](CH_IO_NATIVE_20261115.md). The additive chess collector authenticates the complete preserved constructed native rehearsal; full human-prefix authentication remains the next gate.
