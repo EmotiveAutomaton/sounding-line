@@ -2950,6 +2950,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117:** The recency-study cost checkpoint authenticates, and its separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; final inference and independent replay remain due. [Record](../results/phase_2_4_stage_15/WEEK5/KP3_CHECKPOINT_FULL_LAUNCH_20261117.md).
+
+**S15-W6-KP2-COMPLETE-20261117:** The session-held-out comparison detects no winner between own and matched-donor history at these history sizes; sensitivity to small advantages remains untested. [Record](../results/phase_2_4_stage_15/WEEK5/KP2_COMPLETE_20261117.md).
+
 **OPS-S15-W6-KP2-CHECKPOINT-FULL-LAUNCH-20261117:** The saved prediction-comparison checkpoint authenticates, and a separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; complete inference and fresh replay remain due. [Record](../results/phase_2_4_stage_15/WEEK5/KP2_CHECKPOINT_FULL_LAUNCH_20261117.md).
 
 **OPS-S15-W6-KP1-PREFIX-COST-KP2-LAUNCH-20261117:** The pause-study checkpoint authenticates, but its unchanged full continuation is cost-held; the independently qualified own-history prediction comparison is progressing in CPU-only Gear 2 under the same shared allowance. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_PREFIX_COST_KP2_LAUNCH_20261117.md).

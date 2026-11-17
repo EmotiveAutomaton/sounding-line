@@ -1725,3 +1725,7 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-17T11:36:58.341591+00:00 OPS-S15-W6-KP1-PREFIX-COST-KP2-LAUNCH-20261117: The pause-study checkpoint authenticates, but its unchanged full continuation is cost-held; the independently qualified own-history prediction comparison is progressing in CPU-only Gear 2 under the same shared allowance.
 
 2026-11-17T12:04:41.129211+00:00 OPS-S15-W6-KP2-CHECKPOINT-FULL-LAUNCH-20261117: The saved prediction-comparison checkpoint authenticates, and a separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; complete inference and fresh replay remain due.
+
+2026-11-17T12:33:04.177482+00:00 S15-W6-KP2-COMPLETE-20261117: The session-held-out comparison detects no winner between own and matched-donor history at these history sizes; sensitivity to small advantages remains untested.
+
+2026-11-17T12:41:01.810354+00:00 OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117: The recency-study cost checkpoint authenticates, and its separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; final inference and independent replay remain due.

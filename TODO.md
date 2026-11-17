@@ -1,5 +1,11 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117: The recency-study cost checkpoint authenticates, and its separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; final inference and independent replay remain due.
+
+- [ ] KP2.ic: registered instrument-sensitivity follow-up to S15-W6-KP2-COMPLETE-20261117 under amendment C. Freeze the source-geometry calibration grid and known-answer fixtures before execution; preserve parent comparison/cluster structure. Cap at most 10000 CPU seconds and the unchanged remaining KP family room; no execution or scientific admission yet.
+
+- [x] S15-W6-KP2-COMPLETE-20261117: The session-held-out comparison detects no winner between own and matched-donor history at these history sizes; sensitivity to small advantages remains untested.
+
 - [x] OPS-S15-W6-KP2-CHECKPOINT-FULL-LAUNCH-20261117: The saved prediction-comparison checkpoint authenticates, and a separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; complete inference and fresh replay remain due.
 
 - [x] OPS-S15-W6-KP1-PREFIX-COST-KP2-LAUNCH-20261117: The pause-study checkpoint authenticates, but its unchanged full continuation is cost-held; the independently qualified own-history prediction comparison is progressing in CPU-only Gear 2 under the same shared allowance.
@@ -26,7 +32,7 @@
 
 - [x] KP original-source successor: complete authenticated projection and fresh replay are verified and filed. See OPS-S15-W6-KP-SOURCE-COMPLETE-20261117.
 
-- [ ] KP scientific prefixes: KP1 first100 is authenticated and cost-held at full scope; review an exact cheaper implementation or a separately frozen whole-writer route with support/cost proof. KP2 retains its authenticated 200-draw prefix and is running a separately frozen full execution with unchanged scientific design. Require exact prefix equivalence, all 2000 draws and complete fresh replay before admission. KP3 retains separate budget and admission requirements. No partial scientific scores. See OPS-S15-W6-KP2-CHECKPOINT-FULL-LAUNCH-20261117.
+- [ ] KP scientific prefixes: KP2 is complete and internally filed; its registered sensitivity check is not admitted. KP3 first100 is authenticated and filed, and a separately frozen full execution is running with unchanged model and inputs; verify all2000 draws, exact first100 equivalence and complete fresh replay before inference. KP1 remains cost-held and KP1b source-held. See S15-W6-KP2-COMPLETE-20261117 and OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117.
 
 - [x] OPS-S15-W6-CANDOR-COMPLETE-KP-QUALIFIED-20261117: CANDOR Raw and Tabular collection are complete; the exact archived-evidence repair passes all 21 constructed checks with retained costs reconciled, allowing separately reviewed source preparation to resume.
 
