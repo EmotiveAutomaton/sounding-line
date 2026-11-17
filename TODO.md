@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-KP1-PREFIX-COST-KP2-LAUNCH-20261117: The pause-study checkpoint authenticates, but its unchanged full continuation is cost-held; the independently qualified own-history prediction comparison is progressing in CPU-only Gear 2 under the same shared allowance.
+
 - [x] OPS-S15-W6-KP1-PREFIX-LAUNCH-20261117: The companion job exited naturally, ordinary admission passed, and the first registered pause-study quantum is progressing in a counted CPU-only Gear 2 slot; full inference and independent replay remain unfinished.
 
 - [x] OPS-S15-W6-KP1-COMPANION-ADMISSION-HOLD-20261117: The source and full replay are verified and the first pause-study quantum is prepared, but new research admission is held by a live companion job using the older shared-lease protocol; its exit is monitored without stopping it.
@@ -22,7 +24,7 @@
 
 - [x] KP original-source successor: complete authenticated projection and fresh replay are verified and filed. See OPS-S15-W6-KP-SOURCE-COMPLETE-20261117.
 
-- [ ] KP scientific prefixes: KP1 first 100-draw quantum is admitted and running; authenticate its clean checkpoint, reconcile costs and forecast complete inference and replay before continuation. KP2/KP3 retain separate budget and guarded-admission requirements. No partial scientific scores. See OPS-S15-W6-KP1-PREFIX-LAUNCH-20261117.
+- [ ] KP scientific prefixes: KP1 first100 is fully authenticated and cost-held at full scope; review an exact cheaper implementation or a separately frozen whole-writer route with support/cost proof. KP2 first100 is fully authenticated, its full projection fits and the unchanged continuation is running. Retain repeated held-out fitting, all remaining draws and full replay. KP3 retains separate budget and admission requirements. No partial scientific scores. See OPS-S15-W6-KP1-PREFIX-COST-KP2-LAUNCH-20261117.
 
 - [x] OPS-S15-W6-CANDOR-COMPLETE-KP-QUALIFIED-20261117: CANDOR Raw and Tabular collection are complete; the exact archived-evidence repair passes all 21 constructed checks with retained costs reconciled, allowing separately reviewed source preparation to resume.
 

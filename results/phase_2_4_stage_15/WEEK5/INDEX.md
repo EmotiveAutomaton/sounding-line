@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-KP1-PREFIX-COST-KP2-LAUNCH-20261117:** [Record](KP1_PREFIX_COST_KP2_LAUNCH_20261117.md). The pause-study checkpoint authenticates, but its unchanged full continuation is cost-held; the independently qualified own-history prediction comparison is progressing in CPU-only Gear 2 under the same shared allowance.
+
 **OPS-S15-W6-KP1-PREFIX-LAUNCH-20261117:** [Record](KP1_PREFIX_LAUNCH_20261117.md). The companion job exited naturally, ordinary admission passed, and the first registered pause-study quantum is progressing in a counted CPU-only Gear 2 slot; full inference and independent replay remain unfinished.
 
 **OPS-S15-W6-KP1-COMPANION-ADMISSION-HOLD-20261117:** [Record](KP1_COMPANION_ADMISSION_HOLD_20261117.md). The source and full replay are verified and the first pause-study quantum is prepared, but new research admission is held by a live companion job using the older shared-lease protocol; its exit is monitored without stopping it.

@@ -1721,3 +1721,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-17T10:35:54.423734+00:00 OPS-S15-W6-KP1-COMPANION-ADMISSION-HOLD-20261117: The source and full replay are verified and the first pause-study quantum is prepared, but new research admission is held by a live companion job using the older shared-lease protocol; its exit is monitored without stopping it.
 
 2026-11-17T11:00:09.084666+00:00 OPS-S15-W6-KP1-PREFIX-LAUNCH-20261117: The companion job exited naturally, ordinary admission passed, and the first registered pause-study quantum is progressing in a counted CPU-only Gear 2 slot; full inference and independent replay remain unfinished.
+
+2026-11-17T11:36:58.341591+00:00 OPS-S15-W6-KP1-PREFIX-COST-KP2-LAUNCH-20261117: The pause-study checkpoint authenticates, but its unchanged full continuation is cost-held; the independently qualified own-history prediction comparison is progressing in CPU-only Gear 2 under the same shared allowance.
