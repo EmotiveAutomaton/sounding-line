@@ -2950,6 +2950,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-KP1-PREFIX-LAUNCH-20261117:** The companion job exited naturally, ordinary admission passed, and the first registered pause-study quantum is progressing in a counted CPU-only Gear 2 slot; full inference and independent replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_PREFIX_LAUNCH_20261117.md).
+
 **OPS-S15-W6-KP1-COMPANION-ADMISSION-HOLD-20261117:** The source and full replay are verified and the first pause-study quantum is prepared, but new research admission is held by a live companion job using the older shared-lease protocol; its exit is monitored without stopping it. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_COMPANION_ADMISSION_HOLD_20261117.md).
 
 **OPS-S15-W6-KP-SOURCE-COMPLETE-20261117:** The complete original-source projection and its fresh independent replay match exactly; native closure, source pins and retained costs verify, allowing separate review of the registered scientific prefixes. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_COMPLETE_20261117.md).

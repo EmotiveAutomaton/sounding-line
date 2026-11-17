@@ -1719,3 +1719,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-17T10:16:56.004710+00:00 OPS-S15-W6-KP-SOURCE-COMPLETE-20261117: The complete original-source projection and its fresh independent replay match exactly; native closure, source pins and retained costs verify, allowing separate review of the registered scientific prefixes.
 
 2026-11-17T10:35:54.423734+00:00 OPS-S15-W6-KP1-COMPANION-ADMISSION-HOLD-20261117: The source and full replay are verified and the first pause-study quantum is prepared, but new research admission is held by a live companion job using the older shared-lease protocol; its exit is monitored without stopping it.
+
+2026-11-17T11:00:09.084666+00:00 OPS-S15-W6-KP1-PREFIX-LAUNCH-20261117: The companion job exited naturally, ordinary admission passed, and the first registered pause-study quantum is progressing in a counted CPU-only Gear 2 slot; full inference and independent replay remain unfinished.

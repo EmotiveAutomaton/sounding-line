@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-KP1-PREFIX-LAUNCH-20261117: The companion job exited naturally, ordinary admission passed, and the first registered pause-study quantum is progressing in a counted CPU-only Gear 2 slot; full inference and independent replay remain unfinished.
+
 - [x] OPS-S15-W6-KP1-COMPANION-ADMISSION-HOLD-20261117: The source and full replay are verified and the first pause-study quantum is prepared, but new research admission is held by a live companion job using the older shared-lease protocol; its exit is monitored without stopping it.
 
 - [x] OPS-S15-W6-KP-SOURCE-COMPLETE-20261117: The complete original-source projection and its fresh independent replay match exactly; native closure, source pins and retained costs verify, allowing separate review of the registered scientific prefixes.
@@ -20,7 +22,7 @@
 
 - [x] KP original-source successor: complete authenticated projection and fresh replay are verified and filed. See OPS-S15-W6-KP-SOURCE-COMPLETE-20261117.
 
-- [ ] KP scientific prefixes: bind the completed source and current budgets, admit the registered first 100-draw quanta, and forecast remaining full inference and replay from measured cost. No partial scientific scores.
+- [ ] KP scientific prefixes: KP1 first 100-draw quantum is admitted and running; authenticate its clean checkpoint, reconcile costs and forecast complete inference and replay before continuation. KP2/KP3 retain separate budget and guarded-admission requirements. No partial scientific scores. See OPS-S15-W6-KP1-PREFIX-LAUNCH-20261117.
 
 - [x] OPS-S15-W6-CANDOR-COMPLETE-KP-QUALIFIED-20261117: CANDOR Raw and Tabular collection are complete; the exact archived-evidence repair passes all 21 constructed checks with retained costs reconciled, allowing separately reviewed source preparation to resume.
 
