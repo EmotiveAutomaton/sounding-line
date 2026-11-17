@@ -1729,3 +1729,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-17T12:33:04.177482+00:00 S15-W6-KP2-COMPLETE-20261117: The session-held-out comparison detects no winner between own and matched-donor history at these history sizes; sensitivity to small advantages remains untested.
 
 2026-11-17T12:41:01.810354+00:00 OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117: The recency-study cost checkpoint authenticates, and its separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; final inference and independent replay remain due.
+
+2026-11-17T13:17:14.441461+00:00 OPS-S15-W6-RW1-PREPARED-QUEUE-AUDIT-20261117: The recency study is progressing in CPU-only Gear 2, and the next worry-source fixture is owner-reviewed and budget-bound; the wider campaign still has qualification and source gaps.

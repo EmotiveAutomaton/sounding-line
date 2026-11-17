@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-RW1-PREPARED-QUEUE-AUDIT-20261117:** [Record](RW1_PREPARED_QUEUE_AUDIT_20261117.md). The recency study is progressing in CPU-only Gear 2, and the next worry-source fixture is owner-reviewed and budget-bound; the wider campaign still has qualification and source gaps.
+
 **OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117:** [Record](KP3_CHECKPOINT_FULL_LAUNCH_20261117.md). The recency-study cost checkpoint authenticates, and its separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; final inference and independent replay remain due.
 
 **S15-W6-KP2-COMPLETE-20261117:** [Record](KP2_COMPLETE_20261117.md). The session-held-out comparison detects no winner between own and matched-donor history at these history sizes; sensitivity to small advantages remains untested.

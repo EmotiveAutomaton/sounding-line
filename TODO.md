@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-RW1-PREPARED-QUEUE-AUDIT-20261117: The recency study is progressing in CPU-only Gear 2, and the next worry-source fixture is owner-reviewed and budget-bound; the wider campaign still has qualification and source gaps.
+
 - [x] OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117: The recency-study cost checkpoint authenticates, and its separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; final inference and independent replay remain due.
 
 - [ ] KP2.ic: registered instrument-sensitivity follow-up to S15-W6-KP2-COMPLETE-20261117 under amendment C. Freeze the source-geometry calibration grid and known-answer fixtures before execution; preserve parent comparison/cluster structure. Cap at most 10000 CPU seconds and the unchanged remaining KP family room; no execution or scientific admission yet.
@@ -38,7 +40,7 @@
 
 - [x] OPS-S15-W6-DIGEST-20261116: The first Week 6 daily reconciliation preserves completed evidence, failures and costs; CANDOR collection advances while further research remains held by the shared-runtime admission check.
 
-- [ ] Independent prepared paths (RW1, ES3, EN1, MI and KP): complete owner review, reconcile all retained preparation, and run fixed native qualification after collector exit; no dependency on KP scientific completion. See OPS-S15-W6-CANDOR-INDEPENDENT-PREBUILD-20261116.
+- [ ] Independent prepared paths: RW1 complete owner review, exact prepared bindings and original-mode budget are recorded; run its fixed29 native qualification after actual KP3 exit and post its complete cost once. ES3, EN1 and MI still need their separate reviews/qualification; MI participant execution remains curator-local. KP has progressed to complete KP2 and active full KP3. See OPS-S15-W6-RW1-PREPARED-QUEUE-AUDIT-20261117.
 
 - [x] OPS-S15-W6-CANDOR-INDEPENDENT-PREBUILD-20261116: The smaller tabular collection is complete and the raw collection advances; five independent qualification paths are prepared for further review, with research still held by the shared-runtime census.
 
