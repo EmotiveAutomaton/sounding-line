@@ -2950,39 +2950,73 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-KP1-COMPANION-ADMISSION-HOLD-20261117:** The source and full replay are verified and the first pause-study quantum is prepared, but new research admission is held by a live companion job using the older shared-lease protocol; its exit is monitored without stopping it. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_COMPANION_ADMISSION_HOLD_20261117.md).
+
+**OPS-S15-W6-KP-SOURCE-COMPLETE-20261117:** The complete original-source projection and its fresh independent replay match exactly; native closure, source pins and retained costs verify, allowing separate review of the registered scientific prefixes. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_COMPLETE_20261117.md).
+
+**OPS-S15-W6-KP-SOURCE-COST-RECOVERY-LAUNCH-20261117:** The unchanged original-source rebuild and full replay are running in a counted CPU-only Gear 2 slot under the reviewed attempt envelope; scientific admission remains gated. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_COST_RECOVERY_LAUNCH_20261117.md).
+
+**OPS-S15-W6-KP-ADMISSION-REFUSAL-20261117:** The source retry was refused before admission because of an unexplained workspace Python process; that process has exited, ordinary admission now passes, and all prior evidence and costs remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/KP_ADMISSION_REFUSAL_20261117.md).
+
+**OPS-S15-W6-KP-SOURCE-REPLAY-COST-20261117:** The clock-repaired original source build completed, but its independent replay hit the combined CPU limit; all output and cost remain preserved, and scientific admission stays closed. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_REPLAY_COST_20261117.md).
+
+**OPS-S15-W6-KP-CLOCK-SOURCE-LAUNCH-20261117:** The qualified clock-repaired original-source build is running in a counted CPU-only Gear 2 slot after complete qualification and cost reconciliation; full source replay still gates scientific analysis. [Record](../results/phase_2_4_stage_15/WEEK5/KP_CLOCK_SOURCE_LAUNCH_20261117.md).
+
+**OPS-S15-W6-KP-CLOCK-UNIT-QUALIFIED-20261117:** The separate clock-unit comparison repair passes all31 constructed checks with native closure and retained costs verified; full original-source reconstruction and replay still gate scientific admission. [Record](../results/phase_2_4_stage_15/WEEK5/KP_CLOCK_UNIT_QUALIFIED_20261117.md).
+
+**OPS-S15-W6-KP-CLOCK-UNIT-FAILURE-20261117:** The original-source pause-study recovery stopped before inference because its word-clock containment check mixed seconds and milliseconds; original evidence and complete failed-run costs are preserved. [Record](../results/phase_2_4_stage_15/WEEK5/KP_CLOCK_UNIT_FAILURE_20261117.md).
+
+**OPS-S15-W6-KP-SOURCE-RECOVERY-LAUNCH-20261117:** The original-source pause-study recovery is running in a counted CPU-only Gear 2 slot after complete qualification and cost reconciliation; full source replay still gates scientific analysis. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_RECOVERY_LAUNCH_20261117.md).
+
+**OPS-S15-W6-CANDOR-COMPLETE-KP-QUALIFIED-20261117:** CANDOR Raw and Tabular collection are complete; the exact archived-evidence repair passes all 21 constructed checks with retained costs reconciled, allowing separately reviewed source preparation to resume. [Record](../results/phase_2_4_stage_15/WEEK5/CANDOR_COMPLETE_KP_QUALIFIED_20261117.md).
+
+**OPS-S15-W6-DIGEST-20261116:** The first Week 6 daily reconciliation preserves completed evidence, failures and costs; CANDOR collection advances while further research remains held by the shared-runtime admission check. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261116.md).
+
+**OPS-S15-W6-CANDOR-INDEPENDENT-PREBUILD-20261116:** The smaller tabular collection is complete and the raw collection advances; five independent qualification paths are prepared for further review, with research still held by the shared-runtime census. [Record](../results/phase_2_4_stage_15/WEEK5/CANDOR_INDEPENDENT_PREBUILD_20261116.md).
+
+**OPS-S15-W6-HEALTH-20261116-1251:** CANDOR collection is advancing under the curator priority; research remains admission-held, with evidence, native exits, resources and single-wake delivery verified. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_20261116_1251.md).
+
+**OPS-S15-W6-KP-COLLECTOR-ADMISSION-HOLD-20261116:** The exact-evidence repair is prepared, but its constructed checks were refused before execution while the approved CANDOR intake uses the shared runtime; that intake continues by curator direction. [Record](../results/phase_2_4_stage_15/WEEK5/KP_COLLECTOR_ADMISSION_HOLD_20261116.md).
+
 **OPS-S15-W6-KP-SOURCE-ACCESS-FAILURE-20261116:** The original pause-study source stopped on an inaccessible historical evidence path before inference; its failure, native exits and full cost are preserved. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_ACCESS_FAILURE_20261116.md).
-
-**OPS-S15-W6-KP-SOURCE-FIXTURE-20261116:** The invented pause-study source completes its actual native build and independent full replay; checkpoint and resume qualification remains next. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_FIXTURE_20261116.md).
-
-**OPS-S15-W6-KP-NATIVE-PREFIX-20261116:** The constructed native pause-study rehearsal reaches its fixed checkpoint with authenticated outputs and complete cost accounting; full continuation and replay remain unrun. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_PREFIX_20261116.md).
-
-**OPS-S15-W6-KP-NATIVE-ADMISSION-REFUSAL-20261116:** The constructed continuation refused an unexplained workspace reader before analysis; its checkpoint and cost are retained for a serialized unchanged retry. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_ADMISSION_REFUSAL_20261116.md).
 
 **OPS-S15-W6-KP-NATIVE-COMPLETE-20261116:** The constructed pause-study rehearsal completes authenticated native checkpoint recovery and all fixed draws with fresh full replay; human-source admission remains separate. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_COMPLETE_20261116.md).
 
+**OPS-S15-W6-KP-NATIVE-ADMISSION-REFUSAL-20261116:** The constructed continuation refused an unexplained workspace reader before analysis; its checkpoint and cost are retained for a serialized unchanged retry. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_ADMISSION_REFUSAL_20261116.md).
+
+**OPS-S15-W6-KP-NATIVE-PREFIX-20261116:** The constructed native pause-study rehearsal reaches its fixed checkpoint with authenticated outputs and complete cost accounting; full continuation and replay remain unrun. [Record](../results/phase_2_4_stage_15/WEEK5/KP_NATIVE_PREFIX_20261116.md).
+
+**OPS-S15-W6-KP-SOURCE-FIXTURE-20261116:** The invented pause-study source completes its actual native build and independent full replay; checkpoint and resume qualification remains next. [Record](../results/phase_2_4_stage_15/WEEK5/KP_SOURCE_FIXTURE_20261116.md).
+
 **OPS-S15-W6-KP-CAPSULE-QUALIFIED-20261116:** All 24 constructed sealed-source boundary checks pass with effective thread limits and complete native accounting; the full source-to-native pause, resume and replay rehearsal remains unrun. [Record](../results/phase_2_4_stage_15/WEEK5/KP_CAPSULE_QUALIFIED_20261116.md).
-
-**S15-W6-IN16-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REFERENCE_20261116.md).
-
-**OPS-S15-W6-KP-THREAD-FAILURE-20261116:** The constructed pause-study fixture stopped before testing because its child did not receive the required thread settings; evidence and actual cost are retained, with human-source admission held. [Record](../results/phase_2_4_stage_15/WEEK5/KP_THREAD_FAILURE_20261116.md).
 
 **OPS-S15-W6-KP-REPAIR-QUALIFIED-20261116:** All 24 original constructed pause-study checks pass after the isolated launch repair; effective thread limits, complete native exits and once-only cumulative costs verify, while human-source admission remains separate. [Record](../results/phase_2_4_stage_15/WEEK5/KP_REPAIR_QUALIFIED_20261116.md).
 
-**OPS-S15-W6-CLOSURE-HEALTH-20261116:** The Week 5 calendar closed normally after its filed drain addendum; Week 6 continues in CPU-only Gear 2 with preserved evidence and explicit admission gaps. [Record](../results/phase_2_4_stage_15/WEEK5/CLOSURE_HEALTH_20261116.md).
+**OPS-S15-W6-KP-THREAD-FAILURE-20261116:** The constructed pause-study fixture stopped before testing because its child did not receive the required thread settings; evidence and actual cost are retained, with human-source admission held. [Record](../results/phase_2_4_stage_15/WEEK5/KP_THREAD_FAILURE_20261116.md).
 
-**S15-W6-IN13A-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13A_COMPLETE_20261116.md).
+**S15-W6-IN16-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REFERENCE_20261116.md).
 
-**S15-W6-IN13B-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13B_COMPLETE_20261116.md).
+**OPS-S15-W6-SERVICE-DISPATCH-20261116:** The reviewed service transition admitted one all-report reference; it is verifying in Gear 2, while a separately owned reader holds additional admission pending exact compatibility review. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_DISPATCH_20261116.md).
+
+**OPS-S15-W6-SERVICE-RUNTIME-QUALIFIED-20261116:** All 72 constructed extension and service-runtime controls pass with exact native closure and once-only cost accounting; actual transition and scientific admissions remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_RUNTIME_QUALIFIED_20261116.md).
+
+**OPS-S15-W6-SERVICE-RUNTIME-SANDBOX-20261116:** The service-runtime fixture stopped before testing on an evidence-read permission error; its original evidence and once-only cost are retained. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_RUNTIME_SANDBOX_20261116.md).
 
 **S15-W6-IN13B-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13B_REFERENCE_20261116.md).
 
-**S15-W6-IN14-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN14_COMPLETE_20261116.md).
+**S15-W6-IN16-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_COMPLETE_20261116.md).
 
-**S15-W6-IN14-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN14_REFERENCE_20261116.md).
+**OPS-S15-W6-CLOSURE-HEALTH-20261116:** The Week 5 calendar closed normally after its filed drain addendum; Week 6 continues in CPU-only Gear 2 with preserved evidence and explicit admission gaps. [Record](../results/phase_2_4_stage_15/WEEK5/CLOSURE_HEALTH_20261116.md).
 
 **S15-W6-IN15-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN15_COMPLETE_20261116.md).
 
-**S15-W6-IN16-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_COMPLETE_20261116.md).
+**S15-W6-IN14-REFERENCE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN14_REFERENCE_20261116.md).
+
+**S15-W6-IN14-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN14_COMPLETE_20261116.md).
+
+**S15-W6-IN13B-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13B_COMPLETE_20261116.md).
+
+**S15-W6-IN13A-COMPLETE-20261116:** Complete registered source and draw replay passes; numerical validation does not identify a human mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/IN13A_COMPLETE_20261116.md).
 
 **OPS-S15-W6-IN16-REPAIR-PREFIX-20261116:** The repaired appraisal calculation has an authenticated clean checkpoint; full execution and independent replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REPAIR_PREFIX_20261116.md).
 
@@ -2990,29 +3024,23 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 **OPS-S15-W6-IN16-REPLAY-FAILURE-20261116:** The original appraisal clearing analysis failed its full numerical replay; its complete draws and costs are preserved, with no scientific result admitted. [Record](../results/phase_2_4_stage_15/WEEK5/IN16_REPLAY_FAILURE_20261116.md).
 
-**OPS-S15-W6-SERVICE-RUNTIME-QUALIFIED-20261116:** All 72 constructed extension and service-runtime controls pass with exact native closure and once-only cost accounting; actual transition and scientific admissions remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_RUNTIME_QUALIFIED_20261116.md).
-
-**OPS-S15-W6-SERVICE-RUNTIME-SANDBOX-20261116:** The service-runtime fixture stopped before testing on an evidence-read permission error; its original evidence and once-only cost are retained. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_RUNTIME_SANDBOX_20261116.md).
-
-**OPS-S15-W6-SERVICE-DISPATCH-20261116:** The reviewed service transition admitted one all-report reference; it is verifying in Gear 2, while a separately owned reader holds additional admission pending exact compatibility review. [Record](../results/phase_2_4_stage_15/WEEK5/SERVICE_DISPATCH_20261116.md).
+**OPS-S15-W6-START-GATE-20261115:** Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_START_GATE_20261115.md).
 
 **OPS-S15-W5-FINAL-DRAIN-20261115:** The Week 5 drain is fully reconciled: every recorded attempt has a terminal and an exited owner, all filed claims remain preserved, and unfinished work retains its checkpoints and costs for separately admitted continuation. [Record](../results/phase_2_4_stage_15/WEEK5/FINAL_DRAIN_20261115.md).
-
-**OPS-S15-W6-START-GATE-20261115:** Week 6 passed its actual predecessor-drain gate and admitted four qualified appraisal primaries in CPU-only Gear 2; their initial checkpoints authenticate and full continuations retain the original sources, controls and shared budgets. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_START_GATE_20261115.md).
 
 **OPS-S15-W5-BK-FINAL-PAUSE-20261115:** The final active comparison queue reached an authenticated clean checkpoint; all Week 5 research owners have exited, while formal drain reconciliation and Week 6 admission remain pending. [Record](../results/phase_2_4_stage_15/WEEK5/BK_FINAL_PAUSE_20261115.md).
 
 **OPS-S15-W5-CH-RANGE-PAUSES-20261115:** All four chess range queues reached authenticated clean checkpoints; their incomplete ranges are preserved, and the comparison queue alone continues the frozen Week 5 drain in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RANGE_PAUSES_20261115.md).
 
-**OPS-S15-W6-TR2-B2-ARCHIVE-RUNTIME-20261115:** In constructed fixtures, the full original refusal-archive source and two-phase runtime pass all 76 checks; production and scientific measurement retain their separate admission requirements. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_B2_ARCHIVE_RUNTIME_20261115.md).
-
-**OPS-S15-W5-AT-QUEUE-PAUSE-20261115:** The original reader queue paused cleanly with its completed chunks and checkpoint authenticated; remaining pilot work is preserved for a later admitted continuation. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_PAUSE_20261115.md).
-
-**OPS-S15-W6-TR2-PRODUCTION-PREPARED-20261115:** The archive production template is authenticated and preserved as preparation; it launches no job and leaves final qualification, committed design and actual drain bindings unresolved. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_PRODUCTION_PREPARED_20261115.md).
+**OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115:** Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate. [Record](../results/phase_2_4_stage_15/WEEK5/COLLECTOR_CATALOG_DISPOSITION_20261115.md).
 
 **OPS-S15-W5-FINAL-DIGEST-20261115:** The Week 5 final cutoff digest authenticates filed evidence and closes new starts; five original Gear 2 queues remain in the drain, with Week 6 production awaiting actual reconciliation. [Record](../results/phase_2_4_stage_15/WEEK5/FINAL_DIGEST_20261115.md).
 
-**OPS-S15-COLLECTOR-CATALOG-DISPOSITION-20261115:** Two collector catalog proposals were reviewed against existing commits; duplicate application was declined, with source qualification and scientific admission still separate. [Record](../results/phase_2_4_stage_15/WEEK5/COLLECTOR_CATALOG_DISPOSITION_20261115.md).
+**OPS-S15-W6-TR2-PRODUCTION-PREPARED-20261115:** The archive production template is authenticated and preserved as preparation; it launches no job and leaves final qualification, committed design and actual drain bindings unresolved. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_PRODUCTION_PREPARED_20261115.md).
+
+**OPS-S15-W5-AT-QUEUE-PAUSE-20261115:** The original reader queue paused cleanly with its completed chunks and checkpoint authenticated; remaining pilot work is preserved for a later admitted continuation. [Record](../results/phase_2_4_stage_15/WEEK5/AT_QUEUE_PAUSE_20261115.md).
+
+**OPS-S15-W6-TR2-B2-ARCHIVE-RUNTIME-20261115:** In constructed fixtures, the full original refusal-archive source and two-phase runtime pass all 76 checks; production and scientific measurement retain their separate admission requirements. [Record](../results/phase_2_4_stage_15/WEEK5/TR2_B2_ARCHIVE_RUNTIME_20261115.md).
 
 **OPS-S15-GEAR2-SIX-QUEUES-20261115:** Six original research queues are active in CPU-only Gear 2 after the reader passes unchanged resource admission; full archive and measurement qualification remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_SIX_QUEUES_20261115.md).
 

@@ -1,5 +1,41 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-KP1-COMPANION-ADMISSION-HOLD-20261117: The source and full replay are verified and the first pause-study quantum is prepared, but new research admission is held by a live companion job using the older shared-lease protocol; its exit is monitored without stopping it.
+
+- [x] OPS-S15-W6-KP-SOURCE-COMPLETE-20261117: The complete original-source projection and its fresh independent replay match exactly; native closure, source pins and retained costs verify, allowing separate review of the registered scientific prefixes.
+
+- [x] OPS-S15-W6-KP-SOURCE-COST-RECOVERY-LAUNCH-20261117: The unchanged original-source rebuild and full replay are running in a counted CPU-only Gear 2 slot under the reviewed attempt envelope; scientific admission remains gated.
+
+- [x] OPS-S15-W6-KP-ADMISSION-REFUSAL-20261117: The source retry was refused before admission because of an unexplained workspace Python process; that process has exited, ordinary admission now passes, and all prior evidence and costs remain preserved.
+
+- [x] OPS-S15-W6-KP-SOURCE-REPLAY-COST-20261117: The clock-repaired original source build completed, but its independent replay hit the combined CPU limit; all output and cost remain preserved, and scientific admission stays closed.
+
+- [x] OPS-S15-W6-KP-CLOCK-SOURCE-LAUNCH-20261117: The qualified clock-repaired original-source build is running in a counted CPU-only Gear 2 slot after complete qualification and cost reconciliation; full source replay still gates scientific analysis.
+
+- [x] OPS-S15-W6-KP-CLOCK-UNIT-QUALIFIED-20261117: The separate clock-unit comparison repair passes all31 constructed checks with native closure and retained costs verified; full original-source reconstruction and replay still gate scientific admission.
+
+- [x] OPS-S15-W6-KP-CLOCK-UNIT-FAILURE-20261117: The original-source pause-study recovery stopped before inference because its word-clock containment check mixed seconds and milliseconds; original evidence and complete failed-run costs are preserved.
+
+- [x] OPS-S15-W6-KP-SOURCE-RECOVERY-LAUNCH-20261117: The original-source pause-study recovery is running in a counted CPU-only Gear 2 slot after complete qualification and cost reconciliation; full source replay still gates scientific analysis.
+
+- [x] KP original-source successor: complete authenticated projection and fresh replay are verified and filed. See OPS-S15-W6-KP-SOURCE-COMPLETE-20261117.
+
+- [ ] KP scientific prefixes: bind the completed source and current budgets, admit the registered first 100-draw quanta, and forecast remaining full inference and replay from measured cost. No partial scientific scores.
+
+- [x] OPS-S15-W6-CANDOR-COMPLETE-KP-QUALIFIED-20261117: CANDOR Raw and Tabular collection are complete; the exact archived-evidence repair passes all 21 constructed checks with retained costs reconciled, allowing separately reviewed source preparation to resume.
+
+- [x] OPS-S15-W6-DIGEST-20261116: The first Week 6 daily reconciliation preserves completed evidence, failures and costs; CANDOR collection advances while further research remains held by the shared-runtime admission check.
+
+- [ ] Independent prepared paths (RW1, ES3, EN1, MI and KP): complete owner review, reconcile all retained preparation, and run fixed native qualification after collector exit; no dependency on KP scientific completion. See OPS-S15-W6-CANDOR-INDEPENDENT-PREBUILD-20261116.
+
+- [x] OPS-S15-W6-CANDOR-INDEPENDENT-PREBUILD-20261116: The smaller tabular collection is complete and the raw collection advances; five independent qualification paths are prepared for further review, with research still held by the shared-runtime census.
+
+- [x] KP archived-evidence qualification: all21 fixed cases pass after collector exit; retained costs are posted once. Full original-source replay remains next. See OPS-S15-W6-CANDOR-COMPLETE-KP-QUALIFIED-20261117.
+
+- [x] OPS-S15-W6-HEALTH-20261116-1251: CANDOR collection is advancing under the curator priority; research remains admission-held, with evidence, native exits, resources and single-wake delivery verified.
+
+- [x] OPS-S15-W6-KP-COLLECTOR-ADMISSION-HOLD-20261116: The exact-evidence repair is prepared, but its constructed checks were refused before execution while the approved CANDOR intake uses the shared runtime; that intake continues by curator direction.
+
 - [x] OPS-S15-W6-KP-SOURCE-ACCESS-FAILURE-20261116: The original pause-study source stopped on an inaccessible historical evidence path before inference; its failure, native exits and full cost are preserved.
 
 - [x] OPS-S15-W6-KP-NATIVE-COMPLETE-20261116: The constructed pause-study rehearsal completes authenticated native checkpoint recovery and all fixed draws with fresh full replay; human-source admission remains separate.
