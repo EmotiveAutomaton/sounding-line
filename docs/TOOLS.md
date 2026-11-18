@@ -2950,6 +2950,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W6-ES1-REPLICATION-0056-20261118:** The available-item diary replication supports the four declared shame, anger, pride and envy contrasts; usual-respect moderation is not detected, and missing loneliness items prevent a replication of the joint primary. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_REPLICATION_0056_COMPLETE_20261118.md).
+
 **OPS-S15-W6-ES1-REPLICATION-RELEASE-20261118:** The companion reader exited naturally; ordinary admission now passes and all seventeen existing replication plans are frozen for CPU-only Gear 2 release. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_REPLICATION_RELEASE_20261118.md).
 
 **OPS-S15-W6-ES1-REPLICATION-READY-HOLD-20261117:** Seventeen second-member diary panels are built on committed designs and qualified fixtures; ordinary admission remains held by the active companion reader, with evidence preserved and an exact exit observer running. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_REPLICATION_READY_HOLD_20261117.md).

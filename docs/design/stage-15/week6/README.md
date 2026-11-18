@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The [seventeen-panel second-member replication](ES1_REPLICATION_0056_V1.md) has committed design, passed operator fixtures and frozen plans. The companion reader exited naturally and ordinary admission passes; the finite CPU-only Gear 2 dispatcher is ready for native release. Completed original-source evidence remains fully filed and pushed. Other source-specific builds remain incomplete. Original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
+**Current boundary:** The seventeen available second-member ES1 replication panels are complete, independently replayed and fully filed. The finite queue has drained. The [twelve occurrence/conditional-strength comparisons](ES2_FLOOR_SPLIT_0057_V1.md) bind the next commissioned configurations to the unchanged qualified operator; ordinary admission and native execution remain pending. CPU-only Gear 2 is selected. Other builds, source-clock checks and the ready buffer remain incomplete. Original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed

@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**S15-W6-ES1-REPLICATION-0056-20261118:** [Record](ES1_REPLICATION_0056_COMPLETE_20261118.md). The available-item diary replication supports the four declared shame, anger, pride and envy contrasts; usual-respect moderation is not detected, and missing loneliness items prevent a replication of the joint primary.
+
 **OPS-S15-W6-ES1-REPLICATION-RELEASE-20261118:** [Record](ES1_REPLICATION_RELEASE_20261118.md). The companion reader exited naturally; ordinary admission now passes and all seventeen existing replication plans are frozen for CPU-only Gear 2 release.
 
 **OPS-S15-W6-ES1-REPLICATION-READY-HOLD-20261117:** [Record](ES1_REPLICATION_READY_HOLD_20261117.md). Seventeen second-member diary panels are built on committed designs and qualified fixtures; ordinary admission remains held by the active companion reader, with evidence preserved and an exact exit observer running.

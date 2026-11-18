@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] S15-W6-ES1-REPLICATION-0056-20261118: The available-item diary replication supports the four declared shame, anger, pride and envy contrasts; usual-respect moderation is not detected, and missing loneliness items prevent a replication of the joint primary.
+
 - [x] OPS-S15-W6-ES1-REPLICATION-RELEASE-20261118: The companion reader exited naturally; ordinary admission now passes and all seventeen existing replication plans are frozen for CPU-only Gear 2 release.
 
 - [x] OPS-S15-W6-ES1-REPLICATION-READY-HOLD-20261117: Seventeen second-member diary panels are built on committed designs and qualified fixtures; ordinary admission remains held by the active companion reader, with evidence preserved and an exact exit observer running.
@@ -46,7 +48,7 @@
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES remaining commissioned work: ES1 original primary/18 secondaries and all six ES2 original pairs are fully filed. Bind and admit member0056 available-item replication; separately bind floor/strength, first-week and ES3 sources. Preserve every support failure and charge.
+- [ ] ES remaining commissioned work: Member0057 ES1 primary/all secondaries and the seventeen available0056 ES1 panels are complete and filed. Original ES2 primary and all pair comparisons are filed unsupported. Bind the commissioned original-member occurrence/conditional-strength panels; first-week prediction and other-source ES2/ES3 mappings still require their separate clock/support review. Missing0056 lonely/excluded items cannot be substituted. Preserve all evidence and charges.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 
