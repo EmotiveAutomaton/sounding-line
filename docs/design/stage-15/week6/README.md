@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The [seventeen-panel second-member replication](ES1_REPLICATION_0056_V1.md) has committed design and passed operator fixtures, with all private configurations built. Its ordinary admission is held by the active companion reader; an exact exit observer is registered and coordination requested. No Sounding Line research worker is active. Completed original diary and pair evidence is fully filed and pushed. Other source-specific builds remain incomplete. CPU-only Gear 2, original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
+**Current boundary:** The [seventeen-panel second-member replication](ES1_REPLICATION_0056_V1.md) has committed design, passed operator fixtures and frozen plans. The companion reader exited naturally and ordinary admission passes; the finite CPU-only Gear 2 dispatcher is ready for native release. Completed original-source evidence remains fully filed and pushed. Other source-specific builds remain incomplete. Original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed

@@ -1783,3 +1783,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-18T07:33:30.027022+00:00 S15-W6-ES2-PAIRS-0057-20261117: All five remaining declared diary reactivity pairs fail the fixed half-reliability support requirement; none supplies a corrected-correlation verdict or evidence for or against one dial.
 
 2026-11-18T07:56:19.385720+00:00 OPS-S15-W6-ES1-REPLICATION-READY-HOLD-20261117: Seventeen second-member diary panels are built on committed designs and qualified fixtures; ordinary admission remains held by the active companion reader, with evidence preserved and an exact exit observer running.
+
+2026-11-18T08:06:07.559260+00:00 OPS-S15-W6-ES1-REPLICATION-RELEASE-20261118: The companion reader exited naturally; ordinary admission now passes and all seventeen existing replication plans are frozen for CPU-only Gear 2 release.

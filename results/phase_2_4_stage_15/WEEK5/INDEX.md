@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-ES1-REPLICATION-RELEASE-20261118:** [Record](ES1_REPLICATION_RELEASE_20261118.md). The companion reader exited naturally; ordinary admission now passes and all seventeen existing replication plans are frozen for CPU-only Gear 2 release.
+
 **OPS-S15-W6-ES1-REPLICATION-READY-HOLD-20261117:** [Record](ES1_REPLICATION_READY_HOLD_20261117.md). Seventeen second-member diary panels are built on committed designs and qualified fixtures; ordinary admission remains held by the active companion reader, with evidence preserved and an exact exit observer running.
 
 **S15-W6-ES2-PAIRS-0057-20261117:** [Record](ES2_PAIRS_0057_COMPLETE_20261117.md). All five remaining declared diary reactivity pairs fail the fixed half-reliability support requirement; none supplies a corrected-correlation verdict or evidence for or against one dial.
