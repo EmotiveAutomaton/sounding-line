@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The original diary primary and eighteen secondaries are fully filed and pushed. The reactivity primary has complete independent support replay and a filed unsupported outcome, with its pre-source refusal retained. The [five remaining declared family pairs](ES2_PAIRS_0057_V1.md) are bound to the unchanged qualified operator for ordinary admission. CPU-only Gear 2 remains selected. Other source-specific builds and the sixteen-ready-card buffer remain incomplete. Original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
+**Current boundary:** The original diary primary and eighteen secondaries and all six original reactivity pairs are fully filed. Their original attempts and support outcomes remain preserved. The [second-member available-item replication](ES1_REPLICATION_0056_V1.md) binds seventeen configurations to the unchanged qualified operator; its joint primary is unavailable because the source lacks loneliness. CPU-only Gear 2 remains selected. Other source-specific builds remain incomplete. Original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed

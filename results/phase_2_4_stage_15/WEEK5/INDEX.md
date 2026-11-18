@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**S15-W6-ES2-PAIRS-0057-20261117:** [Record](ES2_PAIRS_0057_COMPLETE_20261117.md). All five remaining declared diary reactivity pairs fail the fixed half-reliability support requirement; none supplies a corrected-correlation verdict or evidence for or against one dial.
+
 **S15-W6-ES2-PRIMARY-0057-20261117:** [Record](ES2_PRIMARY_0057_COMPLETE_20261117.md). The original diary cannot support the registered one-dial comparison: fear reactivity is insufficiently stable across the two day halves, so no latent-correlation verdict is available.
 
 **OPS-S15-W6-ES2-ADMISSION-RECOVERY-20261117:** [Record](ES2_ADMISSION_RECOVERY_20261117.md). The diary reactivity primary refused a transient workspace reader before source access; its evidence is preserved and an exact recovery keeps the launcher attached through admission.
