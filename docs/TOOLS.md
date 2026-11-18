@@ -2950,6 +2950,18 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W6-ES1-SECONDARY-SET-0057-20261117:** The completed diary secondary set supports the declared envy association, detects no usual-respect moderation, and supplies the complete descriptive feeling-by-event table; it does not rescue the failed primary double split. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_SECONDARY_SET_0057_COMPLETE_20261117.md).
+
+**OPS-S15-W6-ES1-HOOK-BOUNDARY-20261117:** The remaining diary queue is built; its latest refusal identifies the local bookkeeping hook, so release now waits for that hook to exit before unchanged admission. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_HOOK_BOUNDARY_RECOVERY_20261117.md).
+
+**OPS-S15-W6-ES1-TABLE-SUCCESS-REFUSAL-20261117:** The serial queue preserved three complete panels, then refused an unrecognized transient reader before the next source phase; an identical recovery is prepared. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_TABLE_SUCCESS_REFUSAL_20261117.md).
+
+**OPS-S15-W6-ES1-E-ADMISSION-FAILURE-20261117:** The third secondary stopped during admission before any source phase; its preserved failure has an identical, separately frozen recovery. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_E_ADMISSION_FAILURE_20261117.md).
+
+**S15-W6-ES1-D-0057-20261117:** The registered diary secondary supports a stronger admiration association with pride than with relaxation. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_D_0057_COMPLETE_20261117.md).
+
+**S15-W6-ES1-C-0057-20261117:** The registered diary secondary supports a stronger anger association with criticism than with the average of being ignored and sidelined. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_C_0057_COMPLETE_20261117.md).
+
 **S15-W6-ES1-PRIMARY-0057-20261117:** The diary primary supports a stronger shame association with criticism than with being ignored, but detects no corresponding loneliness preference for being ignored; the predicted double split does not hold. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_PRIMARY_0057_COMPLETE_20261117.md).
 
 **OPS-S15-W6-DIGEST-20261117:** Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261117.md).

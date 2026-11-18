@@ -1,5 +1,17 @@
 # TODO: the study queue
 
+- [x] S15-W6-ES1-SECONDARY-SET-0057-20261117: The completed diary secondary set supports the declared envy association, detects no usual-respect moderation, and supplies the complete descriptive feeling-by-event table; it does not rescue the failed primary double split.
+
+- [x] OPS-S15-W6-ES1-HOOK-BOUNDARY-20261117: The remaining diary queue is built; its latest refusal identifies the local bookkeeping hook, so release now waits for that hook to exit before unchanged admission.
+
+- [x] OPS-S15-W6-ES1-TABLE-SUCCESS-REFUSAL-20261117: The serial queue preserved three complete panels, then refused an unrecognized transient reader before the next source phase; an identical recovery is prepared.
+
+- [x] OPS-S15-W6-ES1-E-ADMISSION-FAILURE-20261117: The third secondary stopped during admission before any source phase; its preserved failure has an identical, separately frozen recovery.
+
+- [x] S15-W6-ES1-D-0057-20261117: The registered diary secondary supports a stronger admiration association with pride than with relaxation.
+
+- [x] S15-W6-ES1-C-0057-20261117: The registered diary secondary supports a stronger anger association with criticism than with the average of being ignored and sidelined.
+
 - [x] S15-W6-ES1-PRIMARY-0057-20261117: The diary primary supports a stronger shame association with criticism than with being ignored, but detects no corresponding loneliness preference for being ignored; the predicted double split does not hold.
 
 - [x] OPS-S15-W6-DIGEST-20261117: Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader.
@@ -24,7 +36,7 @@
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES remaining commissioned work after S15-W6-ES1-PRIMARY-0057-20261117: Member0057 primary a/b and full replay are complete. Bind the declared secondary contrasts, full table and usual-respect moderation; qualify source-specific replication without replacing member0056's missing loneliness item. ES2 and ES3 remain separate admissions. Preserve all original evidence and incurred charges.
+- [ ] ES remaining commissioned work: Member0057 ES1 primary and all eighteen secondaries are complete and filed. ES2 anger/fear primary has its unchanged handler and new source-specific design binding prepared; commit and admit it before execution. Separately bind replication without substituting missing0056 items, ES2 secondaries and ES3 actual-source work. Preserve all prior evidence and charges.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 

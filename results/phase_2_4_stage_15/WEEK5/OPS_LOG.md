@@ -1763,3 +1763,15 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-18T04:38:15.946298+00:00 OPS-S15-W6-DIGEST-20261117: Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader.
 
 2026-11-18T05:18:01.551275+00:00 S15-W6-ES1-PRIMARY-0057-20261117: The diary primary supports a stronger shame association with criticism than with being ignored, but detects no corresponding loneliness preference for being ignored; the predicted double split does not hold.
+
+2026-11-18T05:52:50.315032+00:00 S15-W6-ES1-C-0057-20261117: The registered diary secondary supports a stronger anger association with criticism than with the average of being ignored and sidelined.
+
+2026-11-18T05:53:20.658916+00:00 S15-W6-ES1-D-0057-20261117: The registered diary secondary supports a stronger admiration association with pride than with relaxation.
+
+2026-11-18T05:53:49.349843+00:00 OPS-S15-W6-ES1-E-ADMISSION-FAILURE-20261117: The third secondary stopped during admission before any source phase; its preserved failure has an identical, separately frozen recovery.
+
+2026-11-18T06:08:13.220929+00:00 OPS-S15-W6-ES1-TABLE-SUCCESS-REFUSAL-20261117: The serial queue preserved three complete panels, then refused an unrecognized transient reader before the next source phase; an identical recovery is prepared.
+
+2026-11-18T06:18:41.305531+00:00 OPS-S15-W6-ES1-HOOK-BOUNDARY-20261117: The remaining diary queue is built; its latest refusal identifies the local bookkeeping hook, so release now waits for that hook to exit before unchanged admission.
+
+2026-11-18T06:30:04.722383+00:00 S15-W6-ES1-SECONDARY-SET-0057-20261117: The completed diary secondary set supports the declared envy association, detects no usual-respect moderation, and supplies the complete descriptive feeling-by-event table; it does not rescue the failed primary double split.
