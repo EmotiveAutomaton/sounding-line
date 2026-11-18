@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] S15-W6-ES2-REPLICATION-0056-20261118: None of the nine available-item diary replication comparisons supplies a one-dial verdict: eight lack half-reliability support and one has an unavailable full-bank interval.
+
+- [x] OPS-S15-W6-ES2-REPLICATION-HOOK-20261118: The final replication panel refused a transient bookkeeping hook before source access; eight completed panels are preserved and the unchanged final comparison has a separate recovery.
+
 - [x] S15-W6-ES2-FLOOR-0057-20261118: None of the twelve declared occurrence or conditional-strength comparisons supplies a one-dial verdict: nine lack half-reliability support and three have unavailable full-bank intervals.
 
 - [x] S15-W6-ES1-REPLICATION-0056-20261118: The available-item diary replication supports the four declared shame, anger, pride and envy contrasts; usual-respect moderation is not detected, and missing loneliness items prevent a replication of the joint primary.
@@ -50,7 +54,7 @@
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES remaining commissioned work: Original and second-member ES1 panels, original ES2 pairs and all twelve original floor/strength panels are fully filed. Admit the nine available0056 ES2 replication configurations; record nine missing sadness-family configurations. First-week prediction and ES3 actual-source clocks remain separately reviewed work. Preserve every support failure, invalid bank and charge.
+- [ ] ES remaining commissioned work: Original and second-member ES1 panels, original ES2 pairs/floor variants and all nine available0056 ES2 configurations are fully filed; nine missing sadness-family configurations are design-cannot-test. Admit the already designed0062 daily perceived-adversity comparison. First-week prediction and ES3 actual-source clocks remain separate reviews. Preserve every support failure, invalid bank and charge.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 
