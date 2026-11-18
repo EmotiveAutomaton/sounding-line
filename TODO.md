@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-ES1-REPLICATION-READY-HOLD-20261117: Seventeen second-member diary panels are built on committed designs and qualified fixtures; ordinary admission remains held by the active companion reader, with evidence preserved and an exact exit observer running.
+
 - [x] S15-W6-ES2-PAIRS-0057-20261117: All five remaining declared diary reactivity pairs fail the fixed half-reliability support requirement; none supplies a corrected-correlation verdict or evidence for or against one dial.
 
 - [x] S15-W6-ES2-PRIMARY-0057-20261117: The original diary cannot support the registered one-dial comparison: fear reactivity is insufficiently stable across the two day halves, so no latent-correlation verdict is available.
