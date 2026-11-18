@@ -1775,3 +1775,7 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-18T06:18:41.305531+00:00 OPS-S15-W6-ES1-HOOK-BOUNDARY-20261117: The remaining diary queue is built; its latest refusal identifies the local bookkeeping hook, so release now waits for that hook to exit before unchanged admission.
 
 2026-11-18T06:30:04.722383+00:00 S15-W6-ES1-SECONDARY-SET-0057-20261117: The completed diary secondary set supports the declared envy association, detects no usual-respect moderation, and supplies the complete descriptive feeling-by-event table; it does not rescue the failed primary double split.
+
+2026-11-18T06:53:59.393804+00:00 OPS-S15-W6-ES2-ADMISSION-RECOVERY-20261117: The diary reactivity primary refused a transient workspace reader before source access; its evidence is preserved and an exact recovery keeps the launcher attached through admission.
+
+2026-11-18T07:03:58.294204+00:00 S15-W6-ES2-PRIMARY-0057-20261117: The original diary cannot support the registered one-dial comparison: fear reactivity is insufficiently stable across the two day halves, so no latent-correlation verdict is available.

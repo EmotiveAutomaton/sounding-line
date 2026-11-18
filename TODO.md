@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] S15-W6-ES2-PRIMARY-0057-20261117: The original diary cannot support the registered one-dial comparison: fear reactivity is insufficiently stable across the two day halves, so no latent-correlation verdict is available.
+
+- [x] OPS-S15-W6-ES2-ADMISSION-RECOVERY-20261117: The diary reactivity primary refused a transient workspace reader before source access; its evidence is preserved and an exact recovery keeps the launcher attached through admission.
+
 - [x] S15-W6-ES1-SECONDARY-SET-0057-20261117: The completed diary secondary set supports the declared envy association, detects no usual-respect moderation, and supplies the complete descriptive feeling-by-event table; it does not rescue the failed primary double split.
 
 - [x] OPS-S15-W6-ES1-HOOK-BOUNDARY-20261117: The remaining diary queue is built; its latest refusal identifies the local bookkeeping hook, so release now waits for that hook to exit before unchanged admission.
@@ -36,7 +40,7 @@
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES remaining commissioned work: Member0057 ES1 primary and all eighteen secondaries are complete and filed. ES2 anger/fear primary has its unchanged handler and new source-specific design binding prepared; commit and admit it before execution. Separately bind replication without substituting missing0056 items, ES2 secondaries and ES3 actual-source work. Preserve all prior evidence and charges.
+- [ ] ES remaining commissioned work: ES1 original primary/18 secondaries are fully filed. The ES2 original primary has complete unsupported-reliability evidence. Commit and admit its five predeclared remaining family pairs; separately bind replication, floor/strength, first-week and ES3 sources. Preserve every prior support failure and charge.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 

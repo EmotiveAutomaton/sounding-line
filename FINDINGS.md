@@ -1,5 +1,50 @@
 # FINDINGS — the method archive
 
+### S15-W6-ES2-PRIMARY-0057-20261117
+
+**Hypothesis.** Does one between-person sensitivity account for both anger-type and fear-type reactivity to negative social events?
+
+**METHOD.** Authenticate original openESM0057 interaction reports. Center each original rating within person and scale by pooled within-person sample deviation, with observations minus people as denominator. Predict the mean of angry and resentful, and separately anxious and insecure, from the mean of criticised, ignored, upstaged and sidelined. Fit slopes separately on original odd and even study days. The registered correction averages the two cross-half correlations and divides by the root product of the two families' own half correlations. Either half reliability below 0.15 makes that correction unsupported before uncertainty computation. Preserve the common complete panel, ten-prompt eligibility and every undefined slope; repeat the full source and support chain in a fresh native process.
+
+**Found.** Unsupported: The original diary cannot support the registered one-dial comparison: fear reactivity is insufficiently stable across the two day halves, so no latent-correlation verdict is available. This is not a null, a reversal, evidence for multiple dials or a repaired reading of the failed ES1 double split.
+
+*Rows are descriptive odd/even-day correlations of person-specific reactivity slopes, not the primary corrected correlation. The same 942 people have finite slopes for both families in both halves. Equality at 0.15 would pass; the fear row is below that fixed support boundary.*
+
+| Family | Half reliability | Required minimum | Support |
+|---|---:|---:|---|
+| Anger-type | 0.15874603 | 0.15 | passes |
+| Fear-type | 0.06427255 | 0.15 | fails |
+
+**Population and exclusions.** The source retains 64810 rows from 2190 people, including 39873 qualifying social-interaction rows and 24937 noninteraction rows outside the analysis. Missing identity, interaction and answered-day counts are zero. No additional item-missing rows are lost. The ten-prompt rule excludes 1019 people and 3770 interaction rows, leaving 1171 people and 36103 prompts. Of these people, 229 lack at least one defined odd/even slope and 942 have all required slopes. Undefined halves can reflect insufficient observations or zero predictor variance; this combined count does not pretend to separate those reasons. No individual record or slope is published. The twenty-person fallback floor passes, but does not waive the separate reliability gate.
+
+**Decision and limits.** The latent estimate, interval, bootstrap SE, sees and supports-at are unavailable because the point support gate fails. Zero bootstrap draws are run; the declared 2000-draw plan was never activated and is not reported as a completed bank. The one-dial lower-bound0.90 and more-than-one upper-bound0.85 rules cannot fire. The unchanged operator retains 222 complete native parent cases, including exact and graded worlds, weak-reliability refusal, inclusive boundaries, source/population handling and replay. Those fixtures establish computation under their assumptions; they cannot manufacture stable slopes in this source. Same-prompt shared-report noise, limited half support, selection into recorded interactions and within-person confounding remain limits. Neither the curator's one-dial account nor the analyst's additional anger-input rival is adjudicated. No p-value, new hypothesis, automatic instrument-sensitivity follow-up or scientific repair is introduced for unsupported data.
+
+**Integrity and costs.** All 67 completion outputs and 55 frozen dependencies authenticate. Fresh source, population and support replay match exactly. Both child phases and launchers and the owner exited, with the owned lease released. Actual environments and library pools respect two numerical threads and no GPU. Execute and replay consumed 4.0 and 3.875 inclusive native child CPU seconds, totaling 7.875, plus30 fixed coordination seconds. ES2's cumulative policy charge is 67.875, retaining the original pre-source refusal and its separate 30-second debit. Shared preparation stays on ES3. The repaired launcher observed admission before returning; no guard or research code changed.
+
+**Source credit.** Member0057 version1.0.0, [openESM17361658](https://zenodo.org/records/17361658), SHA256 fcd123f3725e977b008102fdcc30d16ac10e1ed4c7c294936e7ede6f3d059d3f,17603083bytes, CC BY 4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83), Kroencke and colleagues' [original study](https://doi.org/10.1037/pspp0000467), and openESM. This is a new harmonized-data analysis; no new literature review is claimed.
+
+**Next obligation.** Preserve this unsupported primary. Bind and run the five remaining already declared family pairs without replacing it or selecting favorable comparisons. Replication, occurrence/conditional-strength, first-week prediction and ES3 actual-source work remain separate admissions. Wider source-specific builds and the sixteen-ready-card buffer are incomplete; commissioned builders remain unavailable after usage-limit failures. CPU-only Gear 2, original ceilings, events/four-hour/single-pending wakes and final-packet reporting remain unchanged.
+
+
+Curator roll-up: one sensitivity across channels; Does one sensitivity account for both anger and fear reactivity?; **Narrows**; This diary fails the required half-reliability support and cannot decide the dial.; project meaning: no update to the one-dial or additional-input account; next engineering obligation: run declared secondaries and separately bound replications; public claim unchanged, effect inference unavailable; curator decision required: No. Detail: ES2_PRIMARY_0057_COMPLETE_20261117.md.
+
+### OPS-S15-W6-ES2-ADMISSION-RECOVERY-20261117
+
+**Hypothesis.** Can the already commissioned reactivity primary pass ordinary admission without losing prior evidence or exempting an unrecognized workspace reader?
+
+**METHOD.** Authenticate the failed terminal and all 55 frozen dependencies, verify the original owner has exited and no source phase began, inspect the current native inventory, and freeze one identical successor. Keep the native release shell alive until the admission receipt or a terminal refusal appears; capture a contemporaneous census on another refusal.
+
+**Found.** The first primary attempt refused an unrecognized workspace Python identity before admission or source access. That identity had already exited at inspection, so its ownership is unknown; it is not attributed to ToMpathy. An earlier secondary refusal directly identified our bookkeeping hook. The prior private launcher waited for that hook before release but returned immediately afterward, allowing another tool boundary during the worker's admission census. The successor also waits for admission before returning. This repairs sequencing only: no guard, hook, runtime, model, source, seed or scientific threshold changes. A further unrecognized reader still causes refusal. No process is stopped.
+
+**Preparation and cost.** The initial preparation helper omitted the runtime label from its preliminary transition call; it stopped before writing any budget, plan or source output. Passing the already reviewed complete transition contract repaired that setup-only omission. The committed primary binding then passed ordinary preparation. The failed native attempt retains zero child CPU seconds and its fixed 30-second coordination debit under ES2, inside the unchanged shared ES100000 and campaign 6000000 ceilings. Shared diary preparation remains on ES3. This is a pre-source refusal, not a scientific null. The complete prior diary primary and eighteen secondaries were pushed in commit071e5cb42; all 1858 older ledger rows and curator quotations were preserved.
+
+**Health and limits.** The closing inspection authenticated eight prior individual receipts, 133 coupling source pins, all four qualified phase receipts and five unchanged collector handoff packages. All 21 repository locks pass. The watcher and campaign calendar are alive; no old research attempt lacks a terminal and no lease remains owned by an exited worker. Available RAM55.85GiB, commit headroom42.44GiB and disk29.82GiB exceed the existing start floors. This is a scoped retention audit, not an exhaustive rehash of historical raw data or downloaded media. Events, four hours of owner inactivity and one pending delivery remain unchanged. CPU-only Gear 2 remains selected; this release has one ready primary and no other admitted waiting card against the sixteen-card target. Outstanding source bindings and unavailable commissioned builders keep the wider build incomplete; unused capacity remains an operational defect. No new hypothesis was harvested.
+
+**Next obligation.** Release the exact successor after this write-through and verify native admission and actual progress. Complete its entire source, computation and fresh replay before scientific interpretation or ACK. Continue the existing secondary, replication and source-specific builds without substituting missing items or changing admission rules.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The diary reactivity primary refused a transient workspace reader before source access; its evidence is preserved and an exact recovery keeps the launcher attached through admission.; project meaning: scoped operational record; next engineering obligation: Release the same primary through ordinary admission; preserve source boundaries and full replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES2_ADMISSION_RECOVERY_20261117.md.
+
 ### S15-W6-ES1-SECONDARY-SET-0057-20261117
 
 **Hypothesis.** Does being upstaged have the predicted conditional association with envy, does the shame preference for criticism grow with a person's usual respect, and what does the full declared fourteen-feeling by six-event map look like? These are the packet's existing secondaries, not a new primary selected after the first result.

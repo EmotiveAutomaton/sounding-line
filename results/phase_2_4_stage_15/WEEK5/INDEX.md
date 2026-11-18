@@ -1,5 +1,9 @@
 # Week 5 verified records
 
+**S15-W6-ES2-PRIMARY-0057-20261117:** [Record](ES2_PRIMARY_0057_COMPLETE_20261117.md). The original diary cannot support the registered one-dial comparison: fear reactivity is insufficiently stable across the two day halves, so no latent-correlation verdict is available.
+
+**OPS-S15-W6-ES2-ADMISSION-RECOVERY-20261117:** [Record](ES2_ADMISSION_RECOVERY_20261117.md). The diary reactivity primary refused a transient workspace reader before source access; its evidence is preserved and an exact recovery keeps the launcher attached through admission.
+
 **S15-W6-ES1-SECONDARY-SET-0057-20261117:** [Record](ES1_SECONDARY_SET_0057_COMPLETE_20261117.md). The completed diary secondary set supports the declared envy association, detects no usual-respect moderation, and supplies the complete descriptive feeling-by-event table; it does not rescue the failed primary double split.
 
 **OPS-S15-W6-ES1-HOOK-BOUNDARY-20261117:** [Record](ES1_HOOK_BOUNDARY_RECOVERY_20261117.md). The remaining diary queue is built; its latest refusal identifies the local bookkeeping hook, so release now waits for that hook to exit before unchanged admission.
