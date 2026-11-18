@@ -1755,3 +1755,9 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-18T03:41:14.976451+00:00 OPS-S15-W6-ES-POPULATION-QUALIFIED-20261117: The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate.
 
 2026-11-18T03:44:33.254492+00:00 OPS-S15-W6-ES-DAILY-QUALIFIED-20261117: The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate.
+
+2026-11-18T04:20:15.788935+00:00 OPS-S15-W6-ES1-PRE-SOURCE-REFUSAL-20261117: The first diary production attempt refused an extra workspace Python process before source access; its original failure and coordination charge are retained.
+
+2026-11-18T04:25:50.628905+00:00 OPS-S15-W6-ES1-PREFIX-AUTHENTICATED-20261117: The original-source diary primary has an authenticated first quantum with preserved checkpoints; its complete inference and independent replay remain unfinished.
+
+2026-11-18T04:38:15.946298+00:00 OPS-S15-W6-DIGEST-20261117: Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader.

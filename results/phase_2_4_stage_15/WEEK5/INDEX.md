@@ -1,5 +1,11 @@
 # Week 5 verified records
 
+**OPS-S15-W6-DIGEST-20261117:** [Record](WEEK6_DIGEST_20261117.md). Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader.
+
+**OPS-S15-W6-ES1-PREFIX-AUTHENTICATED-20261117:** [Record](ES1_PREFIX_AUTHENTICATED_20261117.md). The original-source diary primary has an authenticated first quantum with preserved checkpoints; its complete inference and independent replay remain unfinished.
+
+**OPS-S15-W6-ES1-PRE-SOURCE-REFUSAL-20261117:** [Record](ES1_PRE_SOURCE_REFUSAL_20261117.md). The first diary production attempt refused an extra workspace Python process before source access; its original failure and coordination charge are retained.
+
 **OPS-S15-W6-ES-DAILY-QUALIFIED-20261117:** [Record](ES_DAILY_QUALIFIED_20261117.md). The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate.
 
 **OPS-S15-W6-ES-POPULATION-QUALIFIED-20261117:** [Record](ES_POPULATION_QUALIFIED_20261117.md). The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate.

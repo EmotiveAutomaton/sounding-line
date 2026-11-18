@@ -2950,6 +2950,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-DIGEST-20261117:** Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261117.md).
+
+**OPS-S15-W6-ES1-PREFIX-AUTHENTICATED-20261117:** The original-source diary primary has an authenticated first quantum with preserved checkpoints; its complete inference and independent replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_PREFIX_AUTHENTICATED_20261117.md).
+
+**OPS-S15-W6-ES1-PRE-SOURCE-REFUSAL-20261117:** The first diary production attempt refused an extra workspace Python process before source access; its original failure and coordination charge are retained. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_PRE_SOURCE_REFUSAL_20261117.md).
+
 **OPS-S15-W6-ES-DAILY-QUALIFIED-20261117:** The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/ES_DAILY_QUALIFIED_20261117.md).
 
 **OPS-S15-W6-ES-POPULATION-QUALIFIED-20261117:** The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/ES_POPULATION_QUALIFIED_20261117.md).

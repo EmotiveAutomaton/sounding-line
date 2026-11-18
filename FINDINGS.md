@@ -1,5 +1,72 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-DIGEST-20261117
+
+**Hypothesis.** Are the completed evidence, costs, unused capacity and current queue obligations preserved after storage recovery and the companion restart?
+
+**METHOD.** Verify the calendar marker, retained result/receipt pairs, source pins, immutable attempts, native identities, shared leases, resource floors, collector handoffs, locked files and watcher delivery. Reconcile campaign admission-to-terminal intervals and bound separately counted qualification occupancy by measured supervisor duration. Preserve all scientific claims without interpreting unfinished diary output.
+
+**Found.** Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader.
+
+**Corrections and failures first.** The diary qualification's original observer-binding refusal and overbroad privacy-test failure remain fully filed with their charges. The corrected copied assertion still rejects demographic fields and preserves the required upstaged event. No production privacy whitelist or scientific gate changed. All four parent phases now pass, as does the separate coupling component. The first production launch refused an extra Python reader before source access; its ownership was not captured and is not asserted. A separate native-shell release removed overlap with setup Python and successfully entered ordinary admission. That retry completed its declared first quantum. The complete continuation's subsequent preparation was refused by a newly active companion reader before any continuation plan or attempt was written; it remains a private candidate, not a failed scientific run. Nothing was stopped or exempted.
+
+**Preserved evidence and build work.** 29 ledger rows in the digest interval reconcile to 29 distinct complete report/receipt pairs. The current inspection checks 41 recorded Week 6 plans and 155 distinct recorded native identities, with no unexplained admitted attempt or active Sounding Line worker. Eight previously reviewed individual public records and 133 retained qualification source pins match. All 21 canonical locks pass, and the five collector repository-request packages are unchanged. The original diary code and all retained failures remain available; six installed production modules match the qualified bytes. This is a scoped integrity check, not an exhaustive rehash of historical raw data or external media.
+
+The four complete parent qualification phases comprise 222 cases; the separate coupling component adds 42. Their case identities, thread limits, module bindings, manifests, native exits and once-only cost postings are checked. No participant source was opened during those qualifications. The subsequent original-source primary has its authenticated 100-draw checkpoint and successful native exit, with complete inference and fresh independent replay still due. No partial scientific score is reported here.
+
+**Costs and resources.** The cumulative policy-accounting snapshot at 2026-11-18T04:34:09.413945+00:00 is 32259.625000 CPU seconds. It includes the original shared diary preparation total of 1100.937500 seconds and all claimed production charges. The preparation total contains a disclosed 1000-second administrative debit, not a measured amount or a proven upper bound; the clock command's pre-argument startup CPU was not separately measured. Production accounting remains measured descendant Job usage plus the unchanged fixed 30-second coordination debit per claimed attempt. No exact measured whole-supervisor-cost claim is made. Family and campaign ceilings are unchanged, with no GPU, Ollama or paid dispatch.
+
+At the closing native inspection, available RAM is 57.78 GiB, Windows commit headroom is 42.82 GiB and disk headroom is 29.95 GiB. All exceed the existing admission floors. Storage growth remains an operational concern; the curator was asked to coordinate the large-output owner's own safe storage cleanup. No unrelated data was deleted.
+
+**Utilization.** The interval from 2026-11-17T04:06:15.449129+00:00 through the scheduled digest boundary 2026-11-18T04:00:00+00:00 contains 191.165669 authorized slot-hours. 18 campaign intervals account for 2.907727 occupied slot-hours. 10 separately counted qualification intervals add at most 0.040469 slot-hours, using supervisor durations as upper bounds where exact release clocks are absent. Occupied capacity is therefore between 2.907727 and 2.948197, and idle capacity between 188.217472 and 188.257941 slot-hours. These are capacity measures, not CPU charges. External collector and companion work is excluded. Shared-reader holds and the ready-buffer deficit are observed causes; their overlapping durations are not assigned invented causal shares. Idle capacity remains a recorded defect.
+
+**Current queue and next action.** CPU-only Gear 2 remains selected. No Sounding Line scientific worker is active at the closing inspection. One shared lease belongs to the active companion, and the sixteen-card ready buffer remains incomplete. One exact full diary continuation is prepared; current shared-reader admission prevents its start. The three commissioned builders still report usage-limit failures, so remaining implementation work stays inline.
+
+The newly observed companion began at 20:22 Pacific and is running TP23, seed 71, fold 0. The curator has been asked to arrange a 10–15-minute gap after that worker finishes. A read-only native-exit observer is now live and registered with the existing watcher. It reads neither companion study files nor participant data, changes no process, and cannot launch research. On its exit event the owner must inspect all current readers, resources and leases again, then apply ordinary admission to the preserved continuation. A later reader would remain a new boundary.
+
+The calendar and main watcher are alive, with a successful recent scan and no recorded watch error. Events plus four hours of owner inactivity, one pending delivery, and final-packet reporting remain unchanged. This digest, the original refusal and the authenticated checkpoint receive full write-through before their event ACKs. No new scientific tests were harvested from this operational request.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader.; project meaning: scoped operational record; next engineering obligation: After actual companion exit and fresh ordinary admission, continue the authenticated full diary primary; finish the wider source/build buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_DIGEST_20261117.md.
+
+### OPS-S15-W6-ES1-PREFIX-AUTHENTICATED-20261117
+
+**Hypothesis.** Can the commissioned diary primary preserve its original population and exact checkpoints while moving from its measured first quantum to complete execution?
+
+**METHOD.** Run the already qualified operator under one counted CPU-only Gear 2 lease. Authenticate the source/code/configuration pins, exact checkpoint manifest, contiguous draw identities, descendant Job accounting, native exit and lease release. Keep all original inputs and scientific parameters when freezing the continuation.
+
+**Found.** The original-source diary primary has an authenticated first quantum with preserved checkpoints; its complete inference and independent replay remain unfinished.
+
+The repaired native-shell release passed the unchanged admission guard. The first quantum deliberately saved after 100 of the fixed 2,000 draws; every sealed output remains present and hash-identical. No partial effect estimate is reported or interpreted. Source authentication occurred inside the counted worker before its whitelist projection; no participant record is published. The point and source summaries are retained for full replay, not promoted to evidence before completion.
+
+The completed child Job used 4.09375 CPU seconds and exited successfully. The policy also charges its fixed 30-second coordination debit; the earlier pre-source refusal retains its separate 30-second charge. Shared preparation remains posted on the original ES preparation identity. A simple two-phase extrapolation of this source-inclusive prefix is 193.75 CPU seconds including the fixed debit; it is a scheduling estimate, not a new ceiling. The full successor keeps the 1,800-second CPU/wall bounds and unchanged 100,000-second shared family ceiling.
+
+The continuation retains the same source, seed, original population, joint predictors, two primary contrasts, pooled scaling, 2,000-draw target and invalid-draw policy. Only its new-draw quantum changes to allow completion. The standard resume adapter must authenticate and copy the old manifest before execution, then fresh verification recomputes the complete result in a distinct process. The old refusal and checkpoint remain immutable.
+
+The six qualified installed modules match their inspected bytes. The ready-buffer deficit remains: one reviewed continuation is prepared, while the wider campaign's unfinished source/build gates and unavailable commissioned builders persist. No new tests are harvested from this operational request, no guard is exempted and no companion worker is changed. Full internal write-through and final-packet reporting continue.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original-source diary primary has an authenticated first quantum with preserved checkpoints; its complete inference and independent replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Launch the exact authenticated full continuation; complete fresh replay before scientific interpretation.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES1_PREFIX_AUTHENTICATED_20261117.md.
+
+### OPS-S15-W6-ES1-PRE-SOURCE-REFUSAL-20261117
+
+**Hypothesis.** Can the first qualified diary primary enter ordinary production without sharing an unexplained accounting reader?
+
+**METHOD.** Inspect the immutable plan, native owner and refusal, absence of admission and child receipts, retained source pins, current process exit and cumulative accounting before preparing one identical successor.
+
+**Found.** The first diary production attempt refused an extra workspace Python process before source access; its original failure and coordination charge are retained.
+
+The refused identity has since exited. Its exact ownership was not captured and is not inferred from its PID. The launch sequence can expose its own short-lived Python setup reader to the new worker's census. The recovery therefore separates setup from worker release: all setup Python must exit before a native-shell handshake permits the worker's unchanged admission check. It grants no process exception and changes no runtime, scientific module, input, seed, criterion or source pin. No companion process is stopped.
+
+No execute child, counted lease or human-source read began. The terminal records zero child Job CPU; the existing policy retains its separate 30-second charge for this claimed attempt. This is not a claim of zero supervisor cost. The original failed directory and all bytes remain intact. One new attempt receives the same bounded first quantum and original family allowance.
+
+The latest health inspection found all recorded Week 6 attempts terminal or exited, no occupied leases, the watcher and calendar alive, matching retained source pins and an unchanged five-package collector inbox. The scope excludes an exhaustive historical raw-data or external-media rehash. Disk headroom is about 30 GiB, above the unchanged 20-GiB floor; the owner has been asked to coordinate storage growth. CPU-only Gear 2 and the wider ready-buffer deficit remain explicit. The three commissioned builders still report usage-limit failures.
+
+No new scientific test is harvested from this operational request. The completed constructed qualifications and every failed attempt remain recorded. No partial score or new scientific verdict is reported; final-packet and event/four-hour/single-pending policies remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first diary production attempt refused an extra workspace Python process before source access; its original failure and coordination charge are retained.; project meaning: scoped operational record; next engineering obligation: Release one identical successor only after setup Python exits; preserve ordinary admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES1_PRE_SOURCE_REFUSAL_20261117.md.
+
 ### OPS-S15-W6-ES-DAILY-QUALIFIED-20261117
 
 **Hypothesis.** Can the commissioned daily diary source and active operator satisfy its complete constructed fixture contract within the authorized CPU-only limits?
