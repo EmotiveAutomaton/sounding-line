@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The [version-2 daily binding](ES2_DAILY_0062_V2.md) uses the exact already-qualified source-specific adapter. The previous source-mapping hold was an owner module-selection error; its failed attempt, version-1 design and costs remain preserved. The corrected binding is ready for ordinary committed-plan admission in CPU-only Gear2. Other builds and the ready buffer remain incomplete; ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes are unchanged.
+**Current boundary:** The corrected daily comparison is complete and fully filed. The [eleven-configuration persistence grid](ES3_CARRY_GRID_0057_V1.md) is built on its exact qualified clock route; commit and ordinary admission precede production. CPU-only Gear2, original ceilings and closure remain. Wider work and the ready buffer are incomplete; companion compatibility is under review. Full internal filing, final-packet reporting and event/four-hour/single-pending wakes are unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed

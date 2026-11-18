@@ -1,5 +1,49 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-ES3-GRID-BUILD-20261118
+
+**Hypothesis.** Can the queue resume its existing scientific work while preserving evidence and reviewing a durable way for counted companion readers to coexist?
+
+**METHOD.** Verify the exact companion exit, actual native census, shared leases, resources, watcher delivery, retained receipts and source pins. Resume only the already-committed documented-day recovery through unchanged admission. Authenticate the installed persistence pipeline against its existing complete native qualification and bind its eleven commissioned configurations prospectively.
+
+**Found.** The previous companion worker and wrappers exited naturally at03:08Pacific. Ordinary admission then passed and the daily recovery completed with independent replay, preserved separately under S15-W6-ES2-DAILY-0062-20261118. No companion job was stopped. The inspected companion had already used one counted shared slot and a6GiB memory reservation; the recurring hold arises from the newer accounting census treating that unreviewed shared-code reader as unknown. The curator requested a durable coexistence solution. Recognition through verified lease, owner, frozen code and native identity is under review; it is not implemented or activated by this record. Unknown readers continue to refuse.
+
+**Build.** Eleven configurations comprise the existing persistence primary, five gap-curve cells and five same-pair shape cells on member0057. The exact six additive modules match the qualified delivery;225 qualification source pins and198 output pins were authenticated. The complete23-case native clock phase and222-case parent qualification are already filed. Installation opens no human rows and changes no previous module. Each configuration passes its static input contract; the design still needs its reviewed commit before production freeze. Original source, seed,2,000-draw recipe, support rules, fresh replay, ES3 budget,100,000CPU-second family ceiling and6,000,000campaign ceiling remain fixed. No cost is recharged for reused qualification.
+
+**Health and integrity.** The04:24Pacific inspection found zero unresolved research attempts and no occupied leases after the fast daily completion. Available RAM was50.77GiB, commit headroom34.87GiB and disk200.12GiB. The calendar and exact watcher were alive; its latest scan was85seconds old with no recorded error. Eight selected earlier public receipts,133 retained source pins and five collector delivery packages authenticated. This is a scoped check, not a rehash of all historical media. Both delivered events remain pending until this full write-through. All earlier failed attempts, unsupported outcomes and charges remain preserved.
+
+**Limits and next action.** Idle time and the deficient sixteen-card buffer remain owner build/admission defects. The eleven-grid design is built and fixtured but not counted ready until committed. Commissioned builders remain unavailable following their recorded usage-limit errors; work continues inline. First-week identity, person-coupling, duration and other campaign work remain separate. Commit and admit the reviewed grid, finish a tested additive companion-compatibility implementation, and verify actual progress before describing sustained Gear2 operation. No scientific design, gear, GPU, spending, foreign-process cleanup or wake-schedule authority is inferred. Event/four-hour/single-pending delivery and final-packet policy remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The corrected daily recovery is complete and preserved; eleven commissioned persistence configurations are built on the exact qualified clock pipeline, awaiting committed-plan release.; project meaning: scoped operational record; next engineering obligation: Commit and admit the persistence grid; qualify additive companion coexistence.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES3_GRID_BUILD_20261118.md.
+
+### S15-W6-ES2-DAILY-0062-20261118
+
+**Hypothesis.** Do people who react more strongly to perceived daily adversity with anger also react more strongly with fear, consistently enough to identify one shared sensitivity?
+
+**METHOD.** Analyze the preserved openESM0062 version1.0.0 daily table using the separately qualified documented-day adapter. Select the daily source tag and derive study days one through fourteen from the explicitly documented original codes zero through thirteen, without rebasing missing days. Use the curator-approved mean daily agreement with failure, pressure, feeling unappreciated and disagreements as perceived adversity, rather than an event count. Pair it with the declared daily anger and fear ratings. Apply the unchanged within-person centering, pooled within-person scaling, ten-common-complete-day support rule, separate-intercept odd/even-day slopes and fixed own-half reliability floor of0.15 for both feelings. A corrected cross-half correlation and the fixed2,000-person-resample bank are allowed only when this point support passes. Seed20261116006202 and all scientific gates are unchanged. Repeat source construction and the complete support calculation in a different native process.
+
+**Found.** The daily perceived-adversity replication cannot identify one shared sensitivity: fear reactivity fails the fixed half-reliability requirement.
+
+*The one row is the complete declared daily anger/fear comparison. Eligible people have enough complete days; identified people have defined half slopes. Reliability is each feeling's odd/even slope consistency, with0.15 required for both.*
+
+| Comparison | Eligible people | Identified | Undefined | Anger reliability | Fear reliability | Corrected correlation and interval |
+|---|---:|---:|---:|---:|---:|---|
+| Daily anger / fear |115|114|1|0.25764814|0.10628869|Unavailable: support failed|
+
+**Source and exclusions.** All13,880 retained source rows were classified:2,318 daily rows and11,562 momentary rows excluded by the declared table selection. The daily source has307 people,2,309 recorded person-days and nine blank rows. There are249 daily rows carrying original day code zero; those retain the documented derived first study day. Missing identity/day counts and identical daily duplicates are zero. Fifteen rows lack the required complete ratings. The ten-day floor excludes192 people and913 rows, leaving115 eligible people. One eligible person's half slopes are undefined. These aggregate dispositions are preserved; participant identifiers, original day values and individual slopes are not exported.
+
+**Uncertainty and meaning.** The fixed support gate stops the draw bank. No bootstrap interval, standard error, sees, supports-at, one-dial verdict or additional-input verdict is available. This is unsupported, not a null, a negative result or an instrument repair target. The twenty-person descriptive floor cannot waive reliability. This source uses perceived-adversity ratings at daily resolution, a different replication measure from momentary event ratings. Shared reporting, finite day halves, measurement error and observational confounding remain rivals; participant overlap with other members is not established. No new p-value or replacement primary is introduced. The wider shared-sensitivity hypothesis remains open.
+
+**Execution and correction history.** The original wrong-parser attempt, its traceback and charges remain intact. The already-filed source-specific correction was committed before this fresh successor. Preparation first refused the then-live unreviewed companion reader without creating a research attempt. Its exact worker and wrappers subsequently exited naturally. Reusing the preserved preparation inputs passed unchanged admission; the monitored successor completed source/support execution and fresh native replay. All declared terminal outputs and plan dependencies authenticate, distinct execute/verify identities have exited and the lease is released. No companion process or guard was stopped or exempted. Measured inclusive child CPU is1.921875seconds, whole-attempt wall26.9160022seconds, plus the fixed30CPU-second coordination debit. Earlier qualification and failed-attempt costs remain separately counted without reset or recharge.
+
+**Source credit.** openESM0062 version1.0.0, [record17347975](https://zenodo.org/records/17347975), original STECCO diary, CC BY4.0. The preserved6,917,023-byte source has SHA2561c27ae6f25d972f870c836791a9906493cab4ce395c2d70754329750c4019293. Codebook page3 and the preserved official cleaning transformation establish the declared day mapping. This is a new harmonized-data analysis; no new literature review is claimed.
+
+**Next obligation.** Preserve this completed support result and proceed to the independently qualified persistence grid. First-week identity, separate person-coupling and duration cards, and the wider ready buffer remain incomplete. CPU-only Gear2, original ceilings and closure, full internal filing and final-packet reporting remain unchanged. No new scientific test was harvested from the operational request.
+
+
+Curator roll-up: one sensitivity across channels; Does the daily replication identify shared sensitivity?; **Narrows**; The daily comparison lacks the required reliability support.; project meaning: one-dial inference remains unavailable; next engineering obligation: separately qualified persistence grid; public claim unchanged; curator decision required: No. Detail: ES2_DAILY_0062_COMPLETE_20261118.md.
+
 ### OPS-S15-W6-ES2-DAILY-BINDING-REPAIR-20261118
 
 **Hypothesis.** Can the stalled daily perceived-adversity comparison resume on its already-qualified source-specific adapter without changing its scientific design or losing earlier evidence?

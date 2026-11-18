@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-ES3-GRID-BUILD-20261118: The corrected daily recovery is complete and preserved; eleven commissioned persistence configurations are built on the exact qualified clock pipeline, awaiting committed-plan release.
+
+- [x] S15-W6-ES2-DAILY-0062-20261118: The daily perceived-adversity replication cannot identify one shared sensitivity: fear reactivity fails the fixed half-reliability requirement.
+
 - [x] OPS-S15-W6-ES2-DAILY-BINDING-REPAIR-20261118: The daily-study stall was an owner integration error: the correct source-specific day adapter was already documented and natively qualified, but the previous attempt used the older parser.
 
 - [x] OPS-S15-W6-ES2-DAILY-DAY-GATE-20261118: The daily perceived-adversity run passed native admission but stopped at the declared study-day validation before estimation; the original failure and costs are preserved pending source-clock review.
@@ -58,7 +62,7 @@
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES remaining commissioned work: Original and second-member ES1 and original/second-member ES2 panels are filed. The daily adapter is already natively qualified and now correctly installed; release its separately frozen version-2 binding after ordinary admission. Preserve the prior wrong-parser attempt and charge. First-week prediction and ES3 actual-source clocks remain separate; wider builds and the sixteen-card buffer remain incomplete.
+- [ ] ES remaining commissioned work: ES1 and the admitted original, second-member and daily ES2 comparisons are fully filed. Eleven ES3 persistence configurations are built and natively fixtured; commit their design and admit them. Finish separately commissioned first-week, person-coupling, duration and wider builds. Preserve all support failures and costs; complete tested shared-reader compatibility. The sixteen-card buffer remains deficient.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 

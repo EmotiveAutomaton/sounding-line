@@ -2950,6 +2950,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-ES3-GRID-BUILD-20261118:** The corrected daily recovery is complete and preserved; eleven commissioned persistence configurations are built on the exact qualified clock pipeline, awaiting committed-plan release. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_GRID_BUILD_20261118.md).
+
+**S15-W6-ES2-DAILY-0062-20261118:** The daily perceived-adversity replication cannot identify one shared sensitivity: fear reactivity fails the fixed half-reliability requirement. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_DAILY_0062_COMPLETE_20261118.md).
+
 **OPS-S15-W6-ES2-DAILY-BINDING-REPAIR-20261118:** The daily-study stall was an owner integration error: the correct source-specific day adapter was already documented and natively qualified, but the previous attempt used the older parser. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_DAILY_BINDING_REPAIR_20261118.md).
 
 **OPS-S15-W6-ES2-DAILY-DAY-GATE-20261118:** The daily perceived-adversity run passed native admission but stopped at the declared study-day validation before estimation; the original failure and costs are preserved pending source-clock review. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_DAILY_DAY_GATE_20261118.md).
