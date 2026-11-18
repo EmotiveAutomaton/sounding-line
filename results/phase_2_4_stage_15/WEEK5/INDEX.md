@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**S15-W6-ES2-FLOOR-0057-20261118:** [Record](ES2_FLOOR_0057_COMPLETE_20261118.md). None of the twelve declared occurrence or conditional-strength comparisons supplies a one-dial verdict: nine lack half-reliability support and three have unavailable full-bank intervals.
+
 **S15-W6-ES1-REPLICATION-0056-20261118:** [Record](ES1_REPLICATION_0056_COMPLETE_20261118.md). The available-item diary replication supports the four declared shame, anger, pride and envy contrasts; usual-respect moderation is not detected, and missing loneliness items prevent a replication of the joint primary.
 
 **OPS-S15-W6-ES1-REPLICATION-RELEASE-20261118:** [Record](ES1_REPLICATION_RELEASE_20261118.md). The companion reader exited naturally; ordinary admission now passes and all seventeen existing replication plans are frozen for CPU-only Gear 2 release.

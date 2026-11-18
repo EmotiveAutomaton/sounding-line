@@ -2950,6 +2950,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W6-ES2-FLOOR-0057-20261118:** None of the twelve declared occurrence or conditional-strength comparisons supplies a one-dial verdict: nine lack half-reliability support and three have unavailable full-bank intervals. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_FLOOR_0057_COMPLETE_20261118.md).
+
 **S15-W6-ES1-REPLICATION-0056-20261118:** The available-item diary replication supports the four declared shame, anger, pride and envy contrasts; usual-respect moderation is not detected, and missing loneliness items prevent a replication of the joint primary. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_REPLICATION_0056_COMPLETE_20261118.md).
 
 **OPS-S15-W6-ES1-REPLICATION-RELEASE-20261118:** The companion reader exited naturally; ordinary admission now passes and all seventeen existing replication plans are frozen for CPU-only Gear 2 release. [Record](../results/phase_2_4_stage_15/WEEK5/ES1_REPLICATION_RELEASE_20261118.md).

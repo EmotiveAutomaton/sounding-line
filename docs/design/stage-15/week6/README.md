@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The seventeen available second-member ES1 replication panels are complete, independently replayed and fully filed. The finite queue has drained. The [twelve occurrence/conditional-strength comparisons](ES2_FLOOR_SPLIT_0057_V1.md) bind the next commissioned configurations to the unchanged qualified operator; ordinary admission and native execution remain pending. CPU-only Gear 2 is selected. Other builds, source-clock checks and the ready buffer remain incomplete. Original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
+**Current boundary:** The twelve original-member ES2 occurrence/strength comparisons are complete, independently replayed and fully filed. The [nine available second-member configurations](ES2_REPLICATION_0056_V1.md) are the next commissioned binding; nine sadness-family configurations lack required items. Commit and ordinary admission precede execution. CPU-only Gear2 is selected. Other builds, source-clock checks and the ready buffer remain incomplete. Original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
