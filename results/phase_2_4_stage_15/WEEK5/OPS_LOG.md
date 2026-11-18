@@ -1761,3 +1761,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-18T04:25:50.628905+00:00 OPS-S15-W6-ES1-PREFIX-AUTHENTICATED-20261117: The original-source diary primary has an authenticated first quantum with preserved checkpoints; its complete inference and independent replay remain unfinished.
 
 2026-11-18T04:38:15.946298+00:00 OPS-S15-W6-DIGEST-20261117: Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader.
+
+2026-11-18T05:18:01.551275+00:00 S15-W6-ES1-PRIMARY-0057-20261117: The diary primary supports a stronger shame association with criticism than with being ignored, but detects no corresponding loneliness preference for being ignored; the predicted double split does not hold.

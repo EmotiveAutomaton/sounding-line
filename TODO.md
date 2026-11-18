@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] S15-W6-ES1-PRIMARY-0057-20261117: The diary primary supports a stronger shame association with criticism than with being ignored, but detects no corresponding loneliness preference for being ignored; the predicted double split does not hold.
+
 - [x] OPS-S15-W6-DIGEST-20261117: Completed evidence and the diary checkpoint reconcile; the full diary continuation is prepared but currently admission-held by the newly active companion reader.
 
 - [x] OPS-S15-W6-ES1-PREFIX-AUTHENTICATED-20261117: The original-source diary primary has an authenticated first quantum with preserved checkpoints; its complete inference and independent replay remain unfinished.
@@ -22,7 +24,7 @@
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES production continuation after OPS-S15-W6-DIGEST-20261117: The six qualified modules and primary design are committed, source metadata is admitted for the primary, and the original-source 100-draw checkpoint is authenticated. Resume the unchanged full primary only after actual companion exit and ordinary admission; keep all other source-specific bindings and the wider ready-buffer work explicit.
+- [ ] ES remaining commissioned work after S15-W6-ES1-PRIMARY-0057-20261117: Member0057 primary a/b and full replay are complete. Bind the declared secondary contrasts, full table and usual-respect moderation; qualify source-specific replication without replacing member0056's missing loneliness item. ES2 and ES3 remain separate admissions. Preserve all original evidence and incurred charges.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 
