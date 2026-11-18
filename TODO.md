@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-ES2-DAILY-BINDING-REPAIR-20261118: The daily-study stall was an owner integration error: the correct source-specific day adapter was already documented and natively qualified, but the previous attempt used the older parser.
+
 - [x] OPS-S15-W6-ES2-DAILY-DAY-GATE-20261118: The daily perceived-adversity run passed native admission but stopped at the declared study-day validation before estimation; the original failure and costs are preserved pending source-clock review.
 
 - [x] S15-W6-ES2-REPLICATION-0056-20261118: None of the nine available-item diary replication comparisons supplies a one-dial verdict: eight lack half-reliability support and one has an unavailable full-bank interval.
@@ -56,7 +58,7 @@
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES remaining commissioned work: Original and second-member ES1, original ES2 pairs/floor variants and all nine available0056 ES2 configurations are fully filed; nine missing sadness-family configurations are design-cannot-test. The0062 daily comparison is source-held by an invalid original study-day encoding. Build a counted encoding/layout audit, establish authoritative mapping, qualify any adapter successor, then resume; do not drop or shift days by assumption. First-week prediction and ES3 actual-source clocks remain separate.
+- [ ] ES remaining commissioned work: Original and second-member ES1 and original/second-member ES2 panels are filed. The daily adapter is already natively qualified and now correctly installed; release its separately frozen version-2 binding after ordinary admission. Preserve the prior wrong-parser attempt and charge. First-week prediction and ES3 actual-source clocks remain separate; wider builds and the sixteen-card buffer remain incomplete.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 

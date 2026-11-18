@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** All nine available0056 ES2 replication configurations are complete, independently replayed, filed and pushed. The [daily perceived-adversity binding](ES2_DAILY_0062_V1.md) passed native admission but refused its original study-day encoding before estimation. Preserve that attempt; counted source-clock review and any necessary successor qualification precede a retry. Research is currently idle with CPU-only Gear2 selected. Other builds and the ready buffer remain incomplete; original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
+**Current boundary:** The [version-2 daily binding](ES2_DAILY_0062_V2.md) uses the exact already-qualified source-specific adapter. The previous source-mapping hold was an owner module-selection error; its failed attempt, version-1 design and costs remain preserved. The corrected binding is ready for ordinary committed-plan admission in CPU-only Gear2. Other builds and the ready buffer remain incomplete; ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes are unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
