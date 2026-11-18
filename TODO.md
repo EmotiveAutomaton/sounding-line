@@ -1,10 +1,22 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-ES-DAILY-QUALIFIED-20261117: The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate.
+
+- [x] OPS-S15-W6-ES-POPULATION-QUALIFIED-20261117: The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate.
+
+- [x] OPS-S15-W6-ES-CLOCK-QUALIFIED-20261117: The diary clock mapping passes its complete 23-case constructed qualification; actual source and production admission remain separate.
+
+- [x] OPS-S15-W6-ES-ORIGINAL-QUALIFIED-20261117: The original diary operator passes its complete 103-case constructed qualification; actual source and production admission remain separate.
+
+- [x] OPS-S15-W6-ES-ORIGINAL-PRIVACY-FIXTURE-FAILURE-20261117: The original diary qualification completed but failed an overbroad fixture assertion that mistakes the required upstaged event for an age field; human-source admission remains closed.
+
+- [x] OPS-S15-W6-ES-ORIGINAL-OBSERVER-REFUSAL-20261117: The original diary phase refused an incorrectly broad module-observer binding before any test call; its failure and full charge are preserved for a phase-specific metadata repair.
+
 - [x] OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117: The diary-coupling qualification passes all 42 fixed native cases with complete accounting and verified exits; the original diary, clock, population and daily-source gates remain separate.
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES source/production admission after OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117: the 42-case constructed coupling qualification is fully filed and charged. Complete original diary, clock, population and daily-source qualifications and exact production/source bindings; no human-source admission follows from the coupling pass.
+- [ ] ES source/production admission after OPS-S15-W6-ES-DAILY-QUALIFIED-20261117: All four parent qualification phases and the separate coupling component now have complete native evidence. Exact source, codebook and production bindings remain due. No human-source admission follows from constructed qualification.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 

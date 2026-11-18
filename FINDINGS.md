@@ -1,5 +1,129 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-ES-DAILY-QUALIFIED-20261117
+
+**Hypothesis.** Can the commissioned daily diary source and active operator satisfy its complete constructed fixture contract within the authorized CPU-only limits?
+
+**METHOD.** Execute the frozen phase once in a counted native Job under the unchanged admission guard. Independently compare every setup, test and teardown identity, source and output hash, scientific-module observation, numerical-thread witness, assigned process and exit. Post inclusive supervisor and descendant cost once before further launch.
+
+**Found.** The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate.
+
+**Scope and preservation.** The exact phase selection comes from the preserved four-phase case manifest. Test bodies, scientific source bytes and original case dispositions are unchanged. The phase-specific import set includes the active integration checks and every scientific helper they use. No human sources were opened. This is instrument qualification in constructed data, with no scientific estimate or human claim.
+
+**Complete verification.** All 56 expected cases pass, without a collection error, skipped call or unexpected identity. The 56 setup witnesses and 115 numerical-binding observations match the complete selection; both collection and final scientific-module maps match their frozen paths and hashes. Numerical pools remain within two threads. All 3 recorded native identities are observed and exited; the Job is empty and closed, and its owned shared lease is released. Every declared source pin and output-manifest hash verifies.
+
+**Accounting.** This run consumed 7.265625 inclusive CPU seconds, posted once to the original diary accounting key. Accumulated preparation accounting is 1100.9375 seconds. That total retains the earlier 1000-second administrative preparation debit, which is not measured usage or a proven upper bound, plus every prior failed-run charge. Family and campaign ceilings are unchanged.
+
+**Remaining work.** All four parent qualification phases and the separate coupling component now have complete native evidence. Exact source, codebook and production bindings remain required. CPU-only Gear 2 stays selected; there is no scientific worker at this terminal boundary and the ready waiting buffer remains zero against sixteen required. The wider build deficit and three commissioned builders' recorded usage-limit failures remain explicit. No foreign job was changed or exempted.
+
+No tests were harvested from this operational request. No unfinished per-artifact scores are reported. Scientific claims, final-packet reporting, and event/four-hour/single-pending wake policy are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate.; project meaning: scoped operational record; next engineering obligation: All four parent qualification phases and the separate coupling component now have complete native evidence. Review exact source and production admission before human analysis.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES_DAILY_QUALIFIED_20261117.md.
+
+### OPS-S15-W6-ES-POPULATION-QUALIFIED-20261117
+
+**Hypothesis.** Can the commissioned diary population and active operator satisfy its complete constructed fixture contract within the authorized CPU-only limits?
+
+**METHOD.** Execute the frozen phase once in a counted native Job under the unchanged admission guard. Independently compare every setup, test and teardown identity, source and output hash, scientific-module observation, numerical-thread witness, assigned process and exit. Post inclusive supervisor and descendant cost once before further launch.
+
+**Found.** The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate.
+
+**Scope and preservation.** The exact phase selection comes from the preserved four-phase case manifest. Test bodies, scientific source bytes and original case dispositions are unchanged. The phase-specific import set includes the active integration checks and every scientific helper they use. No human sources were opened. This is instrument qualification in constructed data, with no scientific estimate or human claim.
+
+**Complete verification.** All 40 expected cases pass, without a collection error, skipped call or unexpected identity. The 40 setup witnesses and 83 numerical-binding observations match the complete selection; both collection and final scientific-module maps match their frozen paths and hashes. Numerical pools remain within two threads. All 3 recorded native identities are observed and exited; the Job is empty and closed, and its owned shared lease is released. Every declared source pin and output-manifest hash verifies.
+
+**Accounting.** This run consumed 18.453125 inclusive CPU seconds, posted once to the original diary accounting key. Accumulated preparation accounting is 1093.671875 seconds. That total retains the earlier 1000-second administrative preparation debit, which is not measured usage or a proven upper bound, plus every prior failed-run charge. Family and campaign ceilings are unchanged.
+
+**Remaining work.** Daily-source qualification remains due. Exact source, codebook and production bindings remain required. CPU-only Gear 2 stays selected; there is no scientific worker at this terminal boundary and the ready waiting buffer remains zero against sixteen required. The wider build deficit and three commissioned builders' recorded usage-limit failures remain explicit. No foreign job was changed or exempted.
+
+No tests were harvested from this operational request. No unfinished per-artifact scores are reported. Scientific claims, final-packet reporting, and event/four-hour/single-pending wake policy are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate.; project meaning: scoped operational record; next engineering obligation: Daily-source qualification remains due. Review exact source and production admission before human analysis.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES_POPULATION_QUALIFIED_20261117.md.
+
+### OPS-S15-W6-ES-CLOCK-QUALIFIED-20261117
+
+**Hypothesis.** Can the commissioned diary clock mapping satisfy its complete constructed fixture contract within the authorized CPU-only limits?
+
+**METHOD.** Execute the frozen phase once in a counted native Job under the unchanged admission guard. Independently compare every setup, test and teardown identity, source and output hash, scientific-module observation, numerical-thread witness, assigned process and exit. Post inclusive supervisor and descendant cost once before further launch.
+
+**Found.** The diary clock mapping passes its complete 23-case constructed qualification; actual source and production admission remain separate.
+
+**Scope and preservation.** The exact phase selection comes from the preserved four-phase case manifest. Test bodies, scientific source bytes and original case dispositions are unchanged. The phase-specific import set includes the active integration checks and every scientific helper they use. No human sources were opened. This is instrument qualification in constructed data, with no scientific estimate or human claim.
+
+**Complete verification.** All 23 expected cases pass, without a collection error, skipped call or unexpected identity. The 23 setup witnesses and 49 numerical-binding observations match the complete selection; both collection and final scientific-module maps match their frozen paths and hashes. Numerical pools remain within two threads. All 3 recorded native identities are observed and exited; the Job is empty and closed, and its owned shared lease is released. Every declared source pin and output-manifest hash verifies.
+
+**Accounting.** This run consumed 7.265625 inclusive CPU seconds, posted once to the original diary accounting key. Accumulated preparation accounting is 1075.21875 seconds. That total retains the earlier 1000-second administrative preparation debit, which is not measured usage or a proven upper bound, plus every prior failed-run charge. Family and campaign ceilings are unchanged.
+
+**Remaining work.** Population and daily-source qualifications remain due. Exact source, codebook and production bindings remain required. CPU-only Gear 2 stays selected; there is no scientific worker at this terminal boundary and the ready waiting buffer remains zero against sixteen required. The wider build deficit and three commissioned builders' recorded usage-limit failures remain explicit. No foreign job was changed or exempted.
+
+No tests were harvested from this operational request. No unfinished per-artifact scores are reported. Scientific claims, final-packet reporting, and event/four-hour/single-pending wake policy are unchanged.
+
+**Invocation correction.** An earlier owner command omitted the mandatory release flag and exited at argument validation, before any attempt directory, source access or worker existed. Its startup CPU was not separately measured; no claim of exact metering of all owner preparation follows. The subsequent explicitly released native qualification is the measured run reported here.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The diary clock mapping passes its complete 23-case constructed qualification; actual source and production admission remain separate.; project meaning: scoped operational record; next engineering obligation: Population and daily-source qualifications remain due. Review exact source and production admission before human analysis.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES_CLOCK_QUALIFIED_20261117.md.
+
+### OPS-S15-W6-ES-ORIGINAL-QUALIFIED-20261117
+
+**Hypothesis.** Can the commissioned original diary operator satisfy its complete constructed fixture contract within the authorized CPU-only limits?
+
+**METHOD.** Execute the frozen phase once in a counted native Job under the unchanged admission guard. Independently compare every setup, test and teardown identity, source and output hash, scientific-module observation, numerical-thread witness, assigned process and exit. Post inclusive supervisor and descendant cost once before further launch.
+
+**Found.** The original diary operator passes its complete 103-case constructed qualification; actual source and production admission remain separate.
+
+**Scope and preservation.** The second original-phase engineering heal corrects only the copied privacy assertion: age is matched as a field token, so the required upstaged event remains accepted while demographic and trait field examples are explicitly rejected. The original test file and both failed attempts are retained. No production whitelist, estimator or scientific gate changed. No human sources were opened. This is instrument qualification in constructed data, with no scientific estimate or human claim.
+
+**Complete verification.** All 103 expected cases pass, without a collection error, skipped call or unexpected identity. The 103 setup witnesses and 209 numerical-binding observations match the complete selection; both collection and final scientific-module maps match their frozen paths and hashes. Numerical pools remain within two threads. All 3 recorded native identities are observed and exited; the Job is empty and closed, and its owned shared lease is released. Every declared source pin and output-manifest hash verifies.
+
+**Accounting.** This run consumed 23.65625 inclusive CPU seconds, posted once to the original diary accounting key. Accumulated preparation accounting is 1067.953125 seconds. That total retains the earlier 1000-second administrative preparation debit, which is not measured usage or a proven upper bound, plus every prior failed-run charge. Family and campaign ceilings are unchanged.
+
+**Remaining work.** Clock, population and daily-source qualifications remain due. Exact source, codebook and production bindings remain required. CPU-only Gear 2 stays selected; there is no scientific worker at this terminal boundary and the ready waiting buffer remains zero against sixteen required. The wider build deficit and three commissioned builders' recorded usage-limit failures remain explicit. No foreign job was changed or exempted.
+
+No tests were harvested from this operational request. No unfinished per-artifact scores are reported. Scientific claims, final-packet reporting, and event/four-hour/single-pending wake policy are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original diary operator passes its complete 103-case constructed qualification; actual source and production admission remain separate.; project meaning: scoped operational record; next engineering obligation: Clock, population and daily-source qualifications remain due. Review exact source and production admission before human analysis.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES_ORIGINAL_QUALIFIED_20261117.md.
+
+### OPS-S15-W6-ES-ORIGINAL-PRIVACY-FIXTURE-FAILURE-20261117
+
+**Hypothesis.** Can the original diary operator meet its full constructed fixture contract while excluding demographic and trait columns?
+
+**METHOD.** Run the complete frozen original-phase selection under counted native containment and exact phase-module observation. Inspect every test disposition, the failing assertion, original packet wording and explicit source whitelist, then authenticate all source/output hashes, native exits and booked cost. Preserve the original failed qualification before any repair.
+
+**Found.** The original diary qualification completed but failed an overbroad fixture assertion that mistakes the required upstaged event for an age field; human-source admission remains closed.
+
+**Diagnosis.** The module-binding repair allowed the complete original phase to execute. One assertion uses substring matching for age, so it also rejects status_upstaged. The commissioned packet explicitly requires the upstaged event; the source reader uses an explicit named-column whitelist. This is a fixture identification bug, not evidence that participant ages were read. All test identities are accounted for and the full qualification is failed. No human data were opened and no scientific result is inferred from the other checks.
+
+**Preservation and accounting.** All original source pins and output hashes verify. The three native identities were observed and exited, the native Job is empty and closed, and the owned lease is released. The booked 25.59375 CPU seconds include the retained two-second termination margin and are posted once. Accumulated diary preparation accounting is 1044.296875 seconds, including the previously disclosed administrative debit; original family and campaign allowances are unchanged. Both original-phase failures and the earlier coupling failure remain retained.
+
+**Second engineering heal.** Preserve the old test bank and prepare a separate test-file successor. Match age as a field token, while retaining the existing sex, gender, trait and neurotic checks; add explicit literal checks that prohibited field names fail and status_upstaged is accepted. Retain the complete original case set, with only this case's assertion repaired and the copied test-file location mapped explicitly. No production source, whitelist, mathematical estimator, population, threshold or runtime limit changes. The original failed case remains evidence. The corrected fixture must complete in full before any qualification claim, and the separate clock, population and daily-source gates still apply.
+
+CPU-only Gear 2 remains selected. No scientific worker or ready waiting buffer exists at this terminal boundary; source admission and the remaining build work are unfinished. No new scientific tests were harvested, no partial scores are reported, and scientific claims and final-packet policy remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original diary qualification completed but failed an overbroad fixture assertion that mistakes the required upstaged event for an age field; human-source admission remains closed.; project meaning: scoped operational record; next engineering obligation: Run the second engineering heal with the complete case set and explicit privacy-field controls; retain all failures and source gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES_ORIGINAL_PRIVACY_FIXTURE_FAILURE_20261117.md.
+
+### OPS-S15-W6-ES-ORIGINAL-OBSERVER-REFUSAL-20261117
+
+**Hypothesis.** Can the original diary fixture run with exact source observation and counted native containment while retaining every commissioned test and earlier cost?
+
+**METHOD.** Retain the original 103-case selection and limits, use the qualified containment and final-child thread binding, then inspect the complete terminal, collection diagnostics, source/output hashes and actual Job exits. Derive the phase-specific module dependency set from the frozen test and implementation imports before preparing a separate repair.
+
+**Found.** The original diary phase refused an incorrectly broad module-observer binding before any test call; its failure and full charge are preserved for a phase-specific metadata repair.
+
+**Cause and preservation.** The owner incorrectly required every scientific module across all four qualification phases to be imported during this original phase. Its five selected test files import only their seven-module dependency set; the other nine belong to later phases. The observer refused at collection and again at session end. No test call or human source access occurred. Every original test body, parameter identity and source pin is unchanged. The unsuccessful capsule and all diagnostics remain retained.
+
+**Containment and cost.** All three assigned native identities were observed and exited, the native Job is empty and closed, and the owned shared lease is released. The booked charge is 8.125 CPU seconds, including the retained two-second termination margin, posted once within the existing diary key. Its accumulated preparation accounting is now 1018.703125 seconds; this includes the earlier explicitly administrative preparation debit, which is not exact metering or a proven upper bound. Neither family nor campaign allowance changes.
+
+**Recovery.** Prepare a first engineering heal with the same executable files, 103 cases, 600 inclusive CPU seconds, 1200 wall seconds, 2 GiB, 64 MiB output, two numerical threads and one counted slot. The expected module map is derived from the actual frozen phase dependency closure, not from numerical outcomes. All wider module bytes remain pinned; clock, population and daily phases retain their separate gates. This changes observer scope only, not the tests, estimator, source population or scientific gate. No foreign process was changed or exempted.
+
+CPU-only Gear 2 remains selected, with no scientific worker at this terminal boundary and no ready waiting buffer. This remains a build/admission defect. No new tests were harvested. No partial scores or scientific claim are reported; final-packet and event/four-hour/single-pending wake policies remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original diary phase refused an incorrectly broad module-observer binding before any test call; its failure and full charge are preserved for a phase-specific metadata repair.; project meaning: scoped operational record; next engineering obligation: Run the phase-specific metadata heal without changing the fixed 103 cases or original limits.; public scientific claim unchanged; curator decision required: No new decision. Detail: ES_ORIGINAL_OBSERVER_REFUSAL_20261117.md.
+
 ### OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117
 
 **Hypothesis.** Can the commissioned diary-coupling implementation pass its frozen constructed checks under counted CPU-only execution without losing prior failures or weakening admission?

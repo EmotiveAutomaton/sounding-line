@@ -1,5 +1,17 @@
 # Week 5 verified records
 
+**OPS-S15-W6-ES-DAILY-QUALIFIED-20261117:** [Record](ES_DAILY_QUALIFIED_20261117.md). The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate.
+
+**OPS-S15-W6-ES-POPULATION-QUALIFIED-20261117:** [Record](ES_POPULATION_QUALIFIED_20261117.md). The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate.
+
+**OPS-S15-W6-ES-CLOCK-QUALIFIED-20261117:** [Record](ES_CLOCK_QUALIFIED_20261117.md). The diary clock mapping passes its complete 23-case constructed qualification; actual source and production admission remain separate.
+
+**OPS-S15-W6-ES-ORIGINAL-QUALIFIED-20261117:** [Record](ES_ORIGINAL_QUALIFIED_20261117.md). The original diary operator passes its complete 103-case constructed qualification; actual source and production admission remain separate.
+
+**OPS-S15-W6-ES-ORIGINAL-PRIVACY-FIXTURE-FAILURE-20261117:** [Record](ES_ORIGINAL_PRIVACY_FIXTURE_FAILURE_20261117.md). The original diary qualification completed but failed an overbroad fixture assertion that mistakes the required upstaged event for an age field; human-source admission remains closed.
+
+**OPS-S15-W6-ES-ORIGINAL-OBSERVER-REFUSAL-20261117:** [Record](ES_ORIGINAL_OBSERVER_REFUSAL_20261117.md). The original diary phase refused an incorrectly broad module-observer binding before any test call; its failure and full charge are preserved for a phase-specific metadata repair.
+
 **OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117:** [Record](ES3_COUPLING_QUALIFIED_20261117.md). The diary-coupling qualification passes all 42 fixed native cases with complete accounting and verified exits; the original diary, clock, population and daily-source gates remain separate.
 
 **OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117:** [Record](WATCHER_RECOVERY_ES3_REFUSAL_20261117.md). Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.

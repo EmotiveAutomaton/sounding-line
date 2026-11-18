@@ -1743,3 +1743,15 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-18T02:31:52.382467+00:00 OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
 2026-11-18T02:49:36.920910+00:00 OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117: The diary-coupling qualification passes all 42 fixed native cases with complete accounting and verified exits; the original diary, clock, population and daily-source gates remain separate.
+
+2026-11-18T03:11:37.637908+00:00 OPS-S15-W6-ES-ORIGINAL-OBSERVER-REFUSAL-20261117: The original diary phase refused an incorrectly broad module-observer binding before any test call; its failure and full charge are preserved for a phase-specific metadata repair.
+
+2026-11-18T03:19:04.735010+00:00 OPS-S15-W6-ES-ORIGINAL-PRIVACY-FIXTURE-FAILURE-20261117: The original diary qualification completed but failed an overbroad fixture assertion that mistakes the required upstaged event for an age field; human-source admission remains closed.
+
+2026-11-18T03:33:01.263945+00:00 OPS-S15-W6-ES-ORIGINAL-QUALIFIED-20261117: The original diary operator passes its complete 103-case constructed qualification; actual source and production admission remain separate.
+
+2026-11-18T03:38:10.370795+00:00 OPS-S15-W6-ES-CLOCK-QUALIFIED-20261117: The diary clock mapping passes its complete 23-case constructed qualification; actual source and production admission remain separate.
+
+2026-11-18T03:41:14.976451+00:00 OPS-S15-W6-ES-POPULATION-QUALIFIED-20261117: The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate.
+
+2026-11-18T03:44:33.254492+00:00 OPS-S15-W6-ES-DAILY-QUALIFIED-20261117: The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate.

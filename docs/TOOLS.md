@@ -2950,6 +2950,18 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-ES-DAILY-QUALIFIED-20261117:** The daily diary source and active operator passes its complete 56-case constructed qualification; actual source and production admission remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/ES_DAILY_QUALIFIED_20261117.md).
+
+**OPS-S15-W6-ES-POPULATION-QUALIFIED-20261117:** The diary population and active operator passes its complete 40-case constructed qualification; actual source and production admission remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/ES_POPULATION_QUALIFIED_20261117.md).
+
+**OPS-S15-W6-ES-CLOCK-QUALIFIED-20261117:** The diary clock mapping passes its complete 23-case constructed qualification; actual source and production admission remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/ES_CLOCK_QUALIFIED_20261117.md).
+
+**OPS-S15-W6-ES-ORIGINAL-QUALIFIED-20261117:** The original diary operator passes its complete 103-case constructed qualification; actual source and production admission remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/ES_ORIGINAL_QUALIFIED_20261117.md).
+
+**OPS-S15-W6-ES-ORIGINAL-PRIVACY-FIXTURE-FAILURE-20261117:** The original diary qualification completed but failed an overbroad fixture assertion that mistakes the required upstaged event for an age field; human-source admission remains closed. [Record](../results/phase_2_4_stage_15/WEEK5/ES_ORIGINAL_PRIVACY_FIXTURE_FAILURE_20261117.md).
+
+**OPS-S15-W6-ES-ORIGINAL-OBSERVER-REFUSAL-20261117:** The original diary phase refused an incorrectly broad module-observer binding before any test call; its failure and full charge are preserved for a phase-specific metadata repair. [Record](../results/phase_2_4_stage_15/WEEK5/ES_ORIGINAL_OBSERVER_REFUSAL_20261117.md).
+
 **OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117:** The diary-coupling qualification passes all 42 fixed native cases with complete accounting and verified exits; the original diary, clock, population and daily-source gates remain separate. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_COUPLING_QUALIFIED_20261117.md).
 
 **OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117:** Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases. [Record](../results/phase_2_4_stage_15/WEEK5/WATCHER_RECOVERY_ES3_REFUSAL_20261117.md).
