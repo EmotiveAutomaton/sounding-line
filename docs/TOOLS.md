@@ -2950,6 +2950,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-ES2-DAILY-DAY-GATE-20261118:** The daily perceived-adversity run passed native admission but stopped at the declared study-day validation before estimation; the original failure and costs are preserved pending source-clock review. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_DAILY_DAY_GATE_20261118.md).
+
 **S15-W6-ES2-REPLICATION-0056-20261118:** None of the nine available-item diary replication comparisons supplies a one-dial verdict: eight lack half-reliability support and one has an unavailable full-bank interval. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_REPLICATION_0056_COMPLETE_20261118.md).
 
 **OPS-S15-W6-ES2-REPLICATION-HOOK-20261118:** The final replication panel refused a transient bookkeeping hook before source access; eight completed panels are preserved and the unchanged final comparison has a separate recovery. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_REPLICATION_HOOK_RECOVERY_20261118.md).

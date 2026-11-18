@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** All nine available0056 ES2 replication configurations are complete, independently replayed and fully filed; nine sadness-family configurations lack required items. The [daily perceived-adversity comparison](ES2_DAILY_0062_V1.md) is designed for separate source admission next. Commit and ordinary admission precede execution. CPU-only Gear2 is selected. Other builds, source-clock checks and the ready buffer remain incomplete. Original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
+**Current boundary:** All nine available0056 ES2 replication configurations are complete, independently replayed, filed and pushed. The [daily perceived-adversity binding](ES2_DAILY_0062_V1.md) passed native admission but refused its original study-day encoding before estimation. Preserve that attempt; counted source-clock review and any necessary successor qualification precede a retry. Research is currently idle with CPU-only Gear2 selected. Other builds and the ready buffer remain incomplete; original ceilings, guards, final-packet reporting and event/four-hour/single-pending wakes remain unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed

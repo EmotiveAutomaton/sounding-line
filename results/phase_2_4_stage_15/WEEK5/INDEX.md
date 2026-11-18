@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-ES2-DAILY-DAY-GATE-20261118:** [Record](ES2_DAILY_DAY_GATE_20261118.md). The daily perceived-adversity run passed native admission but stopped at the declared study-day validation before estimation; the original failure and costs are preserved pending source-clock review.
+
 **S15-W6-ES2-REPLICATION-0056-20261118:** [Record](ES2_REPLICATION_0056_COMPLETE_20261118.md). None of the nine available-item diary replication comparisons supplies a one-dial verdict: eight lack half-reliability support and one has an unavailable full-bank interval.
 
 **OPS-S15-W6-ES2-REPLICATION-HOOK-20261118:** [Record](ES2_REPLICATION_HOOK_RECOVERY_20261118.md). The final replication panel refused a transient bookkeeping hook before source access; eight completed panels are preserved and the unchanged final comparison has a separate recovery.
