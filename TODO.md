@@ -1,5 +1,19 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117: The diary-coupling qualification passes all 42 fixed native cases with complete accounting and verified exits; the original diary, clock, population and daily-source gates remain separate.
+
+- [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
+
+- [ ] ES source/production admission after OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117: the 42-case constructed coupling qualification is fully filed and charged. Complete original diary, clock, population and daily-source qualifications and exact production/source bindings; no human-source admission follows from the coupling pass.
+
+- [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
+
+- [x] OPS-S15-W6-RW1-SOURCE-COMPLETE-20261117: The original worry-source preparation and full independent replay are complete, with every person retained and all checkpoints and costs reconciled; independent marker reviews still gate analysis.
+
+- [x] OPS-S15-W6-RW1-QUALIFIED-20261117: The worry-source integration passes all 29 fixed native checks with verified exits and complete costs posted once; original-source execution and independent annotation remain separate gates.
+
+- [x] S15-W6-KP3-COMPLETE-20261117: Limited sensitivity: the typing comparison sees effects of about 0.0137 or more against a 0.01 bar; no recency association is detected after prior-use count and the original covariates are held.
+
 - [x] OPS-S15-W6-RW1-PREPARED-QUEUE-AUDIT-20261117: The recency study is progressing in CPU-only Gear 2, and the next worry-source fixture is owner-reviewed and budget-bound; the wider campaign still has qualification and source gaps.
 
 - [x] OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117: The recency-study cost checkpoint authenticates, and its separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; final inference and independent replay remain due.
@@ -34,13 +48,13 @@
 
 - [x] KP original-source successor: complete authenticated projection and fresh replay are verified and filed. See OPS-S15-W6-KP-SOURCE-COMPLETE-20261117.
 
-- [ ] KP scientific prefixes: KP2 is complete and internally filed; its registered sensitivity check is not admitted. KP3 first100 is authenticated and filed, and a separately frozen full execution is running with unchanged model and inputs; verify all2000 draws, exact first100 equivalence and complete fresh replay before inference. KP1 remains cost-held and KP1b source-held. See S15-W6-KP2-COMPLETE-20261117 and OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117.
+- [ ] KP scientific prefixes: KP2 and KP3 are complete and fully filed. The registered KP2.ic design and qualification remain due; KP3 retains its reported approximate sensitivity limits. KP1 remains cost-held and KP1b source-held. All prefix evidence and incurred costs remain preserved. See S15-W6-KP3-COMPLETE-20261117.
 
 - [x] OPS-S15-W6-CANDOR-COMPLETE-KP-QUALIFIED-20261117: CANDOR Raw and Tabular collection are complete; the exact archived-evidence repair passes all 21 constructed checks with retained costs reconciled, allowing separately reviewed source preparation to resume.
 
 - [x] OPS-S15-W6-DIGEST-20261116: The first Week 6 daily reconciliation preserves completed evidence, failures and costs; CANDOR collection advances while further research remains held by the shared-runtime admission check.
 
-- [ ] Independent prepared paths: RW1 complete owner review, exact prepared bindings and original-mode budget are recorded; run its fixed29 native qualification after actual KP3 exit and post its complete cost once. ES3, EN1 and MI still need their separate reviews/qualification; MI participant execution remains curator-local. KP has progressed to complete KP2 and active full KP3. See OPS-S15-W6-RW1-PREPARED-QUEUE-AUDIT-20261117.
+- [ ] Independent prepared paths: RW1 qualification and complete original-source/replay are filed; genuine independent annotations and the successor forms/review still gate analysis. ES3 owner review is in progress, not admitted; EN1 and MI retain separate qualification work, and MI participant execution stays curator-local. KP2 and KP3 are complete. See OPS-S15-W6-RW1-SOURCE-COMPLETE-20261117.
 
 - [x] OPS-S15-W6-CANDOR-INDEPENDENT-PREBUILD-20261116: The smaller tabular collection is complete and the raw collection advances; five independent qualification paths are prepared for further review, with research still held by the shared-runtime census.
 

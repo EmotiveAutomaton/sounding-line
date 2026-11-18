@@ -1,0 +1,34 @@
+# RW1 SOURCE COMPLETE 20261117
+
+**Hypothesis.** Can the original first-wave worry source be prepared reproducibly without losing people, importing unnecessary fields or treating automatic marker labels as independently reviewed evidence?
+
+**METHOD.** Authenticate the fixed original source, author notices, prospective identity salt, reviewed source design and constructed qualification. Project only long text and the five commissioned ratings, preserving every original person and explicit missing-data dispositions. Use the original 128-person blocks and four-block invocation limit. At every pause verify the full checkpoint manifest, predecessor source pins and actual native exits before a fresh resumed attempt. Independently reconstruct the complete source and the outcome-independent sentence sample in the verification process. Retain all original failures, pauses, source blocks and charges.
+
+**Found.** The original worry-source preparation and full independent replay are complete, with every person retained and all checkpoints and costs reconciled; independent marker reviews still gate analysis.
+
+**Complete preparation.** The final source contains 2500 original people and 15092 source sentences. The fixed ordered 200-sentence sample and blank hand/list forms are prepared; no annotation labels were fabricated, no worry association was calculated and no scientific source/marker admission is implied. Original source and sample hashes, result objects and all declared file hashes match the independent replay exactly. The first four saved people blocks also match the final completed source exactly. Actual native owners and children exited, the shared leases were released, and both numerical phases retained two threads with no visible GPU. All attempt pins and terminal/checkpoint manifests authenticate.
+
+**Refusals and recovery.** The first attempted source launch was refused before admission or participant decoding because the census saw an unexplained workspace Python reader. It reported zero child CPU; its ordinary coordination charge is retained. That reader was absent at the subsequent native inspection. The unchanged fresh recovery passed admission and yielded at its declared boundary. While preparing the second continuation, a process identity changed during the census; no new plan or worker was admitted at that refusal. A later final-replay launch was refused by another transient unexplained reader before acquiring an attempt claim. Native inspection confirmed its disappearance, and the already frozen plan was launched through the same guard. The exact identities and tool diagnostics are retained privately. Their ultimate owners were not established after exit, so no ownership attribution is invented. No process was killed, no guard weakened and no scientific or checkpoint criterion changed.
+
+*Each row is one actual source attempt. Completed blocks describe that attempt's paused phase, which may be execution or fresh verification; they are not participant counts or scientific scores. Native CPU includes all assigned descendants, while the final column is the ordinary per-attempt coordination charge. Earlier pauses remain preserved after the final completion.*
+
+| Attempt | Terminal | Blocks at pause | Native CPU seconds | Coordination seconds |
+|---|---|---:|---:|---:|
+| RW1-source-services-20261117-v2 | FAILED | not applicable | 0.0 | 30 |
+| RW1-source-services-continuation-1-20261117-v2 | PAUSED | 8 | 1.046875 | 30 |
+| RW1-source-services-continuation-2-20261117-v2 | PAUSED | 12 | 1.140625 | 30 |
+| RW1-source-services-continuation-3-20261117-v2 | PAUSED | 16 | 1.203125 | 30 |
+| RW1-source-services-continuation-4-20261117-v2 | PAUSED | 4 | 2.21875 | 30 |
+| RW1-source-services-continuation-5-20261117-v2 | PAUSED | 8 | 2.234375 | 30 |
+| RW1-source-services-continuation-6-20261117-v2 | PAUSED | 12 | 2.296875 | 30 |
+| RW1-source-services-continuation-7-20261117-v2 | PAUSED | 16 | 2.3125 | 30 |
+| RW1-source-services-continuation-8-20261117-v2 | COMPLETE | not applicable | 2.3125 | 30 |
+| RW1-source-services-recovery-1-20261117-v2 | PAUSED | 4 | 0.9375 | 30 |
+
+**Accounting.** RW1 now totals 931.796875 CPU seconds under its unchanged 20000-second ceiling. This includes 616.09375 preparation seconds: the retained 600-second historical reserve, the independently verified 6.09375-second native qualification, and a conservative 10-second metadata-binding debit. The latter owner process measured 2.078125 seconds; its larger debit remains an administrative reserve, not exact metering. The earlier shared prebuild charge remains allocated once to KP1. Repeated source preparation, replay, failed admission and coordination stay charged; no allowance was reset. Original campaign and family limits remain in force.
+
+**What remains.** The genuine independent marker reviews, the successor time/place review and original association admission are still required. Blank forms and constructed tests cannot replace them. ES3's native/design review has begun; its complete supervisor and scientific fixture review, retained-cost reconciliation, original parent qualification checks and separate admission remain unfinished. EN1 and MIDUS qualification, the transferred-need export, personality-source qualification, temporal-reliability mapping and carried chess migration remain explicit. The broader campaign is not fully built and the sixteen-card ready buffer is still deficient. The three previously commissioned builders retain their recorded runtime usage-limit errors, and no new agent was launched. Source availability does not create a ready scientific card.
+
+**Health and preservation.** At the final inspection there are no active research leases; CPU-only Gear 2 remains selected. The completed source queue has drained, rather than been intentionally gear-paused. RAM, commit and disk headroom remain above the unchanged admission floors. The native watcher is alive, recently scanned, has no current error, and registers every attempt's completion/failure/pause paths. Events, four hours of owner inactivity and a single pending wake remain unchanged. The collector inbox retains the same five delivery directories. The recency study's complete scientific write-through is filed separately; its original 8093-file manifest, 317 pins, full replay and exact first100 equivalence authenticate. No missing or changed evidence was found in these scoped checks; this was not a fresh rehash of all historical raw files or the full external media collection. Existing unrelated edits are preserved.
+
+No tests were harvested from this operational wake. Full record-view verification and event acknowledgements follow this complete write-through. No participant text, identities, demographics or individual ratings enter the public record. Final-packet reporting remains in force.

@@ -1,5 +1,17 @@
 # Week 5 verified records
 
+**OPS-S15-W6-ES3-COUPLING-QUALIFIED-20261117:** [Record](ES3_COUPLING_QUALIFIED_20261117.md). The diary-coupling qualification passes all 42 fixed native cases with complete accounting and verified exits; the original diary, clock, population and daily-source gates remain separate.
+
+**OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117:** [Record](WATCHER_RECOVERY_ES3_REFUSAL_20261117.md). Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
+
+**OPS-S15-W6-HEALTH-ES3-PREPARED-20261117:** [Record](HEALTH_ES3_PREPARED_20261117.md). Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
+
+**OPS-S15-W6-RW1-SOURCE-COMPLETE-20261117:** [Record](RW1_SOURCE_COMPLETE_20261117.md). The original worry-source preparation and full independent replay are complete, with every person retained and all checkpoints and costs reconciled; independent marker reviews still gate analysis.
+
+**OPS-S15-W6-RW1-QUALIFIED-20261117:** [Record](RW1_QUALIFIED_20261117.md). The worry-source integration passes all 29 fixed native checks with verified exits and complete costs posted once; original-source execution and independent annotation remain separate gates.
+
+**S15-W6-KP3-COMPLETE-20261117:** [Record](KP3_COMPLETE_20261117.md). Limited sensitivity: the typing comparison sees effects of about 0.0137 or more against a 0.01 bar; no recency association is detected after prior-use count and the original covariates are held.
+
 **OPS-S15-W6-RW1-PREPARED-QUEUE-AUDIT-20261117:** [Record](RW1_PREPARED_QUEUE_AUDIT_20261117.md). The recency study is progressing in CPU-only Gear 2, and the next worry-source fixture is owner-reviewed and budget-bound; the wider campaign still has qualification and source gaps.
 
 **OPS-S15-W6-KP3-CHECKPOINT-FULL-LAUNCH-20261117:** [Record](KP3_CHECKPOINT_FULL_LAUNCH_20261117.md). The recency-study cost checkpoint authenticates, and its separately frozen full execution is progressing in CPU-only Gear 2 within the original shared allowance; final inference and independent replay remain due.
