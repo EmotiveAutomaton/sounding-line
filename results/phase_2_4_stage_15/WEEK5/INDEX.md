@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-CH14-SCALAR-REPLAY-HEALTH-20261119:** [Record](CH14_SCALAR_REPLAY_HEALTH_20261119.md). The slow independent replay is safely checkpointed with complete execution preserved; an unchanged-model compiled scalar successor passes all 118 constructed checks, while scientific verification remains pending.
+
 **OPS-S15-W6-CH14-RECOVERY-RUNNING-20261119:** [Record](CH14_RECOVERY_RUNNING_20261119.md). The authenticated move-recency checkpoint continuation is admitted and progressing in CPU-only Gear 2 beside the reviewed counted companion; failed evidence, qualification costs and original study limits remain preserved.
 
 **OPS-S15-W6-CH14-WALL-RECOVERY-20261119:** [Record](CH14_WALL_RECOVERY_20261119.md). The move-recency study hit its attempt wall with an intact checkpoint; the unchanged-model recovery and narrow companion-path compatibility pass all 244 constructed checks, with every failure and cost retained.

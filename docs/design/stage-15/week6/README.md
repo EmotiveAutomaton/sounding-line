@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The authenticated move-recency checkpoint continuation is admitted and progressing in CPU-only Gear 2, beside the reviewed counted companion. The wall failure, all preparation failures and measured charges are retained; 244 constructed checks pass. The original study ceilings, source and scientific model are unchanged. Full independent replay remains pending. Duration-source and exhausted MIDUS qualification holds, wider unbuilt work and the deficient ready buffer remain explicit. Events, four-hour inactivity and single-pending delivery remain unchanged.
+**Current boundary:** The slow move-recency verification is safely checkpointed, with all 2,000 execution draws and partial replay preserved. Its unchanged-model compiled scalar successor passes 118 constructed checks; committed design and ordinary admission precede a fresh full replay. No scientific result is admitted. CPU-only Gear 2, original ceilings and events/four-hour/single-pending wakes remain unchanged. Duration-source and MIDUS qualification holds and the deficient ready buffer remain explicit.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed

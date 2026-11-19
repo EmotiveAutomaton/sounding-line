@@ -2979,6 +2979,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-CH14-SCALAR-REPLAY-HEALTH-20261119:** The slow independent replay is safely checkpointed with complete execution preserved; an unchanged-model compiled scalar successor passes all 118 constructed checks, while scientific verification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_SCALAR_REPLAY_HEALTH_20261119.md).
+
 **OPS-S15-W6-CH14-RECOVERY-RUNNING-20261119:** The authenticated move-recency checkpoint continuation is admitted and progressing in CPU-only Gear 2 beside the reviewed counted companion; failed evidence, qualification costs and original study limits remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_RECOVERY_RUNNING_20261119.md).
 
 **OPS-S15-W6-CH14-WALL-RECOVERY-20261119:** The move-recency study hit its attempt wall with an intact checkpoint; the unchanged-model recovery and narrow companion-path compatibility pass all 244 constructed checks, with every failure and cost retained. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_WALL_RECOVERY_20261119.md).
