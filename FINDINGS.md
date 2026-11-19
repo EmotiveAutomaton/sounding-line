@@ -1,5 +1,176 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-CHESS-CONTINUATION-20261118
+
+**Hypothesis.** Is the commissioned chess leg running with recoverable evidence and accurate records after its planned checkpoints?
+
+**METHOD.** Authenticate both original-source checkpoints and the completed waiting-time study, file each through the scientific or operational ledger, then ACK their exact watcher events. Freeze a new move-recency continuation with the same source, model, player split, full draw bank, budgets and resource guards. Release it through the reviewed native setup-exit handshake. Inspect actual owner and child identities, counted leases, admission, fresh progress, watcher/calendar identity, resources and event delivery.
+
+**Found.** At 2026-11-19T03:41:54.162222+00:00, one Sounding Line research worker is active, alongside the separately reviewed companion in the shared eight-slot allocation. Its native owner and execution child match their saved creation identities; its fresh progress is in source/execute preparation with CPU increasing. Native admission passed. The original checkpoint remains immutable and copying is authenticated inside the counted child. The prior prefix controller is complete and exited. No current failed or orphaned continuation is hidden by a lock. This confirms active execution, not a complete scientific result.
+
+**Evidence.** The waiting-time study has completed its full distinct-process replay and complete internal scientific filing. Both cost checkpoints and the prefix controller are fully filed and acknowledged. The original failed34-case fixture, narrower34-case pass, complete60-case pass and the retirement of the two never-started earlier plans remain visible. All inspected result manifests and original source/code pins match. This is a scoped integrity check of the admitted leg, not a claim that every historical byte in the repository was independently reaudited.
+
+**Resources and delivery.** The fresh inspection reports 47.55GiB available RAM, 28.77GiB commit headroom and 733.82GiB free local disk. Both inspected shared leases remain identified. The watcher and campaign calendar are alive at their exact identities. No unacknowledged event remains in that snapshot; current watcher error is absent. Events plus four hours of owner inactivity, active-owner suppression and one pending wake remain unchanged. Terminal, failure and disappearance paths for the new attempt are registered. No GPU, Ollama, paid compute or companion stop is introduced.
+
+**Remaining work.** The sixteen-card ready buffer and wider commissioned build remain incomplete; the three builders are unavailable at their already recorded usage limit, so the owner builds inline. The duration source-value refusal and exhausted extra MIDUS qualification allowance remain holds, and the serial-admission limitation remains a separate engineering item. The collector inbox inspection found the same six delivery folders; this is not a new recursive hash audit of every collector file. Publication includes reviewed implementation and fully filed aggregate evidence, while raw sources, individual records, working scratch and unadmitted intake stay local. No new test was harvested; final-packet reporting remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The move-recency full continuation is admitted and running in CPU-only Gear2; the completed waiting-time study, both checkpoints, failed qualifications and all actual charges are fully recorded.; project meaning: scoped operational record; next engineering obligation: Continue the authenticated full move-recency bank and independent replay; build the remaining commissioned cards inline.; public scientific claim unchanged; curator decision required: No new decision. Detail: CHESS_CONTINUATION_20261118.md.
+
+### OPS-S15-W6-CH14-FIRST-CHECKPOINT-20261118
+
+**Hypothesis.** Can the original-source move-recency comparison finish its counted cost checkpoint and continue without losing evidence or changing its model?
+
+**METHOD.** Bind the committed version3design, complete60-case native fixture, exact qualified SG1 source, original player split, full chronology exclusion, per-comparison fit-validity rules and2,000whole-player draws. Inspect the declared pause, both native identities, every saved checkpoint output, complete source/code pins, current charges and the two-prefix controller's final receipt.
+
+**Found.** The producer completed100draws and paused at its declared operational boundary. Both saved outputs match their checkpoint hashes, both native identities exited and the owned lease is released. The serial controller also completed its two-prefix schedule and exited; its completion does not mean either prefix by itself supplies a final scientific result. CH13's separate full continuation has since completed and received its own complete scientific write-through. No unfinished CH14 score is reported.
+
+**Cost and continuation.** This prefix used1049.890625measured CPU seconds, with its original30-second supervision debit and no duplicated shared fixture charge. A deliberately conservative bound that repeats the entire setup-inclusive prefix twenty times for execution and again for replay is41995.62500CPU seconds. This is slightly above the original40,000-second card ceiling and below its standing twice-ceiling sample trigger; it is not a measured overrun, because setup is counted repeatedly. The unchanged continuation retains that40,000-second ceiling and all existing family/campaign limits. It allows the remaining bank under a38,000-CPU/14,400-wall-second attempt maximum, further constrained by actual remaining card allowance. Any resource or wall boundary checkpoints normally; no ceiling, sample, model, threshold or draw bank is altered by this release. Actual later cost determines any standing continuation route.
+
+**Integrity and health.** Exact checkpoint copying occurs only inside the counted child after authentication of the original plan and pause. The two-prefix controller and original plans remain preserved. Current native watcher and calendar identities are alive; the watcher has an active owner, durable pending events and no stacked owner message. The inspection records48.03GiBavailable RAM,29.03GiBcommit headroom and733.83GiBfree local disk. The separately reviewed companion retains its own counted lease. Fresh ordinary admission still decides actual launch; no process is exempted or stopped. Original failures and all costs are retained.
+
+**Next work.** Launch the new immutable continuation, then verify its actual native admission, child and fresh output. Complete the reviewed publication with current state links. The broad build, ready-buffer deficit, serial admission limitation, duration-source hold and exhausted MIDUS allowance remain explicit. No new tests were harvested. Full internal filing precedes acknowledgement of both checkpoint and controller events; final-packet scientific reporting remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The move-recency chess card completed its required first checkpoint with authenticated outputs and native exits; its unchanged full continuation is prepared under the original card ceiling.; project meaning: scoped operational record; next engineering obligation: Launch the unchanged full continuation under its original budget and complete independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH14_FIRST_CHECKPOINT_20261118.md.
+
+### S15-W6-CH13-COMPLETE-20261118
+
+**Hypothesis.** Does the change in a player's next-game performance after losing rather than winning fade when the next game begins after a longer wait?
+
+**METHOD.** Use the original salted two-percent player histories from April through June 2017 and the previously qualified complete SG1 source, with the committed version 3 design and 60-case native fixture. Preserve the independent player hash split and fit the frozen rating forecast only on calibration players. Require finite distinct game starts throughout each player's history; take adjacent observed games in the same identified arena. Estimate the gap in physical minutes from the recorded start and unchanged clock-derived duration, which omits both first-move latencies. Each supported player's contrast is her after-loss minus after-win difference in forecast-adjusted next score below two minutes, minus that difference at twenty minutes or more. Require at least five losses and five wins in each of those bins, then at least twenty supported players for population uncertainty. The practical bar is minus0.010 score points with an interval below zero. Recompute 2,000 fixed whole-player bootstrap draws, retaining the forecast and measured peer waits, and independently replay source projection and every draw in a distinct native process.
+
+**Found.** The chess waiting-time comparison lacks the required within-player support: twelve players qualify for their own waits and none for sampled-peer waits, so the population carry-over contrast remains unsupported. The twelve-player descriptive point is positive, but the frozen population floor withholds its interval and effect decision. It is not a negative result, a null, evidence against fading, or permission to replace the floor. The sampled-peer contrast has no eligible player. Its absent interval cannot activate the prospectively approved opposite-sign priority rule; the own-wait comparison remains primary with its selection limit.
+
+*Each row gives the equal-player short-minus-long loss/win contrast for the named outcome and wait measure. Players meet all four within-person cell requirements. All intervals are withheld because fewer than twenty players qualify. Valid/invalid counts describe the retained 2,000-draw bank; a missing supported contrast is not a numerical solver failure. Secondary scales and strata have no inherited primary effect bar.*
+
+| Outcome | Wait measure | Players | Descriptive contrast | Population interval | Valid / invalid draws |
+|---|---|---:|---:|---|---:|
+|Forecast-adjusted next score|Own wait|12|0.02605631|withheld|2000 / 0|
+|Forecast-adjusted next score|Sampled-peer wait|0|unavailable|withheld|0 / 2000|
+|Next score after preceding favourite games|Own wait|0|unavailable|withheld|0 / 2000|
+|Next score after preceding favourite games|Sampled-peer wait|0|unavailable|withheld|0 / 2000|
+|Next score after preceding underdog games|Own wait|1|-0.00417157|withheld|1289 / 711|
+|Next score after preceding underdog games|Sampled-peer wait|0|unavailable|withheld|0 / 2000|
+|Next opening departure|Own wait|9|0.04907097|withheld|2000 / 0|
+|Next opening departure|Sampled-peer wait|0|unavailable|withheld|0 / 2000|
+|Next berserk choice|Own wait|0|unavailable|withheld|0 / 2000|
+|Next berserk choice|Sampled-peer wait|0|unavailable|withheld|0 / 2000|
+
+*The next table reports the six prespecified descriptive bins separately. Each point is that bin's equal-player loss-minus-win next-score difference, and each player supplies at least five of each outcome within that bin. The eligible players can differ between bins; comparing these rows does not reconstruct the same-player primary. Intervals are nominal95% whole-player bootstrap intervals, withheld below the twenty-player floor or for any missing draw. No bin was chosen after seeing its result.*
+
+| Minutes | Wait measure | Players | Descriptive difference | Nominal interval |
+|---|---|---:|---:|---|
+|under 2|Own wait|563|0.01206826|[0.00177968, 0.02278774]|
+|under 2|Sampled-peer wait|391|0.00374019|[-0.01045479, 0.01745432]|
+|2 to under 5|Own wait|135|0.00102100|[-0.02763427, 0.02849810]|
+|2 to under 5|Sampled-peer wait|50|-0.00901131|[-0.06270321, 0.04897497]|
+|5 to under 10|Own wait|32|-0.03044803|[-0.10744003, 0.05497247]|
+|5 to under 10|Sampled-peer wait|4|-0.24698473|withheld|
+|10 to under 20|Own wait|9|0.00451240|withheld|
+|10 to under 20|Sampled-peer wait|0|unavailable|withheld|
+|20 to under 60|Own wait|11|0.03782353|withheld|
+|20 to under 60|Sampled-peer wait|0|unavailable|withheld|
+|60 or more|Own wait|0|unavailable|withheld|
+|60 or more|Sampled-peer wait|0|unavailable|withheld|
+
+The receipt preserves every curve for all registered secondaries, not just this table. Favourite and underdog comparisons retain the same preceding forecast stratum for both losses and wins. The opening-departure comparison uses the unchanged past-only CH11 context definition. Berserk is source-instrument-held, rather than an observed zero: its exact source-bound admission was not supplied. The complete unsupported result opens no automatic instrument-sensitivity or effect-follow-up card. Approximate population sensitivity and support thresholds from a bootstrap standard error are inapplicable to this below-floor primary; no sensitivity number is manufactured from the descriptive subset.
+
+**Coverage and exclusions.** The retained source contains1,270,226 player-game records. Missing starts are zero;48tied-start games cause22whole-player chronology exclusions, including19analysis and3calibration players, covering15,832games. Remaining timing accounting records1,079,843pairs not in the same identified arena,4,033missing/invalid durations,1,170estimated ends after the next start,6,946window tails, and162,402valid timing pairs. These mutually sequential census categories sum to the source-game total. Analysis players provide137,648pairs. There is no eligible other sampled player within the declared arena/end-time window for78,353of them. The entire donor distribution is preserved; most nonempty pools contain only one donor. These are peers within the original two-percent player sample, including calibration players as timing donors only, not the whole arena population.
+
+**Meaning and limits.** The support shortfall prevents this source from answering the population short-versus-long carry-over question under its fixed design. Single-bin descriptive differences, differently selected populations and the positive twelve-person fallback cannot repair that deficit. Public rating is not social standing, next score is not a reported feeling, and estimated gaps are not exact wall-clock waits. Players choose whether and when to continue; the sampled-peer measure is itself observational. Resampling holds the forecast and peer waits fixed and omits shared-arena dependence. No causal fading, biological channel, colored-state or human/model claim follows. The distinct earlier loss-history question is not silently replaced by this rider; joint packet synthesis retains each card's independent support and admission status.
+
+**Integrity and cost.** Every recorded output hash, original input pin and resumed checkpoint authenticates. Independent source projection, counts, classifications and all2,000draws agree under the unchanged replay tolerance (relative1e-6, absolute1e-7); the largest observed aggregate numeric difference is approximately1.22e-8, rather than bitwise identity. Owner, execution and verification native identities have exited and the owned lease is released. The first checkpoint retains250.4375measured CPU seconds; the full continuation including replay uses504.03125. Shared preparation is54.875and fixed supervision is60, for869.34375charged seconds under the original40,000-second card ceiling. All failed qualifications, the two explicitly retired unstarted plans, scratch evidence and source originals remain preserved. No charge is reset or reposted.
+
+**Attribution and filing.** Original public Lichess game histories, April-June2017, as preserved and qualified by SG1; original source and handling documentation remain authoritative. This is a new analysis of recorded human play with an exact-program readout, not the supplied preflight result. No individual key, game record or private projection is exported. Complete internal write-through precedes event acknowledgement; scientific synthesis remains in the final packet. No new test was harvested.
+
+
+Curator roll-up: persistence; Does the performance change after a loss fade with the time to the next game?; **Narrows**; The source does not supply the required within-player support.; project meaning: the population carry-over claim remains unresolved; next engineering obligation: preserve the descriptive fallback and complete separately commissioned cards; public claim: unsupported at this scope; curator decision required: No. Detail: CH13_COMPLETE_20261118.md.
+
+### OPS-S15-W6-CH13-FIRST-CHECKPOINT-20261118
+
+**Hypothesis.** Can the fully qualified waiting-time chess card complete original-source setup and its required cost checkpoint while retaining a reproducible continuation?
+
+**METHOD.** Use the committed version 3 design and the 60-case native fixture, preserving the exact complete SG1 source, chronology guard, player sample, models and 2,000-draw bank. Admit under the current coexistence, original budget and predecessor-drain checks. Inspect the actual pause, owner and execute identities, every checkpoint file, all pinned inputs and the cumulative policy charge before preparing a new immutable continuation.
+
+**Found.** The producer completed 100 draws and paused at its declared operational quantum. Its four saved outputs authenticate, both native identities have exited and its owned lease is released. Complete independent scientific replay has not yet occurred; no estimate, interval or scientific verdict is reported. This is an expected checkpoint, not a failed queue or a reason to change the method. The second chess card has passed native admission and is executing under its original plan.
+
+**Cost and continuation.** The pause records 250.4375 measured CPU seconds. Existing policy accounting retains the separate fixed supervision debit and the 54.875-second shared qualification charge; no cost is reposted. Conservatively charging this entire prefix twenty times for execution and again for verification projects about 10,018 CPU seconds, within the original 40,000-second card ceiling. This deliberately overcounts one-time setup; it is a bound for planning, not a measured full-runtime promise. The successor retains the original bank and increases only the operational new-draw quantum to finish it, with a 12,000-CPU/14,400-wall attempt limit and unchanged resource guards. Authenticated checkpoint copying occurs inside the counted child; every predecessor pin is retained.
+
+**Operational reconciliation.** The first two unstarted plans were retired after recovering the earlier chronology and fit-validity review. The corrected second plan initially met a transient native-census refusal; the exact refused identity was absent on inspection, and its historical owner was not guessed. Repeating the unchanged guarded admission succeeded. No process was exempted or stopped. The durable watcher is alive at its exact native identity, scanning without a current error; active-owner suppression and an empty reconciled app queue prevent stacked wakes. Historical optional notification failures remain visible and are distinct from current watcher delivery. The collector inbox still lists the six reviewed delivery folders; no new folder was found. The broader build, serial-admission limitation, duration-value hold and exhausted MIDUS allowance remain explicit. No new test was harvested.
+
+**Record.** Full internal write-through and cost reconciliation precede the checkpoint event acknowledgement. Original qualifications, retired plans, source, checkpoint, logs and costs are retained. Scientific synthesis remains with the final packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The corrected chess waiting-time card completed its first 100-draw cost checkpoint with authenticated saved outputs and native exits; the unchanged full continuation is prepared while the second chess card runs.; project meaning: scoped operational record; next engineering obligation: Run the unchanged full continuation and independent replay while keeping the second card active.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH13_FIRST_CHECKPOINT_20261118.md.
+
+### OPS-S15-W6-CH-RIDERS-FIXTURE-HEAL2-20261118
+
+**Hypothesis.** Can the commissioned chess riders preserve defensible game order and distinguish a failed secondary fit from a failed primary before real-source admission?
+
+**METHOD.** Review the earlier preserved admission delivery, then combine its chronology and comparison-validity fixes with the already tested empty-peer and precision repairs. Keep the original models, seeds, worlds, thresholds and acceptance tolerances. Run all 34 original tests plus the 12 preserved fit-scope and 14 chronology controls in one counted, two-thread native Job under the original 600-inclusive-CPU-second envelope. Authenticate all source pins, complete scratch tree, native exits and lease release.
+
+*Completed instrument checks; these are constructed worlds, not human study results.*
+
+| Check | Outcome |
+|---|---|
+| Full fixed fixture bank | 60 passed, with no skipped, failed or replaced cases |
+| Unknown or tied chronology | Whole-player projection withheld, original counts retained; no gap bridged |
+| Failed secondary fit | Valid primary retained; each comparison records its required fits and actual support |
+| Invalid primary or baseline | Inference withheld without mislabelling it as zero support or a null |
+| Resource and evidence integrity | 60 two-thread witnesses; source and output hashes match; native identities exited and owned lease released |
+
+**Correction and preservation.** The earlier 34-case pass covered its stated checks but did not include the older admission delivery's 26 additional cases. Its implication that the source plans were ready was premature. The owner discovered this during the final delivery reconciliation, before either source attempt started. Both unstarted plans and original release scripts remain preserved with an explicit retirement record; neither spent human observations. This record supersedes that admission implication, not the measured 34-case result. The original failure and first repair are also retained. The second engineering repair uses distinct version 3 files and does not modify a pinned predecessor.
+
+**Meaning and limits.** Missing/nonfinite or tied starts cannot establish the intended prior-game history, so the whole player's chronology-dependent comparison is unsupported with complete exclusion counts. Each recency comparison requires only its own arm and the shared count fit; a singular games-since-use secondary cannot suppress a valid hours primary. These controls validate the declared boundary behavior. The fixture's complete execute/formula replay runs within its native test child; separate native production replay is still required. The active small-card rule admits on committed design and native fixture, with the cost checkpoint inside the actual run; no separate qualification campaign is added.
+
+**Cost.** This complete second repair used 21.921875 inclusive CPU seconds. The original failure and first repair retain 32.953125 seconds; the cumulative preparation charge is 54.875 seconds, posted once to CH13 revision 4. CH14 does not duplicate that cost. All source setup, 2,000 draws, failures, supervision and independent replay remain inside the original card, CH family and campaign ceilings.
+
+**Next work.** Commit the corrected version 3 design and admit new immutable plans for the preserved SG1 source under the original 100-draw cost checkpoint. The broad build and sixteen-card ready buffer remain incomplete; the recorded builder usage limit requires inline work. The duration-value hold and exhausted MIDUS attempt remain separate. No new test was harvested. Complete internal filing and final-packet reporting continue; no unfinished human score is reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete 60-case chess fixture passes with chronology and per-comparison validity guards; the incomplete admission plans were retired before any source run, and all prior evidence and costs remain.; project meaning: scoped operational record; next engineering obligation: Commit the reviewed design and admit the original source cards under current resource and cost bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_RIDERS_FIXTURE_HEAL2_20261118.md.
+
+### OPS-S15-W6-CH-RIDERS-FIXTURE-HEAL1-20261118
+
+**Hypothesis.** Can the commissioned chess waiting-time and move-recency handlers recover known answers and replay their complete calculations after repairing two engineering defects?
+
+**METHOD.** Preserve the original 34 tests, seeds, worlds, models, thresholds and coefficient-agreement tolerance. Add version 2 helpers that explicitly retain no value for an empty sampled-peer pool and tighten both existing optimization stopping criteria. Run all tests inside one counted native Job with a 600-inclusive-CPU-second limit, two numerical threads and the unchanged shared resource and companion checks. Bind constructed scratch inside the attempt and authenticate the full retained tree after exit.
+
+*The table describes completed instrument checks, not human study results.*
+
+| Check | Completed outcome |
+|---|---|
+| Original case bank | 34 passed; none failed, skipped or replaced |
+| Numerical resources | All 34 witnesses retain the two-thread limit |
+| Complete constructed handlers | Execute and independent formula replay agree for both cards |
+| Original failed evidence | Preserved with all original source pins |
+| Repair evidence | All recorded pins and attempt files authenticate; both native identities exited; owned lease released |
+
+**Found and meaning.** The two defects are repaired without changing the statistical question or weakening its test. This validates the declared constructed cases. The fixture's handler execute/replay calls run in the counted test child; they are not represented as separate native production processes. Real-source execution and its distinct native verification remain outstanding. Under the active small-card admission rule, the committed design and this passed native fixture admit the original qualified source; no additional qualification campaign is manufactured. Full source setup and the first 100 of 2,000 draws form the ordinary in-slot cost checkpoint. Unavailable berserk instrumentation remains a separately labelled unsupported secondary.
+
+**Preservation and cost.** The original failure used 16.5625 inclusive CPU seconds. This repair used 16.390625 seconds, including 10.84375 descendant-inclusive Job seconds and actual supervisor CPU. Both are charged once to CH13 revision 3, for 32.953125 preparation seconds; CH14 does not duplicate the shared fixture cost. The original 40,000-second card ceilings, CH family and campaign limits remain. All preserved outputs and sources are authenticated in the private preservation receipt. No participant source was read by qualification.
+
+**Next work and limits.** Commit the reviewed design and freeze the two real-source plans with exact qualified SG1 receipts, current budget, migration and drain pins. Source availability, cohort support, cost and human findings are not inferred from the fixture. The larger build and sixteen-card buffer remain deficient; commissioned builders remain unavailable at the recorded usage limit, so work proceeds inline. The duration source-value hold and exhausted MIDUS exception remain explicit. No new test was harvested from the operational request. Full internal filing precedes any result acknowledgement; scientific synthesis remains with the final packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged chess rider fixture passes all 34 constructed cases after an isolated engineering repair; the failed original, complete scratch evidence and both measured charges remain preserved.; project meaning: scoped operational record; next engineering obligation: Commit the reviewed design and admit the original source cards under current resource and cost bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_RIDERS_FIXTURE_HEAL1_20261118.md.
+
+### OPS-S15-W6-CH-RIDERS-FIXTURE-FAILURE-20261118
+
+**Hypothesis.** Can the commissioned waiting-time and move-recency chess handlers recover known constructed answers and independently replay their complete calculations before reading the real history source?
+
+**METHOD.** Review the original source projection, statistics, known-answer worlds, full handler and34fixed tests against the packet and approved peer-wait comparison rule. Install the exact delivered bytes and run the full fixture in one counted native Job, with actual two-thread witnesses, source pins and a600-inclusive-CPU-second bound. The original40,000-second card ceilings and shared CH/campaign limits remain.
+
+**Found.** All34cases ran:32passed and2failed. A peer-pool helper omitted its explicit missing-value field when no other player supplied a wait. The independent chronological move-recency replay stopped before meeting its unchanged coefficient-agreement tolerance. Its Newton stopping criterion was looser than the precision needed by the replay. These are engineering failures, not human findings. No participant source was opened.
+
+**Preservation and cost.** Every recorded attempt output and source pin authenticates; both inspected native identities have exited and the owned lease is released. Descendant-inclusive CPU was12.343750seconds and the complete recorded charge including supervisor CPU was16.562500seconds, posted once to CH13revision2. The original logs, JUnit report and immutable failed receipt remain. Initial constructed scratch used pytest's system temporary directory; the successor binds it inside its attempt for complete artifact retention. No raw study result is lost or overwritten.
+
+**Recovery.** Freeze additive version2helpers: explicitly return no peer value for an empty pool and require tighter convergence of both existing optimization implementations, preserving the objective, original tests, model, seeds, source, comparison and acceptance tolerance. Rerun all34tests as the first of two allowed engineering repairs. Source/native continuation admission and committed design remain required before production. The MIDUS allowance stays exhausted. Hardware and reviewed companion coexistence pass; the three commissioned builders remain unavailable at their recorded usage limit, so the owner continues inline. The eight-slot ready buffer remains deficient. No tests harvested from this operational request.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original chess rider qualification ran all34 constructed cases and exposed two engineering defects; failed evidence and costs are preserved for an unchanged-model repair.; project meaning: scoped operational record; next engineering obligation: Qualify the additive unchanged-model repair, then complete source/native admission for both chess cards.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_RIDERS_FIXTURE_FAILURE_20261118.md.
+
 ### S15-W6-ES2-FIRSTWEEK-0057-0056-20261118
 
 **Hypothesis.** Does a person's stronger reaction to negative experiences in the first elapsed week accompany more negative endorsements in the second, after accounting for earlier endorsements and response opportunities?

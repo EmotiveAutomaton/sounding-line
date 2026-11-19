@@ -196,6 +196,18 @@ def test_ntfy_failure_is_visible_without_leaking_secrets(env):
         assert row["error"] == "OSError" and "do-not-log-me" not in str(row)
 
 
+def test_ntfy_can_be_disabled_without_network(env):
+    repo, state = env
+    def forbidden(*a, **kw):
+        pytest.fail("Disabled notifications must not touch the network")
+    assert notify.send("done", payload(repo, "Stop"), state=state,
+        config={"BASE": "https://bus.invalid", "ENABLED": "0"},
+        opener=forbidden) == "disabled"
+    with database(state) as db:
+        row = dict(db.execute("SELECT * FROM notifications").fetchone())
+        assert row["state"] == "disabled" and row["error"] is None
+
+
 def make_landing(env):
     repo, state = env
     config = {"paths": ["verdict.json"], "codex": "codex"}

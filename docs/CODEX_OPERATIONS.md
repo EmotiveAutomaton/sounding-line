@@ -1321,7 +1321,7 @@ Each row maps an old operating behavior to its Codex implementation and its limi
 |---|---|---|
 | Edit-time theory and design checks | `PostToolUse` calls `tools/codex_hooks.py`, then the existing linters | Parses `apply_patch` add/update/move/delete paths; shell calls scan Git changes. Bad payloads and Git failures cannot report a clean check. Post hooks provide corrective feedback after the write. |
 | Command policy | `PreToolUse`, `tools/codex_policy.py` | Destructive disk/shutdown commands are denied; simple static reads are allowed inside the sandbox; everything else uses native approval. Explicit escalation is never auto-approved by this script. |
-| Completion notification | `Stop`, `tools/codex_notify.py` | Uses `last_assistant_message`, never Claude transcript parsing. Keeps the existing ntfy topics, acknowledgment priority, and short snippet. |
+| Completion notification | `Stop`, `tools/codex_notify.py` | When locally enabled, uses `last_assistant_message`, never Claude transcript parsing, and keeps the existing ntfy topics, acknowledgment priority, and short snippet. `ENABLED=0` suppresses this optional leg without affecting the watcher. |
 | Needs-input notification | Pre-hooks on explicit user-input tools | Codex has no equivalent `Notification` event. Per shared Agent Core policy, automatic approval reviews do not page the curator; manual approval UI is the client's responsibility. |
 | Startup and context recovery | `SessionStart`, `PostCompact`, `UserPromptSubmit` | Reload reminders identify canonical documents, current ownership, and pending landings. They do not claim that the agent has read those files. |
 | Detached queue completion | `tools/codex_watch.py` plus `codex queue` | Durable final-produce events target one existing conversation; queue acceptance and completed write-through are separately recorded. |
@@ -1358,6 +1358,10 @@ Installation writes the reviewed project definitions, private notification confi
 and a hidden Windows logon watcher. It preserves exact prior bytes and an installation
 receipt for rollback. User-home and project `.codex` writes may require sandbox approval.
 No models or dependencies are installed and no research engine is launched.
+
+The private notification configuration may set `ENABLED=0` to suppress the optional
+ntfy completion/input leg without disabling the watcher, durable event collection, or
+native conversation wakes.
 
 Codex separately requires review and trust of each exact hook definition. In the CLI,
 use `/hooks`. For this explicitly authorized transition, `tools/codex_control.py

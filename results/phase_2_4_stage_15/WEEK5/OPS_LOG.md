@@ -1865,3 +1865,17 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-19T01:25:49.781914+00:00 S15-W6-ES3-PERSON-COUPLING-0057-20261118: The descriptive association between anger reactivity and short-minus-long anger carry is unresolved in the small identified diary subset; it establishes neither shared sensitivity nor its absence.
 
 2026-11-19T01:26:31.376294+00:00 S15-W6-ES2-FIRSTWEEK-0057-0056-20261118: First-week fear reactivity has a nominal positive association with later negative endorsements in the first diary source, but none of the three available second-source intervals excludes zero; this descriptive pattern does not establish a shared sensitivity or causal exposure.
+
+2026-11-19T02:14:09.382169+00:00 OPS-S15-W6-CH-RIDERS-FIXTURE-FAILURE-20261118: The original chess rider qualification ran all34 constructed cases and exposed two engineering defects; failed evidence and costs are preserved for an unchanged-model repair.
+
+2026-11-19T02:32:05.032593+00:00 OPS-S15-W6-CH-RIDERS-FIXTURE-HEAL1-20261118: The unchanged chess rider fixture passes all 34 constructed cases after an isolated engineering repair; the failed original, complete scratch evidence and both measured charges remain preserved.
+
+2026-11-19T02:47:38.387907+00:00 OPS-S15-W6-CH-RIDERS-FIXTURE-HEAL2-20261118: The complete 60-case chess fixture passes with chronology and per-comparison validity guards; the incomplete admission plans were retired before any source run, and all prior evidence and costs remain.
+
+2026-11-19T03:06:54.840774+00:00 OPS-S15-W6-CH13-FIRST-CHECKPOINT-20261118: The corrected chess waiting-time card completed its first 100-draw cost checkpoint with authenticated saved outputs and native exits; the unchanged full continuation is prepared while the second chess card runs.
+
+2026-11-19T03:31:15.212431+00:00 S15-W6-CH13-COMPLETE-20261118: The chess waiting-time comparison lacks the required within-player support: twelve players qualify for their own waits and none for sampled-peer waits, so the population carry-over contrast remains unsupported.
+
+2026-11-19T03:36:54.440925+00:00 OPS-S15-W6-CH14-FIRST-CHECKPOINT-20261118: The move-recency chess card completed its required first checkpoint with authenticated outputs and native exits; its unchanged full continuation is prepared under the original card ceiling.
+
+2026-11-19T03:44:11.063728+00:00 OPS-S15-W6-CHESS-CONTINUATION-20261118: The move-recency full continuation is admitted and running in CPU-only Gear2; the completed waiting-time study, both checkpoints, failed qualifications and all actual charges are fully recorded.

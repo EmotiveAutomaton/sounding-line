@@ -50,6 +50,11 @@ def send(kind, payload, *, state=STATE, config=None, opener=urllib.request.urlop
     outcome, error = "sent", None
     try:
         cfg = config or settings()
+        if cfg.get("ENABLED", "1").strip().lower() in {"0", "false", "no", "off"}:
+            with database(state) as db:
+                db.execute("UPDATE notifications SET state=?,updated=?,error=? WHERE id=?",
+                           ("disabled", time.time(), None, key))
+            return "disabled"
         base = cfg["BASE"].rstrip("/")
         headers = {"User-Agent": "wristwork-hook/1.0"}
         if cfg.get("TOKEN"):

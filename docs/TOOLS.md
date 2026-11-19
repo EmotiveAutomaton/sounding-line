@@ -2979,6 +2979,20 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-CHESS-CONTINUATION-20261118:** The move-recency full continuation is admitted and running in CPU-only Gear2; the completed waiting-time study, both checkpoints, failed qualifications and all actual charges are fully recorded. [Record](../results/phase_2_4_stage_15/WEEK5/CHESS_CONTINUATION_20261118.md).
+
+**OPS-S15-W6-CH14-FIRST-CHECKPOINT-20261118:** The move-recency chess card completed its required first checkpoint with authenticated outputs and native exits; its unchanged full continuation is prepared under the original card ceiling. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_FIRST_CHECKPOINT_20261118.md).
+
+**S15-W6-CH13-COMPLETE-20261118:** The chess waiting-time comparison lacks the required within-player support: twelve players qualify for their own waits and none for sampled-peer waits, so the population carry-over contrast remains unsupported. [Record](../results/phase_2_4_stage_15/WEEK5/CH13_COMPLETE_20261118.md).
+
+**OPS-S15-W6-CH13-FIRST-CHECKPOINT-20261118:** The corrected chess waiting-time card completed its first 100-draw cost checkpoint with authenticated saved outputs and native exits; the unchanged full continuation is prepared while the second chess card runs. [Record](../results/phase_2_4_stage_15/WEEK5/CH13_FIRST_CHECKPOINT_20261118.md).
+
+**OPS-S15-W6-CH-RIDERS-FIXTURE-HEAL2-20261118:** The complete 60-case chess fixture passes with chronology and per-comparison validity guards; the incomplete admission plans were retired before any source run, and all prior evidence and costs remain. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RIDERS_FIXTURE_HEAL2_20261118.md).
+
+**OPS-S15-W6-CH-RIDERS-FIXTURE-HEAL1-20261118:** The unchanged chess rider fixture passes all 34 constructed cases after an isolated engineering repair; the failed original, complete scratch evidence and both measured charges remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RIDERS_FIXTURE_HEAL1_20261118.md).
+
+**OPS-S15-W6-CH-RIDERS-FIXTURE-FAILURE-20261118:** The original chess rider qualification ran all34 constructed cases and exposed two engineering defects; failed evidence and costs are preserved for an unchanged-model repair. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RIDERS_FIXTURE_FAILURE_20261118.md).
+
 **S15-W6-ES2-FIRSTWEEK-0057-0056-20261118:** First-week fear reactivity has a nominal positive association with later negative endorsements in the first diary source, but none of the three available second-source intervals excludes zero; this descriptive pattern does not establish a shared sensitivity or causal exposure. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_FIRSTWEEK_COMPLETE_0057_0056_20261118.md).
 
 **S15-W6-ES3-PERSON-COUPLING-0057-20261118:** The descriptive association between anger reactivity and short-minus-long anger carry is unresolved in the small identified diary subset; it establishes neither shared sensitivity nor its absence. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_PERSON_COUPLING_COMPLETE_0057_20261118.md).

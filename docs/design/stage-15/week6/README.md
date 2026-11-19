@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The eight-study diary continuation leg completed full independent replay and is internally filed; its controller and workers exited normally. CPU-only Gear2 remains selected, with this queue drained. The duration descriptor remains held by its source-value refusal, and the approved extra MIDUS attempt and its combined allowance are exhausted. No further MIDUS retry is authorized. The wider build, concurrency repair and sixteen-card ready buffer remain incomplete; no next research worker is claimed running. Original failures, checkpoints and actual costs are preserved.
+**Current boundary:** The full move-recency chess continuation is admitted and running in CPU-only Gear2, alongside the reviewed counted companion. The waiting-time chess study completed full independent replay and is internally filed, with both cost checkpoints, original failed qualifications and all charges preserved. The eight-study diary leg is also fully filed. The duration source-value refusal and exhausted extra MIDUS qualification allowance remain holds. The broader build, serial-admission repair and sixteen-card ready buffer remain incomplete; builder usage limits require inline work. Events, four-hour inactivity and single-pending delivery remain unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
@@ -38,8 +38,8 @@ authorized local export destinations may receive their declared payloads.
 All landings retain full internal write-through and final-packet reporting.
 Events plus four hours of owner inactivity and one pending wake remain unchanged.
 
-The [0057 person-coupling design](ES3_PERSON_COUPLING_0057_V1.md) reuses the completed native qualification and preserves independent parent calibration. Its local candidate plan awaits the design commit and ordinary release checks.
+The [0057 person-coupling design](ES3_PERSON_COUPLING_0057_V1.md) reuses the completed native qualification and preserves independent parent calibration. The committed design has completed its full source-specific run and independent replay; the result is fully filed.
 
-The [reported-duration design](ES3_DURATION_0045_V1.md) has a complete native twenty-case adapter qualification and a source-specific candidate. Production still requires the committed design and fresh ordinary admission.
+The [reported-duration design](ES3_DURATION_0045_V1.md) has a complete native twenty-case adapter qualification and a source-specific candidate. The design is committed; the admitted source run refused an invalid duration value and remains held for the recorded source-value diagnosis.
 
-The [source-defined first-week design](ES2_FIRST_WEEK_0057_0056_V1.md) binds eight configurations and their complete installed qualification; production awaits its committed design and fresh ordinary admission.
+The [source-defined first-week design](ES2_FIRST_WEEK_0057_0056_V1.md) binds eight configurations and their complete installed qualification; the design is committed and all seven source-supported configurations have completed full independent replay and filing; the eighth lacks its required source items.
