@@ -1,5 +1,24 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-CH14-SCALAR-TRANSPORT-HEAL1-20261119
+
+**Hypothesis.** Can the recovery adapter recognize the runtime's actual unfinished verification receipt without accepting partial verification as complete?
+
+**METHOD.** Read the exact failure traceback, runtime writer and saved verification return; authenticate final inclusive costs, native exits and unchanged original output manifest. Reproduce the original filename refusal in a constructed fixture, then run the entire qualification through a separately frozen adapter that authenticates the exact yielded schema and saved partial-draw count. Preserve the old adapter and failed attempt.
+
+**Found.** The first compiled-replay launch refused an unfinished receipt by filename before copying data; its exact-schema repair passes all 126 constructed checks, with the original evidence and failed cost preserved.
+
+**Failure and diagnosis.** The first CH14.h1 production attempt consumed 6.921875 CPU seconds before failing in its execution-copy admission. It copied no execution output, started no independent replay and read no scientific estimate. The runtime writes every verification return into a file named VERIFIED.json; the preserved return says yielded, records two completed draws and explicitly denies partial-verification credit. The first adapter incorrectly rejected that filename outright. Its constructed transport fixture had omitted this actual runtime receipt. This was an engineering fixture gap, not a scientific or resource failure. The owner and child are exited, the failure is accounted, and the original six-file execution/checkpoint manifest still matches.
+
+**First bounded repair.** The separate v2 adapter pins the additional receipt and accepts only its exact unfinished status and phase, false verification-credit flag, integer count below the full draw count, and agreement with the preserved partial bank. Completed, empty, credited, extra-field, Boolean-count and inconsistent-count receipts refuse. The original adapter's actual refusal is reproduced. All 126 fixed constructed checks pass, including the original numerical and transport qualification, with no skips. Qualification used 29.4375 inclusive CPU seconds and 32.16 wall seconds in one counted CPU-only slot; its owner and child exited and its lease is released. This is the new implementation card's first engineering repair. There is no change to the compiled scalar kernel, independent Newton solver, model, source, population, seed, all 2,000 draws or acceptance rules. No old verification draw is credited.
+
+**Accounting and disposition.** Including the failed attempt and ordinary coordination debit, CH14 is charged 31607.5625 CPU seconds before the new qualification debit. Its original 40,000-second ceiling remains; the new 29.4375-second debit must be posted once before the next admission. No unrelated worker or live source was altered. The aggregate records and generated views are complete; committed repair design and ordinary admission precede the next full replay. The earlier health, pause and monitor events, plus this new failure, remain pending until the authorized recovery is recorded. Scientific claims remain unchanged and full internal result filing still precedes final-packet interpretation.
+
+**Build and monitoring.** CPU-only Gear 2 remains selected. The qualified recovery is the next eligible task; other slots remain unfilled because the recorded source/qualification holds and incomplete ready buffer persist. Commissioned builders remain unavailable under the recorded usage limit, so this repair was built inline. The event/four-hour inactivity/single-pending watcher policy remains unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first compiled-replay launch refused an unfinished receipt by filename before copying data; its exact-schema repair passes all 126 constructed checks, with the original evidence and failed cost preserved.; project meaning: scoped operational record; next engineering obligation: Post the measured qualification cost once, commit and admit the exact-schema repair, then finish full independent replay without partial credit.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH14_SCALAR_TRANSPORT_HEAL1_20261119.md.
+
 ### OPS-S15-W6-CH14-SCALAR-REPLAY-HEALTH-20261119
 
 **Hypothesis.** Can the move-recency comparison complete its independent verification within its original allowance without losing execution evidence or weakening the check?

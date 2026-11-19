@@ -1887,3 +1887,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-19T09:12:29.343010+00:00 OPS-S15-W6-CH14-RECOVERY-RUNNING-20261119: The authenticated move-recency checkpoint continuation is admitted and progressing in CPU-only Gear 2 beside the reviewed counted companion; failed evidence, qualification costs and original study limits remain preserved.
 
 2026-11-19T14:00:23.582752+00:00 OPS-S15-W6-CH14-SCALAR-REPLAY-HEALTH-20261119: The slow independent replay is safely checkpointed with complete execution preserved; an unchanged-model compiled scalar successor passes all 118 constructed checks, while scientific verification remains pending.
+
+2026-11-19T14:16:48.286722+00:00 OPS-S15-W6-CH14-SCALAR-TRANSPORT-HEAL1-20261119: The first compiled-replay launch refused an unfinished receipt by filename before copying data; its exact-schema repair passes all 126 constructed checks, with the original evidence and failed cost preserved.

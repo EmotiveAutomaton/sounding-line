@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The slow move-recency verification is safely checkpointed, with all 2,000 execution draws and partial replay preserved. Its unchanged-model compiled scalar successor passes 118 constructed checks; committed design and ordinary admission precede a fresh full replay. No scientific result is admitted. CPU-only Gear 2, original ceilings and events/four-hour/single-pending wakes remain unchanged. Duration-source and MIDUS qualification holds and the deficient ready buffer remain explicit.
+**Current boundary:** The original chess execution remains preserved and scientifically unverified. The compiled replay stopped before copying on an unfinished-receipt schema mismatch; its separate first repair passes all 126 constructed checks and awaits committed-design admission. CPU-only Gear 2 and all original limits remain. Other source and qualification holds and the deficient ready buffer remain explicit; watcher cadence is unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
