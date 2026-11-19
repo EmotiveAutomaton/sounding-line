@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-CH14-RECOVERY-RUNNING-20261119: The authenticated move-recency checkpoint continuation is admitted and progressing in CPU-only Gear 2 beside the reviewed counted companion; failed evidence, qualification costs and original study limits remain preserved.
+
 - [x] OPS-S15-W6-CH14-WALL-RECOVERY-20261119: The move-recency study hit its attempt wall with an intact checkpoint; the unchanged-model recovery and narrow companion-path compatibility pass all 244 constructed checks, with every failure and cost retained.
 
 - [x] OPS-S15-W6-DIGEST-20261118: The daily records reconcile and the full move-recency chess study remains active in CPU-only Gear 2; preserved source and qualification holds and the incomplete ready buffer remain explicit.

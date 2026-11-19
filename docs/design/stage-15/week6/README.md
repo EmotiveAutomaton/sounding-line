@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The move-recency attempt hit its wall and its last atomic checkpoint is intact. The unchanged-model recovery and exact companion-path compatibility pass 244 constructed checks; costs are retained and production release is pending. CPU-only Gear 2 remains selected. Source-specific holds, the exhausted extra MIDUS qualification allowance, incomplete broader build and deficient ready buffer remain explicit. Events, four-hour inactivity and one pending wake remain unchanged.
+**Current boundary:** The authenticated move-recency checkpoint continuation is admitted and progressing in CPU-only Gear 2, beside the reviewed counted companion. The wall failure, all preparation failures and measured charges are retained; 244 constructed checks pass. The original study ceilings, source and scientific model are unchanged. Full independent replay remains pending. Duration-source and exhausted MIDUS qualification holds, wider unbuilt work and the deficient ready buffer remain explicit. Events, four-hour inactivity and single-pending delivery remain unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
