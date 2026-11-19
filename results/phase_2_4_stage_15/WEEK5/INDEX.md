@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-CH14-SCALAR-REPLAY-RUNNING-20261119:** [Record](CH14_SCALAR_REPLAY_RUNNING_20261119.md). The repaired full independent replay is admitted and progressing in CPU-only Gear 2; complete execution, failed attempts and all measured costs remain preserved under the original study ceiling.
+
 **OPS-S15-W6-CH14-SCALAR-TRANSPORT-HEAL1-20261119:** [Record](CH14_SCALAR_TRANSPORT_HEAL1_20261119.md). The first compiled-replay launch refused an unfinished receipt by filename before copying data; its exact-schema repair passes all 126 constructed checks, with the original evidence and failed cost preserved.
 
 **OPS-S15-W6-CH14-SCALAR-REPLAY-HEALTH-20261119:** [Record](CH14_SCALAR_REPLAY_HEALTH_20261119.md). The slow independent replay is safely checkpointed with complete execution preserved; an unchanged-model compiled scalar successor passes all 118 constructed checks, while scientific verification remains pending.

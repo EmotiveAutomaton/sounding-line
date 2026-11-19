@@ -2979,6 +2979,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-CH14-SCALAR-REPLAY-RUNNING-20261119:** The repaired full independent replay is admitted and progressing in CPU-only Gear 2; complete execution, failed attempts and all measured costs remain preserved under the original study ceiling. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_SCALAR_REPLAY_RUNNING_20261119.md).
+
 **OPS-S15-W6-CH14-SCALAR-TRANSPORT-HEAL1-20261119:** The first compiled-replay launch refused an unfinished receipt by filename before copying data; its exact-schema repair passes all 126 constructed checks, with the original evidence and failed cost preserved. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_SCALAR_TRANSPORT_HEAL1_20261119.md).
 
 **OPS-S15-W6-CH14-SCALAR-REPLAY-HEALTH-20261119:** The slow independent replay is safely checkpointed with complete execution preserved; an unchanged-model compiled scalar successor passes all 118 constructed checks, while scientific verification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_SCALAR_REPLAY_HEALTH_20261119.md).

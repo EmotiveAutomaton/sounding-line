@@ -1,5 +1,24 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-CH14-SCALAR-REPLAY-RUNNING-20261119
+
+**Hypothesis.** Is the qualified recovery actually running with its original evidence and resource boundaries intact?
+
+**METHOD.** Authenticate the committed exact-schema design, passing 126-case native qualification, immutable preparation debit, frozen plan, native admission and registered owner. Compare two accounting samples; verify actual child identities, copied execution hashes, predecessor manifest, counted leases, resource headroom, watcher and calendar identities, and each event's exact saved digest. No unfinished scientific estimate is read.
+
+**Found.** The repaired full independent replay is admitted and progressing in CPU-only Gear 2; complete execution, failed attempts and all measured costs remain preserved under the original study ceiling.
+
+**Execution.** The owner and an actual counted child are alive. Attempt CPU advanced from 0.0 to 114.703125 seconds between samples; the latest recorded phase is verify. Every copied complete-execution file matches its authenticated original. All 2,000 original execution draws remain preserved. Independent verification starts fresh with zero credit from the old partial replay. The new attempt is capped at 8,333 CPU seconds within CH14's original 40,000-second allowance; its existing wall, memory, output and campaign guards remain active. Full replay and scientific filing remain outstanding, so this operational record licenses no scientific conclusion.
+
+**Costs and preserved failures.** The first compiled transport's pre-copy failure remains recorded at 6.921875 CPU seconds. The first and repaired qualifications used 30.625 and 29.4375 CPU seconds respectively; each was posted exactly once. Before this new attempt and its coordination debit, CH14 had 31,637 CPU seconds charged. The original wall failure, slow scalar pause, disappearance alert, failed transport, source seal and checkpoint banks all remain intact. The final repair design and complete aggregate recovery records were committed and pushed before this release; the exact remote commit was verified.
+
+**Health and remaining build.** Two shared leases are occupied: this recovery and the unchanged reviewed companion. Available RAM is 49.39 GiB, commit headroom 33.31 GiB and local disk 781.99 GiB. Native watcher and calendar identities verify and the watcher reports no service error. All 21 canonical locks pass. The collector's six delivery-directory timestamps remain unchanged. Duration-source and exhausted MIDUS qualification holds, wider unfinished builds and the sixteen-card ready-buffer deficit remain explicit. Commissioned builders remain unavailable under their recorded usage limit; recovery was built inline. No foreign worker or parked GPU work was changed.
+
+**Delivery.** This complete write-through and the two linked recovery filings precede ACK of the health, old pause, monitor alert and failed transport. Events, four-hour owner inactivity and one pending wake remain unchanged. The watcher retains the new attempt's completion, failure, pause and disappearance events. It owns waiting; no extra ETA wake is installed. Scientific interpretation remains for the final curator packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The repaired full independent replay is admitted and progressing in CPU-only Gear 2; complete execution, failed attempts and all measured costs remain preserved under the original study ceiling.; project meaning: scoped operational record; next engineering obligation: Complete the full fresh independent replay and its scientific write-through; continue eligible builds within the preserved source and qualification holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH14_SCALAR_REPLAY_RUNNING_20261119.md.
+
 ### OPS-S15-W6-CH14-SCALAR-TRANSPORT-HEAL1-20261119
 
 **Hypothesis.** Can the recovery adapter recognize the runtime's actual unfinished verification receipt without accepting partial verification as complete?

@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The original chess execution remains preserved and scientifically unverified. The compiled replay stopped before copying on an unfinished-receipt schema mismatch; its separate first repair passes all 126 constructed checks and awaits committed-design admission. CPU-only Gear 2 and all original limits remain. Other source and qualification holds and the deficient ready buffer remain explicit; watcher cadence is unchanged.
+**Current boundary:** The repaired full independent chess replay is admitted and progressing in CPU-only Gear 2 beside the reviewed companion. Complete execution and all earlier failures and costs remain preserved. All 126 constructed checks pass; the fresh full replay remains pending under the original ceiling. Source and qualification holds and the deficient ready buffer remain explicit. Events, four-hour inactivity and single-pending wakes are unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
