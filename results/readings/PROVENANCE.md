@@ -18,6 +18,19 @@ with the reason.
 
 ---
 
+## November18 additional MIDUS wrapper attempt
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| Approve one additional bounded attempt | Ran the one extra constructed-only43-case wrapper qualification with original tests and the cumulative allowance retained. Its cost guard stopped it before completion; all evidence and actual costs were filed. No further retry, replacement86-case entry suite or participant execution was authorized. | built | [Complete attempt disposition](../phase_2_4_stage_15/WEEK5/MI_APPROVED_COST_STOP_20261118.md) |
+
+
+## November 16 CANDOR package scope
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| Keep complete Tabular and Raw; avoid the duplicate media download | Retain the complete Tabular package and continue the existing Raw download. Do not enqueue the full standalone Processed package; preserve its already saved subset. Scientific admission remains separate. | written | [Prior coverage inspection](../phase_2_4_stage_15/WEEK5/CANDOR_INDEPENDENT_PREBUILD_20261116.md); curator reply filed November 16 |
+
 ## November 16 study design clarifications
 
 | Contribution | What changed | Status | Record |

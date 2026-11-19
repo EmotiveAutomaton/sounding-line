@@ -19,6 +19,35 @@ the project environment was not changed.
 
 ## External collection inventory — November 15, 2026
 
+### K-EmoCon received subset — November 18, 2026
+
+Five completed archives are held privately under `private/k-emocon/raw/`:
+`e4_data.tar.gz`, `neurosky_polar_data.tar.gz`, `emotion_annotations.tar.gz`,
+`metadata.tar.gz` and `data_quality_tables.tar.gz`. They total **24,448,180 bytes**
+according to the preserved intake. The owner independently matched all five
+archive sizes and SHA-256 hashes to the delivered metadata. The collector reports
+**550 CSV members**, matching local MD5 hashes, full gzip CRC and TAR
+path/link/collision checks; those structural checks were not independently rerun
+in this metadata review. Original archives remain intact; no expanded copy or
+scientific consumer was created by this review.
+
+| Source / capability | Available primitive | Readiness and limits |
+|---|---|---|
+| K-EmoCon sensor/annotation subset | E4 wrist data, NeuroSky/Polar data, emotion annotations, metadata and quality tables; `private/k-emocon/SOURCE.json`, `CARD.md`, `SCHEMA.json`. | Self, partner and external-observer annotations are distinct perspectives. Sensor/annotation units and sampling rates differ. CSV header mapping, time joins and source-specific readers remain unqualified; no participant rows, outcomes or media displayed. |
+| K-EmoCon audio/video | Two zero-byte final placeholders with two separate `.part` files at intake. | **Incomplete, excluded from held counts.** Preserve ongoing curator downloads. Recheck final files and hash them after completion; no complete audiovisual-release claim. |
+
+The collector identifies the [restricted record](https://zenodo.org/records/3931963)
+as candidate v1.0.0; the actual delivered version and provider checksum agreement
+remain unverified. Its retained reading of the [usage agreement](https://forms.gle/qmK8TcEDtw56Nqev5),
+last updated September 11, 2020, restricts commercial use/training/testing absent
+prior permission and redistribution apart from limited academic illustrations.
+Cite the paper and dataset; newer versions require renewed access requests.
+Model-release permission is silent. The collector retained this public reading;
+the exact accepted agreement/version and any special permissions remain pending.
+The article's CC BY 4.0 licence is not treated as a dataset grant. This intake
+does not qualify a scientific consumer. Handoff: `_handoffs/DC-20261118-01.md`.
+
+
 ### PANDORA author delivery and CANDOR acquisition — November 16, 2026
 
 The new author-provided PANDORA release and approved CANDOR access are recorded
@@ -159,7 +188,7 @@ Each row lists a retained source, its primitive and the restriction still requir
 | Winning Arguments / Change My View — ConvoKit release | `open/change-my-view/raw/` | Official ConvoKit Winning Arguments conversion; delta awards are behaviour, not necessarily private belief change. Original text rights review pending; macOS resource forks excluded. |
 | openESM, 62 member releases | `open/openesm-*/raw/`; full item/design inventory in `_registry/OPENESM_MEMBER_INVENTORY.json` | Per-member licence and checksum retained; one of 63 members remains metadata-only for missing licence. Construct tags do not prove trait coverage. Member 0049 version alignment and two member-0072 supplementary raw encodings need review; harmonized series remains structurally readable. |
 
-The pending-source list retains EMOTE, Vent, K-EmoCon and Wikipedia browsing diaries. Original author PANDORA and CANDOR Tabular are now held; CANDOR Raw acquisition is separately tracked. UR-FUNNY is held for its pickle format; CMU-MOSEI was deliberately not fetched. Kiva snapshot retrieval/size/terms remain unqualified; Reddit r/Jokes reuse terms remain unresolved. See `_registry/NEEDS_CURATOR.md` and `_registry/LICENCE_AUDIT.md`. ValueEval is already filed privately and is no longer merely an outstanding request.
+The pending-source list retains EMOTE, Vent and Wikipedia browsing diaries. K-EmoCon now has a verified sensor/annotation subset; media completion and accepted terms/version remain pending. Original author PANDORA and CANDOR Tabular are now held; CANDOR Raw acquisition is separately tracked. UR-FUNNY is held for its pickle format; CMU-MOSEI was deliberately not fetched. Kiva snapshot retrieval/size/terms remain unqualified; Reddit r/Jokes reuse terms remain unresolved. See `_registry/NEEDS_CURATOR.md` and `_registry/LICENCE_AUDIT.md`. ValueEval is already filed privately and is no longer merely an outstanding request.
 
 The collector’s structure-only tooling records hashes, file structure and counts without exposing data rows or outcome distributions. Original unsafe/failed attempts remain recorded. Source availability does not establish scientific validity, consent re-audit or analysis admission.
 
@@ -267,7 +296,7 @@ metadata card does not mean its dataset was downloaded.
 | Colors in Context complements | Author-filtered English CSV only. | Unfiltered English/Chinese files and their rights are separate complements; no licence inferred from public hosting. |
 | **PANDORA** | Original author comments/profiles ZIPs and supplied terms note are held privately; local hashes/archive safety verified. HF derivative remains separately provisional and non-reportable. | [Official source](https://psy.takelab.fer.hr/datasets/all/pandora/) page retrieval remains unreliable; actual author terms are retained. Qualify profile fields/label provenance and release coverage; no redistribution/identification/contact, public aggregate reporting only. Commercial/model-release rights and current deletion procedure remain unresolved. |
 | CANDOR tabular | All 70 pinned Tabular files hash-verified; approval and existing authenticated access confirmed. One Processed archive also verified; full Raw acquiring separately. | Use current source coverage and RAW_PROGRESS.json; preserve v2.1 privacy, attribution, recipient and thirty-day removal duties. No further login/download request is needed for Tabular. |
-| Vent, K-EmoCon and Wikipedia browsing diaries | Request/status metadata only; no supplied data or approval receipt in this intake. | Curator receives the approved source and records terms. No additional author contact made; these are separate sources, not substitutes for PANDORA. |
+| Vent, K-EmoCon and Wikipedia browsing diaries | K-EmoCon: five completed archives are held; audio/video files remain incomplete. Vent and browsing diaries retain request/status metadata. | K-EmoCon: finish media transfers and confirm accepted terms/release. Vent/browsing diaries: deliver approved bytes and terms. No additional author contact made. |
 | EMOTE | Access documentation and openESM comparison; no EMOTE data. | Identify extra variables/populations beyond acquired openESM before a project-specific ORCID request. Verify provider storage/co-user conditions. |
 | openESM member 0075 | Metadata only; the other 62 member releases are held. | Resolve missing licence declaration before acquisition under the member-list rule. |
 | Kiva snapshots | Terms evidence only; no snapshot body. | Qualify terms and size, then resolve recorded TLS retrieval failure without disabling certificate checks. |
@@ -2949,6 +2978,62 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**S15-W6-ES2-FIRSTWEEK-0057-0056-20261118:** First-week fear reactivity has a nominal positive association with later negative endorsements in the first diary source, but none of the three available second-source intervals excludes zero; this descriptive pattern does not establish a shared sensitivity or causal exposure. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_FIRSTWEEK_COMPLETE_0057_0056_20261118.md).
+
+**S15-W6-ES3-PERSON-COUPLING-0057-20261118:** The descriptive association between anger reactivity and short-minus-long anger carry is unresolved in the small identified diary subset; it establishes neither shared sensitivity nor its absence. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_PERSON_COUPLING_COMPLETE_0057_20261118.md).
+
+**OPS-S15-W6-DIARY-PREFIX-CONTINUATIONS-20261118:** Eight diary studies completed their declared first checkpoint quantum with authenticated exits and costs; unchanged full continuations are staged, while the duration source-value refusal is preserved and held for diagnosis. [Record](../results/phase_2_4_stage_15/WEEK5/DIARY_PREFIX_CONTINUATIONS_20261118.md).
+
+**OPS-S15-W6-DIARY-NATIVE-RELEASE-20261118:** Nine diary plans now bind committed designs and passed fixtures; the first pre-source refusal and its charge are preserved, and release returns to the established setup-exit/native-shell sequence. [Record](../results/phase_2_4_stage_15/WEEK5/DIARY_NATIVE_RELEASE_20261118.md).
+
+**OPS-S15-W6-MI-APPROVED-COST-STOP-20261118:** The approved extra MIDUS wrapper attempt stopped at its cumulative CPU boundary before qualification completed; all retained outputs, native exits and actual charges are reconciled, and the wrapper remains unqualified. [Record](../results/phase_2_4_stage_15/WEEK5/MI_APPROVED_COST_STOP_20261118.md).
+
+**OPS-S15-W6-NEXT-LEG-PREPARED-20261118:** Nine qualified diary candidates now have preserved originals and refreshed coexistence and budget bindings; production remains disabled until the required design commits and fresh admission. [Record](../results/phase_2_4_stage_15/WEEK5/NEXT_LEG_PREPARED_20261118.md).
+
+**OPS-S15-W6-COMPANION-BASE-20261118:** The active base-model companion passes the unchanged native coexistence proof; only its reviewed fixed commands are added, with counted capacity and ownership checks retained. [Record](../results/phase_2_4_stage_15/WEEK5/COMPANION_BASE_20261118.md).
+
+**OPS-S15-W6-MI-ENTRY-BUILD-20261118:** The curator-entry successor is built and statically reviewed with original tests and evidence preserved; its complete native qualification remains unrun and it grants no participant execution. [Record](../results/phase_2_4_stage_15/WEEK5/MI_ENTRY_BUILD_20261118.md).
+
+**OPS-S15-W6-BUILD-HEALTH-20261118-1417:** The current queue has no active research worker or unresolved native ownership; qualified builds and all checked evidence are preserved, while production admission and one explicit wrapper-retry decision remain outstanding. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_HEALTH_20261118_1417.md).
+
+**OPS-S15-W6-COLLECTOR-KEMOCON-REVIEW-20261118:** The owner authenticated the five delivered archive identities and admitted a corrected metadata catalog entry; structural checks remain attributed to the collector, and source permissions and scientific use remain unadmitted. [Record](../results/phase_2_4_stage_15/WEEK5/COLLECTOR_KEMOCON_REVIEW_20261118.md).
+
+**OPS-S15-W6-MI-SOURCE-COUNTER-QUALIFIED-20261118:** The original MIDUS metadata contract and the independent monitoring repair pass all31 complete native checks; the failed combined scientific wrapper remains a separate unadmitted retry. [Record](../results/phase_2_4_stage_15/WEEK5/MI_SOURCE_COUNTER_QUALIFIED_20261118.md).
+
+**OPS-S15-W6-MI-SOURCE-MODULE-BINDING-20261118:** The first source-fixture repair refused an incorrect owner module-path expectation before any test ran; original code and costs are preserved for a corrected exact-path binding. [Record](../results/phase_2_4_stage_15/WEEK5/MI_SOURCE_MODULE_BINDING_20261118.md).
+
+**OPS-S15-W6-MI-SOURCE-FIXTURE-ALIASES-20261118:** The metadata and counter fixture reached all selected cases, but pytest convenience links violated its strict output contract; the failed qualification and cost are preserved for an isolated fixture-directory repair. [Record](../results/phase_2_4_stage_15/WEEK5/MI_SOURCE_FIXTURE_ALIASES_20261118.md).
+
+**OPS-S15-W6-MI-COMBINED-COUNTER-FAILURE-20261118:** The second combined-wrapper repair reached the full replay fixture but its supervisor failed during live file monitoring; the qualification is invalid after its allowed repairs, with all partial evidence and costs retained. [Record](../results/phase_2_4_stage_15/WEEK5/MI_COMBINED_COUNTER_FAILURE_20261118.md).
+
+**OPS-S15-W6-MI-COMBINED-NULL-CANONICAL-20261118:** The first combined-wrapper repair passed its direct null-device probe but still refused pytest logging using an absolute spelling; its evidence and cost are retained for the second and final engineering repair. [Record](../results/phase_2_4_stage_15/WEEK5/MI_COMBINED_NULL_CANONICAL_20261118.md).
+
+**OPS-S15-W6-MI-COMBINED-NULL-DEVICE-20261118:** The combined constructed wrapper stopped before collection because its network-share audit misclassified the Windows null device; the failed attempt and isolated reader preparation are fully retained and charged. [Record](../results/phase_2_4_stage_15/WEEK5/MI_COMBINED_NULL_DEVICE_20261118.md).
+
+**OPS-S15-W6-MI4-QUALIFIED-20261118:** The approved ordinary-mood comparison passes all22 original constructed cases with complete independent arithmetic, module, native and cost proof; combined sealed-wrapper qualification remains separate. [Record](../results/phase_2_4_stage_15/WEEK5/MI4_QUALIFIED_20261118.md).
+
+**OPS-S15-W6-MI4-CLI-FAILURE-20261118:** The first constructed MI4 launch stopped before test collection because its reused harness supplied an undefined reporting option; original evidence and complete costs are retained for an unchanged-test repair. [Record](../results/phase_2_4_stage_15/WEEK5/MI4_CLI_FAILURE_20261118.md).
+
+**OPS-S15-W6-ES2-FIRSTWEEK-BUILD-20261118:** All eight source-specific first-week configurations are built and pass the installed pipeline qualification; seven have their required source items and one has an explicit unsupported-source disposition, with production still awaiting design commitment and ordinary admission. [Record](../results/phase_2_4_stage_15/WEEK5/ES2_FIRSTWEEK_BUILD_20261118.md).
+
+**OPS-S15-W6-ES3-DURATION-BUILD-0045-20261118:** The commissioned reported-duration adapter and its complete replay pass all twenty constructed cases; its source-specific design and candidate are built, with production awaiting design commitment and ordinary admission. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_DURATION_BUILD_0045_20261118.md).
+
+**OPS-S15-W6-MI-STATCORE-QUALIFIED-20261118:** The unchanged MIDUS statistical core passes all 38 constructed cases after the isolated missing-weekday fixture repair, with complete native, module and cost proof; participant execution remains separately gated. [Record](../results/phase_2_4_stage_15/WEEK5/MI_STATCORE_QUALIFIED_20261118.md).
+
+**OPS-S15-W6-COMPANION-AGGREGATE-20261118:** The additive coexistence runtime passes all constructed checks and actual live TP23 aggregation proof; bounded Sounding Line work can share the counted allocation with that reviewed companion. [Record](../results/phase_2_4_stage_15/WEEK5/COMPANION_AGGREGATE_20261118.md).
+
+**OPS-S15-W6-MI-FIXTURE-DTYPE-20261118:** The complete MIDUS constructed qualification found a missing-weekday fixture type error; all evidence and inclusive costs are preserved for a separate unchanged-model repair. [Record](../results/phase_2_4_stage_15/WEEK5/MI_FIXTURE_DTYPE_20261118.md).
+
+**OPS-S15-W6-ES3-COUPLING-BUILD-0057-20261118:** The qualified 0057 person-coupling implementation is installed with exact module bindings and a checked candidate plan; production awaits the design commit and ordinary admission. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_COUPLING_BUILD_0057_20261118.md).
+
+**S15-W6-ES3-GRID-0057-20261118:** The complete naturalistic-diary persistence grid leaves the short-minus-long primary inconclusive; descriptive shape comparisons establish neither channel-specific retention nor equivalence. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_GRID_COMPLETE_0057_20261118.md).
+
+**S15-W6-ES3-INITIAL-0057-20261118:** The complete naturalistic-diary primary is inconclusive at its practical bar; the initial completed gap cells are descriptive and do not identify colored leftover. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_INITIAL_0057_20261118.md).
+
+**OPS-S15-W6-ES3-LEASE-RELEASE-RACE-20261118:** A completed worker released a lease during the next admission census; the refusal is preserved and an unchanged fresh recovery is staged. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_LEASE_RELEASE_RACE_20261118.md).
+
+**OPS-S15-W6-COMPANION-CHECKS-20261118:** All constructed coexistence checks pass; the companion exited before live proof, so the additive admission candidate remains inactive while ordinary research release resumes. [Record](../results/phase_2_4_stage_15/WEEK5/COMPANION_CHECKS_20261118.md).
 
 **OPS-S15-W6-ES3-GRID-BUILD-20261118:** The corrected daily recovery is complete and preserved; eleven commissioned persistence configurations are built on the exact qualified clock pipeline, awaiting committed-plan release. [Record](../results/phase_2_4_stage_15/WEEK5/ES3_GRID_BUILD_20261118.md).
 

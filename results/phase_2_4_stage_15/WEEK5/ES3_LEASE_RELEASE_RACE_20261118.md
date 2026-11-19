@@ -1,0 +1,9 @@
+# ES3 LEASE RELEASE RACE 20261118
+
+**Hypothesis.** Can the already commissioned persistence grid continue after a lease disappears between enumeration and reading during admission?
+
+**METHOD.** Inspect the exact traceback, immutable plan dependencies, terminal charge, native exit and lease state; rerun admission read-only. Preserve the failed attempt and use a fresh root for the identical card, source, configuration, seed, design and budget.
+
+**Found.** The fifth release stopped in predecessor-drain inspection when slot-5.json had disappeared after the lease list was built. Earlier panels had completed and released their leases. This is a fail-closed lease-release race, not a missing study source, a companion collision or a scientific outcome. The same pinned plan passes a fresh read-only admission after completion settles. No source phase started, measured child CPU is zero, and the normal 30-second attempt debit remains in the existing ledger. There is no added preparation charge for this retry. The original failed root, traceback, owner and all pins remain unchanged; its owner has exited. Four earlier panels have complete execute/verify outputs and await their full scientific write-through in this pass.
+
+**Recovery boundary.** Stage one fresh identical recovery. Release the remaining commissioned cells serially, waiting for each exact terminal, owner exit and lease release before the next admission so this known disappearance cannot be introduced by this release batch. Keep all guards. Unknown readers and unrelated missing files still refuse. This is a temporary release workaround, not a claim that the underlying concurrent lease-snapshot race is fixed. A later additive repair needs its own qualification. The existing coexistence candidate also remains inactive pending actual live acceptance. No foreign process, lock or output is changed. CPU-only Gear2, cumulative limits, full internal filing and final-packet reporting remain unchanged.

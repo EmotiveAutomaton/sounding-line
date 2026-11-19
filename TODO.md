@@ -1,5 +1,65 @@
 # TODO: the study queue
 
+- [x] S15-W6-ES2-FIRSTWEEK-0057-0056-20261118: First-week fear reactivity has a nominal positive association with later negative endorsements in the first diary source, but none of the three available second-source intervals excludes zero; this descriptive pattern does not establish a shared sensitivity or causal exposure.
+
+- [x] S15-W6-ES3-PERSON-COUPLING-0057-20261118: The descriptive association between anger reactivity and short-minus-long anger carry is unresolved in the small identified diary subset; it establishes neither shared sensitivity nor its absence.
+
+- [ ] OPS-S15-W6-DURATION-SOURCE-VALUE-REVIEW: Resolve the documented duration value refusal using original source metadata and aggregate-only diagnostics; preserve failed evidence and do not reinterpret invalid values without an admitted source disposition.
+
+- [x] OPS-S15-W6-DIARY-PREFIX-CONTINUATIONS-20261118: Eight diary studies completed their declared first checkpoint quantum with authenticated exits and costs; unchanged full continuations are staged, while the duration source-value refusal is preserved and held for diagnosis.
+
+- [x] OPS-S15-W6-DIARY-NATIVE-RELEASE-20261118: Nine diary plans now bind committed designs and passed fixtures; the first pre-source refusal and its charge are preserved, and release returns to the established setup-exit/native-shell sequence.
+
+- [x] OPS-S15-W6-MI-APPROVED-COST-STOP-20261118: The approved extra MIDUS wrapper attempt stopped at its cumulative CPU boundary before qualification completed; all retained outputs, native exits and actual charges are reconciled, and the wrapper remains unqualified.
+
+- [x] OPS-S15-W6-NEXT-LEG-PREPARED-20261118: Nine qualified diary candidates now have preserved originals and refreshed coexistence and budget bindings; production remains disabled until the required design commits and fresh admission.
+
+- [x] OPS-S15-W6-COMPANION-BASE-20261118: The active base-model companion passes the unchanged native coexistence proof; only its reviewed fixed commands are added, with counted capacity and ownership checks retained.
+
+- [ ] OPS-S15-W6-MI-ENTRY-NATIVE-QUALIFICATION: Held: the one approved extra43-case wrapper attempt stopped at its cumulative CPU boundary; the combined allowance is exhausted. Preserve the built86-case entry candidate and obtain a future explicit scope/cost resolution before qualification or any curator-only participant handoff.
+
+- [x] OPS-S15-W6-MI-ENTRY-BUILD-20261118: The curator-entry successor is built and statically reviewed with original tests and evidence preserved; its complete native qualification remains unrun and it grants no participant execution.
+
+- [x] OPS-S15-W6-BUILD-HEALTH-20261118-1417: The current queue has no active research worker or unresolved native ownership; qualified builds and all checked evidence are preserved, while production admission and one explicit wrapper-retry decision remain outstanding.
+
+- [x] OPS-S15-W6-COLLECTOR-KEMOCON-REVIEW-20261118: The owner authenticated the five delivered archive identities and admitted a corrected metadata catalog entry; structural checks remain attributed to the collector, and source permissions and scientific use remain unadmitted.
+
+- [x] OPS-S15-W6-MI-SOURCE-COUNTER-QUALIFIED-20261118: The original MIDUS metadata contract and the independent monitoring repair pass all31 complete native checks; the failed combined scientific wrapper remains a separate unadmitted retry.
+
+- [x] OPS-S15-W6-MI-SOURCE-MODULE-BINDING-20261118: The first source-fixture repair refused an incorrect owner module-path expectation before any test ran; original code and costs are preserved for a corrected exact-path binding.
+
+- [x] OPS-S15-W6-MI-SOURCE-FIXTURE-ALIASES-20261118: The metadata and counter fixture reached all selected cases, but pytest convenience links violated its strict output contract; the failed qualification and cost are preserved for an isolated fixture-directory repair.
+
+- [x] OPS-S15-W6-MI-COMBINED-COUNTER-FAILURE-20261118: The second combined-wrapper repair reached the full replay fixture but its supervisor failed during live file monitoring; the qualification is invalid after its allowed repairs, with all partial evidence and costs retained.
+
+- [x] OPS-S15-W6-MI-COMBINED-NULL-CANONICAL-20261118: The first combined-wrapper repair passed its direct null-device probe but still refused pytest logging using an absolute spelling; its evidence and cost are retained for the second and final engineering repair.
+
+- [x] OPS-S15-W6-MI-COMBINED-NULL-DEVICE-20261118: The combined constructed wrapper stopped before collection because its network-share audit misclassified the Windows null device; the failed attempt and isolated reader preparation are fully retained and charged.
+
+- [x] OPS-S15-W6-MI4-QUALIFIED-20261118: The approved ordinary-mood comparison passes all22 original constructed cases with complete independent arithmetic, module, native and cost proof; combined sealed-wrapper qualification remains separate.
+
+- [x] OPS-S15-W6-MI4-CLI-FAILURE-20261118: The first constructed MI4 launch stopped before test collection because its reused harness supplied an undefined reporting option; original evidence and complete costs are retained for an unchanged-test repair.
+
+- [x] OPS-S15-W6-ES2-FIRSTWEEK-BUILD-20261118: All eight source-specific first-week configurations are built and pass the installed pipeline qualification; seven have their required source items and one has an explicit unsupported-source disposition, with production still awaiting design commitment and ordinary admission.
+
+- [x] OPS-S15-W6-ES3-DURATION-BUILD-0045-20261118: The commissioned reported-duration adapter and its complete replay pass all twenty constructed cases; its source-specific design and candidate are built, with production awaiting design commitment and ordinary admission.
+
+- [x] OPS-S15-W6-MI-STATCORE-QUALIFIED-20261118: The unchanged MIDUS statistical core passes all 38 constructed cases after the isolated missing-weekday fixture repair, with complete native, module and cost proof; participant execution remains separately gated.
+
+- [x] OPS-S15-W6-COMPANION-AGGREGATE-20261118: The additive coexistence runtime passes all constructed checks and actual live TP23 aggregation proof; bounded Sounding Line work can share the counted allocation with that reviewed companion.
+
+- [x] OPS-S15-W6-MI-FIXTURE-DTYPE-20261118: The complete MIDUS constructed qualification found a missing-weekday fixture type error; all evidence and inclusive costs are preserved for a separate unchanged-model repair.
+
+- [x] OPS-S15-W6-ES3-COUPLING-BUILD-0057-20261118: The qualified 0057 person-coupling implementation is installed with exact module bindings and a checked candidate plan; production awaits the design commit and ordinary admission.
+
+- [x] S15-W6-ES3-GRID-0057-20261118: The complete naturalistic-diary persistence grid leaves the short-minus-long primary inconclusive; descriptive shape comparisons establish neither channel-specific retention nor equivalence.
+
+- [x] S15-W6-ES3-INITIAL-0057-20261118: The complete naturalistic-diary primary is inconclusive at its practical bar; the initial completed gap cells are descriptive and do not identify colored leftover.
+
+- [x] OPS-S15-W6-ES3-LEASE-RELEASE-RACE-20261118: A completed worker released a lease during the next admission census; the refusal is preserved and an unchanged fresh recovery is staged.
+
+- [x] OPS-S15-W6-COMPANION-CHECKS-20261118: All constructed coexistence checks pass; the companion exited before live proof, so the additive admission candidate remains inactive while ordinary research release resumes.
+
 - [x] OPS-S15-W6-ES3-GRID-BUILD-20261118: The corrected daily recovery is complete and preserved; eleven commissioned persistence configurations are built on the exact qualified clock pipeline, awaiting committed-plan release.
 
 - [x] S15-W6-ES2-DAILY-0062-20261118: The daily perceived-adversity replication cannot identify one shared sensitivity: fear reactivity fails the fixed half-reliability requirement.
@@ -62,7 +122,7 @@
 
 - [x] OPS-S15-W6-WATCHER-RECOVERY-ES3-REFUSAL-20261117: Monitoring is restored and the companion reader has exited; the first diary qualification refused a stale metadata pin before running any cases.
 
-- [ ] ES remaining commissioned work: ES1 and the admitted original, second-member and daily ES2 comparisons are fully filed. Eleven ES3 persistence configurations are built and natively fixtured; commit their design and admit them. Finish separately commissioned first-week, person-coupling, duration and wider builds. Preserve all support failures and costs; complete tested shared-reader compatibility. The sixteen-card buffer remains deficient.
+- [ ] ES remaining commissioned work: persistence grid, person-coupling and all seven available first-week panels are fully filed. Resolve the0045duration source-value refusal using a counted, qualified diagnostic; retain the original invalid-value gate. Concurrent lease-snapshot repair and the wider campaign build remain due; the sixteen-card ready buffer is still deficient.
 
 - [x] OPS-S15-W6-HEALTH-ES3-PREPARED-20261117: Retained evidence and monitoring verify; the diary-coupling qualification is owner-reviewed but held by an active companion reader outside the current compatibility binding.
 

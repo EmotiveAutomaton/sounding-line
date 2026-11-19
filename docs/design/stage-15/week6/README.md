@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The corrected daily comparison is complete and fully filed. The [eleven-configuration persistence grid](ES3_CARRY_GRID_0057_V1.md) is built on its exact qualified clock route; commit and ordinary admission precede production. CPU-only Gear2, original ceilings and closure remain. Wider work and the ready buffer are incomplete; companion compatibility is under review. Full internal filing, final-packet reporting and event/four-hour/single-pending wakes are unchanged.
+**Current boundary:** The eight-study diary continuation leg completed full independent replay and is internally filed; its controller and workers exited normally. CPU-only Gear2 remains selected, with this queue drained. The duration descriptor remains held by its source-value refusal, and the approved extra MIDUS attempt and its combined allowance are exhausted. No further MIDUS retry is authorized. The wider build, concurrency repair and sixteen-card ready buffer remain incomplete; no next research worker is claimed running. Original failures, checkpoints and actual costs are preserved.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
@@ -37,3 +37,9 @@ Raw sources and individual records stay in ignored storage. Only the explicitly
 authorized local export destinations may receive their declared payloads.
 All landings retain full internal write-through and final-packet reporting.
 Events plus four hours of owner inactivity and one pending wake remain unchanged.
+
+The [0057 person-coupling design](ES3_PERSON_COUPLING_0057_V1.md) reuses the completed native qualification and preserves independent parent calibration. Its local candidate plan awaits the design commit and ordinary release checks.
+
+The [reported-duration design](ES3_DURATION_0045_V1.md) has a complete native twenty-case adapter qualification and a source-specific candidate. Production still requires the committed design and fresh ordinary admission.
+
+The [source-defined first-week design](ES2_FIRST_WEEK_0057_0056_V1.md) binds eight configurations and their complete installed qualification; production awaits its committed design and fresh ordinary admission.
