@@ -1881,3 +1881,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-19T03:44:11.063728+00:00 OPS-S15-W6-CHESS-CONTINUATION-20261118: The move-recency full continuation is admitted and running in CPU-only Gear2; the completed waiting-time study, both checkpoints, failed qualifications and all actual charges are fully recorded.
 
 2026-11-19T04:26:41.199337+00:00 OPS-S15-W6-DIGEST-20261118: The daily records reconcile and the full move-recency chess study remains active in CPU-only Gear 2; preserved source and qualification holds and the incomplete ready buffer remain explicit.
+
+2026-11-19T08:47:22.441201+00:00 OPS-S15-W6-CH14-WALL-RECOVERY-20261119: The move-recency study hit its attempt wall with an intact checkpoint; the unchanged-model recovery and narrow companion-path compatibility pass all 244 constructed checks, with every failure and cost retained.

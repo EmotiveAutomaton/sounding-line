@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-CH14-WALL-RECOVERY-20261119:** [Record](CH14_WALL_RECOVERY_20261119.md). The move-recency study hit its attempt wall with an intact checkpoint; the unchanged-model recovery and narrow companion-path compatibility pass all 244 constructed checks, with every failure and cost retained.
+
 **OPS-S15-W6-DIGEST-20261118:** [Record](WEEK6_DIGEST_20261118.md). The daily records reconcile and the full move-recency chess study remains active in CPU-only Gear 2; preserved source and qualification holds and the incomplete ready buffer remain explicit.
 
 **OPS-S15-W6-CHESS-CONTINUATION-20261118:** [Record](CHESS_CONTINUATION_20261118.md). The move-recency full continuation is admitted and running in CPU-only Gear2; the completed waiting-time study, both checkpoints, failed qualifications and all actual charges are fully recorded.

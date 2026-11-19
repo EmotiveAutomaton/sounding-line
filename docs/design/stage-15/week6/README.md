@@ -1,6 +1,6 @@
 # Stage 15 Week 6
 
-**Current boundary:** The full move-recency chess continuation is admitted and running in CPU-only Gear2, alongside the reviewed counted companion. The waiting-time chess study completed full independent replay and is internally filed, with both cost checkpoints, original failed qualifications and all charges preserved. The eight-study diary leg is also fully filed. The duration source-value refusal and exhausted extra MIDUS qualification allowance remain holds. The broader build, serial-admission repair and sixteen-card ready buffer remain incomplete; builder usage limits require inline work. Events, four-hour inactivity and single-pending delivery remain unchanged.
+**Current boundary:** The move-recency attempt hit its wall and its last atomic checkpoint is intact. The unchanged-model recovery and exact companion-path compatibility pass 244 constructed checks; costs are retained and production release is pending. CPU-only Gear 2 remains selected. Source-specific holds, the exhausted extra MIDUS qualification allowance, incomplete broader build and deficient ready buffer remain explicit. Events, four-hour inactivity and one pending wake remain unchanged.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed

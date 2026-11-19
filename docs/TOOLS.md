@@ -2979,6 +2979,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-CH14-WALL-RECOVERY-20261119:** The move-recency study hit its attempt wall with an intact checkpoint; the unchanged-model recovery and narrow companion-path compatibility pass all 244 constructed checks, with every failure and cost retained. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_WALL_RECOVERY_20261119.md).
+
 **OPS-S15-W6-DIGEST-20261118:** The daily records reconcile and the full move-recency chess study remains active in CPU-only Gear 2; preserved source and qualification holds and the incomplete ready buffer remain explicit. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261118.md).
 
 **OPS-S15-W6-CHESS-CONTINUATION-20261118:** The move-recency full continuation is admitted and running in CPU-only Gear2; the completed waiting-time study, both checkpoints, failed qualifications and all actual charges are fully recorded. [Record](../results/phase_2_4_stage_15/WEEK5/CHESS_CONTINUATION_20261118.md).
