@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+**Daily reconciliation:** [November 18 digest](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261118.md). All 97 in-window campaign terminals reconcile to existing filed evidence. The active chess continuation and reviewed companion are healthy; the ready-buffer deficit and source/qualification holds remain explicit.
+
 **Collector integration:** The [metadata adapter](../results/phase_2_4_stage_15/WEEK5/DATA_STORE_REVIEW_20261115.md) and [attributed external inventory](../results/phase_2_4_stage_15/WEEK5/DATA_CATALOG_REVIEW_20261115.md) are filed. Each real source still requires independent byte, handling and scientific admission. The owner reviews repository requests; the collector edits only its external data root.
 
 **Current execution and preparation:** [Verified chess continuation](../results/phase_2_4_stage_15/WEEK5/CHESS_CONTINUATION_20261118.md). The full move-recency chess continuation is admitted and running in CPU-only Gear2, alongside the reviewed counted companion. The waiting-time chess study completed full independent replay and is internally filed, with both cost checkpoints, original failed qualifications and all charges preserved. The eight-study diary leg is also fully filed. The duration source-value refusal and exhausted extra MIDUS qualification allowance remain holds. The broader build, serial-admission repair and sixteen-card ready buffer remain incomplete; builder usage limits require inline work. Events, four-hour inactivity and single-pending delivery remain unchanged.

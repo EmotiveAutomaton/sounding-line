@@ -1879,3 +1879,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-19T03:36:54.440925+00:00 OPS-S15-W6-CH14-FIRST-CHECKPOINT-20261118: The move-recency chess card completed its required first checkpoint with authenticated outputs and native exits; its unchanged full continuation is prepared under the original card ceiling.
 
 2026-11-19T03:44:11.063728+00:00 OPS-S15-W6-CHESS-CONTINUATION-20261118: The move-recency full continuation is admitted and running in CPU-only Gear2; the completed waiting-time study, both checkpoints, failed qualifications and all actual charges are fully recorded.
+
+2026-11-19T04:26:41.199337+00:00 OPS-S15-W6-DIGEST-20261118: The daily records reconcile and the full move-recency chess study remains active in CPU-only Gear 2; preserved source and qualification holds and the incomplete ready buffer remain explicit.

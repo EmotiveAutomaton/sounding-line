@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-DIGEST-20261118:** [Record](WEEK6_DIGEST_20261118.md). The daily records reconcile and the full move-recency chess study remains active in CPU-only Gear 2; preserved source and qualification holds and the incomplete ready buffer remain explicit.
+
 **OPS-S15-W6-CHESS-CONTINUATION-20261118:** [Record](CHESS_CONTINUATION_20261118.md). The move-recency full continuation is admitted and running in CPU-only Gear2; the completed waiting-time study, both checkpoints, failed qualifications and all actual charges are fully recorded.
 
 **OPS-S15-W6-CH14-FIRST-CHECKPOINT-20261118:** [Record](CH14_FIRST_CHECKPOINT_20261118.md). The move-recency chess card completed its required first checkpoint with authenticated outputs and native exits; its unchanged full continuation is prepared under the original card ceiling.
