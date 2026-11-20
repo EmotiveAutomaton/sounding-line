@@ -1,0 +1,5 @@
+# SM DAILY BANK CHECKS 20261120
+
+**Question.** Can the daily study protect the exposure roster, keep relatives together, and retain estimable coefficients when the ratio lacks a complete interval?
+
+**Method.** The counted local suite exercised the registered 149- and 150-person support boundary, the order in which columns open, joint count suppression, missing family links and independent disagreement. It exercised all 2,000 allocations of an invented family bank with a known scalar scoring function and checked that one unavailable ratio leaves its other six parameters intact. The earlier constructed tests also exercise both actual fitting implementations. All 21 cases passed in 13.390625 native CPU seconds. The full mounted rehearsal with the actual fitting cores and the scientific Spark return remain ahead.

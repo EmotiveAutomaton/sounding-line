@@ -1,0 +1,7 @@
+# LA STRICT WINDOWS PILOTS 20261120
+
+**Question.** Can each strict laughter comparison retain the original meeting folds, preserve both history arms and finish under its registered allowance?
+
+**Method.** The new runner passed 17 constructed tests. These checked chance and planted separation, fixed fold assignments after exclusions, the exact half-retention rule, resumed draws and detection of a changed checkpoint. The original-source pilots then completed 100 of the 2,000 registered whole-meeting draws. For each pilot, both windows and both history arms were present in every draw. All 206 preserved files per pilot matched their terminal manifests. The native owners and both execution children exited.
+
+The strict pilot used 44.90625 native CPU seconds. The length-held pilot used 49.71875. Applying those rates to 1,900 remaining execution draws and 2,000 fresh replay draws gives estimates of 1,751.34375 and 1,939.03125 CPU seconds respectively, before coordination. The measured 17-case qualification cost of 10.546875 seconds is booked once to the strict row. The two original 30,000-second ceilings and source bindings govern the full continuations. Reserve checks apply to each start. Scientific interpretation requires the complete execution and independent replay.
