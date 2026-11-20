@@ -2980,6 +2980,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-DIGEST-20261119:** The daily evidence and cost records reconcile; CH14 remains active in CPU-only Gear 2, and the diary-source component now has counted native qualification while the ready-buffer deficit remains explicit. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261119.md).
+
+**OPS-S15-W6-LD-SOURCE-NATIVE-QUALIFIED-20261119:** The unchanged diary-source component passes all twenty counted native constructed checks with verified exits, source/output hashes and thread bounds; complete study admission remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/LD_SOURCE_NATIVE_QUALIFIED_20261119.md).
+
 **OPS-S15-W6-THEORY-ERRATA-LD-SOURCE-20261119:** The November 19 NOX errata are applied and preserved; the first diary-source adapter passes 20 constructed checks while authenticated CH14 replay continues in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/THEORY_ERRATA_LD_SOURCE_20261119.md).
 
 **OPS-S15-W6-CH14-LOCAL-REVIEW-RUNNING-20261119:** The unchanged CH14 recovery is running in CPU-only Gear 2 through authenticated local review; commit and push no longer block qualified research. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_LOCAL_REVIEW_RUNNING_20261119.md).

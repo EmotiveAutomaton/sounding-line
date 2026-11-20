@@ -1915,3 +1915,7 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-20T00:02:28.237822+00:00 OPS-S15-W6-CH14-LOCAL-REVIEW-RUNNING-20261119: The unchanged CH14 recovery is running in CPU-only Gear 2 through authenticated local review; commit and push no longer block qualified research.
 
 2026-11-20T01:22:26.190170+00:00 OPS-S15-W6-THEORY-ERRATA-LD-SOURCE-20261119: The November 19 NOX errata are applied and preserved; the first diary-source adapter passes 20 constructed checks while authenticated CH14 replay continues in CPU-only Gear 2.
+
+2026-11-20T04:17:23.399955+00:00 OPS-S15-W6-LD-SOURCE-NATIVE-QUALIFIED-20261119: The unchanged diary-source component passes all twenty counted native constructed checks with verified exits, source/output hashes and thread bounds; complete study admission remains pending.
+
+2026-11-20T04:18:02.884259+00:00 OPS-S15-W6-DIGEST-20261119: The daily evidence and cost records reconcile; CH14 remains active in CPU-only Gear 2, and the diary-source component now has counted native qualification while the ready-buffer deficit remains explicit.

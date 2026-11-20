@@ -1,0 +1,13 @@
+# LD SOURCE NATIVE QUALIFIED 20261119
+
+**Hypothesis.** Does the already built diary-source adapter retain its source-identity and missingness checks under counted native execution?
+
+**METHOD.** Freeze the unchanged twenty-case test selection and source closure, reserve one shared slot with the existing resource and family-room guards, and execute the original constructed files in a measured native child. Require every case to pass unskipped, record each numerical-thread witness, then authenticate all output/source hashes, native exits, and lease release. The inclusive six-hundred-CPU-second check bound includes the previous developer-check charge.
+
+**Found.** The unchanged diary-source component passes all twenty counted native constructed checks with verified exits, source/output hashes and thread bounds; complete study admission remains pending.
+
+**Qualification scope.** All twenty original cases passed, with no changed source, expected result, omitted case or new scientific comparison. The checks cover source-byte changes, literal context and item mappings, unavailable items, unknown codes, complete-row masks and support projection that cannot materialize feeling outcomes. The owner and child exited; the counted lease released. Every recorded source and output hash matches, and all twenty numerical-pool witnesses stay within two threads. No participant file was opened. This qualifies the source component, not the full scientific pipeline, a human study, or a ready card.
+
+**Costs.** The native attempt used 2.234375 measured CPU seconds and 5.3160076 wall seconds. Together with the separately recorded 1.359375 developer-check seconds, the component check bundle used 3.59375 measured CPU seconds. The two charges retain distinct IDs and are reserved for inclusion exactly once in the next applicable inclusive ES family admission; they are not silently charged to CH14 or presented as already posted. No family ceiling, campaign bound or existing live source pin changes. The native attempt occurred after the daily digest's fixed interval and is not inserted into its earlier utilization total.
+
+**Meaning and next work.** Source qualification removes one build prerequisite. Full diagnostic and role models, checkpointed two-thousand-draw producers, fresh independent replay, source-specific review and final card admission remain unfinished. The sixteen-card waiting buffer is still absent. Continue the commissioned builds inline while CH14's unchanged full independent replay runs under its final allowance. No test was harvested from the operational wake and no scientific score is inferred from these constructed checks.

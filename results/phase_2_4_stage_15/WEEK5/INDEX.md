@@ -1,5 +1,9 @@
 # Week 5 verified records
 
+**OPS-S15-W6-DIGEST-20261119:** [Record](WEEK6_DIGEST_20261119.md). The daily evidence and cost records reconcile; CH14 remains active in CPU-only Gear 2, and the diary-source component now has counted native qualification while the ready-buffer deficit remains explicit.
+
+**OPS-S15-W6-LD-SOURCE-NATIVE-QUALIFIED-20261119:** [Record](LD_SOURCE_NATIVE_QUALIFIED_20261119.md). The unchanged diary-source component passes all twenty counted native constructed checks with verified exits, source/output hashes and thread bounds; complete study admission remains pending.
+
 **OPS-S15-W6-THEORY-ERRATA-LD-SOURCE-20261119:** [Record](THEORY_ERRATA_LD_SOURCE_20261119.md). The November 19 NOX errata are applied and preserved; the first diary-source adapter passes 20 constructed checks while authenticated CH14 replay continues in CPU-only Gear 2.
 
 **OPS-S15-W6-CH14-LOCAL-REVIEW-RUNNING-20261119:** [Record](CH14_LOCAL_REVIEW_RUNNING_20261119.md). The unchanged CH14 recovery is running in CPU-only Gear 2 through authenticated local review; commit and push no longer block qualified research.

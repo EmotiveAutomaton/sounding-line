@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-DIGEST-20261119: The daily evidence and cost records reconcile; CH14 remains active in CPU-only Gear 2, and the diary-source component now has counted native qualification while the ready-buffer deficit remains explicit.
+
+- [x] OPS-S15-W6-LD-SOURCE-NATIVE-QUALIFIED-20261119: The unchanged diary-source component passes all twenty counted native constructed checks with verified exits, source/output hashes and thread bounds; complete study admission remains pending.
+
 - [x] OPS-S15-W6-THEORY-ERRATA-LD-SOURCE-20261119: The November 19 NOX errata are applied and preserved; the first diary-source adapter passes 20 constructed checks while authenticated CH14 replay continues in CPU-only Gear 2.
 
 - [x] OPS-S15-W6-CH14-LOCAL-REVIEW-RUNNING-20261119: The unchanged CH14 recovery is running in CPU-only Gear 2 through authenticated local review; commit and push no longer block qualified research.
@@ -14,7 +18,7 @@
 
 - [x] OPS-S15-W6-LA6-VERIFY-RESUME-20261119: The full meeting-study execution and independent verifier point are preserved and authenticated; the remaining original verification draws are running in CPU-only Gear 2.
 
-- [ ] S15-W6-LD1-LD3-BUILD: The first diary source adapter passes 20 constructed checks. Finish codebook role review, role model, diagnostic arms, checkpointed 2,000-draw producers, full fresh replay and native admission; bindings and source projection alone are not ready cards.
+- [ ] S15-W6-LD1-LD3-BUILD: The first diary source adapter passes 20 counted native constructed checks; include its 3.59375-second check bundle exactly once in the applicable ES admission. Finish codebook role review, role model, diagnostic arms, checkpointed 2,000-draw producers, full fresh replay and native admission; bindings and source projection alone are not ready cards.
 - [ ] S15-W6-SM0-ADMIT: Rehearse the self-contained probe inside the declared sealed image, freeze the exact locally reviewed job hash and admit source-structure probes within existing privacy, read and invocation bounds; no real Spark job has run.
 - [ ] S15-W6-LATTICE-POLICY: Review a prospective allowance transition for the packet's ES/LA additions and KP1-only continuation; preserve all live pins and previous charges.
 - [ ] S15-W6-LATTICE-REMAINDER: Complete LD4, LB1-LB6, LA7-LA8, SM1-SM2 and SC1-SC3 in packet order, with each original source/design review and controls.

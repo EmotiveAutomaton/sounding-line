@@ -2,7 +2,7 @@
 
 **November 19 theory and build update:** [Applied errata, source-adapter checks and queue inspection](../results/phase_2_4_stage_15/WEEK5/THEORY_ERRATA_LD_SOURCE_20261119.md). All 23 supplied edits are filed; fourteen new hypotheses remain OPEN. The diary source adapter passes twenty constructed checks. CH14 remains active under its final cap; full diary producers, independent replay and native admission remain unfinished.
 
-**Daily reconciliation:** [November 18 digest](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261118.md). The recorded daily interval reconciles; the subsequent interruption and current recovery are documented below.
+**Daily reconciliation:** [November 19 digest](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261119.md). All ten in-window campaign terminals and sixteen filed records reconcile. CH14 remains active; the diary-source component passes twenty counted native checks. Full runners and the empty ready buffer remain explicit.
 
 **Collector integration:** The [metadata adapter](../results/phase_2_4_stage_15/WEEK5/DATA_STORE_REVIEW_20261115.md) and [attributed external inventory](../results/phase_2_4_stage_15/WEEK5/DATA_CATALOG_REVIEW_20261115.md) are filed. Each real source still requires independent byte, handling and scientific admission. The owner reviews repository requests; the collector edits only its external data root.
 
