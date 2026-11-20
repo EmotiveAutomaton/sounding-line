@@ -1,5 +1,20 @@
 # Codex operating instructions for Sounding Line
 
+**Continuous execution, curator instruction November 20.** During an open
+campaign inspect the workstation and Spark separately. Fill available capacity
+with reviewed work. While those jobs run, build and qualify their successors.
+An empty ready list while a commissioned runner can be built is an instruction
+to build it in the current turn. A completed probe, landing or push does not
+finish that work. Apply a failed check to the work that depends on it and take
+the next independent action on either machine. Before yielding, account for
+every remaining card: its live worker and expected output, its live assigned
+builder, its specific external dependency with a resumption event, or its filed
+terminal disposition. The operator continues any build or admission it can do
+itself. Verify actual processes and durable watcher delivery before waiting.
+Keep the source, privacy, resource and cost checks attached to each start.
+This instruction supersedes the older blanket permission to end a turn while
+an unrelated job is running.
+
 **Research admission, curator instruction November 19:** Git staging, commit
 and push are not prerequisites for authorized local research. A card is ready
 after owner review of its exact design/source hashes and a passed native fixture,

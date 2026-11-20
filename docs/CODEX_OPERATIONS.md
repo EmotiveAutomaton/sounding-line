@@ -1,5 +1,26 @@
 # Codex operations
 
+## Keeping both machines supplied
+
+The November 20 inspection found both machines idle after a successful
+structure probe and publication. The status record listed unfinished runners.
+The handoff treated the empty ready list as a wait condition even though the
+operator could build the next studies.
+
+For each machine, compare its free capacity with reviewed plans and with the
+commissioned work still needing implementation. Launch reviewed plans through
+their ordinary admission paths. If none can start, work on the earliest
+independent build, source binding or qualification immediately. Continue the
+remaining builds while workers execute. Reconcile checkpoints, costs and
+terminal outputs when a worker exits, then refill its slot.
+
+Before reporting a wait, identify the dependency and the event that can clear
+it for every remaining lane. A disk, source or control hold applies to its own
+dependents. A push, an acknowledged receipt, a healthy watcher and unused CPU
+capacity do not establish that research is complete. Use the existing
+single-pending event delivery for measured state changes and the four-hour
+inactivity fallback.
+
 **Current verified operation:** [CH14 final cost stop](../results/phase_2_4_stage_15/WEEK5/CH14_FINAL_COST_STOP_20261120.md) and [sealed joined-source recovery](../results/phase_2_4_stage_15/WEEK5/SM0_JOINED_COMPLETE_20261120.md). Research 0/8; ready 0/16. Watcher/calendar health and all 21 locks verify. Full study builds remain unfinished.
 
 ## Research admission is separate from publication

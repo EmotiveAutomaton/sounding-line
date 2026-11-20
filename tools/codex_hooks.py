@@ -73,6 +73,18 @@ def handle(payload, *, repo=REPO, state=STATE, notifier=None):
                            "tool": payload.get("tool_name"), "turn": payload.get("turn_id")})
         owner = get(db, "owner")
         if owner == session:
+            if event == "Stop" and owner:
+                from grind_coverage import actionable, stop_reason
+                actions = actionable(state, owner)
+                if actions:
+                    # One continuation at this handoff; never recursively
+                    # wake the owner or affect a user interrupt or a builder.
+                    if not payload.get("stop_hook_active"):
+                        put(db, "owner_phase", "active")
+                        put(db, "owner_seen", time.time())
+                        audit(db, "work-continuation", {"actions": actions})
+                        return {"decision": "block", "reason": stop_reason(actions)}, 0
+                    audit(db, "unfinished-handoff", {"actions": actions})
             if event in {"SessionStart", "UserPromptSubmit", "PreToolUse"}:
                 put(db, "owner_phase", "active")
             elif event == "Stop":
