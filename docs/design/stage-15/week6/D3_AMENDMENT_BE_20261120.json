@@ -1,0 +1,44 @@
+{
+  "schema": "S15_W6_RR4_D3_BE_V1",
+  "card": "RR4",
+  "row": "D3",
+  "amendment": "BE",
+  "attribution": "analyst proposal approved by the curator on 2026-11-20",
+  "family": "repeat play",
+  "ceiling_cpu_seconds": 10000,
+  "participants": "original repaired repeat-eligible roster with unique positive actual attempt numbers",
+  "minimum_earlier_eligible_repeats": 2,
+  "trials_per_test_play": 30,
+  "split": "one latest eligible repeat per player; earlier eligible repeats only for training",
+  "eligible_repeat": "actual immediately preceding attempt recorded and prior observed score history available",
+  "references": [
+    "play_start",
+    "last_session_end",
+    "best_observed_earlier_end"
+  ],
+  "reference_source": "only completed earlier plays, in the original play-relative point units",
+  "model": "original eight TD3/MD3 choice predictors with a player-specific intercept; common training roster and identical predictors apart from the registered reference",
+  "comparisons": [
+    [
+      "best_observed_earlier_end",
+      "play_start"
+    ],
+    [
+      "best_observed_earlier_end",
+      "last_session_end"
+    ],
+    [
+      "last_session_end",
+      "play_start"
+    ]
+  ],
+  "minimum_differing_players": 100,
+  "interval": "paired percentile 95% interval from 2,000 whole held-out player draws, shared across references",
+  "draws": 2000,
+  "seed": 20261107,
+  "primary_score": "mean sum of 30 held-out trial log likelihoods per play on which that pair's references differ",
+  "companion": "all scored test plays, same paired differences and intervals; count equal and different values for each pair",
+  "success": "both best-minus-other pairwise intervals have lower endpoints strictly above zero and both pairs have at least 100 differing scored players",
+  "insufficient_support": "could not say",
+  "limit": "The test is each player's latest eligible repeat play and speaks to late plays. A game score is not anyone's meaning."
+}
