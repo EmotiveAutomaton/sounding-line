@@ -1,5 +1,7 @@
 # Stage 15 Week 6
 
+**November 20 diagnostic component:** [Support-first role and context checks](../../../../results/phase_2_4_stage_15/WEEK5/HEALTH_LD_DIAGNOSTICS_20261120.md) pass eighteen counted native cases. The [component design](LD_DIAGNOSTICS_V1.md) retains source/row bindings and the full role table. Complete study runners and admission remain unfinished; CH14 continues under its final allowance.
+
 **Diary source qualification:** [Twenty counted native checks](../../../../results/phase_2_4_stage_15/WEEK5/LD_SOURCE_NATIVE_QUALIFIED_20261119.md) pass with source/output hashes, actual exits and thread bounds verified. Full diagnostic models, producers, replay and card admission remain unfinished. The [November 19 digest](../../../../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261119.md) records costs and the ready-buffer deficit.
 
 **November 19 theory and build update:** [Applied errata, source-adapter checks and queue inspection](../../../../results/phase_2_4_stage_15/WEEK5/THEORY_ERRATA_LD_SOURCE_20261119.md). All 23 supplied edits are filed; fourteen new hypotheses remain OPEN. The diary source adapter passes twenty constructed checks. CH14 remains active under its final cap; full diary producers, independent replay and native admission remain unfinished.

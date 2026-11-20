@@ -2980,6 +2980,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-HEALTH-LD-DIAGNOSTICS-20261120:** CH14 continues with authenticated fresh progress in CPU-only Gear 2; the next diary diagnostic component passes eighteen counted native checks, while full study runners and the ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_LD_DIAGNOSTICS_20261120.md).
+
 **OPS-S15-W6-DIGEST-20261119:** The daily evidence and cost records reconcile; CH14 remains active in CPU-only Gear 2, and the diary-source component now has counted native qualification while the ready-buffer deficit remains explicit. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261119.md).
 
 **OPS-S15-W6-LD-SOURCE-NATIVE-QUALIFIED-20261119:** The unchanged diary-source component passes all twenty counted native constructed checks with verified exits, source/output hashes and thread bounds; complete study admission remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/LD_SOURCE_NATIVE_QUALIFIED_20261119.md).
