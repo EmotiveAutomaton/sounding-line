@@ -8,6 +8,8 @@ import aggregate_register_v1 as register
 from sealed_io_v1 import selected_columns
 
 import daily_bank
+import argument_bank
+import argument_panel
 from engine import study
 from table_support import EXTRAS, required_columns, source_status, supported_columns
 from family_draws import family_index
@@ -50,13 +52,23 @@ def run_joined(roots, target, source_map, out):
         status_groups = [group for roles in source_people.values() for group in roles.values()]
         if not statuses or not register.exact_counts_safe(status_groups):
             raise SealedFailure(12, "No supported source status")
+        extras = supported_columns({"M2": measured["M2"]}, "M2")
+        # BF structural support is fixed before the first outcome projection in this job.
+        arguments = argument_panel.support_plan(snapshots["M2"]) if "D5.s" in extras else None
         daily_plan = None
-        if "NT1.s" in supported_columns({"M2": measured["M2"]}, "M2"):
+        if "NT1.s" in extras:
             # This opens only predictor columns until the registered support check passes.
             daily_plan = daily_bank.plan(snapshots["M2"])
             status_groups.extend(daily_bank.released_sets(daily_plan))
             if not register.exact_counts_safe(status_groups):
                 raise SealedFailure(12, "Unsafe complementary daily count")
+        argument_data = None
+        if arguments is not None:
+            argument_data = argument_panel.outcome_plan(snapshots["M2"], arguments)
+            argument_groups = argument_bank.released_sets(arguments, argument_data[0])
+            if target == "M3":
+                # Previously eligible wave-two disclosures must be protected in the repeat return.
+                status_groups.extend(argument_groups)
         available = supported_columns(measured, target)
         branches = tuple(name for name in available if name in register.BRANCHES)
         family_column = "M2FAMNUM" in measured["M2"]["survey"]
@@ -69,15 +81,19 @@ def run_joined(roots, target, source_map, out):
         else:
             families = {} if family_column else None
             replay_families = {} if family_column else None
+        base_disclosures = list(status_groups)
         if branches:
             original = {wave: read_available(paths, selections[wave], measured[wave])
                         for wave, paths in snapshots.items()}
             separate = {wave: read_available(paths, selections[wave], measured[wave])
                         for wave, paths in snapshots.items()}
             tables.update(study(original, separate, target, families, replay_families,
-                                branches, measured, status_groups))
+                                branches, measured, status_groups, base_disclosures))
         if daily_plan is not None and target == "M2":
             tables.update(daily_bank.run(daily_plan, families, replay_families))
+        if (arguments is not None and target == "M2" and
+                register.exact_counts_safe([*base_disclosures, *argument_groups])):
+            tables.update(argument_bank.run(arguments, *argument_data, families, replay_families))
         tables = {name: rows for name, rows in tables.items() if rows}
         write_tables(Path(out), tables)
         return tables

@@ -1887,5 +1887,35 @@
       "id": 105,
       "name": "MI4.other.exclusion.no_event_day"
     }
-  ]
+  ],
+  "argument_resolution_BF": {
+    "scope": "M2 only. Replication. All estimates are unresolved minus resolved daily negative feeling, in original rating units.",
+    "seed": 2026112025,
+    "draws": 2000,
+    "tables": {
+      "argument_support": "Pre-outcome: group 1 has both types, group 2 has resolved, group 3 has unresolved. Days are consecutive-day eligible. The opposite category count is a structural zero in a single-category row.",
+      "argument_estimates": "comparison, n, resampling, valid_draws, estimate, lower, upper",
+      "argument_point_only": "comparison, n, resampling, valid_draws, estimate",
+      "argument_report_people": "Distinct outcome-contributing people in each pooled arm. Resolution 1 is resolved and 2 is unresolved.",
+      "argument_reading": "n, support_met, sign_disagreement, decision"
+    },
+    "comparisons": {
+      "1": "Within-person next-day mean difference",
+      "2": "All-report next-day mean difference, person baseline removed",
+      "3": "Within-person same-day difference among primary people with both usable same-day means"
+    },
+    "decisions": {
+      "1": "Interval above zero",
+      "2": "Inconclusive",
+      "3": "Could not say",
+      "4": "Opposite signs across the two next-day comparisons, no verdict",
+      "5": "Interval below zero"
+    },
+    "resampling": {
+      "1": "Whole people because family field absent",
+      "2": "Whole families",
+      "3": "Interval unavailable with incomplete family links"
+    },
+    "limit": "Whether the argument was resolved is the person's own report on the same call."
+  }
 }

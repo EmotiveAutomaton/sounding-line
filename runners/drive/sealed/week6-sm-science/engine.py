@@ -18,7 +18,7 @@ def equal_values(a, b):
 
 
 def study(primary_tables, replay_tables, target, families=None, replay_families=None,
-          branches=register.BRANCHES, measured=None, protected_groups=()):
+          branches=register.BRANCHES, measured=None, protected_groups=(), disclosure_groups=None):
     if families != replay_families:
         raise SealedFailure(14, "Independent family linkage differs")
     panels, counts = plan(primary_tables, target, False, branches, measured)
@@ -58,6 +58,9 @@ def study(primary_tables, replay_tables, target, families=None, replay_families=
     # permit a small complementary count. The installed gate requires exact n.
     if not register.exact_counts_safe(all_groups):
         raise SealedFailure(12, "Unsafe complementary population count")
+    if disclosure_groups is not None:
+        # Private memberships for the one final complementary-count gate.
+        disclosure_groups.extend(all_groups)
     estimates, unavailable, coverage = [], [], []
     for branch_index, branch in enumerate(register.BRANCHES, start=1):
         if branch not in results:

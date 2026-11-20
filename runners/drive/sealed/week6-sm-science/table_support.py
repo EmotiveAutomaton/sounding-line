@@ -36,6 +36,7 @@ def required_columns(wave, name):
             daily.update(occurrence)
             survey.update((spec["person"], spec["traits"]["neuroticism"]))
         else:
+            daily.update(occurrence)
             daily.update(("B2DF1", "B2DF1WC6"))
     else:
         raise ValueError("Unregistered study or wave")

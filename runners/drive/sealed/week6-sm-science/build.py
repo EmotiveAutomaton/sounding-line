@@ -14,7 +14,7 @@ QUALIFIED = {
     "mi4_source_bridge_v1", "mi4_stats_v1", "mi4_reference_v1", "sealed_io_v1",
     "analysis_v1", "independent_v1", "aggregate_register_v1",
 }
-LOCAL = ("joined_source", "nt1_daily", "daily_bank", "table_support", "panels", "family_draws", "engine", "science_entry")
+LOCAL = ("joined_source", "nt1_daily", "daily_bank", "argument_panel", "argument_bank", "table_support", "panels", "family_draws", "engine", "science_entry")
 
 
 def modules():
