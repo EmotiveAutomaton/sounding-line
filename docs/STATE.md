@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+**November 20 status and Spark:** [Verified status](../results/phase_2_4_stage_15/WEEK5/STATUS_SPARK_20261120.md). CH14 continues in CPU-only Gear 2; research 1/8 and ready 0/16. Spark passes all 22 constructed runtime checks, but three real structure probes fail and two remain unrun at the stop rule. A non-sensitive source-layout manifest is requested. Full study runners and final synthesis remain unfinished.
+
 **November 20 queue and build:** [Health inspection and diary diagnostics](../results/phase_2_4_stage_15/WEEK5/HEALTH_LD_DIAGNOSTICS_20261120.md). CH14 remains active with fresh native progress and unchanged pins. Eighteen counted diagnostic checks pass; full source binding, draw producers and replay remain unfinished. Research 1/8; ready 0/16. No restart was indicated.
 
 **November 19 theory and build update:** [Applied errata, source-adapter checks and queue inspection](../results/phase_2_4_stage_15/WEEK5/THEORY_ERRATA_LD_SOURCE_20261119.md). All 23 supplied edits are filed; fourteen new hypotheses remain OPEN. The diary source adapter passes twenty constructed checks. CH14 remains active under its final cap; full diary producers, independent replay and native admission remain unfinished.

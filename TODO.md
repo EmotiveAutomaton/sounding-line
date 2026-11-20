@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-STATUS-SPARK-20261120: CH14 verification continues in CPU-only Gear 2 with an empty ready buffer; Spark passes its constructed runtime rehearsal, while three source probes fail and two remain unrun under the packet stop rule.
+
 - [x] OPS-S15-W6-HEALTH-LD-DIAGNOSTICS-20261120: CH14 continues with authenticated fresh progress in CPU-only Gear 2; the next diary diagnostic component passes eighteen counted native checks, while full study runners and the ready buffer remain unfinished.
 
 - [x] OPS-S15-W6-DIGEST-20261119: The daily evidence and cost records reconcile; CH14 remains active in CPU-only Gear 2, and the diary-source component now has counted native qualification while the ready-buffer deficit remains explicit.
@@ -21,7 +23,7 @@
 - [x] OPS-S15-W6-LA6-VERIFY-RESUME-20261119: The full meeting-study execution and independent verifier point are preserved and authenticated; the remaining original verification draws are running in CPU-only Gear 2.
 
 - [ ] S15-W6-LD1-LD3-BUILD: The first diary source adapter passes 20 counted native constructed checks; include its 3.59375-second check bundle exactly once in the applicable ES admission. The role/context diagnostic component now passes 18 counted native checks (4.625 CPU seconds, separately pending one-time ES booking). Finish diagnostic source/codebook bindings, checkpointed 2,000-draw producers, full fresh replay and native admission; components alone are not ready cards.
-- [ ] S15-W6-SM0-ADMIT: Rehearse the self-contained probe inside the declared sealed image, freeze the exact locally reviewed job hash and admit source-structure probes within existing privacy, read and invocation bounds; no real Spark job has run.
+- [ ] S15-W6-SM0-ADMIT: All 22 portable checks pass locally and inside the installed sealed image. The unchanged real-source probe fails on three mounts and stops under the packet limit; two mounts are unrun. Obtain the requested non-sensitive layout manifest and review the mapping/adapter before any further source invocation. No real Spark scientific study has run. The 1.9375-second native rehearsal charge remains pending exactly once for applicable preparation.
 - [ ] S15-W6-LATTICE-POLICY: Review a prospective allowance transition for the packet's ES/LA additions and KP1-only continuation; preserve all live pins and previous charges.
 - [ ] S15-W6-LATTICE-REMAINDER: Complete LD4, LB1-LB6, LA7-LA8, SM1-SM2 and SC1-SC3 in packet order, with each original source/design review and controls.
 - [ ] S15-W6-RC1-LT1: Implement the additive claim map and eleven-field evidence route; assemble all 44 final dispositions only after source review, using the frozen source-majority primary and eligible existing-draw secondary.

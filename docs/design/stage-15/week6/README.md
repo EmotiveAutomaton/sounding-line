@@ -1,5 +1,7 @@
 # Stage 15 Week 6
 
+**November 20 Spark admission check:** [Status and preserved probe failures](../../../../results/phase_2_4_stage_15/WEEK5/STATUS_SPARK_20261120.md). The [portable rehearsal](SM0_REHEARSAL_V1.md) passes locally and inside the installed sealed image. The unchanged real-source probe stops after three failures; source mapping and scientific admission remain incomplete.
+
 **November 20 diagnostic component:** [Support-first role and context checks](../../../../results/phase_2_4_stage_15/WEEK5/HEALTH_LD_DIAGNOSTICS_20261120.md) pass eighteen counted native cases. The [component design](LD_DIAGNOSTICS_V1.md) retains source/row bindings and the full role table. Complete study runners and admission remain unfinished; CH14 continues under its final allowance.
 
 **Diary source qualification:** [Twenty counted native checks](../../../../results/phase_2_4_stage_15/WEEK5/LD_SOURCE_NATIVE_QUALIFIED_20261119.md) pass with source/output hashes, actual exits and thread bounds verified. Full diagnostic models, producers, replay and card admission remain unfinished. The [November 19 digest](../../../../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261119.md) records costs and the ready-buffer deficit.
