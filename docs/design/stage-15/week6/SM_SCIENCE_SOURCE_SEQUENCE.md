@@ -27,3 +27,11 @@ gate continues to require actual eligible participant counts.
 The original [sealed execution contract](PACKET_EXTENSION_2026-11-19.md)
 governs both jobs. The completed [structure record](../../../../results/phase_2_4_stage_15/WEEK5/SM0_JOINED_COMPLETE_20261120.md)
 documents the two earlier single-wave mounts.
+
+## Wave-two argument resolution
+
+The MIDUS 2 Daily Diary Project codebook dated May 5, 2022 identifies `B2DF1` as an argument or disagreement since the previous interview (page 141). For a reported argument it asks whether the issue was resolved in `B2DF1WC6` (pages 148–149). Code 1 means yes and code 2 means no. Codes 7, 8 and 9 mean unknown, refused or missing, and inapplicable respectively. The dictionary skips this item when an argument was absent or its occurrence was unknown.
+
+D5.s uses the argument item and its own resolution question. Other stressor blocks ask a similar question. A skipped resolution question cannot supply an unresolved argument. Count next-day observations only where the study-day numbers are consecutive for the same person. Confirm both column names in the authenticated daily table inside the seal before opening this analysis. Its return reports the observed-person counts allowed by the sealed gate and identifies the comparison as a replication. The person's report of resolution and differences between the arguments limit its interpretation.
+
+The dictionary SHA-256 is `48727f67a9c111ebbbebf50729a8d759a565b4021e6b0bece8b1546cf7078b10`. This mapping used the codebook only.
