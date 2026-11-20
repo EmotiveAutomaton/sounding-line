@@ -1,5 +1,7 @@
 # Stage 15 Week 6
 
+The [November 20 build order](IMPLEMENTATION_2026-11-20.md) is current. It records the KP1 restart, shared diary producer, two added sealed tables and disposition of earlier builds. The [packet](PACKET_EXTENSION_2026-11-20.md), [revised November 19 handoff](THEORY_HANDOFF_R29.md), [Round 32 handoff](THEORY_HANDOFF_R32.md) and [preflight summary](PREFLIGHT_SUMMARY_2026-11-20.md) are filed together.
+
 **November 20 current queue and Spark:** [Cost stop](../../../../results/phase_2_4_stage_15/WEEK5/CH14_FINAL_COST_STOP_20261120.md) and [joined-source recovery](../../../../results/phase_2_4_stage_15/WEEK5/SM0_JOINED_COMPLETE_20261120.md). CH14 is closed at its final cost boundary with unfinished independent replay; no further CH14 run is authorized. The two joined MIDUS structure probes now pass through the unchanged sealed gate after native and in-image rehearsal. CPU-only Gear 2 remains selected, with research 0/8 and ready 0/16; full scientific runners and final synthesis remain unfinished.
 
 **November 20 Spark admission check:** [Status and preserved probe failures](../../../../results/phase_2_4_stage_15/WEEK5/STATUS_SPARK_20261120.md). The [portable rehearsal](SM0_REHEARSAL_V1.md) passes locally and inside the installed sealed image. The unchanged real-source probe stops after three failures; source mapping and scientific admission remain incomplete.
