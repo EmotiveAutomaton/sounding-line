@@ -1,5 +1,29 @@
 # Week 5 verified records
 
+**OPS-S15-W6-THEORY-ERRATA-LD-SOURCE-20261119:** [Record](THEORY_ERRATA_LD_SOURCE_20261119.md). The November 19 NOX errata are applied and preserved; the first diary-source adapter passes 20 constructed checks while authenticated CH14 replay continues in CPU-only Gear 2.
+
+**OPS-S15-W6-CH14-LOCAL-REVIEW-RUNNING-20261119:** [Record](CH14_LOCAL_REVIEW_RUNNING_20261119.md). The unchanged CH14 recovery is running in CPU-only Gear 2 through authenticated local review; commit and push no longer block qualified research.
+
+**OPS-S15-W6-LOCAL-REVIEW-QUALIFIED-20261119:** [Record](LOCAL_REVIEW_QUALIFIED_20261119.md). Exact local review replaces the commit prerequisite; all 34 admission checks pass while source, native, resource and budget guards remain enforced.
+
+**Current CH14 restart preparation:** CH14 restart preparation was tightened before admission: 39,864 attempt CPU seconds, the unchanged thirty-second coordination reserve and an additional sixty-second stop margin below the final 80,000 total. Its wall bound is twelve hours so the serial reference can use the approved remaining CPU room. Only those operational attempt bounds changed; the 39,924-second candidate was never admitted, source/model/control pins are identical, and no worker has launched. [Stop-margin review](CH14_H2_STOP_MARGIN_20261119.json).
+
+**CH14 qualified-recovery accounting:** The successful 33.984375-second qualification debit is now posted once in budget revision seven; total CH14 use is 40,045.6875 CPU seconds. The unchanged-source restart candidate is fully assembled with a 39,924-second attempt cap plus its coordination reserve, pending exact committed design and fresh native admission. No worker was launched. [Accounting addendum](CH14_H2_ACTIVATION_20261119.json).
+
+**OPS-S15-W6-CH14-H2-QUALIFIED-20261119:** [Record](CH14_H2_QUALIFIED_20261119.md). The approved exact CH14 recovery passes all 128 constructed checks after an isolated import-path repair; its final total allowance is 80,000 CPU seconds and scientific replay still awaits committed admission.
+
+**S15-W6-LA6-COMPLETE-20261119:** [Complete record](LA6_COMPLETE_20261119.md). The held-out meeting comparison supports the registered prediction bar when elapsed laughter history is included; the version without that history is inconclusive, and act-type population intervals are unsupported.
+
+**OPS-S15-W6-LA6-VERIFY-RESUME-20261119:** [Record](LA6_VERIFY_RESUME_20261119.md). The full meeting-study execution and independent verifier point are preserved and authenticated; the remaining original verification draws are running in CPU-only Gear 2.
+
+**OPS-S15-W6-LA6-SOURCE-20261119:** [Record](LA6_SOURCE_AND_CONTINUATION_20261119.md). The complete meeting-source reconstruction and its independent replay are authenticated, all saved checkpoints are preserved, and the full original analysis continuation is admitted in CPU-only Gear 2.
+
+**OPS-S15-W6-LATTICE-BUILD-20261119:** [Record](LATTICE_BUILD_20261119.md). The lattice extension is viable as a staged build; its frozen calibration and first implementation components pass constructed qualification, while complete source-specific runners and sealed admission remain unfinished.
+
+**OPS-S15-W6-CH14-H2-PREPARED-20261119:** [Record](CH14_H2_PREPARED_20261119.md). The exact buffer-reuse recovery and its complete qualification are built but unrun; explicit allowance approval remains pending, and no active budget or research process was changed.
+
+**OPS-S15-W6-CH14-SCALAR-COST-20261119:** [Record](CH14_SCALAR_COST_20261119.md). The independent replay exhausted its original allowance; complete execution and the durable partial replay remain intact, while a separate exact buffer-reuse successor is built for qualification.
+
 **OPS-S15-W6-CH14-SCALAR-REPLAY-RUNNING-20261119:** [Record](CH14_SCALAR_REPLAY_RUNNING_20261119.md). The repaired full independent replay is admitted and progressing in CPU-only Gear 2; complete execution, failed attempts and all measured costs remain preserved under the original study ceiling.
 
 **OPS-S15-W6-CH14-SCALAR-TRANSPORT-HEAL1-20261119:** [Record](CH14_SCALAR_TRANSPORT_HEAL1_20261119.md). The first compiled-replay launch refused an unfinished receipt by filename before copying data; its exact-schema repair passes all 126 constructed checks, with the original evidence and failed cost preserved.

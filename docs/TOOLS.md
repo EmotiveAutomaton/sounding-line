@@ -24,12 +24,13 @@ the project environment was not changed.
 Five completed archives are held privately under `private/k-emocon/raw/`:
 `e4_data.tar.gz`, `neurosky_polar_data.tar.gz`, `emotion_annotations.tar.gz`,
 `metadata.tar.gz` and `data_quality_tables.tar.gz`. They total **24,448,180 bytes**
-according to the preserved intake. The owner independently matched all five
-archive sizes and SHA-256 hashes to the delivered metadata. The collector reports
-**550 CSV members**, matching local MD5 hashes, full gzip CRC and TAR
-path/link/collision checks; those structural checks were not independently rerun
-in this metadata review. Original archives remain intact; no expanded copy or
-scientific consumer was created by this review.
+according to the preserved intake. The owner independently verified all five
+archive sizes, SHA-256 and MD5 hashes, full gzip CRC, TAR path/link/collision
+safety and **550 CSV members** on November 19. Fourteen delivery metadata files
+also match their declared hashes. No CSV values were decoded or extracted.
+The earlier qualified source/version wording is preserved; the proposed patch
+is not blindly reapplied. [Review](../results/phase_2_4_stage_15/WEEK5/LATTICE_BUILD_20261119.md).
+Original archives remain intact; no scientific consumer was admitted.
 
 | Source / capability | Available primitive | Readiness and limits |
 |---|---|---|
@@ -2978,6 +2979,24 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**OPS-S15-W6-THEORY-ERRATA-LD-SOURCE-20261119:** The November 19 NOX errata are applied and preserved; the first diary-source adapter passes 20 constructed checks while authenticated CH14 replay continues in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/THEORY_ERRATA_LD_SOURCE_20261119.md).
+
+**OPS-S15-W6-CH14-LOCAL-REVIEW-RUNNING-20261119:** The unchanged CH14 recovery is running in CPU-only Gear 2 through authenticated local review; commit and push no longer block qualified research. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_LOCAL_REVIEW_RUNNING_20261119.md).
+
+**OPS-S15-W6-LOCAL-REVIEW-QUALIFIED-20261119:** Exact local review replaces the commit prerequisite; all 34 admission checks pass while source, native, resource and budget guards remain enforced. [Record](../results/phase_2_4_stage_15/WEEK5/LOCAL_REVIEW_QUALIFIED_20261119.md).
+
+**OPS-S15-W6-CH14-H2-QUALIFIED-20261119:** The approved exact CH14 recovery passes all 128 constructed checks after an isolated import-path repair; its final total allowance is 80,000 CPU seconds and scientific replay still awaits committed admission. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_H2_QUALIFIED_20261119.md).
+
+**OPS-S15-W6-LA6-VERIFY-RESUME-20261119:** The full meeting-study execution and independent verifier point are preserved and authenticated; the remaining original verification draws are running in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/LA6_VERIFY_RESUME_20261119.md).
+
+**OPS-S15-W6-LA6-SOURCE-20261119:** The complete meeting-source reconstruction and its independent replay are authenticated, all saved checkpoints are preserved, and the full original analysis continuation is admitted in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/LA6_SOURCE_AND_CONTINUATION_20261119.md).
+
+**OPS-S15-W6-LATTICE-BUILD-20261119:** The lattice extension is viable as a staged build; its frozen calibration and first implementation components pass constructed qualification, while complete source-specific runners and sealed admission remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/LATTICE_BUILD_20261119.md).
+
+**OPS-S15-W6-CH14-H2-PREPARED-20261119:** The exact buffer-reuse recovery and its complete qualification are built but unrun; explicit allowance approval remains pending, and no active budget or research process was changed. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_H2_PREPARED_20261119.md).
+
+**OPS-S15-W6-CH14-SCALAR-COST-20261119:** The independent replay exhausted its original allowance; complete execution and the durable partial replay remain intact, while a separate exact buffer-reuse successor is built for qualification. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_SCALAR_COST_20261119.md).
 
 **OPS-S15-W6-CH14-SCALAR-REPLAY-RUNNING-20261119:** The repaired full independent replay is admitted and progressing in CPU-only Gear 2; complete execution, failed attempts and all measured costs remain preserved under the original study ceiling. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_SCALAR_REPLAY_RUNNING_20261119.md).
 

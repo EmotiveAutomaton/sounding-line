@@ -910,6 +910,11 @@ A fast child can exceed an output cap and exit between periodic inspections. Che
   Preserve the failure, use a separate safe-path wrapper, and test the exact native command
   with an intentional standard-library shadow before corpus admission. Environment version
   agreement alone does not establish import identity. (OPS-S15-EV-EXPORT-HANDLER)
+  The CH14 constructed qualification repeated this through an operational `inspect.py`
+  on the plugin path, also refreshing two private audit snapshots before pytest stopped.
+  Isolate plugin folders from operational scripts; preserve the failed terminal and
+  disclose any overwritten audit bytes instead of asserting the old digest still verifies.
+  The unchanged 128-case qualification then passed. (OPS-S15-W6-CH14-H2-QUALIFIED-20261119)
 
 - **Verify the actual Unicode bytes in a fixture before using it to validate offsets.**
   A Windows shell pipeline replaced literal emoji and accented letters while generating
@@ -1495,3 +1500,11 @@ A fast child can exceed an output cap and exit between periodic inspections. Che
   sidecars separately, prove the database and original outputs unchanged, and
   restore the exact manifest before resuming. Do not apply immutable mode to a live
   database or one requiring uncheckpointed WAL content. (OPS-S15-W5-BACK-HALF-ADMISSIONS-20261111)
+
+- **An import visible in one Windows execution context may be unreadable in the native worker.**
+  An isolated statistical-file reader appeared as an empty namespace because the native
+  process could enumerate its directory but Windows refused its package files. Check the
+  exact native interpreter, resolved module path and required APIs before the fixture.
+  Preserve failed receipts and charges; rebuild the identical pinned wheel in a separate
+  native working directory and verify its package bytes. Do not change permissions or a
+  live research environment to hide the refusal. (OPS-S15-W6-LATTICE-BUILD-20261119)

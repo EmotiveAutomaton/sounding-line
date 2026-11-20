@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+**Current admission:** [Local review authority](../../docs/design/stage-15/week6/LOCAL_REVIEW_ADMISSION_20261119.md) and [verified running recovery](../../results/phase_2_4_stage_15/WEEK5/CH14_LOCAL_REVIEW_RUNNING_20261119.md). New Week 6 runs use the v5 local-review launcher and runtime. Exact reviewed hashes and passed native fixtures replace the commit prerequisite; publication never holds qualified research. Prior pinned runtimes remain preserved.
+
 The IN9 items table adapter (`cards/week5_in9_v1.py`) has a separate ridge/AUC replay and a full constructed writer-bank fixture. Its counted admission uses the two-day table-card rule and exact existing source pins; no raw text or cue analysis is part of that adapter.
 
 The two-day packet's [v11 continuation runtime](../../docs/design/stage-15/week5/TWO_DAY_RUNTIME_V11.md)

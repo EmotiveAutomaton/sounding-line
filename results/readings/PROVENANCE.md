@@ -18,6 +18,20 @@ with the reason.
 
 ---
 
+## November 19 theory delta: six supplied contributions
+
+Filed November 19 from the supplied errata; the earlier message dates below are source dates, not reconstructed receipt dates. Quotations and literature read levels are those of the supplied analyst record. The complete original messages were not independently available for comparison.
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| 2026-11-15 21:46 PST; Round 25 | Dopamine as chain-confidence news and norepinephrine as the swap booster; G307. | written; empirical standing remains OPEN | [Supplied delta](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-19.md); [application](../../docs/design/archive/THEORY_ERRATA_20261119_APPLIED.json) |
+| 2026-11-16 07:43 PST; Round 26 | Seven body-band members, acetylcholine and the three Stress states; G306, G307, G314. | written; empirical standing remains OPEN | [Supplied delta](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-19.md); [application](../../docs/design/archive/THEORY_ERRATA_20261119_APPLIED.json) |
+| 2026-11-16 15:39 PST, complete resend 17:24; Round 27 | Dopamine as go signal, norepinephrine as temperature and acetylcholine orthogonal to attention; G307. | written; empirical standing remains OPEN | [Supplied delta](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-19.md); [application](../../docs/design/archive/THEORY_ERRATA_20261119_APPLIED.json) |
+| 2026-11-18; Round 28 | Meaning name, graded triggers, RAGE, safety under the body and serotonin; G305 to G309. | written; empirical standing remains OPEN | [Supplied delta](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-19.md); [application](../../docs/design/archive/THEORY_ERRATA_20261119_APPLIED.json) |
+| 2026-11-19 06:30 PT; Round 29 | Competence name, channel profile, SHAME, meaning floor, status and LUST proposals; G305, G309 to G316. | written; empirical standing remains OPEN | [Supplied delta](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-19.md); [application](../../docs/design/archive/THEORY_ERRATA_20261119_APPLIED.json) |
+| 2026-11-19 11:32 PT; Round 30 | Respect and Compassion names; attention, SHAME, custom fluency, need dependence and further open statements; G305, G310 to G318; G264, G291, G301. | written; empirical standing remains OPEN | [Supplied delta](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-19.md); [application](../../docs/design/archive/THEORY_ERRATA_20261119_APPLIED.json) |
+
+
 ## November18 additional MIDUS wrapper attempt
 
 | Contribution | What changed | Status | Record |

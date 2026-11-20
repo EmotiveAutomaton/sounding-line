@@ -1,5 +1,33 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-THEORY-ERRATA-LD-SOURCE-20261119: The November 19 NOX errata are applied and preserved; the first diary-source adapter passes 20 constructed checks while authenticated CH14 replay continues in CPU-only Gear 2.
+
+- [x] OPS-S15-W6-CH14-LOCAL-REVIEW-RUNNING-20261119: The unchanged CH14 recovery is running in CPU-only Gear 2 through authenticated local review; commit and push no longer block qualified research.
+
+- [x] OPS-S15-W6-LOCAL-REVIEW-QUALIFIED-20261119: Exact local review replaces the commit prerequisite; all 34 admission checks pass while source, native, resource and budget guards remain enforced.
+
+- [x] OPS-S15-W6-CH14-H2-QUALIFIED-20261119: The approved exact CH14 recovery passes all 128 constructed checks after an isolated import-path repair; its final total allowance is 80,000 CPU seconds and scientific replay still awaits committed admission.
+
+- [x] S15-W6-LA6-COMPLETE-20261119: The held-out meeting comparison supports the registered prediction bar when elapsed laughter history is included; the version without that history is inconclusive, and act-type population intervals are unsupported.
+
+- [ ] S15-W6-LA6-FOLLOWUPS: Build and qualify the frozen LA6.s, LA6.m and LA6.p register below packet cards; each is unadmitted and capped at 30,000 inclusive CPU seconds within available family room.
+
+- [x] OPS-S15-W6-LA6-VERIFY-RESUME-20261119: The full meeting-study execution and independent verifier point are preserved and authenticated; the remaining original verification draws are running in CPU-only Gear 2.
+
+- [ ] S15-W6-LD1-LD3-BUILD: The first diary source adapter passes 20 constructed checks. Finish codebook role review, role model, diagnostic arms, checkpointed 2,000-draw producers, full fresh replay and native admission; bindings and source projection alone are not ready cards.
+- [ ] S15-W6-SM0-ADMIT: Rehearse the self-contained probe inside the declared sealed image, freeze the exact locally reviewed job hash and admit source-structure probes within existing privacy, read and invocation bounds; no real Spark job has run.
+- [ ] S15-W6-LATTICE-POLICY: Review a prospective allowance transition for the packet's ES/LA additions and KP1-only continuation; preserve all live pins and previous charges.
+- [ ] S15-W6-LATTICE-REMAINDER: Complete LD4, LB1-LB6, LA7-LA8, SM1-SM2 and SC1-SC3 in packet order, with each original source/design review and controls.
+- [ ] S15-W6-RC1-LT1: Implement the additive claim map and eleven-field evidence route; assemble all 44 final dispositions only after source review, using the frozen source-majority primary and eligible existing-draw secondary.
+
+- [x] OPS-S15-W6-LA6-SOURCE-20261119: The complete meeting-source reconstruction and its independent replay are authenticated, all saved checkpoints are preserved, and the full original analysis continuation is admitted in CPU-only Gear 2.
+
+- [x] OPS-S15-W6-LATTICE-BUILD-20261119: The lattice extension is viable as a staged build; its frozen calibration and first implementation components pass constructed qualification, while complete source-specific runners and sealed admission remain unfinished.
+
+- [x] OPS-S15-W6-CH14-H2-PREPARED-20261119: The exact buffer-reuse recovery and its complete qualification are built but unrun; explicit allowance approval remains pending, and no active budget or research process was changed.
+
+- [x] OPS-S15-W6-CH14-SCALAR-COST-20261119: The independent replay exhausted its original allowance; complete execution and the durable partial replay remain intact, while a separate exact buffer-reuse successor is built for qualification.
+
 - [x] OPS-S15-W6-CH14-SCALAR-REPLAY-RUNNING-20261119: The repaired full independent replay is admitted and progressing in CPU-only Gear 2; complete execution, failed attempts and all measured costs remain preserved under the original study ceiling.
 
 - [x] OPS-S15-W6-CH14-SCALAR-TRANSPORT-HEAL1-20261119: The first compiled-replay launch refused an unfinished receipt by filename before copying data; its exact-schema repair passes all 126 constructed checks, with the original evidence and failed cost preserved.

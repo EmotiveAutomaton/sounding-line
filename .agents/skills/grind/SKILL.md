@@ -5,6 +5,15 @@ description: THE GRIND NEVER STOPS — the standing loop for processing this pro
 
 # The grind never stops
 
+**Research admission, curator instruction November 19:** Git staging, commit
+and push are not prerequisites for authorized local research. A card is ready
+after owner review of its exact design/source hashes and a passed native fixture,
+with a pinned immutable local review manifest and ordinary admission checks.
+Publication proceeds separately when permitted; it never stalls qualified work.
+This supersedes the commit prerequisite in amendments K and Q and older packets.
+Keep source capsules, all costs, full write-through, native ownership, privacy,
+campaign dates and ceilings unchanged. Historical pinned records stay intact.
+
 Run every step, in order, every time. A result that has not been through all of them has not
 landed. Late sessions skip steps; this list exists so they don't.
 
@@ -238,7 +247,7 @@ Ratified by the Week 5 packet and current handoff. Source: `docs/design/stage-15
 - The owner (the Codex operating session) reviews each builder's design note and fixture before admission, as now.
 
 **K. Ready means designed and fixtured.**
-- A card is ready, and counts toward amendment A's buffer, once its design note (with its DESIGN CHECK block) is committed and its native fixture has passed.
+- A card is ready, and counts toward amendment A's buffer, once its design note (with its DESIGN CHECK block) and exact source hashes are owner-reviewed, its native fixture has passed, and the immutable local review manifest is pinned. No Git commit or push is required for research admission.
 - Its cost probe, timing prefix and any pilot run inside a counted slot, as the first stage of its run, charged to the card.
 - A forecast over 7,200 CPU-seconds is met by a checkpointed in-slot pilot covering the first 5% of the work, not by a separate pilot card.
 - One design note and one fixture admit a family's pipeline and its declared grid. Each grid cell is then ready.

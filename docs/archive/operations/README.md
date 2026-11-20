@@ -1,5 +1,13 @@
 # Superseded operating snapshots
 
+The [November 19 theory-errata filing ledger](THEORY_ERRATA_RELOCATION_20261119.json) preserves both later incoming originals, separate from the fifteen-file intake. Their canonical sources and application receipt are in the theory archive.
+
+The [November 19 filing ledger](DOCUMENT_RELOCATIONS_20261119.json) records
+fifteen incoming originals preserved with hashes. The active lattice packet,
+handoff, preflight summary and attributed ledger seed are on their canonical
+shelves; private setup facts and bundles remain private. Reintroduced November
+15 copies retain their historical status and grant no renewed scope.
+
 The [November 15 filing ledger](DOCUMENT_RELOCATIONS_20261115.json) records ten byte-preserved duplicate incoming sources. Existing canonical copies remain in place; private handoffs and the preflight archive remain private.
 
 The [November 8 filing ledger](DOCUMENT_RELOCATIONS_20261108.json) records the two applied November theory errata and operative Week 5 packet. Their duplicate incoming originals are preserved privately after independent edit replay; canonical sources and application receipts retain their original bytes.

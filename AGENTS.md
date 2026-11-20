@@ -1,5 +1,14 @@
 # Codex operating instructions for Sounding Line
 
+**Research admission, curator instruction November 19:** Git staging, commit
+and push are not prerequisites for authorized local research. A card is ready
+after owner review of its exact design/source hashes and a passed native fixture,
+with a pinned immutable local review manifest and ordinary admission checks.
+Publication proceeds separately when permitted; it never stalls qualified work.
+This supersedes the commit prerequisite in amendments K and Q and older packets.
+Keep source capsules, all costs, full write-through, native ownership, privacy,
+campaign dates and ceilings unchanged. Historical pinned records stay intact.
+
 This is the canonical agent contract, ported from `CLAUDE.md` on 2026-09-05.
 The original is preserved in `docs/archive/agent-runtime/CLAUDE.pre-codex.md`.
 
@@ -570,7 +579,7 @@ Ratified by the Week 5 packet and current handoff. Source: `docs/design/stage-15
 - The owner (the Codex operating session) reviews each builder's design note and fixture before admission, as now.
 
 **K. Ready means designed and fixtured.**
-- A card is ready, and counts toward amendment A's buffer, once its design note (with its DESIGN CHECK block) is committed and its native fixture has passed.
+- A card is ready, and counts toward amendment A's buffer, once its design note (with its DESIGN CHECK block) and exact source hashes are owner-reviewed, its native fixture has passed, and the immutable local review manifest is pinned. No Git commit or push is required for research admission.
 - Its cost probe, timing prefix and any pilot run inside a counted slot, as the first stage of its run, charged to the card.
 - A forecast over 7,200 CPU-seconds is met by a checkpointed in-slot pilot covering the first 5% of the work, not by a separate pilot card.
 - One design note and one fixture admit a family's pipeline and its declared grid. Each grid cell is then ready.
@@ -616,7 +625,7 @@ Ratified by the curator on November 11. Source: `docs/design/stage-15/week5/PACK
 - This replaces separate sensitivity cards for new work. The calibrations already run keep their records. No verdict already in the ledger changes.
 
 **Q. Small cards admit on design and fixture.**
-- For the new cards of section 2 whose ceiling is 60,000 CPU-seconds or less and which read only sources already qualified this campaign, admission is the design note committed and the fixture passed (amendment K, restated), with the plan pinned as the owner already does. Their cost probe is the first stage of the run. No separate native qualification campaign, bounded variant or timing pilot is required for them.
+- For the new cards of section 2 whose ceiling is 60,000 CPU-seconds or less and which read only sources already qualified this campaign, admission is the exact design/source hashes owner-reviewed, the immutable local review manifest pinned and the fixture passed (amendment K, updated November 19), with the plan pinned as the owner already does. Their cost probe is the first stage of the run. No separate native qualification campaign, bounded variant or timing pilot is required for them.
 - If such a card fails in its first run for a runtime reason, it gets one repair and one rerun under its own ceiling.
 - Cards above that ceiling (CH1, GO1, GO2) keep the owner's existing admission.
 

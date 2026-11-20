@@ -741,37 +741,37 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-f09cc7b14e87359fb9a4-1
 
-[Filed source, lines 1562–1562](../theory/THE_TRIPLE_INFERENCE.md#L1562); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1565–1565](../theory/THE_TRIPLE_INFERENCE.md#L1565); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > competence is something we just optimize for. And so base rates are really your best attempt at competence [...] everyone's doing the same signal detection [...] how sensitive are you in detection
 
 ## Q-08dd96c092d8a106b80f-1
 
-[Filed source, lines 1564–1564](../theory/THE_TRIPLE_INFERENCE.md#L1564); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1567–1567](../theory/THE_TRIPLE_INFERENCE.md#L1567); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > [a divergence from competence] would indicate a larger preference
 
 ## Q-2230463ffce79e5d87e2-1
 
-[Filed source, lines 1566–1566](../theory/THE_TRIPLE_INFERENCE.md#L1566); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1569–1569](../theory/THE_TRIPLE_INFERENCE.md#L1569); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Goals on goals on goals [...] terminal units of one's value function
 
 ## Q-6f720abb653625bcc7fd-1
 
-[Filed source, lines 1568–1568](../theory/THE_TRIPLE_INFERENCE.md#L1568); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1571–1571](../theory/THE_TRIPLE_INFERENCE.md#L1571); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I do want to make sure that preferences are set points
 
 ## Q-cf8be7e1a8be19d3f80a-1
 
-[Filed source, lines 1570–1570](../theory/THE_TRIPLE_INFERENCE.md#L1570); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1573–1573](../theory/THE_TRIPLE_INFERENCE.md#L1573); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Temperament I would translate into just being a habit [...] A threshold would be more like a predisposition or personality
 
 ## Q-c2649409e45dfd665853-1
 
-[Filed source, lines 1608–1610](../theory/THE_TRIPLE_INFERENCE.md#L1608); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1611–1613](../theory/THE_TRIPLE_INFERENCE.md#L1611); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Drives would mostly be present through **long-term stochastic views of your behaviour**, as adjusted
 > by local goals in proximal situations. And that by definition is **baked into your habits through
@@ -779,7 +779,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-00804b2ae4c9a972a8ed-1
 
-[Filed source, lines 1612–1616](../theory/THE_TRIPLE_INFERENCE.md#L1612); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1615–1619](../theory/THE_TRIPLE_INFERENCE.md#L1615); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **Habit could preserve traces of persistent motivational organization.** But it's going to be
 > messier than we expect. It's also going to preserve training, convenience, accident, and repeated
@@ -789,7 +789,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-8eac2fa3f0026efb157d-1
 
-[Filed source, lines 1618–1620](../theory/THE_TRIPLE_INFERENCE.md#L1618); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1621–1623](../theory/THE_TRIPLE_INFERENCE.md#L1621); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **A candidate value signal is the cross-episode component of expertise-shaped behavior that is
 > left after modeling the domain competence and each episode's proximal, attention-weighted goal.**
@@ -797,7 +797,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-8d82aa3df299fc6959ff-1
 
-[Filed source, lines 1622–1624](../theory/THE_TRIPLE_INFERENCE.md#L1622); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1625–1627](../theory/THE_TRIPLE_INFERENCE.md#L1625); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **It's noise. It looks like noise, but it's the noise of habit** – the habit that you have a record
 > of because it's baked in alongside your expertise. **There it is. Those are your values**, after we
@@ -805,7 +805,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-2da9cedf47fbd69bafcc-1
 
-[Filed source, lines 1635–1637](../theory/THE_TRIPLE_INFERENCE.md#L1635); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1638–1640](../theory/THE_TRIPLE_INFERENCE.md#L1638); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Some of the properties baked into habit alongside the expertise transition mapping will have
 > useful properties. **Epistemic foraging is particularly high-variance behavior**, dependent upon
@@ -813,7 +813,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-98ad4f03cab2b75b44df-1
 
-[Filed source, lines 1676–1678](../theory/THE_TRIPLE_INFERENCE.md#L1676); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1679–1681](../theory/THE_TRIPLE_INFERENCE.md#L1679); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > The best evidence that the value changed, rather than merely becoming better concealed, would be
 > evidence elsewhere that the maker's foreground goals are different. The historical tendency
@@ -821,14 +821,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-92f3a036808075f0a85d-1
 
-[Filed source, lines 1680–1681](../theory/THE_TRIPLE_INFERENCE.md#L1680); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1683–1684](../theory/THE_TRIPLE_INFERENCE.md#L1683); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > The slope is between inherited, expertise-shaped tendencies and the maker's current proximal
 > goals. Future edits should reveal whether that mismatch is a direction of change.
 
 ## Q-20f514d636043d690a2c-1
 
-[Filed source, lines 1685–1688](../theory/THE_TRIPLE_INFERENCE.md#L1685); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1688–1691](../theory/THE_TRIPLE_INFERENCE.md#L1688); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > An artifact gives you two different kinds of evidence: a probabilistic distribution of previous
 > attention, compressed lossily through expertise, and a record of what the maker chose to attend to
@@ -837,7 +837,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-503d373e859f1c0af919-1
 
-[Filed source, lines 1690–1692](../theory/THE_TRIPLE_INFERENCE.md#L1690); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1693–1695](../theory/THE_TRIPLE_INFERENCE.md#L1693); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > If someone repeatedly pays costs to redirect effort away from an old trained tendency, that
 > redirection is a preference expressed currently. The trained tendency may preserve an older
@@ -845,14 +845,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-3790438fe12e3079627c-1
 
-[Filed source, lines 1694–1695](../theory/THE_TRIPLE_INFERENCE.md#L1694); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1697–1698](../theory/THE_TRIPLE_INFERENCE.md#L1697); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I am not assuming that there has to be a separate latent value field. A context-controlled
 > probabilistic mapping of where attention chooses to focus may itself be the latent preference.
 
 ## Q-ce903e558a0ada2d6dbf-1
 
-[Filed source, lines 1701–1707](../theory/THE_TRIPLE_INFERENCE.md#L1701); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1704–1710](../theory/THE_TRIPLE_INFERENCE.md#L1704); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I've told you where the preference signal lives. It's a set of vectors, each one derived from
 > actions you have observed trying to maintain homeostasis, these actions inferred from the lossy
@@ -864,7 +864,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-6e179a22a226dd46448f-1
 
-[Filed source, lines 1709–1712](../theory/THE_TRIPLE_INFERENCE.md#L1709); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1712–1715](../theory/THE_TRIPLE_INFERENCE.md#L1712); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > [...] The idea that you get more predictable as you get further from the set point, I would
 > imagine. And I would imagine, yes, you spend more effort, but you also have stronger preferences in
@@ -873,7 +873,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-3670ac65ecd06b10dbc6-1
 
-[Filed source, lines 1714–1717](../theory/THE_TRIPLE_INFERENCE.md#L1714); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1717–1720](../theory/THE_TRIPLE_INFERENCE.md#L1717); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Unpredictability on difficult choices is a preference signal? No, I don't think that it is. I think
 > that it's just difficult. I think that your predictions get weaker and weirder, and so the noise of
@@ -882,7 +882,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-22b0b9af5687b313f837-1
 
-[Filed source, lines 1734–1741](../theory/THE_TRIPLE_INFERENCE.md#L1734); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1737–1744](../theory/THE_TRIPLE_INFERENCE.md#L1737); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Set points would have to be able to drift, maybe. No, yes, I think that's a reasonable thing. I
 > think the set point at that point would be, you have to have a trade-off between how much accuracy
@@ -895,7 +895,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-1db125013aaa9362b3c9-1
 
-[Filed source, lines 1754–1760](../theory/THE_TRIPLE_INFERENCE.md#L1754); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1757–1763](../theory/THE_TRIPLE_INFERENCE.md#L1757); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > As a note, I want to say that an artifact, one artifact, can't date actions, but you do get weak
 > evidence for the dating on those actions. Like, if you have the date the artifact was created, and
@@ -907,7 +907,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-babbf3da113313f2cafd-1
 
-[Filed source, lines 1772–1783](../theory/THE_TRIPLE_INFERENCE.md#L1772); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1775–1786](../theory/THE_TRIPLE_INFERENCE.md#L1775); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > In part, process improvement sure does seem like most of the time you try to do both. If you're
 > going to aim to try to make things better, you do something that both satisfies your preferences
@@ -924,7 +924,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-fee8db25df918ebbe370-1
 
-[Filed source, lines 1869–1875](../theory/THE_TRIPLE_INFERENCE.md#L1869); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1872–1878](../theory/THE_TRIPLE_INFERENCE.md#L1872); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > You always have an imperfect view of anyone else's value set, and your own introspective and
 > interoceptive access is **systematically limited and biased.**
@@ -936,7 +936,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-87d5337ed95e4a0d29c3-1
 
-[Filed source, lines 1890–1892](../theory/THE_TRIPLE_INFERENCE.md#L1890); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1893–1895](../theory/THE_TRIPLE_INFERENCE.md#L1893); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **Everything's an artifact. Even information about their life.** Any action they took that affected
 > the world counts. [...] You will use **epistemic foraging** to find more things out about the artist
@@ -944,14 +944,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-096afff32e10cd330f32-1
 
-[Filed source, lines 1898–1899](../theory/THE_TRIPLE_INFERENCE.md#L1898); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1901–1902](../theory/THE_TRIPLE_INFERENCE.md#L1901); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **Biology is no more ground truth of internal state than the word of a museum curator.** It's just
 > binary sensory inputs weighted differently.
 
 ## Q-31285542c073404512b0-1
 
-[Filed source, lines 1905–1907](../theory/THE_TRIPLE_INFERENCE.md#L1905); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1908–1910](../theory/THE_TRIPLE_INFERENCE.md#L1908); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Religion is probably the strongest force for value alignment I can think of in the world. It does
 > curiously suggest you'd be able to **extract someone's religion from their words.** [...] That's
@@ -959,7 +959,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-dc824257c7158c41cfd6-1
 
-[Filed source, lines 1909–1911](../theory/THE_TRIPLE_INFERENCE.md#L1909); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1912–1914](../theory/THE_TRIPLE_INFERENCE.md#L1912); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > The key part has **little to do with the work itself**, and more to do with **deep followers** of
 > that work. And then aligning that with the specific values that have **spread out from** that work.
@@ -967,7 +967,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-5ed2274c0e043548e085-1
 
-[Filed source, lines 1913–1915](../theory/THE_TRIPLE_INFERENCE.md#L1913); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1916–1918](../theory/THE_TRIPLE_INFERENCE.md#L1916); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > We'll be able to identify a testing bed as **graded adherence to a declared value tradition**, and
 > then try to lexically extract that for ourselves using the same human empathic process. Trying to
@@ -975,14 +975,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-493c37929199015dc8e8-1
 
-[Filed source, lines 1926–1927](../theory/THE_TRIPLE_INFERENCE.md#L1926); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1929–1930](../theory/THE_TRIPLE_INFERENCE.md#L1929); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I guess I shouldn't be surprised. There's so, so, so much expertise in writing and reading. The
 > rules are so careful. The human is so weakly identified. But that's kind of the point.
 
 ## Q-20f719cf8b4d3a8945e8-1
 
-[Filed source, lines 1929–1931](../theory/THE_TRIPLE_INFERENCE.md#L1929); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1932–1934](../theory/THE_TRIPLE_INFERENCE.md#L1932); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > For the personal signal, can we somehow hold the human common pieces constant? Like, can we
 > extract the emotion piece and look for everything else? No, that's not even an answer. Goddamn,
@@ -990,50 +990,50 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-955fd18c85cf4778e13c-1
 
-[Filed source, lines 1993–1993](../theory/THE_TRIPLE_INFERENCE.md#L1993); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1996–1996](../theory/THE_TRIPLE_INFERENCE.md#L1996); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > at an individual painting, what you're getting is not just a person, but a mood
 
 ## Q-3f7279f9ffb7295eac8b-1
 
-[Filed source, lines 1995–1995](../theory/THE_TRIPLE_INFERENCE.md#L1995); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1998–1998](../theory/THE_TRIPLE_INFERENCE.md#L1998); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > A mood is [...] a mix of particular drive states.
 
 ## Q-df36fe97d0bfb6a15cef-1
 
-[Filed source, lines 1997–1997](../theory/THE_TRIPLE_INFERENCE.md#L1997); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2000–2000](../theory/THE_TRIPLE_INFERENCE.md#L2000); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Everything becomes habit. The expertise is the attentional part.
 
 ## Q-952ce26376e324f7ac94-1
 
-[Filed source, lines 1999–1999](../theory/THE_TRIPLE_INFERENCE.md#L1999); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2002–2002](../theory/THE_TRIPLE_INFERENCE.md#L2002); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > How are we differentiating previous habit from previous expertise?
 
 ## Q-3b384727db1f1e8f2a77-1
 
-[Filed source, lines 2001–2001](../theory/THE_TRIPLE_INFERENCE.md#L2001); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2004–2004](../theory/THE_TRIPLE_INFERENCE.md#L2004); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > We're using previous deviations from patterns to inform the definition of attention. But those deviations themselves become patterns.
 
 ## Q-2b89d2dff539f082c0c9-1
 
-[Filed source, lines 2003–2003](../theory/THE_TRIPLE_INFERENCE.md#L2003); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2006–2006](../theory/THE_TRIPLE_INFERENCE.md#L2006); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > the more calories are spent, the more likely it is that attention was involved [...] the constituent cost is what matters
 
 ## Q-606075cfe3c95688e9a9-1
 
-[Filed source, lines 2047–2048](../theory/THE_TRIPLE_INFERENCE.md#L2047); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2050–2051](../theory/THE_TRIPLE_INFERENCE.md#L2050); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Saying something isn't possible just means you haven't found the way to do it yet – **especially if
 > the world is doing it.**
 
 ## Q-a23146628412e0c96db6-1
 
-[Filed source, lines 2052–2057](../theory/THE_TRIPLE_INFERENCE.md#L2052); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2055–2060](../theory/THE_TRIPLE_INFERENCE.md#L2055); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I'm not saying humans arrive at a conclusion of value. I'm saying they use **a bunch of tricks to
 > actively try to get closer** to it.
@@ -1044,14 +1044,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-d2e10d8bcb8eedaf8491-1
 
-[Filed source, lines 2059–2060](../theory/THE_TRIPLE_INFERENCE.md#L2059); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2062–2063](../theory/THE_TRIPLE_INFERENCE.md#L2062); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I need to concede that I'm not claiming at this point that convergence is possible, but rather
 > that **substantive human priors can produce a more useful narrowing.**
 
 ## Q-90d3a99cfc0961e73360-1
 
-[Filed source, lines 2062–2064](../theory/THE_TRIPLE_INFERENCE.md#L2062); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2065–2067](../theory/THE_TRIPLE_INFERENCE.md#L2065); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Behavior that looks irrational under simple reward models can instead be **evidence of cognitively
 > bounded agents with multiple, changing, and nested motivations**, expressed through a variable
@@ -1059,20 +1059,20 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-4d259e306c037bda98cd-1
 
-[Filed source, lines 2094–2094](../theory/THE_TRIPLE_INFERENCE.md#L2094); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2097–2097](../theory/THE_TRIPLE_INFERENCE.md#L2097); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > *"Oh my god, it's my three assumptions."*
 
 ## Q-35b3812526b8245f1642-1
 
-[Filed source, lines 2108–2109](../theory/THE_TRIPLE_INFERENCE.md#L2108); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2111–2112](../theory/THE_TRIPLE_INFERENCE.md#L2111); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **CIRL literature makes it easier for you to learn if you assume you have a teacher**, assuming that
 > teacher exists and helps. **You can assume intention to help from the evidence.**
 
 ## Q-c93b9ce5f690bbefe31b-1
 
-[Filed source, lines 2119–2125](../theory/THE_TRIPLE_INFERENCE.md#L2119); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2122–2128](../theory/THE_TRIPLE_INFERENCE.md#L2122); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I am having more trouble with this one. If everything becomes calibration, the theory can't lose.
 > We're all zeroing in on an inference. This is always going to be an inference toward something
@@ -1084,19 +1084,19 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-af072680b77e8958fd57-1
 
-[Filed source, lines 2176–2176](../theory/THE_TRIPLE_INFERENCE.md#L2176); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2179–2179](../theory/THE_TRIPLE_INFERENCE.md#L2179); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > A reader of minds would need it [...] that is how you place that in context [...] otherwise just noise on noise
 
 ## Q-2b61729b500f1622a932-1
 
-[Filed source, lines 2178–2178](../theory/THE_TRIPLE_INFERENCE.md#L2178); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2181–2181](../theory/THE_TRIPLE_INFERENCE.md#L2181); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > these known problems are going to have to come to grips with one by one
 
 ## Q-8ac339277793f4260618-1
 
-[Filed source, lines 2217–2219](../theory/THE_TRIPLE_INFERENCE.md#L2217); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 2220–2222](../theory/THE_TRIPLE_INFERENCE.md#L2220); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > My personal end goal is to find a way to **give AI human empathy, but not human emotions**
 > [...] it requires some kind of subordinate solution space that converges on these **predictions of
@@ -2170,16 +2170,64 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 > It's literally just allow your expertise to run the autopilot for you.
 
+## Q-5eab2fe6b7cd2a61464b-1
+
+[Filed source, lines 1174–1174](../theory/THREE_COGNITIVE_LAYERS.md#L1174); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+
+> I think that for the larger-than-life needs, we're going to go with respect and compassion.
+
+## Q-3b11757e86426a86e65e-1
+
+[Filed source, lines 1176–1176](../theory/THREE_COGNITIVE_LAYERS.md#L1176); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+
+> The reason I wanted to switch to competence is because of its interaction with identifiably competent.
+
+## Q-7fba0e7c289c5f02b842-1
+
+[Filed source, lines 1178–1178](../theory/THREE_COGNITIVE_LAYERS.md#L1178); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+
+> Yes, pain, thirst, itch, and air all join the body band.
+
+## Q-6418dae0104a9cf51a82-1
+
+[Filed source, lines 1180–1180](../theory/THREE_COGNITIVE_LAYERS.md#L1180); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+
+> nothing is necessary and everything is sufficient
+
+## Q-073801c9b523503c5754-1
+
+[Filed source, lines 1182–1182](../theory/THREE_COGNITIVE_LAYERS.md#L1182); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+
+> Attention isn't a picking of a given feature. It is any organizational schema that can be held in mind.
+
+## Q-5c9a9494cc6fb6282d1b-1
+
+[Filed source, lines 1184–1184](../theory/THREE_COGNITIVE_LAYERS.md#L1184); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+
+> I think competence is correct still, but I agree that present is not correct.
+
+## Q-68eb8f2107722d8fd17d-1
+
+[Filed source, lines 1186–1186](../theory/THREE_COGNITIVE_LAYERS.md#L1186); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+
+> I think it's a floor that's defended, no ceiling, and that floor itself is your set point that raises over time.
+
+## Q-19cd19d75e4c0f6bb1be-1
+
+[Filed source, lines 1188–1188](../theory/THREE_COGNITIVE_LAYERS.md#L1188); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+
+> Like, these needs aren't independent.
+
 ## Q-e2c89ece1801f855b4d4-1
 
-[Filed source, lines 1325–1326](../theory/THREE_COGNITIVE_LAYERS.md#L1325); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1388–1389](../theory/THREE_COGNITIVE_LAYERS.md#L1388); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I do not think mirror neurons are magic. It is more like: I see your eyebrows move, I understand
 > how my eyebrows would move in that situation, and from that I can extrapolate how I might feel.
 
 ## Q-d58b9fba635a03edfeb7-1
 
-[Filed source, lines 1328–1330](../theory/THREE_COGNITIVE_LAYERS.md#L1328); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1391–1393](../theory/THREE_COGNITIVE_LAYERS.md#L1391); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > My understanding of mirror neurons is that they're kind of like physical bootstraps to this whole
 > process. [...] I don't know what the relationship is between these physical mirrorings and the
@@ -2187,7 +2235,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-555dda1a8c882acb7b1b-1
 
-[Filed source, lines 1348–1350](../theory/THREE_COGNITIVE_LAYERS.md#L1348); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1411–1413](../theory/THREE_COGNITIVE_LAYERS.md#L1411); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > When I say the model leaked involuntary affect, **I'm not assigning affect to the model.** It's that
 > they're **trying to predict the human brain and failing to do so.** They're trying to have empathy
@@ -2195,7 +2243,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-3581dcc529089038439e-1
 
-[Filed source, lines 1352–1356](../theory/THREE_COGNITIVE_LAYERS.md#L1352); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1415–1419](../theory/THREE_COGNITIVE_LAYERS.md#L1415); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > They're not automatically trying to empathize; that's speaking in high-level terms. Practically,
 > because they're trained on human-produced text, you'd expect them to **reconstruct the functional
@@ -2205,27 +2253,27 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-bbcfad7fae688c397e79-1
 
-[Filed source, lines 1358–1359](../theory/THREE_COGNITIVE_LAYERS.md#L1358); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1421–1422](../theory/THREE_COGNITIVE_LAYERS.md#L1421); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **You're seeing ghosts of a human brain, not an actual human brain.** [...] The lines will be
 > **softer** on an AI modelling.
 
 ## Q-2b6653c8223df0c55788-1
 
-[Filed source, lines 1361–1362](../theory/THREE_COGNITIVE_LAYERS.md#L1361); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1424–1425](../theory/THREE_COGNITIVE_LAYERS.md#L1424); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > That's what I mean by ghosts of a human brain. An **imperfect reconstruction of functional aspects
 > of human anatomy**, or expertise and experience, perhaps even distributed.
 
 ## Q-ef92daa5446c85852471-1
 
-[Filed source, lines 1370–1370](../theory/THREE_COGNITIVE_LAYERS.md#L1370); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1433–1433](../theory/THREE_COGNITIVE_LAYERS.md#L1433); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > There will be some kind of simulation-based advantage.
 
 ## Q-8349c91037647e63a417-1
 
-[Filed source, lines 1417–1424](../theory/THREE_COGNITIVE_LAYERS.md#L1417); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1480–1487](../theory/THREE_COGNITIVE_LAYERS.md#L1480); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > We are trying to find **any kind of correlates that could be explored or used functionally** to
 > help identify value data. That may include finding a mapping space for valence and arousal, or
@@ -2238,7 +2286,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-4bc114f438ca2514a6fb-1
 
-[Filed source, lines 1450–1452](../theory/THREE_COGNITIVE_LAYERS.md#L1450); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1513–1515](../theory/THREE_COGNITIVE_LAYERS.md#L1513); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **The latent variable is the midbrain misalignment that I suggest.** It could absolutely be simply
 > a **poor reconstruction of conserved drive constraints**, the goals that arise from the midbrain.
@@ -2246,7 +2294,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-de3673695ef7f448b61b-1
 
-[Filed source, lines 1463–1467](../theory/THREE_COGNITIVE_LAYERS.md#L1463); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1526–1530](../theory/THREE_COGNITIVE_LAYERS.md#L1526); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Nonverbal drive constraints from Panksepp are systematically underdetermined from human text, so
 > that when a model reconstructs them, it has worse access to them than surface affect or learned
@@ -2256,7 +2304,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-94935809caafd25a85a6-1
 
-[Filed source, lines 1520–1525](../theory/THREE_COGNITIVE_LAYERS.md#L1520); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1583–1588](../theory/THREE_COGNITIVE_LAYERS.md#L1583); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > This stapling of solution channels in between everything in the middle of other problems is
 > something that I do wonder whether it has relevance to, like, mechanistic interpretability. Do we
@@ -2267,28 +2315,28 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-9d36ec68d48e2769c0b1-1
 
-[Filed source, lines 1561–1562](../theory/THREE_COGNITIVE_LAYERS.md#L1561); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1624–1625](../theory/THREE_COGNITIVE_LAYERS.md#L1624); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Machines may only have the autocomplete, yeah? The second layer of attention-grabbing? Machines
 > don't have that, do they? That's all humans. We always do that.
 
 ## Q-c7b6b222a5b35bf65152-1
 
-[Filed source, lines 1566–1567](../theory/THREE_COGNITIVE_LAYERS.md#L1566); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1629–1630](../theory/THREE_COGNITIVE_LAYERS.md#L1629); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Okay, so it's not attention, it's the autocomplete, [for] "Attention Is All You Need". [...] It's
 > just associative memory. All this is, is just the vectorization.
 
 ## Q-a2ad21ee11e042f4a21a-1
 
-[Filed source, lines 1569–1570](../theory/THREE_COGNITIVE_LAYERS.md#L1569); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1632–1633](../theory/THREE_COGNITIVE_LAYERS.md#L1632); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I don't know that a machine that is autocomplete all the way down can grow it. Attention is a
 > separate thing. It's the corrector.
 
 ## Q-6cb22736ca8cb35ec77e-1
 
-[Filed source, lines 1572–1575](../theory/THREE_COGNITIVE_LAYERS.md#L1572); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1635–1638](../theory/THREE_COGNITIVE_LAYERS.md#L1635); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Self-reflection, verification, dynamic strategy adaptation. I'm not convinced that people are
 > actually seeing those events, and that they aren't seeing echoes of the strategies humans use,
@@ -2297,14 +2345,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-da66ec9349c6839028dd-1
 
-[Filed source, lines 1644–1645](../theory/THREE_COGNITIVE_LAYERS.md#L1644); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1707–1708](../theory/THREE_COGNITIVE_LAYERS.md#L1707); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > We're finding **ratio variance relationships between early and late** despite there being a peak in
 > the middle. It implies a sort of shape that **I don't think anyone else has glommed on to.**
 
 ## Q-2a2530a29b4f89191cb5-1
 
-[Filed source, lines 1724–1728](../theory/THREE_COGNITIVE_LAYERS.md#L1724); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1787–1791](../theory/THREE_COGNITIVE_LAYERS.md#L1787); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > There is a lexical mapping to valence and arousal through **the emotion wheel we all use**, but
 > that's not quite what they're catching. What it's really doing is **defining and elaborating these
@@ -2314,7 +2362,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-ab631a2295b4906045f5-1
 
-[Filed source, lines 1763–1766](../theory/THREE_COGNITIVE_LAYERS.md#L1763); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1826–1829](../theory/THREE_COGNITIVE_LAYERS.md#L1826); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > If this structure is not what happens in naturally occurring language models, **I wonder if we could
 > force it** – make an empathic bot with lower-order valence and arousal, medium human-mapped
@@ -2323,7 +2371,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-0fdc4682bb8d5cdb8dd2-1
 
-[Filed source, lines 1768–1770](../theory/THREE_COGNITIVE_LAYERS.md#L1768); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1831–1833](../theory/THREE_COGNITIVE_LAYERS.md#L1831); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > It's a weakness to the alignment consequence, because **we have to provide that weighting somehow.**
 > [...] But at the very least it seems like all it needs is a **bootstrap.** You don't need a ton – a
@@ -2331,7 +2379,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-e96579d6c9c97643e724-1
 
-[Filed source, lines 1788–1791](../theory/THREE_COGNITIVE_LAYERS.md#L1788); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1851–1854](../theory/THREE_COGNITIVE_LAYERS.md#L1851); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > What if it's not the **location** of where they are, but rather their **shape** that we need to care
 > about? What if the values are somehow **extractable and repositionable as meta-concepts**? They'd
@@ -2340,7 +2388,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-652ec534c710134f74df-1
 
-[Filed source, lines 1866–1867](../theory/THREE_COGNITIVE_LAYERS.md#L1866); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1929–1930](../theory/THREE_COGNITIVE_LAYERS.md#L1929); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **You probably do not need interoceptive states. You probably need an interoceptive generative
 > model.**

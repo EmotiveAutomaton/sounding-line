@@ -1,6 +1,10 @@
 # Stage 15 Week 6
 
-**Current boundary:** The repaired full independent chess replay is admitted and progressing in CPU-only Gear 2 beside the reviewed companion. Complete execution and all earlier failures and costs remain preserved. All 126 constructed checks pass; the fresh full replay remains pending under the original ceiling. Source and qualification holds and the deficient ready buffer remain explicit. Events, four-hour inactivity and single-pending wakes are unchanged.
+**November 19 theory and build update:** [Applied errata, source-adapter checks and queue inspection](../../../../results/phase_2_4_stage_15/WEEK5/THEORY_ERRATA_LD_SOURCE_20261119.md). All 23 supplied edits are filed; fourteen new hypotheses remain OPEN. The diary source adapter passes twenty constructed checks. CH14 remains active under its final cap; full diary producers, independent replay and native admission remain unfinished.
+
+**Current execution and preparation:** [Verified local-review restart](../../../../results/phase_2_4_stage_15/WEEK5/CH14_LOCAL_REVIEW_RUNNING_20261119.md). CH14 is running its unchanged full independent replay in CPU-only Gear 2 under the final 80,000-second inclusive ceiling. Exact reviewed local hashes and passed native fixtures admit research; commit and push are separate and never hold qualified work. Original evidence and all charges remain recorded. Active research is one of eight, with zero ready waiting cards against sixteen required. Full lattice source adapters/producers/replays and sealed Spark admission remain unfinished; the build deficit and builder usage limit are explicit. Events, four-hour inactivity and single-pending wakes are unchanged.
+
+The [November 19 extension](PACKET_EXTENSION_2026-11-19.md), [Round 29 handoff](THEORY_HANDOFF_R29.md), [supplied preflight](PREFLIGHT_SUMMARY_2026-11-19.md) and [intake manifest](INTAKE_2026-11-19.json) are filed. The [implementation order](LATTICE_IMPLEMENTATION_20261119.md), [approved prospective calibration](LATTICE_CALIBRATION_20261119.md) and [all 44 predictions](LATTICE_PREDICTIONS_20261119.json) distinguish preparation from final evidence. [First diary bindings](LD_FIRST_BINDINGS_V1.md) and [SM0 probe](SM0_V1.md) have constructed checks; neither is full real-source admission.
 
 The [original refusal-archive source](TR2_B2_ARCHIVE_V1.md) and its
 [two-phase runtime](TR2_B2_ARCHIVE_RUNTIME_V1.md) pass 76 complete constructed
@@ -23,7 +27,7 @@ with hashes in private intake records; no supplied script runs merely on arrival
 The summary covers companion projects as well and does not commission their work here.
 
 Three commissioned builders prepare IN13/IN15, IN14/IN16, and RW1 intake followed
-by LA6/DC1. Prepared code is not owner-reviewed, committed, fixtured or admitted
+by LA6/DC1. Prepared code is not owner-reviewed, fixtured or admitted
 merely by existing. Each design must identify its exact source, estimand, controls,
 fixture, cost and runtime boundary before a human outcome run.
 
@@ -43,3 +47,5 @@ The [0057 person-coupling design](ES3_PERSON_COUPLING_0057_V1.md) reuses the com
 The [reported-duration design](ES3_DURATION_0045_V1.md) has a complete native twenty-case adapter qualification and a source-specific candidate. The design is committed; the admitted source run refused an invalid duration value and remains held for the recorded source-value diagnosis.
 
 The [source-defined first-week design](ES2_FIRST_WEEK_0057_0056_V1.md) binds eight configurations and their complete installed qualification; the design is committed and all seven source-supported configurations have completed full independent replay and filing; the eighth lacks its required source items.
+
+The [LA6 follow-up register](LA6_FOLLOWUPS_20261119.md) records the three unbuilt, unadmitted menu branches after the complete parent landing.

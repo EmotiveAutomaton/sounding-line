@@ -1,5 +1,7 @@
 # Historical study designs
 
+The [November 19 delta](SOUNDING_LINE_THEORY_ERRATA_2026-11-19.md) is applied after both November 15 versions. Its [23-edit receipt](THEORY_ERRATA_20261119_APPLIED.json) records exact anchors, byte-preserved sources, unchanged prior rows and quotations, the two revisited afterwords and source-review limits. The [machine-readable supplied edits](SOUNDING_LINE_THEORY_ERRATA_2026-11-19.edits.json) remain alongside the original.
+
 The November 15 [version 2](SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v2.md) and
 [version 3 delta](SOUNDING_LINE_THEORY_ERRATA_2026-11-15_v3.md) are applied in order.
 Their [first receipt](THEORY_ERRATA_20261115_APPLIED.json) and

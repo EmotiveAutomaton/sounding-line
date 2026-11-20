@@ -1,5 +1,26 @@
 # Codex operations
 
+**Current verified operation:** [CH14 is running through local review](../results/phase_2_4_stage_15/WEEK5/CH14_LOCAL_REVIEW_RUNNING_20261119.md). Native owner, verifier, counted lease and event monitoring are authenticated. The final inclusive cap remains 80,000 CPU seconds; wider builds remain unfinished.
+
+## Research admission is separate from publication
+
+**Research admission, curator instruction November 19:** Git staging, commit
+and push are not prerequisites for authorized local research. A card is ready
+after owner review of its exact design/source hashes and a passed native fixture,
+with a pinned immutable local review manifest and ordinary admission checks.
+Publication proceeds separately when permitted; it never stalls qualified work.
+This supersedes the commit prerequisite in amendments K and Q and older packets.
+Keep source capsules, all costs, full write-through, native ownership, privacy,
+campaign dates and ceilings unchanged. Historical pinned records stay intact.
+
+New Week 6 runs use `week6_launch_services_v5`, `week6_runtime_services_v5` and
+`week6_local_review_v1`. The local manifest binds the complete plan, exact source
+closure, design, authority and successful constructed qualification receipts.
+Missing or changed evidence refuses before a research child starts. Never put a
+placeholder in `reviewed_design_commit`; keep that field empty for local review.
+Old v4 launchers and pinned evidence remain historical and are not the current
+owner admission route. No pending publication is a reason to stop research.
+
 ## External data collection: owner review
 
 The collector writes outside the repository. Check the data root's

@@ -1891,3 +1891,27 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-19T14:16:48.286722+00:00 OPS-S15-W6-CH14-SCALAR-TRANSPORT-HEAL1-20261119: The first compiled-replay launch refused an unfinished receipt by filename before copying data; its exact-schema repair passes all 126 constructed checks, with the original evidence and failed cost preserved.
 
 2026-11-19T14:23:54.628728+00:00 OPS-S15-W6-CH14-SCALAR-REPLAY-RUNNING-20261119: The repaired full independent replay is admitted and progressing in CPU-only Gear 2; complete execution, failed attempts and all measured costs remain preserved under the original study ceiling.
+
+2026-11-19T17:06:24.261897+00:00 OPS-S15-W6-CH14-SCALAR-COST-20261119: The independent replay exhausted its original allowance; complete execution and the durable partial replay remain intact, while a separate exact buffer-reuse successor is built for qualification.
+
+2026-11-19T17:12:09.359043+00:00 OPS-S15-W6-CH14-H2-PREPARED-20261119: The exact buffer-reuse recovery and its complete qualification are built but unrun; explicit allowance approval remains pending, and no active budget or research process was changed.
+
+2026-11-19T20:40:19.611071+00:00 OPS-S15-W6-LATTICE-BUILD-20261119: The lattice extension is viable as a staged build; its frozen calibration and first implementation components pass constructed qualification, while complete source-specific runners and sealed admission remain unfinished.
+
+2026-11-19T20:41:27.260681+00:00 OPS-S15-W6-LA6-SOURCE-20261119: The complete meeting-source reconstruction and its independent replay are authenticated, all saved checkpoints are preserved, and the full original analysis continuation is admitted in CPU-only Gear 2.
+
+2026-11-19T21:35:48.230224+00:00 OPS-S15-W6-LA6-VERIFY-RESUME-20261119: The full meeting-study execution and independent verifier point are preserved and authenticated; the remaining original verification draws are running in CPU-only Gear 2.
+
+2026-11-19T22:39:30.977021+00:00 S15-W6-LA6-COMPLETE-20261119: Complete source, both feature arms and 2,000 draws authenticated; full scientific write-through complete. Native owner and children exited; event ACK follows filing. No new scientific chat score.
+
+2026-11-19T22:39:31.126647+00:00 OPS-S15-W6-CH14-H2-QUALIFIED-20261119: The approved exact CH14 recovery passes all 128 constructed checks after an isolated import-path repair; its final total allowance is 80,000 CPU seconds and scientific replay still awaits committed admission.
+
+2026-11-19T22:48:16.199667+00:00 OPS-S15-W6-CH14-H2-QUALIFIED-20261119 accounting follow-through: The successful 33.984375-second qualification debit is now posted once in budget revision seven; total CH14 use is 40,045.6875 CPU seconds. The unchanged-source restart candidate is fully assembled with a 39,924-second attempt cap plus its coordination reserve, pending exact committed design and fresh native admission. No worker was launched. [Accounting addendum](CH14_H2_ACTIVATION_20261119.json).
+
+2026-11-19T22:53:16.735500+00:00 OPS-S15-W6-CH14-H2-QUALIFIED-20261119 stop-margin review: CH14 restart preparation was tightened before admission: 39,864 attempt CPU seconds, the unchanged thirty-second coordination reserve and an additional sixty-second stop margin below the final 80,000 total. Its wall bound is twelve hours so the serial reference can use the approved remaining CPU room. Only those operational attempt bounds changed; the 39,924-second candidate was never admitted, source/model/control pins are identical, and no worker has launched. [Stop-margin review](CH14_H2_STOP_MARGIN_20261119.json).
+
+2026-11-19T23:55:08.194282+00:00 OPS-S15-W6-LOCAL-REVIEW-QUALIFIED-20261119: Exact local review replaces the commit prerequisite; all 34 admission checks pass while source, native, resource and budget guards remain enforced.
+
+2026-11-20T00:02:28.237822+00:00 OPS-S15-W6-CH14-LOCAL-REVIEW-RUNNING-20261119: The unchanged CH14 recovery is running in CPU-only Gear 2 through authenticated local review; commit and push no longer block qualified research.
+
+2026-11-20T01:22:26.190170+00:00 OPS-S15-W6-THEORY-ERRATA-LD-SOURCE-20261119: The November 19 NOX errata are applied and preserved; the first diary-source adapter passes 20 constructed checks while authenticated CH14 replay continues in CPU-only Gear 2.
