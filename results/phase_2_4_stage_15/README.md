@@ -1,5 +1,9 @@
 # Stage 15 evidence
 
+**November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
+
+**November 20 policy transition.** KP1 resumed in CPU-only Gear 2 from 200 authenticated draws. The next commissioned build is the common diary runner. [Checkpoint and cost record](WEEK5/LATTICE_POLICY_KP1_0200_20261120.md).
+
 **November 20 current queue and Spark:** [Cost stop](WEEK5/CH14_FINAL_COST_STOP_20261120.md) and [joined-source recovery](WEEK5/SM0_JOINED_COMPLETE_20261120.md). CH14 is closed at its final cost boundary with unfinished independent replay; no further CH14 run is authorized. The two joined MIDUS structure probes now pass through the unchanged sealed gate after native and in-image rehearsal. CPU-only Gear 2 remains selected, with research 0/8 and ready 0/16; full scientific runners and final synthesis remain unfinished.
 
 **November 19 execution snapshot (superseded):** [Verified local-review restart](WEEK5/CH14_LOCAL_REVIEW_RUNNING_20261119.md). CH14 is running its unchanged full independent replay in CPU-only Gear 2 under the final 80,000-second inclusive ceiling. Exact reviewed local hashes and passed native fixtures admit research; commit and push are separate and never hold qualified work. Original evidence and all charges remain recorded. Active research is one of eight, with zero ready waiting cards against sixteen required. Full lattice source adapters/producers/replays and sealed Spark admission remain unfinished; the build deficit and builder usage limit are explicit. Events, four-hour inactivity and single-pending wakes are unchanged.

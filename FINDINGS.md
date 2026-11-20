@@ -1,5 +1,41 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120
+
+**Question.** Did the new diary runner preserve the study definitions and resume its original data, and did KP1 retain its next checkpoint?
+
+The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. The two diary pilots drew over the full roster of 2,272 people in member 0057. LD2 used 75.859375 native CPU seconds and LD3 used 9.578125. Their checkpoint manifests and source hashes matched. The single-pass LD3 description has a separate digest. Both members passed the documented item bindings before any scientific admission.
+
+The first LD2 release omitted the attempt directory from its reviewed digest. The first full LD2 release and first attempt to resume KP1 at 400 then encountered other workspace readers during admission. All three ended before a scientific child started and recorded zero scientific CPU seconds. The corrected diary plan binds its output directory. The replacement releases take turns during registration and apply the ordinary identity and resource checks. Each resumes its authenticated predecessor.
+
+KP1 preserved 400 draws, all 200 controls and 808 files. At inspection its replacement child had written 401 draws. LD2 had written 475. Both still require all 2,000 draws and a fresh independent replay. These counts measure execution. The remaining source-specific diary work and the expanded Spark science job are open.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Advance the remaining diary runs under their counted limits and build the two stage-one carry-over rows. Verify the independent replays before scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: DIARY_OPENING_KP1_0400_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-0300-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,590.21875 native CPU seconds. Its manifest authenticated 607 output files and 332 inherited pins. The new native owner and child matched the reviewed plan, and 318 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 64,062.609375 native CPU seconds plus 510 for coordination. Before that allowance the remaining room was 75,834.390625 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_0300_20261120.md.
+
+### OPS-S15-W6-LATTICE-POLICY-20261120
+
+**Question.** Can the original comparison resume under the authorized November 19 allowances with its source, controls, charges and checkpoints intact?
+
+The prospective policy passed all 36 constructed checks. The original KP1 run preserved 200 draws and all 200 controls, then resumed in CPU-only Gear 2.
+
+The first continuation used 1,750.4375 native CPU seconds. Its checkpoint review authenticated 406 output files and all 327 inherited pins. The new plan retained the original source and registered draw bank. On admission it projected 65,794.03125 native CPU seconds and 540 coordination seconds against 77,454.609375 seconds available. The projection covers the remaining execution and a fresh 2,000-draw replay. The counted qualification added 5.359375 CPU seconds once.
+
+The owner and child of the first continuation had exited and released their counted slot. The next owner and child matched their native creation identities, held a lease and had advanced to 207 durable draws at the recorded inspection. Research had one of eight shared slots. These are execution counts. The scientific comparison and independent replay remain open.
+
+The November 20 build order assigns the owner the diary rows next. Both joined-wave structure probes are already filed. The combined archive manifest is available for the later sealed science job and the remaining builds retain their place in the new packet.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The prospective policy passed all 36 constructed checks. The original KP1 run preserved 200 draws and all 200 controls, then resumed in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Build and qualify the common diary runner. Preserve and continue the KP1 checkpoint and independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: LATTICE_POLICY_KP1_0200_20261120.md.
+
 ### OPS-S15-W6-SM0-JOINED-COMPLETE-20261120
 
 **Hypothesis.** Can the corrected joined-wave layout produce auditable structure diagnostics without a metadata-only exception to the sealed person-count gate?

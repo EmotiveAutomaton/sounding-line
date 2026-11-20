@@ -1927,3 +1927,9 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-20T11:59:59.520959+00:00 OPS-S15-W6-CH14-FINAL-COST-STOP-20261120: CH14 stops at its final bounded allowance with complete execution preserved but independent verification unfinished; no scientific verdict or further restart is admitted.
 
 2026-11-20T12:00:33.340062+00:00 OPS-S15-W6-SM0-JOINED-COMPLETE-20261120: The approved joined MIDUS structure probes complete through the unchanged sealed gate after native and in-image layout checks; all returned status rows use actual table person counts.
+
+2026-11-20T18:26:31.169374+00:00 OPS-S15-W6-LATTICE-POLICY-20261120: The prospective policy passed all 36 constructed checks. The original KP1 run preserved 200 draws and all 200 controls, then resumed in CPU-only Gear 2.
+
+2026-11-20T18:38:56.627343+00:00 OPS-S15-W6-KP1-CHECKPOINT-0300-20261120: The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+2026-11-20T19:01:57.351160+00:00 OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120: The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2.

@@ -1,5 +1,11 @@
 # Week 5 verified records
 
+**OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120:** [Record](DIARY_OPENING_KP1_0400_20261120.md). The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2.
+
+**OPS-S15-W6-KP1-CHECKPOINT-0300-20261120:** [Record](KP1_CHECKPOINT_0300_20261120.md). The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+**OPS-S15-W6-LATTICE-POLICY-20261120:** [Record](LATTICE_POLICY_KP1_0200_20261120.md). The prospective policy passed all 36 constructed checks. The original KP1 run preserved 200 draws and all 200 controls, then resumed in CPU-only Gear 2.
+
 **OPS-S15-W6-SM0-JOINED-COMPLETE-20261120:** [Record](SM0_JOINED_COMPLETE_20261120.md). The approved joined MIDUS structure probes complete through the unchanged sealed gate after native and in-image layout checks; all returned status rows use actual table person counts.
 
 **OPS-S15-W6-CH14-FINAL-COST-STOP-20261120:** [Record](CH14_FINAL_COST_STOP_20261120.md). CH14 stops at its final bounded allowance with complete execution preserved but independent verification unfinished; no scientific verdict or further restart is admitted.

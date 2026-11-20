@@ -1,5 +1,9 @@
 # Week 5 evidence
 
+**November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](DIARY_OPENING_KP1_0400_20261120.md).
+
+**November 20 policy transition.** KP1 resumed in CPU-only Gear 2 from 200 authenticated draws. The next commissioned build is the common diary runner. [Checkpoint and cost record](LATTICE_POLICY_KP1_0200_20261120.md).
+
 **November 20 current queue and Spark:** [Cost stop](CH14_FINAL_COST_STOP_20261120.md) and [joined-source recovery](SM0_JOINED_COMPLETE_20261120.md). CH14 is closed at its final cost boundary with unfinished independent replay; no further CH14 run is authorized. The two joined MIDUS structure probes now pass through the unchanged sealed gate after native and in-image rehearsal. CPU-only Gear 2 remains selected, with research 0/8 and ready 0/16; full scientific runners and final synthesis remain unfinished.
 
 **November 19 theory and build update:** [Applied errata, source-adapter checks and queue inspection](THEORY_ERRATA_LD_SOURCE_20261119.md). All 23 supplied edits are filed; fourteen new hypotheses remain OPEN. The diary source adapter passes twenty constructed checks. CH14 remains active under its final cap; full diary producers, independent replay and native admission remain unfinished.

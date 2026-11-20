@@ -1,5 +1,7 @@
 # Stage 15 Week 6
 
+**November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](../../../../results/phase_2_4_stage_15/WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
+
 The [November 20 build order](IMPLEMENTATION_2026-11-20.md) is current. It records the KP1 restart, shared diary producer, two added sealed tables and disposition of earlier builds. The [packet](PACKET_EXTENSION_2026-11-20.md), [revised November 19 handoff](THEORY_HANDOFF_R29.md), [Round 32 handoff](THEORY_HANDOFF_R32.md) and [preflight summary](PREFLIGHT_SUMMARY_2026-11-20.md) are filed together.
 
 **November 20 current queue and Spark:** [Cost stop](../../../../results/phase_2_4_stage_15/WEEK5/CH14_FINAL_COST_STOP_20261120.md) and [joined-source recovery](../../../../results/phase_2_4_stage_15/WEEK5/SM0_JOINED_COMPLETE_20261120.md). CH14 is closed at its final cost boundary with unfinished independent replay; no further CH14 run is authorized. The two joined MIDUS structure probes now pass through the unchanged sealed gate after native and in-image rehearsal. CPU-only Gear 2 remains selected, with research 0/8 and ready 0/16; full scientific runners and final synthesis remain unfinished.

@@ -2980,6 +2980,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120:** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
+
+**OPS-S15-W6-KP1-CHECKPOINT-0300-20261120:** The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_CHECKPOINT_0300_20261120.md).
+
+**OPS-S15-W6-LATTICE-POLICY-20261120:** The prospective policy passed all 36 constructed checks. The original KP1 run preserved 200 draws and all 200 controls, then resumed in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/LATTICE_POLICY_KP1_0200_20261120.md).
+
 **OPS-S15-W6-SM0-JOINED-COMPLETE-20261120:** The approved joined MIDUS structure probes complete through the unchanged sealed gate after native and in-image layout checks; all returned status rows use actual table person counts. [Record](../results/phase_2_4_stage_15/WEEK5/SM0_JOINED_COMPLETE_20261120.md).
 
 **OPS-S15-W6-CH14-FINAL-COST-STOP-20261120:** CH14 stops at its final bounded allowance with complete execution preserved but independent verification unfinished; no scientific verdict or further restart is admitted. [Record](../results/phase_2_4_stage_15/WEEK5/CH14_FINAL_COST_STOP_20261120.md).

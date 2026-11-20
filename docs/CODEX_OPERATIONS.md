@@ -1,5 +1,9 @@
 # Codex operations
 
+**November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](../results/phase_2_4_stage_15/WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
+
+**November 20 policy transition.** KP1 resumed in CPU-only Gear 2 from 200 authenticated draws. The next commissioned build is the common diary runner. [Checkpoint and cost record](../results/phase_2_4_stage_15/WEEK5/LATTICE_POLICY_KP1_0200_20261120.md).
+
 ## Keeping both machines supplied
 
 The November 20 inspection found both machines idle after a successful
@@ -20,6 +24,15 @@ dependents. A push, an acknowledged receipt, a healthy watcher and unused CPU
 capacity do not establish that research is complete. Use the existing
 single-pending event delivery for measured state changes and the four-hour
 inactivity fallback.
+
+The owner keeps the current campaign roster in
+`.agent-state/work-coverage.json`. Run `python tools/grind_coverage.py`
+to see which cards need building, admission, filing or recovery. Give a
+running, assigned or waiting card its evidence and next review time. An
+expired review brings the card back to the operator. The owner's Stop hook
+returns one continuation when work is actionable. Interrupts and builder
+sessions retain their normal behavior. The roster expires at the campaign
+boundary. This check uses the existing turn and sends no extra wake.
 
 **Current verified operation:** [CH14 final cost stop](../results/phase_2_4_stage_15/WEEK5/CH14_FINAL_COST_STOP_20261120.md) and [sealed joined-source recovery](../results/phase_2_4_stage_15/WEEK5/SM0_JOINED_COMPLETE_20261120.md). Research 0/8; ready 0/16. Watcher/calendar health and all 21 locks verify. Full study builds remain unfinished.
 

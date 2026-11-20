@@ -1,5 +1,9 @@
 # October 16 drive runners
 
+**November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](../../results/phase_2_4_stage_15/WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
+
+**November 20 policy transition.** KP1 resumed in CPU-only Gear 2 from 200 authenticated draws. The next commissioned build is the common diary runner. [Checkpoint and cost record](../../results/phase_2_4_stage_15/WEEK5/LATTICE_POLICY_KP1_0200_20261120.md).
+
 **Current admission:** [Local review authority](../../docs/design/stage-15/week6/LOCAL_REVIEW_ADMISSION_20261119.md) and [verified running recovery](../../results/phase_2_4_stage_15/WEEK5/CH14_LOCAL_REVIEW_RUNNING_20261119.md). New Week 6 runs use the v5 local-review launcher and runtime. Exact reviewed hashes and passed native fixtures replace the commit prerequisite; publication never holds qualified research. Prior pinned runtimes remain preserved.
 
 The IN9 items table adapter (`cards/week5_in9_v1.py`) has a separate ridge/AUC replay and a full constructed writer-bank fixture. Its counted admission uses the two-day table-card rule and exact existing source pins; no raw text or cue analysis is part of that adapter.

@@ -129,7 +129,7 @@ The [November 19 delta](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-19
 and [application receipt](../design/archive/THEORY_ERRATA_20261119_APPLIED.json)
 file Rounds 25 to 30 after both November 15 errata. All 23 supplied anchors match
 once; G305 to G318 remain OPEN, with confirmed names separated from unresolved
-statements and analyst proposals. The current names are Competence, Meaning,
+statements and analyst proposals. That delta used Competence, Meaning,
 Belonging, Respect, Compassion and the body. Earlier names, every existing
 hypothesis row and quotation, and subsequent result sentences are preserved.
 Both affected afterwords have been revisited. The supplied Markdown and edit
@@ -137,7 +137,16 @@ manifest agree exactly and remain byte-preserved beside the receipt.
 The eight new quotation excerpts and literature read levels are attributed to
 the supplied theory-thread record; the full six original messages were not
 supplied for independent comparison. No new literature review or empirical
-confirmation is claimed, and the proposed sadness rename remains unconfirmed.
+confirmation is claimed there.
+
+On November 20 the curator confirmed SADNESS as the name of the channel
+previously called PANIC/GRIEF. The current needs are Competence, Meaning,
+Belonging, Respect and the body. Compassion is included in Belonging.
+Need code N5 and its tag remain available. Need-level exports show the two
+components separately as well as their merged value. Claim N5 is a separate
+identifier. RAGE's target is a schema, and the curator allows individual
+variation in the channels. These rulings set the theory wording for new
+work. The twin study stays parked. [Round 32 handoff](../design/stage-15/week6/THEORY_HANDOFF_R32.md).
 
 
 

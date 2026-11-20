@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+**November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](../results/phase_2_4_stage_15/WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
+
+**November 20 policy transition.** KP1 resumed in CPU-only Gear 2 from 200 authenticated draws. The next commissioned build is the common diary runner. [Checkpoint and cost record](../results/phase_2_4_stage_15/WEEK5/LATTICE_POLICY_KP1_0200_20261120.md).
+
 **November 20 current queue and Spark:** [Cost stop](../results/phase_2_4_stage_15/WEEK5/CH14_FINAL_COST_STOP_20261120.md) and [joined-source recovery](../results/phase_2_4_stage_15/WEEK5/SM0_JOINED_COMPLETE_20261120.md). CH14 is closed at its final cost boundary with unfinished independent replay; no further CH14 run is authorized. The two joined MIDUS structure probes now pass through the unchanged sealed gate after native and in-image rehearsal. CPU-only Gear 2 remains selected, with research 0/8 and ready 0/16; full scientific runners and final synthesis remain unfinished.
 
 **November 20 status and Spark:** [Verified status](../results/phase_2_4_stage_15/WEEK5/STATUS_SPARK_20261120.md). CH14 continues in CPU-only Gear 2; research 1/8 and ready 0/16. Spark passes all 22 constructed runtime checks, but three real structure probes fail and two remain unrun at the stop rule. A non-sensitive source-layout manifest is requested. Full study runners and final synthesis remain unfinished.
