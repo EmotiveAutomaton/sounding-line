@@ -1,5 +1,7 @@
 # Week 5 evidence
 
+**November 20 diary, checkpoint and sealed build.** Both diary samples have complete rank and solitary-activity records. The criticism follow-up reached its registered stopping decision in the larger diary. KP1 resumed from 700 verified draws and 200 controls while the LD1 analysis of the second sample continued. The sealed build now reads the two-wave mount and implements family resampling. The scientific Spark run still requires qualification of its six tables. [Criticism follow-up](NT1_CRITICISM_CARRY_0057_20261120.md) · [Second diary rank comparison](LD2_DIARY_0056_20261120.md) · [Checkpoint](KP1_CHECKPOINT_0700_20261120.md).
+
 **November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](DIARY_OPENING_KP1_0400_20261120.md).
 
 **November 20 policy transition.** KP1 resumed in CPU-only Gear 2 from 200 authenticated draws. The next commissioned build is the common diary runner. [Checkpoint and cost record](LATTICE_POLICY_KP1_0200_20261120.md).

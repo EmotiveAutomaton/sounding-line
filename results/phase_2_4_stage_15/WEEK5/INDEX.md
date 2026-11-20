@@ -1,5 +1,23 @@
 # Week 5 verified records
 
+**OPS-S15-W6-KP1-CHECKPOINT-0700-20261120:** [Record](KP1_CHECKPOINT_0700_20261120.md). The original KP1 study preserved 700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+**OPS-S15-W6-LD1-0057-HANDOFF1-20261120:** [Record](LD1_0057_HANDOFF1_20261120.md). The second handoff for diary member 0057 stopped before research admission. Its authenticated 100-draw checkpoint is intact.
+
+**S15-W6-NT1-DE-0057-20261120:** [Record](NT1_CRITICISM_CARRY_0057_20261120.md). The next-prompt criticism association fell below the registered practical size. This diary cannot locate the trait at this spacing.
+
+**S15-W6-LD2-0056-20261120:** [Record](LD2_DIARY_0056_20261120.md). The role, leadership and superiority comparisons respectively returned could not say, inconclusive, could not say.
+
+**OPS-S15-W6-NOV20-DIARY-PILOTS-KP1-0600:** [Record](DIARY_PILOTS_KP1_0600_20261120.md). Five diary pilots preserved their first 100 draws. KP1 resumed from 600 verified draws after a memory refusal at admission.
+
+**S15-W6-LD3-0056-20261120:** [Record](LD3_DIARY_0056_20261120.md). The intellectual-activity contrast was inconclusive. The overwhelmed-activity contrast was inconclusive.
+
+**S15-W6-LD2-0057-20261120:** [Record](LD2_DIARY_0057_20261120.md). The three rank comparisons were inconclusive.
+
+**S15-W6-LD3-0057-20261120:** [Record](LD3_DIARY_0057_20261120.md). The intellectual-activity contrast met its registered bar. The overwhelmed-activity contrast ran opposite to prediction.
+
+**S15-W6-RR4-D3-BE-20261120:** [Record](D3_LATE_REPEAT_BE_20261120.md). The best previous ending outpredicted the starting score. Its advantage over the last ending was inconclusive.
+
 **OPS-S15-W6-KP1-CHECKPOINT-0500-20261120:** [Record](KP1_CHECKPOINT_0500_20261120.md). The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
 
 **OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120:** [Record](DIARY_OPENING_KP1_0400_20261120.md). The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2.

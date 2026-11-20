@@ -1935,3 +1935,21 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-20T19:01:57.351160+00:00 OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120: The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2.
 
 2026-11-20T19:32:02.643736+00:00 OPS-S15-W6-KP1-CHECKPOINT-0500-20261120: The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+2026-11-20T20:27:06.829313+00:00 S15-W6-RR4-D3-BE-20261120: The best previous ending outpredicted the starting score. Its advantage over the last ending was inconclusive.
+
+2026-11-20T20:30:44.689651+00:00 S15-W6-LD3-0057-20261120: The intellectual-activity contrast met its registered bar. The overwhelmed-activity contrast ran opposite to prediction.
+
+2026-11-20T20:30:48.618980+00:00 S15-W6-LD2-0057-20261120: The three rank comparisons were inconclusive.
+
+2026-11-20T20:32:08.175522+00:00 S15-W6-LD3-0056-20261120: The intellectual-activity contrast was inconclusive. The overwhelmed-activity contrast was inconclusive.
+
+2026-11-20T20:34:20.080852+00:00 OPS-S15-W6-NOV20-DIARY-PILOTS-KP1-0600: Five diary pilots preserved their first 100 draws. KP1 resumed from 600 verified draws after a memory refusal at admission.
+
+2026-11-20T20:51:02.822881+00:00 S15-W6-LD2-0056-20261120: The role, leadership and superiority comparisons respectively returned could not say, inconclusive, could not say.
+
+2026-11-20T20:52:09.961890+00:00 S15-W6-NT1-DE-0057-20261120: The next-prompt criticism association fell below the registered practical size. This diary cannot locate the trait at this spacing.
+
+2026-11-20T20:54:40.472215+00:00 OPS-S15-W6-LD1-0057-HANDOFF1-20261120: The second handoff for diary member 0057 stopped before research admission. Its authenticated 100-draw checkpoint is intact.
+
+2026-11-20T20:56:57.921495+00:00 OPS-S15-W6-KP1-CHECKPOINT-0700-20261120: The original KP1 study preserved 700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.

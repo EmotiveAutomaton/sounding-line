@@ -1948,3 +1948,12 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W6-KP1-CHECKPOINT-0300-20261120 | operational | infrastructure / passes | The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. |
 | OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120 | operational | infrastructure / passes | The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. |
 | OPS-S15-W6-KP1-CHECKPOINT-0500-20261120 | operational | infrastructure / passes | The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. |
+| S15-W6-RR4-D3-BE-20261120 | N3, N5 | inconclusive / passing controls | The best previous ending outpredicted the starting score. Its advantage over the last ending was inconclusive. |
+| S15-W6-LD3-0057-20261120 | T6, T2 | source-specific / passing controls | The intellectual-activity contrast met its registered bar. The overwhelmed-activity contrast ran opposite to prediction. |
+| S15-W6-LD2-0057-20261120 | A3 | source-specific / passing controls | The three rank comparisons were inconclusive. |
+| S15-W6-LD3-0056-20261120 | T6, T2 | source-specific / passing controls | The intellectual-activity contrast was inconclusive. The overwhelmed-activity contrast was inconclusive. |
+| OPS-S15-W6-NOV20-DIARY-PILOTS-KP1-0600 | operational | infrastructure / passes | Five diary pilots preserved their first 100 draws. KP1 resumed from 600 verified draws after a memory refusal at admission. |
+| S15-W6-LD2-0056-20261120 | A3 | source-specific / passing controls | The role, leadership and superiority comparisons respectively returned could not say, inconclusive, could not say. |
+| S15-W6-NT1-DE-0057-20261120 | S2, S4, S3 | below practical bar / passing controls | The next-prompt criticism association fell below the registered practical size. This diary cannot locate the trait at this spacing. |
+| OPS-S15-W6-LD1-0057-HANDOFF1-20261120 | operational | infrastructure / passes | The second handoff for diary member 0057 stopped before research admission. Its authenticated 100-draw checkpoint is intact. |
+| OPS-S15-W6-KP1-CHECKPOINT-0700-20261120 | operational | infrastructure / passes | The original KP1 study preserved 700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. |

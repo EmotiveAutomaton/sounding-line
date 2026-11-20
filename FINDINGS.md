@@ -1,5 +1,233 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-KP1-CHECKPOINT-0700-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,868.390625 native CPU seconds. Its manifest authenticated 1,411 output files and 352 inherited pins. The new native owner and child matched the reviewed plan, and 703 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 57,136.921875 native CPU seconds plus 390 for coordination. Before that allowance the remaining room was 68,666.796875 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_0700_20261120.md.
+
+### OPS-S15-W6-LD1-0057-HANDOFF1-20261120
+
+**Question.** Did the refused admission lose work or consume a scientific run?
+
+The second handoff for diary member 0057 stopped before research admission. Its authenticated 100-draw checkpoint is intact. The native owner exited with zero research CPU seconds. No worker started. Its original plan, event, failure and source digests remain preserved. The unclassified reader named by the admission census had exited at inspection. Its earlier activity could not be attributed.
+
+**Recovery.** The verified recovery process is waiting for the other LD1 member and the original memory reserve. The next admission uses the original source, checkpoint, draw indices and comparison. The launcher waits for transient local filing to finish and then runs the normal native census, memory, owner and budget checks. The long-lived watcher itself remains registered. Previous refusals and their receipts remain in the operational ledger.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The second handoff for diary member 0057 stopped before research admission. Its authenticated 100-draw checkpoint is intact.; project meaning: scoped operational record; next engineering obligation: Admit the same reviewed 0057 work after the other member releases its slot and the census succeeds.; public scientific claim unchanged; curator decision required: No new decision. Detail: LD1_0057_HANDOFF1_20261120.md.
+
+### S15-W6-NT1-DE-0057-20261120
+
+**Question.** After a criticised interaction, how much of the association with a bad feeling remains at the next answered prompt?
+
+**Method.** Use adjacent answered prompts on the same study day in openESM member 0057. The earlier prompt must describe an interaction no more than four hours earlier. The current outcome is whether any of five bad feelings exceeded its reporting floor. The logistic model adjusts for criticism and the other five status events at both prompts, current context, elapsed time, and person means. Coefficients use one within-person standard deviation of exposure. All 2,000 whole-person draws and the point estimates were independently reconstructed.
+
+**Support.** Of 2,272 people and 64,810 source prompts, 1,660 people contributed 21,028 eligible pairs. Before reading the feeling outcomes, 1,078 people supplied 4,479 pairs with prior criticism above its floor. The registered minimum was 150 people and 300 such pairs. The aggregate record retains clock, day, context, elapsed-time and missing-outcome counts.
+
+*Adjusted association with reporting any bad feeling. Intervals are paired 95% whole-person bootstrap intervals on the log-odds scale.*
+
+| Prompt of rated criticism | Estimate | 95% interval | Practical bar |
+|---|---:|---:|---:|
+| Current | 0.44303 | [0.39243, 0.49916] | reference |
+| Previous (NT1.d) | 0.02570 | [-0.00367, 0.05401] | +0.10 |
+
+**Finding and decision.** The next-prompt criticism association fell below the registered practical size. This diary cannot locate the trait at this spacing. The lag interval crossed zero, and its upper bound was below +0.10. The lag point was 5.8% of the positive current point, below the 30% requirement for the trait stage. Both registered gate conditions failed. NT1.a–c close here. The separate sealed MIDUS comparison NT1.s remains commissioned. The diary's approximate detectable effect was 0.0410, with approximately 80% support for the practical criterion at 0.1410.
+
+*NT1.e reports point estimates by thirds of elapsed hours. Tied cut points fall in the lower third. People can appear in multiple thirds. These descriptive fits carry no inferential bar or resampled interval.*
+
+| Elapsed-time third | Prompts | People | Previous criticism |
+|---|---:|---:|---:|
+| 1 | 7,012 | 1,258 | 0.04844 |
+| 2 | 7,008 | 1,287 | 0.00392 |
+| 3 | 7,008 | 1,379 | 0.02208 |
+
+The cut points were 1.7497 and 2.4464 hours. The same person reported criticism and feelings. A new event, a change of activity or a change in reporting can alter the next answer. The diary does not measure a biological decay rate.
+
+**Source credit.** Member 0057 version 1.0.0 is from [openESM record 17361658](https://zenodo.org/records/17361658), SHA-256 fcd123f3725e977b008102fdcc30d16ac10e1ed4c7c294936e7ede6f3d059d3f, 17,603,083 bytes, CC BY 4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83), Kroencke and colleagues' [original study](https://doi.org/10.1037/pspp0000467), and openESM. This is a new analysis of the harmonized data. Published result tables did not select the packet's predictions; no new literature review is claimed.
+
+**Integrity.** The full run used 478.406 native CPU seconds. Every file in the terminal manifest and both aggregate digests were checked against disk. The fixed-draw replay agreed on both coefficients. The pre-fit support and elapsed-third descriptions have separate matching receipts.
+
+[One-page result](NT1_CRITICISM_CARRY_0057_20261120_SHEET.md) · [Signed figure](NT1_CRITICISM_CARRY_0057_20261120.png) · [Complete aggregate](NT1_CRITICISM_CARRY_0057_20261120.json).
+
+
+Curator roll-up: S2, S4, S3 · After a criticised interaction, how much of the association with a bad feeling remains at the next answered prompt? · **Narrows** · The next-prompt criticism association fell below the registered practical size. This diary cannot locate the trait at this spacing. · Project scope: Adjacent answered prompts in interaction diary 0057 · Next: Keep the separate sealed NT1.s comparison in the commissioned Spark build. NT1.a–c ended at their gate. · Public wording is limited to the recorded population. Curator decision required: No. Detail: NT1_CRITICISM_CARRY_0057_20261120.md.
+
+### S15-W6-LD2-0056-20261120
+
+**Question.** Did an interaction partner’s rank change the balance of anger and fear-like feelings after criticism?
+
+**Method.** Across interaction prompts, compare the criticism coefficient for anger with the mean for anxiety, shame and insecurity, adjusting for the other five status ratings. The primary logistic model uses above-floor reports, within-person centered predictors and their person means. Estimate the three registered forms using the partner’s role, taking the lead and felt superiority. File self-assurance and the linear rating model as diagnostics. Refit all quantities with 2,000 whole-person draws and independently replay them. A registered point must clear its practical bar and its interval exclude zero.
+
+**Found.** The role, leadership and superiority comparisons respectively returned could not say, inconclusive, could not say.
+
+*Each interval is a paired 95% whole-person bootstrap interval. The final column applies the theory thread’s separate requirement to the same signed numbers.*
+
+| Registered comparison | Estimate [95% interval] | Positive practical bar | Project disposition | Whole interval above bar |
+|---|---:|---:|---|---|
+| LD2.b · Taking the lead × criticism | -0.00183 [-0.04699, 0.04110] | 0.05 | inconclusive | no |
+
+**Population.** openESM member 0056 supplied 29,512 prompts from a roster of 327 people. The registered context retained 18,034 prompts from 323 people. Another 11,478 prompts were in the other context. 4 people in the complete resampling roster had no row in the selected context. The aggregate retains the row-specific complete-case counts, original scope and exclusions. Source credit and licensing follow the source admission and the openESM documentation for this member (CC BY 4.0).
+
+**Role checks.** The original support check counted the following criticism prompts before the outcome fits. above the respondent, 86 prompts from 52 people, below the respondent, 27 prompts from 11 people. The registered leadership check was True. Counts after complete-case selection, peer rows and the excluded partner-role codes are filed in the aggregate. No qualified conditional person-intercept estimator for this multivariate diary panel.
+
+**Source credit.** Member0056 version1.0.0 is [openESM record17386601](https://zenodo.org/records/17386601),7,264,100bytes, SHA256 a6c81ae529cb1aaa8022a67c916f271ac4e510ec426b3f113657e7bebecf3d26, CC BY4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83) and openESM. Metadata describes a mostly student sample over fourteen days with six prompts daily. This is a new harmonized-data analysis, not a reproduced published table; no new literature review is claimed. No individual records, identifiers, demographic fields or person slopes are published.
+
+**Meaning and limits.** Leadership, superiority, self-assurance and feelings share one prompt. Unequal answer noise can mimic moderation. Rank refers to the relationship. The figure gives the registered contrasts and matching diagnostics. The complete aggregate record and the accompanying long table retain all individual coefficients, including unsupported cells. These are observational associations from a single source. Small-effect sensitivity remains unmeasured for a contrast whose interval includes zero.
+
+**Integrity.** All 514 estimates or dispositions, both native phases, all 2,000 indexed person draws and 256 output hashes were checked. The measured pilot used 25.1094 CPU seconds. Full execution and fresh replay used 1774.47 CPU seconds. The original fixed draw seed was 202611190056. The stage ledger retains the separate coordination charges.
+
+[Result sheet](LD2_DIARY_0056_20261120_SHEET.md) · [Signed figure](LD2_DIARY_0056_20261120.png) · [Full table](LD2_DIARY_0056_20261120_ALL_METRICS.csv) · [Aggregate record](LD2_DIARY_0056_20261120.json).
+
+
+Curator roll-up: A3 · Did an interaction partner’s rank change the balance of anger and fear-like feelings after criticism? · **Narrows** · The role, leadership and superiority comparisons respectively returned could not say, inconclusive, could not say. · Project scope: Within-person self-report in openESM 0056 · Next: Retain the role support counts and all three forms alongside the second sample for the fixed lattice return. Preserve the small-effect sensitivity limit. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LD2_DIARY_0056_20261120.md.
+
+### OPS-S15-W6-NOV20-DIARY-PILOTS-KP1-0600
+
+**Question.** Did the registered handoffs preserve the pilot draws and recover safely from the two native refusals?
+
+Five diary pilots preserved their first 100 draws. KP1 resumed from 600 verified draws after a memory refusal at admission. The first KP1 successor stopped at the projected memory and companion reserve. Its native owner exited without a research child. The replacement owner and child matched their records, with 659 durable draws and all 200 controls at inspection. LD1’s first full member 0057 attempt encountered a shared Python reader before admission. That reader exited. The checkpoint remains authenticated and the replacement uses the same scientific inputs and the ordinary gate. Both zero-CPU refusals stay in the campaign history.
+
+*Each row names the retained native attempt, its scientific or operational boundary, and the successor disposition at this inspection. CPU is the original measured charge.*
+
+| Attempt | Boundary | CPU seconds | Successor |
+|---|---|---:|---|
+| NT1-d-e-0057-first100-20261120 | first 100 draws | 11.9375 | running |
+| LD2-rows-0056-first100-bound-20261120 | first 100 draws | 25.109375 | running |
+| LD3-rows-0056-first100-bound-20261120 | first 100 draws | 4.609375 | COMPLETE |
+| LD1-rows-0057-first100-bound-20261120 | first 100 draws | 123.671875 | registered |
+| LD1-rows-0056-first100-bound-20261120 | first 100 draws | 49.25 | pending |
+| KP1-original-D33-lattice-from-0500 | fixed 600-draw checkpoint | 1786.375 | running |
+| KP1-original-D33-lattice-from-0600 | native admission refusal | 0 | running |
+| LD1-rows-0057-full-20261120 | native admission refusal | 0 | registered |
+
+**Integrity.** The original pilot owners and workers exited, their leases were released or reassigned, and every checkpoint output hash was reproduced. Each of the five pilots supplied the agreed 100 indexed draws and authenticated row support. KP1’s checkpoint retained 1210 output files. The duplicate-free full runs inherit the original budgets and retain fresh verification. The eight meeting-operator constructed checks also passed under a counted lease. Their full meeting studies still require production runners.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Five diary pilots preserved their first 100 draws. KP1 resumed from 600 verified draws after a memory refusal at admission.; project meaning: scoped operational record; next engineering obligation: Continue each authenticated fixed draw bank and its independent replay, with native memory and ownership checks at each handoff.; public scientific claim unchanged; curator decision required: No new decision. Detail: DIARY_PILOTS_KP1_0600_20261120.md.
+
+### S15-W6-LD3-0056-20261120
+
+**Question.** Which feelings accompanied an intellectual or overwhelming solitary activity within the same person?
+
+**Method.** In solitary prompts, fit every available feeling on all eight activity ratings together. Center the feeling and predictors on each person and scale by their pooled within-person variation. Estimate each registered difference on matched rows. Resample the complete source roster, preserving all of each selected person’s records, and recompute the scales and coefficient estimates on all 2,000 draws. The practical bar is +0.05 for both contrasts. A project pass requires a point at or above the bar with an interval excluding zero. The theory thread separately asks whether the whole interval clears that bar.
+
+**Found.** The intellectual-activity contrast was inconclusive. The overwhelmed-activity contrast was inconclusive.
+
+*Each interval is a paired 95% whole-person bootstrap interval. The final column applies the theory thread’s separate requirement to the same signed numbers.*
+
+| Registered comparison | Estimate [95% interval] | Positive practical bar | Project disposition | Whole interval above bar |
+|---|---:|---:|---|---|
+| LD3.a · Intellectual activity, enthusiastic minus relaxed | 0.03462 [-0.01552, 0.08197] | 0.05 | inconclusive | no |
+| LD3.b · Feeling overwhelmed, anxious minus angry | -0.00442 [-0.05128, 0.04148] | 0.05 | inconclusive | no |
+
+**Population.** openESM member 0056 supplied 29,512 prompts from a roster of 327 people. The registered context retained 11,478 prompts from 311 people. Another 18,034 prompts were in the other context. 16 people in the complete resampling roster had no row in the selected context. The aggregate retains the row-specific complete-case counts, original scope and exclusions. Source credit and licensing follow the source admission and the openESM documentation for this member (CC BY 4.0).
+
+
+
+**Source credit.** Member0056 version1.0.0 is [openESM record17386601](https://zenodo.org/records/17386601),7,264,100bytes, SHA256 a6c81ae529cb1aaa8022a67c916f271ac4e510ec426b3f113657e7bebecf3d26, CC BY4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83) and openESM. Metadata describes a mostly student sample over fourteen days with six prompts daily. This is a new harmonized-data analysis, not a reproduced published table; no new literature review is claimed. No individual records, identifiers, demographic fields or person slopes are published.
+
+**Meaning and limits.** Enthusiasm can also reflect general good mood. The same person rated the activity and the feelings in one prompt. The complete matrix below the signed figure includes every available feeling, every activity rating, and both registered comparisons. The next-prompt counts, including endings with no later answered prompt, are descriptive. These are observational associations from a single source. Small-effect sensitivity remains unmeasured for a contrast whose interval includes zero.
+
+**Integrity.** All 98 estimates or dispositions, both native phases, all 2,000 indexed person draws and 258 output hashes were checked. The measured pilot used 4.60938 CPU seconds. Full execution and fresh replay used 118.594 CPU seconds. The original fixed draw seed was 202611190056. The stage ledger retains the separate coordination charges.
+
+[Result sheet](LD3_DIARY_0056_20261120_SHEET.md) · [Signed figure](LD3_DIARY_0056_20261120.png) · [Full table](LD3_DIARY_0056_20261120_ALL_METRICS.csv) · [Aggregate record](LD3_DIARY_0056_20261120.json).
+
+
+Curator roll-up: T6, T2 · Which feelings accompanied an intellectual or overwhelming solitary activity within the same person? · **Narrows** · The intellectual-activity contrast was inconclusive. The overwhelmed-activity contrast was inconclusive. · Project scope: Within-person self-report in openESM 0056 · Next: Carry the signed activity table and the separate source replication into the frozen lattice return. Keep both theoretical channel mechanisms open. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LD3_DIARY_0056_20261120.md.
+
+### S15-W6-LD2-0057-20261120
+
+**Question.** Did an interaction partner’s rank change the balance of anger and fear-like feelings after criticism?
+
+**Method.** Across interaction prompts, compare the criticism coefficient for anger with the mean for anxiety, shame and insecurity, adjusting for the other five status ratings. The primary logistic model uses above-floor reports, within-person centered predictors and their person means. Estimate the three registered forms using the partner’s role, taking the lead and felt superiority. File self-assurance and the linear rating model as diagnostics. Refit all quantities with 2,000 whole-person draws and independently replay them. A registered point must clear its practical bar and its interval exclude zero.
+
+**Found.** The three rank comparisons were inconclusive.
+
+*Each interval is a paired 95% whole-person bootstrap interval. The final column applies the theory thread’s separate requirement to the same signed numbers.*
+
+| Registered comparison | Estimate [95% interval] | Positive practical bar | Project disposition | Whole interval above bar |
+|---|---:|---:|---|---|
+| LD2.b · Taking the lead × criticism | 0.00953 [-0.02245, 0.04016] | 0.05 | inconclusive | no |
+| LD2.a · Partner’s role, below minus above | 0.06109 [-0.24551, 0.34183] | 0.40 | inconclusive | no |
+| LD2.c · Felt superior × criticism | -0.01271 [-0.04035, 0.01788] | 0.05 | inconclusive | no |
+
+**Population.** openESM member 0057 supplied 64,810 prompts from a roster of 2,272 people. The registered context retained 39,873 prompts from 2,190 people. Another 24,937 prompts were in the other context. 82 people in the complete resampling roster had no row in the selected context. The aggregate retains the row-specific complete-case counts, original scope and exclusions. Source credit and licensing follow the source admission and the openESM documentation for this member (CC BY 4.0).
+
+**Role checks.** The original support check counted the following criticism prompts before the outcome fits. above the respondent, 155 prompts from 110 people, below the respondent, 585 prompts from 209 people. The registered leadership check was True. Counts after complete-case selection, peer rows and the excluded partner-role codes are filed in the aggregate. No qualified conditional person-intercept estimator for this multivariate diary panel.
+
+**Source credit.** Member 0057 version 1.0.0 is from [openESM record 17361658](https://zenodo.org/records/17361658), SHA-256 fcd123f3725e977b008102fdcc30d16ac10e1ed4c7c294936e7ede6f3d059d3f, 17,603,083 bytes, CC BY 4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83), Kroencke and colleagues' [original study](https://doi.org/10.1037/pspp0000467), and openESM. This is a new analysis of the harmonized data. Published result tables did not select the packet's predictions; no new literature review is claimed.
+
+**Meaning and limits.** Leadership, superiority, self-assurance and feelings share one prompt. Unequal answer noise can mimic moderation. Rank refers to the relationship. The figure gives the registered contrasts and matching diagnostics. The complete aggregate record and the accompanying long table retain all individual coefficients, including unsupported cells. These are observational associations from a single source. Small-effect sensitivity remains unmeasured for a contrast whose interval includes zero.
+
+**Integrity.** All 514 estimates or dispositions, both native phases, all 2,000 indexed person draws and 256 output hashes were checked. The measured pilot used 75.8594 CPU seconds. Full execution and fresh replay used 4395.61 CPU seconds. The original fixed draw seed was 202611190057. The stage ledger retains the separate coordination charges.
+
+[Result sheet](LD2_DIARY_0057_20261120_SHEET.md) · [Signed figure](LD2_DIARY_0057_20261120.png) · [Full table](LD2_DIARY_0057_20261120_ALL_METRICS.csv) · [Aggregate record](LD2_DIARY_0057_20261120.json).
+
+
+Curator roll-up: A3 · Did an interaction partner’s rank change the balance of anger and fear-like feelings after criticism? · **Narrows** · The three rank comparisons were inconclusive. · Project scope: Within-person self-report in openESM 0057 · Next: Retain the role support counts and all three forms alongside the second sample for the fixed lattice return. Preserve the small-effect sensitivity limit. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LD2_DIARY_0057_20261120.md.
+
+### S15-W6-LD3-0057-20261120
+
+**Question.** Which feelings accompanied an intellectual or overwhelming solitary activity within the same person?
+
+**Method.** In solitary prompts, fit every available feeling on all eight activity ratings together. Center the feeling and predictors on each person and scale by their pooled within-person variation. Estimate each registered difference on matched rows. Resample the complete source roster, preserving all of each selected person’s records, and recompute the scales and coefficient estimates on all 2,000 draws. The practical bar is +0.05 for both contrasts. A project pass requires a point at or above the bar with an interval excluding zero. The theory thread separately asks whether the whole interval clears that bar.
+
+**Found.** The intellectual-activity contrast met its registered bar. The overwhelmed-activity contrast ran opposite to prediction.
+
+*Each interval is a paired 95% whole-person bootstrap interval. The final column applies the theory thread’s separate requirement to the same signed numbers.*
+
+| Registered comparison | Estimate [95% interval] | Positive practical bar | Project disposition | Whole interval above bar |
+|---|---:|---:|---|---|
+| LD3.a · Intellectual activity, enthusiastic minus relaxed | 0.05394 [0.02946, 0.07752] | 0.05 | supports | no |
+| LD3.b · Feeling overwhelmed, anxious minus angry | -0.03855 [-0.07187, -0.00433] | 0.05 | opposite direction | no |
+
+**Population.** openESM member 0057 supplied 64,810 prompts from a roster of 2,272 people. The registered context retained 24,937 prompts from 1,760 people. Another 39,873 prompts were in the other context. 512 people in the complete resampling roster had no row in the selected context. The aggregate retains the row-specific complete-case counts, original scope and exclusions. Source credit and licensing follow the source admission and the openESM documentation for this member (CC BY 4.0).
+
+
+
+**Source credit.** Member 0057 version 1.0.0 is from [openESM record 17361658](https://zenodo.org/records/17361658), SHA-256 fcd123f3725e977b008102fdcc30d16ac10e1ed4c7c294936e7ede6f3d059d3f, 17,603,083 bytes, CC BY 4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83), Kroencke and colleagues' [original study](https://doi.org/10.1037/pspp0000467), and openESM. This is a new analysis of the harmonized data. Published result tables did not select the packet's predictions; no new literature review is claimed.
+
+**Meaning and limits.** Enthusiasm can also reflect general good mood. The same person rated the activity and the feelings in one prompt. The complete matrix below the signed figure includes every available feeling, every activity rating, and both registered comparisons. The next-prompt counts, including endings with no later answered prompt, are descriptive. These are observational associations from a single source. Small-effect sensitivity remains unmeasured for a contrast whose interval includes zero.
+
+**Integrity.** All 114 estimates or dispositions, both native phases, all 2,000 indexed person draws and 258 output hashes were checked. The measured pilot used 9.57812 CPU seconds. Full execution and fresh replay used 303.25 CPU seconds. The original fixed draw seed was 202611190057. The stage ledger retains the separate coordination charges.
+
+[Result sheet](LD3_DIARY_0057_20261120_SHEET.md) · [Signed figure](LD3_DIARY_0057_20261120.png) · [Full table](LD3_DIARY_0057_20261120_ALL_METRICS.csv) · [Aggregate record](LD3_DIARY_0057_20261120.json).
+
+
+Curator roll-up: T6, T2 · Which feelings accompanied an intellectual or overwhelming solitary activity within the same person? · **Narrows** · The intellectual-activity contrast met its registered bar. The overwhelmed-activity contrast ran opposite to prediction. · Project scope: Within-person self-report in openESM 0057 · Next: Carry the signed activity table and the separate source replication into the frozen lattice return. Keep both theoretical channel mechanisms open. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LD3_DIARY_0057_20261120.md.
+
+### S15-W6-RR4-D3-BE-20261120
+
+**Question.** Does a player’s best previous ending predict choices in a later play better than either the starting score or the previous ending?
+
+**Method.** Amendment BE replaced the in-sample repeat-choice fit with one frozen late-play split. Each player contributed all 30 trials of the last eligible repeat to testing and at least two earlier eligible repeat plays to training. The three models shared eight slopes and one intercept for each informative training player. Each play’s references came from completed earlier attempts. The previous ending required an actual recorded immediately preceding attempt. The best ending used observed earlier completed endings. All models used the original eight choice predictors, forgetting factor 0.65 and the original first-play scale. Choices within a play used trial history available at that time. The score summed the 30 held-out log likelihoods. Each pair was averaged over test plays with unequal references and over all scored test plays. All comparisons used the same 2,000 paired whole-player bootstrap draws, conditional on the training fits. Each primary interval had to be above zero on at least 100 differing players. Fresh replay independently solved the intercept score equations and recomputed all draw cells.
+
+**Found.** The best previous ending outpredicted the starting score. Its advantage over the last ending was inconclusive. The joint prediction is inconclusive.
+
+*Values are increases in held-out log likelihood per play, with paired 95% intervals. Positive favors the first reference named.*
+
+| Comparison | Equal / different, eligible | Equal / different, scored | Different references | All scored plays |
+|---|---:|---:|---:|---:|
+| Best minus start | 2 / 3,651 | 2 / 3,629 | 0.017182 [0.004378, 0.029798] | 0.017202 [0.004414, 0.029805] |
+| Best minus last | 911 / 2,742 | 905 / 2,726 | 0.006436 [-0.012755, 0.025224] | 0.006078 [-0.008403, 0.020251] |
+| Last minus start | 12 / 3,641 | 12 / 3,619 | 0.011403 [-0.003840, 0.027057] | 0.011124 [-0.004166, 0.026653] |
+
+**Eligibility.** The repaired Rutledge Great Brain Experiment archive contained 47,067 represented players and 91,046 saved plays. Before any reward or choice was read for the model, the split excluded 42,458 players with too few recorded repeats, 951 who had enough recorded repeats but too few eligible earlier histories, and 5 whose source histories were ambiguous or incomplete. This left 3,653 test plays and 20,268 earlier training plays. Across the roster, 10,900 repeat records lacked their immediately preceding attempt. Included histories contained 6,643 unrecorded attempts across 3,344 gaps. The best reference therefore means best observed earlier ending. A further 22 eligible players always made the same choice in training. Their intercepts could not be estimated. All three models scored the same 3,631 people and had 3,639 free parameters each.
+
+**Meaning.** The test is each player’s latest eligible repeat play and speaks to late plays. A game score is not anyone’s meaning. Conditional prediction in these people leaves open generalization to earlier plays, unobserved personal high scores and other populations. This comparison cannot establish equality of reference models or a mechanism of subjective meaning. The single prospective split was retained throughout.
+
+**Verification and cost.** Seven counted constructed checks passed. The native completion authenticated 175 files. Independent execution and replay retained every paired draw. The study used 24 native CPU seconds, 4.21875 CPU seconds of preparation and the ordinary 30-second coordination charge. All fall within the 10,000 CPU-second card ceiling. The signed results, figure, counts and native hashes are filed with this record.
+
+[Result sheet](D3_LATE_REPEAT_BE_20261120_SHEET.md) · [Signed figure](D3_LATE_REPEAT_BE_20261120.png) · [Figure values](D3_LATE_REPEAT_BE_20261120_CELLS.csv) · [Frozen design](../../../docs/design/stage-15/week6/D3_REFERENCE_20261120.md).
+
+
+Curator roll-up: N3, N5 · Does a player’s best previous ending predict choices in a later play better than either the starting score or the previous ending? · **Narrows** · The best previous ending outpredicted the starting score. Its advantage over the last ending was inconclusive. · Project scope: Held-out human phone-game choices in late repeats · Next: Keep this fixed split in the Week 6 return. The registered small-effect sensitivity check must retain the late-play geometry and the original allowance rules. · Public wording is limited to the recorded population. Curator decision required: No. Detail: D3_LATE_REPEAT_BE_20261120.md.
+
 ### OPS-S15-W6-KP1-CHECKPOINT-0500-20261120
 
 **Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
