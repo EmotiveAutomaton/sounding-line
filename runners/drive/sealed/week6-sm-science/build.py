@@ -14,7 +14,7 @@ QUALIFIED = {
     "mi4_source_bridge_v1", "mi4_stats_v1", "mi4_reference_v1", "sealed_io_v1",
     "analysis_v1", "independent_v1", "aggregate_register_v1",
 }
-LOCAL = ("joined_source", "table_support", "panels", "family_draws", "engine", "science_entry")
+LOCAL = ("joined_source", "nt1_daily", "table_support", "panels", "family_draws", "engine", "science_entry")
 
 
 def modules():
@@ -31,6 +31,9 @@ def modules():
         raise ValueError("reviewed science module missing")
     for name in LOCAL:
         sources[name] = (HERE / (name + ".py")).read_text("utf8")
+    sources["week6_lattice_diary_v1"] = (
+        REPO / "runners/drive/cards/week6_lattice_diary_v1.py"
+    ).read_text("utf8")
     sources["week6_sealed_support_v1"] = (
         REPO / "runners/drive/cards/week6_sealed_support_v1.py"
     ).read_text("utf8")

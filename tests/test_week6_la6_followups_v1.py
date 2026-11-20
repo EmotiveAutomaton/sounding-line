@@ -57,3 +57,42 @@ def test_excluded_utterance_still_supplies_preceding_context():
     positive,= (r for r in x["strict"]["table"] if r["role"]=="case")
     assert positive["id"]=="target" and positive["numeric"][0]==4
     assert positive["numeric"][2]==1
+
+
+def test_both_source_windows_match_independent_reference_and_reused_controls():
+    from runners.drive.cards import week6_laughter_followup_source_v1 as source
+
+    acts = [act("control", 0, 1), act("quick", 40, 41), act("later", 80, 81),
+            act("excluded", 95, 98)]
+    laughs = [event(41.5, 42), event(82.5, 83), event(96, 97)]
+    stored = dict(source.projection(acts, laughs), meeting="m")
+    assert stored == dict(source.projection(acts, laughs, True), meeting="m")
+    for seconds in (1, 2):
+        reference = follow.project_meeting(acts, laughs, seconds)
+        for name in ("strict", "length_held"):
+            rows = source.rows_for_window(stored, seconds, name)
+            assert rows == reference[name]["table"]
+            assert stored["windows"][str(seconds)][name]["audit"] == reference[name]["audit"]
+            assert all("text" not in row and "words" not in row for row in rows)
+    assert len(stored["windows"]["2"]["strict"]["pairs"]) > len(stored["windows"]["1"]["strict"]["pairs"])
+
+
+def test_source_resume_and_fresh_replay_validate_each_meeting(tmp_path, monkeypatch):
+    from runners.drive.cards import week6_laughter_followup_source_v1 as source
+    import pytest
+
+    meetings = ["a", "b"]
+    acts = [dict(row, meeting=m) for m in meetings for row in [act("one", 0, 1), act("two", 42, 43)]]
+    laughs = [dict(event(43.5, 44), meeting=m) for m in meetings]
+    meta = {"a": {"corpus": "AMI"}, "b": {"corpus": "ICSI"}}
+    monkeypatch.setattr(source, "source_binding", lambda inputs: (acts, laughs, meta, "made-up-identity"))
+    config = {"phase": "LA6-followup-source", "max_new_meetings": 1, "max_wall_seconds": 600}
+    assert source.execute(tmp_path, {}, config)["status"] == "yielded"
+    done = source.execute(tmp_path, {}, config)
+    assert done["source_utterances"] == 4 and done["meetings"] == 2
+    assert source.verify(tmp_path, {}, config)["status"] == "yielded"
+    assert source.verify(tmp_path, {}, config)["every_meeting_part_replayed"]
+    part = tmp_path / "meetings/0000.json"
+    part.write_bytes(part.read_bytes() + b" ")
+    with pytest.raises(ValueError, match="preserved meeting part differs"):
+        source.execute(tmp_path, {}, config)
