@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-KP1-CHECKPOINT-0500-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,750.96875 native CPU seconds. Its manifest authenticated 1,009 output files and 342 inherited pins. The new native owner and child matched the reviewed plan, and 508 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 60,599.765625 native CPU seconds plus 450 for coordination. Before that allowance the remaining room was 72,411.5625 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_0500_20261120.md.
+
 ### OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120
 
 **Question.** Did the new diary runner preserve the study definitions and resume its original data, and did KP1 retain its next checkpoint?

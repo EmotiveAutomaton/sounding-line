@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-KP1-CHECKPOINT-0500-20261120: The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
 - [x] OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120: The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2.
 
 - [x] OPS-S15-W6-KP1-CHECKPOINT-0300-20261120: The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.

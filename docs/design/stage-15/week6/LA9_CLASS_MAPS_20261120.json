@@ -1,0 +1,56 @@
+{
+  "schema": "LA9_PUBLISHED_CLASS_MAPS_V1",
+  "minimum_distinct_heldout_utterances": 50,
+  "ami": {
+    "manual": "https://groups.inf.ed.ac.uk/ami/corpus/Guidelines/dialogue_acts_manual_1.0.pdf",
+    "sections": "3.1–3.6",
+    "archive_member": "ontologies/da-types.xml",
+    "ontology_sha256": "6bef44fd7f929156e8aeec4ead766146f547bd00db41d4e0df5e504b907d51fe",
+    "groups": {
+      "no_speaker_intention": [
+        1,
+        2,
+        3
+      ],
+      "information_exchange": [
+        4,
+        5
+      ],
+      "possible_action": [
+        6,
+        7,
+        8
+      ],
+      "previous_discussion": [
+        9,
+        11,
+        12,
+        13
+      ],
+      "social": [
+        14,
+        15
+      ],
+      "other": [
+        16
+      ]
+    }
+  },
+  "icsi": {
+    "scheme": "MRDA five-class map",
+    "study": "https://aclanthology.org/W04-2319/",
+    "rule_table": "https://era.ed.ac.uk/server/api/core/bitstreams/5ac6e06e-0c36-400f-a73b-e32db20333dd/content",
+    "rule_table_number": "3.2",
+    "dictionary": "https://raw.githubusercontent.com/NathanDuran/MRDA-Corpus/58006b32d4e36ca518e365899924cd56035466a2/mrda_data/metadata/basic_da_map.txt",
+    "sha256": "87cfa56c8c6d0d24734b6dd7b186567d2bbeb3cfc2fae4b028e9b75a5830595f",
+    "records": 2147,
+    "groups": {
+      "B": "backchannel",
+      "D": "disruption",
+      "F": "filler",
+      "Q": "question",
+      "S": "statement"
+    },
+    "unscored": "Z"
+  }
+}

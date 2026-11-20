@@ -2980,6 +2980,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-KP1-CHECKPOINT-0500-20261120:** The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_CHECKPOINT_0500_20261120.md).
+
 **OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120:** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
 
 **OPS-S15-W6-KP1-CHECKPOINT-0300-20261120:** The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_CHECKPOINT_0300_20261120.md).

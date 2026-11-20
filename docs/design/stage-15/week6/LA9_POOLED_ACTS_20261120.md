@@ -1,0 +1,11 @@
+# LA9 prospective dialogue-act pooling
+
+LA9 revisits the parent meeting study’s paired act-type odds after pooling the labels used by each corpus. The original table could not supply population intervals at its detailed label resolution. This follow-up retains the parent source, pairs, with- and without-laughter-history arms, held-out meetings and whole-meeting resampling.
+
+The AMI manual defines six functional groups. The archived ontology binds the fifteen annotation identifiers to their names. The groups come from the manual’s sections 3.1–3.6. Elicitations remain with the subject of the elicitation. [AMI manual](https://groups.inf.ed.ac.uk/ami/corpus/Guidelines/dialogue_acts_manual_1.0.pdf)
+
+ICSI uses the published five-class MRDA grouping. The pinned dictionary resolves 2,147 complete annotation strings, including compound and disrupted acts. One dictionary code denotes an unlabelled act. The runtime requires a byte-for-byte match and uses the whole annotation string. It preserves unmatched annotations as nuisance terms and reports their support separately. [Original corpus paper](https://aclanthology.org/W04-2319/) · [Published conversion table, §3.2.2](https://era.ed.ac.uk/server/api/core/bitstreams/5ac6e06e-0c36-400f-a73b-e32db20333dd/content) · [Versioned class dictionary](https://raw.githubusercontent.com/NathanDuran/MRDA-Corpus/58006b32d4e36ca518e365899924cd56035466a2/mrda_data/metadata/basic_da_map.txt)
+
+Use the source’s meeting-to-corpus binding. Count distinct utterances over all held-out folds. Every matched utterance is held out once under the parent meeting folds, and a reused control counts once at this gate. List every published class, including zero counts. An interval requires at least 50 distinct utterances in the class. Preserve every original pair and its weight in fitting. Keep the source names on the coefficients so that a class in one annotation scheme cannot acquire observations from the other.
+
+The attached registration fixes the source dictionaries and class definitions before reading follow-up outcomes. The source records supply the original observable-context limit. [Mapping and checksums](LA9_CLASS_MAPS_20261120.json) · [Parent follow-up register](LA6_FOLLOWUPS_20261119.md)

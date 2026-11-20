@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-KP1-CHECKPOINT-0500-20261120:** [Record](KP1_CHECKPOINT_0500_20261120.md). The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
 **OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120:** [Record](DIARY_OPENING_KP1_0400_20261120.md). The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2.
 
 **OPS-S15-W6-KP1-CHECKPOINT-0300-20261120:** [Record](KP1_CHECKPOINT_0300_20261120.md). The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.

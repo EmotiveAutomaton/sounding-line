@@ -1933,3 +1933,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-20T18:38:56.627343+00:00 OPS-S15-W6-KP1-CHECKPOINT-0300-20261120: The original KP1 study preserved 300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
 
 2026-11-20T19:01:57.351160+00:00 OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120: The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2.
+
+2026-11-20T19:32:02.643736+00:00 OPS-S15-W6-KP1-CHECKPOINT-0500-20261120: The original KP1 study preserved 500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
