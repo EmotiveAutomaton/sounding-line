@@ -1,5 +1,69 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-SM0-JOINED-COMPLETE-20261120
+
+**Hypothesis.** Can the corrected joined-wave layout produce auditable structure diagnostics without a metadata-only exception to the sealed person-count gate?
+
+**METHOD.** Review and hash the collector's design, manifest, proposed helper and verification evidence; freeze mappings to the four declared SPSS tables in the two approved joined folders. Retain the original probe components and qualify a new fixed-exit-code interface on constructed data. Reproduce the exact four filenames, formats and roles with synthetic people, qualify that layout in a counted native slot and then run the identical fixture inside Spark. After both pass, consume the single authorized layout-reset grant and invoke only the two joined-source structure jobs through the unchanged installed runner. Verify each gated CSV against its remote hash and compare actual person counts between corresponding structure/status rows.
+
+**Found.** The approved joined MIDUS structure probes complete through the unchanged sealed gate after native and in-image layout checks; all returned status rows use actual table person counts.
+
+**Delivery review.** All six declared files in DC-20261120-01 match their manifest hashes; the reviewed incoming bytes are preserved. The source-layout manifest is d4ae40f64e80ccf444238bee5142abbd8d9995b25a7a0e149a7a95d2febe0d31. The old per-project mounts held catalog metadata. The new joined folders contain unchanged staged copies of the survey and daily-interview files, with no record-level join or conversion. Those staging/publisher comparisons remain collector-attributed evidence, not an independent rehash of private source files by this operator. The owner admits the exact mapping and this structural diagnostic. The optional collector header helper is not admitted or run, because the needed counts can be obtained through the approved sealed path. Published file-row counts, unverified wave-three family identifiers and the unresolved wave-three diary file-row count are never used as people counts.
+
+**Ratified return rule.** The metadata-only export proposal is rejected and no installed gate, runner, permission or security control changes. The preserved v2 component remains local construction; the v3 successor returns fixed child codes ten through forty-five for no-output failures. The full one-to-one category table, precedence for simultaneous failures and wrapper-versus-child exit distinction are recorded in [the recovery contract](docs/design/stage-15/week6/SM0_JOINED_RECOVERY_V2.md). When an eligible table loads, each status row uses that table's exact distinct-person count. All-small populations stay suppressed and return a fixed code. File counts, estimates and padding never substitute for a person denominator. Invalid mappings and incomplete listings stop before table reads. No filenames, paths, source values, identifiers or free-form exceptions leave the job.
+
+**Qualification and retained failure.** The original twenty-three component checks passed. The first forty-five-case native qualification failed one fixture: its directory-error mock intercepted output freshness checking as well as the intended source listing. Its complete source capsule, failed result and cost are preserved. Restricting the mock to the source directory changed no production code or assertion; all forty-five cases then passed without skips. The exact-layout fixture adds ten checks, all passing locally and inside the installed sealed image. It covers both wave layouts, SPSS round trips, repeated person-days, small populations, missing person keys, partial loads and read/thread limits. The synthetic rehearsal refuses private-source opens and enumeration. Each local attempt's source/output hashes, native owner/child exits and counted lease release verify.
+
+All four local attempts total 7.375 CPU seconds, including the failed fixture. The charge is retained once for applicable ES preparation and is not posted to CH14. The previous rehearsal's separate pending charge remains unchanged. Remote wrapper wall times and the fixture's self-reported CPU time are retained separately; no unsupported workstation-equivalent CPU charge is invented for the sealed source probes.
+
+**Returned structure.** The table reports distinct nonmissing people in each file and wrapper/child exit codes. Daily person-days count each person once. Counts across files or waves must not be added as independent people. These are completed operational probes, not unfinished study scores.
+
+| Joined source | Survey people | Diary people | Wrapper / child exit |
+|---|---:|---:|---:|
+| midus-m2-joined | 4963 | 2022 | 0 / 0 |
+| midus-m3-joined | 3294 | 1236 | 0 / 0 |
+
+Both mappings load all their declared tables, with no missing, failed or suppressed table. Each invocation returns two structure rows and two status rows; corresponding real counts match exactly. The [four aggregate CSVs](results/phase_2_4_stage_15/WEEK5/SM0_JOINED_20261120/README.md) retain fixed codebook presence flags and every diagnostic field. These checks do not establish valid scientific variable mappings, family clustering or complete study models.
+
+**Spark boundaries and accounting.** The installed runner hash remains `ea2dd181aac348a5587ab85dbab7cb845bf19a2880cbf080aa5a244869170852` and the installed gate hash remains `31f89704618865e86be260b91d25ebd65a04cb0b596b369caceb395be607dd74`. The current owner-provided public image pin is `sha256:476cc5ecbafa4ed927fd4e1f5df8912125bcc8d8a7f78dbf8ee2032bd196676f`; it is not a direct Docker inspection. Package versions match the public pin. The two-thread jobs have six-hundred-second CPU/wall limits and the original two-gigabyte cumulative source-read ceiling. They request no GPU or paid calls. Before/after source-probe telemetry was twenty-eight to twenty-nine degrees Celsius and about 4.4 watts; these are short snapshots, not continuous thermal or storage-health certification. No direct private mount or held-out Refresher source was accessed by the operator.
+
+The single layout reset is consumed once, with its grant and consumption receipts linked. The earlier three failed probes remain preserved. The conservative invocation total is eight of thirty: the five original reservations, this layout rehearsal and these two real probes. The repaired-probe failure count is zero; no reset of global accounting occurred. No real Spark scientific study has completed merely because its structure is now readable.
+
+**Publication serialization.** The qualified mapping JSON is preserved byte-for-byte with its native qualification. Its publication copy changes only Windows line endings to LF. Parsed mappings are identical, and regenerating all three self-contained jobs reproduces their exact qualified hashes; no probe, data read, gate or scientific rule changes. Both mapping hashes are retained in the receipt.
+
+**Queue, records and next work.** At 2026-11-20T11:56:49.073604+00:00, no workstation research worker or counted lease remains after CH14's final cost stop. CPU-only Gear 2 remains selected, but occupancy is zero of eight and ready work zero of sixteen. Full study builds, original-source qualification, complete replay and the final lattice return remain unfinished; unused capacity is an explicit build deficit. Resource floors pass, no companion reservation is active, and all twenty-one locks and watcher/calendar identities verify. The new collector delivery is reviewed; the remaining inbox entries retain their existing disposition. Events, four-hour owner inactivity and single-pending delivery are unchanged. Prior substantive ledger rows are preserved, with source anchors refreshed and generated views checked. No scientific hypothesis is harvested from this interface ruling and no scientific interpretation or final combined verdict is added. Publication remains separate from research admission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The approved joined MIDUS structure probes complete through the unchanged sealed gate after native and in-image layout checks; all returned status rows use actual table person counts.; project meaning: scoped operational record; next engineering obligation: Build and qualify the commissioned scientific source mappings and complete diary/Spark runners; retain CH14 as final cost-held.; public scientific claim unchanged; curator decision required: No new decision. Detail: SM0_JOINED_COMPLETE_20261120.md.
+
+### OPS-S15-W6-CH14-FINAL-COST-STOP-20261120
+
+**Hypothesis.** Can the chess choice comparison finish its required independent replay within the curator's final inclusive CPU allowance?
+
+**METHOD.** Authenticate the terminal, native owner and both child identities, budget revision, scientific code pins and copied execution hashes. Reconcile terminal and process-tree CPU accounts, preserve a complete output hash manifest, count durable verification draws without reading out their scientific scores, and project remaining work from observed verification cost. Inspect the rest of the native queue, leases, locks, resources and watcher before acknowledgement.
+
+**Found.** CH14 stops at its final bounded allowance with complete execution preserved but independent verification unfinished; no scientific verdict or further restart is admitted.
+
+**Stop and preservation.** The terminal at 2026-11-20T11:13:09.514242+00:00 records a cost-class failure, `Combined execution/replay CPU ceiling`, with scientific admission false. All three native processes have exited and no counted research lease remains. The original complete two-thousand-draw execution matches its authenticated copies. The new replay durably saved 900 of two thousand draws; its latest progress message reported 903, but those extra reported draws receive no durable completion credit. Every current output hash is preserved. The original execution, earlier pauses, engineering failures, partial replays and their costs remain in place. No incomplete scientific estimate, effect or score is interpreted.
+
+**Inclusive costs and why the allowance was insufficient.** The final card charge is 79945.890625 CPU seconds against eighty thousand. That includes previous attempts, qualification/preparation and the fixed coordination charge for each claimed attempt. The new attempt contributes 39856.500000 seconds, including a two-second termination margin in the verifier account. Its attempt guard was set to 39850 seconds to preserve cumulative headroom; observed guard/accounting granularity leaves 54.109375 seconds below the final total ceiling. That remainder is safety headroom, not another admitted continuation.
+
+The first forty-thousand-second allowance covered the original execution, interruptions and recovery plus only a small part of the required independent scalar replay. At the first cost stop that replay had fifty durable draws, far short of the full two thousand. The approved buffer-reuse implementation retained the data, model, controls, draw roster and arithmetic and improved its progress, but the full fresh independent computation still exceeded the final allowance. Full verification is a required condition, not an optional output that can be waived after inspecting a partial result. The user's specific no-third-allowance ruling also excludes a reduced population or an idle-family continuation.
+
+Table: operational work projection from the stopped verifier's total charged CPU divided by its durable draws. These are approximate constant-rate extrapolations including setup and the termination margin, not timing guarantees or permission to run.
+
+| Route | Remaining work | Projected additional CPU seconds |
+|---|---:|---:|
+| Hypothetical continuation of the durable replay | 1,100 draws | 48692.2 |
+| A fresh complete independent replay | 2,000 draws | 88531.3 |
+
+Draw costs can vary, and neither projection is an authorized restart. CH14 is closed cost-held for this campaign under the final ruling. It is neither a null result nor a completed scientific comparison. No third allowance is requested.
+
+**Queue and recording.** At 2026-11-20T11:56:49.073604+00:00, CPU-only Gear 2 remains selected but research occupancy is zero of eight and the ready buffer is zero of sixteen. No admitted successor was left idle. Full source-specific producers, complete replay and admission remain unfinished; this is a build deficit, not a resource or companion-reservation hold. All twenty-one canonical locks pass. Watcher/calendar identities match and the pending terminal event is safely retained while this write-through completes. The events/four-hour-inactivity/single-pending policy is unchanged. This is scoped evidence preservation, not an exhaustive rehash of all historical raw sources. The Spark layout recovery is filed separately. No new scientific tests were harvested from this operational event.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; CH14 stops at its final bounded allowance with complete execution preserved but independent verification unfinished; no scientific verdict or further restart is admitted.; project meaning: scoped operational record; next engineering obligation: Preserve the closed CH14 evidence; finish independently authorized full diary and Spark study runners.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH14_FINAL_COST_STOP_20261120.md.
+
 ### OPS-S15-W6-STATUS-SPARK-20261120
 
 **Hypothesis.** Is the commissioned campaign complete, are its existing records intact, and can Spark execute the prepared sealed study path?

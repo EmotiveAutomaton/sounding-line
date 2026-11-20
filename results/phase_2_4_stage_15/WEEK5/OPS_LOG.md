@@ -1923,3 +1923,7 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-20T09:06:54.663996+00:00 OPS-S15-W6-HEALTH-LD-DIAGNOSTICS-20261120: CH14 continues with authenticated fresh progress in CPU-only Gear 2; the next diary diagnostic component passes eighteen counted native checks, while full study runners and the ready buffer remain unfinished.
 
 2026-11-20T10:31:45.385634+00:00 OPS-S15-W6-STATUS-SPARK-20261120: CH14 verification continues in CPU-only Gear 2 with an empty ready buffer; Spark passes its constructed runtime rehearsal, while three source probes fail and two remain unrun under the packet stop rule.
+
+2026-11-20T11:59:59.520959+00:00 OPS-S15-W6-CH14-FINAL-COST-STOP-20261120: CH14 stops at its final bounded allowance with complete execution preserved but independent verification unfinished; no scientific verdict or further restart is admitted.
+
+2026-11-20T12:00:33.340062+00:00 OPS-S15-W6-SM0-JOINED-COMPLETE-20261120: The approved joined MIDUS structure probes complete through the unchanged sealed gate after native and in-image layout checks; all returned status rows use actual table person counts.

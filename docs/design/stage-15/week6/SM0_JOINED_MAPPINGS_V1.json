@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "collector_delivery": "DC-20261120-01",
+  "source_manifest_sha256": "d4ae40f64e80ccf444238bee5142abbd8d9995b25a7a0e149a7a95d2febe0d31",
+  "mappings": [
+    {
+      "schema_version": 1,
+      "source_alias": "midus-m2-joined",
+      "tables": [
+        {
+          "path": "M2_P1_SURVEY_N4963_20200720.sav",
+          "person_column": "M2ID",
+          "role": "survey"
+        },
+        {
+          "path": "M2_P2_DAILY_DATA_N=2022_08-04-10.sav",
+          "person_column": "M2ID",
+          "role": "daily"
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "source_alias": "midus-m3-joined",
+      "tables": [
+        {
+          "path": "M3_P1_SURVEY_N3294_20251029.sav",
+          "person_column": "M2ID",
+          "role": "survey"
+        },
+        {
+          "path": "M3_P2_DailyDiary_N1236_20220323.sav",
+          "person_column": "M2ID",
+          "role": "daily"
+        }
+      ]
+    }
+  ],
+  "scientific_admission": false
+}

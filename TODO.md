@@ -1,5 +1,15 @@
 # TODO: the study queue
 
+- [ ] S15-W6-SM-SCIENCE-BUILD: Use the now verified structural diagnostics to finish the commissioned scientific adapters, including unresolved family-clustering fields, exact source admission, known-answer qualification and complete independent replay. No scientific verdict follows from SM0.
+
+- [x] S15-W6-CH14-FINAL-HOLD: Final inclusive charge 79,945.890625 CPU seconds; complete execution retained, independent replay incomplete. No third allowance, sample or idle-family continuation.
+
+- [ ] S15-W6-SM0-JOINED-COST: Retain the 7.375 CPU-second native qualification bundle exactly once for applicable ES preparation; prior pending qualification charges remain separate.
+
+- [x] OPS-S15-W6-SM0-JOINED-COMPLETE-20261120: The approved joined MIDUS structure probes complete through the unchanged sealed gate after native and in-image layout checks; all returned status rows use actual table person counts.
+
+- [x] OPS-S15-W6-CH14-FINAL-COST-STOP-20261120: CH14 stops at its final bounded allowance with complete execution preserved but independent verification unfinished; no scientific verdict or further restart is admitted.
+
 - [x] OPS-S15-W6-STATUS-SPARK-20261120: CH14 verification continues in CPU-only Gear 2 with an empty ready buffer; Spark passes its constructed runtime rehearsal, while three source probes fail and two remain unrun under the packet stop rule.
 
 - [x] OPS-S15-W6-HEALTH-LD-DIAGNOSTICS-20261120: CH14 continues with authenticated fresh progress in CPU-only Gear 2; the next diary diagnostic component passes eighteen counted native checks, while full study runners and the ready buffer remain unfinished.
@@ -23,7 +33,7 @@
 - [x] OPS-S15-W6-LA6-VERIFY-RESUME-20261119: The full meeting-study execution and independent verifier point are preserved and authenticated; the remaining original verification draws are running in CPU-only Gear 2.
 
 - [ ] S15-W6-LD1-LD3-BUILD: The first diary source adapter passes 20 counted native constructed checks; include its 3.59375-second check bundle exactly once in the applicable ES admission. The role/context diagnostic component now passes 18 counted native checks (4.625 CPU seconds, separately pending one-time ES booking). Finish diagnostic source/codebook bindings, checkpointed 2,000-draw producers, full fresh replay and native admission; components alone are not ready cards.
-- [ ] S15-W6-SM0-ADMIT: All 22 portable checks pass locally and inside the installed sealed image. The unchanged real-source probe fails on three mounts and stops under the packet limit; two mounts are unrun. Obtain the requested non-sensitive layout manifest and review the mapping/adapter before any further source invocation. No real Spark scientific study has run. The 1.9375-second native rehearsal charge remains pending exactly once for applicable preparation.
+- [x] S15-W6-SM0-ADMIT: Both approved joined-source structure probes pass through the unchanged sealed gate after 45 native regression checks and ten exact-layout checks locally and inside Spark. The one-time layout reset is consumed; all eight invocation reservations and original failures remain preserved. Full scientific source mappings and models are a separate obligation.
 - [ ] S15-W6-LATTICE-POLICY: Review a prospective allowance transition for the packet's ES/LA additions and KP1-only continuation; preserve all live pins and previous charges.
 - [ ] S15-W6-LATTICE-REMAINDER: Complete LD4, LB1-LB6, LA7-LA8, SM1-SM2 and SC1-SC3 in packet order, with each original source/design review and controls.
 - [ ] S15-W6-RC1-LT1: Implement the additive claim map and eleven-field evidence route; assemble all 44 final dispositions only after source review, using the frozen source-majority primary and eligible existing-draw secondary.

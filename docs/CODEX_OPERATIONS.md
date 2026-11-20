@@ -1,6 +1,6 @@
 # Codex operations
 
-**Current verified operation:** [CH14 is running through local review](../results/phase_2_4_stage_15/WEEK5/CH14_LOCAL_REVIEW_RUNNING_20261119.md). Native owner, verifier, counted lease and event monitoring are authenticated. The final inclusive cap remains 80,000 CPU seconds; wider builds remain unfinished.
+**Current verified operation:** [CH14 final cost stop](../results/phase_2_4_stage_15/WEEK5/CH14_FINAL_COST_STOP_20261120.md) and [sealed joined-source recovery](../results/phase_2_4_stage_15/WEEK5/SM0_JOINED_COMPLETE_20261120.md). Research 0/8; ready 0/16. Watcher/calendar health and all 21 locks verify. Full study builds remain unfinished.
 
 ## Research admission is separate from publication
 
