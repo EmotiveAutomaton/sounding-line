@@ -1,0 +1,7 @@
+# OVERNIGHT DIARY ADMISSION 20261120
+
+**Question.** Could the prepared diary cohorts acquire a slot after the completion watcher changed?
+
+**Method.** Compare all three original refusal traces with the current watcher executable, process creation, loaded sources and startup record. Traverse the ordinary migration census, immutable source and budget checks, confirm the new native ownership and verify each first admission.
+
+All three diary controllers recovered from the retired watcher binding and obtained counted two-thread CPU-only Gear 2 admissions. The earlier attempts stopped before a study owner could claim a lease. No original result or checkpoint was overwritten. The new implementation retains the historical migration receipts and rejects changed source bytes, process identity, startup, command, image or working directory. All 44 operational and accounting checks passed. Fifteen separate constructed cases cover the diary science. Another cohort shares the LB4 allowance and follows the first. Each card measures the first 100 draws before deciding whether a full original bank and independent replay fit within its remaining allowance. The three historical failures and their checksums remain recorded independently. No scientific estimate follows from admission.
