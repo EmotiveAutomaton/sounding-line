@@ -1,5 +1,17 @@
 # Week 5 evidence
 
+The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately. [PST6 return](BR_PST6_20261121.md).
+
+The registered panels of openESM diary 0076. No slope met the variance bar in all three forms. [All slopes and diagnostics](BR_DIARY_0076_20261121.md).
+
+The registered panels of openESM diary 0072. No slope met the variance bar in all three forms. [All slopes and diagnostics](BR_DIARY_0072_20261121.md).
+
+The registered panels of openESM diary 0060. No slope met the variance bar in all three forms. [All slopes and diagnostics](BR_DIARY_0060_20261121.md).
+
+The registered panels of openESM diary 0057. Held in all three forms: expanded admired_proud_minus_relaxed, expanded admired_relaxed, expanded intellectual_occup_enthusiastic. [All slopes and diagnostics](BR_DIARY_0057_20261121.md).
+
+The registered panels of openESM diary 0056. Held in all three forms: expanded admired_proud, expanded admired_proud_minus_relaxed. [All slopes and diagnostics](BR_DIARY_0056_20261121.md).
+
 [November 21 extension return](NOVEMBER_21_EXTENSION_RETURN.md) indexes the completed diary and writing records and the three sealed jobs awaiting storage handback.
 
 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](PST_PERSON_SLOPES_0076_MORE_20261121.md).

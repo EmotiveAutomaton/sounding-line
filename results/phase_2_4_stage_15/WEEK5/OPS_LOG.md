@@ -2129,3 +2129,17 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-21T16:21:09.107303+00:00 S15-W6-PST-0072-MORE-20261121: 562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
 
 2026-11-21T16:21:40.992018+00:00 S15-W6-PST-0076-MORE-20261121: 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+2026-11-21T19:21:02.649335+00:00 OPS-S15-W6-BR-QUAL-20261121: The graded and separated-period estimators met the registered tolerance in all 40 frequencies across 20 synthetic cases.
+
+2026-11-21T19:22:06.547858+00:00 S15-W6-BR-0056-20261121: The registered panels of openESM diary 0056. Held in all three forms: expanded admired_proud, expanded admired_proud_minus_relaxed.
+
+2026-11-21T19:22:07.713216+00:00 S15-W6-BR-0057-20261121: The registered panels of openESM diary 0057. Held in all three forms: expanded admired_proud_minus_relaxed, expanded admired_relaxed, expanded intellectual_occup_enthusiastic.
+
+2026-11-21T19:22:08.953016+00:00 S15-W6-BR-0060-20261121: The registered panels of openESM diary 0060. No slope met the variance bar in all three forms.
+
+2026-11-21T19:22:10.087294+00:00 S15-W6-BR-0072-20261121: The registered panels of openESM diary 0072. No slope met the variance bar in all three forms.
+
+2026-11-21T19:22:11.117615+00:00 S15-W6-BR-0076-20261121: The registered panels of openESM diary 0076. No slope met the variance bar in all three forms.
+
+2026-11-21T19:26:45.485034+00:00 S15-W6-BR-PST6-20261121: The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately.

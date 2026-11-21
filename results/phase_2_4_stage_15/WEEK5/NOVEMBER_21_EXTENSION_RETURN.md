@@ -1,5 +1,19 @@
 # November 21 extension for the Week 6 return
 
+[Afternoon results, limits and ledger rows](BR_AFTERNOON_RETURN_20261121.md).
+
+The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately. [PST6 return](BR_PST6_20261121.md).
+
+The registered panels of openESM diary 0076. No slope met the variance bar in all three forms. [All slopes and diagnostics](BR_DIARY_0076_20261121.md).
+
+The registered panels of openESM diary 0072. No slope met the variance bar in all three forms. [All slopes and diagnostics](BR_DIARY_0072_20261121.md).
+
+The registered panels of openESM diary 0060. No slope met the variance bar in all three forms. [All slopes and diagnostics](BR_DIARY_0060_20261121.md).
+
+The registered panels of openESM diary 0057. Held in all three forms: expanded admired_proud_minus_relaxed, expanded admired_relaxed, expanded intellectual_occup_enthusiastic. [All slopes and diagnostics](BR_DIARY_0057_20261121.md).
+
+The registered panels of openESM diary 0056. Held in all three forms: expanded admired_proud, expanded admired_proud_minus_relaxed. [All slopes and diagnostics](BR_DIARY_0056_20261121.md).
+
 Writers’ pauses were measured from edits and suggestion requests. Diary participants rated situations and feelings over repeated reports. The table records the registered readings, uncertainty and the analyst’s guesses made before the data. Local execution used temporary root DRT1-20261121 and open-source manifest cc63f8f6ffb5a47845b98b0d754b6412c18b0e6c79ea5badd8466d5589075f6d.
 
 | Row | Estimate and 95% interval | Decision and bar | Advance guess | Limit and ledger record |

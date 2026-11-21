@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately. [PST6 return](../results/phase_2_4_stage_15/WEEK5/BR_PST6_20261121.md).
+
+The registered panels of openESM diary 0076. No slope met the variance bar in all three forms. [All slopes and diagnostics](../results/phase_2_4_stage_15/WEEK5/BR_DIARY_0076_20261121.md).
+
+The registered panels of openESM diary 0072. No slope met the variance bar in all three forms. [All slopes and diagnostics](../results/phase_2_4_stage_15/WEEK5/BR_DIARY_0072_20261121.md).
+
+The registered panels of openESM diary 0060. No slope met the variance bar in all three forms. [All slopes and diagnostics](../results/phase_2_4_stage_15/WEEK5/BR_DIARY_0060_20261121.md).
+
+The registered panels of openESM diary 0057. Held in all three forms: expanded admired_proud_minus_relaxed, expanded admired_relaxed, expanded intellectual_occup_enthusiastic. [All slopes and diagnostics](../results/phase_2_4_stage_15/WEEK5/BR_DIARY_0057_20261121.md).
+
+The registered panels of openESM diary 0056. Held in all three forms: expanded admired_proud, expanded admired_proud_minus_relaxed. [All slopes and diagnostics](../results/phase_2_4_stage_15/WEEK5/BR_DIARY_0056_20261121.md).
+
 All eligible local November 21 panels have completed independent replay. Both writing-log studies used their separate BO allowances. WLG1 compares each writer’s pooled sentence-start and within-sentence pauses across sessions. The original open-source copy and the three qualified MIDUS jobs await the curator’s storage handback. [November 21 return](../results/phase_2_4_stage_15/WEEK5/NOVEMBER_21_EXTENSION_RETURN.md).
 
 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0076_MORE_20261121.md).

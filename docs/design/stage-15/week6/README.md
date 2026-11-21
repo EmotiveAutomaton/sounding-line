@@ -1,5 +1,7 @@
 # Stage 15 Week 6
 
+The [November 21 afternoon addendum](PACKET_ADDENDUM_2026-11-21.md) commissions PST4–PST7 under amendment BR. The [execution note](BR_DIARY_EXECUTION.md) defines the source bindings and replay, and the [constructed qualification](../../../../results/phase_2_4_stage_15/WEEK5/BR_QUALIFICATION_20261121.md) records the simulation check.
+
 The [November 21 packet](PACKET_EXTENSION_2026-11-21.md), [Round 34 handoff](THEORY_HANDOFF_R34.md) and [pre-outcome item decisions](PERSON_ROWS_BINDINGS_20261121.md) govern the open diary work during the storage repair.
 
 **November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](../../../../results/phase_2_4_stage_15/WEEK5/DIARY_OPENING_KP1_0400_20261120.md).

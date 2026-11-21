@@ -1,0 +1,12 @@
+# Afternoon diary analyses under amendment BR
+
+The [approved addendum](PACKET_ADDENDUM_2026-11-21.md) binds the designs, resource allowance and limits. Use the morning’s exact panel, event floor, outcome scaling and primary chronological comparison for each original or expanded slope. Preserve a distinct first-set row when its source context or scale differs. Record unavailable components without guessing.
+
+PST7 is the first pass. Recover the morning’s people, raw variance and interval from the filed aggregates. Reconstruct the unfiled counts and fallback frequencies using the same roster, seed, draw order and per-draw estimator. Report median event counts separately in each half. Count draws using level alone or neither covariate among all 2,000 draws. Include draws for which spread was excluded by its reliability rule in the reported share without spread.
+
+PST4 uses complete paired ratings, their documented floor, and within-half sums of squared centered ratings as weights. Require two observations at the floor and two above, with two distinct above-floor values. The parents’ diary and dichotomous student argument exposures are void for PST4. PST5 keeps whole days at the start and end, rounding one third of the inclusive personal calendar span as in the supplied fixture. The intervening days are excluded. Retain the original binary contrasts, support and weights. The raw, graded and separated forms each report their own denominator. PST6 uses only elementary held slopes and separates pairs according to whether they share an event. Keep the limits on self-report, proxy rating error, nonlinearity, and loss of support with a gap.
+
+DESIGN CHECK. First reproduce the two supplied simulation tables with the build, all 100 seeds per cell, 300 whole-person draws, and maximum absolute difference 0.10 in the registered frequencies. Compare missing and irregular observations and boundary cases against explicit per-person fits. For the studies use 2,000 whole-person draws and independent replay. Preserve the morning's adjustment fallbacks. A failed binding voids the affected comparison. Cap cumulative measurement, failures, preparation and replay at 20,000 CPU-seconds separately for each diary under BR. Keep all prior charges and the campaign ceiling.
+
+Restoration preempts new addendum starts. On the curator’s release, complete morning step 6 and prioritize the three sealed runs. Study inputs during the hold come only from the verified temporary root. No sealed run is part of this build.
+

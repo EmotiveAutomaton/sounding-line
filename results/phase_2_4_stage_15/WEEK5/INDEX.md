@@ -1,5 +1,19 @@
 # Week 5 verified records
 
+**S15-W6-BR-PST6-20261121:** [Record](BR_PST6_20261121.md). The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately.
+
+**S15-W6-BR-0076-20261121:** [Record](BR_DIARY_0076_20261121.md). The registered panels of openESM diary 0076. No slope met the variance bar in all three forms.
+
+**S15-W6-BR-0072-20261121:** [Record](BR_DIARY_0072_20261121.md). The registered panels of openESM diary 0072. No slope met the variance bar in all three forms.
+
+**S15-W6-BR-0060-20261121:** [Record](BR_DIARY_0060_20261121.md). The registered panels of openESM diary 0060. No slope met the variance bar in all three forms.
+
+**S15-W6-BR-0057-20261121:** [Record](BR_DIARY_0057_20261121.md). The registered panels of openESM diary 0057. Held in all three forms: expanded admired_proud_minus_relaxed, expanded admired_relaxed, expanded intellectual_occup_enthusiastic.
+
+**S15-W6-BR-0056-20261121:** [Record](BR_DIARY_0056_20261121.md). The registered panels of openESM diary 0056. Held in all three forms: expanded admired_proud, expanded admired_proud_minus_relaxed.
+
+**OPS-S15-W6-BR-QUAL-20261121:** [Record](BR_QUALIFICATION_20261121.md). The graded and separated-period estimators met the registered tolerance in all 40 frequencies across 20 synthetic cases.
+
 **S15-W6-PST-0076-MORE-20261121:** [Record](PST_PERSON_SLOPES_0076_MORE_20261121.md). 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
 
 **S15-W6-PST-0072-MORE-20261121:** [Record](PST_PERSON_SLOPES_0072_MORE_20261121.md). 562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.

@@ -1,5 +1,227 @@
 # FINDINGS — the method archive
 
+### S15-W6-BR-PST6-20261121
+
+Do elementary graded response slopes that survived all three checks covary?
+
+The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately.
+
+same-event status-diary pool: no verdict. different-event status-diary pool: no verdict.
+
+These are graded, elementary held slopes. Pleasant responses enter. This description cannot establish a common sensitivity restricted to unpleasant events. Reports share a rater and prompt.
+
+Only the expanded status panels enter the cross-diary pool, so repeated first-panel rows never count twice. Qualifying within-source pairs use shared person resamples. Distinct diaries use independent resamples. Each source or pair contributes inverse bootstrap variance when pooling requires weights.
+
+| Diary | Panel | Pair or group | Correlation [95% interval] | Reading |
+|---|---|---|---:|---|
+| 0056 | expanded | same | unavailable | no verdict |
+| 0056 | expanded | different | unavailable | no verdict |
+| 0057 | expanded | admired_relaxed / intellectual_occup_enthusiastic | undefined [-0.61141, 5.6719] | no verdict |
+| 0057 | expanded | different | unavailable | no verdict |
+| 0057 | expanded | same | unavailable | no verdict |
+| 0057 | first | different | unavailable | no verdict |
+| 0057 | first | same | unavailable | no verdict |
+| 0060 | expanded | same | unavailable | no verdict |
+| 0060 | expanded | different | unavailable | no verdict |
+| 0060 | first | same | unavailable | no verdict |
+| 0060 | first | different | unavailable | no verdict |
+| 0072 | expanded | same | unavailable | no verdict |
+| 0072 | expanded | different | unavailable | no verdict |
+| 0076 | expanded | same | unavailable | no verdict |
+| 0076 | expanded | different | unavailable | no verdict |
+| pooled status diaries | combined | same | unavailable | no verdict |
+| pooled status diaries | combined | different | unavailable | no verdict |
+
+0057 admired_relaxed / intellectual_occup_enthusiastic. Adjusted cross-slope covariance -0.078783 [-0.029167, 0.042321]. First-factor share unavailable with this pair support.
+
+Curator roll-up: P4 · Do elementary graded response slopes that survived all three checks covary? · **Narrows** · The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately. · Project scope: eligible held elementary person slopes in five temporary-root diaries · Next: Read under the registered descriptive limit. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BR_PST6_20261121.md.
+
+### S15-W6-BR-0076-20261121
+
+Did individual differences repeat after accounting for graded event severity and separating the two observation periods?
+
+The registered panels of openESM diary 0076. No slope met the variance bar in all three forms.
+
+Each variance uses 2,000 whole-person draws. The bar for each form is an interval strictly above zero.
+
+| Set and slope | Morning variance | PST4 graded variance (people) | PST5 gap variance (people) | Held or failed form |
+|---|---:|---:|---:|---|
+| expanded stress_playfulness | -0.10295 [-1.1765, 0.090697] | -0.0010479 [-0.1754, 0.076832] (10) | -0.38384 [-1.1895, 0.42823] (4) | not held: morning, graded, gap |
+
+Diagnostics for inconclusive morning slopes
+
+| Set and slope | People | Median events, first / second half | Level correlation | Draws without spread | Draws unadjusted | Raw variance and interval |
+|---|---:|---|---:|---:|---:|---|
+| expanded stress_playfulness | 16 | [4.0, 4.0] | 0.539194123557167 | 1.0 | 1.0 | 0.059429 [-0.25209, 0.45645] |
+
+The event and feeling were reported together by the same person. A noisy rating or a nonlinear response can leave a severity effect. Separated thirds can lose support, particularly in short diaries. The three forms may retain different people.
+
+[Figure](BR_DIARY_0076_20261121.png) · [Numerical sheet](BR_DIARY_0076_20261121_SHEET.md).
+
+Curator roll-up: P4 · Did individual differences repeat after accounting for graded event severity and separating the two observation periods? · **Narrows** · The registered panels of openESM diary 0076. No slope met the variance bar in all three forms. · Project scope: The registered panels of openESM diary 0076 · Next: Evaluate elementary held pairs under PST6. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BR_DIARY_0076_20261121.md.
+
+### S15-W6-BR-0072-20261121
+
+Did individual differences repeat after accounting for graded event severity and separating the two observation periods?
+
+The registered panels of openESM diary 0072. No slope met the variance bar in all three forms.
+
+Each variance uses 2,000 whole-person draws. The bar for each form is an interval strictly above zero.
+
+| Set and slope | Morning variance | PST4 graded variance (people) | PST5 gap variance (people) | Held or failed form |
+|---|---:|---:|---:|---|
+| expanded child_distress_anger | 0.10871 [-0.30641, 0.2387] | unavailable (Parent diary void under BR) | -0.068216 [-0.48568, 0.17244] (53) | not held: morning, graded, gap |
+| expanded child_distress_worry | 0.070344 [-0.08537, 0.17824] | unavailable (Parent diary void under BR) | -0.016185 [-0.74052, 0.1282] (53) | not held: morning, graded, gap |
+| expanded child_distress_worry_minus_anger | -0.021036 [-0.20045, 0.12736] | unavailable (Parent diary void under BR) | -0.2846 [-0.73312, -0.0086744] (53) | not held: morning, graded, gap |
+| expanded stressor_anger | -0.18231 [-0.69991, 0.022698] | unavailable (Parent diary void under BR) | 0.02326 [-0.41938, 0.22843] (11) | not held: morning, graded, gap |
+| expanded stressor_fear | 0.20346 [-0.11489, 0.46206] | unavailable (Parent diary void under BR) | 0.23982 [-2.162, 0.94002] (11) | not held: morning, graded, gap |
+| expanded stressor_fear_worry_minus_anger | 0.12451 [-0.27902, 0.49666] | unavailable (Parent diary void under BR) | 0.43478 [-0.28456, 1.0063] (11) | not held: morning, graded, gap |
+| expanded stressor_worry | 0.078729 [-0.29017, 0.35135] | unavailable (Parent diary void under BR) | 0.21203 [-0.49117, 0.63281] (11) | not held: morning, graded, gap |
+
+Diagnostics for inconclusive morning slopes
+
+| Set and slope | People | Median events, first / second half | Level correlation | Draws without spread | Draws unadjusted | Raw variance and interval |
+|---|---:|---|---:|---:|---:|---|
+| expanded child_distress_anger | 106 | [5.0, 4.0] | 0.37511226779894896 | 1.0 | 1.0 | 0.10901 [-0.069277, 0.3216] |
+| expanded child_distress_worry | 106 | [5.0, 4.0] | 0.5509714139741531 | 1.0 | 1.0 | 0.071448 [-0.045289, 0.19095] |
+| expanded child_distress_worry_minus_anger | 106 | [5.0, 4.0] | 0.49293634277786735 | 1.0 | 1.0 | -0.012543 [-0.15352, 0.13449] |
+| expanded stressor_anger | 30 | [3.5, 2.0] | 0.8317583646549752 | 1.0 | 1.0 | -0.16042 [-0.37362, 0.050147] |
+| expanded stressor_fear | 30 | [3.5, 2.0] | 0.6858851218907495 | 1.0 | 1.0 | 0.23367 [-0.088107, 0.54943] |
+| expanded stressor_fear_worry_minus_anger | 30 | [3.5, 2.0] | 0.5397524619437365 | 1.0 | 1.0 | 0.15509 [-0.20828, 0.6117] |
+| expanded stressor_worry | 30 | [3.5, 2.0] | 0.6617205759213906 | 1.0 | 1.0 | 0.11593 [-0.26245, 0.45903] |
+
+The event and feeling were reported together by the same person. A noisy rating or a nonlinear response can leave a severity effect. Separated thirds can lose support, particularly in short diaries. The three forms may retain different people.
+
+[Figure](BR_DIARY_0072_20261121.png) · [Numerical sheet](BR_DIARY_0072_20261121_SHEET.md).
+
+Curator roll-up: P4 · Did individual differences repeat after accounting for graded event severity and separating the two observation periods? · **Narrows** · The registered panels of openESM diary 0072. No slope met the variance bar in all three forms. · Project scope: The registered panels of openESM diary 0072 · Next: Evaluate elementary held pairs under PST6. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BR_DIARY_0072_20261121.md.
+
+### S15-W6-BR-0060-20261121
+
+Did individual differences repeat after accounting for graded event severity and separating the two observation periods?
+
+The registered panels of openESM diary 0060. No slope met the variance bar in all three forms.
+
+Each variance uses 2,000 whole-person draws. The bar for each form is an interval strictly above zero.
+
+| Set and slope | Morning variance | PST4 graded variance (people) | PST5 gap variance (people) | Held or failed form |
+|---|---:|---:|---:|---|
+| expanded argument_anger | -0.067065 [-0.58927, 0.13305] | unavailable (Binary argument event) | -0.27413 [-1.7773, 0.10641] (7) | not held: morning, graded, gap |
+| expanded argument_anger_minus_fear | -0.65932 [-4.295, 0.048266] | unavailable (Binary argument event) | -0.87467 [-3.7839, -0.07155] (7) | not held: morning, graded, gap |
+| expanded argument_fear | -0.48505 [-3.0618, -0.071223] | unavailable (Binary argument event) | -3.4157 [-7.2291, -0.17056] (7) | not held: morning, graded, gap |
+| expanded contentment | 0.038163 [-0.02694, 0.084977] | 0.017737 [-0.0088222, 0.0375] (102) | -0.008184 [-0.093878, 0.064009] (109) | not held: morning, graded, gap |
+| expanded curiosity | -0.013943 [-1.5985, 0.15116] | 0.032547 [-0.33745, 0.082058] (7) | -7.0129 [-7.3569, 0.79558] (5) | not held: morning, graded, gap |
+| expanded curiosity_minus_contentment | -0.020782 [-0.97322, 0.1613] | 0.098571 [-0.093316, 0.13029] (7) | 0.23456 [-3.5983, 0.44872] (5) | not held: morning, graded, gap |
+| first argument_anger | -0.067065 [-0.58927, 0.13305] | unavailable (Binary argument event) | -0.27413 [-1.7773, 0.10641] (7) | not held: morning, graded, gap |
+| first argument_anger_minus_fear | -0.65932 [-4.295, 0.048266] | unavailable (Binary argument event) | -0.87467 [-3.7839, -0.07155] (7) | not held: morning, graded, gap |
+| first argument_fear | -0.48505 [-3.0618, -0.071223] | unavailable (Binary argument event) | -3.4157 [-7.2291, -0.17056] (7) | not held: morning, graded, gap |
+| first curiosity | -0.013943 [-1.5985, 0.15116] | 0.032547 [-0.33745, 0.082058] (7) | -7.0129 [-7.3569, 0.79558] (5) | not held: morning, graded, gap |
+
+Diagnostics for inconclusive morning slopes
+
+| Set and slope | People | Median events, first / second half | Level correlation | Draws without spread | Draws unadjusted | Raw variance and interval |
+|---|---:|---|---:|---:|---:|---|
+| expanded argument_fear | 15 | [4.0, 3.0] | 0.7300432554103522 | 1.0 | 1.0 | -0.38948 [-0.8148, -0.013185] |
+| expanded contentment | 135 | [12.0, 9.0] | 0.7510021780405138 | 1.0 | 1.0 | 0.038814 [-0.019492, 0.095492] |
+| expanded curiosity | 13 | [3.0, 3.0] | 0.611076948995466 | 1.0 | 1.0 | 0.16075 [-0.097212, 0.46707] |
+| expanded curiosity_minus_contentment | 13 | [3.0, 3.0] | 0.7940234258588198 | 1.0 | 1.0 | 0.17489 [-0.15693, 0.65732] |
+| first argument_fear | 15 | [4.0, 3.0] | 0.7300432554103522 | 1.0 | 1.0 | -0.38948 [-0.8148, -0.013185] |
+| first curiosity | 13 | [3.0, 3.0] | 0.611076948995466 | 1.0 | 1.0 | 0.16075 [-0.097212, 0.46707] |
+
+The event and feeling were reported together by the same person. A noisy rating or a nonlinear response can leave a severity effect. Separated thirds can lose support, particularly in short diaries. The three forms may retain different people.
+
+[Figure](BR_DIARY_0060_20261121.png) · [Numerical sheet](BR_DIARY_0060_20261121_SHEET.md).
+
+Curator roll-up: P4 · Did individual differences repeat after accounting for graded event severity and separating the two observation periods? · **Narrows** · The registered panels of openESM diary 0060. No slope met the variance bar in all three forms. · Project scope: The registered panels of openESM diary 0060 · Next: Evaluate elementary held pairs under PST6. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BR_DIARY_0060_20261121.md.
+
+### S15-W6-BR-0057-20261121
+
+Did individual differences repeat after accounting for graded event severity and separating the two observation periods?
+
+The registered panels of openESM diary 0057. Held in all three forms: expanded admired_proud_minus_relaxed, expanded admired_relaxed, expanded intellectual_occup_enthusiastic.
+
+Each variance uses 2,000 whole-person draws. The bar for each form is an interval strictly above zero.
+
+| Set and slope | Morning variance | PST4 graded variance (people) | PST5 gap variance (people) | Held or failed form |
+|---|---:|---:|---:|---|
+| expanded admired_proud | 0.096254 [-0.25924, 0.18172] | 0.021058 [-0.0026681, 0.032583] (379) | 0.14053 [0.06196, 0.21316] (379) | not held: morning, graded |
+| expanded admired_proud_minus_relaxed | 0.15886 [0.064183, 0.24172] | 0.027852 [0.010926, 0.044676] (379) | 0.13332 [0.012569, 0.23421] (379) | held |
+| expanded admired_relaxed | 0.072556 [0.02193, 0.12345] | 0.0080658 [0.0015472, 0.014355] (379) | 0.061727 [0.0046136, 0.12004] (379) | held |
+| expanded criticised_anger | -0.033668 [-0.44126, 0.18976] | 0.017104 [-0.050796, 0.033088] (285) | 0.098544 [0.0019268, 0.17261] (305) | not held: morning, graded |
+| expanded criticised_shame | -0.22272 [-2.513, 0.075219] | 0.0023172 [-0.12556, 0.032528] (285) | -0.078154 [-0.49667, 0.065856] (305) | not held: morning, graded, gap |
+| expanded ignored_anger | 0.19994 [-0.36637, 0.31856] | 0.039643 [-0.016501, 0.063176] (151) | 0.18524 [-0.025561, 0.33499] (158) | not held: morning, graded, gap |
+| expanded ignored_shame | 0.457 [-1.4342, 1.2782] | 0.033161 [-0.026628, 0.088192] (151) | 0.52232 [-0.96418, 1.7064] (158) | not held: morning, graded, gap |
+| expanded intellectual_enthusiastic_minus_relaxed | 0.13738 [0.011047, 0.23204] | 0.017011 [0.0055516, 0.027709] (216) | 0.14838 [-0.015085, 0.25858] (168) | not held: gap |
+| expanded intellectual_occup_enthusiastic | 0.17938 [0.099347, 0.25842] | 0.022147 [0.014161, 0.029689] (216) | 0.18112 [0.082166, 0.29005] (168) | held |
+| expanded intellectual_occup_relaxed | 0.048676 [-0.028951, 0.11787] | 0.0094768 [0.0024464, 0.015818] (216) | 0.03519 [-0.075389, 0.12296] (168) | not held: morning, gap |
+| expanded sidelined_anger | 0.30162 [-0.18791, 0.56473] | 0.020476 [-0.52809, 0.087614] (105) | 0.28077 [-0.17414, 0.59155] (126) | not held: morning, graded, gap |
+| expanded upstaged_envy | 0.28506 [-1.1967, 0.72125] | 0.084946 [-0.075207, 0.16204] (76) | 0.079202 [-1.6437, 0.31371] (98) | not held: morning, graded, gap |
+| first criticism_anger | -0.020406 [-0.55672, 0.18518] | 0.016089 [-0.043431, 0.032662] (284) | 0.09168 [-0.01207, 0.16414] (306) | not held: morning, graded, gap |
+| first criticism_shame | -0.20732 [-3.1222, 0.084463] | 0.0051446 [-0.14432, 0.035881] (284) | -0.074843 [-0.57233, 0.069408] (306) | not held: morning, graded, gap |
+
+Diagnostics for inconclusive morning slopes
+
+| Set and slope | People | Median events, first / second half | Level correlation | Draws without spread | Draws unadjusted | Raw variance and interval |
+|---|---:|---|---:|---:|---:|---|
+| expanded admired_proud | 482 | [7.0, 6.0] | 0.5671949865878072 | 1.0 | 1.0 | 0.17221 [0.1068, 0.23387] |
+| expanded criticised_anger | 415 | [6.0, 4.0] | 0.46229682547173645 | 1.0 | 1.0 | 0.16124 [0.086358, 0.24586] |
+| expanded criticised_shame | 415 | [6.0, 4.0] | 0.5337518021359031 | 1.0 | 1.0 | 0.16637 [0.068562, 0.26255] |
+| expanded ignored_anger | 222 | [5.0, 4.0] | 0.44838107369319463 | 1.0 | 1.0 | 0.28547 [0.14476, 0.42252] |
+| expanded ignored_shame | 222 | [5.0, 4.0] | 0.5188693800508284 | 1.0 | 1.0 | 0.55052 [-0.030463, 1.4209] |
+| expanded intellectual_occup_relaxed | 244 | [11.5, 9.0] | 0.5190865248959923 | 1.0 | 1.0 | 0.04934 [-0.022486, 0.12752] |
+| expanded sidelined_anger | 175 | [4.0, 4.0] | 0.3351943523753993 | 1.0 | 1.0 | 0.45377 [0.2258, 0.70612] |
+| expanded upstaged_envy | 125 | [5.0, 4.0] | 0.6387917893779341 | 1.0 | 1.0 | 0.44214 [0.061616, 0.92856] |
+| first criticism_anger | 413 | [6.0, 4.0] | 0.45763919360239913 | 1.0 | 1.0 | 0.15949 [0.089038, 0.2437] |
+| first criticism_shame | 413 | [6.0, 4.0] | 0.5332187263977416 | 1.0 | 1.0 | 0.16669 [0.071409, 0.25999] |
+
+The event and feeling were reported together by the same person. A noisy rating or a nonlinear response can leave a severity effect. Separated thirds can lose support, particularly in short diaries. The three forms may retain different people.
+
+[Figure](BR_DIARY_0057_20261121.png) · [Numerical sheet](BR_DIARY_0057_20261121_SHEET.md).
+
+Curator roll-up: P4 · Did individual differences repeat after accounting for graded event severity and separating the two observation periods? · **Narrows** · The registered panels of openESM diary 0057. Held in all three forms: expanded admired_proud_minus_relaxed, expanded admired_relaxed, expanded intellectual_occup_enthusiastic. · Project scope: The registered panels of openESM diary 0057 · Next: Evaluate elementary held pairs under PST6. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BR_DIARY_0057_20261121.md.
+
+### S15-W6-BR-0056-20261121
+
+Did individual differences repeat after accounting for graded event severity and separating the two observation periods?
+
+The registered panels of openESM diary 0056. Held in all three forms: expanded admired_proud, expanded admired_proud_minus_relaxed.
+
+Each variance uses 2,000 whole-person draws. The bar for each form is an interval strictly above zero.
+
+| Set and slope | Morning variance | PST4 graded variance (people) | PST5 gap variance (people) | Held or failed form |
+|---|---:|---:|---:|---|
+| expanded admired_proud | 0.091061 [0.030876, 0.13989] | 0.020272 [0.013009, 0.027302] (170) | 0.098316 [0.03307, 0.15516] (176) | held |
+| expanded admired_proud_minus_relaxed | 0.123 [0.040458, 0.2038] | 0.032335 [0.019391, 0.044538] (170) | 0.11854 [0.027349, 0.20959] (176) | held |
+| expanded admired_relaxed | 0.049856 [0.0049059, 0.08368] | 0.011261 [0.0057369, 0.015928] (170) | 0.058107 [-0.0030402, 0.093136] (176) | not held: gap |
+| expanded criticised_anger | 0.23604 [0.053798, 0.39939] | 0.058268 [0.018224, 0.0851] (165) | 0.2268 [-0.019962, 0.39522] (181) | not held: gap |
+| expanded criticised_shame | -7.3911e-05 [-0.54199, 0.097084] | -0.015521 [-0.23712, 0.018645] (165) | 0.038676 [-0.64673, 0.13126] (181) | not held: morning, graded, gap |
+| expanded ignored_anger | 0.13356 [-0.17543, 0.29879] | 0.069846 [0.0049806, 0.10139] (99) | 0.014178 [-0.69944, 0.19048] (126) | not held: morning, gap |
+| expanded ignored_shame | 0.095757 [-0.22466, 0.20244] | 0.01289 [-0.020711, 0.033425] (99) | -0.0026594 [-1.509, 0.21931] (126) | not held: morning, graded, gap |
+| expanded sidelined_anger | 0.1551 [-0.095593, 0.3139] | 0.02789 [-0.041506, 0.077046] (77) | 0.076995 [-0.21482, 0.22855] (90) | not held: morning, graded, gap |
+| expanded upstaged_envy | 0.1034 [-0.32906, 0.28533] | 0.0091112 [-0.12206, 0.086236] (49) | 0.00034529 [-3.3876, 0.3362] (63) | not held: morning, graded, gap |
+
+Diagnostics for inconclusive morning slopes
+
+| Set and slope | People | Median events, first / second half | Level correlation | Draws without spread | Draws unadjusted | Raw variance and interval |
+|---|---:|---|---:|---:|---:|---|
+| expanded criticised_shame | 197 | [7.0, 9.0] | 0.5363313496323686 | 1.0 | 1.0 | 0.080457 [-0.00286, 0.16318] |
+| expanded ignored_anger | 140 | [7.0, 5.0] | 0.6607297085103794 | 1.0 | 1.0 | 0.30592 [0.035193, 0.75734] |
+| expanded ignored_shame | 140 | [7.0, 5.0] | 0.6545240364632975 | 1.0 | 1.0 | 0.13607 [0.02946, 0.24942] |
+| expanded sidelined_anger | 102 | [6.0, 5.0] | 0.4354562672849137 | 1.0 | 1.0 | 0.27274 [0.12138, 0.44444] |
+| expanded upstaged_envy | 72 | [5.5, 5.5] | 0.624841999712268 | 1.0 | 1.0 | 0.20191 [0.022757, 0.39644] |
+
+The event and feeling were reported together by the same person. A noisy rating or a nonlinear response can leave a severity effect. Separated thirds can lose support, particularly in short diaries. The three forms may retain different people.
+
+[Figure](BR_DIARY_0056_20261121.png) · [Numerical sheet](BR_DIARY_0056_20261121_SHEET.md).
+
+Curator roll-up: P4 · Did individual differences repeat after accounting for graded event severity and separating the two observation periods? · **Narrows** · The registered panels of openESM diary 0056. Held in all three forms: expanded admired_proud, expanded admired_proud_minus_relaxed. · Project scope: The registered panels of openESM diary 0056 · Next: Evaluate elementary held pairs under PST6. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BR_DIARY_0056_20261121.md.
+
+### OPS-S15-W6-BR-QUAL-20261121
+
+The graded and separated-period estimators met the registered tolerance in all 40 frequencies across 20 synthetic cases. Each cell used the supplied 100 seeds and 300 whole-person draws. The five source fixtures and two pair checks also passed. One test import was corrected. The first 0056 attempt stopped before reading its diary because its output directory was missing. Its terminal and charge are preserved. The native preparation now creates the directory before launch.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The graded and separated-period estimators met the registered tolerance in all 40 frequencies across 20 synthetic cases.; project meaning: scoped operational record; next engineering obligation: Use the qualified forms on the authorized local diaries.; public scientific claim unchanged; curator decision required: No new decision. Detail: BR_QUALIFICATION_20261121.md.
+
 ### S15-W6-PST-0076-MORE-20261121
 
 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.

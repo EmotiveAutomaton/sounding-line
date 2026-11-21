@@ -1,0 +1,3 @@
+# BR QUALIFICATION 20261121
+
+The graded and separated-period estimators met the registered tolerance in all 40 frequencies across 20 synthetic cases. Each cell used the supplied 100 seeds and 300 whole-person draws. The five source fixtures and two pair checks also passed. One test import was corrected. The first 0056 attempt stopped before reading its diary because its output directory was missing. Its terminal and charge are preserved. The native preparation now creates the directory before launch.
