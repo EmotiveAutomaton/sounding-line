@@ -17,6 +17,35 @@ and [operations](CODEX_OPERATIONS.md). This refresh ran no scientific analysis o
 downloaded public datasets and isolated metadata-reader dependencies onto the NAS;
 the project environment was not changed.
 
+## External data intake and scouting needs 18–23, November 21, 2026
+
+The collection added seven files across three scouting releases. It also registered
+the curator's European Social Survey export and TalkBank CABank deposit. Use
+`SOUNDING_LINE_DATA_ROOT` and the registry slugs to locate the source cards.
+
+| Curator deposit | Available material | Before use |
+|---|---|---|
+| European Social Survey · `european-social-survey` | Portal ZIP with SPSS data and its dictionary. All 21 Human Values Scale fields are documented, along with country, round, edition and weights. | CC BY-NC-SA 4.0. Recover the portal selection or citation receipt to pin exact coverage. [ESS data portal](https://ess.sikt.no/) |
+| TalkBank CABank · `talkbank-cabank` | 35 verified transcript ZIPs. The 60 usable Santa Barbara WAVs match the 60 CHAT transcripts by recording ID. Use the manifest's paths with the saved query suffix. | Registration and corpus-specific terms apply. WAV headers and lengths passed. Full audio hashes are pending. [TalkBank rules](https://talkbank.org/0share/rules.html) · [Santa Barbara corpus](https://talkbank.org/ca/access/SBCSAE.html) |
+
+| Need | Available now | Remaining item |
+|---|---|---|
+| 18 · Second rater at the same moment | The new teaching diary pairs teacher and mentor assessments by person and occasion. The held Rauers and Riediger diary has synchronized reports of each partner's own affect. | Teaching diary licence: none stated; tests only. Review if the work specifically requires independent ratings of the same everyday emotional event. [Teaching diary](https://osf.io/p642h/) |
+| 19 · Monetary game and round-by-round feelings | The new ultimatum-game release records expected and experienced valence and arousal for each offer, with a monetary bonus tied to a selected trial. The data, dictionary and README are held. | CC BY 4.0. [Study deposit](https://osf.io/de5a6/) |
+| 20 · Compensation for giving up a value | The new Portuguese Sacredness Scale release contains 20 item-level hypothetical euro compensation and refusal fields. | Licence: none stated; tests only. Actual auction bids would require separate access. [Portuguese release](https://osf.io/fus8e/) · [Auction study](https://doi.org/10.1098/rstb.2011.0262) |
+| 21 · Later event settlement | Held MIDUS core diaries record whether each reported issue was resolved by the daily interview. | A source that tracks the same event until settlement is still open. |
+| 22 · Repeated daily prompts, trait and event settlement | Held openESM 0010, 0011 and 0027 combine a trait score with several prompts per day. Held MIDUS provides a survey trait with daily settlement status. | A source with all three in the same release is still open. |
+| 23 · Recorded conversations and mutual attraction ratings | Held Columbia speed dating provides the rating table. Münster's Date me for Science collected recordings and attraction ratings from both speakers. | Münster project approval is needed for linked recordings and ratings. [Project and application](https://osf.io/n7dw9/) |
+
+**MIDUS twins.** The held wave-two diary has `M2FAMNUM` for family clustering.
+Dedicated twin-pair and zygosity fields are unverified in the held codebooks.
+MIDUS 1 NSDE includes an identical and fraternal twin subsample and remains a
+curator-supplied deposit. [ICPSR 3725 v6](https://doi.org/10.3886/ICPSR03725.v6)
+
+CASE and Wilming remain on the curator's transfer hold. The acquisition and
+access to-do list is in `_registry/NEEDS_CURATOR.md`. The collector's full
+scouting return is `_handoffs/DC-20261121-02.md`.
+
 ## External collection additions, November 21, 2026
 
 The external registry now includes six new releases with 29 downloaded files (279,811,889 bytes). The full CASE and Wilming releases have source cards and provider file inventories while their transfers are on hold. Resolve the paths below from `SOUNDING_LINE_DATA_ROOT`. Each source card links its official notice. File sizes, hashes and transport provenance are in the corresponding manifests.
@@ -305,6 +334,8 @@ Additional current primitives and their checked limits:
 | Week 6 preparation | `runners/drive/cards/week6_*` and [Week 6 design index](design/stage-15/week6/README.md). | Reviewed preparation, runtime/budget checks and candidate plans exist. Missing paired annotations/imports, failed instruments and per-card admission remain explicit; a fixture is not an executed human study. |
 
 ### Remaining acquisition and source qualification
+
+[November 21 intake, scouting and pending access](#external-data-intake-and-scouting-needs-1823-november-21-2026) updates the dated inventory below.
 
 This is the outstanding acquisition list as of November 15. A named folder or
 metadata card does not mean its dataset was downloaded.
