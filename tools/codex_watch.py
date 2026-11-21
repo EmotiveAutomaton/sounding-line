@@ -302,6 +302,8 @@ def scan(config, *, repo=REPO, state=STATE, baseline=False, now=None, baseline_s
             # Absence is retained: removing and recreating the same bytes needs inspection.
             db.execute("INSERT OR REPLACE INTO observed VALUES (?,?)", (name, current))
             db.execute("INSERT OR REPLACE INTO file_stats VALUES (?,?,?)", (name, *stamp))
+        idle_seconds = config.get("owner_idle_seconds", config.get("fallback_seconds", 21600))
+        put(db, "watch_idle_seconds", idle_seconds)
         if baseline:
             put(db, "baseline_at", now)
             put(db, "last_fallback", now)
@@ -315,7 +317,7 @@ def scan(config, *, repo=REPO, state=STATE, baseline=False, now=None, baseline_s
             elif not owner_active(db, now):
                 attended = max(get(db, "last_fallback", now), get(db, "owner_seen", 0),
                                get(db, "last_acknowledged", 0))
-                if now - attended >= config.get("fallback_seconds", 28800):
+                if now - attended >= idle_seconds:
                     changes.append(add_event(db, DEADLINE_PATH, str(int(now)), now))
                     put(db, "last_fallback", now)
         if not baseline:

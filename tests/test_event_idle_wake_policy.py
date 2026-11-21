@@ -1,4 +1,4 @@
-"""Owner-ratified event delivery and resettable four-hour inactivity fallback."""
+"""Owner-ratified event delivery and resettable six-hour inactivity fallback."""
 import json
 from pathlib import Path
 import subprocess
@@ -21,20 +21,20 @@ def setup(tmp_path):
         put(db, 'owner_seen', 100)
         put(db, 'last_fallback', 100)
     cfg = dict(codex='codex', paths=[], wake_mode='events_and_idle',
-               fallback_seconds=14400, routine_interval_seconds=0, transition_only=False)
+               fallback_seconds=14400, owner_idle_seconds=21600, routine_interval_seconds=0, transition_only=False)
     return repo, state, cfg
 
 
-def test_four_hours_not_one_and_rearms_from_attention(tmp_path):
+def test_six_hours_not_four_and_rearms_from_attention(tmp_path):
     repo, state, cfg = setup(tmp_path)
-    for at in (3700, 14500 - 1):
+    for at in (3700, 14500, 21700 - 1):
         assert watch.scan(cfg, repo=repo, state=state, now=at) == []
-    events = watch.scan(cfg, repo=repo, state=state, now=14500)
+    events = watch.scan(cfg, repo=repo, state=state, now=21700)
     assert len(events) == 1
-    assert watch.scan(cfg, repo=repo, state=state, now=14501) == []
-    watch.acknowledge(events[0], state=state, now=15000)
-    assert watch.scan(cfg, repo=repo, state=state, now=29399) == []
-    assert len(watch.scan(cfg, repo=repo, state=state, now=29400)) == 1
+    assert watch.scan(cfg, repo=repo, state=state, now=21701) == []
+    watch.acknowledge(events[0], state=state, now=22000)
+    assert watch.scan(cfg, repo=repo, state=state, now=43599) == []
+    assert len(watch.scan(cfg, repo=repo, state=state, now=43600)) == 1
 
 
 def test_owner_activity_resets_idle_and_fixed_health_is_disabled(tmp_path):
@@ -43,8 +43,8 @@ def test_owner_activity_resets_idle_and_fixed_health_is_disabled(tmp_path):
         put(db, 'owner_seen', 14000)
         put(db, 'health_schedule', dict(owner=OWNER, due=1, interval_seconds=21600))
     assert watch.scan(cfg, repo=repo, state=state, now=14500) == []
-    assert watch.scan(cfg, repo=repo, state=state, now=28399) == []
-    assert len(watch.scan(cfg, repo=repo, state=state, now=28400)) == 1
+    assert watch.scan(cfg, repo=repo, state=state, now=35599) == []
+    assert len(watch.scan(cfg, repo=repo, state=state, now=35600)) == 1
 
 
 def test_terminal_event_delivery_does_not_wait_for_idle(tmp_path):

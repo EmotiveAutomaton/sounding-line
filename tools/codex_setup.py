@@ -44,7 +44,9 @@ def prepare(workspace, codex, thread):
     atomic_json(STATE / "install-plan.json", plan)
     if not (STATE / "watch.json").exists():
         atomic_json(STATE / "watch.json", {"codex": str(Path(codex).resolve()),
-            "interval_seconds": 60, "fallback_seconds": 28800,
+            "interval_seconds": 60, "fallback_seconds": 21600, "owner_idle_seconds": 21600,
+            "wake_mode": "events_and_idle", "routine_interval_seconds": 0,
+            "single_pending_wake": True, "queue_transport": "native-api",
             "manifests": ["results/phase_2_4_stage_8/QUEUE_MANIFEST.json"],
             "queue_inventory": True,
             "paths": ["results/phase_2_4_stage_8/CURATOR_PACKET_FINAL.md",

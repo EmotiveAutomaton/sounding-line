@@ -1,0 +1,3 @@
+# MIDUS SEALED TWO WAVE DISPOSITION 20261120
+
+Both joined MIDUS waves ran under the installed seal. Neither released a participant count or a scientific estimate. The mounted synthetic rehearsal passed before the first real wave. The second job reconstructed wave-two eligibility inside the joined mount. Code 12 covers inadequate support or a complementary disclosure check. The code does not distinguish them. No suppressed record or output was inspected. Registered rows 34 through 42, the commissioned NT1.s follow-up, and the BF next-day argument comparisons have no released estimate. Retain all registered rows in the final denominator inventory with disposition ‘could not say’. The two MIDUS waves comprise one source in the combined calibration.

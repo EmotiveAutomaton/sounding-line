@@ -83,34 +83,13 @@ The collector retains its own data and handoff originals.
 The [filed recovery](../results/phase_2_4_stage_15/WEEK5/REBOOT_RECOVERY_20261115.md) preserves the failed chess attempt and authenticates its sealed prefix before a fresh bounded successor. Current calendar pointers identify the two restored services; the exited empty dispatcher is retired. The watcher uses the verified installed executable after its historical path disappeared. No wake cadence or scientific gate changed. Legacy AT/BK admission refuses the later-changed historical policy pin; use an explicit reviewed migration, never rewrite old evidence or bypass the byte check.
 
 
-## Current wake policy: events and four hours of inactivity
+## Completion wakes and six hours of owner inactivity
 
-The curator's November 8 instruction replaces hourly build wakes and fixed
-six-hour health wakes. The watcher delivers events and uses a 14,400-second
-inactivity fallback from the latest owner activity, completed ACK or previous
-idle check. It does not wake merely because an hour passed. Active-owner
-suppression, durable outbox delivery and full write-through before ACK remain.
+While a study runs, prepare the authorized work that can reasonably follow it overnight. Build the runner, source mapping, restart path, cost and known-answer checks, admission command, expected terminal files and filing steps. Record which successors are qualified and which still depend on a result or source. Start each qualified independent successor as capacity opens. Recheck the actual admission limits at launch.
 
-The private configuration uses `wake_mode: events_and_idle`,
-`fallback_seconds: 14400`, `routine_interval_seconds: 0` and
-`transition_only: false`, with no fixed `health_interval_seconds`.
-Persisted `wake_plan` and `health_schedule` are cleared under the recorded owner
-instruction; previous schedules remain in the private migration audit.
-Do not run old helpers that schedule another hourly or half-hourly build check.
+Wake the idle owner promptly on an actionable terminal, failure, disappearance or campaign milestone. The durable watcher collects every event arriving during an active turn or outstanding delivery. One owner wake handles the batch. Start eligible work and record every terminal against its own ID. Recheck pending events before yielding and ACK each only after its complete write-through. The fallback is six hours of owner inactivity, measured from owner activity, a completed ACK or the last idle check. Routine progress and ETA estimates stay local.
 
-The calendar-only successor `runners/drive/calendar_20261107_week5_event_idle.py`
-preserves the original milestone dates and completed marker bytes without
-recreating build deadlines. The original calendar source, plan and owner record
-remain retained. Only its identified calendar process was replaced; research
-workers and the durable watcher were not restarted. Current calendar identity
-and root are in `.agent-state/drive-20261107/CALENDAR_CURRENT.json`.
-Use that pointer for liveness checks; the older calendar is intentionally retired.
-
-Four focused tests cover the exact four-hour boundary, reset after activity or
-ACK, event delivery without waiting for the idle deadline, disabled fixed health,
-and calendar milestone preservation without hourly scheduling. Runtime receipts
-are in `.agent-state/drive-20261107/event-idle-wakes-20261108/`.
-This supersedes scheduling instructions in the historical entries below.
+The watcher reads `owner_idle_seconds` for the inactivity deadline. Its current value is 21,600. The running Week 6 milestone calendar pins the legacy `fallback_seconds` field at 14,400 and reads it on every tick. Keep that field on this installation until the calendar drains. The calendar only emits milestone files. The watcher records the interval it actually used at each scan in `watch_idle_seconds`. The native queue and durable pending-event ledger span service restarts.
 
 ## One outstanding wake, November 9
 
@@ -138,7 +117,7 @@ transport recovery never acknowledges a result, resets the inactivity clock, or
 restarts research. Ambiguous sends without a reconciled receipt remain visible.
 Native inspection failure stops further dispatch until inspection succeeds.
 
-The event triggers and 14,400-second inactivity fallback remain unchanged. The
+The completion triggers and current inactivity fallback use the policy above. The
 native queue repair does not introduce recurring model checks. Verification uses
 disposable queues for burst batching, ACK-before-consumption, concurrent sends,
 deleted wakes, delayed hooks and user-message preservation; production checks

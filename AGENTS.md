@@ -67,19 +67,13 @@ Use `TWO_DAY_IMPLEMENTATION.md` for the approved independent chess split and
 implementation boundaries. New family ceilings require a reviewed runtime
 transition before those families launch; never edit a live worker's pinned code.
 Every new result row includes `activation` beside the existing three tags.
-This packet does not change the event/four-hour/single-pending wake policy below.
+This packet does not change the completion-first, single-pending wake policy below.
 
-**Current wake policy, curator instruction 2026-11-08:** wake on events and after
-four hours of owner inactivity. This replaces the hourly/at-most-sixty-minute
-build wakes in amendment I and the fixed six-hour health cadence below, including
-older grind-skill and packet scheduling defaults. The inactivity fallback resets
-from real owner activity or completed acknowledgements; it is not a repeating
-four-hour deadline independent of activity. Keep terminal, failure, disappearance
-and campaign-milestone events registered. Do not reinstall hourly schedules or
-run historical closure helpers that recreate them. On an event or idle wake,
-inspect and perform authorized work under the same full write-through policy.
-The cheap watcher owns waiting; jobs, gears, limits and scientific scope stay as
-authorized. Current runtime details are in `docs/CODEX_OPERATIONS.md`.
+**Current wake and overnight build policy, curator instruction November 20.**
+
+While a study runs, prepare the authorized work that can reasonably follow it overnight. Build the runner, source mapping, restart path, cost and known-answer checks, admission command, expected terminal files and filing steps. Record which successors are qualified and which still depend on a result or source. Start each qualified independent successor as capacity opens. Recheck the actual admission limits at launch.
+
+Wake the idle owner promptly on an actionable terminal, failure, disappearance or campaign milestone. The durable watcher collects every event arriving during an active turn or outstanding delivery. One owner wake handles the batch. Start eligible work and record every terminal against its own ID. Recheck pending events before yielding and ACK each only after its complete write-through. The fallback is six hours of owner inactivity, measured from owner activity, a completed ACK or the last idle check. Routine progress and ETA estimates stay local.
 
 **Wake delivery, curator instruction 2026-11-09:** keep at most one pending
 operational wake in the owner thread. Collect later events durably while a wake
@@ -88,7 +82,7 @@ guards continue independently. A local result ACK does not prove that its app
 message was consumed: retire an exact pending watcher message only when every
 event in it is fully landed and ACKed. Preserve ordinary user messages. Deleting
 a notification is not a scientific ACK; reconcile missing unlanded notifications
-without losing their events. Events and four-hour inactivity remain the policy.
+without losing their events. The current inactivity interval is defined above.
 
 **Historical six-hour queue health, superseded by the November 8 policy:** the durable watcher
 must request an operational health inspection every six hours, including when

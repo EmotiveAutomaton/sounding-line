@@ -45,17 +45,11 @@ and spending limits override older general defaults. Stage 8 landings write thro
 one final curator packet is reported. A wake never authorizes a new gear, cloud spending,
 research design, or interpreting per-artifact output from an unfinished cell.
 
-## Six-hour health cadence (curator instruction, 2026-10-10)
+## Completion wakes and preparing successors
 
-The watcher now carries an explicitly authorized recurring six-hour queue-health
-inspection alongside immediate transition alerts. This supersedes the prior
-transition-only prohibition at that cadence and the older ETA scheduling defaults
-below. Do not add separate ETA wakes. On a health event inspect native identities,
-progress and output freshness, failures, locks, resource limits, eligible authorized
-work and watcher delivery health. Document findings and perform authorized recovery
-before ACK; its ACK automatically rearms six hours later. Ordinary activity and
-unrelated ACKs do not postpone it. Preserve gear and study scope; intentional GPU
-parking remains healthy when required by the active allocation. No new research is granted.
+While a study runs, prepare the authorized work that can reasonably follow it overnight. Build the runner, source mapping, restart path, cost and known-answer checks, admission command, expected terminal files and filing steps. Record which successors are qualified and which still depend on a result or source. Start each qualified independent successor as capacity opens. Recheck the actual admission limits at launch.
+
+Wake the idle owner promptly on an actionable terminal, failure, disappearance or campaign milestone. The durable watcher collects every event arriving during an active turn or outstanding delivery. One owner wake handles the batch. Start eligible work and record every terminal against its own ID. Recheck pending events before yielding and ACK each only after its complete write-through. The fallback is six hours of owner inactivity, measured from owner activity, a completed ACK or the last idle check. Routine progress and ETA estimates stay local.
 
 ## 2. Queue state
 
@@ -74,22 +68,9 @@ parking remains healthy when required by the active allocation. No new research 
   standing ruling, 2026-08-28)**. Never shift to second gear on inference; he calls the gear.
 - If nothing is running and the queue has stages, find out why before anything else.
 
-### Schedule the next useful check-in
+### Before yielding
 
-- Before yielding with authorized work running, estimate the next point that needs an
-  agent from live progress or existing rates. Wake conservatively early, usually about
-  twenty percent before it; healthy long GPU work normally needs thirty-to-sixty-minute
-  checks, not repeated few-minute turns. Shorter checks need an imminent intervention.
-- Run `python tools/codex_watch.py schedule SECONDS --expected-seconds ESTIMATE --reason REASON`.
-  Record and verify its due time, milestone and basis; report the next check-in. Re-estimate
-  after inspection. Do not create a new forecast project just to set a wake.
-- Routine completion notices accumulate until the check-in. Fully land every delivered
-  result before ACK; notification batching never licenses partial write-through or interim
-  scientific scores. Failures, pauses, interrupts and registered active-queue completion
-  bypass the delay. Keep those terminal paths registered.
-- Suppress redundant routine wakes while already active. Without a recorded estimate the
-  watcher uses a thirty-minute routine cooldown; fixed liveness fallback follows recent
-  owner attention. Waiting belongs to the service, not an occupied agent turn.
+Verify the watcher identity, registered terminal paths, delivery status, and one outstanding wake at most. Use the completion and six-hour inactivity policy above for current work. The hourly build wakes in historical amendment I are superseded.
 
 ## 3. Gather landings
 
