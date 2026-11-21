@@ -1,0 +1,11 @@
+# WRITING CHECKPOINT INTERACTION PILOTS AND SEALED REHEARSAL 20261120
+
+**What survived the handoff?** The writing study retained 1,900 original draws, 200 controls and 3,823 authenticated output files. The preceding block used 1553.27 native CPU seconds. The next request for admission encountered an unidentified workspace Python process and used zero scientific CPU seconds. The process had exited by inspection. Its historical identity could not be established. The replacement retained the same source, model, budget, checkpoint, census and two-thread setting. Its owner and child matched their native identities and 1,933 draw receipts existed at inspection.
+
+**Interaction diaries.** Original cohorts 0042 and 0043 each completed their planned 100 draws. The source rosters contained 342 and 330 people. The pilots used 2.42188 and 1.85938 native CPU seconds. Every output hash matched and both leases cleared. The inclusive card allowance covers the third pilot and all three full runs and replays.
+
+**Spark and the mounted MIDUS fixture.** Invocation 12 returned the expected result for 576 invented people, three argument comparisons, seven daily parameters and 2,000 family draws. The returned file passed the installed gate and its local check. Invocation 13 ran the frozen wave-two job. The wrapper reported code 4 with study code 12 and withheld the output. The fixed code covers unavailable source support or an unreleasable count. The code does not identify the triggering table. No scientific estimate, count of real participants, or reason for exclusion can be inferred from the exit. No failed output was opened.
+
+**CANDOR.** Six constructed Parquet checks passed in 2.60938 native CPU seconds. They tested reciprocal reports, file signatures, required columns, source layout and the speech-timing projection. The curator selected two matched models. Both use the same directed reports, recording length and the rated speaker’s share of talk. The registered difference compares the humor coefficient for liking with the coefficient for status, using paired whole-conversation resampling. [Frozen comparison](../../../docs/design/stage-15/week6/SC2_MATCHED_HUMOR_LIKING_STATUS_20261120.md).
+
+The writing and interaction pilots carry no scientific adjudication. The MIDUS refusal carries no finding about participants.
