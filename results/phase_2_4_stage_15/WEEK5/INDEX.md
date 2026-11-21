@@ -1,5 +1,49 @@
 # Week 5 verified records
 
+**OPS-S15-W6-SC1-SEALED-CODEBOOK-20261120:** [Record](SC1_SEALED_CODEBOOK_20261120.md). The sealed CANDOR probe confirmed the partner-rating fields and counted the six registered markers across four transcript editions.
+
+**OPS-S15-W6-KP1-CHECKPOINT-1200-20261120:** [Record](KP1_CHECKPOINT_1200_20261120.md). The original KP1 study preserved 1,200 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+**S15-W6-R1-I-ISEAR-20261120:** [Record](R1_ISEAR_EXPECTEDNESS_20261120.md). Unexpected events were associated with greater reported intensity for both feelings. The anger-specific prediction did not clear its two registered bars.
+
+**OPS-S15-W6-SPARK-COMPLETE-PACKAGE-20261120:** [Record](SPARK_COMPLETE_PACKAGE_REHEARSAL_20261120.md). The complete joined Spark entry reproduced the three argument comparisons and seven daily coefficients on the constructed family diary.
+
+**OPS-S15-W6-KP1-CHECKPOINT-1100-20261120:** [Record](KP1_CHECKPOINT_1100_20261120.md). The original KP1 study preserved 1,100 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+**OPS-S15-W6-SPARK-FAMILY-BF-20261120:** [Record](SPARK_FAMILY_REHEARSAL_AND_BF_20261120.md). Spark completed 2,000 whole-family draws with both fitting methods on the artificial diary. Eleven workstation checks passed for the argument study and its shared runner.
+
+**S15-W6-LD1-0057-20261120:** [Record](LD1_DIARY_0057_20261120.md). The diary left the predicted shame-versus-sadness contrast inconclusive.
+
+**OPS-S15-W6-LA9-POOLED-PILOT-20261120:** [Record](LA9_POOLED_PILOT_20261120.md). The pooled dialogue-act pilot preserved 100 whole-meeting draws in both registered models. The measured full execution and replay exceed the original allowance.
+
+**OPS-S15-W6-LD1-0057-REPLAY-HANDOFF-20261120:** [Record](LD1_REPLAY_HANDOFF_0057_20261120.md). The larger diary retained 2,000 original draws and 1,940 independent replay draws at its time limit. Its continuation verified the final 60.
+
+**S15-W6-LA6-SL-20261120:** [Record](LA6_LENGTH_HELD_ONSETS_20261120.md). For both windows and both feature sets, prediction remained below the registered area of 0.60.
+
+**S15-W6-LA6-S-20261120:** [Record](LA6_STRICT_ONSETS_20261120.md). Both windows and both feature sets left prediction at the registered area of 0.60 inconclusive.
+
+**OPS-S15-W6-KP1-CHECKPOINT-1000-20261120:** [Record](KP1_CHECKPOINT_1000_20261120.md). The original KP1 study preserved 1,000 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+**OPS-S15-W6-SM-DAILY-BANK-20261120:** [Record](SM_DAILY_BANK_CHECKS_20261120.md). All 21 constructed checks passed for the sealed daily bank and its existing source tests.
+
+**OPS-S15-W6-LA-STRICT-WINDOW-PILOTS-20261120:** [Record](LA_STRICT_WINDOWS_PILOTS_20261120.md). Both laughter follow-ups completed their first 100 whole-meeting draws across the one- and two-second windows.
+
+**OPS-S15-W6-SM-DAILY-TRAIT-FIXTURE-20261120:** [Record](SM_DAILY_TRAIT_FIXTURE_20261120.md). Sixteen constructed checks passed for the daily stress and affect component of the sealed MIDUS study.
+
+**OPS-S15-W6-LA-STRICT-SOURCE-COMPLETE-20261120:** [Record](LA_STRICT_SOURCE_COMPLETE_20261120.md). Both strict laughter windows and their length-matched samples were independently reconstructed for all 214 meetings.
+
+**OPS-S15-W6-KP1-CHECKPOINT-0900-20261120:** [Record](KP1_CHECKPOINT_0900_20261120.md). The original KP1 study preserved 900 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+**OPS-S15-W6-SM-EXACT-RECHECK-20261120:** [Record](SM_SOURCE_RELEASE_RECHECK_20261120.md). All twelve constructed source checks passed on the exact versions prepared for publication.
+
+**OPS-S15-W6-SM-TABLE-FIELDS-20261120:** [Record](SM_INDEPENDENT_TABLE_SUPPORT_20261120.md). All twelve constructed tests passed for independent table admission in the sealed MIDUS runner.
+
+**OPS-S15-W6-KP1-CHECKPOINT-0800-20261120:** [Record](KP1_CHECKPOINT_0800_20261120.md). The original KP1 study preserved 800 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+**OPS-S15-W6-SM-FAMILY-SOURCE-FIXTURE-20261120:** [Record](SM_FAMILY_SOURCE_FIXTURE_20261120.md). Eleven native constructed checks passed for the joined MIDUS layout and family resampling.
+
+**S15-W6-LD1-0056-20261120:** [Record](LD1_DIARY_0056_20261120.md). The shame-versus-sadness contrast ran opposite to the predicted increase in company.
+
 **OPS-S15-W6-KP1-CHECKPOINT-0700-20261120:** [Record](KP1_CHECKPOINT_0700_20261120.md). The original KP1 study preserved 700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
 
 **OPS-S15-W6-LD1-0057-HANDOFF1-20261120:** [Record](LD1_0057_HANDOFF1_20261120.md). The second handoff for diary member 0057 stopped before research admission. Its authenticated 100-draw checkpoint is intact.

@@ -2220,14 +2220,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-e2c89ece1801f855b4d4-1
 
-[Filed source, lines 1406–1407](../theory/THREE_COGNITIVE_LAYERS.md#L1406); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1421–1422](../theory/THREE_COGNITIVE_LAYERS.md#L1421); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I do not think mirror neurons are magic. It is more like: I see your eyebrows move, I understand
 > how my eyebrows would move in that situation, and from that I can extrapolate how I might feel.
 
 ## Q-d58b9fba635a03edfeb7-1
 
-[Filed source, lines 1409–1411](../theory/THREE_COGNITIVE_LAYERS.md#L1409); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1424–1426](../theory/THREE_COGNITIVE_LAYERS.md#L1424); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > My understanding of mirror neurons is that they're kind of like physical bootstraps to this whole
 > process. [...] I don't know what the relationship is between these physical mirrorings and the
@@ -2235,7 +2235,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-555dda1a8c882acb7b1b-1
 
-[Filed source, lines 1429–1431](../theory/THREE_COGNITIVE_LAYERS.md#L1429); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1444–1446](../theory/THREE_COGNITIVE_LAYERS.md#L1444); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > When I say the model leaked involuntary affect, **I'm not assigning affect to the model.** It's that
 > they're **trying to predict the human brain and failing to do so.** They're trying to have empathy
@@ -2243,7 +2243,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-3581dcc529089038439e-1
 
-[Filed source, lines 1433–1437](../theory/THREE_COGNITIVE_LAYERS.md#L1433); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1448–1452](../theory/THREE_COGNITIVE_LAYERS.md#L1448); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > They're not automatically trying to empathize; that's speaking in high-level terms. Practically,
 > because they're trained on human-produced text, you'd expect them to **reconstruct the functional
@@ -2253,27 +2253,27 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-bbcfad7fae688c397e79-1
 
-[Filed source, lines 1439–1440](../theory/THREE_COGNITIVE_LAYERS.md#L1439); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1454–1455](../theory/THREE_COGNITIVE_LAYERS.md#L1454); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **You're seeing ghosts of a human brain, not an actual human brain.** [...] The lines will be
 > **softer** on an AI modelling.
 
 ## Q-2b6653c8223df0c55788-1
 
-[Filed source, lines 1442–1443](../theory/THREE_COGNITIVE_LAYERS.md#L1442); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1457–1458](../theory/THREE_COGNITIVE_LAYERS.md#L1457); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > That's what I mean by ghosts of a human brain. An **imperfect reconstruction of functional aspects
 > of human anatomy**, or expertise and experience, perhaps even distributed.
 
 ## Q-ef92daa5446c85852471-1
 
-[Filed source, lines 1451–1451](../theory/THREE_COGNITIVE_LAYERS.md#L1451); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1466–1466](../theory/THREE_COGNITIVE_LAYERS.md#L1466); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > There will be some kind of simulation-based advantage.
 
 ## Q-8349c91037647e63a417-1
 
-[Filed source, lines 1498–1505](../theory/THREE_COGNITIVE_LAYERS.md#L1498); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1513–1520](../theory/THREE_COGNITIVE_LAYERS.md#L1513); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > We are trying to find **any kind of correlates that could be explored or used functionally** to
 > help identify value data. That may include finding a mapping space for valence and arousal, or
@@ -2286,7 +2286,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-4bc114f438ca2514a6fb-1
 
-[Filed source, lines 1531–1533](../theory/THREE_COGNITIVE_LAYERS.md#L1531); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1546–1548](../theory/THREE_COGNITIVE_LAYERS.md#L1546); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **The latent variable is the midbrain misalignment that I suggest.** It could absolutely be simply
 > a **poor reconstruction of conserved drive constraints**, the goals that arise from the midbrain.
@@ -2294,7 +2294,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-de3673695ef7f448b61b-1
 
-[Filed source, lines 1544–1548](../theory/THREE_COGNITIVE_LAYERS.md#L1544); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1559–1563](../theory/THREE_COGNITIVE_LAYERS.md#L1559); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Nonverbal drive constraints from Panksepp are systematically underdetermined from human text, so
 > that when a model reconstructs them, it has worse access to them than surface affect or learned
@@ -2304,7 +2304,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-94935809caafd25a85a6-1
 
-[Filed source, lines 1601–1606](../theory/THREE_COGNITIVE_LAYERS.md#L1601); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1616–1621](../theory/THREE_COGNITIVE_LAYERS.md#L1616); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > This stapling of solution channels in between everything in the middle of other problems is
 > something that I do wonder whether it has relevance to, like, mechanistic interpretability. Do we
@@ -2315,28 +2315,28 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-9d36ec68d48e2769c0b1-1
 
-[Filed source, lines 1642–1643](../theory/THREE_COGNITIVE_LAYERS.md#L1642); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1657–1658](../theory/THREE_COGNITIVE_LAYERS.md#L1657); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Machines may only have the autocomplete, yeah? The second layer of attention-grabbing? Machines
 > don't have that, do they? That's all humans. We always do that.
 
 ## Q-c7b6b222a5b35bf65152-1
 
-[Filed source, lines 1647–1648](../theory/THREE_COGNITIVE_LAYERS.md#L1647); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1662–1663](../theory/THREE_COGNITIVE_LAYERS.md#L1662); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Okay, so it's not attention, it's the autocomplete, [for] "Attention Is All You Need". [...] It's
 > just associative memory. All this is, is just the vectorization.
 
 ## Q-a2ad21ee11e042f4a21a-1
 
-[Filed source, lines 1650–1651](../theory/THREE_COGNITIVE_LAYERS.md#L1650); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1665–1666](../theory/THREE_COGNITIVE_LAYERS.md#L1665); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > I don't know that a machine that is autocomplete all the way down can grow it. Attention is a
 > separate thing. It's the corrector.
 
 ## Q-6cb22736ca8cb35ec77e-1
 
-[Filed source, lines 1653–1656](../theory/THREE_COGNITIVE_LAYERS.md#L1653); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1668–1671](../theory/THREE_COGNITIVE_LAYERS.md#L1668); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > Self-reflection, verification, dynamic strategy adaptation. I'm not convinced that people are
 > actually seeing those events, and that they aren't seeing echoes of the strategies humans use,
@@ -2345,14 +2345,14 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-da66ec9349c6839028dd-1
 
-[Filed source, lines 1725–1726](../theory/THREE_COGNITIVE_LAYERS.md#L1725); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1740–1741](../theory/THREE_COGNITIVE_LAYERS.md#L1740); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > We're finding **ratio variance relationships between early and late** despite there being a peak in
 > the middle. It implies a sort of shape that **I don't think anyone else has glommed on to.**
 
 ## Q-2a2530a29b4f89191cb5-1
 
-[Filed source, lines 1805–1809](../theory/THREE_COGNITIVE_LAYERS.md#L1805); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1820–1824](../theory/THREE_COGNITIVE_LAYERS.md#L1820); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > There is a lexical mapping to valence and arousal through **the emotion wheel we all use**, but
 > that's not quite what they're catching. What it's really doing is **defining and elaborating these
@@ -2362,7 +2362,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-ab631a2295b4906045f5-1
 
-[Filed source, lines 1844–1847](../theory/THREE_COGNITIVE_LAYERS.md#L1844); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1859–1862](../theory/THREE_COGNITIVE_LAYERS.md#L1859); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > If this structure is not what happens in naturally occurring language models, **I wonder if we could
 > force it** – make an empathic bot with lower-order valence and arousal, medium human-mapped
@@ -2371,7 +2371,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-0fdc4682bb8d5cdb8dd2-1
 
-[Filed source, lines 1849–1851](../theory/THREE_COGNITIVE_LAYERS.md#L1849); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1864–1866](../theory/THREE_COGNITIVE_LAYERS.md#L1864); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > It's a weakness to the alignment consequence, because **we have to provide that weighting somehow.**
 > [...] But at the very least it seems like all it needs is a **bootstrap.** You don't need a ton – a
@@ -2379,7 +2379,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-e96579d6c9c97643e724-1
 
-[Filed source, lines 1869–1872](../theory/THREE_COGNITIVE_LAYERS.md#L1869); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1884–1887](../theory/THREE_COGNITIVE_LAYERS.md#L1884); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > What if it's not the **location** of where they are, but rather their **shape** that we need to care
 > about? What if the values are somehow **extractable and repositionable as meta-concepts**? They'd
@@ -2388,7 +2388,7 @@ Generated exact blockquote inventory, not authenticated original transcripts. Al
 
 ## Q-652ec534c710134f74df-1
 
-[Filed source, lines 1947–1948](../theory/THREE_COGNITIVE_LAYERS.md#L1947); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
+[Filed source, lines 1962–1963](../theory/THREE_COGNITIVE_LAYERS.md#L1962); status: unreviewed; source/filing dates: unknown; transcript: not independently checked.
 
 > **You probably do not need interoceptive states. You probably need an interoceptive generative
 > model.**

@@ -1,5 +1,333 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-SC1-SEALED-CODEBOOK-20261120
+
+**Question.** Does the held CANDOR release contain the items and transcript markers required by the commissioned follow-ups?
+
+The counts-only process opened the four registered Parquet transcript editions and the survey under the installed seal. It authenticated each file against the provider edition and read the projected tables once under amendment AV. The four editions cover the same conversations. Each contains 1,656 conversations and 1,456 distinct speakers with usable utterances. They represent alternative segmentations of the same material. The survey returned 220 field names with at least eleven observed respondents. The partner humor, status and liking fields have 1,431, 1,431 and 1,432 observed respondents respectively. These separate counts do not establish the joint analysis roster.
+
+The literal word *laugh* and the fillers *um* and *uh* each produced a returnable count in all four editions. The threshold withheld or omitted the other three requested cells per edition. An omitted cell can contain between zero and ten distinct speakers. A written mention of laughing does not establish a laughter annotation, and the marker set supplies no validated restart label. SC2 has its three survey bindings. SC3 still lacks the source evidence needed to distinguish restarts. The probe opened no audio or video.
+
+The eight constructed cases passed before the hash-frozen job ran. Invocation 11 of 30 reached the installed gate in 12.8 seconds. The same four aggregate files passed the local gate. Their combined size is 5,393 bytes.
+
+[Survey coverage](results/phase_2_4_stage_15/WEEK5/SC1_SEALED_CODEBOOK_20261120_survey_columns.csv) · [Source status](results/phase_2_4_stage_15/WEEK5/SC1_SEALED_CODEBOOK_20261120_source_status.csv) · [Transcript coverage](results/phase_2_4_stage_15/WEEK5/SC1_SEALED_CODEBOOK_20261120_transcript_coverage.csv) · [Marker counts](results/phase_2_4_stage_15/WEEK5/SC1_SEALED_CODEBOOK_20261120_markers.csv) · [Codebook and attribution](docs/design/stage-15/week6/SC1_CANDOR_CODEBOOK.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The sealed CANDOR probe confirmed the partner-rating fields and counted the six registered markers across four transcript editions.; project meaning: scoped operational record; next engineering obligation: Build the partner-rated comparison with its dyadic source mapping. Preserve SC3's unsupported restart-annotation premise.; public scientific claim unchanged; curator decision required: No new decision. Detail: SC1_SEALED_CODEBOOK_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1200-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,200 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,697.28125 native CPU seconds. Its manifest authenticated 2,416 output files and 377 inherited pins. The new native owner and child matched the reviewed plan, and 1,212 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 48,479.8125 native CPU seconds plus 240 for coordination. Before that allowance the remaining room was 58,779.609375 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,200 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1200_20261120.md.
+
+### S15-W6-R1-I-ISEAR-20261120
+
+**Question.** Were unexpected recalled events associated with especially intense anger compared with sadness?
+
+**Method.** The original ISEAR Access questionnaire supplied anger and sadness intensity, expectedness, pleasantness and causal attribution. The first projection counted identities and feeling codes before the runner opened any ratings. Within each feeling, regress standardized reported intensity on standardized reversed expectedness, with pleasantness and four categorical causal agencies as controls. Resample whole people from the union of the complete-case rosters. Use each person's draw weight for both feelings and recompute standardization in every draw. The prediction required an anger slope of at least 0.08 and an anger-minus-sadness difference of at least 0.08, each with a 95% interval entirely above zero.
+
+**Eligible reports.** Each of 1,096 people supplied an anger and a sadness report, with no duplicate person-feeling key or missing identity. Complete responses were available for 963 anger reports and 847 sadness reports. 770 people contributed to both fits and 1,040 contributed to at least one. For anger, invalid or absent responses numbered 11 for intensity, 43 for expectation, 36 for pleasantness and 92 for agency. Corresponding sadness counts were 13, 51, 50 and 198. Item exclusions overlap.
+
+*Estimates are standard deviations of intensity per standard deviation of unexpectedness. The last row compares the two fitted slopes on shared whole-person allocations.*
+
+| Contrast | Estimate | 95% interval | Defined draws |
+|---|---:|---:|---:|
+| Anger | 0.0743 | 0.0125 to 0.1364 | 2,000 |
+| Sadness | 0.0860 | 0.0165 to 0.1526 | 2,000 |
+| Anger minus sadness | -0.0117 | -0.1036 to 0.0836 | 2,000 |
+
+**Reading.** Unexpected events were associated with greater reported intensity for both feelings. The anger-specific prediction did not clear its two registered bars. The anger estimate was below its size threshold. The estimated anger-minus-sadness difference was negative, and its interval included zero and values at the prespecified threshold. These data leave its size and direction inconclusive. The point ordering agreed with the analyst's separate prospective guess. An event being unexpected does not establish how quickly it unfolded. People selected a remembered event for each feeling word, and complete-case populations differed.
+
+**Audit.** Eleven native constructed cases passed, including a real-format artificial Access file with planted slopes. An independent weighted least-squares fit reproduced the primary residualized estimates, all 2,000 paired draws, intervals and decision. The source bytes, both fresh processes, 152 output digests and 60 plan pins were verified. The original run and replay consumed 3.07812 native CPU seconds and the qualification used 4.40625. An earlier launcher stopped before taking a slot or opening the source. A conservative 10-second setup reservation and the ordinary 30-second coordination charge are retained inside the 1,800-second envelope.
+
+**Source.** Klaus R. Scherer, Harald G. Wallbott and the international ISEAR collaborators collected the recalled-event questionnaire. The [prospective design and original item bindings](../../../docs/design/stage-15/week6/R1_ISEAR_SECOND_SAMPLE_20261120.md) identify the exact edition used. [Result sheet](R1_ISEAR_EXPECTEDNESS_20261120_SHEET.md) · [Signed figure](R1_ISEAR_EXPECTEDNESS_20261120.png) · [Aggregate record](R1_ISEAR_EXPECTEDNESS_20261120.json).
+
+
+Curator roll-up: T1 · Were unexpected recalled events associated with especially intense anger compared with sadness? · **Narrows** · Unexpected events were associated with greater reported intensity for both feelings. The anger-specific prediction did not clear its two registered bars. · Project scope: Original ISEAR anger and sadness recollections · Next: Carry the original questionnaire's indirect measure and both registered comparisons into the Week 6 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: R1_ISEAR_EXPECTEDNESS_20261120.md.
+
+### OPS-S15-W6-SPARK-COMPLETE-PACKAGE-20261120
+
+**Question.** Does the complete sealed scientific package reproduce the registered quantities and release only the expected aggregate on the artificial diary?
+
+The rehearsal used two artificial SPSS tables for 576 invented people in 288 invented families. In the pinned image, the sealed entry ran the registered panels, the daily trait model and the argument comparisons with 2,000 whole-family draws. The returned known-answer row confirms all three argument contrasts and all seven daily coefficients. The job took 334.7 seconds from reservation to successful exit and used invocation 10 of 30. The installed gate accepted the aggregate. The local gate independently accepted the identical returned file.
+
+The sealed entry generated the artificial tables internally. The packet additionally requires reading those frozen tables through the mounted data path before the real wave-two job. The two scientific entries and their constructed counterparts are fixed in the [prospective job manifest](../../../docs/design/stage-15/week6/SM_JOINED_BF_FROZEN_20261120.json). This record tests execution and recovery of known effects. It contains no estimate from a participant.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete joined Spark entry reproduced the three argument comparisons and seven daily coefficients on the constructed family diary.; project meaning: scoped operational record; next engineering obligation: Run the mounted artificial-source rehearsal, then the registered wave-two study.; public scientific claim unchanged; curator decision required: No new decision. Detail: SPARK_COMPLETE_PACKAGE_REHEARSAL_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1100-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,100 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 2,052.953125 native CPU seconds. Its manifest authenticated 2,215 output files and 372 inherited pins. The new native owner and child matched the reviewed plan, and 1,106 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 50,211.234375 native CPU seconds plus 270 for coordination. Before that allowance the remaining room was 60,506.890625 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,100 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1100_20261120.md.
+
+### OPS-S15-W6-SPARK-FAMILY-BF-20261120
+
+**Question.** Can the sealed image reproduce the family-resampled daily coefficients, and does the argument follow-up implement the curator's rules?
+
+The artificial source contains 576 invented diary writers in 288 invented families. Its current-day and prior-day stressor slopes and five other terms are known from the construction. Two local tests checked actual fitting, source projection and family assignments. Spark then executed all 2,000 original draw allocations with both fitting implementations. All seven parameters agreed with the construction, and the installed gate and the independent local gate accepted the single aggregate. The sealed run took invocation 9 of the 30 allowed. It opened no participant file. The full joined production job and mounted scientific rehearsal are separate entries.
+
+**Amendment BF.** The curator approved a within-person next-day comparison between unresolved and resolved arguments. An all-reports description and a within-person same-day comparison accompany it. Eleven counted cases tested missingness, the 99/100-person boundary, family linkage, a deliberate reversal between comparisons, small groups and coexistence with independent safe tables. The constructed family qualification used 5.03125 workstation CPU seconds. The eleven-check qualification used 6.5. The published comparison and its limits are fixed [in the study design](../../../docs/design/stage-15/week6/D5_ARGUMENT_RESOLUTION_BF.md).
+
+**Next.** Verify the complete joined job against the hash-pinned artificial pair through the mounted source and run the sealed study on the qualified wave-two source. No participant-level result is part of this record.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Spark completed 2,000 whole-family draws with both fitting methods on the artificial diary. Eleven workstation checks passed for the argument study and its shared runner.; project meaning: scoped operational record; next engineering obligation: Run the complete mounted qualification before the real joined scientific job.; public scientific claim unchanged; curator decision required: No new decision. Detail: SPARK_FAMILY_REHEARSAL_AND_BF_20261120.md.
+
+### S15-W6-LD1-0057-20261120
+
+**Question.** Did failure predict a larger increase in reported shame than sadness in company compared with time alone?
+
+**Method.** Reverse each success rating on its original scale and center the resulting failure rating on the person's mean. Compare interaction and solitary prompts with context and its product with failure. The primary compares two changes in the log-odds slope for an above-floor feeling. Ashamed and sad use the same complete rows. Replicate the point and all 2,000 whole-person bootstrap draws in a fresh process. The prediction requires a positive point of at least +0.10 and a 95% interval above zero.
+
+**Population.** 2,272 people and 64,810 selected prompts in openESM member 0057. Company contributed 39,873 prompts from 2,190 people. Time alone contributed 24,937 prompts from 1,760 people. The source lacks these specified feelings: none. Each single-feeling slope uses its own available answers. The complete register retains the distinct denominators and unsupported cells.
+
+**Finding.** The diary left the predicted shame-versus-sadness contrast inconclusive. Approximate detectable effect and effect required for 80% support are 0.0905231819309717 and 0.1905231819309717, respectively.
+
+*Paired 95% whole-person intervals. The first row is the registered primary. Other rows report slopes, a rating-scale sensitivity, or separate setting comparisons.*
+
+| Comparison | Estimate and interval |
+|---|---:|
+| Company minus alone, ashamed minus sad | -0.0271 [-0.0930, 0.0352] |
+| Ashamed slope after time alone | 0.2688 [0.2180, 0.3253] |
+| Ashamed slope in company | 0.2165 [0.1737, 0.2591] |
+| Linear-rating sensitivity, company minus alone | -0.0232 [-0.0447, -0.0021] |
+| In person minus phone or chat, ashamed minus sad | -0.0265 [-0.1062, 0.0615] |
+| One partner minus several, ashamed minus sad | 0.0690 [-0.0062, 0.1401] |
+
+All 366 coefficient and disposition rows, including every available signed ratio, appear in the long table. The ratio divides the comparison slope by its reference slope. A denominator too close to zero has no defined ratio. The above-floor success diagnostic is perfectly separated because failure was constructed from success. The data support neither a biological channel identification nor a causal effect of company. The same person rated success and feelings at the same prompt. Shame answers may be noisier after time alone, and this diary cannot separate that explanation from the proposed effect.
+
+**Source credit.** Member 0057 version 1.0.0 is from [openESM record 17361658](https://zenodo.org/records/17361658), SHA-256 fcd123f3725e977b008102fdcc30d16ac10e1ed4c7c294936e7ede6f3d059d3f, 17,603,083 bytes, CC BY 4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83), Kroencke and colleagues' [original study](https://doi.org/10.1037/pspp0000467), and openESM. This is a new analysis of the harmonized data. Published result tables did not select the packet's predictions; no new literature review is claimed.
+
+**Integrity.** The pilot used 123.672 native CPU seconds, the main execution and first replay segment used 5423.55, and the final 60-draw replay continuation used 117.047. Each charged native attempt is counted once. Coordinator reservations and unadmitted attempts stay itemized in the operational budget. The original source and codebook bindings, every terminal output digest and all paired draw values were authenticated.
+
+[Result sheet](LD1_DIARY_0057_20261120_SHEET.md) · [Signed figure](LD1_DIARY_0057_20261120.png) · [Full table](LD1_DIARY_0057_20261120_ALL_METRICS.csv) · [Aggregate record](LD1_DIARY_0057_20261120.json).
+
+
+Curator roll-up: T4 · Did failure predict a larger increase in reported shame than sadness in company compared with time alone? · **Narrows** · The diary left the predicted shame-versus-sadness contrast inconclusive. · Project scope: Within-person interaction and solitary reports in 0057 · Next: Keep both source samples separate in the frozen lattice return and preserve the unequal-reporting-noise rival. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LD1_DIARY_0057_20261120.md.
+
+### OPS-S15-W6-LA9-POOLED-PILOT-20261120
+
+**Question.** What did the refused admission cost, and can the original fit finish at the measured rate?
+
+The first admission stopped at the reader census and used zero research CPU seconds. The next attempt passed the normal census and the same 21-case constructed qualification. Its source table and class dictionaries match their original pins. The first 100 draw pairs, their per-file seals and the full checkpoint manifest verify. Both native owners exited and released any claimed slot.
+
+**Cost.** The actual pilot used 558.562 CPU seconds. Multiplying its per-draw cost by the remaining 1,900 execution and 2,000 replay draws gives 21,783.9 further CPU seconds before coordination. The entire allowance is 10,000 CPU seconds. All measured charges remain in the campaign record. The 100 saved draws supply cost and custody evidence only.
+
+**Disposition.** Preserve the full source and first pilot. Qualify an exactly equivalent faster fit against the original optimizer and its fixed objective before further full-source admission. If that cannot fit, use the established prospective whole-meeting sample route and identify its scope.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The pooled dialogue-act pilot preserved 100 whole-meeting draws in both registered models. The measured full execution and replay exceed the original allowance.; project meaning: scoped operational record; next engineering obligation: Validate a cheaper exact fit against the preserved draws before another full-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: LA9_POOLED_PILOT_20261120.md.
+
+### OPS-S15-W6-LD1-0057-REPLAY-HANDOFF-20261120
+
+**Question.** Could the existing run finish verification without losing or repeating completed draws?
+
+The larger diary retained 2,000 original draws and 1,940 independent replay draws at its time limit. Its continuation verified the final 60. The original owner and children exited and released their lease. All 167 checkpoint files match their manifest. The full draw bank and overlapping replay blocks agree. The next admitted job inherited the same source, model and draw numbering. It completed within the original allowance. Its complete scientific dossier carries the estimates.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The larger diary retained 2,000 original draws and 1,940 independent replay draws at its time limit. Its continuation verified the final 60.; project meaning: scoped operational record; next engineering obligation: Keep both native attempts and the complete scientific return linked to the original source.; public scientific claim unchanged; curator decision required: No new decision. Detail: LD1_REPLAY_HANDOFF_0057_20261120.md.
+
+### S15-W6-LA6-SL-20261120
+
+**Question.** Can observable context predict a new laugh when the case and control utterances have similar word counts?
+
+**Finding.** For both windows and both feature sets, prediction remained below the registered area of 0.60. The analyst’s predeclared guess was that the with-history arm would fall below 0.60 after length matching. Both intervals fell below that threshold.
+
+Exclude utterances overlapping observed vocal laughter from one second before their start through their end. Match cases to controls from the same speaker and meeting using the original 30-second separation, time rule, deterministic ties and replacement. A case requires a new onset strictly after utterance end and within the indicated window. The length tolerance is two words or one fifth of the case utterance, whichever is larger. Both windows retained more than half the strict pairs when matched on length. The frozen rule selected matched controls in both windows.
+
+The original five meeting folds, training-only transforms, C=1 model and both feature sets were fixed. Elapsed laughter history is present in one set. Matching, timing and word-count definitions are identical across its two arms. Predictive area is computed on held-out meetings. An interval wholly above 0.60 supports the registered threshold and one wholly below it counts against. An interval that spans 0.60 leaves that comparison inconclusive. Intervals are nominal. Chance is 0.50. Detection above chance and the effect needed for support use 2.8 times each arm’s bootstrap standard error.
+
+| Window in seconds | Feature set | Meetings | Area | Whole-meeting 95% interval | Bootstrap SE | Detectable area above chance | Area for 80% support | Decision |
+|---:|---|---:|---:|---|---:|---:|---:|---|
+| 1 | With history | 197 | 0.5707 | 0.5568 to 0.5860 | 0.0075 | 0.0209 | 0.6209 | against |
+| 1 | Without history | 197 | 0.5648 | 0.5501 to 0.5799 | 0.0076 | 0.0213 | 0.6213 | against |
+| 2 | With history | 202 | 0.5604 | 0.5493 to 0.5727 | 0.0061 | 0.0171 | 0.6171 | against |
+| 2 | Without history | 202 | 0.5504 | 0.5389 to 0.5616 | 0.0059 | 0.0164 | 0.6164 | against |
+
+| Window in seconds | Original utterances | Overlap exclusions | Strict cases | Strict matched pairs | Distinct strict controls | Reused strict copies | Length-matched pairs | Distinct length controls | Reused length copies |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 221,947 | 107,878 | 2,911 | 2,888 | 2,698 | 190 | 2,867 | 2,713 | 154 |
+| 2 | 221,947 | 107,878 | 5,734 | 5,690 | 4,950 | 740 | 5,654 | 5,112 | 542 |
+
+The aggregate record includes the full act-category point table, the reference category, the unavailable-draw counts and all arm-specific limitations. Absent categories prevent population intervals for those odds. The later pooled act comparison has its own frozen dictionaries. The annotation identifies a new vocal laugh in recorded meetings. It cannot establish surprise, shared inference, a causal role for length or the proposed PLAY mechanism. Comparison with the parent also changes eligibility and matching, which precludes assigning a causal share to word count.
+
+The 100-draw pilot used 49.7188 native CPU seconds. The full continuation and fresh replay used 260.375. All 8,103 output hashes, both source preparations, every held-out point and every draw passed verification. Source credit belongs to the AMI Meeting Corpus and ICSI Meeting Corpus and their annotation teams.
+
+[Result sheet](LA6_LENGTH_HELD_ONSETS_20261120_SHEET.md) · [Figure](LA6_LENGTH_HELD_ONSETS_20261120.png) · [All aggregate estimates](LA6_LENGTH_HELD_ONSETS_20261120.json) · [Original study](LA6_COMPLETE_20261119.md).
+
+Curator roll-up: T7 · Can observable context predict a new laugh when the case and control utterances have similar word counts? · **Narrows** · For both windows and both feature sets, prediction remained below the registered area of 0.60. · Project scope: Prediction of new vocal laughter within the original recorded meetings. · Next: Use both windows in the final packet and keep the pooled act comparison distinct. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LA6_LENGTH_HELD_ONSETS_20261120.md.
+
+### S15-W6-LA6-S-20261120
+
+**Question.** Can the observable context predict a new laugh after an utterance ends in a held-out meeting?
+
+**Finding.** Both windows and both feature sets left prediction at the registered area of 0.60 inconclusive. The originally registered windows are reported separately.
+
+Exclude utterances overlapping observed vocal laughter from one second before their start through their end. Match cases to controls from the same speaker and meeting using the original 30-second separation, time rule, deterministic ties and replacement. A case requires a new onset strictly after utterance end and within the indicated window. The length tolerance is two words or one fifth of the case utterance, whichever is larger. Each window used the original strict pairs.
+
+The original five meeting folds, training-only transforms, C=1 model and both feature sets were fixed. Elapsed laughter history is present in one set. Matching, timing and word-count definitions are identical across its two arms. Predictive area is computed on held-out meetings. An interval wholly above 0.60 supports the registered threshold and one wholly below it counts against. An interval that spans 0.60 leaves that comparison inconclusive. Intervals are nominal. Chance is 0.50. Detection above chance and the effect needed for support use 2.8 times each arm’s bootstrap standard error.
+
+| Window in seconds | Feature set | Meetings | Area | Whole-meeting 95% interval | Bootstrap SE | Detectable area above chance | Area for 80% support | Decision |
+|---:|---|---:|---:|---|---:|---:|---:|---|
+| 1 | With history | 202 | 0.5984 | 0.5845 to 0.6132 | 0.0075 | 0.0209 | 0.6209 | inconclusive |
+| 1 | Without history | 202 | 0.5920 | 0.5777 to 0.6071 | 0.0076 | 0.0212 | 0.6212 | inconclusive |
+| 2 | With history | 205 | 0.6059 | 0.5958 to 0.6166 | 0.0054 | 0.0152 | 0.6152 | inconclusive |
+| 2 | Without history | 205 | 0.5966 | 0.5866 to 0.6071 | 0.0053 | 0.0150 | 0.6150 | inconclusive |
+
+| Window in seconds | Original utterances | Overlap exclusions | Strict cases | Strict matched pairs | Distinct strict controls | Reused strict copies | Length-matched pairs | Distinct length controls | Reused length copies |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 221,947 | 107,878 | 2,911 | 2,888 | 2,698 | 190 | 2,867 | 2,713 | 154 |
+| 2 | 221,947 | 107,878 | 5,734 | 5,690 | 4,950 | 740 | 5,654 | 5,112 | 542 |
+
+The aggregate record includes the full act-category point table, the reference category, the unavailable-draw counts and all arm-specific limitations. Absent categories prevent population intervals for those odds. The later pooled act comparison has its own frozen dictionaries. The annotation identifies a new vocal laugh in recorded meetings. It cannot establish surprise, shared inference, a causal role for length or the proposed PLAY mechanism. Comparison with the parent also changes eligibility and matching, which precludes assigning a causal share to word count.
+
+The 100-draw pilot used 44.9062 native CPU seconds. The full continuation and fresh replay used 261.156. All 8,103 output hashes, both source preparations, every held-out point and every draw passed verification. Source credit belongs to the AMI Meeting Corpus and ICSI Meeting Corpus and their annotation teams.
+
+[Result sheet](LA6_STRICT_ONSETS_20261120_SHEET.md) · [Figure](LA6_STRICT_ONSETS_20261120.png) · [All aggregate estimates](LA6_STRICT_ONSETS_20261120.json) · [Original study](LA6_COMPLETE_20261119.md).
+
+Curator roll-up: T7 · Can the observable context predict a new laugh after an utterance ends in a held-out meeting? · **Narrows** · Both windows and both feature sets left prediction at the registered area of 0.60 inconclusive. · Project scope: Prediction of new vocal laughter within the original recorded meetings. · Next: Use both windows in the final packet and keep the pooled act comparison distinct. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LA6_STRICT_ONSETS_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1000-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,000 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 2,229.84375 native CPU seconds. Its manifest authenticated 2,014 output files and 367 inherited pins. The new native owner and child matched the reviewed plan, and 1,005 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 51,942.65625 native CPU seconds plus 300 for coordination. Before that allowance the remaining room was 62,589.84375 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,000 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1000_20261120.md.
+
+### OPS-S15-W6-SM-DAILY-BANK-20261120
+
+**Question.** Can the daily study protect the exposure roster, keep relatives together, and retain estimable coefficients when the ratio lacks a complete interval?
+
+**Method.** The counted local suite exercised the registered 149- and 150-person support boundary, the order in which columns open, joint count suppression, missing family links and independent disagreement. It exercised all 2,000 allocations of an invented family bank with a known scalar scoring function and checked that one unavailable ratio leaves its other six parameters intact. The earlier constructed tests also exercise both actual fitting implementations. All 21 cases passed in 13.390625 native CPU seconds. The full mounted rehearsal with the actual fitting cores and the scientific Spark return remain ahead.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All 21 constructed checks passed for the sealed daily bank and its existing source tests.; project meaning: scoped operational record; next engineering obligation: Complete the mounted known-answer rehearsal and the joined scientific return.; public scientific claim unchanged; curator decision required: No new decision. Detail: SM_DAILY_BANK_CHECKS_20261120.md.
+
+### OPS-S15-W6-LA-STRICT-WINDOW-PILOTS-20261120
+
+**Question.** Can each strict laughter comparison retain the original meeting folds, preserve both history arms and finish under its registered allowance?
+
+**Method.** The new runner passed 17 constructed tests. These checked chance and planted separation, fixed fold assignments after exclusions, the exact half-retention rule, resumed draws and detection of a changed checkpoint. The original-source pilots then completed 100 of the 2,000 registered whole-meeting draws. For each pilot, both windows and both history arms were present in every draw. All 206 preserved files per pilot matched their terminal manifests. The native owners and both execution children exited.
+
+The strict pilot used 44.90625 native CPU seconds. The length-held pilot used 49.71875. Applying those rates to 1,900 remaining execution draws and 2,000 fresh replay draws gives estimates of 1,751.34375 and 1,939.03125 CPU seconds respectively, before coordination. The measured 17-case qualification cost of 10.546875 seconds is booked once to the strict row. The two original 30,000-second ceilings and source bindings govern the full continuations. Reserve checks apply to each start. Scientific interpretation requires the complete execution and independent replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both laughter follow-ups completed their first 100 whole-meeting draws across the one- and two-second windows.; project meaning: scoped operational record; next engineering obligation: Run the registered continuations and check every draw and held-out fold in a fresh process.; public scientific claim unchanged; curator decision required: No new decision. Detail: LA_STRICT_WINDOWS_PILOTS_20261120.md.
+
+### OPS-S15-W6-SM-DAILY-TRAIT-FIXTURE-20261120
+
+**Question.** Can the sealed daily component distinguish a previous day from a gap and test the prespecified carry-over contrast on known data?
+
+**Method.** The counted local qualification exercised the source and calendar checks, the trait calculation and the fitted contrasts on constructed records. All 16 cases finished with zero failures, errors or skips. The native runner released its lease and used 11.71875 CPU seconds. This covers the component and its earlier regression cases. The sealed scientific run still requires the joined-source integration, resampling and return checks.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Sixteen constructed checks passed for the daily stress and affect component of the sealed MIDUS study.; project meaning: scoped operational record; next engineering obligation: Qualify the complete sealed scientific runner with its full draw bank and independent verification.; public scientific claim unchanged; curator decision required: No new decision. Detail: SM_DAILY_TRAIT_FIXTURE_20261120.md.
+
+### OPS-S15-W6-LA-STRICT-SOURCE-COMPLETE-20261120
+
+**Question.** Can the original meeting archive supply both stricter onset windows and their word-count matches while preserving each utterance’s prior linguistic context?
+
+**Method.** The two-thread worker checked the original source receipt and retained all 221,947 utterances when constructing history. It rebuilt the one- and two-second windows, excluded already ongoing laughter from matching, and paired cases with same-speaker controls under each matching rule. A fresh process reconstructed the windows and both sets of pairs. Their 214 meeting-file hashes, source totals and complete manifests agreed. Meeting-level records remain private.
+
+The earlier eight constructed checks used 4.34375 CPU seconds. The ten-case source qualification, including checkpoint recovery and detection of a changed meeting, used 5.921875. Native execution plus replay used 156.6875 CPU seconds. The full common preparation charge is 166.953125 CPU seconds, booked once to LA6.s. LA6.sl reuses these files. Both predictive comparisons still require held-out fits and whole-meeting draws. This filing establishes the source and its reproducibility.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both strict laughter windows and their length-matched samples were independently reconstructed for all 214 meetings.; project meaning: scoped operational record; next engineering obligation: Fit and replay the two registered windows and carry their overlap exclusions, matched and unmatched counts into the finished comparisons.; public scientific claim unchanged; curator decision required: No new decision. Detail: LA_STRICT_SOURCE_COMPLETE_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-0900-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 900 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,892.09375 native CPU seconds. Its manifest authenticated 1,813 output files and 362 inherited pins. The new native owner and child matched the reviewed plan, and 911 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 53,674.078125 native CPU seconds plus 330 for coordination. Before that allowance the remaining room was 64,849.6875 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 900 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_0900_20261120.md.
+
+### OPS-S15-W6-SM-EXACT-RECHECK-20261120
+
+**Question.** Do the published versions retain every measured source and disclosure check?
+
+Six Python files had a surplus blank line at the end. The original qualified bytes were preserved. In each file the only difference is the final newline. The exact new source closure was bound in a fresh counted job, which passed all twelve constructed tests and released its lease. The job used 11 native CPU seconds. Together with the previously filed 35.4844 seconds, the total is 46.4844. This was a local fixture run. It consumed no Spark invocation.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All twelve constructed source checks passed on the exact versions prepared for publication.; project meaning: scoped operational record; next engineering obligation: Complete the new wave-two scientific tables and their full sealed rehearsal.; public scientific claim unchanged; curator decision required: No new decision. Detail: SM_SOURCE_RELEASE_RECHECK_20261120.md.
+
+### OPS-S15-W6-SM-TABLE-FIELDS-20261120
+
+**Question.** Can one missing field be recorded without withholding an unrelated table that has its original inputs?
+
+**Method.** Remove a negative-feeling column from a constructed joined SPSS diary, then run the normal source reader, original eligibility and both point and draw implementations. Check the numerical table codes and the number of distinct people in each source role. Independently remove the resolution field, the trait score and a wave-three field to exercise the registered dependencies in both wave layouts.
+
+**Result.** All twelve constructed checks passed. With the selected feeling column missing, the table needing every negative feeling was held. The supported dial and positive-affect tables retained their own source and eligibility. Each reported source status used the measured number of people. Missing resolution affected its own table. For a wave-three repeat both waves had to supply a branch's inputs. The joint complementary-count check and the deliberately failed independent replay were exercised as well.
+
+The bounded execution used 12.0625 native CPU seconds. Earlier family and layout qualification used 23.4219 CPU seconds across three retained attempts. This is a local constructed result. Completion of the two added scientific estimators and the full sealed rehearsal remains necessary before admitting the participant-data job.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All twelve constructed tests passed for independent table admission in the sealed MIDUS runner.; project meaning: scoped operational record; next engineering obligation: Complete and qualify the two additional scientific tables and the full sealed job.; public scientific claim unchanged; curator decision required: No new decision. Detail: SM_INDEPENDENT_TABLE_SUPPORT_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-0800-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 800 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,865.015625 native CPU seconds. Its manifest authenticated 1,612 output files and 357 inherited pins. The new native owner and child matched the reviewed plan, and 807 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 55,405.5 native CPU seconds plus 360 for coordination. Before that allowance the remaining room was 66,771.78125 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 800 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_0800_20261120.md.
+
+### OPS-S15-W6-SM-FAMILY-SOURCE-FIXTURE-20261120
+
+**Question.** Can the sealed source reader recognize the reviewed wave layouts and keep eligible relatives together when it resamples them?
+
+**Method.** Use invented records written to the same SPSS layouts as the source manifests. Compare the two independently decoded eligibility rosters and draw weights. Include incomplete or ambiguous layouts, a damaged source, a small complementary group, and a deliberately mismatched replay. The fixture also checks the known positive-affect ordering, single-person families, and missing family linkage.
+
+**Execution.** The first attempt could not import the required format reader and used 2.75 CPU seconds. After binding the reviewed local reader, two failure paths supplied an incomplete error object. That attempt used 10.7969 CPU seconds. Supplying the fixed reason for the existing return codes preserved both refusal conditions. The third attempt passed all 11 cases in 9.875 CPU seconds. The three counted attempts used 23.4219 CPU seconds in total, including their supervisors. Their leases were released and every result digest verified.
+
+**Scope.** These checks concern local constructed records. Participant-data science and the six-table sealed rehearsal are pending. The original joined-source probes and their Spark invocation count are separate. The next step is table-specific support and the two wave-two additions under amendments AW and AX.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Eleven native constructed checks passed for the joined MIDUS layout and family resampling.; project meaning: scoped operational record; next engineering obligation: Qualify the six wave-two tables and independent replay before sealed science.; public scientific claim unchanged; curator decision required: No new decision. Detail: SM_FAMILY_SOURCE_FIXTURE_20261120.md.
+
+### S15-W6-LD1-0056-20261120
+
+Limited sensitivity. The approximate detectable effect was 0.147 and the practical bar was +0.10. **Question.** Did failure predict a larger increase in reported shame than sadness in company compared with time alone?
+
+**Method.** Reverse each success rating on its original scale and center the resulting failure rating on the person's mean. Compare interaction and solitary prompts with context and its product with failure. The primary compares two changes in the log-odds slope for an above-floor feeling. Ashamed and sad use the same complete rows. Replicate the point and all 2,000 whole-person bootstrap draws in a fresh process. The prediction requires a positive point of at least +0.10 and a 95% interval above zero.
+
+**Population.** 327 people and 29,512 selected prompts in openESM member 0056. Company contributed 18,034 prompts from 323 people. Time alone contributed 11,478 prompts from 311 people. The source lacks these specified feelings: lonely. Each single-feeling slope uses its own available answers. The complete register retains the distinct denominators and unsupported cells.
+
+**Finding.** The shame-versus-sadness contrast ran opposite to the predicted increase in company. Approximate detectable effect and effect required for 80% support are 0.14688068439158092 and 0.24688068439158092, respectively.
+
+*Paired 95% whole-person intervals. The first row is the registered primary. Other rows report slopes, a rating-scale sensitivity, or separate setting comparisons.*
+
+| Comparison | Estimate and interval |
+|---|---:|
+| Company minus alone, ashamed minus sad | -0.1702 [-0.2769, -0.0711] |
+| Ashamed slope after time alone | 0.3738 [0.2883, 0.4660] |
+| Ashamed slope in company | 0.2890 [0.2218, 0.3597] |
+| Linear-rating sensitivity, company minus alone | -0.0817 [-0.1184, -0.0496] |
+| In person minus phone or chat, ashamed minus sad | 0.0062 [-0.1444, 0.1390] |
+| One partner minus several, ashamed minus sad | 0.0105 [-0.0916, 0.1234] |
+
+All 312 coefficient and disposition rows, including every available signed ratio, appear in the long table. The ratio divides the comparison slope by its reference slope. A denominator too close to zero has no defined ratio. The above-floor success diagnostic is perfectly separated because failure was constructed from success. The data support neither a biological channel identification nor a causal effect of company. The same person rated success and feelings at the same prompt. Shame answers may be noisier after time alone, and this diary cannot separate that explanation from the proposed effect.
+
+**Source credit.** Member0056 version1.0.0 is [openESM record17386601](https://zenodo.org/records/17386601),7,264,100bytes, SHA256 a6c81ae529cb1aaa8022a67c916f271ac4e510ec426b3f113657e7bebecf3d26, CC BY4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83) and openESM. Metadata describes a mostly student sample over fourteen days with six prompts daily. This is a new harmonized-data analysis, not a reproduced published table; no new literature review is claimed. No individual records, identifiers, demographic fields or person slopes are published.
+
+**Integrity.** The pilot used 49.25 native CPU seconds, and the full execution and replay used 2046.95. The original source and codebook bindings, every terminal output digest and all paired draw values were authenticated.
+
+[Result sheet](LD1_DIARY_0056_20261120_SHEET.md) · [Signed figure](LD1_DIARY_0056_20261120.png) · [Full table](LD1_DIARY_0056_20261120_ALL_METRICS.csv) · [Aggregate record](LD1_DIARY_0056_20261120.json).
+
+
+Curator roll-up: T4 · Did failure predict a larger increase in reported shame than sadness in company compared with time alone? · **Narrows** · The shame-versus-sadness contrast ran opposite to the predicted increase in company. · Project scope: Within-person interaction and solitary reports in 0056 · Next: Keep both source samples separate in the frozen lattice return and preserve the unequal-reporting-noise rival. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LD1_DIARY_0056_20261120.md.
+
 ### OPS-S15-W6-KP1-CHECKPOINT-0700-20261120
 
 **Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
