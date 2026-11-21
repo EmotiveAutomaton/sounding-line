@@ -22,7 +22,7 @@ Before reporting a wait, identify the dependency and the event that can clear
 it for every remaining lane. A disk, source or control hold applies to its own
 dependents. A push, an acknowledged receipt, a healthy watcher and unused CPU
 capacity do not establish that research is complete. Use the existing
-single-pending event delivery for measured state changes and the four-hour
+single-pending event delivery for measured state changes and the six-hour
 inactivity fallback.
 
 The owner keeps the current campaign roster in
