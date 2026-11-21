@@ -1,5 +1,784 @@
 # FINDINGS — the method archive
 
+### S15-W6-KP1-COMPLETE-20261121
+
+**Question.** Does a longer pause than expected for this writer and word predict a nearby deletion or a less predictable continuation?
+
+**Method.** Subtract the frozen D33 prediction from the observed log pause and standardize the remainder within writer. The primary model asks whether a deletion of at least three characters begins between the focal word’s first keystroke and the sixth following word’s first keystroke. Fit the registered unpenalized writer-intercept logistic model with the original word covariates. For the secondary, regress the mean personal surprisal of the next three typed words on the same predictor and covariates. Resample whole writers 2,000 times. For the primary, require an odds ratio above 1.10, a 95% interval wholly above one, and a point estimate above the 97.5th percentile of 200 within-writer shuffles. The secondary requires a point estimate above 0.02 natural-log units and a 95% interval above zero.
+
+**Sample.** 35 writers in the calibration-supported CoAuthor sample. The deletion analysis covered 36,782 eligible words and the continuation analysis covered 36,075. The original 41 writers contributed 78,602 evaluation words. The frozen calibration rule retained 35 writers, 192 evaluation sessions and 52,127 words. For deletion, the filter removed 8,483 words after suggestions, 3,681 with ambiguous focal onset order, 3,641 with ambiguous sixth-word onset order and 1,127 without a sixth following word. For continuation, it removed the same suggestion and focal-onset groups, 6,793 with ambiguous continuation order and 563 without three following words.
+
+**Result.** The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern. The deletion point fit reported separation or singular information. All 2,000 primary draws and all 200 shuffled controls lacked estimates. The registered control percentile is undefined. The primary verdict is void. For the secondary, each within-writer standard deviation of residual pause corresponded to 0.0255 additional natural-log units of surprise (95% writer interval 0.0087 to 0.0386).
+
+Each deletion row targets an odds ratio. Each continuation row gives the change in mean surprisal of the next three words per within-writer standard deviation of pause. The comparison uses residual pause unless the row specifies raw pause. Boundary checks exclude sentence starts and words following punctuation.
+
+| Comparison | Eligible words | Estimate | 95% writer interval | Valid draws |
+|---|---:|---:|---:|---:|
+| Any qualifying deletion | 36,782 | Unavailable | Unavailable | 0 |
+| Deletion of earlier text | 36,782 | Unavailable | Unavailable | 0 |
+| Deletion of word or later text | 36,782 | Unavailable | Unavailable | 0 |
+| Deletion, away from boundaries | 33,141 | Unavailable | Unavailable | 0 |
+| Deletion, raw pause | 36,782 | Unavailable | Unavailable | 0 |
+| Deletion, raw pause away from boundaries | 33,141 | Unavailable | Unavailable | 0 |
+| Next three words | 36,075 | 0.0255 | 0.0087 to 0.0386 | 2,000 |
+| Next three words, away from boundaries | 32,510 | 0.0330 | 0.0176 to 0.0463 | 2,000 |
+| Next three words, raw pause | 36,075 | 0.0290 | 0.0112 to 0.0430 | 2,000 |
+| Next three words, raw pause away from boundaries | 32,510 | 0.0364 | 0.0195 to 0.0512 | 2,000 |
+
+**Limit.** The typing log records revisions and word choices. It contains no independent observation of an attention switch. With identical covariates, the adjusted raw-pause and residual-pause models span the same regression space. Their per-standard-deviation coefficients use different scales.
+
+The independent process reproduced every fixed draw and control disposition. The owner verified 8,123 output hashes and 418 pinned inputs. The final continuation and replay used 31,835.22 CPU seconds. The separate KP1b human replication remains held for verified source linkage.
+
+[Continuation figure](KP1_PAUSE_REPAIR_20261121.png) · [Aggregate record](KP1_PAUSE_REPAIR_20261121.json).
+
+Curator roll-up: AT1 · Does a longer pause than expected for this writer and word predict a nearby deletion or a less predictable continuation? · **Narrows** · The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern. · 35 writers in the calibration-supported CoAuthor sample. The deletion analysis covered 36,782 eligible words and the continuation analysis covered 36,075. · Carry the void deletion primary and the continuation association together into the final packet. · Detail: KP1_PAUSE_REPAIR_20261121.md.
+
+### S15-W6-LA9-MEASURED-20261120
+
+**Question.** Which pooled dialogue acts predict the matched laughter label in the fixed sample of whole meetings?
+
+In the selected meetings, AMI social utterances had higher odds of coinciding with the matched laughter label than information exchange. The odds ratios were 5.97 with prior laughter in the model and 5.63 without it. The two models supplied 20 nonreference intervals in total.
+
+**Population.** 61 whole meetings selected from 246 AMI and ICSI meetings; 52 contributed matched pairs. Corpus allocation: {'AMI': 42, 'ICSI': 19}. The Hamilton rule and seed 20261102 selected meetings using only corpus metadata. All original pairs within each meeting, source coding and reference levels were retained. The original dense L2 model was fitted in both history arms. Intervals use 2,000 resamples of whole contributing meetings. A class needed at least 50 distinct held-out utterances. The reference for both arms is AMI information exchange. A ratio of one means equal odds. The sample included 49,230 matched rows. 423 distinct utterances lacked a scored class and remained nuisance terms. Rows are grouped by whether prior laughter was included. Each interval is for its own comparison.
+
+| History covariate | Source and pooled class | Distinct utterances | Odds ratio | 95% interval | Reading |
+|---|---|---:|---:|---|---|
+| with history | AMI/information_exchange | 2221 | 1.0000 | undefined | reference |
+| with history | AMI/no_speaker_intention | 1971 | 1.1522 | 0.8578 to 1.5991 | estimated |
+| with history | AMI/other | 219 | 1.3274 | 0.9207 to 2.1926 | estimated |
+| with history | AMI/possible_action | 732 | 1.3773 | 1.0457 to 1.8404 | estimated |
+| with history | AMI/previous_discussion | 2156 | 1.6116 | 1.3370 to 2.1293 | estimated |
+| with history | AMI/social | 340 | 5.9703 | 3.6147 to 11.8027 | estimated |
+| with history | ICSI/backchannel | 2919 | 1.1689 | 0.6658 to 3.0835 | estimated |
+| with history | ICSI/disruption | 3179 | 2.0113 | 1.2613 to 4.8619 | estimated |
+| with history | ICSI/filler | 1422 | 1.1896 | 0.7303 to 2.9809 | estimated |
+| with history | ICSI/question | 1346 | 1.7328 | 1.1179 to 4.0975 | estimated |
+| with history | ICSI/statement | 11872 | 1.5378 | 1.1751 to 2.5389 | estimated |
+| without history | AMI/information_exchange | 2221 | 1.0000 | undefined | reference |
+| without history | AMI/no_speaker_intention | 1971 | 1.1585 | 0.8505 to 1.6241 | estimated |
+| without history | AMI/other | 219 | 1.2515 | 0.8517 to 2.0627 | estimated |
+| without history | AMI/possible_action | 732 | 1.4087 | 1.0745 to 1.8843 | estimated |
+| without history | AMI/previous_discussion | 2156 | 1.6151 | 1.3365 to 2.1515 | estimated |
+| without history | AMI/social | 340 | 5.6253 | 3.2715 to 11.2030 | estimated |
+| without history | ICSI/backchannel | 2919 | 1.3610 | 0.7979 to 3.5945 | estimated |
+| without history | ICSI/disruption | 3179 | 2.1309 | 1.3035 to 5.2193 | estimated |
+| without history | ICSI/filler | 1422 | 1.3004 | 0.7849 to 3.2206 | estimated |
+| without history | ICSI/question | 1346 | 1.7822 | 1.1010 to 4.3843 | estimated |
+| without history | ICSI/statement | 11872 | 1.6242 | 1.2554 to 2.6518 | estimated |
+
+**Limit.** Corpus annotation systems describe different speech functions. The matched label can include laughter already underway. Timing and topic do not identify the speaker’s intent or the cause of laughter. ICSI coefficients use the AMI information-exchange reference, so they combine differences in corpus and speech function. The full-source pilot projected a cost above the allowance.
+
+Curator roll-up: T7 · Which pooled dialogue acts predict the matched laughter label in the fixed sample of whole meetings? · **Narrows** · In the selected meetings, AMI social utterances had higher odds of coinciding with the matched laughter label than information exchange. The odds ratios were 5.97 with prior laughter in the model and 5.63 without it. The two models supplied 20 nonreference intervals in total. · Project scope: 61 whole meetings selected from 246 AMI and ICSI meetings; 52 contributed matched pairs. · Next: Carry the measured-scope result beside the full-source cost stop. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LA9_SAMPLED_POOLED_ACTS_20261120.md.
+
+### OPS-S15-W6-LA9-SCOPED-PILOT-20261120
+
+**Question.** Can the original model and full independent replay finish on the predeclared whole-meeting sample?
+
+The original optimizer completed 100 whole-meeting draws on the frozen 61-meeting sample. The measured projection falls inside the remaining allowance.
+
+The scope selected 61 of 246 meetings, with corpus allocation {'AMI': 42, 'ICSI': 19}, by the frozen Hamilton and seed rule before opening the paired table. The 100-draw pilot used 72.23 CPU seconds. At the same measured cost, the remaining execution and complete replay project to 2817.14 CPU seconds, before a 45-second reserve. Available LA9 room at review was 9163.59 seconds and the full attempt is capped at 8,500. The ledger retains the original 10,000-second card ceiling and prior costs. Every checkpoint seal, original input, native identity and paused manifest was verified.
+
+The prepared continuation restores these 100 draws, completes 1,900 more, then repeats all 2,000 in a fresh process. The predecessor correctly refused a transient unrecognized reader before admission. Its native owner exited with zero research CPU. The next ordinary admission verified the cleared census.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original optimizer completed 100 whole-meeting draws on the frozen 61-meeting sample. The measured projection falls inside the remaining allowance.; project meaning: scoped operational record; next engineering obligation: Retain the cost decision with the full-source and scoped records.; public scientific claim unchanged; curator decision required: No new decision. Detail: LA9_SCOPED_PILOT_20261120.md.
+
+### OPS-S15-W6-LA9-SPARSE-EQUIVALENCE-20261120
+
+**Question.** Can the original pooled meeting table be finished more cheaply with coefficient equivalence?
+
+The sparse implementation failed to reproduce the first saved original draw at the frozen coefficient tolerance. The same comparison failed on fresh replay.
+
+The source, standardization, L2 penalty, optimizer and meeting weights were retained. The alternative used sparse matrices and removed zero-weight rows. Two constructed equivalence checks passed, as did the three ordinary service-binding checks. On the original source, the first paired coefficient comparison exceeded the absolute tolerance of 0.0000001. The audit stopped at that ordinal, as designed. No later draw contributed a result. The measurements and complete independent replay used 26.11 CPU seconds.
+
+The original 100 draws remain preserved. The full-source dense forecast exceeds 10,000 CPU seconds. The previously registered smaller route is now frozen to a corpus-stratified quarter of whole meetings. Its own measured pilot and remaining shared budget govern admission. See the [scope specification](../../../../docs/design/stage-15/week6/LA9_MEASURED_MEETING_SCOPE_20261120.md).
+
+The initial constructed import error was corrected and charged. An earlier registration attempted the wrong budget registry and stopped before any plan, lease or worker was created. The admitted run used the original LA9 registry and card cap with the verified watcher binding.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The sparse implementation failed to reproduce the first saved original draw at the frozen coefficient tolerance. The same comparison failed on fresh replay.; project meaning: scoped operational record; next engineering obligation: Use the frozen smaller dense-solver route and measured cost gate.; public scientific claim unchanged; curator decision required: No new decision. Detail: LA9_SPARSE_EQUIVALENCE_20261120.md.
+
+### S15-W6-LA7-BG-20261120
+
+**Question.** In assigned-role design meetings, how often did someone in each role laugh at the line of someone in each other role?
+
+The 12 ordered pairs ranged from 0.37 to 0.71 single-target laughs per target floor minute. The adjusted direction reversed with a different allocation of ambiguous laughs for industrial designer to marketing expert. That pair receives no verdict.
+
+**Population and method.** 138 AMI scenario meetings with assigned roles. The primary uses 6,248 single-target laughs. 4,008 had multiple candidates and 1,832 had none. Each denominator is the target’s observed floor time across eligible ordered speaker pairs. The additive Poisson model fitted laugher and target roles, turn half, and other laughter already in progress. Excess is observed minus fitted counts per target floor minute. Intervals resample whole meetings 2,000 times. A fresh process reconstructed all source assignments and all draws.
+
+| Laugher to target | Floor minutes | Single-target rate (95% interval) | Adjusted excess (95% interval) | Last-ended rate / excess | Fractional rate / excess | BG check |
+|---|---:|---|---|---|---|---|
+| industrial designer to marketing expert | 911.2067 | 0.5421 (0.4539 to 0.6410) | -0.0081 (-0.0465 to 0.0301) | 0.9317 / 0.0024 | 0.9317 / -0.0138 | sign reversal; no verdict |
+| industrial designer to project manager | 1368.7592 | 0.5253 (0.4390 to 0.6210) | -0.0206 (-0.0491 to 0.0044) | 0.8391 / -0.0371 | 0.8241 / -0.0242 | descriptive |
+| industrial designer to interface designer | 818.2741 | 0.4754 (0.3802 to 0.5795) | 0.0435 (0.0038 to 0.0860) | 0.8524 / 0.0593 | 0.8775 / 0.0558 | descriptive |
+| marketing expert to industrial designer | 898.0866 | 0.4421 (0.3627 to 0.5341) | -0.0441 (-0.0782 to -0.0070) | 0.7594 / -0.0594 | 0.7757 / -0.0518 | descriptive |
+| marketing expert to project manager | 1368.7592 | 0.5721 (0.4936 to 0.6543) | 0.0581 (0.0289 to 0.0898) | 0.8858 / 0.1008 | 0.8326 / 0.0704 | descriptive |
+| marketing expert to interface designer | 818.2741 | 0.3678 (0.2868 to 0.4592) | -0.0488 (-0.0897 to -0.0059) | 0.6227 / -0.1033 | 0.6937 / -0.0610 | descriptive |
+| project manager to industrial designer | 898.0866 | 0.5723 (0.4667 to 0.6904) | -0.0454 (-0.0876 to -0.0025) | 0.9008 / -0.0638 | 0.8986 / -0.0548 | descriptive |
+| project manager to marketing expert | 911.2067 | 0.7100 (0.5933 to 0.8365) | 0.0401 (-0.0030 to 0.0826) | 1.0195 / 0.0234 | 1.0442 / 0.0494 | descriptive |
+| project manager to interface designer | 818.2741 | 0.5328 (0.4390 to 0.6258) | 0.0052 (-0.0310 to 0.0396) | 0.8970 / 0.0440 | 0.8720 / 0.0051 | descriptive |
+| interface designer to industrial designer | 898.0866 | 0.5445 (0.4469 to 0.6500) | 0.0895 (0.0480 to 0.1326) | 0.9515 / 0.1233 | 0.9450 / 0.1067 | descriptive |
+| interface designer to marketing expert | 911.2067 | 0.4851 (0.4074 to 0.5671) | -0.0320 (-0.0725 to 0.0089) | 0.8653 / -0.0258 | 0.8770 / -0.0356 | descriptive |
+| interface designer to project manager | 1368.7592 | 0.4654 (0.3933 to 0.5401) | -0.0375 (-0.0656 to -0.0094) | 0.7613 / -0.0637 | 0.7577 / -0.0463 | descriptive |
+
+**Attribution sensitivity.** Equal-split and latest-end assignments each distribute one credit per laugh with candidates. There were 10 ties for latest end. Those credits were divided equally among the tied candidates. Each adjusted excess uses the model fitted for that assignment. The pre-outcome support receipt tabulates ambiguous candidate-role pairs.
+
+**Limit.** Timing identifies a candidate target. Intended address, perceived rank, mockery and what others understood were unobserved. Roles were assigned for a design exercise.
+
+**Registered reading.** This card commissioned the table and specified no directional prediction.
+
+Curator roll-up: LP5 · In assigned-role design meetings, how often did someone in each role laugh at the line of someone in each other role? · **Narrows** · The 12 ordered pairs ranged from 0.37 to 0.71 single-target laughs per target floor minute. The adjusted direction reversed with a different allocation of ambiguous laughs for industrial designer to marketing expert. That pair receives no verdict. · Project scope: Role-assigned AMI design meetings · Next: Keep all 12 pairs and both ambiguous-target descriptions in the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LA7_MEETING_ROLE_RATES_20261120.md.
+
+### OPS-S15-W6-LA7-BG-PILOT-20261120
+
+**Question.** Can the approved role-pair analysis complete under its existing allowance?
+
+The first 100 whole-meeting draws are preserved. The measured projection permits the full role table and independent replay.
+
+The bounded worker used 6.23 CPU seconds. Forty times that charge projects 249.4 CPU seconds for the complete calculation and replay, below the 3,000-second attempt limit. The successor must retain all ten checkpoint files, every source pin and both original role-assignment descriptions.
+
+The first constructed check exposed a difference in scalar arithmetic between the weighted and explicitly repeated meeting tables. Converting the aggregated arrays back to the original scalar representation restored exact equality. All five checks passed, including a second run against the final checkpoint-compatible settings. The budget includes every qualification attempt. No scientific decision uses these partial draws.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first 100 whole-meeting draws are preserved. The measured projection permits the full role table and independent replay.; project meaning: scoped operational record; next engineering obligation: Finish the verified original-source role table and whole-meeting replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: LA7_BG_MODEL_PILOT_20261120.md.
+
+### OPS-S15-W6-MEETING-BG-SUPPORT-20261120
+
+**Question.** How many annotated laughs have exactly one other speaker who could be their target?
+
+**Method.** For each laugh onset, count distinct other speakers with an overlapping utterance or one ending in the preceding two seconds. Separate self-laughter, unique targets and multiple candidates. Preserve the assigned-role meeting subset for LA7 and the meeting roster for LA8. Run a fresh reconstruction and independently enumerate qualifying utterances. The outcome speech table stayed closed.
+
+Both meeting populations have a recorded pre-outcome target census. The literal interval replay agrees with the indexed attribution.
+
+| Population | Meetings | All laughs | Self | One target | Multiple | Multiple / all | Multiple / with a candidate | Single / with a candidate |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| LA7 | 138 | 12088 | 1832 | 6248 | 4008 | 0.3316 | 0.3908 | 0.6092 |
+| LA8 | 246 | 28389 | 8243 | 11382 | 8764 | 0.3087 | 0.4350 | 0.5650 |
+
+The receipt lists every ambiguous candidate-role pair with all three denominators. Each distinct pair counts once per laugh, and several pairs can describe one laugh. A timing label cannot establish intended address. Both outcome reports inherit the below-half limit whenever it applies. Seven constructed cases preceded the full source pass. Timing, role, and source definitions are frozen in [amendment BG](../../../../docs/design/stage-15/week6/LA78_TARGET_BG_20261120.md).
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both meeting populations have a recorded pre-outcome target census. The literal interval replay agrees with the indexed attribution.; project meaning: scoped operational record; next engineering obligation: Use the frozen roster and ambiguity denominators in the role and next-minute analyses.; public scientific claim unchanged; curator decision required: No new decision. Detail: MEETING_BG_SUPPORT_20261120.md.
+
+### S15-W6-LB6-0063-20261120
+
+**Limited sensitivity.** Approximate detectable magnitudes exceed the bar for 32 (0.061), 33 (0.062).
+
+**Question.** Which workplace ratings track a person's inspiration after other ratings and cheerfulness are held?
+
+Registered readings in 0063 were 32 supports, 33 supports.
+
+| Row | Prediction | People | Reports | Estimate | 95% interval | Bar | Reading | Whole interval clears bar |
+|---|---|---:|---:|---:|---|---:|---|---|
+| 32 | Inspired on good at this | 173 | 3585 | 0.13449587328125504 | [0.0901627912868327, 0.17691698702965655] | 0.05 | supports | True |
+| 33 | Inspired on appreciated | 173 | 3585 | 0.07304767059284113 | [0.02842862424855405, 0.11564417825463932] | 0.05 | supports | False |
+
+All 2,000 original whole-person draws and the independent source replay agreed on every stored metric. Source-specific complete reports enter each comparison. Centering removes stable person means. Appreciation was asked in company. A worker's general appraisal of an occasion can influence every rating.
+
+[Design, source papers and credit](../../../../docs/design/stage-15/week6/LB456_DIARIES_20261120.md) · [Every estimate, denominator and sensitivity](LB6_DIARY_0063_20261120_COEFFICIENTS.csv).
+
+The full-run controller initially refused admission when a completed peer released its lease during the census. A second census repeated the refusal. The original 100-draw checkpoint remained intact. Once the peer exited, the ordinary census and counted admission passed. The full run and independently computed replay both finished under the original allowance.
+
+Curator roll-up: T6 · Which workplace ratings track a person's inspiration after other ratings and cheerfulness are held? · **Narrows** · Registered readings in 0063 were 32 supports, 33 supports. · Project scope: Dutch working adults reporting in company · Next: Carry the original cohort and shared-draw provenance into the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LB6_DIARY_0063_20261120.md.
+
+### S15-W6-LB4-0076-20261120
+
+**Limited sensitivity.** Approximate detectable magnitudes exceed the bar for 29 (0.071).
+
+**Question.** Does a person report less playfulness on more stressful occasions after pleasantness is held?
+
+Registered readings in 0076 were 29 supports.
+
+| Row | Prediction | People | Reports | Estimate | 95% interval | Bar | Reading | Whole interval clears bar |
+|---|---|---:|---:|---:|---|---:|---|---|
+| 29 | Playful on stressful, holding pleasant | 173 | 1878 | -0.13972317276934326 | [-0.18742144446498693, -0.09064435413125017] | -0.05 | supports | True |
+
+All 2,000 original whole-person draws and the independent source replay agreed on every stored metric. Source-specific complete reports enter each comparison. Centering removes stable person means. Stress and playfulness are self-reports. Who a person meets and which interactions they report can influence the association.
+
+[Design, source papers and credit](../../../../docs/design/stage-15/week6/LB456_DIARIES_20261120.md) · [Every estimate, denominator and sensitivity](LB4_DIARY_0076_20261120_COEFFICIENTS.csv).
+
+Curator roll-up: T7 · Does a person report less playfulness on more stressful occasions after pleasantness is held? · **Narrows** · Registered readings in 0076 were 29 supports. · Project scope: Adults reporting social interactions on an Android phone · Next: Carry the original cohort and shared-draw provenance into the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LB4_DIARY_0076_20261120.md.
+
+### S15-W6-LB4-0070-20261120
+
+**Limited sensitivity.** Approximate detectable magnitudes exceed the bar for 26 (0.076), 27 (0.056), 28 (0.173).
+
+**Question.** Which appraisals and feelings track silliness within the same student?
+
+Registered readings in 0070 were 26 supports, 27 inconclusive, 28 inconclusive.
+
+| Row | Prediction | People | Reports | Estimate | 95% interval | Bar | Reading | Whole interval clears bar |
+|---|---|---:|---:|---:|---|---:|---|---|
+| 26 | Silly on expected | 82 | 3432 | -0.15118454863452171 | [-0.2041954346022341, -0.099079842309761] | -0.05 | supports | True |
+| 27 | Silly on important | 82 | 3432 | -0.009180205296439774 | [-0.04813718167184789, 0.026997824841218602] | -0.05 | inconclusive | False |
+| 28 | Silly: fearful coefficient minus sad coefficient | 82 | 3432 | 0.07989617068887285 | [-0.04198845652786385, 0.19917835550143884] | -0.05 | inconclusive | False |
+
+All 2,000 original whole-person draws and the independent source replay agreed on every stored metric. Source-specific complete reports enter each comparison. Centering removes stable person means. One person rated the situation and their feeling. Sampling included sensor-triggered prompts.
+
+[Design, source papers and credit](../../../../docs/design/stage-15/week6/LB456_DIARIES_20261120.md) · [Every estimate, denominator and sensitivity](LB4_DIARY_0070_20261120_COEFFICIENTS.csv).
+
+Curator roll-up: T7 · Which appraisals and feelings track silliness within the same student? · **Narrows** · Registered readings in 0070 were 26 supports, 27 inconclusive, 28 inconclusive. · Project scope: First-year psychology students in Tilburg · Next: Carry the original cohort and shared-draw provenance into the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LB4_DIARY_0070_20261120.md.
+
+### OPS-S15-W6-OVERNIGHT-DIARY-PILOTS-20261120
+
+**Question.** Can the four original diary sources enter their frozen analyses and retain authenticated checkpoints?
+
+**Method.** Match the exact source, plan, admission and terminal receipts. Inspect each saved block and its complete checkpoint manifest. For the rejected source, inspect only the rating-code frequencies and compare them with both the archived dictionary and the primary methods.
+
+Three original cohorts saved 100 whole-person draws each. The fourth stopped on a documented rating-scale discrepancy before fitting.
+
+The original student, Android interaction and working-adult cohorts each have all 100 expected draws, the declared item bindings and a complete saved manifest. Their first-block costs and remaining allowance govern any continuation. None of these pilots yields a scientific verdict.
+
+For clinical member 0064, the 14 held items contain 4,211 responses coded 6 and 2,570 coded 7. The release dictionary and both methods reports specify a five-point scale. The code stopped before calculating a contrast. No out-of-range item was dropped, truncated, reinterpreted or substituted. Its cost remains on the original card. A release-specific coding key would allow a new source review. [Release dictionary](https://openesmdata.org/datasets/0064_wright/) · [Original study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5679127/) · [Original-data reanalysis](https://doi.org/10.1002/per.2277).
+
+| Member | Pilot state | Counted CPU seconds |
+|---|---|---:|
+| 0063 | 100 saved draws | 1.203125 |
+| 0064 | source-code conflict | 1.125000 |
+| 0070 | 100 saved draws | 1.281250 |
+| 0076 | 100 saved draws | 1.312500 |
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Three original cohorts saved 100 whole-person draws each. The fourth stopped on a documented rating-scale discrepancy before fitting.; project meaning: scoped operational record; next engineering obligation: Continue qualified members from their own checkpoints. Hold the clinical source until its coding conflict is explained.; public scientific claim unchanged; curator decision required: No new decision. Detail: OVERNIGHT_DIARY_PILOTS_20261120.md.
+
+### OPS-S15-W6-OVERNIGHT-DIARY-ADMISSION-20261120
+
+**Question.** Could the prepared diary cohorts acquire a slot after the completion watcher changed?
+
+**Method.** Compare all three original refusal traces with the current watcher executable, process creation, loaded sources and startup record. Traverse the ordinary migration census, immutable source and budget checks, confirm the new native ownership and verify each first admission.
+
+All three diary controllers recovered from the retired watcher binding and obtained counted two-thread CPU-only Gear 2 admissions. The earlier attempts stopped before a study owner could claim a lease. No original result or checkpoint was overwritten. The new implementation retains the historical migration receipts and rejects changed source bytes, process identity, startup, command, image or working directory. All 44 operational and accounting checks passed. Fifteen separate constructed cases cover the diary science. Another cohort shares the LB4 allowance and follows the first. Each card measures the first 100 draws before deciding whether a full original bank and independent replay fit within its remaining allowance. The three historical failures and their checksums remain recorded independently. No scientific estimate follows from admission.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All three diary controllers recovered from the retired watcher binding and obtained counted two-thread CPU-only Gear 2 admissions.; project meaning: scoped operational record; next engineering obligation: Inspect each measured pilot and file each full result after independent verification.; public scientific claim unchanged; curator decision required: No new decision. Detail: OVERNIGHT_DIARY_ADMISSION_20261120.md.
+
+### OPS-S15-W6-DIGEST-20261120
+
+**Question.** Do the day's source runs, failures, costs and evidence reconcile?
+
+**Method.** Use the scheduled 24-hour interval ending at 8 p.m. Pacific on November 20. Resolve each in-window ledger entry, match terminal checksums to the evidence shelf, intersect counted lease intervals with the day, and verify live native identities, freshness, resources, canonical locks and the watcher's startup proof.
+
+All 59 daily ledger entries have complete report and receipt pairs. All 56 in-window campaign terminal checksums occur in filed receipts. All 21 canonical locks pass. Across 192 available Sounding Line slot-hours, the admitted attempts account for 21.253 hours. Adding the duration bounds of 38 qualifications gives at most 21.322 occupied hours. The unoccupied allocation was 170.678 to 170.747 hours. These numbers exclude other projects' use of the workstation. Commissioned builds, admission holds, checkpoint recovery and replay account for some of the gap. Their overlapping durations cannot be attributed separately.
+
+At inspection the writing study had one live, counted CPU-only Gear 2 owner with fresh independent-replay progress. Available RAM was 52.2 GiB, commit headroom 37.6 GiB and disk free 778.5 GiB. The cumulative recorded campaign charge was 189,119.1 CPU seconds at inspection, including active work. No charge is reposted by this digest. Eight collector delivery directories were present. This inspection covers their identities and the campaign evidence listed below.
+
+The three interaction-diary returns and parent-diary return have full independent replay. Spark completed the matched CANDOR analysis and returned a withholding disposition on both joined MIDUS waves. The four next diary cohorts passed 15 constructed checks. Their three launch controllers subsequently stopped before admission because the new watcher's source differed from the previous reviewed service binding. Each refusal is preserved separately. These were operational refusals before any of those scientific jobs ran. The owner is qualifying a prospective binding for the exact watcher. Its single-pending delivery retained the three failures and this milestone in the active turn. The six-hour fallback runs from owner inactivity.
+
+| Filed entry | Complete report |
+|---|---|
+| OPS-S15-W6-LD-SOURCE-NATIVE-QUALIFIED-20261119 | [Report](LD_SOURCE_NATIVE_QUALIFIED_20261119.md) |
+| OPS-S15-W6-DIGEST-20261119 | [Report](WEEK6_DIGEST_20261119.md) |
+| OPS-S15-W6-HEALTH-LD-DIAGNOSTICS-20261120 | [Report](HEALTH_LD_DIAGNOSTICS_20261120.md) |
+| OPS-S15-W6-STATUS-SPARK-20261120 | [Report](STATUS_SPARK_20261120.md) |
+| OPS-S15-W6-CH14-FINAL-COST-STOP-20261120 | [Report](CH14_FINAL_COST_STOP_20261120.md) |
+| OPS-S15-W6-SM0-JOINED-COMPLETE-20261120 | [Report](SM0_JOINED_COMPLETE_20261120.md) |
+| OPS-S15-W6-LATTICE-POLICY-20261120 | [Report](LATTICE_POLICY_KP1_0200_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-0300-20261120 | [Report](KP1_CHECKPOINT_0300_20261120.md) |
+| OPS-S15-W6-DIARY-OPENING-KP1-0400-20261120 | [Report](DIARY_OPENING_KP1_0400_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-0500-20261120 | [Report](KP1_CHECKPOINT_0500_20261120.md) |
+| S15-W6-RR4-D3-BE-20261120 | [Report](D3_LATE_REPEAT_BE_20261120.md) |
+| S15-W6-LD3-0057-20261120 | [Report](LD3_DIARY_0057_20261120.md) |
+| S15-W6-LD2-0057-20261120 | [Report](LD2_DIARY_0057_20261120.md) |
+| S15-W6-LD3-0056-20261120 | [Report](LD3_DIARY_0056_20261120.md) |
+| OPS-S15-W6-NOV20-DIARY-PILOTS-KP1-0600 | [Report](DIARY_PILOTS_KP1_0600_20261120.md) |
+| S15-W6-LD2-0056-20261120 | [Report](LD2_DIARY_0056_20261120.md) |
+| S15-W6-NT1-DE-0057-20261120 | [Report](NT1_CRITICISM_CARRY_0057_20261120.md) |
+| OPS-S15-W6-LD1-0057-HANDOFF1-20261120 | [Report](LD1_0057_HANDOFF1_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-0700-20261120 | [Report](KP1_CHECKPOINT_0700_20261120.md) |
+| S15-W6-LD1-0056-20261120 | [Report](LD1_DIARY_0056_20261120.md) |
+| OPS-S15-W6-SM-FAMILY-SOURCE-FIXTURE-20261120 | [Report](SM_FAMILY_SOURCE_FIXTURE_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-0800-20261120 | [Report](KP1_CHECKPOINT_0800_20261120.md) |
+| OPS-S15-W6-SM-TABLE-FIELDS-20261120 | [Report](SM_INDEPENDENT_TABLE_SUPPORT_20261120.md) |
+| OPS-S15-W6-SM-EXACT-RECHECK-20261120 | [Report](SM_SOURCE_RELEASE_RECHECK_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-0900-20261120 | [Report](KP1_CHECKPOINT_0900_20261120.md) |
+| OPS-S15-W6-LA-STRICT-SOURCE-COMPLETE-20261120 | [Report](LA_STRICT_SOURCE_COMPLETE_20261120.md) |
+| OPS-S15-W6-SM-DAILY-TRAIT-FIXTURE-20261120 | [Report](SM_DAILY_TRAIT_FIXTURE_20261120.md) |
+| OPS-S15-W6-LA-STRICT-WINDOW-PILOTS-20261120 | [Report](LA_STRICT_WINDOWS_PILOTS_20261120.md) |
+| OPS-S15-W6-SM-DAILY-BANK-20261120 | [Report](SM_DAILY_BANK_CHECKS_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1000-20261120 | [Report](KP1_CHECKPOINT_1000_20261120.md) |
+| S15-W6-LA6-S-20261120 | [Report](LA6_STRICT_ONSETS_20261120.md) |
+| S15-W6-LA6-SL-20261120 | [Report](LA6_LENGTH_HELD_ONSETS_20261120.md) |
+| OPS-S15-W6-LD1-0057-REPLAY-HANDOFF-20261120 | [Report](LD1_REPLAY_HANDOFF_0057_20261120.md) |
+| OPS-S15-W6-LA9-POOLED-PILOT-20261120 | [Report](LA9_POOLED_PILOT_20261120.md) |
+| S15-W6-LD1-0057-20261120 | [Report](LD1_DIARY_0057_20261120.md) |
+| OPS-S15-W6-SPARK-FAMILY-BF-20261120 | [Report](SPARK_FAMILY_REHEARSAL_AND_BF_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1100-20261120 | [Report](KP1_CHECKPOINT_1100_20261120.md) |
+| OPS-S15-W6-SPARK-COMPLETE-PACKAGE-20261120 | [Report](SPARK_COMPLETE_PACKAGE_REHEARSAL_20261120.md) |
+| S15-W6-R1-I-ISEAR-20261120 | [Report](R1_ISEAR_EXPECTEDNESS_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1200-20261120 | [Report](KP1_CHECKPOINT_1200_20261120.md) |
+| OPS-S15-W6-SC1-SEALED-CODEBOOK-20261120 | [Report](SC1_SEALED_CODEBOOK_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1300-20261120 | [Report](KP1_CHECKPOINT_1300_20261120.md) |
+| S15-W6-LD4-0057-20261120 | [Report](LD4_DIARY_0057_20261120.md) |
+| S15-W6-LD4-0056-20261120 | [Report](LD4_DIARY_0056_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1400-20261120 | [Report](KP1_CHECKPOINT_1400_20261120.md) |
+| S15-W6-LB1-0060-20261120 | [Report](LB1_STUDENT_DIARY_0060_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1500-20261120 | [Report](KP1_CHECKPOINT_1500_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1600-20261120 | [Report](KP1_CHECKPOINT_1600_20261120.md) |
+| OPS-S15-W6-RC1-THEORY-ROW-MAP-20261120 | [Report](RC1_THEORY_ROW_MAP_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1700-20261120 | [Report](KP1_CHECKPOINT_1700_20261120.md) |
+| OPS-S15-W6-KP1-CHECKPOINT-1800-20261120 | [Report](KP1_CHECKPOINT_1800_20261120.md) |
+| OPS-S15-W6-PARENT-PILOT-COHORT-SC2-JOIN-20261120 | [Report](DIARY_QUALIFICATIONS_PARENT_PILOT_SPARK_JOIN_20261120.md) |
+| OPS-S15-W6-1900-COHORTS-MOUNTED-20261120 | [Report](WRITING_CHECKPOINT_INTERACTION_PILOTS_AND_SEALED_REHEARSAL_20261120.md) |
+| S15-W6-LB3-0072-20261120 | [Report](LB3_PARENT_DIARY_0072_20261120.md) |
+| S15-W6-LB2-0042-20261120 | [Report](LB2_INTERACTION_DIARY_0042_20261120.md) |
+| S15-W6-LB2-0043-20261120 | [Report](LB2_INTERACTION_DIARY_0043_20261120.md) |
+| S15-W6-LB2-0044-20261120 | [Report](LB2_INTERACTION_DIARY_0044_20261120.md) |
+| OPS-S15-W6-MIDUS-TWO-WAVE-WITHHELD-20261120 | [Report](MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.md) |
+| S15-W6-SC2-CANDOR-20261120 | [Report](SC2_MATCHED_CANDOR_20261120.md) |
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All 59 daily ledger entries have complete report and receipt pairs. All 56 in-window campaign terminal checksums occur in filed receipts.; project meaning: scoped operational record; next engineering obligation: Qualify the replacement watcher binding and admit the prepared diary cohorts under the normal resource and cost checks.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_DIGEST_20261120.md.
+
+### S15-W6-SC2-CANDOR-20261120
+
+**Limited sensitivity.** The approximate detectable difference was 0.060, above the registered bar of 0.05. The approximate effect needed to exceed the bar reliably was 0.110.
+
+**Question.** Does rated humor track how much a partner likes someone more closely than it tracks the status that partner assigns them?
+
+Partner-rated humor had a stronger standardized association with liking than with status. The paired difference was 0.255 (95% interval 0.212 to 0.296). The project reading is supports. The full interval also clears the practical bar.
+
+Both directed partner reports from each of 1,602 conversations supplied 3,204 reports from 1,415 distinct people. Each standardized regression included humor, recording length and the rated speaker’s share of talk. Both fits used identical cases. Each of 2,000 whole-conversation resamples kept both directions together and recalculated the standard deviations. An independent weighted least-squares implementation checked every draw before release. All draws were estimable.
+
+- standardized humor slope for liking. 0.4252, 95% interval 0.3963 to 0.4529.
+- standardized humor slope for status. 0.1704, 95% interval 0.1349 to 0.2064.
+- liking minus status. 0.2547, 95% interval 0.2121 to 0.2958.
+
+One partner rated all three traits on one occasion. A favorable overall impression can link the ratings. Liking and status are imperfect measures of affiliation and standing. Recurring participants can connect different conversations.
+
+Seventeen local constructed checks and a separate in-image known answer preceded the scientific run. Only the registered aggregate tables passed both gates. [Frozen design and source attribution](../../../docs/design/stage-15/week6/SC2_MATCHED_HUMOR_LIKING_STATUS_20261120.md).
+
+[SC2_MATCHED_CANDOR_20261120.png](SC2_MATCHED_CANDOR_20261120.png) · [CELLS.csv](SC2_MATCHED_CANDOR_20261120_CELLS.csv) · [SHEET.md](SC2_MATCHED_CANDOR_20261120_SHEET.md) · [estimates.csv](SC2_MATCHED_CANDOR_20261120_estimates.csv) · [field_status.csv](SC2_MATCHED_CANDOR_20261120_field_status.csv) · [known_answer.csv](SC2_MATCHED_CANDOR_20261120_known_answer.csv) · [support.csv](SC2_MATCHED_CANDOR_20261120_support.csv)
+
+Curator roll-up: LP11 · Does rated humor track how much a partner likes someone more closely than it tracks the status that partner assigns them? · **Narrows** · Partner-rated humor had a stronger standardized association with liking than with status. The paired difference was 0.255 (95% interval 0.212 to 0.296). · Project scope: Partner ratings after recorded conversations · Next: Carry row 44 and its same-rater limitation to the lattice return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: SC2_MATCHED_CANDOR_20261120.md.
+
+### OPS-S15-W6-MIDUS-TWO-WAVE-WITHHELD-20261120
+
+Both joined MIDUS waves ran under the installed seal. Neither released a participant count or a scientific estimate. The mounted synthetic rehearsal passed before the first real wave. The second job reconstructed wave-two eligibility inside the joined mount. Code 12 covers inadequate support or a complementary disclosure check. The code does not distinguish them. No suppressed record or output was inspected. Registered rows 34 through 42, the commissioned NT1.s follow-up, and the BF next-day argument comparisons have no released estimate. Retain all registered rows in the final denominator inventory with disposition ‘could not say’. The two MIDUS waves comprise one source in the combined calibration.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both joined MIDUS waves ran under the installed seal. Neither released a participant count or a scientific estimate.; project meaning: scoped operational record; next engineering obligation: Carry withheld rows into the final packet without imputing a sign or participant count.; public scientific claim unchanged; curator decision required: No new decision. Detail: MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.md.
+
+### S15-W6-LB2-0044-20261120
+
+**Limited sensitivity.** Approximate detectable magnitude 0.0942, against a 0.05 bar.
+
+**Question.** In unpleasant interactions, does acting more dominantly change the odds of reporting anger more strongly than the odds of reporting nervousness?
+
+**Method.** Include reported interactions with all required items present. Unpleasantness is 100 minus happiness. Within each person, center unpleasantness and reported dominance and scale each by its pooled within-person standard deviation. Fit above-five anger and above-five nervousness separately using identical reports, both main terms, their product and both person means. Subtract the two product coefficients. Refit on 2,000 shared whole-person draws and reproduce every draw in a fresh process. The sensitivity uses the full feeling ratings in a linear model. [Frozen definitions](../../../docs/design/stage-15/week6/LB2_INTERACTION_DIARIES_20261120.md).
+
+The registered anger-minus-nervousness interaction in cohort 0044 was inconclusive. The matched analysis used 386 people and 4,916 interaction reports.
+
+| Contrast | Estimate | 95% interval | Valid draws |
+|---|---:|---|---:|
+| Registered occurrence | 0.0404 | [-0.0221, 0.1076] | 2000 |
+| Descriptive occurrence | 0.0404 | [-0.0221, 0.1076] | 2000 |
+| Linear ratings sensitivity | 0.0537 | [0.0062, 0.1022] | 2000 |
+
+The registered bar is +0.05 in log-odds interaction units, with the interval above zero. Entire interval above the bar: no. Bootstrap SD 0.0336, approximate detectable magnitude 0.0942, approximate magnitude for support 0.1442. These last two quantities use the normal-reference 2.8-SD rule. The complete coefficient table retains every unavailable fit.
+
+**Population.** Momentary ratings on interaction prompts. The original source contained 8,768 prompts from 396 identified roster members. 387 people reported interactions. There were 3,776 prompts without an interaction, 37 with missing interaction status and 39 interaction reports with incomplete required ratings. Among complete reports, 2,010 anger ratings and 2,704 nervousness ratings exceeded five.
+
+**Limits.** The same person rated their behaviour and feelings on one occasion. Anger may have preceded the reported dominance. Unequal response noise can change above-floor slopes. This cohort rated how they felt at the prompt, which can differ from feeling during the interaction. The optional within-person conditional-logit sensitivity lacked a qualified binary diary solver. The full rating-scale sensitivity is shown above.
+
+**Integrity and cost.** A 100-draw pilot used 1.65625 CPU seconds. It authenticated 7 output files. The completed run and replay used 33.4688 CPU seconds and authenticated 250 output files and 88 frozen inputs. One 14-case qualification was charged once across all three cohorts. Combined measured cost was 158.297 CPU seconds of the shared 20,000-second allowance.
+
+**Source credit.** Mostajabi and Wright and openESM, release 2.0.0, CC BY-NC 4.0. [Authors’ study](https://doi.org/10.31219/osf.io/3szng) · [Registration](https://osf.io/7a5de).
+
+[Complete coefficients](LB2_INTERACTION_DIARY_0044_20261120_COEFFICIENTS.csv) · [Aggregate receipt](LB2_INTERACTION_DIARY_0044_20261120.json). [Signed comparison sheet](LB2_INTERACTION_DIARY_0044_20261120_SHEET.md) · [Figure](LB2_INTERACTION_DIARY_0044_20261120.png).
+
+Curator roll-up: A3 · In unpleasant interactions, does acting more dominantly change the odds of reporting anger more strongly than the odds of reporting nervousness? · **Narrows** · The registered anger-minus-nervousness interaction in cohort 0044 was inconclusive. The matched analysis used 386 people and 4,916 interaction reports. · Project scope: Momentary ratings on interaction prompts in openESM 0044 · Next: Retain this cohort’s denominator, measurement differences and independent source group in the frozen lattice return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LB2_INTERACTION_DIARY_0044_20261120.md.
+
+### S15-W6-LB2-0043-20261120
+
+**Limited sensitivity.** Approximate detectable magnitude 0.0622, against a 0.05 bar.
+
+**Question.** In unpleasant interactions, does acting more dominantly change the odds of reporting anger more strongly than the odds of reporting nervousness?
+
+**Method.** Include reported interactions with all required items present. Unpleasantness is 100 minus happiness. Within each person, center unpleasantness and reported dominance and scale each by its pooled within-person standard deviation. Fit above-five anger and above-five nervousness separately using identical reports, both main terms, their product and both person means. Subtract the two product coefficients. Refit on 2,000 shared whole-person draws and reproduce every draw in a fresh process. The sensitivity uses the full feeling ratings in a linear model. [Frozen definitions](../../../docs/design/stage-15/week6/LB2_INTERACTION_DIARIES_20261120.md).
+
+The registered anger-minus-nervousness interaction in cohort 0043 was supports. The matched analysis used 328 people and 7,769 interaction reports.
+
+| Contrast | Estimate | 95% interval | Valid draws |
+|---|---:|---|---:|
+| Registered occurrence | 0.0873 | [0.0458, 0.1321] | 2000 |
+| Descriptive occurrence | 0.0873 | [0.0458, 0.1321] | 2000 |
+| Linear ratings sensitivity | 0.0922 | [0.0560, 0.1292] | 2000 |
+
+The registered bar is +0.05 in log-odds interaction units, with the interval above zero. Entire interval above the bar: no. Bootstrap SD 0.0222, approximate detectable magnitude 0.0622, approximate magnitude for support 0.1122. These last two quantities use the normal-reference 2.8-SD rule. The complete coefficient table retains every unavailable fit.
+
+**Population.** During-interaction ratings. The original source contained 11,683 prompts from 330 identified roster members. 328 people reported interactions. There were 3,754 prompts without an interaction, 106 with missing interaction status and 54 interaction reports with incomplete required ratings. Among complete reports, 3,856 anger ratings and 4,602 nervousness ratings exceeded five.
+
+**Limits.** The same person rated their behaviour and feelings on one occasion. Anger may have preceded the reported dominance. Unequal response noise can change above-floor slopes. The harmonized during-interaction field names were used. Their original wording is less certain. The optional within-person conditional-logit sensitivity lacked a qualified binary diary solver. The full rating-scale sensitivity is shown above.
+
+**Integrity and cost.** A 100-draw pilot used 1.85938 CPU seconds. It authenticated 7 output files. The completed run and replay used 49.4375 CPU seconds and authenticated 250 output files and 88 frozen inputs. One 14-case qualification was charged once across all three cohorts. Combined measured cost was 158.297 CPU seconds of the shared 20,000-second allowance.
+
+**Source credit.** Mostajabi and Wright and openESM, release 2.0.0, CC BY-NC 4.0. [Authors’ study](https://doi.org/10.31219/osf.io/3szng) · [Registration](https://osf.io/7a5de).
+
+[Complete coefficients](LB2_INTERACTION_DIARY_0043_20261120_COEFFICIENTS.csv) · [Aggregate receipt](LB2_INTERACTION_DIARY_0043_20261120.json). [Signed comparison sheet](LB2_INTERACTION_DIARY_0043_20261120_SHEET.md) · [Figure](LB2_INTERACTION_DIARY_0043_20261120.png).
+
+Curator roll-up: A3 · In unpleasant interactions, does acting more dominantly change the odds of reporting anger more strongly than the odds of reporting nervousness? · **Narrows** · The registered anger-minus-nervousness interaction in cohort 0043 was supports. The matched analysis used 328 people and 7,769 interaction reports. · Project scope: During-interaction ratings in openESM 0043 · Next: Retain this cohort’s denominator, measurement differences and independent source group in the frozen lattice return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LB2_INTERACTION_DIARY_0043_20261120.md.
+
+### S15-W6-LB2-0042-20261120
+
+**Limited sensitivity.** Approximate detectable magnitude 0.0581, against a 0.05 bar.
+
+**Question.** In unpleasant interactions, does acting more dominantly change the odds of reporting anger more strongly than the odds of reporting nervousness?
+
+**Method.** Include reported interactions with all required items present. Unpleasantness is 100 minus happiness. Within each person, center unpleasantness and reported dominance and scale each by its pooled within-person standard deviation. Fit above-five anger and above-five nervousness separately using identical reports, both main terms, their product and both person means. Subtract the two product coefficients. Refit on 2,000 shared whole-person draws and reproduce every draw in a fresh process. The sensitivity uses the full feeling ratings in a linear model. [Frozen definitions](../../../docs/design/stage-15/week6/LB2_INTERACTION_DIARIES_20261120.md).
+
+The registered anger-minus-nervousness interaction in cohort 0042 was supports. The matched analysis used 340 people and 11,766 interaction reports.
+
+| Contrast | Estimate | 95% interval | Valid draws |
+|---|---:|---|---:|
+| Registered occurrence | 0.0577 | [0.0195, 0.0996] | 2000 |
+| Descriptive occurrence | 0.0577 | [0.0195, 0.0996] | 2000 |
+| Linear ratings sensitivity | 0.1097 | [0.0735, 0.1439] | 2000 |
+
+The registered bar is +0.05 in log-odds interaction units, with the interval above zero. Entire interval above the bar: no. Bootstrap SD 0.0207, approximate detectable magnitude 0.0581, approximate magnitude for support 0.1081. These last two quantities use the normal-reference 2.8-SD rule. The complete coefficient table retains every unavailable fit.
+
+**Population.** During-interaction ratings. The original source contained 17,761 prompts from 342 identified roster members. 340 people reported interactions. There were 5,913 prompts without an interaction, 44 with missing interaction status and 38 interaction reports with incomplete required ratings. Among complete reports, 4,195 anger ratings and 5,677 nervousness ratings exceeded five.
+
+**Limits.** The same person rated their behaviour and feelings on one occasion. Anger may have preceded the reported dominance. Unequal response noise can change above-floor slopes. The authors’ signed dominance range was used. A secondary catalogue label disagrees at the lower endpoint. The optional within-person conditional-logit sensitivity lacked a qualified binary diary solver. The full rating-scale sensitivity is shown above.
+
+**Integrity and cost.** A 100-draw pilot used 2.42188 CPU seconds. It authenticated 7 output files. The completed run and replay used 66.7812 CPU seconds and authenticated 250 output files and 88 frozen inputs. One 14-case qualification was charged once across all three cohorts. Combined measured cost was 158.297 CPU seconds of the shared 20,000-second allowance.
+
+**Source credit.** Mostajabi and Wright and openESM, release 2.0.0, CC BY-NC 4.0. [Authors’ study](https://doi.org/10.31219/osf.io/3szng) · [Registration](https://osf.io/7a5de).
+
+[Complete coefficients](LB2_INTERACTION_DIARY_0042_20261120_COEFFICIENTS.csv) · [Aggregate receipt](LB2_INTERACTION_DIARY_0042_20261120.json). [Signed comparison sheet](LB2_INTERACTION_DIARY_0042_20261120_SHEET.md) · [Figure](LB2_INTERACTION_DIARY_0042_20261120.png).
+
+Curator roll-up: A3 · In unpleasant interactions, does acting more dominantly change the odds of reporting anger more strongly than the odds of reporting nervousness? · **Narrows** · The registered anger-minus-nervousness interaction in cohort 0042 was supports. The matched analysis used 340 people and 11,766 interaction reports. · Project scope: During-interaction ratings in openESM 0042 · Next: Retain this cohort’s denominator, measurement differences and independent source group in the frozen lattice return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LB2_INTERACTION_DIARY_0042_20261120.md.
+
+### S15-W6-LB3-0072-20261120
+
+**Limited sensitivity.** Rows 21 (0.0609), 23 (0.0521), 24 (0.0513), 25 (0.0666) could reliably see changes only above the 0.05 practical bar. The values in parentheses are approximate detectable magnitudes.
+
+**Question.** When a parent reports a stressful event or a distressed child, which feelings change more strongly within that same parent's reports?
+
+**Method.** Center each item on the parent’s own mean and scale it by the pooled within-parent standard deviation. Estimate each set of predictors jointly. Both sides of each registered comparison use the same complete parent-days. Draw 2,000 samples of whole parents from the original roster. All rows share the same parent multiplicities within a draw. A fresh process independently decoded the source and reproduced the point estimates, supports and complete draw banks. [Frozen source and models](../../../docs/design/stage-15/week6/LB3_PARENT_DIARY_20261120.md).
+
+Of five registered parent-diary comparisons, 2 met their directional and practical bars. The row-by-row results retain all five estimates and both practical-bar readings.
+
+| Registered comparison | Parents | Parent-days | Estimate | 95% interval | Signed bar | Project reading | Whole interval clears bar |
+|---|---:|---:|---:|---|---:|---|---|
+| 21 · Feeling blocked, anger minus fear | 552 | 7,590 | 0.0412 | [-0.0029, 0.0823] | 0.0500 | inconclusive | no |
+| 22 · Health or financial stressor, mean fear and worry minus anger | 552 | 7,590 | 0.0971 | [0.0631, 0.1307] | 0.0500 | supports | yes |
+| 23 · Social exclusion, sadness minus anger | 552 | 7,592 | -0.0162 | [-0.0533, 0.0203] | 0.0500 | inconclusive | no |
+| 24 · Child distress, parental worry minus anger | 552 | 7,556 | 0.0533 | [0.0182, 0.0883] | 0.0500 | supports | no |
+| 25 · Having fun together, fear slope minus sadness slope | 552 | 7,553 | 0.0454 | [-0.0003, 0.0917] | -0.0500 | inconclusive | no |
+
+| Row | Bootstrap SD | Sees | Supports at | Invalid draws |
+|---|---:|---:|---:|---:|
+| 21 | 0.0217 | 0.0609 | 0.1109 | 0 |
+| 22 | 0.0172 | 0.0481 | 0.0981 | 0 |
+| 23 | 0.0186 | 0.0521 | 0.1021 | 0 |
+| 24 | 0.0183 | 0.0513 | 0.1013 | 0 |
+| 25 | 0.0238 | 0.0666 | 0.1166 | 0 |
+
+The last two sensitivity magnitudes use 2.8 times the bootstrap standard deviation and that quantity plus the practical bar. They approximate 80% detection under a normal reference.
+
+**Population and missingness.** The source had 562 parents and 7,747 records. It had 0 duplicate parent-day rows, 0 missing day labels and 0 records without a parent identifier. Time together had 107 incomplete hour/minute reports and 2 invalid durations. Each panel used the complete reports for its own terms. Its excluded counts are retained in the aggregate receipt.
+
+**Companion tables.** The complete coefficient file includes all four parent feelings against 16 event predictors, and all ten parental feelings plus discussing worries against the child-distress measure and time together. It also includes every coefficient used for the five matched comparisons.
+
+**Limits.** One parent rated the events, their own feelings, the child's feelings and their shared activity on the same evening. A generally difficult day can affect all of those answers. These three weeks during Germany’s first COVID-19 lockdown provide a specific setting, and the observations establish association.
+
+**Verification and cost.** Twelve constructed checks passed. All 250 output hashes and 88 pinned inputs were checked. The 100-draw pilot used 9 CPU seconds. Full execution and replay used 258.688 CPU seconds. The measured total with preparation was 270.594 of 20,000 CPU seconds.
+
+**Source credit.** Andreas Neubauer and colleagues, openESM 0072, release 1.0.0, CC BY 4.0. [Study](https://doi.org/10.1111/cdev.13515) · [Dataset](https://zenodo.org/records/17361779).
+
+[All coefficients](LB3_PARENT_DIARY_0072_20261120_ALL_METRICS.csv) · [Aggregate receipt](LB3_PARENT_DIARY_0072_20261120.json). [Comparison sheet](LB3_PARENT_DIARY_0072_20261120_SHEET.md) · [Figure](LB3_PARENT_DIARY_0072_20261120.png).
+
+Curator roll-up: T1, T2, T3, T8, T7 · When a parent reports a stressful event or a distressed child, which feelings change more strongly within that same parent's reports? · **Narrows** · Of five registered parent-diary comparisons, 2 met their directional and practical bars. The row-by-row results retain all five estimates and both practical-bar readings. · Project scope: Within-parent evening reports during the first German COVID-19 lockdown · Next: Carry the five rows, their shared draws and their reporting limits into the combined lattice return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LB3_PARENT_DIARY_0072_20261120.md.
+
+### OPS-S15-W6-1900-COHORTS-MOUNTED-20261120
+
+**What survived the handoff?** The writing study retained 1,900 original draws, 200 controls and 3,823 authenticated output files. The preceding block used 1553.27 native CPU seconds. The next request for admission encountered an unidentified workspace Python process and used zero scientific CPU seconds. The process had exited by inspection. Its historical identity could not be established. The replacement retained the same source, model, budget, checkpoint, census and two-thread setting. Its owner and child matched their native identities and 1,933 draw receipts existed at inspection.
+
+**Interaction diaries.** Original cohorts 0042 and 0043 each completed their planned 100 draws. The source rosters contained 342 and 330 people. The pilots used 2.42188 and 1.85938 native CPU seconds. Every output hash matched and both leases cleared. The inclusive card allowance covers the third pilot and all three full runs and replays.
+
+**Spark and the mounted MIDUS fixture.** Invocation 12 returned the expected result for 576 invented people, three argument comparisons, seven daily parameters and 2,000 family draws. The returned file passed the installed gate and its local check. Invocation 13 ran the frozen wave-two job. The wrapper reported code 4 with study code 12 and withheld the output. The fixed code covers unavailable source support or an unreleasable count. The code does not identify the triggering table. No scientific estimate, count of real participants, or reason for exclusion can be inferred from the exit. No failed output was opened.
+
+**CANDOR.** Six constructed Parquet checks passed in 2.60938 native CPU seconds. They tested reciprocal reports, file signatures, required columns, source layout and the speech-timing projection. The curator selected two matched models. Both use the same directed reports, recording length and the rated speaker’s share of talk. The registered difference compares the humor coefficient for liking with the coefficient for status, using paired whole-conversation resampling. [Frozen comparison](../../../docs/design/stage-15/week6/SC2_MATCHED_HUMOR_LIKING_STATUS_20261120.md).
+
+The writing and interaction pilots carry no scientific adjudication. The MIDUS refusal carries no finding about participants.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The writing study resumed after preserving 1,900 draws. Two diary cohorts saved their pilots. Spark reproduced the mounted synthetic answer and withheld the real wave-two return.; project meaning: scoped operational record; next engineering obligation: Complete the original local banks, qualify the paired CANDOR job, and carry the withheld MIDUS disposition to the final return.; public scientific claim unchanged; curator decision required: No new decision. Detail: WRITING_CHECKPOINT_INTERACTION_PILOTS_AND_SEALED_REHEARSAL_20261120.md.
+
+### OPS-S15-W6-PARENT-PILOT-COHORT-SC2-JOIN-20261120
+
+Do the diary runners preserve the intended people and measures, and does the CANDOR preparation attribute each rating to the correct partner?
+
+At a natural writing-study checkpoint, the parent-diary runner passed all 12 constructed cases and the three-cohort runner passed all 14. I checked each test report, measured native exit, source and output hashes, thread witness and released lease. Both families used the ordinary counted admission rules. The next writing-study continuation resumed.
+
+| Work | Observed evidence | Next research step |
+|---|---|---|
+| Parent diary, member 0072 | 562 people in the original roster, five registered contrasts, 100 indexed original draws. The pilot closed at its planned checkpoint after 9 CPU seconds. | Validate the preserved bank, finish 1,900 original draws and independently replay all 2,000. |
+| Interaction diaries, members 0042, 0043 and 0044 | One source-authenticated candidate per cohort, with its own registered row and draw seed. One inclusive 20,000-CPU-second allowance covers all three. | Run all three 100-draw pilots and review their combined cost before the full banks. |
+| CANDOR partner ratings | Nine constructed cases passed on Spark. They exercise respondent-to-partner direction, duplicate surveys, clock bounds, overlapping speech, and the difference between counting conversations and people. | Freeze the standardized model comparison and qualify its complete sealed job. |
+
+The parent and interaction qualifications charged 2.90625 and 2.67188 CPU seconds respectively. The parent pilot authenticated 7 output files. Extrapolating its measured cost over the remaining 39 blocks gives 351 CPU seconds. Replay cost is a projection until measured. The Spark check opened only invented inputs and used zero sealed invocations. These are operational milestones with the scientific comparisons still open.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The parent diary preserved its first 100 draws. Three further diary cohorts have reviewed pilot candidates, and Spark verified the CANDOR dyad join on invented conversations.; project meaning: scoped operational record; next engineering obligation: Complete the original diary banks and their independent replays, and qualify the selected CANDOR model.; public scientific claim unchanged; curator decision required: No new decision. Detail: DIARY_QUALIFICATIONS_PARENT_PILOT_SPARK_JOIN_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1800-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,800 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,492.171875 native CPU seconds. Its manifest authenticated 3,622 output files and 407 inherited pins. The new native owner and child matched the reviewed plan, and 1,808 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 38,091.28125 native CPU seconds plus 60 for coordination. Before that allowance the remaining room was 49,235.4375 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,800 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1800_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1700-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,480.78125 native CPU seconds. Its manifest authenticated 3,421 output files and 402 inherited pins. The new native owner and child matched the reviewed plan, and 1,706 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 39,822.703125 native CPU seconds plus 90 for coordination. Before that allowance the remaining room was 50,757.609375 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1700_20261120.md.
+
+### OPS-S15-W6-RC1-THEORY-ROW-MAP-20261120
+
+The Round 29 handoff counted 206 entries at revision `005f38fa7`. I recovered all 206 from the four source books. The opening standing was OPEN on 151 entries. Two identifiers occur in two books each. G64 repeats the same statement. The two G87 statements differ. The index gives each occurrence its original file, line and statement hash. [Historical theory books](https://github.com/EmotiveAutomaton/sounding-line/tree/005f38fa73000a89446285b9437db6ff284c6227/docs/theory) · [Machine-readable crosswalk](../../../docs/theory/CLAIM_IDS.json).
+
+90 entries have at least one reviewed claim link. The other 116 entries are listed below. A link can cover one clause in a longer statement. The original books retain the wording, evidence and standing. This index is an analyst’s classification.
+
+The five pilot-register claims gained their theory links from the corresponding rows of the preserved thread ledger. The existing eleven evidence relationships and all five standing statements were checked for equality. The seed matches the supplied 238-row original byte for byte. [Claim register](../../../docs/records/CLAIM_REGISTER.json) · [Preserved ledger](../../../results/EVIDENCE_LEDGER_SEED_R29.jsonl).
+
+## Entries outside the original 23 claims
+
+These entries have a separately named method, laughter or later handoff claim as their only link. G236 (W1), G260 (W1), G91 (M4).
+
+## Entries with no matching claim
+
+Each line gives the historical source book followed by its row identifiers. The topic headings describe the main subject left outside the handoff vocabulary.
+
+### Architecture of models or neural layers
+
+- Three Cognitive Layers · G41, G27, G286, G299, G20a, G20b, G34, G35, G36, G40, G42, G43, G44, G46, G39, G196, G202, G22, G31, G69, G21, G124, G126, G103, G112, G33, G127, G45, G38
+
+### General drive architecture, taxonomy or function
+
+- Three Cognitive Layers · G73, G74, G187, G226, G227, G228, G201, G242, G243, G268, G281, G283, G37
+- The Triple Inference · G47, G262, G293, G208, G54
+
+### Attention, expertise or learning mechanisms
+
+- Three Cognitive Layers · G26, G200, G282, G284, G297
+- The Triple Inference · G53, G58, G265, G290, G303, G184, G212, G219
+- Reader Heuristics · G215, G89, G216
+- Decision Traces · G218
+
+### Inferring or attributing a maker, intention or production process
+
+- Three Cognitive Layers · G115
+- The Triple Inference · G198, G52, G56, G57, G249, G263, G207, G51, G64, G60, G66, G209, G61, G138
+- Reader Heuristics · G165, G213, G214, G64, G167, G231, G233, G85, G86, G87, G88, G90, G79, G80, G81, G82, G83, G84, G62, G63, G67
+- Decision Traces · G149, G171, G32, G28, G29, G114, G55, G3, G116, G129, G158c, G94, G168, G166, G159, G130c
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 206 historical G-identifier entries now have reviewed claim links or an explicit uncovered disposition. All five pilot entries have their original ledger links.; project meaning: scoped operational record; next engineering obligation: Maintain links on subsequent landings and keep the baseline roster identifiable.; public scientific claim unchanged; curator decision required: No new decision. Detail: RC1_THEORY_ROW_MAP_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1600-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,600 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,487.140625 native CPU seconds. Its manifest authenticated 3,220 output files and 397 inherited pins. The new native owner and child matched the reviewed plan, and 1,609 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 41,554.125 native CPU seconds plus 120 for coordination. Before that allowance the remaining room was 52,268.390625 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,600 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1600_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1500-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,428.125 native CPU seconds. Its manifest authenticated 3,019 output files and 392 inherited pins. The new native owner and child matched the reviewed plan, and 1,533 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 43,285.546875 native CPU seconds plus 150 for coordination. Before that allowance the remaining room was 53,785.53125 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1500_20261120.md.
+
+### S15-W6-LB1-0060-20261120
+
+**Question.** How do intellectual demands, perceived romantic opportunity and arguments relate to students’ reports of feelings within the same person?
+
+**Method.** Fit the registered within-person standardized rating or above-floor model on identical prompts for each outcome comparison. The next-prompt models use genuinely adjacent, clock-ordered reports on the same day. Resample the complete source roster together for all outcomes. Compare every cell and all 2,000 indexed draws in a fresh process.
+
+**Found.** Of seven registered student-diary comparisons, 2 met the predicted bar, 0 had an interval on the opposite side, 4 were inconclusive and 1 lacked an interpretable interval.
+
+*Each interval uses 2,000 whole-person draws. The last column applies the theory thread’s stricter rule that the lower limit clears the practical bar.*
+
+| Row and comparison | People | Prompts or pairs | Estimate | 95% interval | Positive bar | Project reading | Whole interval above bar |
+|---|---:|---:|---:|---|---:|---|---|
+| 11 · Demanding thought, curiosity minus contentment | 188 | 1,427 | 0.1908 | [0.1283, 0.2564] | 0.05 | supports | yes |
+| 12 · Earlier pride and later opportunity | 190 | 5,653 | -0.0340 | [-0.1135, 0.0422] | 0.10 | inconclusive | no |
+| 13 · Earlier schoolwork boredom and later opportunity | 190 | 5,653 | 0.0121 | [-0.0603, 0.0819] | 0.10 | inconclusive | no |
+| 14 · Earlier low purpose and later opportunity | 190 | 5,653 | -0.0005 | [-0.0983, 0.0954] | 0.10 | inconclusive | no |
+| 15 · Opportunity, excitement minus contentment | 199 | 8,491 | 0.0005 | [-0.1506, 0.1479] | 0.10 | inconclusive | no |
+| 16 · Argument, anger minus fear | 199 | 8,611 | 0.1592 | [0.1203, 0.2014] | 0.05 | supports | yes |
+| 17 · Argument by dominance, anger minus fear | 189 | 1,498 | -0.0298 | unavailable | 0.05 | could not say | could not say |
+
+**Population and ordering.** The source roster contains 199 people and 8,672 records. There were 5,844 unambiguous same-day adjacent pairs before filtering on the required answers. Tied times excluded 0 transitions. Another 0 observations fell on days with incomplete clocks and 0 observations belonged to people with unknown study days. The table gives the resulting denominator for each comparison.
+
+**Companion estimates.** The full table includes all eight slopes from the joint descriptive models of curiosity and excitement on efficiency, inventiveness, sociality and dominance. Each occurrence primary carries its standardized-rating sensitivity. Missing estimates and all invalid draws are counted.
+
+**Limits.** Students rated their own situations and feelings. The opportunity item asks about potential partners present. It measures no desire. Earlier reports are observational and ordering does not establish causation. Dominance may follow anger. Unequal answer noise can mimic differences in occurrence slopes.
+
+**Integrity.** The bounded pilot preserved 100 draws and used 4.04688 CPU seconds. Full execution and its independent replay used 136.5 CPU seconds. The initial and repaired constructed qualifications used 4.14062 and 4.03125 CPU seconds. The initial native launch stopped before research admission and used zero scientific CPU seconds. The repaired handoff preserved the census check. All 249 completed output hashes and 90 plan inputs were checked. Source seed 202611190060.
+
+**Source credit.** Emorie Beck and Joshua Jackson, openESM member 0060, release 2.0.0, CC BY-NC 4.0. [Original study](https://doi.org/10.1177/09567976221093307) · [Dataset](https://zenodo.org/records/22764751).
+
+[Complete coefficient table](LB1_STUDENT_DIARY_0060_20261120_ALL_METRICS.csv) · [Aggregate receipt](LB1_STUDENT_DIARY_0060_20261120.json). [Signed comparison sheet](LB1_STUDENT_DIARY_0060_20261120_SHEET.md) · [Figure](LB1_STUDENT_DIARY_0060_20261120.png).
+
+Curator roll-up: T6, T9, T1, A3 · How do intellectual demands, perceived romantic opportunity and arguments relate to students’ reports of feelings within the same person? · **Narrows** · Of seven registered student-diary comparisons, 2 met the predicted bar, 0 had an interval on the opposite side, 4 were inconclusive and 1 lacked an interpretable interval. · Project scope: Within-person reports in openESM 0060 · Next: Carry all seven rows, their matched denominators, sensitivity results and shared participant draws to the preregistered lattice return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LB1_STUDENT_DIARY_0060_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1400-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,400 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,627.859375 native CPU seconds. Its manifest authenticated 2,818 output files and 387 inherited pins. The new native owner and child matched the reviewed plan, and 1,423 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 45,016.96875 native CPU seconds plus 180 for coordination. Before that allowance the remaining room was 55,243.65625 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,400 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1400_20261120.md.
+
+### S15-W6-LD4-0056-20261120
+
+**Question.** Do feeling words have similar weights on the anchor words when people describe an interaction and when they describe time alone?
+
+**Method.** For each feeling and setting, center the ratings within each person, scale them by their pooled within-person standard deviations and fit all available situation ratings together. Estimate the mixture of anchor profiles that most closely reproduces each other word’s fitted profile. Compare the two complete sets of weights across settings, leaving out the anchors’ own rows. Both settings use the same whole-person resamples. The registered large-sample rule requires a correlation of at least 0.60 and a lower 95% bound above 0.30. A condition ratio of 15 or greater withholds interpretation in that setting.
+
+**Population.** openESM 0056 contains 29,512 prompts from a roster of 327 people, including 18,034 interaction prompts and 11,478 solitary prompts. Each word uses complete cases for that word and its predictors. The aggregate record gives the exact prompt and person counts for each fitted word in each setting.
+
+**Finding.** The smaller diary supplies a four-anchor description of feeling words across the two settings. The correlation was 0.508 [0.332, 0.619]. The source omits lonely and excluded. Four anchors and eight other words allow a description of 32 weights per setting.
+
+*Anchor and direction checks. The condition ratio measures how distinguishable the anchor profiles are. The third column counts resamples reaching 15 or becoming singular. The last column counts singular values above the 95th percentile of the size of the estimated whole-table sampling error.*
+
+| Setting | Condition ratio | Draws at limit or singular | Noise bound | Distinguishable directions |
+|---|---:|---:|---:|---:|
+| Interaction | 7.393 | 0 | 0.127 | 6 |
+| Time alone | 7.181 | 0 | 0.159 | 5 |
+
+*Sanity checks. The columns give weight differences and whole-person 95% intervals. A positive difference supports the stated ordering.*
+
+| Contrast | Interaction | Time alone |
+|---|---:|---:|
+| Resentful: angry minus greatest other | 0.394 [-0.149, 0.561] | 0.683 [0.073, 0.995] |
+| Insecure: anxious minus angry | 0.938 [0.610, 1.191] | 0.474 [-0.031, 1.000] |
+| Insecure: ashamed minus angry | 0.483 [0.217, 0.808] | -0.795 [-1.454, -0.178] |
+
+
+**Interaction.** Each entry gives the weight on that column’s anchor and its whole-person 95% interval.
+
+| Mixed word | Angry | Anxious | Ashamed | Enthusiastic |
+|---|---:|---:|---:|---:|
+| Proud | 0.329 [0.195, 0.429] | 0.921 [0.288, 1.381] | -0.347 [-0.638, 0.084] | 1.472 [1.280, 1.628] |
+| Successful | 0.295 [0.172, 0.383] | 1.032 [0.497, 1.407] | -0.581 [-0.839, -0.190] | 1.252 [1.081, 1.361] |
+| Superior | 0.695 [0.536, 0.821] | 1.030 [0.411, 1.486] | -0.792 [-1.162, -0.311] | 0.783 [0.586, 0.907] |
+| Envious | 0.150 [0.045, 0.232] | 0.386 [-0.084, 0.822] | 0.105 [-0.201, 0.478] | 0.259 [0.117, 0.382] |
+| Resentful | 0.637 [0.519, 0.746] | -0.252 [-0.858, 0.384] | 0.243 [-0.235, 0.703] | 0.145 [-0.022, 0.300] |
+| Insecure | -0.049 [-0.137, 0.034] | 0.889 [0.517, 1.181] | 0.434 [0.216, 0.690] | -0.105 [-0.224, -0.013] |
+| Relaxed | -0.234 [-0.327, -0.114] | -0.599 [-1.077, -0.071] | -0.061 [-0.437, 0.277] | 0.337 [0.195, 0.513] |
+| Sad | 0.186 [0.099, 0.271] | 0.478 [0.081, 0.837] | 0.346 [0.058, 0.619] | -0.121 [-0.258, 0.000] |
+
+
+**Time alone.** Each entry gives the weight on that column’s anchor and its whole-person 95% interval.
+
+| Mixed word | Angry | Anxious | Ashamed | Enthusiastic |
+|---|---:|---:|---:|---:|
+| Proud | 2.145 [1.099, 2.891] | 0.213 [-0.474, 0.789] | -3.243 [-3.911, -2.009] | 0.943 [0.696, 1.147] |
+| Successful | 2.410 [1.086, 3.348] | -0.010 [-0.761, 0.668] | -3.809 [-4.634, -2.257] | 0.822 [0.541, 1.072] |
+| Superior | 1.255 [0.697, 1.663] | -0.279 [-0.612, 0.048] | -0.984 [-1.465, -0.369] | 0.467 [0.347, 0.581] |
+| Envious | 0.180 [-0.143, 0.508] | 0.135 [-0.101, 0.375] | 0.221 [-0.156, 0.590] | 0.103 [0.017, 0.189] |
+| Resentful | 0.800 [0.426, 1.154] | -0.264 [-0.517, -0.018] | 0.047 [-0.267, 0.398] | 0.117 [0.032, 0.197] |
+| Insecure | 0.528 [0.200, 0.856] | 1.002 [0.785, 1.220] | -0.267 [-0.631, 0.081] | 0.068 [-0.005, 0.148] |
+| Relaxed | -1.436 [-2.182, -0.419] | -0.575 [-1.106, -0.027] | 1.567 [0.224, 2.409] | -0.025 [-0.190, 0.145] |
+| Sad | 0.235 [-0.130, 0.617] | -0.160 [-0.427, 0.073] | 0.663 [0.226, 1.112] | -0.094 [-0.174, -0.008] |
+
+
+People rated the situation and their feelings in the same prompt. The analysis assumes each anchor is sufficiently specific. It cannot identify a biological trigger or establish a word's meaning. The item lists include anxious and lack a separate afraid or frightened rating in either context. Round 29's proposed repeat with anxious treated as an ordinary word therefore lacks a replacement fear anchor.
+
+**Source credit.** Member0056 version1.0.0 is [openESM record17386601](https://zenodo.org/records/17386601),7,264,100bytes, SHA256 a6c81ae529cb1aaa8022a67c916f271ac4e510ec426b3f113657e7bebecf3d26, CC BY4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83) and openESM. Metadata describes a mostly student sample over fourteen days with six prompts daily. This is a new harmonized-data analysis, not a reproduced published table; no new literature review is claimed. No individual records, identifiers, demographic fields or person slopes are published.
+
+**Integrity.** Ten constructed checks passed. The first fixture failed while representing a missing value in an artificial integer column and consumed 4.5625 CPU seconds. The corrected fixture retained all ten assertions and consumed 3.8125. This member’s first 100 draws were preserved at 2.29688 CPU seconds. The continuation and fresh replay consumed 13.2344 CPU seconds. Original source and design pins, every terminal output digest and all 2,000 paired draw vectors were verified. Both samples together consumed 54.0938 measured CPU seconds, including their two qualifications, within the 10,000-second shared allowance.
+
+
+Curator roll-up: W1 · Do feeling words have similar weights on the anchor words when people describe an interaction and when they describe time alone? · **Narrows** · The smaller diary supplies a four-anchor description of feeling words across the two settings. · Project scope: Human interaction and solitary diary prompts in openESM 0056 · Next: Carry the full profiles and both checks into the final return, together with the absence of a separate fear anchor. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LD4_DIARY_0056_20261120.md.
+
+### S15-W6-LD4-0057-20261120
+
+**Question.** Do feeling words have similar weights on the anchor words when people describe an interaction and when they describe time alone?
+
+**Method.** For each feeling and setting, center the ratings within each person, scale them by their pooled within-person standard deviations and fit all available situation ratings together. Estimate the mixture of anchor profiles that most closely reproduces each other word’s fitted profile. Compare the two complete sets of weights across settings, leaving out the anchors’ own rows. Both settings use the same whole-person resamples. The registered large-sample rule requires a correlation of at least 0.60 and a lower 95% bound above 0.30. A condition ratio of 15 or greater withholds interpretation in that setting.
+
+**Population.** openESM 0057 contains 64,810 prompts from a roster of 2,272 people, including 39,873 interaction prompts and 24,937 solitary prompts. Each word uses complete cases for that word and its predictors. The aggregate record gives the exact prompt and person counts for each fitted word in each setting.
+
+**Finding.** Agreement between the two settings fell short of the registered bar for stable combinations of feeling words. The correlation was 0.504 [0.351, 0.624]. The point fell below 0.60. The lower confidence bound cleared 0.30.
+
+*Anchor and direction checks. The condition ratio measures how distinguishable the anchor profiles are. The third column counts resamples reaching 15 or becoming singular. The last column counts singular values above the 95th percentile of the size of the estimated whole-table sampling error.*
+
+| Setting | Condition ratio | Draws at limit or singular | Noise bound | Distinguishable directions |
+|---|---:|---:|---:|---:|
+| Interaction | 6.852 | 0 | 0.096 | 7 |
+| Time alone | 7.924 | 1 | 0.121 | 6 |
+
+*Sanity checks. The columns give weight differences and whole-person 95% intervals. A positive difference supports the stated ordering.*
+
+| Contrast | Interaction | Time alone |
+|---|---:|---:|
+| Resentful: angry minus greatest other | -0.359 [-0.688, -0.152] | -0.179 [-0.669, 0.252] |
+| Insecure: anxious minus angry | 0.952 [0.777, 1.091] | 0.582 [0.032, 1.043] |
+| Insecure: ashamed minus angry | 0.521 [0.244, 0.799] | 0.281 [-0.159, 0.663] |
+| Excluded: lonely minus greatest other | 0.969 [0.720, 1.111] | 0.395 [0.066, 0.700] |
+
+
+**Interaction.** Each entry gives the weight on that column’s anchor and its whole-person 95% interval.
+
+| Mixed word | Angry | Anxious | Lonely | Ashamed | Enthusiastic |
+|---|---:|---:|---:|---:|---:|
+| Proud | 0.270 [0.190, 0.355] | 0.149 [-0.135, 0.414] | -0.296 [-0.508, -0.064] | -0.041 [-0.349, 0.256] | 1.113 [1.029, 1.201] |
+| Successful | 0.193 [0.103, 0.290] | -0.128 [-0.458, 0.197] | -0.347 [-0.591, -0.087] | 0.023 [-0.334, 0.362] | 0.739 [0.649, 0.836] |
+| Superior | 0.530 [0.434, 0.631] | -0.523 [-0.824, -0.188] | -0.303 [-0.554, -0.051] | 0.406 [0.015, 0.757] | 0.462 [0.371, 0.554] |
+| Excluded | 0.047 [-0.028, 0.121] | -0.189 [-0.387, 0.030] | 1.070 [0.866, 1.233] | -0.059 [-0.303, 0.195] | 0.101 [0.035, 0.160] |
+| Envious | -0.050 [-0.148, 0.038] | -0.211 [-0.482, 0.063] | 0.317 [0.066, 0.529] | 0.635 [0.262, 1.045] | 0.151 [0.068, 0.228] |
+| Resentful | 0.263 [0.163, 0.361] | -0.499 [-0.752, -0.203] | 0.622 [0.360, 0.838] | 0.429 [0.048, 0.844] | 0.167 [0.085, 0.242] |
+| Insecure | -0.109 [-0.169, -0.043] | 0.843 [0.649, 1.008] | 0.076 [-0.066, 0.223] | 0.412 [0.188, 0.639] | -0.219 [-0.274, -0.159] |
+| Relaxed | -0.215 [-0.289, -0.148] | -0.186 [-0.438, 0.056] | 0.002 [-0.190, 0.187] | -0.304 [-0.565, -0.027] | 0.472 [0.399, 0.539] |
+| Sad | 0.176 [0.114, 0.244] | 0.801 [0.606, 0.972] | 0.481 [0.325, 0.633] | -0.178 [-0.389, 0.040] | 0.033 [-0.022, 0.086] |
+
+
+**Time alone.** Each entry gives the weight on that column’s anchor and its whole-person 95% interval.
+
+| Mixed word | Angry | Anxious | Lonely | Ashamed | Enthusiastic |
+|---|---:|---:|---:|---:|---:|
+| Proud | 2.103 [1.189, 3.007] | -0.878 [-1.688, -0.022] | -0.667 [-1.097, -0.132] | -1.186 [-2.166, -0.338] | 0.847 [0.697, 1.046] |
+| Successful | 2.681 [1.483, 3.859] | -1.222 [-2.282, -0.095] | -0.791 [-1.362, -0.058] | -1.854 [-3.168, -0.707] | 0.748 [0.557, 1.007] |
+| Superior | 1.176 [0.690, 1.635] | -0.715 [-1.081, -0.277] | -0.057 [-0.310, 0.234] | -0.459 [-0.960, -0.040] | 0.375 [0.299, 0.483] |
+| Excluded | 0.005 [-0.222, 0.251] | -0.119 [-0.346, 0.115] | 0.679 [0.526, 0.836] | 0.284 [0.029, 0.494] | -0.024 [-0.071, 0.034] |
+| Envious | 0.152 [-0.089, 0.406] | -0.334 [-0.585, -0.071] | 0.222 [0.042, 0.401] | 0.692 [0.375, 0.992] | 0.035 [-0.029, 0.107] |
+| Resentful | 0.420 [0.125, 0.684] | -0.451 [-0.712, -0.152] | 0.092 [-0.087, 0.253] | 0.599 [0.305, 0.883] | -0.036 [-0.094, 0.034] |
+| Insecure | 0.233 [0.003, 0.513] | 0.815 [0.519, 1.074] | -0.340 [-0.507, -0.184] | 0.514 [0.242, 0.770] | -0.041 [-0.098, 0.020] |
+| Relaxed | -1.443 [-1.841, -0.793] | 0.049 [-0.560, 0.576] | -0.040 [-0.357, 0.279] | 0.664 [-0.064, 1.223] | 0.005 [-0.104, 0.144] |
+| Sad | -0.252 [-0.441, -0.032] | 0.805 [0.578, 1.007] | 0.521 [0.366, 0.673] | -0.039 [-0.273, 0.177] | -0.032 [-0.092, 0.023] |
+
+
+People rated the situation and their feelings in the same prompt. The analysis assumes each anchor is sufficiently specific. It cannot identify a biological trigger or establish a word's meaning. The item lists include anxious and lack a separate afraid or frightened rating in either context. Round 29's proposed repeat with anxious treated as an ordinary word therefore lacks a replacement fear anchor.
+
+**Source credit.** Member 0057 version 1.0.0 is from [openESM record 17361658](https://zenodo.org/records/17361658), SHA-256 fcd123f3725e977b008102fdcc30d16ac10e1ed4c7c294936e7ede6f3d059d3f, 17,603,083 bytes, CC BY 4.0. Credit Ryvkina's [data description](https://doi.org/10.5334/jopd.83), Kroencke and colleagues' [original study](https://doi.org/10.1037/pspp0000467), and openESM. This is a new analysis of the harmonized data. Published result tables did not select the packet's predictions; no new literature review is claimed.
+
+**Integrity.** Ten constructed checks passed. The first fixture failed while representing a missing value in an artificial integer column and consumed 4.5625 CPU seconds. The corrected fixture retained all ten assertions and consumed 3.8125. This member’s first 100 draws were preserved at 3.60938 CPU seconds. The continuation and fresh replay consumed 26.5781 CPU seconds. Original source and design pins, every terminal output digest and all 2,000 paired draw vectors were verified. Both samples together consumed 54.0938 measured CPU seconds, including their two qualifications, within the 10,000-second shared allowance.
+
+
+Curator roll-up: W1 · Do feeling words have similar weights on the anchor words when people describe an interaction and when they describe time alone? · **Narrows** · Agreement between the two settings fell short of the registered bar for stable combinations of feeling words. · Project scope: Human interaction and solitary diary prompts in openESM 0057 · Next: Carry the full profiles and both checks into the final return, together with the absence of a separate fear anchor. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LD4_DIARY_0057_20261120.md.
+
+### OPS-S15-W6-KP1-CHECKPOINT-1300-20261120
+
+**Question.** Did the next KP1 checkpoint preserve the original study and its evidence?
+
+The original KP1 study preserved 1,300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started. The preceding attempt used 1,848.09375 native CPU seconds. Its manifest authenticated 2,617 output files and 382 inherited pins. The new native owner and child matched the reviewed plan, and 1,305 draws had durable receipts at inspection.
+
+The current projection for the remaining execution and full independent replay is 46,748.390625 native CPU seconds plus 210 for coordination. Before that allowance the remaining room was 56,901.515625 CPU seconds. The checkpoint follower continues through the ordinary native admission path, with its cost, ownership and campaign-close checks. The study awaits all 2,000 draws and a fresh replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original KP1 study preserved 1,300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.; project meaning: scoped operational record; next engineering obligation: Continue the original registered draw bank and full independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: KP1_CHECKPOINT_1300_20261120.md.
+
 ### OPS-S15-W6-SC1-SEALED-CODEBOOK-20261120
 
 **Question.** Does the held CANDOR release contain the items and transcript markers required by the commissioned follow-ups?

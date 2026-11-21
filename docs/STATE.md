@@ -1,5 +1,49 @@
 # STATE: the agent's operational file
 
+**Typing and revision.** The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern. [Full table](../results/phase_2_4_stage_15/WEEK5/KP1_PAUSE_REPAIR_20261121.md).
+
+**Pooled meeting classes.** In the selected meetings, AMI social utterances had higher odds of coinciding with the matched laughter label than information exchange. The odds ratios were 5.97 with prior laughter in the model and 5.63 without it. The two models supplied 20 nonreference intervals in total. [Original table and bounds](../results/phase_2_4_stage_15/WEEK5/LA9_SAMPLED_POOLED_ACTS_20261120.md).
+
+**Pooled meeting cost.** The original optimizer completed 100 whole-meeting draws on the frozen 61-meeting sample. The measured projection falls inside the remaining allowance. [Sample pilot](../results/phase_2_4_stage_15/WEEK5/LA9_SCOPED_PILOT_20261120.md).
+
+**Pooled meeting study.** The sparse implementation failed to reproduce the first saved original draw at the frozen coefficient tolerance. The same comparison failed on fresh replay. [Complete cost decision](../results/phase_2_4_stage_15/WEEK5/LA9_SPARSE_EQUIVALENCE_20261120.md).
+
+**Meeting role table.** The complete ordered table and both attribution descriptions are filed. [Full report](../results/phase_2_4_stage_15/WEEK5/LA7_MEETING_ROLE_RATES_20261120.md).
+
+**Meeting role study.** The first 100 whole-meeting draws are preserved. The measured projection permits the full role table and independent replay. [Cost record](../results/phase_2_4_stage_15/WEEK5/LA7_BG_MODEL_PILOT_20261120.md).
+
+**Meeting target census.** Both meeting populations have a recorded pre-outcome target census. The literal interval replay agrees with the indexed attribution. [Complete support](../results/phase_2_4_stage_15/WEEK5/MEETING_BG_SUPPORT_20261120.md).
+
+**Original diary 0063.** Registered readings in 0063 were 32 supports, 33 supports. [Full cohort evidence](../results/phase_2_4_stage_15/WEEK5/LB6_DIARY_0063_20261120.md).
+
+**Original diary 0076.** Registered readings in 0076 were 29 supports. [Full cohort evidence](../results/phase_2_4_stage_15/WEEK5/LB4_DIARY_0076_20261120.md).
+
+**Original diary 0070.** Registered readings in 0070 were 26 supports, 27 inconclusive, 28 inconclusive. [Full cohort evidence](../results/phase_2_4_stage_15/WEEK5/LB4_DIARY_0070_20261120.md).
+
+**Four original diary pilots.** Three original cohorts saved 100 whole-person draws each. The fourth stopped on a documented rating-scale discrepancy before fitting. [Evidence and coding discrepancy](../results/phase_2_4_stage_15/WEEK5/OVERNIGHT_DIARY_PILOTS_20261120.md).
+
+**Overnight diary starts.** All three diary controllers recovered from the retired watcher binding and obtained counted two-thread CPU-only Gear 2 admissions. [Checks and admissions](../results/phase_2_4_stage_15/WEEK5/OVERNIGHT_DIARY_ADMISSION_20261120.md).
+
+**November 20 daily reconciliation.** All 59 daily ledger entries have complete report and receipt pairs. All 56 in-window campaign terminal checksums occur in filed receipts. [Daily report](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261120.md).
+
+[Matched CANDOR comparison](../results/phase_2_4_stage_15/WEEK5/SC2_MATCHED_CANDOR_20261120.md) and [two-wave MIDUS disposition](../results/phase_2_4_stage_15/WEEK5/MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.md).
+
+**November 20 interaction diary 0044.** [Original cohort, estimates, support and interpretation](../results/phase_2_4_stage_15/WEEK5/LB2_INTERACTION_DIARY_0044_20261120.md).
+
+**November 20 interaction diary 0043.** [Original cohort, estimates, support and interpretation](../results/phase_2_4_stage_15/WEEK5/LB2_INTERACTION_DIARY_0043_20261120.md).
+
+**November 20 interaction diary 0042.** [Original cohort, estimates, support and interpretation](../results/phase_2_4_stage_15/WEEK5/LB2_INTERACTION_DIARY_0042_20261120.md).
+
+**November 20 parent diary.** The five registered comparisons and descriptive coefficient tables have complete independent replays. [Full report](../results/phase_2_4_stage_15/WEEK5/LB3_PARENT_DIARY_0072_20261120.md).
+
+**November 20 operational inspection.** The writing study resumed after preserving 1,900 draws. Two diary cohorts saved their pilots. Spark reproduced the mounted synthetic answer and withheld the real wave-two return. [Inspection record](../results/phase_2_4_stage_15/WEEK5/WRITING_CHECKPOINT_INTERACTION_PILOTS_AND_SEALED_REHEARSAL_20261120.md).
+
+**November 20 parent diary and source builds.** The parent diary preserved its first 100 draws. Three further diary cohorts have reviewed pilot candidates, and Spark verified the CANDOR dyad join on invented conversations. [Verified operational record](../results/phase_2_4_stage_15/WEEK5/DIARY_QUALIFICATIONS_PARENT_PILOT_SPARK_JOIN_20261120.md).
+
+**November 20 student diary.** All seven registered comparisons used the original source, 2,000 whole-student draws and a fresh replay. [Methods, denominators and results](../results/phase_2_4_stage_15/WEEK5/LB1_STUDENT_DIARY_0060_20261120.md).
+
+**November 20 feeling-word studies.** The large diary and its smaller four-anchor comparison have 2,000 whole-person draws and a fresh replay apiece. Each report includes the full weight table, anchor checks, limits and native accounting. [Registered comparison](../results/phase_2_4_stage_15/WEEK5/LD4_DIARY_0057_20261120.md) · [Four-anchor description](../results/phase_2_4_stage_15/WEEK5/LD4_DIARY_0056_20261120.md).
+
 **November 20 CANDOR, questionnaire and sealed diary.** Spark finished the [CANDOR source check](../results/phase_2_4_stage_15/WEEK5/SC1_SEALED_CODEBOOK_20261120.md) across four transcript editions. The [original questionnaire comparison](../results/phase_2_4_stage_15/WEEK5/R1_ISEAR_EXPECTEDNESS_20261120.md) completed its independent replay. Both MIDUS jobs are frozen under amendment BF. The [complete synthetic rehearsal](../results/phase_2_4_stage_15/WEEK5/SPARK_COMPLETE_PACKAGE_REHEARSAL_20261120.md) passed in the sealed image. The archive owner has the request to mount the same artificial files for the final source-reading check. The local [KP1 continuation](../results/phase_2_4_stage_15/WEEK5/KP1_CHECKPOINT_1200_20261120.md) reached 1,200 authenticated draws and 200 controls.
 
 **November 20 diary and Spark.** Both original diary samples have complete execution and independent replay. The [larger diary](../results/phase_2_4_stage_15/WEEK5/LD1_DIARY_0057_20261120.md) resumed from its 1,940-draw replay checkpoint. Spark verified all seven daily coefficients through 2,000 whole-family draws on the constructed source. Amendment BF fixes the argument comparisons before real data. Both scientific jobs are built. The full joined-source rehearsal needs the archived artificial pair. [Constructed Spark return](../results/phase_2_4_stage_15/WEEK5/SPARK_FAMILY_REHEARSAL_AND_BF_20261120.md) · [Pooled-meeting pilot and cost](../results/phase_2_4_stage_15/WEEK5/LA9_POOLED_PILOT_20261120.md).

@@ -1997,3 +1997,65 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-20T23:54:31.704500+00:00 OPS-S15-W6-KP1-CHECKPOINT-1200-20261120: The original KP1 study preserved 1,200 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
 
 2026-11-21T00:00:23.508920+00:00 OPS-S15-W6-SC1-SEALED-CODEBOOK-20261120: The sealed CANDOR probe confirmed the partner-rating fields and counted the six registered markers across four transcript editions.
+
+2026-11-21T00:23:33.478511+00:00 OPS-S15-W6-KP1-CHECKPOINT-1300-20261120: The original KP1 study preserved 1,300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+2026-11-21T00:37:48.686877+00:00 S15-W6-LD4-0057-20261120: Agreement between the two settings fell short of the registered bar for stable combinations of feeling words.
+
+2026-11-21T00:37:51.585041+00:00 S15-W6-LD4-0056-20261120: The smaller diary supplies a four-anchor description of feeling words across the two settings.
+
+2026-11-21T00:52:30.912095+00:00 OPS-S15-W6-KP1-CHECKPOINT-1400-20261120: The original KP1 study preserved 1,400 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+2026-11-21T01:10:40.332078+00:00 S15-W6-LB1-0060-20261120: Of seven registered student-diary comparisons, 2 met the predicted bar, 0 had an interval on the opposite side, 4 were inconclusive and 1 lacked an interpretable interval.
+
+2026-11-21T01:18:41.912970+00:00 OPS-S15-W6-KP1-CHECKPOINT-1500-20261120: The original KP1 study preserved 1,500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+2026-11-21T01:37:15.404118+00:00 OPS-S15-W6-KP1-CHECKPOINT-1600-20261120: The original KP1 study preserved 1,600 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+2026-11-21T01:51:38.596692+00:00 OPS-S15-W6-RC1-THEORY-ROW-MAP-20261120: The 206 historical G-identifier entries now have reviewed claim links or an explicit uncovered disposition. All five pilot entries have their original ledger links.
+
+2026-11-21T02:00:49.662767+00:00 OPS-S15-W6-KP1-CHECKPOINT-1700-20261120: The original KP1 study preserved 1,700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+2026-11-21T02:26:43.674087+00:00 OPS-S15-W6-KP1-CHECKPOINT-1800-20261120: The original KP1 study preserved 1,800 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+2026-11-21T02:29:08.626875+00:00 OPS-S15-W6-PARENT-PILOT-COHORT-SC2-JOIN-20261120: The parent diary preserved its first 100 draws. Three further diary cohorts have reviewed pilot candidates, and Spark verified the CANDOR dyad join on invented conversations.
+
+2026-11-21T03:13:17.327144+00:00 OPS-S15-W6-1900-COHORTS-MOUNTED-20261120: The writing study resumed after preserving 1,900 draws. Two diary cohorts saved their pilots. Spark reproduced the mounted synthetic answer and withheld the real wave-two return.
+
+2026-11-21T03:16:22.464053+00:00 S15-W6-LB3-0072-20261120: Of five registered parent-diary comparisons, 2 met their directional and practical bars. The row-by-row results retain all five estimates and both practical-bar readings.
+
+2026-11-21T03:30:13.005135+00:00 S15-W6-LB2-0042-20261120: The registered anger-minus-nervousness interaction in cohort 0042 was supports. The matched analysis used 340 people and 11,766 interaction reports.
+
+2026-11-21T03:30:14.025743+00:00 S15-W6-LB2-0043-20261120: The registered anger-minus-nervousness interaction in cohort 0043 was supports. The matched analysis used 328 people and 7,769 interaction reports.
+
+2026-11-21T03:30:15.219698+00:00 S15-W6-LB2-0044-20261120: The registered anger-minus-nervousness interaction in cohort 0044 was inconclusive. The matched analysis used 386 people and 4,916 interaction reports.
+
+2026-11-21T03:47:52.532987+00:00 OPS-S15-W6-MIDUS-TWO-WAVE-WITHHELD-20261120: Both joined MIDUS waves ran under the installed seal. Neither released a participant count or a scientific estimate.
+
+2026-11-21T03:48:56.241819+00:00 S15-W6-SC2-CANDOR-20261120: Partner-rated humor had a stronger standardized association with liking than with status. The paired difference was 0.255 (95% interval 0.212 to 0.296).
+
+2026-11-21T04:15:24.064229+00:00 OPS-S15-W6-DIGEST-20261120: All 59 daily ledger entries have complete report and receipt pairs. All 56 in-window campaign terminal checksums occur in filed receipts.
+
+2026-11-21T04:26:38.662784+00:00 OPS-S15-W6-OVERNIGHT-DIARY-ADMISSION-20261120: All three diary controllers recovered from the retired watcher binding and obtained counted two-thread CPU-only Gear 2 admissions.
+
+2026-11-21T04:29:28.999855+00:00 OPS-S15-W6-OVERNIGHT-DIARY-PILOTS-20261120: Three original cohorts saved 100 whole-person draws each. The fourth stopped on a documented rating-scale discrepancy before fitting.
+
+2026-11-21T04:30:48.273997+00:00 S15-W6-LB4-0070-20261120: Registered readings in 0070 were 26 supports, 27 inconclusive, 28 inconclusive.
+
+2026-11-21T04:31:26.958468+00:00 S15-W6-LB4-0076-20261120: Registered readings in 0076 were 29 supports.
+
+2026-11-21T04:35:43.643346+00:00 S15-W6-LB6-0063-20261120: Registered readings in 0063 were 32 supports, 33 supports.
+
+2026-11-21T04:45:26.245330+00:00 OPS-S15-W6-MEETING-BG-SUPPORT-20261120: Both meeting populations have a recorded pre-outcome target census. The literal interval replay agrees with the indexed attribution.
+
+2026-11-21T05:02:17.210257+00:00 OPS-S15-W6-LA7-BG-PILOT-20261120: The first 100 whole-meeting draws are preserved. The measured projection permits the full role table and independent replay.
+
+2026-11-21T05:05:35.939666+00:00 S15-W6-LA7-BG-20261120: The 12 ordered pairs ranged from 0.37 to 0.71 single-target laughs per target floor minute. The adjusted direction reversed with a different allocation of ambiguous laughs for industrial designer to marketing expert. That pair receives no verdict.
+
+2026-11-21T05:22:42.676506+00:00 OPS-S15-W6-LA9-SPARSE-EQUIVALENCE-20261120: The sparse implementation failed to reproduce the first saved original draw at the frozen coefficient tolerance. The same comparison failed on fresh replay.
+
+2026-11-21T05:30:48.497076+00:00 OPS-S15-W6-LA9-SCOPED-PILOT-20261120: The original optimizer completed 100 whole-meeting draws on the frozen 61-meeting sample. The measured projection falls inside the remaining allowance.
+
+2026-11-21T06:16:18.608885+00:00 S15-W6-LA9-MEASURED-20261120: In the selected meetings, AMI social utterances had higher odds of coinciding with the matched laughter label than information exchange. The odds ratios were 5.97 with prior laughter in the model and 5.63 without it. The two models supplied 20 nonreference intervals in total.
+
+2026-11-21T10:59:57.230627+00:00 S15-W6-KP1-COMPLETE-20261121: The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern.

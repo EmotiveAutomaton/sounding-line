@@ -1,5 +1,67 @@
 # TODO: the study queue
 
+- [x] S15-W6-KP1-COMPLETE-20261121: The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern.
+
+- [x] S15-W6-LA9-MEASURED-20261120: In the selected meetings, AMI social utterances had higher odds of coinciding with the matched laughter label than information exchange. The odds ratios were 5.97 with prior laughter in the model and 5.63 without it. The two models supplied 20 nonreference intervals in total.
+
+- [x] OPS-S15-W6-LA9-SCOPED-PILOT-20261120: The original optimizer completed 100 whole-meeting draws on the frozen 61-meeting sample. The measured projection falls inside the remaining allowance.
+
+- [x] OPS-S15-W6-LA9-SPARSE-EQUIVALENCE-20261120: The sparse implementation failed to reproduce the first saved original draw at the frozen coefficient tolerance. The same comparison failed on fresh replay.
+
+- [x] S15-W6-LA7-BG-20261120: The 12 ordered pairs ranged from 0.37 to 0.71 single-target laughs per target floor minute. The adjusted direction reversed with a different allocation of ambiguous laughs for industrial designer to marketing expert. That pair receives no verdict.
+
+- [x] OPS-S15-W6-LA7-BG-PILOT-20261120: The first 100 whole-meeting draws are preserved. The measured projection permits the full role table and independent replay.
+
+- [x] OPS-S15-W6-MEETING-BG-SUPPORT-20261120: Both meeting populations have a recorded pre-outcome target census. The literal interval replay agrees with the indexed attribution.
+
+- [x] S15-W6-LB6-0063-20261120: Registered readings in 0063 were 32 supports, 33 supports.
+
+- [x] S15-W6-LB4-0076-20261120: Registered readings in 0076 were 29 supports.
+
+- [x] S15-W6-LB4-0070-20261120: Registered readings in 0070 were 26 supports, 27 inconclusive, 28 inconclusive.
+
+- [x] OPS-S15-W6-OVERNIGHT-DIARY-PILOTS-20261120: Three original cohorts saved 100 whole-person draws each. The fourth stopped on a documented rating-scale discrepancy before fitting.
+
+- [x] OPS-S15-W6-OVERNIGHT-DIARY-ADMISSION-20261120: All three diary controllers recovered from the retired watcher binding and obtained counted two-thread CPU-only Gear 2 admissions.
+
+- [x] OPS-S15-W6-DIGEST-20261120: All 59 daily ledger entries have complete report and receipt pairs. All 56 in-window campaign terminal checksums occur in filed receipts.
+
+- [x] S15-W6-SC2-CANDOR-20261120: Partner-rated humor had a stronger standardized association with liking than with status. The paired difference was 0.255 (95% interval 0.212 to 0.296).
+
+- [x] OPS-S15-W6-MIDUS-TWO-WAVE-WITHHELD-20261120: Both joined MIDUS waves ran under the installed seal. Neither released a participant count or a scientific estimate.
+
+- [x] S15-W6-LB2-0044-20261120: The registered anger-minus-nervousness interaction in cohort 0044 was inconclusive. The matched analysis used 386 people and 4,916 interaction reports.
+
+- [x] S15-W6-LB2-0043-20261120: The registered anger-minus-nervousness interaction in cohort 0043 was supports. The matched analysis used 328 people and 7,769 interaction reports.
+
+- [x] S15-W6-LB2-0042-20261120: The registered anger-minus-nervousness interaction in cohort 0042 was supports. The matched analysis used 340 people and 11,766 interaction reports.
+
+- [x] S15-W6-LB3-0072-20261120: Of five registered parent-diary comparisons, 2 met their directional and practical bars. The row-by-row results retain all five estimates and both practical-bar readings.
+
+- [x] OPS-S15-W6-1900-COHORTS-MOUNTED-20261120: The writing study resumed after preserving 1,900 draws. Two diary cohorts saved their pilots. Spark reproduced the mounted synthetic answer and withheld the real wave-two return.
+
+- [x] OPS-S15-W6-PARENT-PILOT-COHORT-SC2-JOIN-20261120: The parent diary preserved its first 100 draws. Three further diary cohorts have reviewed pilot candidates, and Spark verified the CANDOR dyad join on invented conversations.
+
+- [x] OPS-S15-W6-KP1-CHECKPOINT-1800-20261120: The original KP1 study preserved 1,800 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+- [x] OPS-S15-W6-KP1-CHECKPOINT-1700-20261120: The original KP1 study preserved 1,700 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+- [x] OPS-S15-W6-RC1-THEORY-ROW-MAP-20261120: The 206 historical G-identifier entries now have reviewed claim links or an explicit uncovered disposition. All five pilot entries have their original ledger links.
+
+- [x] OPS-S15-W6-KP1-CHECKPOINT-1600-20261120: The original KP1 study preserved 1,600 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+- [x] OPS-S15-W6-KP1-CHECKPOINT-1500-20261120: The original KP1 study preserved 1,500 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+- [x] S15-W6-LB1-0060-20261120: Of seven registered student-diary comparisons, 2 met the predicted bar, 0 had an interval on the opposite side, 4 were inconclusive and 1 lacked an interpretable interval.
+
+- [x] OPS-S15-W6-KP1-CHECKPOINT-1400-20261120: The original KP1 study preserved 1,400 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
+- [x] S15-W6-LD4-0056-20261120: The smaller diary supplies a four-anchor description of feeling words across the two settings.
+
+- [x] S15-W6-LD4-0057-20261120: Agreement between the two settings fell short of the registered bar for stable combinations of feeling words.
+
+- [x] OPS-S15-W6-KP1-CHECKPOINT-1300-20261120: The original KP1 study preserved 1,300 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.
+
 - [x] OPS-S15-W6-SC1-SEALED-CODEBOOK-20261120: The sealed CANDOR probe confirmed the partner-rating fields and counted the six registered markers across four transcript editions.
 
 - [x] OPS-S15-W6-KP1-CHECKPOINT-1200-20261120: The original KP1 study preserved 1,200 draws and all 200 controls. Its next counted CPU-only Gear 2 continuation started.

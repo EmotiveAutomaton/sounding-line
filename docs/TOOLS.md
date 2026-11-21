@@ -3002,6 +3002,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W6-KP1-COMPLETE-20261121:** The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_PAUSE_REPAIR_20261121.md).
+
 **S15-W6-LA9-MEASURED-20261120:** In the selected meetings, AMI social utterances had higher odds of coinciding with the matched laughter label than information exchange. The odds ratios were 5.97 with prior laughter in the model and 5.63 without it. The two models supplied 20 nonreference intervals in total. [Record](../results/phase_2_4_stage_15/WEEK5/LA9_SAMPLED_POOLED_ACTS_20261120.md).
 
 **OPS-S15-W6-LA9-SCOPED-PILOT-20261120:** The original optimizer completed 100 whole-meeting draws on the frozen 61-meeting sample. The measured projection falls inside the remaining allowance. [Record](../results/phase_2_4_stage_15/WEEK5/LA9_SCOPED_PILOT_20261120.md).

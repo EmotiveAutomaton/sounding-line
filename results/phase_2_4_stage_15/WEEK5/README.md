@@ -1,5 +1,49 @@
 # Week 5 evidence
 
+Completed original typing-pause comparison. [Full table](KP1_PAUSE_REPAIR_20261121.md).
+
+[Sampled pooled-acts result](LA9_SAMPLED_POOLED_ACTS_20261120.md).
+
+[Dense sampled meeting pilot](LA9_SCOPED_PILOT_20261120.md).
+
+[Pooled meeting numerical equivalence audit](LA9_SPARSE_EQUIVALENCE_20261120.md).
+
+[Ordered meeting role-pair rate table](LA7_MEETING_ROLE_RATES_20261120.md).
+
+[Meeting role study pilot](LA7_BG_MODEL_PILOT_20261120.md).
+
+[BG meeting support and ambiguity counts](MEETING_BG_SUPPORT_20261120.md).
+
+**Original diary 0063.** [Full cohort evidence](LB6_DIARY_0063_20261120.md).
+
+**Original diary 0076.** [Full cohort evidence](LB4_DIARY_0076_20261120.md).
+
+**Original diary 0070.** [Full cohort evidence](LB4_DIARY_0070_20261120.md).
+
+[Four overnight diary pilots and source-code check](OVERNIGHT_DIARY_PILOTS_20261120.md).
+
+[Three recovered overnight diary admissions](OVERNIGHT_DIARY_ADMISSION_20261120.md).
+
+[November 20 daily evidence and compute reconciliation](WEEK6_DIGEST_20261120.md).
+
+[Matched CANDOR comparison](SC2_MATCHED_CANDOR_20261120.md) and [two-wave MIDUS disposition](MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.md).
+
+**November 20 interaction diary 0044.** [Original cohort, estimates, support and interpretation](LB2_INTERACTION_DIARY_0044_20261120.md).
+
+**November 20 interaction diary 0043.** [Original cohort, estimates, support and interpretation](LB2_INTERACTION_DIARY_0043_20261120.md).
+
+**November 20 interaction diary 0042.** [Original cohort, estimates, support and interpretation](LB2_INTERACTION_DIARY_0042_20261120.md).
+
+**November 20 parent diary.** The five registered comparisons and descriptive coefficient tables have complete independent replays. [Full report](LB3_PARENT_DIARY_0072_20261120.md).
+
+**November 20 operational inspection.** The writing study resumed after preserving 1,900 draws. Two diary cohorts saved their pilots. Spark reproduced the mounted synthetic answer and withheld the real wave-two return. [Inspection record](WRITING_CHECKPOINT_INTERACTION_PILOTS_AND_SEALED_REHEARSAL_20261120.md).
+
+**November 20 parent diary and source builds.** The parent diary preserved its first 100 draws. Three further diary cohorts have reviewed pilot candidates, and Spark verified the CANDOR dyad join on invented conversations. [Verified operational record](DIARY_QUALIFICATIONS_PARENT_PILOT_SPARK_JOIN_20261120.md).
+
+**November 20 student diary.** All seven registered comparisons used the original source, 2,000 whole-student draws and a fresh replay. [Methods, denominators and results](LB1_STUDENT_DIARY_0060_20261120.md).
+
+**November 20 feeling-word studies.** The large diary and its smaller four-anchor comparison have 2,000 whole-person draws and a fresh replay apiece. Each report includes the full weight table, anchor checks, limits and native accounting. [Registered comparison](LD4_DIARY_0057_20261120.md) · [Four-anchor description](LD4_DIARY_0056_20261120.md).
+
 **November 20 CANDOR, questionnaire and sealed diary.** Spark finished the [CANDOR source check](SC1_SEALED_CODEBOOK_20261120.md) across four transcript editions. The [original questionnaire comparison](R1_ISEAR_EXPECTEDNESS_20261120.md) completed its independent replay. Both MIDUS jobs are frozen under amendment BF. The [complete synthetic rehearsal](SPARK_COMPLETE_PACKAGE_REHEARSAL_20261120.md) passed in the sealed image. The archive owner has the request to mount the same artificial files for the final source-reading check. The local [KP1 continuation](KP1_CHECKPOINT_1200_20261120.md) reached 1,200 authenticated draws and 200 controls.
 
 **November 20 diary and Spark.** Both original diary samples have complete execution and independent replay. The [larger diary](LD1_DIARY_0057_20261120.md) resumed from its 1,940-draw replay checkpoint. Spark verified all seven daily coefficients through 2,000 whole-family draws on the constructed source. Amendment BF fixes the argument comparisons before real data. Both scientific jobs are built. The full joined-source rehearsal needs the archived artificial pair. [Constructed Spark return](SPARK_FAMILY_REHEARSAL_AND_BF_20261120.md) · [Pooled-meeting pilot and cost](LA9_POOLED_PILOT_20261120.md).
