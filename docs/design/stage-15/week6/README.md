@@ -1,5 +1,7 @@
 # Stage 15 Week 6
 
+The [November 21 packet](PACKET_EXTENSION_2026-11-21.md), [Round 34 handoff](THEORY_HANDOFF_R34.md) and [pre-outcome item decisions](PERSON_ROWS_BINDINGS_20261121.md) govern the open diary work during the storage repair.
+
 **November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](../../../../results/phase_2_4_stage_15/WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
 
 The [November 20 build order](IMPLEMENTATION_2026-11-20.md) is current. It records the KP1 restart, shared diary producer, two added sealed tables and disposition of earlier builds. The [packet](PACKET_EXTENSION_2026-11-20.md), [revised November 19 handoff](THEORY_HANDOFF_R29.md), [Round 32 handoff](THEORY_HANDOFF_R32.md) and [preflight summary](PREFLIGHT_SUMMARY_2026-11-20.md) are filed together.

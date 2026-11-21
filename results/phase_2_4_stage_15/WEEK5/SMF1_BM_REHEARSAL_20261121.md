@@ -1,0 +1,3 @@
+# SMF1 BM REHEARSAL 20261121
+
+Three independent wave-two jobs passed the installed gate’s local replica on synthetic files. Five initial disclosure checks covered small, complementary and sound tables. The first integration attempt used an incompatible local SPSS reader and failed before analysis. The replacement used the preserved native reader. Ten checks passed, including the three actual job entry points on 576 invented people and safeguards for known survey and diary totals. Integration exercised two draws for speed. The production entries retain 2,000 draws. The storage repair holds all three sealed starts. No individual records were used in rehearsal.

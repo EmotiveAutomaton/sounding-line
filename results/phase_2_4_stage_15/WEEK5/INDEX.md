@@ -1,5 +1,73 @@
 # Week 5 verified records
 
+**S15-W6-PST-0076-MORE-20261121:** [Record](PST_PERSON_SLOPES_0076_MORE_20261121.md). 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+**S15-W6-PST-0072-MORE-20261121:** [Record](PST_PERSON_SLOPES_0072_MORE_20261121.md). 562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+**OPS-S15-W6-PST-0072-MORE-DRT1-HANDOFF-20261121:** [Record](PST_0072_MORE_DRT1_HANDOFF_20261121_RECEIPT.md). The native registration for diary 0072 stopped before scientific admission.
+
+**OPS-S15-W6-PST-TIE-QUAL-20261121:** [Record](PST_REPLAY_PRECISION_QUALIFICATION_20261121.md). Six constructed checks qualified the interaction-diary replay repair under the existing allowance.
+
+**OPS-S15-W6-PST-0076-MORE-DRT1-20261121:** [Record](PST_0076_MORE_DRT1_20261121_RECEIPT.md). The 0076 diary did not pass independent numerical replay.
+
+**OPS-S15-W6-PST-0072-MORE-DRT1-20261121:** [Record](PST_0072_MORE_DRT1_20261121_RECEIPT.md). The native registration for diary 0072 stopped before scientific admission.
+
+**S15-W6-PST-0056-MORE-20261121:** [Record](PST_PERSON_SLOPES_0056_MORE_20261121.md). 327 participants in a status diary supplied 18,034 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+**S15-W6-PST-0057-MORE-20261121:** [Record](PST_PERSON_SLOPES_0057_MORE_20261121.md). 2272 participants in a status diary supplied 64,810 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+**S15-W6-PST-0060-MORE-20261121:** [Record](PST_PERSON_SLOPES_0060_MORE_20261121.md). 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+**OPS-S15-W6-PST-REMAINING-QUAL-20261121:** [Record](PST_REMAINING_QUALIFICATION_20261121.md). Five source projections and the jointly resampled pair comparison passed native constructed qualification.
+
+**OPS-S15-W6-WLG-BO-20261121:** [Record](WLG_BO_QUALIFICATION_20261121.md). Six constructed checks qualified the two writing studies under amendment BO.
+
+**OPS-S15-W6-SMF1-BM-20261121:** [Record](SMF1_BM_REHEARSAL_20261121.md). Three independent wave-two jobs passed the installed gate’s local replica on synthetic files.
+
+**S15-W6-WLG2-20261121:** [Record](WLG2_WRITING_PAUSES_20261121.md). In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison before asking for a suggestion and when typing in a matching position and genre. Each writer contributed one ratio of median pauses.
+
+**S15-W6-WLG1-20261121:** [Record](WLG1_WRITING_PAUSES_20261121.md). In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison at the first word of a sentence and at another word in that sentence. Each writer contributed one ratio of median pauses.
+
+**S15-W6-PST-0057-20261121:** [Record](PST_PERSON_SLOPES_0057_20261121.md). 2272 participants in a status diary supplied 39,873 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+**S15-W6-PST-0060-20261121:** [Record](PST_PERSON_SLOPES_0060_20261121.md). 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+**S15-W6-ANX1-20261121:** [Record](ANX1_DIARIES_20261121.md). Students reported whether they felt anxious about schoolwork. Two other diaries asked about worry and supplied fear and sadness ratings.
+
+**S15-W6-PRD1-20261121:** [Record](PRD1_DIARIES_20261121.md). People in two status diaries rated how proud and enthusiastic they felt and whether others admired them. Both feelings were fitted to the same interaction reports and status events.
+
+**OPS-S15-W6-PRD1-0056-FIRST100-DRT1-20261121:** [Record](PRD1_0056_FIRST100_DRT1_20261121_RECEIPT.md). PRD1 member 0056 preserved its 100-draw pilot.
+
+**OPS-S15-W6-ANX1-0072-FIRST100-DRT1-20261121:** [Record](ANX1_0072_FIRST100_DRT1_20261121_RECEIPT.md). ANX1 member 0072 preserved its 100-draw pilot.
+
+**OPS-S15-W6-ANX1-0062-FIRST100-DRT1-20261121:** [Record](ANX1_0062_FIRST100_DRT1_20261121_RECEIPT.md). ANX1 member 0062 preserved its 100-draw pilot.
+
+**OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150602Z-A1CCE3:** [Record](PST_QUALIFICATION_ROWS_20261121T150602Z_A1CCE3.md). The person-slope source binding passed all 6 constructed checks.
+
+**OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150502Z-1E1935:** [Record](PST_QUALIFICATION_ROWS_20261121T150502Z_1E1935.md). Constructed status-diary records exposed a read-only Boolean mask. The corrected selector allocates its own array.
+
+**OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T144406Z-536443:** [Record](PST_QUALIFICATION_ROWS_20261121T144406Z_536443.md). The person-slope operator passed all 3 constructed checks.
+
+**OPS-S15-W6-ANX1-0060-FULL-DRT1-20261121:** [Record](ANX1_0060_FULL_DRT1_20261121_RECEIPT.md). The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest.
+
+**OPS-S15-W6-PRD1-0057-FULL-DRT1-20261121:** [Record](PRD1_0057_FULL_DRT1_20261121_RECEIPT.md). The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest.
+
+**S15-W6-PBK1-20261121:** [Record](PBK1_PLAY_AND_FEAR_20261121.md). Two diaries compared how fear and sadness accompanied play. The pooled fear-minus-sadness slope was 0.100 (95% interval 0.052 to 0.147). The registered prediction was below zero.
+
+**OPS-S15-W6-PRD1-0057-FIRST100-DRT1-20261121:** [Record](PRD1_0057_FIRST100_DRT1_20261121_RECEIPT.md). PRD1 member 0057 preserved its 100-draw pilot.
+
+**OPS-S15-W6-PBK1-0072-FIRST100-DRT1-20261121:** [Record](PBK1_0072_FIRST100_DRT1_20261121_RECEIPT.md). PBK1 member 0072 preserved its 100-draw pilot.
+
+**OPS-S15-W6-ANX1-0060-FIRST100-DRT1-QUIET-20261121:** [Record](ANX1_0060_FIRST100_DRT1_QUIET_20261121_RECEIPT.md). ANX1 member 0060 preserved its 100-draw pilot.
+
+**OPS-S15-W6-ANX1-0060-FIRST100-DRT1-HANDOFF1-20261121:** [Record](ANX1_0060_FIRST100_DRT1_HANDOFF1_20261121_RECEIPT.md). The native census declined ANX1 before it acquired a research slot.
+
+**OPS-S15-W6-ANX1-0060-FIRST100-DRT1-20261121:** [Record](ANX1_0060_FIRST100_DRT1_20261121_RECEIPT.md). The native census declined ANX1 before it acquired a research slot.
+
+**OPS-S15-W6-SMALL-QUAL-20261121:** [Record](PERSON_ROWS_QUALIFICATION_20261121.md). All twelve constructed checks passed for the three small diary studies.
+
+**OPS-S15-W6-DRT1-20261121:** [Record](DRT1_20261121.md). The workstation verified the complete open-source copy before the storage repair.
+
 **S15-W6-LA8-BG-20261120:** [Record](LA8_NEXT_MINUTE_BG_20261120.md). The target’s adjusted share of speech was 2.90 percentage points higher after leaving a laugh unjoined (95% whole-meeting interval 1.06 to 4.61). The registered prediction was a lower share.
 
 **S15-W6-KP1-COMPLETE-20261121:** [Record](KP1_PAUSE_REPAIR_20261121.md). The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern.

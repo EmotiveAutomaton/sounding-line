@@ -1,5 +1,699 @@
 # FINDINGS — the method archive
 
+### S15-W6-PST-0076-MORE-20261121
+
+519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+stress playfulness: could not say. The ranking result was uninformative about slope variance. The shared-sensitivity comparison returned no verdict.
+
+Event severity, reporting style and a run of similar days can each make a response persist. Ratings near their floor can hide a difference. The constructed benchmark rarely detected added ranking ability even when genuine slope differences were present.
+
+| Split | Slope | People | Event prompts per half | Raw mean (95% interval) | Raw variance | Adjusted variance (95% interval) | Relative upper bound | Reading |
+|---|---|---:|---|---|---:|---|---:|---|
+| odd_even | stress_playfulness | 22 | [81, 77] | -0.6009 (-0.9166 to -0.2751) | 0.3530 | 0.1829 (-0.1998 to 0.3404) | 0.9709 | could not say |
+| time | stress_playfulness | 16 | [65, 57] | -0.5282 (-0.9699 to -0.1391) | 0.0594 | -0.1029 (-1.1765 to 0.0907) | 0.5702 | could not say |
+
+odd_even split. First-ten chance 0.1227. added_slopes 0.0123 (-0.0307 to 0.0552), mean 0.4540 (0.3804 to 0.5337), slopes 0.5215 (0.4417 to 0.6012), spread 0.5092 (0.4356 to 0.5830). Matched people 163.
+
+Shared sensitivity, odd_even. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+time split. First-ten chance 0.1212. added_slopes -0.0061 (-0.0182 to 0.0000), mean 0.4424 (0.3697 to 0.5152), slopes 0.4545 (0.3758 to 0.5273), spread 0.4606 (0.3818 to 0.5333). Matched people 165.
+
+Shared sensitivity, time. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+The execution and independent replay each used 2,000 whole-person draws and agreed on every returned metric and both support tables. The same indexed draws were used for overlapping pairs. Differences of component ratings do not enter the pool as separate elementary feelings. [Frozen cohort bindings and exclusions](../../../../docs/design/stage-15/week6/PERSON_SLOPE_REMAINING_20261121.md).
+
+[Comparison figure](PST_PERSON_SLOPES_0076_MORE_20261121.png) · [Comparison sheet](PST_PERSON_SLOPES_0076_MORE_20261121_SHEET.md).
+
+Curator roll-up: P4, P2, S3 · Do personal responses to recorded events repeat beyond usual feeling level and spread? · **Narrows** · 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Project scope: 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Next: Use the full source-specific bounds in the Week 6 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PST_PERSON_SLOPES_0076_MORE_20261121.md.
+
+### S15-W6-PST-0072-MORE-20261121
+
+562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+child distress anger: could not say, child distress worry: could not say, child distress worry minus anger: could not say, stressor anger: could not say, stressor fear: could not say, stressor fear worry minus anger: could not say, stressor worry: could not say. The ranking result was uninformative about slope variance. The shared-sensitivity comparison returned no verdict.
+
+Event severity, reporting style and a run of similar days can each make a response persist. Ratings near their floor can hide a difference. The constructed benchmark rarely detected added ranking ability even when genuine slope differences were present.
+
+| Split | Slope | People | Event prompts per half | Raw mean (95% interval) | Raw variance | Adjusted variance (95% interval) | Relative upper bound | Reading |
+|---|---|---:|---|---|---:|---|---:|---|
+| odd_even | child_distress_anger | 142 | [671, 622] | 0.2947 (0.1929 to 0.3984) | 0.0992 | 0.0575 (-0.2979 to 0.1712) | 1.4041 | could not say |
+| odd_even | child_distress_worry | 142 | [671, 622] | 0.4226 (0.3098 to 0.5379) | 0.1315 | 0.1309 (-0.0122 to 0.2612) | 1.2092 | could not say |
+| odd_even | child_distress_worry_minus_anger | 142 | [671, 622] | 0.1280 (0.0109 to 0.2472) | 0.0677 | 0.0201 (-0.2274 to 0.2143) | 3.6175 | could not say |
+| odd_even | stressor_anger | 40 | [142, 133] | 0.2898 (0.0571 to 0.5369) | 0.1651 | 0.1287 (-0.3148 to 0.4507) | 2.3166 | could not say |
+| odd_even | stressor_fear | 40 | [141, 133] | 0.4229 (-0.0428 to 0.8272) | 0.7892 | 0.7751 (-0.2553 to 1.3997) | unavailable | could not say |
+| odd_even | stressor_fear_worry_minus_anger | 40 | [141, 133] | 0.2003 (-0.1202 to 0.5278) | 0.5010 | -0.0716 (-3.5814 to 0.7444) | unavailable | could not say |
+| odd_even | stressor_worry | 40 | [142, 133] | 0.5264 (0.1498 to 0.8597) | 0.5909 | 0.2830 (-0.1589 to 0.5017) | 1.3455 | could not say |
+| time | child_distress_anger | 106 | [513, 422] | 0.2580 (0.1383 to 0.3711) | 0.1090 | 0.1087 (-0.3064 to 0.2387) | 1.8935 | could not say |
+| time | child_distress_worry | 106 | [513, 422] | 0.4204 (0.3075 to 0.5409) | 0.0714 | 0.0703 (-0.0854 to 0.1782) | 1.0042 | could not say |
+| time | child_distress_worry_minus_anger | 106 | [513, 422] | 0.1624 (0.0500 to 0.2737) | -0.0125 | -0.0210 (-0.2004 to 0.1274) | 2.1975 | could not say |
+| time | stressor_anger | 30 | [122, 82] | 0.1635 (0.0149 to 0.3156) | -0.1604 | -0.1823 (-0.6999 to 0.0227) | 0.9216 | could not say |
+| time | stressor_fear | 30 | [122, 82] | 0.5596 (0.2956 to 0.8869) | 0.2337 | 0.2035 (-0.1149 to 0.4621) | 1.2147 | could not say |
+| time | stressor_fear_worry_minus_anger | 30 | [122, 82] | 0.3777 (0.1174 to 0.6862) | 0.1551 | 0.1245 (-0.2790 to 0.4967) | 1.8657 | could not say |
+| time | stressor_worry | 30 | [122, 82] | 0.5228 (0.2697 to 0.8110) | 0.1159 | 0.0787 (-0.2902 to 0.3513) | 1.1338 | could not say |
+
+odd_even split. First-ten chance 0.0420. added_slopes -0.0042 (-0.0147 to 0.0063), mean 0.7143 (0.6744 to 0.7542), slopes 0.7332 (0.6933 to 0.7731), spread 0.7374 (0.6975 to 0.7773). Matched people 476.
+
+Shared sensitivity, odd_even. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+child_distress_worry / child_distress_anger. 142 people. Adjusted covariance 0.0750 (-0.1083 to 0.1457). Adjusted correlation 0.8646 (-0.1970 to 4.1962). no supported pair.
+
+stressor_anger / child_distress_anger. 16 people. Adjusted covariance 0.1840 (-1.9857 to 1.3827). Adjusted correlation 0.5722 (-2.0629 to 5.5428). no supported pair.
+
+stressor_anger / child_distress_worry. 16 people. Adjusted covariance -0.1575 (-3.1675 to 0.2851). Adjusted correlation -0.7773 (-4.3056 to 3.4982). no supported pair.
+
+stressor_fear / child_distress_anger. 16 people. Adjusted covariance -0.4780 (-3.3616 to 3.9637). Adjusted correlation -1.0185 (-6.0486 to 1.9032). no supported pair.
+
+stressor_fear / child_distress_worry. 16 people. Adjusted covariance -0.1049 (-3.0549 to 1.0139). Adjusted correlation -0.3545 (-3.2978 to 3.0481). no supported pair.
+
+stressor_fear / stressor_anger. 40 people. Adjusted covariance 0.1185 (-0.2486 to 0.3706). Adjusted correlation 0.3783 (-1.2160 to 1.7857). no supported pair.
+
+stressor_fear / stressor_worry. 40 people. Adjusted covariance 0.3589 (-0.2790 to 0.6221). Adjusted correlation 0.7599 (-0.3503 to 1.8952). no supported pair.
+
+stressor_worry / child_distress_anger. 16 people. Adjusted covariance -0.2925 (-3.8676 to 0.3347). Adjusted correlation -1.3412 (-8.5569 to 0.9652). no supported pair.
+
+stressor_worry / child_distress_worry. 16 people. Adjusted covariance 0.0053 (-1.9025 to 0.4629). Adjusted correlation 0.0385 (-2.9522 to 4.3514). no supported pair.
+
+stressor_worry / stressor_anger. 40 people. Adjusted covariance 0.0859 (-0.3816 to 0.2931). Adjusted correlation 0.4504 (-2.3759 to 2.3109). no supported pair.
+
+time split. First-ten chance 0.0423. added_slopes 0.0000 (-0.0063 to 0.0063), mean 0.5476 (0.5052 to 0.5920), slopes 0.5581 (0.5158 to 0.6004), spread 0.5581 (0.5159 to 0.6004). Matched people 473.
+
+Shared sensitivity, time. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+child_distress_worry / child_distress_anger. 106 people. Adjusted covariance 0.0986 (-0.1525 to 0.1922). Adjusted correlation 1.1274 (0.0502 to 3.9220). no supported pair.
+
+stressor_anger / child_distress_anger. 6 people. Adjusted covariance 0.1435 (-0.3300 to 1.3362). Adjusted correlation unavailable (0.4705 to 1.1932). no supported pair.
+
+stressor_anger / child_distress_worry. 6 people. Adjusted covariance 0.2129 (-2.0681 to 3.3948). Adjusted correlation unavailable (6.0862 to 33.6388). no supported pair.
+
+stressor_fear / child_distress_anger. 6 people. Adjusted covariance 0.1026 (-0.3510 to 1.1887). Adjusted correlation unavailable (0.9133 to 7.3926). no supported pair.
+
+stressor_fear / child_distress_worry. 6 people. Adjusted covariance -0.0391 (-2.0497 to 0.5913). Adjusted correlation unavailable (-1.0047 to 12.1035). no supported pair.
+
+stressor_fear / stressor_anger. 30 people. Adjusted covariance 0.0246 (-0.2374 to 0.2464). Adjusted correlation unavailable (-21.1092 to 2.0393). no supported pair.
+
+stressor_fear / stressor_worry. 30 people. Adjusted covariance 0.1625 (-0.1511 to 0.3882). Adjusted correlation 1.2843 (0.5952 to 4.1606). no supported pair.
+
+stressor_worry / child_distress_anger. 6 people. Adjusted covariance -0.2005 (-0.5664 to 3.3570). Adjusted correlation unavailable (unavailable). no supported pair.
+
+stressor_worry / child_distress_worry. 6 people. Adjusted covariance 0.0075 (-3.0880 to 1.0589). Adjusted correlation unavailable (unavailable). no supported pair.
+
+stressor_worry / stressor_anger. 30 people. Adjusted covariance -0.1716 (-0.7031 to 0.0246). Adjusted correlation unavailable (-91.3059 to 0.2902). no supported pair.
+
+The execution and independent replay each used 2,000 whole-person draws and agreed on every returned metric and both support tables. The same indexed draws were used for overlapping pairs. Differences of component ratings do not enter the pool as separate elementary feelings. [Frozen cohort bindings and exclusions](../../../../docs/design/stage-15/week6/PERSON_SLOPE_REMAINING_20261121.md).
+
+[Comparison figure](PST_PERSON_SLOPES_0072_MORE_20261121.png) · [Comparison sheet](PST_PERSON_SLOPES_0072_MORE_20261121_SHEET.md).
+
+Curator roll-up: P4, P2, S3 · Do personal responses to recorded events repeat beyond usual feeling level and spread? · **Narrows** · 562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Project scope: 562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Next: Use the full source-specific bounds in the Week 6 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PST_PERSON_SLOPES_0072_MORE_20261121.md.
+
+### OPS-S15-W6-PST-0072-MORE-DRT1-HANDOFF-20261121
+
+The native registration for diary 0072 stopped before scientific admission. The attempt and its measured cost are preserved. The registered slot was checked again before any authorized retry.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The native registration for diary 0072 stopped before scientific admission.; project meaning: scoped operational record; next engineering obligation: Keep the original result unavailable and use the independent replay requirement on its single bounded repair.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST_0072_MORE_DRT1_HANDOFF_20261121_RECEIPT.md.
+
+### OPS-S15-W6-PST-TIE-QUAL-20261121
+
+Six constructed checks qualified the interaction-diary replay repair under the existing allowance. The checks exercise strictly tied ratings, sub-picounit input differences and a deliberately unequal aggregate. The production entries use the original verification tolerance. The first failed real run, this fixture and its bounded successor have distinct records.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Six constructed checks qualified the interaction-diary replay repair under the existing allowance.; project meaning: scoped operational record; next engineering obligation: Use only a verified replay for the study dossier. Preserve a second disagreement as an unresolved numerical limit.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST_REPLAY_PRECISION_QUALIFICATION_20261121.md.
+
+### OPS-S15-W6-PST-0076-MORE-DRT1-20261121
+
+The 0076 diary did not pass independent numerical replay. The first execution is preserved. An engineering discrepancy during verification excludes this attempt from the scientific record. The unchanged diary budget includes both processes.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 0076 diary did not pass independent numerical replay.; project meaning: scoped operational record; next engineering obligation: Keep the original result unavailable and use the independent replay requirement on its single bounded repair.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST_0076_MORE_DRT1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-PST-0072-MORE-DRT1-20261121
+
+The native registration for diary 0072 stopped before scientific admission. The attempt and its measured cost are preserved. The registered slot was checked again before any authorized retry.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The native registration for diary 0072 stopped before scientific admission.; project meaning: scoped operational record; next engineering obligation: Keep the original result unavailable and use the independent replay requirement on its single bounded repair.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST_0072_MORE_DRT1_20261121_RECEIPT.md.
+
+### S15-W6-PST-0056-MORE-20261121
+
+327 participants in a status diary supplied 18,034 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+admired proud: stable beyond level and spread, admired proud minus relaxed: stable beyond level and spread, admired relaxed: stable beyond level and spread, criticised anger: stable beyond level and spread, criticised shame: could not say, ignored anger: could not say, ignored shame: could not say, sidelined anger: could not say, upstaged envy: could not say. The ranking result was uninformative about slope variance. The shared-sensitivity comparison returned no verdict.
+
+Event severity, reporting style and a run of similar days can each make a response persist. Ratings near their floor can hide a difference. The constructed benchmark rarely detected added ranking ability even when genuine slope differences were present.
+
+| Split | Slope | People | Event prompts per half | Raw mean (95% interval) | Raw variance | Adjusted variance (95% interval) | Relative upper bound | Reading |
+|---|---|---:|---|---|---:|---|---:|---|
+| odd_even | admired_proud | 205 | [3861, 3794] | 0.8751 (0.7960 to 0.9598) | 0.1429 | 0.1338 (0.0778 to 0.1833) | 0.4892 | stable beyond level and spread |
+| odd_even | admired_proud_minus_relaxed | 205 | [3861, 3794] | 0.5215 (0.4243 to 0.6190) | 0.2044 | 0.1711 (0.0746 to 0.2530) | 0.9645 | stable beyond level and spread |
+| odd_even | admired_relaxed | 205 | [3861, 3794] | 0.3536 (0.2823 to 0.4276) | 0.0665 | 0.0553 (0.0142 to 0.0839) | 0.8194 | stable beyond level and spread |
+| odd_even | criticised_anger | 211 | [2340, 2214] | 0.5314 (0.4383 to 0.6429) | 0.2124 | 0.0901 (-0.0944 to 0.1999) | 0.8413 | could not say |
+| odd_even | criticised_shame | 211 | [2340, 2214] | 0.4495 (0.3683 to 0.5381) | 0.1054 | 0.0329 (-0.1217 to 0.1139) | 0.7509 | could not say |
+| odd_even | ignored_anger | 163 | [1383, 1230] | 0.5017 (0.3749 to 0.6435) | 0.3271 | 0.2573 (0.0745 to 0.4306) | 1.3081 | stable beyond level and spread |
+| odd_even | ignored_shame | 163 | [1383, 1230] | 0.3856 (0.2698 to 0.5025) | 0.1467 | 0.1431 (-0.0244 to 0.2625) | 1.3288 | could not say |
+| odd_even | sidelined_anger | 120 | [993, 977] | 0.7222 (0.5915 to 0.8641) | 0.2897 | 0.2056 (-0.2996 to 0.3506) | 0.8198 | could not say |
+| odd_even | upstaged_envy | 89 | [764, 696] | 0.4726 (0.3005 to 0.6434) | 0.3204 | 0.2909 (-0.0552 to 0.5309) | 1.5419 | could not say |
+| time | admired_proud | 186 | [3575, 3391] | 0.8110 (0.7327 to 0.8950) | 0.0957 | 0.0911 (0.0309 to 0.1399) | 0.4612 | stable beyond level and spread |
+| time | admired_proud_minus_relaxed | 186 | [3575, 3391] | 0.4796 (0.3761 to 0.5777) | 0.1403 | 0.1230 (0.0405 to 0.2038) | 0.9413 | stable beyond level and spread |
+| time | admired_relaxed | 186 | [3575, 3391] | 0.3314 (0.2568 to 0.4038) | 0.0663 | 0.0499 (0.0049 to 0.0837) | 0.8728 | stable beyond level and spread |
+| time | criticised_anger | 197 | [1992, 2293] | 0.5137 (0.4089 to 0.6461) | 0.2626 | 0.2360 (0.0538 to 0.3994) | 1.2302 | stable beyond level and spread |
+| time | criticised_shame | 197 | [1992, 2293] | 0.4126 (0.3051 to 0.5206) | 0.0805 | -0.0001 (-0.5420 to 0.0971) | 0.7552 | could not say |
+| time | ignored_anger | 140 | [1196, 1230] | 0.4959 (0.3569 to 0.6688) | 0.3059 | 0.1336 (-0.1754 to 0.2988) | 1.1023 | could not say |
+| time | ignored_shame | 140 | [1196, 1230] | 0.3370 (0.1991 to 0.4646) | 0.1361 | 0.0958 (-0.2247 to 0.2024) | 1.3350 | could not say |
+| time | sidelined_anger | 102 | [826, 933] | 0.6679 (0.5186 to 0.8320) | 0.2727 | 0.1551 (-0.0956 to 0.3139) | 0.8389 | could not say |
+| time | upstaged_envy | 72 | [584, 632] | 0.4399 (0.2858 to 0.5970) | 0.2019 | 0.1034 (-0.3291 to 0.2853) | 1.2144 | could not say |
+
+odd_even split. First-ten chance 0.0673. added_slopes 0.0034 (-0.0101 to 0.0202), mean 0.9125 (0.8788 to 0.9428), slopes 0.8923 (0.8552 to 0.9259), spread 0.8889 (0.8519 to 0.9226). Matched people 297.
+
+Shared sensitivity, odd_even. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+criticised_anger / criticised_shame. 211 people. Adjusted covariance 0.0936 (0.0131 to 0.2003). Adjusted correlation 1.7183 (0.2668 to 10.9667). no supported pair.
+
+criticised_anger / ignored_anger. 143 people. Adjusted covariance 0.0657 (-0.0778 to 0.1850). Adjusted correlation 0.5337 (-0.8880 to 2.1617). no supported pair.
+
+criticised_anger / ignored_shame. 143 people. Adjusted covariance 0.1147 (-0.0093 to 0.2191). Adjusted correlation 1.4188 (0.2467 to 7.7099). no supported pair.
+
+criticised_anger / sidelined_anger. 104 people. Adjusted covariance 0.0578 (-0.1152 to 0.2332). Adjusted correlation 0.3923 (-0.7730 to 3.0491). no supported pair.
+
+criticised_anger / upstaged_envy. 81 people. Adjusted covariance 0.0091 (-0.3219 to 0.1896). Adjusted correlation 0.0600 (-2.8495 to 0.9443). no supported pair.
+
+criticised_shame / ignored_shame. 143 people. Adjusted covariance 0.1044 (0.0112 to 0.1711). Adjusted correlation 1.5607 (0.7041 to 7.1919). no supported pair.
+
+criticised_shame / upstaged_envy. 81 people. Adjusted covariance 0.0339 (-0.2543 to 0.2428). Adjusted correlation 0.2933 (-1.5751 to 2.0267). no supported pair.
+
+ignored_anger / criticised_shame. 143 people. Adjusted covariance 0.0790 (0.0024 to 0.1790). Adjusted correlation 0.7752 (0.0583 to 3.2851). no supported pair.
+
+ignored_anger / ignored_shame. 163 people. Adjusted covariance 0.1452 (0.0287 to 0.2281). Adjusted correlation 0.7568 (0.4234 to 1.4137). no supported pair.
+
+ignored_anger / sidelined_anger. 103 people. Adjusted covariance 0.2531 (0.0948 to 0.3752). Adjusted correlation 0.9680 (0.6495 to 2.7431). no supported pair.
+
+ignored_anger / upstaged_envy. 81 people. Adjusted covariance 0.1322 (-0.1871 to 0.2570). Adjusted correlation 0.5746 (-0.6432 to 1.0217). no supported pair.
+
+ignored_shame / upstaged_envy. 81 people. Adjusted covariance 0.0968 (-0.2557 to 0.2808). Adjusted correlation 0.3931 (-1.5964 to 1.1618). no supported pair.
+
+sidelined_anger / criticised_shame. 104 people. Adjusted covariance 0.0474 (-0.1452 to 0.2044). Adjusted correlation 0.7657 (-0.5876 to 4.5965). no supported pair.
+
+sidelined_anger / ignored_shame. 103 people. Adjusted covariance 0.1246 (-0.0085 to 0.2272). Adjusted correlation 0.6110 (0.0555 to 2.0184). no supported pair.
+
+sidelined_anger / upstaged_envy. 71 people. Adjusted covariance 0.1634 (-0.1835 to 0.4155). Adjusted correlation 0.5869 (-0.3241 to 2.7821). no supported pair.
+
+time split. First-ten chance 0.0685. added_slopes 0.0000 (-0.0308 to 0.0308), mean 0.6507 (0.5959 to 0.7021), slopes 0.7397 (0.6849 to 0.7877), spread 0.7397 (0.6849 to 0.7877). Matched people 292.
+
+Shared sensitivity, time. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+criticised_anger / criticised_shame. 197 people. Adjusted covariance 0.0366 (-0.2295 to 0.1186). Adjusted correlation unavailable (-0.4385 to 2.5998). no supported pair.
+
+criticised_anger / ignored_anger. 117 people. Adjusted covariance 0.1837 (0.0030 to 0.3501). Adjusted correlation 0.8445 (0.3221 to 3.7795). no supported pair.
+
+criticised_anger / ignored_shame. 117 people. Adjusted covariance 0.1235 (0.0036 to 0.3111). Adjusted correlation 0.8583 (0.1692 to 3.4091). no supported pair.
+
+criticised_anger / sidelined_anger. 87 people. Adjusted covariance 0.1134 (-0.0893 to 0.2162). Adjusted correlation 0.5170 (-0.2021 to 1.9835). no supported pair.
+
+criticised_anger / upstaged_envy. 62 people. Adjusted covariance 0.0665 (-0.8684 to 0.2245). Adjusted correlation 0.4664 (-1.0345 to 3.4175). no supported pair.
+
+criticised_shame / ignored_shame. 117 people. Adjusted covariance 0.0794 (-0.1659 to 0.2658). Adjusted correlation 1.6562 (-0.8288 to 8.2182). no supported pair.
+
+criticised_shame / upstaged_envy. 62 people. Adjusted covariance 0.0285 (-0.3832 to 0.9096). Adjusted correlation 0.4473 (-2.3988 to 5.3021). no supported pair.
+
+ignored_anger / criticised_shame. 117 people. Adjusted covariance 0.0352 (-0.3056 to 0.2023). Adjusted correlation 0.4851 (-3.5097 to 4.5087). no supported pair.
+
+ignored_anger / ignored_shame. 140 people. Adjusted covariance 0.0699 (-0.1422 to 0.1894). Adjusted correlation 0.6183 (-0.9145 to 2.4763). no supported pair.
+
+ignored_anger / sidelined_anger. 85 people. Adjusted covariance 0.2023 (0.0095 to 0.3386). Adjusted correlation 0.8933 (0.3703 to 2.8168). no supported pair.
+
+ignored_anger / upstaged_envy. 63 people. Adjusted covariance 0.0631 (-0.4931 to 0.2342). Adjusted correlation 0.5796 (-1.1422 to 4.4587). no supported pair.
+
+ignored_shame / upstaged_envy. 63 people. Adjusted covariance -0.0292 (-0.3087 to 0.1229). Adjusted correlation -0.2018 (-3.3034 to 1.3368). no supported pair.
+
+sidelined_anger / criticised_shame. 87 people. Adjusted covariance 0.1579 (-0.1858 to 0.9305). Adjusted correlation 2.9103 (0.1525 to 8.6598). no supported pair.
+
+sidelined_anger / ignored_shame. 85 people. Adjusted covariance 0.0605 (-0.0686 to 0.3349). Adjusted correlation 0.3669 (-0.8107 to 2.1066). no supported pair.
+
+sidelined_anger / upstaged_envy. 57 people. Adjusted covariance 0.0368 (-0.4079 to 0.1998). Adjusted correlation 0.2595 (-2.6876 to 2.3506). no supported pair.
+
+The execution and independent replay each used 2,000 whole-person draws and agreed on every returned metric and both support tables. The same indexed draws were used for overlapping pairs. Differences of component ratings do not enter the pool as separate elementary feelings. [Frozen cohort bindings and exclusions](../../../../docs/design/stage-15/week6/PERSON_SLOPE_REMAINING_20261121.md).
+
+[Comparison figure](PST_PERSON_SLOPES_0056_MORE_20261121.png) · [Comparison sheet](PST_PERSON_SLOPES_0056_MORE_20261121_SHEET.md).
+
+Curator roll-up: P4, P2, S3 · Do personal responses to recorded events repeat beyond usual feeling level and spread? · **Narrows** · 327 participants in a status diary supplied 18,034 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Project scope: 327 participants in a status diary supplied 18,034 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Next: Use the full source-specific bounds in the Week 6 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PST_PERSON_SLOPES_0056_MORE_20261121.md.
+
+### S15-W6-PST-0057-MORE-20261121
+
+2272 participants in a status diary supplied 64,810 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+admired proud: could not say, admired proud minus relaxed: stable beyond level and spread, admired relaxed: stable beyond level and spread, criticised anger: could not say, criticised shame: could not say, ignored anger: could not say, ignored shame: could not say, intellectual enthusiastic minus relaxed: stable beyond level and spread, intellectual occup enthusiastic: stable beyond level and spread, intellectual occup relaxed: could not say, sidelined anger: could not say, upstaged envy: could not say. The ranking result was uninformative about slope variance. The shared-sensitivity comparison returned no verdict.
+
+Event severity, reporting style and a run of similar days can each make a response persist. Ratings near their floor can hide a difference. The constructed benchmark rarely detected added ranking ability even when genuine slope differences were present.
+
+| Split | Slope | People | Event prompts per half | Raw mean (95% interval) | Raw variance | Adjusted variance (95% interval) | Relative upper bound | Reading |
+|---|---|---:|---|---|---:|---|---:|---|
+| odd_even | admired_proud | 598 | [5196, 5046] | 0.9043 (0.8413 to 0.9708) | 0.2157 | 0.1149 (-0.0090 to 0.1843) | 0.4747 | flat within bound |
+| odd_even | admired_proud_minus_relaxed | 598 | [5196, 5046] | 0.6166 (0.5441 to 0.6880) | 0.2161 | 0.2127 (0.1276 to 0.2901) | 0.8735 | stable beyond level and spread |
+| odd_even | admired_relaxed | 598 | [5196, 5046] | 0.2877 (0.2376 to 0.3403) | 0.1242 | 0.0887 (0.0506 to 0.1224) | 1.2161 | stable beyond level and spread |
+| odd_even | criticised_anger | 491 | [3020, 2887] | 0.6590 (0.5870 to 0.7360) | 0.2930 | 0.2418 (0.0956 to 0.4233) | 0.9873 | stable beyond level and spread |
+| odd_even | criticised_shame | 491 | [3020, 2887] | 0.4756 (0.3849 to 0.5730) | 0.3508 | 0.1970 (-0.0638 to 0.4146) | 1.3540 | could not say |
+| odd_even | ignored_anger | 294 | [1653, 1577] | 0.6560 (0.5374 to 0.7891) | 0.5019 | 0.4004 (0.0724 to 0.7486) | 1.3189 | stable beyond level and spread |
+| odd_even | ignored_shame | 294 | [1653, 1577] | 0.5097 (0.3333 to 0.7239) | 0.7581 | 0.6139 (-0.2564 to 1.2665) | 2.2077 | could not say |
+| odd_even | intellectual_enthusiastic_minus_relaxed | 306 | [3565, 3368] | 0.3696 (0.2776 to 0.4694) | 0.2034 | 0.1778 (-0.0324 to 0.2822) | 1.4374 | could not say |
+| odd_even | intellectual_occup_enthusiastic | 306 | [3565, 3368] | 0.4610 (0.3848 to 0.5380) | 0.1953 | 0.1879 (0.1098 to 0.2466) | 1.0772 | stable beyond level and spread |
+| odd_even | intellectual_occup_relaxed | 306 | [3565, 3368] | 0.0914 (-0.0013 to 0.1886) | 0.1901 | 0.1757 (0.0783 to 0.2735) | unavailable | stable beyond level and spread |
+| odd_even | sidelined_anger | 229 | [1227, 1146] | 0.9775 (0.8256 to 1.1413) | 0.6306 | 0.4586 (-0.0159 to 0.8531) | 0.9449 | could not say |
+| odd_even | upstaged_envy | 170 | [981, 931] | 0.6752 (0.4690 to 0.9265) | 1.1415 | 1.0246 (-0.2373 to 2.1373) | 2.1651 | could not say |
+| time | admired_proud | 482 | [4421, 3709] | 0.8412 (0.7794 to 0.9065) | 0.1722 | 0.0963 (-0.2592 to 0.1817) | 0.5067 | could not say |
+| time | admired_proud_minus_relaxed | 482 | [4421, 3709] | 0.5462 (0.4730 to 0.6134) | 0.1605 | 0.1589 (0.0642 to 0.2417) | 0.9002 | stable beyond level and spread |
+| time | admired_relaxed | 482 | [4421, 3709] | 0.2950 (0.2412 to 0.3484) | 0.0859 | 0.0726 (0.0219 to 0.1235) | 1.1909 | stable beyond level and spread |
+| time | criticised_anger | 415 | [2933, 2195] | 0.6194 (0.5415 to 0.7063) | 0.1612 | -0.0337 (-0.4413 to 0.1898) | 0.7032 | could not say |
+| time | criticised_shame | 415 | [2933, 2195] | 0.4886 (0.3901 to 0.5950) | 0.1664 | -0.2227 (-2.5130 to 0.0752) | 0.5613 | could not say |
+| time | ignored_anger | 222 | [1444, 1161] | 0.6400 (0.5153 to 0.7749) | 0.2855 | 0.1999 (-0.3664 to 0.3186) | 0.8820 | could not say |
+| time | ignored_shame | 222 | [1444, 1161] | 0.5077 (0.3082 to 0.7743) | 0.5505 | 0.4570 (-1.4342 to 1.2782) | 2.2268 | could not say |
+| time | intellectual_enthusiastic_minus_relaxed | 244 | [3240, 2591] | 0.3917 (0.2879 to 0.5047) | 0.1434 | 0.1374 (0.0110 to 0.2320) | 1.2297 | stable beyond level and spread |
+| time | intellectual_occup_enthusiastic | 244 | [3240, 2591] | 0.3920 (0.3061 to 0.4815) | 0.1843 | 0.1794 (0.0993 to 0.2584) | 1.2968 | stable beyond level and spread |
+| time | intellectual_occup_relaxed | 244 | [3240, 2591] | 0.0003 (-0.0919 to 0.0855) | 0.0493 | 0.0487 (-0.0290 to 0.1179) | unavailable | could not say |
+| time | sidelined_anger | 175 | [1048, 815] | 0.8622 (0.7099 to 1.0274) | 0.4538 | 0.3016 (-0.1879 to 0.5647) | 0.8716 | could not say |
+| time | upstaged_envy | 125 | [828, 652] | 0.4999 (0.3267 to 0.6978) | 0.4421 | 0.2851 (-1.1967 to 0.7213) | 1.6987 | could not say |
+
+odd_even split. First-ten chance 0.0202. added_slopes -0.0051 (-0.0162 to 0.0061), mean 0.7267 (0.6984 to 0.7540), slopes 0.7348 (0.7065 to 0.7621), spread 0.7399 (0.7126 to 0.7672). Matched people 988.
+
+Shared sensitivity, odd_even. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+criticised_anger / criticised_shame. 491 people. Adjusted covariance 0.1885 (0.0592 to 0.3529). Adjusted correlation 0.8634 (0.4660 to 2.4643). no supported pair.
+
+criticised_anger / ignored_anger. 225 people. Adjusted covariance 0.2368 (-0.1181 to 0.6265). Adjusted correlation 0.6212 (-0.8255 to 0.9015). no supported pair.
+
+criticised_anger / ignored_shame. 225 people. Adjusted covariance 0.3179 (-0.0457 to 0.8190). Adjusted correlation 0.6010 (-0.1627 to 1.1318). no supported pair.
+
+criticised_anger / sidelined_anger. 177 people. Adjusted covariance 0.3065 (-0.0924 to 0.6973). Adjusted correlation 0.7294 (-0.3038 to 1.2698). no supported pair.
+
+criticised_anger / upstaged_envy. 132 people. Adjusted covariance 0.5952 (-0.0631 to 1.3763). Adjusted correlation 0.8024 (0.0955 to 1.3982). no supported pair.
+
+criticised_shame / ignored_shame. 225 people. Adjusted covariance 0.3472 (-0.3838 to 0.8658). Adjusted correlation 0.6007 (-0.2819 to 0.9574). no supported pair.
+
+criticised_shame / upstaged_envy. 132 people. Adjusted covariance 0.6576 (-0.3304 to 1.5823). Adjusted correlation 1.2059 (-0.0592 to 3.7505). no supported pair.
+
+ignored_anger / criticised_shame. 225 people. Adjusted covariance 0.1784 (-0.3327 to 0.6020). Adjusted correlation 0.4284 (-1.6458 to 1.0230). no supported pair.
+
+ignored_anger / ignored_shame. 294 people. Adjusted covariance 0.3453 (-0.2491 to 0.7170). Adjusted correlation 0.6966 (-0.4486 to 1.0383). no supported pair.
+
+ignored_anger / sidelined_anger. 167 people. Adjusted covariance 0.5241 (0.0234 to 0.9910). Adjusted correlation 1.0125 (0.7121 to 2.4988). no supported pair.
+
+ignored_anger / upstaged_envy. 111 people. Adjusted covariance 0.8872 (0.0175 to 1.9777). Adjusted correlation 0.9268 (0.3995 to 2.5437). no supported pair.
+
+ignored_shame / upstaged_envy. 111 people. Adjusted covariance 1.0261 (-0.2463 to 2.5769). Adjusted correlation 0.6661 (-0.0531 to 1.5170). no supported pair.
+
+sidelined_anger / criticised_shame. 177 people. Adjusted covariance 0.2180 (-0.4580 to 0.6934). Adjusted correlation 0.4386 (-1.6743 to 0.9455). no supported pair.
+
+sidelined_anger / ignored_shame. 167 people. Adjusted covariance 0.4391 (-0.2759 to 1.0560). Adjusted correlation 0.5838 (-0.3576 to 1.1051). no supported pair.
+
+sidelined_anger / upstaged_envy. 124 people. Adjusted covariance 0.7850 (-0.1305 to 1.5844). Adjusted correlation 0.8484 (0.3262 to 1.8775). no supported pair.
+
+time split. First-ten chance 0.0230. added_slopes -0.0012 (-0.0138 to 0.0115), mean 0.5691 (0.5357 to 0.6037), slopes 0.5956 (0.5622 to 0.6302), spread 0.5968 (0.5645 to 0.6313). Matched people 868.
+
+Shared sensitivity, time. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+criticised_anger / criticised_shame. 415 people. Adjusted covariance -0.5910 (-4.2879 to 0.0653). Adjusted correlation unavailable (-3.6683 to 2.4886). no supported pair.
+
+criticised_anger / ignored_anger. 161 people. Adjusted covariance 0.1223 (-1.0631 to 0.2827). Adjusted correlation 0.6584 (-0.4500 to 1.3461). no supported pair.
+
+criticised_anger / ignored_shame. 161 people. Adjusted covariance -0.0410 (-0.6756 to 0.0883). Adjusted correlation -0.1345 (-2.6722 to 0.4159). no supported pair.
+
+criticised_anger / sidelined_anger. 136 people. Adjusted covariance 0.2208 (-0.4027 to 0.4228). Adjusted correlation 0.9561 (0.2528 to 2.2541). no supported pair.
+
+criticised_anger / upstaged_envy. 102 people. Adjusted covariance 0.1276 (-0.3470 to 1.4688). Adjusted correlation 0.9977 (-1.3889 to 6.3042). no supported pair.
+
+criticised_shame / ignored_shame. 161 people. Adjusted covariance -0.8518 (-12.3404 to 0.1523). Adjusted correlation unavailable (-1.3746 to 5.8087). no supported pair.
+
+criticised_shame / upstaged_envy. 102 people. Adjusted covariance -0.6190 (-11.8580 to 1.0981). Adjusted correlation unavailable (-0.3581 to 8.8041). no supported pair.
+
+ignored_anger / criticised_shame. 161 people. Adjusted covariance -0.8404 (-22.0349 to 0.1110). Adjusted correlation unavailable (-6.0718 to 5.3270). no supported pair.
+
+ignored_anger / ignored_shame. 222 people. Adjusted covariance 0.0598 (-2.2709 to 0.3874). Adjusted correlation 0.1978 (-5.3600 to 1.4287). no supported pair.
+
+ignored_anger / sidelined_anger. 120 people. Adjusted covariance 0.0894 (-1.6198 to 0.3918). Adjusted correlation 0.3356 (-1.3627 to 0.9084). no supported pair.
+
+ignored_anger / upstaged_envy. 77 people. Adjusted covariance 0.2134 (-1.0882 to 0.5411). Adjusted correlation 0.8504 (-0.8073 to 3.0897). no supported pair.
+
+ignored_shame / upstaged_envy. 77 people. Adjusted covariance 0.4345 (-0.9048 to 1.0083). Adjusted correlation 0.6796 (-1.1699 to 2.9046). no supported pair.
+
+sidelined_anger / criticised_shame. 136 people. Adjusted covariance -0.3394 (-9.3187 to 0.2948). Adjusted correlation unavailable (-3.7080 to 3.8190). no supported pair.
+
+sidelined_anger / ignored_shame. 120 people. Adjusted covariance -0.0862 (-1.5360 to 0.1239). Adjusted correlation -0.1837 (-3.7276 to 0.3416). no supported pair.
+
+sidelined_anger / upstaged_envy. 82 people. Adjusted covariance 0.3351 (-0.1250 to 0.7153). Adjusted correlation 1.0927 (0.1892 to 4.2548). no supported pair.
+
+The execution and independent replay each used 2,000 whole-person draws and agreed on every returned metric and both support tables. The same indexed draws were used for overlapping pairs. Differences of component ratings do not enter the pool as separate elementary feelings. [Frozen cohort bindings and exclusions](../../../../docs/design/stage-15/week6/PERSON_SLOPE_REMAINING_20261121.md).
+
+[Comparison figure](PST_PERSON_SLOPES_0057_MORE_20261121.png) · [Comparison sheet](PST_PERSON_SLOPES_0057_MORE_20261121_SHEET.md).
+
+Curator roll-up: P4, P2, S3 · Do personal responses to recorded events repeat beyond usual feeling level and spread? · **Narrows** · 2272 participants in a status diary supplied 64,810 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Project scope: 2272 participants in a status diary supplied 64,810 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Next: Use the full source-specific bounds in the Week 6 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PST_PERSON_SLOPES_0057_MORE_20261121.md.
+
+### S15-W6-PST-0060-MORE-20261121
+
+199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+argument anger: flat within bound, argument anger minus fear: flat within bound, argument fear: could not say, contentment: could not say, curiosity: could not say, curiosity minus contentment: could not say. The ranking result was uninformative about slope variance. The shared-sensitivity comparison returned no verdict.
+
+Event severity, reporting style and a run of similar days can each make a response persist. Ratings near their floor can hide a difference. The constructed benchmark rarely detected added ranking ability even when genuine slope differences were present.
+
+| Split | Slope | People | Event prompts per half | Raw mean (95% interval) | Raw variance | Adjusted variance (95% interval) | Relative upper bound | Reading |
+|---|---|---:|---|---|---:|---|---:|---|
+| odd_even | argument_anger | 20 | [72, 70] | 1.1028 (0.7806 to 1.4537) | 0.2696 | 0.2420 (-0.6166 to 0.4563) | 0.6126 | could not say |
+| odd_even | argument_anger_minus_fear | 20 | [72, 68] | 0.7448 (0.3814 to 1.1134) | 0.0713 | -0.3925 (-10.1679 to 0.3693) | 0.8159 | could not say |
+| odd_even | argument_fear | 20 | [73, 68] | 0.3962 (0.1815 to 0.6446) | 0.0076 | -0.0011 (-0.3548 to 0.2050) | 1.1427 | could not say |
+| odd_even | contentment | 166 | [1912, 2139] | -0.0844 (-0.1615 to -0.0042) | 0.1026 | 0.0974 (0.0323 to 0.1408) | 4.4460 | stable beyond level and spread |
+| odd_even | curiosity | 19 | [73, 71] | 0.3285 (0.1298 to 0.5591) | -0.0048 | -0.1916 (-4.1277 to 0.1959) | 1.3475 | could not say |
+| odd_even | curiosity_minus_contentment | 19 | [73, 71] | 0.4841 (0.1571 to 0.8077) | 0.2977 | 0.0698 (-0.7719 to 0.1899) | 0.9001 | could not say |
+| time | argument_anger | 15 | [56, 60] | 1.1671 (0.9020 to 1.4408) | 0.0307 | -0.0671 (-0.5893 to 0.1330) | 0.3125 | flat within bound |
+| time | argument_anger_minus_fear | 15 | [55, 59] | 0.8739 (0.5550 to 1.1657) | -0.3225 | -0.6593 (-4.2950 to 0.0483) | 0.2514 | flat within bound |
+| time | argument_fear | 15 | [55, 59] | 0.3108 (0.1628 to 0.4386) | -0.3895 | -0.4850 (-3.0618 to -0.0712) | 0.0000 | could not say |
+| time | contentment | 135 | [1942, 1498] | -0.0653 (-0.1408 to 0.0159) | 0.0388 | 0.0382 (-0.0269 to 0.0850) | unavailable | could not say |
+| time | curiosity | 13 | [57, 48] | 0.3214 (0.0788 to 0.6089) | 0.1607 | -0.0139 (-1.5985 to 0.1512) | 1.2096 | could not say |
+| time | curiosity_minus_contentment | 13 | [57, 48] | 0.3061 (-0.0151 to 0.6590) | 0.1749 | -0.0208 (-0.9732 to 0.1613) | unavailable | could not say |
+
+odd_even split. First-ten chance 0.2740. added_slopes 0.0000 (0.0000 to 0.0000), mean 0.9863 (0.9589 to 1.0000), slopes 1.0000 (1.0000 to 1.0000), spread 1.0000 (1.0000 to 1.0000). Matched people 73.
+
+Shared sensitivity, odd_even. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+argument_anger / argument_fear. 20 people. Adjusted covariance 0.0669 (-0.3093 to 0.4966). Adjusted correlation unavailable (-2.0406 to 10.4476). no supported pair.
+
+time split. First-ten chance 0.3226. added_slopes 0.0000 (0.0000 to 0.0000), mean 0.9194 (0.8548 to 0.9839), slopes 0.9516 (0.8871 to 1.0000), spread 0.9516 (0.8871 to 1.0000). Matched people 62.
+
+Shared sensitivity, time. {'first_factor_share': None, 'qualifying_pairs': 0, 'reading': 'no verdict'}.
+
+argument_anger / argument_fear. 15 people. Adjusted covariance -0.0029 (-0.8919 to 0.7226). Adjusted correlation unavailable (unavailable). no supported pair.
+
+The execution and independent replay each used 2,000 whole-person draws and agreed on every returned metric and both support tables. The same indexed draws were used for overlapping pairs. Differences of component ratings do not enter the pool as separate elementary feelings. [Frozen cohort bindings and exclusions](../../../../docs/design/stage-15/week6/PERSON_SLOPE_REMAINING_20261121.md).
+
+[Comparison figure](PST_PERSON_SLOPES_0060_MORE_20261121.png) · [Comparison sheet](PST_PERSON_SLOPES_0060_MORE_20261121_SHEET.md).
+
+Curator roll-up: P4, P2, S3 · Do personal responses to recorded events repeat beyond usual feeling level and spread? · **Narrows** · 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Project scope: 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Next: Use the full source-specific bounds in the Week 6 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PST_PERSON_SLOPES_0060_MORE_20261121.md.
+
+### OPS-S15-W6-PST-REMAINING-QUAL-20261121
+
+Five source projections and the jointly resampled pair comparison passed native constructed qualification. The first planted example generated unrelated feeling levels in the two halves while testing a stable adjusted covariance. Its assertion failed. The repaired fixture supplies the known stable levels, with independent noise in each half. The statistical equations were unchanged. Both attempts and their measured CPU time are charged to the second status diary. Items that could not bind use their filed exclusions. [Definitions, source census and limits](../../../../docs/design/stage-15/week6/PERSON_SLOPE_REMAINING_20261121.md).
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Five source projections and the jointly resampled pair comparison passed native constructed qualification.; project meaning: scoped operational record; next engineering obligation: Use the native member dossiers and their verified original and replay receipts.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST_REMAINING_QUALIFICATION_20261121.md.
+
+### OPS-S15-W6-WLG-BO-20261121
+
+Six constructed checks qualified the two writing studies under amendment BO. Each writer contributes one paired median ratio. The sentence comparison pools the writer’s sentence starts and ordinary word starts within sentences across sessions. Individual sentences are not matched. The request comparison matches cursor position and genre within writer. WLG1 carries the shared preparation charge. Both independent 10,000-second caps include replay and fit under the unchanged campaign ceiling.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Six constructed checks qualified the two writing studies under amendment BO.; project meaning: scoped operational record; next engineering obligation: Retain both completed study dossiers and their independent draw checks.; public scientific claim unchanged; curator decision required: No new decision. Detail: WLG_BO_QUALIFICATION_20261121.md.
+
+### OPS-S15-W6-SMF1-BM-20261121
+
+Three independent wave-two jobs passed the installed gate’s local replica on synthetic files. Five initial disclosure checks covered small, complementary and sound tables. The first integration attempt used an incompatible local SPSS reader and failed before analysis. The replacement used the preserved native reader. Ten checks passed, including the three actual job entry points on 576 invented people and safeguards for known survey and diary totals. Integration exercised two draws for speed. The production entries retain 2,000 draws. The storage repair holds all three sealed starts. No individual records were used in rehearsal.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Three independent wave-two jobs passed the installed gate’s local replica on synthetic files.; project meaning: scoped operational record; next engineering obligation: On the storage handback, authenticate the source and use the three separate entries within the existing return limit.; public scientific claim unchanged; curator decision required: No new decision. Detail: SMF1_BM_REHEARSAL_20261121.md.
+
+### S15-W6-WLG2-20261121
+
+In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison before asking for a suggestion and when typing in a matching position and genre. Each writer contributed one ratio of median pauses.
+
+The median writer ratio was 0.835 (95% whole-writer interval 0.611 to 1.072). The registered bar was 1.5 or more with the interval above 1. Reading: inconclusive.
+
+The registered sentence benchmark passed, allowing this matched comparison to be read as a test. The two writing rows close the commissioned writing-log work.
+
+The previous study fitted a long-pause mixture within genres and found no sentence gradient. The median ratio answers a different timing question. The two results stand together.
+
+The logs time recorded document changes. Composing, cursor use, and interface mechanics can all lengthen a pause. The events do not directly measure attention.
+
+Support and exclusions: {'comparison_samples': 14520, 'included_writers': 61, 'source_writers': 61, 'start_samples': 14520, 'unmatched_requests': 9}. Request exclusions: {'no_preceding_single_insert': 3448}. Two separately decoded processes agreed on every one of the 2,000 writer draws. Detectable difference approximation, 2.8 bootstrap standard errors: 0.372. [Earlier PP1 result](../DRIVE/WEEK4_PP1_FULL_20261103.md) · [Method and comparison rule](../../../../docs/design/stage-15/week6/WRITING_LOG_MEDIANS_20261121.md) · [Budget decision](../../../../docs/design/stage-15/week6/AMENDMENT_BO_20261121.md).
+
+Curator roll-up: AT1 · How much longer was the typical writer pause before asking for a suggestion and when typing in a matching position and genre? · **Narrows** · In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison before asking for a suggestion and when typing in a matching position and genre. Each writer contributed one ratio of median pauses. · Project scope: In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison before asking for a suggestion and when typing in a matching position and genre. Each writer contributed one ratio of median pauses. · Next: Close the writing-log lane after WLG2. Preserve both timing instruments in the final return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: WLG2_WRITING_PAUSES_20261121.md.
+
+### S15-W6-WLG1-20261121
+
+In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison at the first word of a sentence and at another word in that sentence. Each writer contributed one ratio of median pauses.
+
+The median writer ratio was 3.257 (95% whole-writer interval 2.834 to 4.186). The registered bar was 1.5 or more with the interval above 1. Reading: supports.
+
+The earlier miss depends on the form of the comparison.
+
+The previous study fitted a long-pause mixture within genres and found no sentence gradient. The median ratio answers a different timing question. The two results stand together.
+
+The logs time recorded document changes. Composing, cursor use, and interface mechanics can all lengthen a pause. The events do not directly measure attention.
+
+Support and exclusions: {'comparison_samples': 328866, 'included_writers': 61, 'source_writers': 61, 'start_samples': 22240}. Request exclusions: {}. Two separately decoded processes agreed on every one of the 2,000 writer draws. Detectable difference approximation, 2.8 bootstrap standard errors: 0.919. [Earlier PP1 result](../DRIVE/WEEK4_PP1_FULL_20261103.md) · [Method and comparison rule](../../../../docs/design/stage-15/week6/WRITING_LOG_MEDIANS_20261121.md) · [Budget decision](../../../../docs/design/stage-15/week6/AMENDMENT_BO_20261121.md).
+
+Curator roll-up: AT1 · How much longer was the typical writer pause at the first word of a sentence and at another word in that sentence? · **Narrows** · In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison at the first word of a sentence and at another word in that sentence. Each writer contributed one ratio of median pauses. · Project scope: In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison at the first word of a sentence and at another word in that sentence. Each writer contributed one ratio of median pauses. · Next: Close the writing-log lane after WLG2. Preserve both timing instruments in the final return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: WLG1_WRITING_PAUSES_20261121.md.
+
+### S15-W6-PST-0057-20261121
+
+2272 participants in a status diary supplied 39,873 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+criticism anger: could not say, criticism shame: could not say. The ranking result was uninformative about slope variance. The shared-sensitivity comparison returned no verdict.
+
+Event severity, reporting style and a run of similar days can each make a response persist. Ratings near their floor can hide a difference. The constructed benchmark rarely detected added ranking ability even when genuine slope differences were present.
+
+| Split | Slope | People | Event prompts per half | Raw mean (95% interval) | Raw variance | Adjusted variance (95% interval) | Relative upper bound | Reading |
+|---|---|---:|---|---|---:|---|---:|---|
+| odd_even | criticism_anger | 491 | [3020, 2887] | 0.6590 (0.5870 to 0.7360) | 0.2930 | 0.2418 (0.0956 to 0.4233) | 0.9873 | stable beyond level and spread |
+| odd_even | criticism_shame | 491 | [3020, 2887] | 0.4756 (0.3832 to 0.5687) | 0.3508 | 0.1970 (-0.0894 to 0.4308) | 1.3802 | could not say |
+| time | criticism_anger | 413 | [2938, 2191] | 0.6171 (0.5423 to 0.7036) | 0.1595 | -0.0204 (-0.5567 to 0.1852) | 0.6973 | could not say |
+| time | criticism_shame | 413 | [2938, 2191] | 0.4908 (0.3938 to 0.5967) | 0.1667 | -0.2073 (-3.1222 to 0.0845) | 0.5922 | could not say |
+
+odd_even split. First-ten chance 0.0133. added_slopes 0.0013 (-0.0040 to 0.0067), mean 0.5493 (0.5233 to 0.5732), slopes 0.5613 (0.5353 to 0.5866), spread 0.5599 (0.5346 to 0.5852). Matched people 1502.
+
+Shared-sensitivity comparison, odd_even. {'qualifying_pairs': 0, 'reading': 'no verdict'}. Adjusted covariance 0.1885 (0.0632 to 0.3509). Factor share unavailable.
+
+time split. First-ten chance 0.0141. added_slopes 0.0014 (-0.0028 to 0.0056), mean 0.3920 (0.3666 to 0.4166), slopes 0.4011 (0.3758 to 0.4265), spread 0.3997 (0.3744 to 0.4251). Matched people 1421.
+
+Shared-sensitivity comparison, time. {'qualifying_pairs': 0, 'reading': 'no verdict'}. Adjusted covariance -0.5208 (-4.4683 to 0.0629). Factor share unavailable.
+
+Two independent native processes recomputed 2,000 draws. Verification compared every returned aggregate and both original support tables. The paired factor result concerns one pair per diary. Slopes for different events and feelings have distinct estimands. Every estimate, interval and denominator is preserved in the JSON receipt. [Source definitions](../../../../docs/design/stage-15/week6/PERSON_SLOPE_SOURCES_20261121.md).
+
+[Comparison figure](PST_PERSON_SLOPES_0057_20261121.png) · [Comparison sheet](PST_PERSON_SLOPES_0057_20261121_SHEET.md).
+
+Curator roll-up: P4, P2, S3 · Do personal responses to recorded events repeat beyond usual feeling level and spread? · **Narrows** · 2272 participants in a status diary supplied 39,873 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Project scope: 2272 participants in a status diary supplied 39,873 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Next: Use the full source-specific bounds in the Week 6 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PST_PERSON_SLOPES_0057_20261121.md.
+
+### S15-W6-PST-0060-20261121
+
+199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+argument anger: flat within bound, argument anger minus fear: flat within bound, argument fear: could not say, curiosity: could not say. The ranking result was uninformative about slope variance. The shared-sensitivity comparison returned no verdict.
+
+Event severity, reporting style and a run of similar days can each make a response persist. Ratings near their floor can hide a difference. The constructed benchmark rarely detected added ranking ability even when genuine slope differences were present.
+
+| Split | Slope | People | Event prompts per half | Raw mean (95% interval) | Raw variance | Adjusted variance (95% interval) | Relative upper bound | Reading |
+|---|---|---:|---|---|---:|---|---:|---|
+| odd_even | argument_anger | 20 | [72, 70] | 1.1028 (0.7806 to 1.4537) | 0.2696 | 0.2420 (-0.6166 to 0.4563) | 0.6126 | could not say |
+| odd_even | argument_anger_minus_fear | 20 | [72, 68] | 0.7448 (0.3814 to 1.1134) | 0.0713 | -0.3925 (-10.1679 to 0.3693) | 0.8159 | could not say |
+| odd_even | argument_fear | 20 | [73, 68] | 0.3962 (0.1815 to 0.6446) | 0.0076 | -0.0011 (-0.3548 to 0.2050) | 1.1427 | could not say |
+| odd_even | curiosity | 19 | [73, 71] | 0.3285 (0.1298 to 0.5591) | -0.0048 | -0.1916 (-4.1277 to 0.1959) | 1.3475 | could not say |
+| time | argument_anger | 15 | [56, 60] | 1.1671 (0.9020 to 1.4408) | 0.0307 | -0.0671 (-0.5893 to 0.1330) | 0.3125 | flat within bound |
+| time | argument_anger_minus_fear | 15 | [55, 59] | 0.8739 (0.5550 to 1.1657) | -0.3225 | -0.6593 (-4.2950 to 0.0483) | 0.2514 | flat within bound |
+| time | argument_fear | 15 | [55, 59] | 0.3108 (0.1628 to 0.4386) | -0.3895 | -0.4850 (-3.0618 to -0.0712) | 0.0000 | could not say |
+| time | curiosity | 13 | [57, 48] | 0.3214 (0.0788 to 0.6089) | 0.1607 | -0.0139 (-1.5985 to 0.1512) | 1.2096 | could not say |
+
+odd_even split. First-ten chance 0.2740. added_slopes 0.0000 (0.0000 to 0.0000), mean 0.9863 (0.9589 to 1.0000), slopes 1.0000 (1.0000 to 1.0000), spread 1.0000 (1.0000 to 1.0000). Matched people 73.
+
+Shared-sensitivity comparison, odd_even. {'qualifying_pairs': 0, 'reading': 'no verdict'}. Adjusted covariance 0.0669 (-0.2386 to 0.4408). Factor share unavailable.
+
+time split. First-ten chance 0.3226. added_slopes 0.0000 (0.0000 to 0.0000), mean 0.9194 (0.8548 to 0.9839), slopes 0.9516 (0.8871 to 1.0000), spread 0.9516 (0.8871 to 1.0000). Matched people 62.
+
+Shared-sensitivity comparison, time. {'qualifying_pairs': 0, 'reading': 'no verdict'}. Adjusted covariance -0.0029 (-0.6529 to 0.6353). Factor share unavailable.
+
+Two independent native processes recomputed 2,000 draws. Verification compared every returned aggregate and both original support tables. The paired factor result concerns one pair per diary. Slopes for different events and feelings have distinct estimands. Every estimate, interval and denominator is preserved in the JSON receipt. [Source definitions](../../../../docs/design/stage-15/week6/PERSON_SLOPE_SOURCES_20261121.md).
+
+[Comparison figure](PST_PERSON_SLOPES_0060_20261121.png) · [Comparison sheet](PST_PERSON_SLOPES_0060_20261121_SHEET.md).
+
+Curator roll-up: P4, P2, S3 · Do personal responses to recorded events repeat beyond usual feeling level and spread? · **Narrows** · 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Project scope: 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. · Next: Use the full source-specific bounds in the Week 6 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PST_PERSON_SLOPES_0060_20261121.md.
+
+### S15-W6-ANX1-20261121
+
+Students reported whether they felt anxious about schoolwork. Two other diaries asked about worry and supplied fear and sadness ratings.
+
+The registered general-anxiety test is void. The student item that explicitly names anxiety also names fear. The item headed Anxious asks whether the student was tense. Neither isolates general anxiety independently of the proposed predictors.
+
+The table includes the explained and residual share of within-person variance. For the two worry diaries, the like coefficients are pooled separately by inverse variance. For afraid the pooled coefficient is 0.410 (95% interval 0.386 to 0.434, Q 2.780, 1 df). For sad the pooled coefficient is 0.245 (95% interval 0.223 to 0.266, Q 3.412, 1 df).
+
+The studies used 2,000 draws of whole people and independently replayed the full ordered draw bank.
+
+| Member | Fitted quantity | People | Reports | Estimate | 95% interval | Invalid draws |
+|---|---|---:|---:|---:|---|---:|
+| 0060 | L/anxious_schoolwork/afraid | 188 | 1442 | 0.1867247559524035 | [0.11223161043583184, 0.2614490081296994] | 0 |
+| 0060 | L/anxious_schoolwork/curious | 188 | 1442 | -0.018589366512917694 | [-0.0725078144360537, 0.0387276474784426] | 0 |
+| 0060 | L/anxious_schoolwork/sad | 188 | 1442 | 0.04077457974821603 | [-0.03508699165201911, 0.1212114139232346] | 0 |
+| 0060 | explained | 188 | 1442 | 0.04349969754438099 | [0.02286500960910267, 0.07713031252340086] | 0 |
+| 0060 | residual | 188 | 1442 | 0.956500302455619 | [0.9228696874765991, 0.9771349903908974] | 0 |
+| 0062 | L/worried/afraid | 321 | 11470 | 0.43405318851262764 | [0.3979178017856407, 0.46918010750431915] | 0 |
+| 0062 | L/worried/sad | 321 | 11470 | 0.22397156384949907 | [0.19337156982443993, 0.2552999442481155] | 0 |
+| 0062 | explained | 321 | 11470 | 0.3038136393364119 | [0.26876422896056185, 0.34028405573048776] | 0 |
+| 0062 | residual | 321 | 11470 | 0.6961863606635881 | [0.6597159442695122, 0.731235771039438] | 0 |
+| 0072 | L/parent_worried/parent_afraid | 552 | 7638 | 0.3927105038921778 | [0.36076829341658223, 0.42328347693493173] | 0 |
+| 0072 | L/parent_worried/parent_sad | 552 | 7638 | 0.26439252816835146 | [0.23468483171619495, 0.29481257807545924] | 0 |
+| 0072 | explained | 552 | 7638 | 0.29389058079301555 | [0.2663690407587915, 0.3241109590313808] | 0 |
+| 0072 | residual | 552 | 7638 | 0.7061094192069844 | [0.6758890409686192, 0.7336309592412085] | 0 |
+
+Schoolwork anxiety and worry have different meanings. The clinical source has an unresolved category key. All ratings share a respondent and occasion.
+
+[Study bindings](../../../../docs/design/stage-15/week6/PERSON_ROWS_BINDINGS_20261121.md) · [Comparison sheet](ANX1_DIARIES_20261121_SHEET.md) · [Figure](ANX1_DIARIES_20261121.png).
+
+Curator roll-up: W1 · Do fear, sadness and curiosity accompany reported anxiety? · **Narrows** · Students reported whether they felt anxious about schoolwork. Two other diaries asked about worry and supplied fear and sadness ratings. · Project scope: Schoolwork anxiety in one student diary and worry in two additional diaries. · Next: Retain the individual measures and limits in the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: ANX1_DIARIES_20261121.md.
+
+### S15-W6-PRD1-20261121
+
+People in two status diaries rated how proud and enthusiastic they felt and whether others admired them. Both feelings were fitted to the same interaction reports and status events.
+
+The pooled difference in log-odds slopes was 0.215 (95% interval 0.170 to 0.259). The registered difference was at least 0.10 with its interval above zero. Cochran's Q was 0.888 on one degree of freedom. The registered pooled reading was supports.
+
+The larger diary also supplied the descriptive success-by-company interaction. Other members lacked the outcome and event combination for row c. All fitted coefficients and bounds are shown below.
+
+The studies used 2,000 draws of whole people and independently replayed the full ordered draw bank.
+
+| Member | Fitted quantity | People | Reports | Estimate | 95% interval | Invalid draws |
+|---|---|---:|---:|---:|---|---:|
+| 0057 | a/contrast | 2190 | 39873 | 0.20602643731607756 | [0.15786443842973452, 0.25556489403117916] | 0 |
+| 0057 | a/int_enthusiastic/status_admired | 2190 | 39873 | 0.474815107080609 | [0.4410020791237047, 0.510046965043217] | 0 |
+| 0057 | a/int_enthusiastic/status_criticised | 2190 | 39873 | -0.18600103177273003 | [-0.21305854147515516, -0.1602753378908406] | 0 |
+| 0057 | a/int_enthusiastic/status_ignored | 2190 | 39873 | -0.07437681639587009 | [-0.09843048836937983, -0.05116681780955607] | 0 |
+| 0057 | a/int_enthusiastic/status_respected | 2190 | 39873 | 0.2579170051247281 | [0.23236347329175502, 0.2851794360652995] | 0 |
+| 0057 | a/int_enthusiastic/status_sidelined | 2190 | 39873 | -0.07935297751389223 | [-0.10926531501792203, -0.05154739158816068] | 0 |
+| 0057 | a/int_enthusiastic/status_upstaged | 2190 | 39873 | 0.11041873768683258 | [0.08120896950168369, 0.1406927521161591] | 0 |
+| 0057 | a/int_proud/status_admired | 2190 | 39873 | 0.6808415443966865 | [0.6346004800608039, 0.7308741078406711] | 0 |
+| 0057 | a/int_proud/status_criticised | 2190 | 39873 | -0.04925960801335889 | [-0.07601365588863519, -0.02281391891978549] | 0 |
+| 0057 | a/int_proud/status_ignored | 2190 | 39873 | -0.05963871682218817 | [-0.08721592330069382, -0.033686816270290694] | 0 |
+| 0057 | a/int_proud/status_respected | 2190 | 39873 | 0.26035338586269713 | [0.23043324520129246, 0.29056013187131624] | 0 |
+| 0057 | a/int_proud/status_sidelined | 2190 | 39873 | -0.07138995417210013 | [-0.10175383175095604, -0.042159818094861294] | 0 |
+| 0057 | a/int_proud/status_upstaged | 2190 | 39873 | 0.10438887605228676 | [0.07578910857232042, 0.13525093992804493] | 0 |
+| 0057 | b/contrast | 2272 | 64810 | -0.05073802054144399 | [-0.1225361634799975, 0.016068024246715867] | 0 |
+| 0057 | b/enthusiastic/company_times_success | 2272 | 64810 | -0.04142798860946969 | [-0.0917972053340315, 0.012054100289408077] | 0 |
+| 0057 | b/enthusiastic/success | 2272 | 64810 | 0.7152860674267817 | [0.6743135907611859, 0.759809009614711] | 0 |
+| 0057 | b/proud/company_times_success | 2272 | 64810 | -0.09216600915091368 | [-0.15411511883680556, -0.026181402195289378] | 0 |
+| 0057 | b/proud/success | 2272 | 64810 | 1.149563216105629 | [1.0820445701258121, 1.2224534511515377] | 0 |
+| 0056 | a/contrast | 323 | 18034 | 0.26691377507119196 | [0.15532092066341802, 0.38947673864768656] | 0 |
+| 0056 | a/int_enthusiastic/status_admired | 323 | 18034 | 0.5773961750898873 | [0.5080620891090946, 0.6569437246371342] | 0 |
+| 0056 | a/int_enthusiastic/status_criticised | 323 | 18034 | -0.1836780716824853 | [-0.23439004284626674, -0.13747007268344597] | 0 |
+| 0056 | a/int_enthusiastic/status_ignored | 323 | 18034 | -0.06737947338880174 | [-0.10934293862637101, -0.0273590166057277] | 0 |
+| 0056 | a/int_enthusiastic/status_respected | 323 | 18034 | 0.30069105184558764 | [0.24865305796127068, 0.3548220515592226] | 0 |
+| 0056 | a/int_enthusiastic/status_sidelined | 323 | 18034 | -0.07413393390184915 | [-0.11964177146220858, -0.028875244465862558] | 0 |
+| 0056 | a/int_enthusiastic/status_upstaged | 323 | 18034 | 0.06505508466616995 | [0.013007491649917062, 0.11930358781355062] | 0 |
+| 0056 | a/int_proud/status_admired | 323 | 18034 | 0.8443099501610792 | [0.7460919027153358, 0.967939439864725] | 0 |
+| 0056 | a/int_proud/status_criticised | 323 | 18034 | -0.025879879040632034 | [-0.07242157856916752, 0.024981049242678913] | 0 |
+| 0056 | a/int_proud/status_ignored | 323 | 18034 | -0.07888615395943134 | [-0.12442629298889156, -0.035026779699056085] | 0 |
+| 0056 | a/int_proud/status_respected | 323 | 18034 | 0.25620775429956083 | [0.20132488760329872, 0.3167186322068527] | 0 |
+| 0056 | a/int_proud/status_sidelined | 323 | 18034 | -0.07243583043615433 | [-0.11899679699207776, -0.02641505808174132] | 0 |
+| 0056 | a/int_proud/status_upstaged | 323 | 18034 | 0.08483955398809849 | [0.035364098585853536, 0.1377636588713956] | 0 |
+
+Admiration, pride and success were self-reported at the same prompt. Inspired and enthusiastic are different items. The two workplace coefficients are standardized linear slopes on another scale and appear only for comparison. This measures words and cannot establish a distinct biological channel.
+
+[Study bindings](../../../../docs/design/stage-15/week6/PERSON_ROWS_BINDINGS_20261121.md) · [Comparison sheet](PRD1_DIARIES_20261121_SHEET.md) · [Figure](PRD1_DIARIES_20261121.png).
+
+Curator roll-up: R33 · Is admiration more closely associated with feeling proud than enthusiastic? · **Narrows** · People in two status diaries rated how proud and enthusiastic they felt and whether others admired them. Both feelings were fitted to the same interaction reports and status events. · Project scope: Two status diaries with interaction reports and a published inspiration comparison from a workplace diary. · Next: Retain the individual measures and limits in the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PRD1_DIARIES_20261121.md.
+
+### OPS-S15-W6-PRD1-0056-FIRST100-DRT1-20261121
+
+PRD1 member 0056 preserved its 100-draw pilot. The owner fingerprint matches the immutable plan. The terminal records 4.359375 CPU seconds. Verify the cost projection and authenticate the checkpoint before continuing.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; PRD1 member 0056 preserved its 100-draw pilot.; project meaning: scoped operational record; next engineering obligation: Verify the cost projection and authenticate the checkpoint before continuing.; public scientific claim unchanged; curator decision required: No new decision. Detail: PRD1_0056_FIRST100_DRT1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-ANX1-0072-FIRST100-DRT1-20261121
+
+ANX1 member 0072 preserved its 100-draw pilot. The owner fingerprint matches the immutable plan. The terminal records 1.4375 CPU seconds. Verify the cost projection and authenticate the checkpoint before continuing.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; ANX1 member 0072 preserved its 100-draw pilot.; project meaning: scoped operational record; next engineering obligation: Verify the cost projection and authenticate the checkpoint before continuing.; public scientific claim unchanged; curator decision required: No new decision. Detail: ANX1_0072_FIRST100_DRT1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-ANX1-0062-FIRST100-DRT1-20261121
+
+ANX1 member 0062 preserved its 100-draw pilot. The owner fingerprint matches the immutable plan. The terminal records 2.0 CPU seconds. Verify the cost projection and authenticate the checkpoint before continuing.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; ANX1 member 0062 preserved its 100-draw pilot.; project meaning: scoped operational record; next engineering obligation: Verify the cost projection and authenticate the checkpoint before continuing.; public scientific claim unchanged; curator decision required: No new decision. Detail: ANX1_0062_FIRST100_DRT1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150602Z-A1CCE3
+
+The person-slope source binding passed all 6 constructed checks. The run used 3.703125 CPU seconds, charged to the first diary. The source qualification and the numerical world benchmark are recorded separately.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The person-slope source binding passed all 6 constructed checks.; project meaning: scoped operational record; next engineering obligation: Keep the benchmark, source checks and fresh replay together in study admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST_QUALIFICATION_ROWS_20261121T150602Z_A1CCE3.md.
+
+### OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150502Z-1E1935
+
+Constructed status-diary records exposed a read-only Boolean mask. The corrected selector allocates its own array. The run used 5.296875 CPU seconds, charged to the first diary. The source qualification and the numerical world benchmark are recorded separately.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Constructed status-diary records exposed a read-only Boolean mask. The corrected selector allocates its own array.; project meaning: scoped operational record; next engineering obligation: Keep the benchmark, source checks and fresh replay together in study admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST_QUALIFICATION_ROWS_20261121T150502Z_1E1935.md.
+
+### OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T144406Z-536443
+
+The person-slope operator passed all 3 constructed checks. The run used 61.875 CPU seconds, charged to the first diary. The source qualification and the numerical world benchmark are recorded separately.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The person-slope operator passed all 3 constructed checks.; project meaning: scoped operational record; next engineering obligation: Keep the benchmark, source checks and fresh replay together in study admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST_QUALIFICATION_ROWS_20261121T144406Z_536443.md.
+
+### OPS-S15-W6-ANX1-0060-FULL-DRT1-20261121
+
+The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest. The immutable original records 1.0625 CPU seconds. The pilot checkpoint and its original review hash were preserved. Carry every original pin into the reviewed replacement and check the complete original and replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest.; project meaning: scoped operational record; next engineering obligation: Carry every original pin into the reviewed replacement and check the complete original and replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: ANX1_0060_FULL_DRT1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-PRD1-0057-FULL-DRT1-20261121
+
+The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest. The immutable original records 1.203125 CPU seconds. The pilot checkpoint and its original review hash were preserved. Carry every original pin into the reviewed replacement and check the complete original and replay.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest.; project meaning: scoped operational record; next engineering obligation: Carry every original pin into the reviewed replacement and check the complete original and replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: PRD1_0057_FULL_DRT1_20261121_RECEIPT.md.
+
+### S15-W6-PBK1-20261121
+
+Two diaries compared how fear and sadness accompanied play. The pooled fear-minus-sadness slope was 0.100 (95% interval 0.052 to 0.147). The registered prediction was below zero.
+
+Students rated how silly a situation was and parents rated fun with a child. In each cohort a positive contrast means the fear coefficient is more positive than the sadness coefficient.
+
+| Diary | People | Reports | Contrast | 95% interval |
+|---|---:|---:|---:|---|
+| 0070, student silliness | 82 | 3432 | 0.0799 | -0.0420 to 0.1992 |
+| 0072, parenting fun | 552 | 7589 | 0.1034 | 0.0510 to 0.1545 |
+
+Fixed-effect inverse-variance pooling used the whole-person bootstrap standard error in each independent sample. Cochran’s Q was 0.122 on one degree of freedom. Each component retained 2,000 draws. The 0070 contrast enters unchanged. The 0072 fit used only fear and sadness as predictors and a fresh native process replayed every draw. Member 0076 lacks fear and sadness and was void for this row. Registered reading: opposite direction. The preflight guess that the pooled interval would include zero did not hold.
+
+Silliness and parent–child fun are different self-reports. The silliness fit retains expectedness, importance and pleasantness as additional controls. A slope cannot identify a fear threshold.
+
+[Comparison sheet](PBK1_PLAY_AND_FEAR_20261121_SHEET.md) · [Figure](PBK1_PLAY_AND_FEAR_20261121.png).
+
+Curator roll-up: T7 · Within a person, is reported play more negatively associated with fear than with sadness? · **Narrows** · Two diaries compared how fear and sadness accompanied play. The pooled fear-minus-sadness slope was 0.100 (95% interval 0.052 to 0.147). The registered prediction was below zero. · Project scope: Within-person differences in 82 students' silliness ratings and 552 parents' reports of fun with their child · Next: Retain the two measures and adjustments beside the pooled final-packet figure. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PBK1_PLAY_AND_FEAR_20261121.md.
+
+### OPS-S15-W6-PRD1-0057-FIRST100-DRT1-20261121
+
+PRD1 member 0057 preserved its 100-draw pilot. The owner fingerprint matches the immutable plan. The terminal records 14.671875 CPU seconds. Verify the cost projection and authenticate the checkpoint before continuing.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; PRD1 member 0057 preserved its 100-draw pilot.; project meaning: scoped operational record; next engineering obligation: Verify the cost projection and authenticate the checkpoint before continuing.; public scientific claim unchanged; curator decision required: No new decision. Detail: PRD1_0057_FIRST100_DRT1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-PBK1-0072-FIRST100-DRT1-20261121
+
+PBK1 member 0072 preserved its 100-draw pilot. The owner fingerprint matches the immutable plan. The terminal records 1.1875 CPU seconds. Verify the cost projection and authenticate the checkpoint before continuing.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; PBK1 member 0072 preserved its 100-draw pilot.; project meaning: scoped operational record; next engineering obligation: Verify the cost projection and authenticate the checkpoint before continuing.; public scientific claim unchanged; curator decision required: No new decision. Detail: PBK1_0072_FIRST100_DRT1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-ANX1-0060-FIRST100-DRT1-QUIET-20261121
+
+ANX1 member 0060 preserved its 100-draw pilot. The owner fingerprint matches the immutable plan. The terminal records 1.796875 CPU seconds. Verify the cost projection and authenticate the checkpoint before continuing.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; ANX1 member 0060 preserved its 100-draw pilot.; project meaning: scoped operational record; next engineering obligation: Verify the cost projection and authenticate the checkpoint before continuing.; public scientific claim unchanged; curator decision required: No new decision. Detail: ANX1_0060_FIRST100_DRT1_QUIET_20261121_RECEIPT.md.
+
+### OPS-S15-W6-ANX1-0060-FIRST100-DRT1-HANDOFF1-20261121
+
+The native census declined ANX1 before it acquired a research slot. The owner fingerprint matches the immutable plan. The terminal records 0.0 CPU seconds. Use the serialized native handoff and retain the original refusal.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The native census declined ANX1 before it acquired a research slot.; project meaning: scoped operational record; next engineering obligation: Use the serialized native handoff and retain the original refusal.; public scientific claim unchanged; curator decision required: No new decision. Detail: ANX1_0060_FIRST100_DRT1_HANDOFF1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-ANX1-0060-FIRST100-DRT1-20261121
+
+The native census declined ANX1 before it acquired a research slot. The owner fingerprint matches the immutable plan. The terminal records 0.0 CPU seconds. Use the serialized native handoff and retain the original refusal.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The native census declined ANX1 before it acquired a research slot.; project meaning: scoped operational record; next engineering obligation: Use the serialized native handoff and retain the original refusal.; public scientific claim unchanged; curator decision required: No new decision. Detail: ANX1_0060_FIRST100_DRT1_20261121_RECEIPT.md.
+
+### OPS-S15-W6-SMALL-QUAL-20261121
+
+All twelve constructed checks passed for the three small diary studies. Checks cover item coding, matched observations, whole-person resampling, both regression implementations, the cap and the local source binding. Preparation used 3.34375 CPU seconds. No participant data entered these checks.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All twelve constructed checks passed for the three small diary studies.; project meaning: scoped operational record; next engineering obligation: Use the protected local source bindings and measured pilot costs.; public scientific claim unchanged; curator decision required: No new decision. Detail: PERSON_ROWS_QUALIFICATION_20261121.md.
+
+### OPS-S15-W6-DRT1-20261121
+
+The team can continue reading the admitted open diaries while the bulk store undergoes repair. The workstation verified all 147 copied files from 15 open source directories, totaling 67,145,669 bytes. Twelve directories contain admitted openESM diaries. ISEAR supplies the recalled-event material. The CoAuthor and Rutledge bulk entries are catalog records for material already held in the repository. Their catalog entries are included in the manifest.
+
+Each file has a relative path, byte count, source SHA-256 and license line. The destination copy was independently hashed. Stored original data-file hashes were checked where supplied. No listed source exceeded 50 GB and the copy fit within the 150 GB limit. The file inventory was restricted to the approved open directories.
+
+The temporary root is `DRT1-20261121`. Its manifest SHA-256 is `cc63f8f6ffb5a47845b98b0d754b6412c18b0e6c79ea5badd8466d5589075f6d`. The project pointer, persistent data-root variable and a fresh adapter read agreed before the operational status line was posted. The copy remains workstation-local. Small incoming deposits belong in its `incoming` directory with individual hashes.
+
+The curator's return notice triggers comparison of the store originals against this manifest, verified return of incoming deposits, switch-back and removal of the temporary copy. Any mismatch preserves the copy and opens a discrepancy record. Sealed jobs and downloads over 1 GB remain held until release. The receipt concerns storage integrity and provides no scientific verdict. [File manifest](DRT1_OPEN_MANIFEST_20261121.json) · [Verification receipt and intake hashes](DRT1_20261121.json)
+
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The workstation verified the complete open-source copy before the storage repair.; project meaning: scoped operational record; next engineering obligation: Keep the temporary root until the curator releases the bulk store.; public scientific claim unchanged; curator decision required: No new decision. Detail: DRT1_20261121.md.
+
 ### S15-W6-LA8-BG-20261120
 
 **Question.** Do single-target speakers take a smaller share of the following minute’s speech when they leave a laugh unjoined?

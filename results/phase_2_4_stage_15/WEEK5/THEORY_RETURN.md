@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+[November 21 extension return](NOVEMBER_21_EXTENSION_RETURN.md) contains the registered rows, limits and links to their source evidence.
+
 **S15-W6-IN16-REFERENCE-20261116:** [IN16 all-report reference](IN16_REFERENCE_20261116.md). The all-report ordered-duration reference is fully reproduced at its original scope and carries no new scientific verdict. Full scope and limits are in the linked record.
 
 **S15-W6-IN13B-REFERENCE-20261116:** [IN13B-reference](IN13B_REFERENCE_20261116.md). The all-report nearby-label classifier reference is fully reproduced at its original scope and carries no new scientific verdict. Full scope and limits are in the linked record.

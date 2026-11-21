@@ -1,0 +1,3 @@
+# PST REMAINING QUALIFICATION 20261121
+
+Five source projections and the jointly resampled pair comparison passed native constructed qualification. The first planted example generated unrelated feeling levels in the two halves while testing a stable adjusted covariance. Its assertion failed. The repaired fixture supplies the known stable levels, with independent noise in each half. The statistical equations were unchanged. Both attempts and their measured CPU time are charged to the second status diary. Items that could not bind use their filed exclusions. [Definitions, source census and limits](../../../../docs/design/stage-15/week6/PERSON_SLOPE_REMAINING_20261121.md).

@@ -3033,6 +3033,74 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W6-PST-0076-MORE-20261121:** 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0076_MORE_20261121.md).
+
+**S15-W6-PST-0072-MORE-20261121:** 562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0072_MORE_20261121.md).
+
+**OPS-S15-W6-PST-0072-MORE-DRT1-HANDOFF-20261121:** The native registration for diary 0072 stopped before scientific admission. [Record](../results/phase_2_4_stage_15/WEEK5/PST_0072_MORE_DRT1_HANDOFF_20261121_RECEIPT.md).
+
+**OPS-S15-W6-PST-TIE-QUAL-20261121:** Six constructed checks qualified the interaction-diary replay repair under the existing allowance. [Record](../results/phase_2_4_stage_15/WEEK5/PST_REPLAY_PRECISION_QUALIFICATION_20261121.md).
+
+**OPS-S15-W6-PST-0076-MORE-DRT1-20261121:** The 0076 diary did not pass independent numerical replay. [Record](../results/phase_2_4_stage_15/WEEK5/PST_0076_MORE_DRT1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-PST-0072-MORE-DRT1-20261121:** The native registration for diary 0072 stopped before scientific admission. [Record](../results/phase_2_4_stage_15/WEEK5/PST_0072_MORE_DRT1_20261121_RECEIPT.md).
+
+**S15-W6-PST-0056-MORE-20261121:** 327 participants in a status diary supplied 18,034 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0056_MORE_20261121.md).
+
+**S15-W6-PST-0057-MORE-20261121:** 2272 participants in a status diary supplied 64,810 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0057_MORE_20261121.md).
+
+**S15-W6-PST-0060-MORE-20261121:** 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0060_MORE_20261121.md).
+
+**OPS-S15-W6-PST-REMAINING-QUAL-20261121:** Five source projections and the jointly resampled pair comparison passed native constructed qualification. [Record](../results/phase_2_4_stage_15/WEEK5/PST_REMAINING_QUALIFICATION_20261121.md).
+
+**OPS-S15-W6-WLG-BO-20261121:** Six constructed checks qualified the two writing studies under amendment BO. [Record](../results/phase_2_4_stage_15/WEEK5/WLG_BO_QUALIFICATION_20261121.md).
+
+**OPS-S15-W6-SMF1-BM-20261121:** Three independent wave-two jobs passed the installed gate’s local replica on synthetic files. [Record](../results/phase_2_4_stage_15/WEEK5/SMF1_BM_REHEARSAL_20261121.md).
+
+**S15-W6-WLG2-20261121:** In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison before asking for a suggestion and when typing in a matching position and genre. Each writer contributed one ratio of median pauses. [Record](../results/phase_2_4_stage_15/WEEK5/WLG2_WRITING_PAUSES_20261121.md).
+
+**S15-W6-WLG1-20261121:** In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison at the first word of a sentence and at another word in that sentence. Each writer contributed one ratio of median pauses. [Record](../results/phase_2_4_stage_15/WEEK5/WLG1_WRITING_PAUSES_20261121.md).
+
+**S15-W6-PST-0057-20261121:** 2272 participants in a status diary supplied 39,873 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0057_20261121.md).
+
+**S15-W6-PST-0060-20261121:** 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0060_20261121.md).
+
+**S15-W6-ANX1-20261121:** Students reported whether they felt anxious about schoolwork. Two other diaries asked about worry and supplied fear and sadness ratings. [Record](../results/phase_2_4_stage_15/WEEK5/ANX1_DIARIES_20261121.md).
+
+**S15-W6-PRD1-20261121:** People in two status diaries rated how proud and enthusiastic they felt and whether others admired them. Both feelings were fitted to the same interaction reports and status events. [Record](../results/phase_2_4_stage_15/WEEK5/PRD1_DIARIES_20261121.md).
+
+**OPS-S15-W6-PRD1-0056-FIRST100-DRT1-20261121:** PRD1 member 0056 preserved its 100-draw pilot. [Record](../results/phase_2_4_stage_15/WEEK5/PRD1_0056_FIRST100_DRT1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-ANX1-0072-FIRST100-DRT1-20261121:** ANX1 member 0072 preserved its 100-draw pilot. [Record](../results/phase_2_4_stage_15/WEEK5/ANX1_0072_FIRST100_DRT1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-ANX1-0062-FIRST100-DRT1-20261121:** ANX1 member 0062 preserved its 100-draw pilot. [Record](../results/phase_2_4_stage_15/WEEK5/ANX1_0062_FIRST100_DRT1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150602Z-A1CCE3:** The person-slope source binding passed all 6 constructed checks. [Record](../results/phase_2_4_stage_15/WEEK5/PST_QUALIFICATION_ROWS_20261121T150602Z_A1CCE3.md).
+
+**OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150502Z-1E1935:** Constructed status-diary records exposed a read-only Boolean mask. The corrected selector allocates its own array. [Record](../results/phase_2_4_stage_15/WEEK5/PST_QUALIFICATION_ROWS_20261121T150502Z_1E1935.md).
+
+**OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T144406Z-536443:** The person-slope operator passed all 3 constructed checks. [Record](../results/phase_2_4_stage_15/WEEK5/PST_QUALIFICATION_ROWS_20261121T144406Z_536443.md).
+
+**OPS-S15-W6-ANX1-0060-FULL-DRT1-20261121:** The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest. [Record](../results/phase_2_4_stage_15/WEEK5/ANX1_0060_FULL_DRT1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-PRD1-0057-FULL-DRT1-20261121:** The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest. [Record](../results/phase_2_4_stage_15/WEEK5/PRD1_0057_FULL_DRT1_20261121_RECEIPT.md).
+
+**S15-W6-PBK1-20261121:** Two diaries compared how fear and sadness accompanied play. The pooled fear-minus-sadness slope was 0.100 (95% interval 0.052 to 0.147). The registered prediction was below zero. [Record](../results/phase_2_4_stage_15/WEEK5/PBK1_PLAY_AND_FEAR_20261121.md).
+
+**OPS-S15-W6-PRD1-0057-FIRST100-DRT1-20261121:** PRD1 member 0057 preserved its 100-draw pilot. [Record](../results/phase_2_4_stage_15/WEEK5/PRD1_0057_FIRST100_DRT1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-PBK1-0072-FIRST100-DRT1-20261121:** PBK1 member 0072 preserved its 100-draw pilot. [Record](../results/phase_2_4_stage_15/WEEK5/PBK1_0072_FIRST100_DRT1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-ANX1-0060-FIRST100-DRT1-QUIET-20261121:** ANX1 member 0060 preserved its 100-draw pilot. [Record](../results/phase_2_4_stage_15/WEEK5/ANX1_0060_FIRST100_DRT1_QUIET_20261121_RECEIPT.md).
+
+**OPS-S15-W6-ANX1-0060-FIRST100-DRT1-HANDOFF1-20261121:** The native census declined ANX1 before it acquired a research slot. [Record](../results/phase_2_4_stage_15/WEEK5/ANX1_0060_FIRST100_DRT1_HANDOFF1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-ANX1-0060-FIRST100-DRT1-20261121:** The native census declined ANX1 before it acquired a research slot. [Record](../results/phase_2_4_stage_15/WEEK5/ANX1_0060_FIRST100_DRT1_20261121_RECEIPT.md).
+
+**OPS-S15-W6-SMALL-QUAL-20261121:** All twelve constructed checks passed for the three small diary studies. [Record](../results/phase_2_4_stage_15/WEEK5/PERSON_ROWS_QUALIFICATION_20261121.md).
+
+**OPS-S15-W6-DRT1-20261121:** The workstation verified the complete open-source copy before the storage repair. [Record](../results/phase_2_4_stage_15/WEEK5/DRT1_20261121.md).
+
 **S15-W6-LA8-BG-20261120:** The target’s adjusted share of speech was 2.90 percentage points higher after leaving a laugh unjoined (95% whole-meeting interval 1.06 to 4.61). The registered prediction was a lower share. [Record](../results/phase_2_4_stage_15/WEEK5/LA8_NEXT_MINUTE_BG_20261120.md).
 
 **S15-W6-KP1-COMPLETE-20261121:** The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern. [Record](../results/phase_2_4_stage_15/WEEK5/KP1_PAUSE_REPAIR_20261121.md).

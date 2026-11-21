@@ -1,5 +1,35 @@
 # STATE: the agent's operational file
 
+All eligible local November 21 panels have completed independent replay. Both writing-log studies used their separate BO allowances. WLG1 compares each writer’s pooled sentence-start and within-sentence pauses across sessions. The original open-source copy and the three qualified MIDUS jobs await the curator’s storage handback. [November 21 return](../results/phase_2_4_stage_15/WEEK5/NOVEMBER_21_EXTENSION_RETURN.md).
+
+519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0076_MORE_20261121.md).
+
+562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0072_MORE_20261121.md).
+
+327 participants in a status diary supplied 18,034 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0056_MORE_20261121.md).
+
+2272 participants in a status diary supplied 64,810 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0057_MORE_20261121.md).
+
+199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0060_MORE_20261121.md).
+
+In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison before asking for a suggestion and when typing in a matching position and genre. Each writer contributed one ratio of median pauses. [Full record](../results/phase_2_4_stage_15/WEEK5/WLG2_WRITING_PAUSES_20261121.md).
+
+In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison at the first word of a sentence and at another word in that sentence. Each writer contributed one ratio of median pauses. [Full record](../results/phase_2_4_stage_15/WEEK5/WLG1_WRITING_PAUSES_20261121.md).
+
+2272 participants in a status diary supplied 39,873 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0057_20261121.md).
+
+199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](../results/phase_2_4_stage_15/WEEK5/PST_PERSON_SLOPES_0060_20261121.md).
+
+Students reported whether they felt anxious about schoolwork. Two other diaries asked about worry and supplied fear and sadness ratings. [Full record](../results/phase_2_4_stage_15/WEEK5/ANX1_DIARIES_20261121.md).
+
+People in two status diaries rated how proud and enthusiastic they felt and whether others admired them. Both feelings were fitted to the same interaction reports and status events. [Full record](../results/phase_2_4_stage_15/WEEK5/PRD1_DIARIES_20261121.md).
+
+**Two diary measures of play.** Two diaries compared how fear and sadness accompanied play. The pooled fear-minus-sadness slope was 0.100 (95% interval 0.052 to 0.147). The registered prediction was below zero. [Full record](../results/phase_2_4_stage_15/WEEK5/PBK1_PLAY_AND_FEAR_20261121.md).
+
+temporary root verified, bulk store no longer read
+
+DRT1-20261121 serves the verified workstation copies. Manifest SHA-256: cc63f8f6ffb5a47845b98b0d754b6412c18b0e6c79ea5badd8466d5589075f6d. Sealed starts and downloads over 1 GB are on hold until the curator releases the store.
+
 **Next-minute speech.** The target’s adjusted share of speech was 2.90 percentage points higher after leaving a laugh unjoined (95% whole-meeting interval 1.06 to 4.61). The registered prediction was a lower share. [Original comparison](../results/phase_2_4_stage_15/WEEK5/LA8_NEXT_MINUTE_BG_20261120.md).
 
 **Typing and revision.** The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern. [Full table](../results/phase_2_4_stage_15/WEEK5/KP1_PAUSE_REPAIR_20261121.md).

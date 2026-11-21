@@ -1,5 +1,33 @@
 # Week 5 evidence
 
+[November 21 extension return](NOVEMBER_21_EXTENSION_RETURN.md) indexes the completed diary and writing records and the three sealed jobs awaiting storage handback.
+
+519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](PST_PERSON_SLOPES_0076_MORE_20261121.md).
+
+562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](PST_PERSON_SLOPES_0072_MORE_20261121.md).
+
+327 participants in a status diary supplied 18,034 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](PST_PERSON_SLOPES_0056_MORE_20261121.md).
+
+2272 participants in a status diary supplied 64,810 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](PST_PERSON_SLOPES_0057_MORE_20261121.md).
+
+199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](PST_PERSON_SLOPES_0060_MORE_20261121.md).
+
+In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison before asking for a suggestion and when typing in a matching position and genre. Each writer contributed one ratio of median pauses. [Full record](WLG2_WRITING_PAUSES_20261121.md).
+
+In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison at the first word of a sentence and at another word in that sentence. Each writer contributed one ratio of median pauses. [Full record](WLG1_WRITING_PAUSES_20261121.md).
+
+2272 participants in a status diary supplied 39,873 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](PST_PERSON_SLOPES_0057_20261121.md).
+
+199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary. [Full record](PST_PERSON_SLOPES_0060_20261121.md).
+
+Students reported whether they felt anxious about schoolwork. Two other diaries asked about worry and supplied fear and sadness ratings. [Full record](ANX1_DIARIES_20261121.md).
+
+People in two status diaries rated how proud and enthusiastic they felt and whether others admired them. Both feelings were fitted to the same interaction reports and status events. [Full record](PRD1_DIARIES_20261121.md).
+
+**Two diary measures of play.** Two diaries compared how fear and sadness accompanied play. The pooled fear-minus-sadness slope was 0.100 (95% interval 0.052 to 0.147). The registered prediction was below zero. [Full record](PBK1_PLAY_AND_FEAR_20261121.md).
+
+[Verified temporary data root](DRT1_20261121.md) · [November 21 small-row qualification](PERSON_ROWS_QUALIFICATION_20261121.md)
+
 [Next-minute speaking share after a laugh](LA8_NEXT_MINUTE_BG_20261120.md).
 
 Completed original typing-pause comparison. [Full table](KP1_PAUSE_REPAIR_20261121.md).

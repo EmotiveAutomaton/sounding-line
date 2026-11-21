@@ -2061,3 +2061,71 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-21T10:59:57.230627+00:00 S15-W6-KP1-COMPLETE-20261121: The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern.
 
 2026-11-21T11:08:52.690506+00:00 S15-W6-LA8-BG-20261120: The target’s adjusted share of speech was 2.90 percentage points higher after leaving a laugh unjoined (95% whole-meeting interval 1.06 to 4.61). The registered prediction was a lower share.
+
+2026-11-21T14:45:11.386051+00:00 OPS-S15-W6-DRT1-20261121: The workstation verified the complete open-source copy before the storage repair.
+
+2026-11-21T14:45:11.950440+00:00 OPS-S15-W6-SMALL-QUAL-20261121: All twelve constructed checks passed for the three small diary studies.
+
+2026-11-21T14:45:12.435777+00:00 OPS-S15-W6-ANX1-0060-FIRST100-DRT1-20261121: The native census declined ANX1 before it acquired a research slot.
+
+2026-11-21T14:45:12.937086+00:00 OPS-S15-W6-ANX1-0060-FIRST100-DRT1-HANDOFF1-20261121: The native census declined ANX1 before it acquired a research slot.
+
+2026-11-21T14:45:13.431902+00:00 OPS-S15-W6-ANX1-0060-FIRST100-DRT1-QUIET-20261121: ANX1 member 0060 preserved its 100-draw pilot.
+
+2026-11-21T14:45:13.995031+00:00 OPS-S15-W6-PBK1-0072-FIRST100-DRT1-20261121: PBK1 member 0072 preserved its 100-draw pilot.
+
+2026-11-21T14:45:14.589707+00:00 OPS-S15-W6-PRD1-0057-FIRST100-DRT1-20261121: PRD1 member 0057 preserved its 100-draw pilot.
+
+2026-11-21T14:51:52.165193+00:00 S15-W6-PBK1-20261121: Two diaries compared how fear and sadness accompanied play. The pooled fear-minus-sadness slope was 0.100 (95% interval 0.052 to 0.147). The registered prediction was below zero.
+
+2026-11-21T15:11:59.382888+00:00 OPS-S15-W6-PRD1-0057-FULL-DRT1-20261121: The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest.
+
+2026-11-21T15:11:59.931903+00:00 OPS-S15-W6-ANX1-0060-FULL-DRT1-20261121: The continuation stopped before loading the original checkpoint. Its plan omitted the predecessor review manifest.
+
+2026-11-21T15:12:00.474839+00:00 OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T144406Z-536443: The person-slope operator passed all 3 constructed checks.
+
+2026-11-21T15:12:01.039223+00:00 OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150502Z-1E1935: Constructed status-diary records exposed a read-only Boolean mask. The corrected selector allocates its own array.
+
+2026-11-21T15:12:01.583169+00:00 OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150602Z-A1CCE3: The person-slope source binding passed all 6 constructed checks.
+
+2026-11-21T15:12:02.306841+00:00 OPS-S15-W6-ANX1-0062-FIRST100-DRT1-20261121: ANX1 member 0062 preserved its 100-draw pilot.
+
+2026-11-21T15:12:02.855472+00:00 OPS-S15-W6-ANX1-0072-FIRST100-DRT1-20261121: ANX1 member 0072 preserved its 100-draw pilot.
+
+2026-11-21T15:12:03.471213+00:00 OPS-S15-W6-PRD1-0056-FIRST100-DRT1-20261121: PRD1 member 0056 preserved its 100-draw pilot.
+
+2026-11-21T15:18:52.000687+00:00 S15-W6-PRD1-20261121: People in two status diaries rated how proud and enthusiastic they felt and whether others admired them. Both feelings were fitted to the same interaction reports and status events.
+
+2026-11-21T15:22:36.941074+00:00 S15-W6-ANX1-20261121: Students reported whether they felt anxious about schoolwork. Two other diaries asked about worry and supplied fear and sadness ratings.
+
+2026-11-21T15:23:08.593159+00:00 S15-W6-PST-0060-20261121: 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+2026-11-21T15:23:40.276327+00:00 S15-W6-PST-0057-20261121: 2272 participants in a status diary supplied 39,873 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+2026-11-21T15:36:32.491198+00:00 S15-W6-WLG1-20261121: In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison at the first word of a sentence and at another word in that sentence. Each writer contributed one ratio of median pauses.
+
+2026-11-21T15:48:28.493054+00:00 S15-W6-WLG2-20261121: In 1,399 CoAuthor writing sessions, 61 writers supplied both pauses needed for a comparison before asking for a suggestion and when typing in a matching position and genre. Each writer contributed one ratio of median pauses.
+
+2026-11-21T15:53:22.883925+00:00 OPS-S15-W6-SMF1-BM-20261121: Three independent wave-two jobs passed the installed gate’s local replica on synthetic files.
+
+2026-11-21T15:53:23.351836+00:00 OPS-S15-W6-WLG-BO-20261121: Six constructed checks qualified the two writing studies under amendment BO.
+
+2026-11-21T16:12:26.903460+00:00 OPS-S15-W6-PST-REMAINING-QUAL-20261121: Five source projections and the jointly resampled pair comparison passed native constructed qualification.
+
+2026-11-21T16:12:58.556970+00:00 S15-W6-PST-0060-MORE-20261121: 199 students supplied 8,672 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+2026-11-21T16:13:29.519745+00:00 S15-W6-PST-0057-MORE-20261121: 2272 participants in a status diary supplied 64,810 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+2026-11-21T16:14:00.009857+00:00 S15-W6-PST-0056-MORE-20261121: 327 participants in a status diary supplied 18,034 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+2026-11-21T16:14:30.907855+00:00 OPS-S15-W6-PST-0072-MORE-DRT1-20261121: The native registration for diary 0072 stopped before scientific admission.
+
+2026-11-21T16:14:31.482982+00:00 OPS-S15-W6-PST-0076-MORE-DRT1-20261121: The 0076 diary did not pass independent numerical replay.
+
+2026-11-21T16:21:07.221159+00:00 OPS-S15-W6-PST-TIE-QUAL-20261121: Six constructed checks qualified the interaction-diary replay repair under the existing allowance.
+
+2026-11-21T16:21:07.917349+00:00 OPS-S15-W6-PST-0072-MORE-DRT1-HANDOFF-20261121: The native registration for diary 0072 stopped before scientific admission.
+
+2026-11-21T16:21:09.107303+00:00 S15-W6-PST-0072-MORE-20261121: 562 parents supplied 7,747 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.
+
+2026-11-21T16:21:40.992018+00:00 S15-W6-PST-0076-MORE-20261121: 519 people in an interaction diary supplied 1,878 dated reports in the registered context. We compared how each person's feelings differed on event and other occasions in the earlier and later halves of their diary.

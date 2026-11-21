@@ -1,0 +1,3 @@
+# PST REPLAY PRECISION QUALIFICATION 20261121
+
+Six constructed checks qualified the interaction-diary replay repair under the existing allowance. The checks exercise strictly tied ratings, sub-picounit input differences and a deliberately unequal aggregate. The production entries use the original verification tolerance. The first failed real run, this fixture and its bounded successor have distinct records.

@@ -1,0 +1,3 @@
+# WLG BO QUALIFICATION 20261121
+
+Six constructed checks qualified the two writing studies under amendment BO. Each writer contributes one paired median ratio. The sentence comparison pools the writer’s sentence starts and ordinary word starts within sentences across sessions. Individual sentences are not matched. The request comparison matches cursor position and genre within writer. WLG1 carries the shared preparation charge. Both independent 10,000-second caps include replay and fit under the unchanged campaign ceiling.

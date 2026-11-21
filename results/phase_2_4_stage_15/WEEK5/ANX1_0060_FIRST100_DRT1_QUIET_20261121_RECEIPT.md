@@ -1,0 +1,3 @@
+# ANX1 0060 FIRST100 DRT1 QUIET 20261121 RECEIPT
+
+ANX1 member 0060 preserved its 100-draw pilot. The owner fingerprint matches the immutable plan. The terminal records 1.796875 CPU seconds. Verify the cost projection and authenticate the checkpoint before continuing.
