@@ -2059,3 +2059,5 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-21T06:16:18.608885+00:00 S15-W6-LA9-MEASURED-20261120: In the selected meetings, AMI social utterances had higher odds of coinciding with the matched laughter label than information exchange. The odds ratios were 5.97 with prior laughter in the model and 5.63 without it. The two models supplied 20 nonreference intervals in total.
 
 2026-11-21T10:59:57.230627+00:00 S15-W6-KP1-COMPLETE-20261121: The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern.
+
+2026-11-21T11:08:52.690506+00:00 S15-W6-LA8-BG-20261120: The target’s adjusted share of speech was 2.90 percentage points higher after leaving a laugh unjoined (95% whole-meeting interval 1.06 to 4.61). The registered prediction was a lower share.

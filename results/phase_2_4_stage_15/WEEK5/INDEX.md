@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**S15-W6-LA8-BG-20261120:** [Record](LA8_NEXT_MINUTE_BG_20261120.md). The target’s adjusted share of speech was 2.90 percentage points higher after leaving a laugh unjoined (95% whole-meeting interval 1.06 to 4.61). The registered prediction was a lower share.
+
 **S15-W6-KP1-COMPLETE-20261121:** [Record](KP1_PAUSE_REPAIR_20261121.md). The deletion comparison could not estimate an odds ratio. Longer pauses predicted a modest increase in surprise over the next three words, including away from sentence boundaries. The raw pause showed the same pattern.
 
 **S15-W6-LA9-MEASURED-20261120:** [Record](LA9_SAMPLED_POOLED_ACTS_20261120.md). In the selected meetings, AMI social utterances had higher odds of coinciding with the matched laughter label than information exchange. The odds ratios were 5.97 with prior laughter in the model and 5.63 without it. The two models supplied 20 nonreference intervals in total.

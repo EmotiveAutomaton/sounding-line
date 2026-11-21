@@ -1,5 +1,7 @@
 # Week 5 evidence
 
+[Next-minute speaking share after a laugh](LA8_NEXT_MINUTE_BG_20261120.md).
+
 Completed original typing-pause comparison. [Full table](KP1_PAUSE_REPAIR_20261121.md).
 
 [Sampled pooled-acts result](LA9_SAMPLED_POOLED_ACTS_20261120.md).
