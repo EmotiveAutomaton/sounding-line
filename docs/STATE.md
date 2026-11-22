@@ -1,5 +1,29 @@
 # STATE: the agent's operational file
 
+All 71 daily ledger entries have complete report and receipt pairs. All 46 admitted campaign terminals in the interval matched hashes in filed receipts. [November 21 daily report](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261121.md).
+
+The PST9 return after five diary dispositions includes the form-specific individual contributions and inverse-variance weights. [Full report](../results/phase_2_4_stage_15/WEEK5/BT_PST9_AFTER_FIVE_20261121.md).
+
+In diary 0023, 0 of 1 responses met the positive variance bar in all three forms. [Full report](../results/phase_2_4_stage_15/WEEK5/BT_FORMS_0023_20261121.md).
+
+The PST9 return after four diary dispositions includes the form-specific individual contributions and inverse-variance weights. [Full report](../results/phase_2_4_stage_15/WEEK5/BT_PST9_AFTER_FOUR_20261121.md).
+
+In diary 0055, 0 of 3 responses met the positive variance bar in all three forms. [Full report](../results/phase_2_4_stage_15/WEEK5/BT_FORMS_0055_20261121.md).
+
+The first scheduled PST9 return covers three diary dispositions and shows the available independent contributions to each family and form. [Full return](../results/phase_2_4_stage_15/WEEK5/BT_PST9_AFTER_THREE_20261121.md).
+
+The Hawks diary compared nervousness and worry separately with fear within the same person. [Full return](../results/phase_2_4_stage_15/WEEK5/BT_ANX1_0003_20261121.md).
+
+The cross-event comparison qualified 0 pairs. Its registered reading was no verdict. [Full return](../results/phase_2_4_stage_15/WEEK5/BT_ONE_DIAL_0003_20261121.md).
+
+0 of the 25 commissioned stressor and feeling pairs met the variance bar in all three forms. [Full return](../results/phase_2_4_stage_15/WEEK5/BT_FORMS_0003_20261121.md).
+
+0 of the four event and mood-axis comparisons had a positive level-adjusted variance interval in all three forms. [Study return](../results/phase_2_4_stage_15/WEEK5/BT_FORMS_0073_20261121.md).
+
+The three-diary fear-minus-sadness contrast was 0.191 (95% interval 0.153 to 0.228). [Three-diary return](../results/phase_2_4_stage_15/WEEK5/BT_0010_PBK1_20261121.md).
+
+All 29 inconclusive morning estimates reproduced. The earlier reports miscounted how often the adjustment was dropped. [Reconciliation](../results/phase_2_4_stage_15/WEEK5/PST8_DIARY_OPERATOR_RECONCILIATION_20261121.md).
+
 The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately. [PST6 return](../results/phase_2_4_stage_15/WEEK5/BR_PST6_20261121.md).
 
 The registered panels of openESM diary 0076. No slope met the variance bar in all three forms. [All slopes and diagnostics](../results/phase_2_4_stage_15/WEEK5/BR_DIARY_0076_20261121.md).

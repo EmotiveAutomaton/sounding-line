@@ -1,5 +1,7 @@
 # November 21 afternoon diary return
 
+All 29 inconclusive morning estimates reproduced. The earlier reports miscounted how often the adjustment was dropped. [PST8 correction](PST8_DIARY_OPERATOR_RECONCILIATION_20261121.md).
+
 Across five diaries, the studies asked whether people differed in their response to an event after allowing for how strongly they rated it and after separating the observation periods. Each variance comparison used 2,000 draws of whole people and fresh replay. PST4 and PST5 carry analyst forecasts. PST6 and PST7 are descriptive.
 
 The event and feeling come from the same prompt. Imperfect or nonlinear event ratings can leave severity differences in the graded estimate. The separated periods retain fewer people. The pair comparison includes pleasant responses and cannot settle whether unpleasant responses share a common factor.

@@ -1,0 +1,3 @@
+# BT 0073 MEMORY ADMISSION 20261121
+
+The 0073 source and constructed comparison passed their checks. The first start was refused at the native memory guard. At inspection the existing ToMpathy lease reserved 5.28 GiB. Windows had 20.75 GiB commit headroom against 21.28 GiB required. The local supervisor rechecks once per minute and calls the normal native admission when capacity permits. The first attempt had no admission receipt and consumed 0.984375 CPU seconds. The storage handback and three sealed runs still require the curator’s release. All three local entry hashes were verified.

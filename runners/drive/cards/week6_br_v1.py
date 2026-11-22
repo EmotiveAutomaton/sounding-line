@@ -99,10 +99,10 @@ def estimate(parts, seed, weight, guard):
         W=op.boot_counts(rng,n,count-(start==0))*w
         if start==0: W=np.vstack([w,W])
         raw,adj,_=op.adjust(W,pair('b'),cov)
-        ll=op.cc(W,*pair('L'))
+        ll=op.cc(W,pair('L'),pair('L'))
         if spread:
             ls=op.cc(W,pair('L'),pair('S'))
-            ss=op.cc(W,*pair('S'))
+            ss=op.cc(W,pair('S'),pair('S'))
             mat=np.stack([ll,ls,ls,ss],-1).reshape(-1,2,2)
             use_spread=np.linalg.eigvalsh(mat)[:,0]>op.EPS
         else:

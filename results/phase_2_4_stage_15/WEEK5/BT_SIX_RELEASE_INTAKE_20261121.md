@@ -1,0 +1,3 @@
+# BT SIX RELEASE INTAKE 20261121
+
+All twelve files in the six commissioned releases matched the collector manifests and archive checksums on the temporary disk. They total 7,632,908 bytes. The collector confirmed an earlier catalogue-metadata lookup on the bulk store before locating the temporary-root instruction. Transfers came directly from Zenodo to the temporary incoming directory. This verification accessed only the workstation copies. The later request to fetch 0075 after resolving its licence was separate. Its modified CC0 prohibits reidentification. It remains outside the six commissioned analyses.

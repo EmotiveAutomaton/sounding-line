@@ -1,5 +1,39 @@
 # Week 5 verified records
 
+**OPS-S15-W6-DIGEST-20261121:** [Record](WEEK6_DIGEST_20261121.md). All 71 daily ledger entries have complete report and receipt pairs. All 46 admitted campaign terminals in the interval matched hashes in filed receipts.
+
+**OPS-S15-W6-BT-0049-OCCURRENCE-20261121:** [Record](BT_0049_OCCURRENCE_CHECKPOINT_20261121.md). Both helping-occurrence forms completed for the four commissioned mood outcomes in diary 0049.
+
+**S15-W6-BT-PST9-AFTER-FIVE-20261121:** [Record](BT_PST9_AFTER_FIVE_20261121.md). The PST9 return after five diary dispositions includes the form-specific individual contributions and inverse-variance weights.
+
+**S15-W6-BT-FORMS-0023-20261121:** [Record](BT_FORMS_0023_20261121.md). In diary 0023, 0 of 1 responses met the positive variance bar in all three forms.
+
+**OPS-S15-W6-BT-0023-DAY-20261121:** [Record](BT_0023_DAY_CHECK_20261121.md). The first 0023 attempt stopped before scoring because 748 prompts lacked a study day.
+
+**S15-W6-BT-PST9-AFTER-FOUR-20261121:** [Record](BT_PST9_AFTER_FOUR_20261121.md). The PST9 return after four diary dispositions includes the form-specific individual contributions and inverse-variance weights.
+
+**S15-W6-BT-FORMS-0055-20261121:** [Record](BT_FORMS_0055_20261121.md). In diary 0055, 0 of 3 responses met the positive variance bar in all three forms.
+
+**OPS-S15-W6-BT-0073-WATCH-EXIT-20261121:** [Record](BT_0073_WATCH_EXIT_20261121.md). The 0073 resource watcher exited after the native study finished and released its lease.
+
+**S15-W6-BT-PST9-THREE-20261121:** [Record](BT_PST9_AFTER_THREE_20261121.md). The first scheduled PST9 return covers three diary dispositions and shows the available independent contributions to each family and form.
+
+**S15-W6-BT-ANX1-0003-20261121:** [Record](BT_ANX1_0003_20261121.md). The Hawks diary compared nervousness and worry separately with fear within the same person.
+
+**S15-W6-BT-PST3-0003-20261121:** [Record](BT_ONE_DIAL_0003_20261121.md). The cross-event comparison qualified 0 pairs. Its registered reading was no verdict.
+
+**S15-W6-BT-FORMS-0003-20261121:** [Record](BT_FORMS_0003_20261121.md). 0 of the 25 commissioned stressor and feeling pairs met the variance bar in all three forms.
+
+**S15-W6-BT-FORMS-0073-20261121:** [Record](BT_FORMS_0073_20261121.md). 0 of the four event and mood-axis comparisons had a positive level-adjusted variance interval in all three forms.
+
+**OPS-S15-W6-BT-0073-ADMISSION-20261121:** [Record](BT_0073_MEMORY_ADMISSION_20261121.md). The 0073 source and constructed comparison passed their checks. The first start was refused at the native memory guard.
+
+**OPS-S15-W6-BT-INTAKE-20261121:** [Record](BT_SIX_RELEASE_INTAKE_20261121.md). All twelve files in the six commissioned releases matched the collector manifests and archive checksums on the temporary disk.
+
+**S15-W6-BT-PBK1-0010-20261121:** [Record](BT_0010_PBK1_20261121.md). The three-diary fear-minus-sadness contrast was 0.191 (95% interval 0.153 to 0.228).
+
+**OPS-S15-W6-PST8-20261121:** [Record](PST8_DIARY_OPERATOR_RECONCILIATION_20261121.md). All 29 inconclusive morning estimates reproduced. The earlier reports miscounted how often the adjustment was dropped.
+
 **S15-W6-BR-PST6-20261121:** [Record](BR_PST6_20261121.md). The five diaries were checked for pairs of elementary held responses. Same-event and different-event pairs were pooled separately.
 
 **S15-W6-BR-0076-20261121:** [Record](BR_DIARY_0076_20261121.md). The registered panels of openESM diary 0076. No slope met the variance bar in all three forms.

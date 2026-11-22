@@ -1,0 +1,9 @@
+# Member 0023 admission
+
+The first validation stopped before fitting. Of 9,366 prompts, 748 have no study day. Apply the existing BR rule to exclude undated prompts before splitting, and report their number alongside the form-specific support. Assigning a day from file order would introduce timing information absent from the source.
+
+Dora and colleagues presented a tutorial on Bayesian mixed-effects models using two student diary studies of alcohol and daily self-control. Here the question is whether differences between people in the relationship of stress with overwhelm recur across parts of their diaries. This is one release for PST9. The two original studies used different prompt schedules. The participant codes are disjoint across study labels. Preserve observed days, missing occasions and variable lengths. [Source paper](https://doi.org/10.1177/25152459241235875) · [Codebook](https://openesmdata.org/datasets/0023_dora/)
+
+Version 2.0.0, CC BY 4.0. Read person, day, dealt_stress and felt_overwhelm. Both sliders range from 0 to 100, with 0 meaning not at all. The event measures a respondent's rating of dealing with something stressful. The outcome measures reported overwhelm. Each form uses the valid prompt pairs and people it supports. Keep missing values distinct from zero. No pleasant event was commissioned. [Pinned release](https://zenodo.org/records/22809550)
+
+PST1 and PST5 compare any endorsement against zero. PST4 uses one recorded point. The only PST9 candidate is the unpleasant stress–overwhelm slope. Both statements describe related subjective experiences in the same report. DESIGN CHECK: planted slopes, a missing event, an early period with no positive exposure, lower-bound rejection and independent replay. The per-diary allowance covers the full run and replay, up to 20,000 CPU-seconds. A form below support receives its registered disposition.

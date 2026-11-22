@@ -1,5 +1,515 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-DIGEST-20261121
+
+**Corrections.** The diary reporting code miscounted how often a fit dropped its covariate adjustment. PST8 reproduced the 29 morning estimates and replayed all five afternoon diaries. The corrected frequency tables are filed. Diary 0023's first attempt stopped before fitting. Its recovery excluded the 748 prompts without a study day and retained the charge for the first attempt. [PST8 reconciliation](PST8_DIARY_OPERATOR_RECONCILIATION_20261121.md) · [0023 recovery](BT_0023_DAY_CHECK_20261121.md)
+
+**Evidence through 8 p.m. Pacific on November 21.** All 71 daily ledger entries have complete report and receipt pairs. All 46 admitted campaign terminals in the interval matched hashes in filed receipts. The audit covered the preceding 24 hours, matched each ledger entry to its Markdown and JSON, checked canonical locks and verified the calendar and watcher process identities. A separate 36 counted attempts supplied bounded occupancy from their supervision records. The companion JSON identifies the evidence used for each count. The campaign accounting reader includes the approved writing allowances.
+
+**Gear 2 at inspection.** The local research queue had zero active leases and zero runnable roster items. The last diary has two helping-occurrence forms filed internally and awaits the curator's choice of population for graded effort. Five diaries have complete dispositions. The pool will be updated after the sixth. The source key for LB5 and labels for SC3 still await evidence. LT1 waits for its scheduled freeze. The storage hold covers the handback and sealed Spark runs. Only temporary local sources were inspected. [Five-diary report](BT_PST9_AFTER_FIVE_20261121.md) · [0049 checkpoint](BT_0049_OCCURRENCE_CHECKPOINT_20261121.md)
+
+The interval had 192 nominal local slot-hours. Counted activity occupied 8.559 to 8.674, leaving 183.326 to 183.441 unoccupied. The range reflects supervisor duration bounds. It excludes other projects' use. The day included source admission, replay and work under the storage hold. The records do not allocate each unused hour to a particular cause. Available memory was 45.6 GiB, commit headroom 20.6 GiB and free disk 651.8 GiB at inspection. All 21 locks passed. The single outstanding wake was this digest. The watcher retains completion delivery and the six-hour idle fallback.
+
+| Filed entry | Report |
+|---|---|
+| OPS-S15-W6-DIGEST-20261120 | [Report](WEEK6_DIGEST_20261120.md) |
+| OPS-S15-W6-OVERNIGHT-DIARY-ADMISSION-20261120 | [Report](OVERNIGHT_DIARY_ADMISSION_20261120.md) |
+| OPS-S15-W6-OVERNIGHT-DIARY-PILOTS-20261120 | [Report](OVERNIGHT_DIARY_PILOTS_20261120.md) |
+| S15-W6-LB4-0070-20261120 | [Report](LB4_DIARY_0070_20261120.md) |
+| S15-W6-LB4-0076-20261120 | [Report](LB4_DIARY_0076_20261120.md) |
+| S15-W6-LB6-0063-20261120 | [Report](LB6_DIARY_0063_20261120.md) |
+| OPS-S15-W6-MEETING-BG-SUPPORT-20261120 | [Report](MEETING_BG_SUPPORT_20261120.md) |
+| OPS-S15-W6-LA7-BG-PILOT-20261120 | [Report](LA7_BG_MODEL_PILOT_20261120.md) |
+| S15-W6-LA7-BG-20261120 | [Report](LA7_MEETING_ROLE_RATES_20261120.md) |
+| OPS-S15-W6-LA9-SPARSE-EQUIVALENCE-20261120 | [Report](LA9_SPARSE_EQUIVALENCE_20261120.md) |
+| OPS-S15-W6-LA9-SCOPED-PILOT-20261120 | [Report](LA9_SCOPED_PILOT_20261120.md) |
+| S15-W6-LA9-MEASURED-20261120 | [Report](LA9_SAMPLED_POOLED_ACTS_20261120.md) |
+| S15-W6-KP1-COMPLETE-20261121 | [Report](KP1_PAUSE_REPAIR_20261121.md) |
+| S15-W6-LA8-BG-20261120 | [Report](LA8_NEXT_MINUTE_BG_20261120.md) |
+| OPS-S15-W6-DRT1-20261121 | [Report](DRT1_20261121.md) |
+| OPS-S15-W6-SMALL-QUAL-20261121 | [Report](PERSON_ROWS_QUALIFICATION_20261121.md) |
+| OPS-S15-W6-ANX1-0060-FIRST100-DRT1-20261121 | [Report](ANX1_0060_FIRST100_DRT1_20261121_RECEIPT.md) |
+| OPS-S15-W6-ANX1-0060-FIRST100-DRT1-HANDOFF1-20261121 | [Report](ANX1_0060_FIRST100_DRT1_HANDOFF1_20261121_RECEIPT.md) |
+| OPS-S15-W6-ANX1-0060-FIRST100-DRT1-QUIET-20261121 | [Report](ANX1_0060_FIRST100_DRT1_QUIET_20261121_RECEIPT.md) |
+| OPS-S15-W6-PBK1-0072-FIRST100-DRT1-20261121 | [Report](PBK1_0072_FIRST100_DRT1_20261121_RECEIPT.md) |
+| OPS-S15-W6-PRD1-0057-FIRST100-DRT1-20261121 | [Report](PRD1_0057_FIRST100_DRT1_20261121_RECEIPT.md) |
+| S15-W6-PBK1-20261121 | [Report](PBK1_PLAY_AND_FEAR_20261121.md) |
+| OPS-S15-W6-PRD1-0057-FULL-DRT1-20261121 | [Report](PRD1_0057_FULL_DRT1_20261121_RECEIPT.md) |
+| OPS-S15-W6-ANX1-0060-FULL-DRT1-20261121 | [Report](ANX1_0060_FULL_DRT1_20261121_RECEIPT.md) |
+| OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T144406Z-536443 | [Report](PST_QUALIFICATION_ROWS_20261121T144406Z_536443.md) |
+| OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150502Z-1E1935 | [Report](PST_QUALIFICATION_ROWS_20261121T150502Z_1E1935.md) |
+| OPS-S15-W6-PST-QUALIFICATION-ROWS-20261121T150602Z-A1CCE3 | [Report](PST_QUALIFICATION_ROWS_20261121T150602Z_A1CCE3.md) |
+| OPS-S15-W6-ANX1-0062-FIRST100-DRT1-20261121 | [Report](ANX1_0062_FIRST100_DRT1_20261121_RECEIPT.md) |
+| OPS-S15-W6-ANX1-0072-FIRST100-DRT1-20261121 | [Report](ANX1_0072_FIRST100_DRT1_20261121_RECEIPT.md) |
+| OPS-S15-W6-PRD1-0056-FIRST100-DRT1-20261121 | [Report](PRD1_0056_FIRST100_DRT1_20261121_RECEIPT.md) |
+| S15-W6-PRD1-20261121 | [Report](PRD1_DIARIES_20261121.md) |
+| S15-W6-ANX1-20261121 | [Report](ANX1_DIARIES_20261121.md) |
+| S15-W6-PST-0060-20261121 | [Report](PST_PERSON_SLOPES_0060_20261121.md) |
+| S15-W6-PST-0057-20261121 | [Report](PST_PERSON_SLOPES_0057_20261121.md) |
+| S15-W6-WLG1-20261121 | [Report](WLG1_WRITING_PAUSES_20261121.md) |
+| S15-W6-WLG2-20261121 | [Report](WLG2_WRITING_PAUSES_20261121.md) |
+| OPS-S15-W6-SMF1-BM-20261121 | [Report](SMF1_BM_REHEARSAL_20261121.md) |
+| OPS-S15-W6-WLG-BO-20261121 | [Report](WLG_BO_QUALIFICATION_20261121.md) |
+| OPS-S15-W6-PST-REMAINING-QUAL-20261121 | [Report](PST_REMAINING_QUALIFICATION_20261121.md) |
+| S15-W6-PST-0060-MORE-20261121 | [Report](PST_PERSON_SLOPES_0060_MORE_20261121.md) |
+| S15-W6-PST-0057-MORE-20261121 | [Report](PST_PERSON_SLOPES_0057_MORE_20261121.md) |
+| S15-W6-PST-0056-MORE-20261121 | [Report](PST_PERSON_SLOPES_0056_MORE_20261121.md) |
+| OPS-S15-W6-PST-0072-MORE-DRT1-20261121 | [Report](PST_0072_MORE_DRT1_20261121_RECEIPT.md) |
+| OPS-S15-W6-PST-0076-MORE-DRT1-20261121 | [Report](PST_0076_MORE_DRT1_20261121_RECEIPT.md) |
+| OPS-S15-W6-PST-TIE-QUAL-20261121 | [Report](PST_REPLAY_PRECISION_QUALIFICATION_20261121.md) |
+| OPS-S15-W6-PST-0072-MORE-DRT1-HANDOFF-20261121 | [Report](PST_0072_MORE_DRT1_HANDOFF_20261121_RECEIPT.md) |
+| S15-W6-PST-0072-MORE-20261121 | [Report](PST_PERSON_SLOPES_0072_MORE_20261121.md) |
+| S15-W6-PST-0076-MORE-20261121 | [Report](PST_PERSON_SLOPES_0076_MORE_20261121.md) |
+| OPS-S15-W6-BR-QUAL-20261121 | [Report](BR_QUALIFICATION_20261121.md) |
+| S15-W6-BR-0056-20261121 | [Report](BR_DIARY_0056_20261121.md) |
+| S15-W6-BR-0057-20261121 | [Report](BR_DIARY_0057_20261121.md) |
+| S15-W6-BR-0060-20261121 | [Report](BR_DIARY_0060_20261121.md) |
+| S15-W6-BR-0072-20261121 | [Report](BR_DIARY_0072_20261121.md) |
+| S15-W6-BR-0076-20261121 | [Report](BR_DIARY_0076_20261121.md) |
+| S15-W6-BR-PST6-20261121 | [Report](BR_PST6_20261121.md) |
+| OPS-S15-W6-PST8-20261121 | [Report](PST8_DIARY_OPERATOR_RECONCILIATION_20261121.md) |
+| S15-W6-BT-PBK1-0010-20261121 | [Report](BT_0010_PBK1_20261121.md) |
+| OPS-S15-W6-BT-INTAKE-20261121 | [Report](BT_SIX_RELEASE_INTAKE_20261121.md) |
+| OPS-S15-W6-BT-0073-ADMISSION-20261121 | [Report](BT_0073_MEMORY_ADMISSION_20261121.md) |
+| S15-W6-BT-FORMS-0073-20261121 | [Report](BT_FORMS_0073_20261121.md) |
+| S15-W6-BT-FORMS-0003-20261121 | [Report](BT_FORMS_0003_20261121.md) |
+| S15-W6-BT-PST3-0003-20261121 | [Report](BT_ONE_DIAL_0003_20261121.md) |
+| S15-W6-BT-ANX1-0003-20261121 | [Report](BT_ANX1_0003_20261121.md) |
+| S15-W6-BT-PST9-THREE-20261121 | [Report](BT_PST9_AFTER_THREE_20261121.md) |
+| OPS-S15-W6-BT-0073-WATCH-EXIT-20261121 | [Report](BT_0073_WATCH_EXIT_20261121.md) |
+| S15-W6-BT-FORMS-0055-20261121 | [Report](BT_FORMS_0055_20261121.md) |
+| S15-W6-BT-PST9-AFTER-FOUR-20261121 | [Report](BT_PST9_AFTER_FOUR_20261121.md) |
+| OPS-S15-W6-BT-0023-DAY-20261121 | [Report](BT_0023_DAY_CHECK_20261121.md) |
+| S15-W6-BT-FORMS-0023-20261121 | [Report](BT_FORMS_0023_20261121.md) |
+| S15-W6-BT-PST9-AFTER-FIVE-20261121 | [Report](BT_PST9_AFTER_FIVE_20261121.md) |
+| OPS-S15-W6-BT-0049-OCCURRENCE-20261121 | [Report](BT_0049_OCCURRENCE_CHECKPOINT_20261121.md) |
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All 71 daily ledger entries have complete report and receipt pairs. All 46 admitted campaign terminals in the interval matched hashes in filed receipts.; project meaning: scoped operational record; next engineering obligation: Apply the effort ruling on receipt. Restore access and run the priority sealed work only after the curator releases storage.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_DIGEST_20261121.md.
+
+### OPS-S15-W6-BT-0049-OCCURRENCE-20261121
+
+Both helping-occurrence forms completed for the four commissioned mood outcomes in diary 0049. The independent worker replayed the two occurrence forms. The remaining graded form depends on how to handle the questionnaire skip for effort at non-helping prompts. Both candidate mappings passed constructed checks. The full diary disposition and six-diary pool await that ruling.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both helping-occurrence forms completed for the four commissioned mood outcomes in diary 0049.; project meaning: scoped operational record; next engineering obligation: Retain both completed forms and join the registered graded form after the effort ruling.; public scientific claim unchanged; curator decision required: No new decision. Detail: BT_0049_OCCURRENCE_CHECKPOINT_20261121.md.
+
+### S15-W6-BT-PST9-AFTER-FIVE-20261121
+
+The PST9 return after five diary dispositions includes the form-specific individual contributions and inverse-variance weights. Selection uses the largest eligible person count for each family and form and breaks ties in packet order. All ties and descriptive slopes appear in the machine-readable return. A mean interval spanning zero leaves the ratio unidentified. At least two independent diary estimates are required to pool.
+
+| Family | Form | Diary | Slope | People | Variance / squared mean [95% interval] | Weight |
+|---|---|---|---|---|---|---|
+| pleasant | PST1 | 0003 | No bound slope | — | — | 0.0% |
+| pleasant | PST1 | 0010 | No bound slope | — | — | 0.0% |
+| pleasant | PST1 | 0055 | No bound slope | — | — | 0.0% |
+| pleasant | PST1 | 0073 | positive_event/affect_grid_x | 125 | 0.54025 [0.24062, 0.99043] | 100.0% |
+| pleasant | PST1 | 0023 | No bound slope | — | — | 0.0% |
+| pleasant | PST1 | Pool | insufficient independent diaries | — | unavailable | — |
+| pleasant | PST4 | 0003 | No bound slope | — | — | 0.0% |
+| pleasant | PST4 | 0010 | No bound slope | — | — | 0.0% |
+| pleasant | PST4 | 0055 | No bound slope | — | — | 0.0% |
+| pleasant | PST4 | 0073 | positive_event/affect_grid_x | 120 | 0.62193 [0.27868, 1.0118] | 100.0% |
+| pleasant | PST4 | 0023 | No bound slope | — | — | 0.0% |
+| pleasant | PST4 | Pool | insufficient independent diaries | — | unavailable | — |
+| pleasant | PST5 | 0003 | No bound slope | — | — | 0.0% |
+| pleasant | PST5 | 0010 | No bound slope | — | — | 0.0% |
+| pleasant | PST5 | 0055 | No bound slope | — | — | 0.0% |
+| pleasant | PST5 | 0073 | positive_event/affect_grid_x | 97 | 0.30242 [-0.62883, 0.66315] | 100.0% |
+| pleasant | PST5 | 0023 | No bound slope | — | — | 0.0% |
+| pleasant | PST5 | Pool | insufficient independent diaries | — | unavailable | — |
+| unpleasant | PST1 | 0003 | let_pass_stress/nervous | 43 | -11.786 [-1271.8, 2.9546] | 0.0% |
+| unpleasant | PST1 | 0010 | No bound slope | — | — | 0.0% |
+| unpleasant | PST1 | 0055 | family_conflict/sad | 31 | -0.61229 [-5.3968, 0.79732] | 0.0% |
+| unpleasant | PST1 | 0073 | negative_event/affect_grid_x | 151 | 0.57715 [0.28302, 0.94083] | 35.7% |
+| unpleasant | PST1 | 0023 | dealt_stress/felt_overwhelm | 93 | 0.151 [-0.12475, 0.24072] | 64.3% |
+| unpleasant | PST1 | Pool | above zero | — | 0.30315 [0.10741, 0.4989] | — |
+| unpleasant | PST1 | Disagreement | Q = 4.18 on 3 df; individual signs differ | — | — | — |
+| unpleasant | PST4 | 0003 | let_pass_stress/nervous | 26 | -3.2627 [-262.14, 2.5036] | 0.0% |
+| unpleasant | PST4 | 0010 | No bound slope | — | — | 0.0% |
+| unpleasant | PST4 | 0055 | family_conflict/sad | 30 | -0.2174 [-3.1105, 0.19277] | 0.1% |
+| unpleasant | PST4 | 0073 | negative_event/affect_grid_x | 135 | 0.36654 [0.13952, 0.65399] | 95.4% |
+| unpleasant | PST4 | 0023 | dealt_stress/felt_overwhelm | 85 | 0.083769 [-0.088282, 0.1314] | 4.6% |
+| unpleasant | PST4 | Pool | above zero | — | 0.35322 [0.1012, 0.60525] | — |
+| unpleasant | PST4 | Disagreement | Q = 0.224 on 3 df; individual signs differ | — | — | — |
+| unpleasant | PST5 | 0003 | let_pass_stress/nervous | 22 | -1.1956 [-44.827, 48.026] | 0.0% |
+| unpleasant | PST5 | 0010 | No bound slope | — | — | 0.0% |
+| unpleasant | PST5 | 0055 | family_conflict/sad | 27 | -3.5861 [-68.355, 0.13308] | 0.0% |
+| unpleasant | PST5 | 0073 | negative_event/affect_grid_x | 113 | 0.30095 [-0.011691, 0.53606] | 99.7% |
+| unpleasant | PST5 | 0023 | dealt_stress/felt_overwhelm | 81 | 0.01406 [-1.1352, 0.17949] | 0.3% |
+| unpleasant | PST5 | Pool | does not clear | — | 0.3002 [-0.019084, 0.61948] | — |
+| unpleasant | PST5 | Disagreement | Q = 0.00812 on 3 df; individual signs differ | — | — | — |
+
+All events and responses are self-reported. The same 0073 participants contribute to both families. A highly precise individual estimate can dominate a pooled share.
+
+Curator roll-up: P4 · How consistently do event-response slopes vary across people within each event family? · **Narrows** · The PST9 return after five diary dispositions includes the form-specific individual contributions and inverse-variance weights. · Project scope: The first five commissioned diaries · Next: Read with the form-specific support and source limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_PST9_AFTER_FIVE_20261121.md.
+
+### S15-W6-BT-FORMS-0023-20261121
+
+In diary 0023, 0 of 1 responses met the positive variance bar in all three forms. Each estimate compares the same participants across two periods after adjustment for feeling level. PST1 compares event presence in two halves, PST4 uses the recorded grade and PST5 compares the outer thirds. Intervals use 2,000 whole-person resamples.
+
+| Slope | Form | People | Paired prompts | Adjusted variance [95% interval] | Reading |
+|---|---|---:|---:|---|---|
+| dealt_stress/felt_overwhelm | PST1 | 93 | 4446 | 0.16354 [-0.13007, 0.2732] | could not say |
+| dealt_stress/felt_overwhelm | PST4 | 85 | 4056 | 3.6121e-05 [-4.2088e-05, 5.3766e-05] | could not say |
+| dealt_stress/felt_overwhelm | PST5 | 81 | 2844 | 0.011967 [-0.96139, 0.14781] | could not say |
+
+Stress and overwhelm are related subjective appraisals. The two source cohorts followed different prompting schedules.
+
+The first 0023 attempt stopped before scoring because 748 prompts lacked a study day. The replayed run excluded those prompts under the existing BR rule. Source days were never imputed.
+
+Curator roll-up: P4 · Do individual response slopes recur across diary periods? · **Narrows** · In diary 0023, 0 of 1 responses met the positive variance bar in all three forms. · Project scope: openESM 0023, 213 people and 9366 source rows · Next: Read with the form-specific support and source limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_FORMS_0023_20261121.md.
+
+### OPS-S15-W6-BT-0023-DAY-20261121
+
+The first 0023 attempt stopped before scoring because 748 prompts lacked a study day. The replayed run excluded those prompts under the existing BR rule. Source days were never imputed.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first 0023 attempt stopped before scoring because 748 prompts lacked a study day.; project meaning: scoped operational record; next engineering obligation: The replayed run excluded those prompts under the existing BR rule. Source days were never imputed.; public scientific claim unchanged; curator decision required: No new decision. Detail: BT_0023_DAY_CHECK_20261121.md.
+
+### S15-W6-BT-PST9-AFTER-FOUR-20261121
+
+The PST9 return after four diary dispositions includes the form-specific individual contributions and inverse-variance weights. Selection uses the largest eligible person count for each family and form and breaks ties in packet order. All ties and descriptive slopes appear in the machine-readable return. A mean interval spanning zero leaves the ratio unidentified. At least two independent diary estimates are required to pool.
+
+| Family | Form | Diary | Slope | People | Variance / squared mean [95% interval] | Weight |
+|---|---|---|---|---|---|---|
+| pleasant | PST1 | 0003 | No bound slope | — | — | 0.0% |
+| pleasant | PST1 | 0010 | No bound slope | — | — | 0.0% |
+| pleasant | PST1 | 0073 | positive_event/affect_grid_x | 125 | 0.54025 [0.24062, 0.99043] | 100.0% |
+| pleasant | PST1 | 0055 | No bound slope | — | — | 0.0% |
+| pleasant | PST1 | Pool | insufficient independent diaries | — | unavailable | — |
+| pleasant | PST4 | 0003 | No bound slope | — | — | 0.0% |
+| pleasant | PST4 | 0010 | No bound slope | — | — | 0.0% |
+| pleasant | PST4 | 0073 | positive_event/affect_grid_x | 120 | 0.62193 [0.27868, 1.0118] | 100.0% |
+| pleasant | PST4 | 0055 | No bound slope | — | — | 0.0% |
+| pleasant | PST4 | Pool | insufficient independent diaries | — | unavailable | — |
+| pleasant | PST5 | 0003 | No bound slope | — | — | 0.0% |
+| pleasant | PST5 | 0010 | No bound slope | — | — | 0.0% |
+| pleasant | PST5 | 0073 | positive_event/affect_grid_x | 97 | 0.30242 [-0.62883, 0.66315] | 100.0% |
+| pleasant | PST5 | 0055 | No bound slope | — | — | 0.0% |
+| pleasant | PST5 | Pool | insufficient independent diaries | — | unavailable | — |
+| unpleasant | PST1 | 0003 | let_pass_stress/nervous | 43 | -11.786 [-1271.8, 2.9546] | 0.0% |
+| unpleasant | PST1 | 0010 | No bound slope | — | — | 0.0% |
+| unpleasant | PST1 | 0073 | negative_event/affect_grid_x | 151 | 0.57715 [0.28302, 0.94083] | 100.0% |
+| unpleasant | PST1 | 0055 | family_conflict/sad | 31 | -0.61229 [-5.3968, 0.79732] | 0.0% |
+| unpleasant | PST1 | Pool | above zero | — | 0.57715 [0.24955, 0.90475] | — |
+| unpleasant | PST1 | Disagreement | Q = 2.89e-05 on 2 df; individual signs differ | — | — | — |
+| unpleasant | PST4 | 0003 | let_pass_stress/nervous | 26 | -3.2627 [-262.14, 2.5036] | 0.0% |
+| unpleasant | PST4 | 0010 | No bound slope | — | — | 0.0% |
+| unpleasant | PST4 | 0073 | negative_event/affect_grid_x | 135 | 0.36654 [0.13952, 0.65399] | 99.9% |
+| unpleasant | PST4 | 0055 | family_conflict/sad | 30 | -0.2174 [-3.1105, 0.19277] | 0.1% |
+| unpleasant | PST4 | Pool | above zero | — | 0.36617 [0.10816, 0.62419] | — |
+| unpleasant | PST4 | Disagreement | Q = 0.0124 on 2 df; individual signs differ | — | — | — |
+| unpleasant | PST5 | 0003 | let_pass_stress/nervous | 22 | -1.1956 [-44.827, 48.026] | 0.0% |
+| unpleasant | PST5 | 0010 | No bound slope | — | — | 0.0% |
+| unpleasant | PST5 | 0073 | negative_event/affect_grid_x | 113 | 0.30095 [-0.011691, 0.53606] | 100.0% |
+| unpleasant | PST5 | 0055 | family_conflict/sad | 27 | -3.5861 [-68.355, 0.13308] | 0.0% |
+| unpleasant | PST5 | Pool | does not clear | — | 0.30095 [-0.01875, 0.62065] | — |
+| unpleasant | PST5 | Disagreement | Q = 2.01e-06 on 2 df; individual signs differ | — | — | — |
+
+All events and responses are self-reported. The same 0073 participants contribute to both families. A highly precise individual estimate can dominate a pooled share.
+
+Curator roll-up: P4 · How consistently do event-response slopes vary across people within each event family? · **Narrows** · The PST9 return after four diary dispositions includes the form-specific individual contributions and inverse-variance weights. · Project scope: The first four commissioned diaries · Next: Read with the form-specific support and source limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_PST9_AFTER_FOUR_20261121.md.
+
+### S15-W6-BT-FORMS-0055-20261121
+
+In diary 0055, 0 of 3 responses met the positive variance bar in all three forms. Each estimate compares the same participants across two periods after adjustment for feeling level. PST1 compares event presence in two halves, PST4 uses the recorded grade and PST5 compares the outer thirds. Intervals use 2,000 whole-person resamples.
+
+| Slope | Form | People | Paired prompts | Adjusted variance [95% interval] | Reading |
+|---|---|---:|---:|---|---|
+| family_conflict/angry | PST1 | 31 | 3295 | -0.0080893 [-0.15882, 0.039747] | could not say |
+| family_conflict/angry | PST4 | 30 | 3169 | -5.0145e-06 [-0.00021021, 1.7642e-05] | could not say |
+| family_conflict/angry | PST5 | 27 | 1954 | -0.066667 [-0.38298, -0.019983] | could not say |
+| family_conflict/anxious | PST1 | 31 | 3293 | -0.0038955 [-0.038447, 0.023517] | could not say |
+| family_conflict/anxious | PST4 | 30 | 3167 | -4.1142e-05 [-0.00013184, -3.0332e-06] | could not say |
+| family_conflict/anxious | PST5 | 27 | 1953 | -0.020621 [-0.14698, 0.022079] | could not say |
+| family_conflict/sad | PST1 | 31 | 3295 | -0.040311 [-0.27178, 0.044006] | could not say |
+| family_conflict/sad | PST4 | 30 | 3169 | -1.3446e-05 [-0.00021703, 1.1042e-05] | could not say |
+| family_conflict/sad | PST5 | 27 | 1954 | -0.077907 [-0.55248, 0.0038161] | could not say |
+
+Only the momentary reports enter. Fighting and mood came from the same person at the same prompt.
+
+Curator roll-up: P4 · Do individual response slopes recur across diary periods? · **Narrows** · In diary 0055, 0 of 3 responses met the positive variance bar in all three forms. · Project scope: openESM 0055, 72 people and 10428 source rows · Next: Read with the form-specific support and source limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_FORMS_0055_20261121.md.
+
+### OPS-S15-W6-BT-0073-WATCH-EXIT-20261121
+
+The 0073 resource watcher exited after the native study finished and released its lease. Its exit note and disappearance alert were reconciled against the registered identity, native completion hash and filed independent replay. The exit note described the completed handoff but lacked the terminal status field used by native supervision. The completed watch was retired. Future native supervision can use the actual registered study terminal.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 0073 resource watcher exited after the native study finished and released its lease.; project meaning: scoped operational record; next engineering obligation: Keep one completion delivery for each subsequent native attempt.; public scientific claim unchanged; curator decision required: No new decision. Detail: BT_0073_WATCH_EXIT_20261121.md.
+
+### S15-W6-BT-PST9-THREE-20261121
+
+The first scheduled PST9 return covers three diary dispositions and shows the available independent contributions to each family and form. The bad-event comparison uses worse mood, the good-event comparison better mood. Arousal is descriptive. The share is the level-adjusted variance divided by the squared weighted mean slope. A mean interval crossing zero leaves that share unidentified. Within each form the most-supported matching slope was selected before inspecting estimates, with ties ordered as in the commission. A missing ratio does not promote another slope. One contributor is shown individually. A pooled comparison requires at least two independent diaries.
+
+The same person rated the event and their mood. Family estimates from 0073 share respondents. Long diaries can dominate inverse-variance pooling. The clinical diary supplied no bound graduated event. This is an interim pool.
+
+| Family | Form | Member | Selected response | People | Oriented mean [95% interval] | Variance / squared mean [95% interval] |
+|---|---|---|---|---:|---|---|
+| unpleasant | PST1 | 0073 | negative_event/affect_grid_x | 151 | 0.45668 [0.3629, 0.55523] | 0.57715 [0.28302, 0.94083] |
+| unpleasant | PST1 | 0003 | let_pass_stress/nervous | 43 | 0.1413 [0.0076126, 0.27064] | -11.786 [-1271.8, 2.9546] |
+| unpleasant | PST1 | 0010 | No bound slope | — | — | — |
+| unpleasant | PST1 | Pool | above zero | — | — | 0.57715 [0.24956, 0.90475] |
+| unpleasant | PST4 | 0073 | negative_event/affect_grid_x | 135 | 0.22372 [0.18229, 0.26661] | 0.36654 [0.13952, 0.65399] |
+| unpleasant | PST4 | 0003 | let_pass_stress/nervous | 26 | 0.10029 [0.013904, 0.18876] | -3.2627 [-262.14, 2.5036] |
+| unpleasant | PST4 | 0010 | No bound slope | — | — | — |
+| unpleasant | PST4 | Pool | above zero | — | — | 0.36654 [0.10845, 0.62464] |
+| unpleasant | PST5 | 0073 | negative_event/affect_grid_x | 113 | 0.51891 [0.40629, 0.63102] | 0.30095 [-0.011691, 0.53606] |
+| unpleasant | PST5 | 0003 | let_pass_stress/nervous | 22 | 0.22692 [0.03139, 0.44077] | -1.1956 [-44.827, 48.026] |
+| unpleasant | PST5 | 0010 | No bound slope | — | — | — |
+| unpleasant | PST5 | Pool | does not clear | — | — | 0.30095 [-0.01875, 0.62065] |
+| pleasant | PST1 | 0073 | positive_event/affect_grid_x | 125 | 0.49295 [0.38527, 0.59743] | 0.54025 [0.24062, 0.99043] |
+| pleasant | PST1 | 0003 | No bound slope | — | — | — |
+| pleasant | PST1 | 0010 | No bound slope | — | — | — |
+| pleasant | PST1 | Pool | insufficient independent diaries | — | — | unavailable |
+| pleasant | PST4 | 0073 | positive_event/affect_grid_x | 120 | 0.16282 [0.12985, 0.19353] | 0.62193 [0.27868, 1.0118] |
+| pleasant | PST4 | 0003 | No bound slope | — | — | — |
+| pleasant | PST4 | 0010 | No bound slope | — | — | — |
+| pleasant | PST4 | Pool | insufficient independent diaries | — | — | unavailable |
+| pleasant | PST5 | 0073 | positive_event/affect_grid_x | 97 | 0.46491 [0.3508, 0.5725] | 0.30242 [-0.62883, 0.66315] |
+| pleasant | PST5 | 0003 | No bound slope | — | — | — |
+| pleasant | PST5 | 0010 | No bound slope | — | — | — |
+| pleasant | PST5 | Pool | insufficient independent diaries | — | — | unavailable |
+
+unpleasant, PST1: Q = 2.274e-07 on 1 degree(s) of freedom. Individual signs differ.
+
+unpleasant, PST4: Q = 5.43e-09 on 1 degree(s) of freedom. Individual signs differ.
+
+unpleasant, PST5: Q = 1.977e-06 on 1 degree(s) of freedom. Individual signs differ.
+
+The companion JSON lists the other new and previous slopes, their within-diary variance estimates and intervals, and all ties. Earlier diaries have descriptive status only.
+
+Curator roll-up: P4 · Do person-specific slope variances clear zero for both event families across all three forms? · **Narrows** · The first scheduled PST9 return covers three diary dispositions and shows the available independent contributions to each family and form. · Project scope: First three commissioned diary dispositions under BT · Next: Read with the individual supports and source limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_PST9_AFTER_THREE_20261121.md.
+
+### S15-W6-BT-ANX1-0003-20261121
+
+The Hawks diary compared nervousness and worry separately with fear within the same person. Each standardized regression uses its own complete prompts and 2,000 draws of whole people.
+
+| Outcome | People | Prompts | Standardized fear slope [95% interval] | Explained fraction |
+|---|---:|---:|---|---:|
+| nervous | 122 | 3062 | 0.46538 [0.39745, 0.52513] | 0.2166 |
+| worried | 122 | 3062 | 0.37965 [0.3057, 0.44981] | 0.1441 |
+
+All event and feeling reports came from the same respondent. Worried and severe sadness refer to frequency since the previous survey. The four other feelings describe the moment before answering.
+
+Curator roll-up: W1 · How strongly does fear accompany nervousness and worry in these diaries? · **Narrows** · The Hawks diary compared nervousness and worry separately with fear within the same person. · Project scope: openESM 0003, 122 people and 3109 prompts · Next: Read with the individual supports and source limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_ANX1_0003_20261121.md.
+
+### S15-W6-BT-PST3-0003-20261121
+
+The cross-event comparison qualified 0 pairs. Its registered reading was no verdict.
+
+Different event types were required. Each pair used its common respondents, paired resampling and two positive adjusted-variance intervals on that common support. Complete indexed draws supply the covariance between overlapping pairs when pooling. No missing correlation was imputed. The companion JSON lists every pair and its common support.
+
+Pooled correlation unavailable. First-factor share None.
+
+All event and feeling reports came from the same respondent. Worried and severe sadness refer to frequency since the previous survey. The four other feelings describe the moment before answering.
+
+Curator roll-up: P4 · Do individual responses to different stressors share one sensitivity? · **Narrows** · The cross-event comparison qualified 0 pairs. Its registered reading was no verdict. · Project scope: openESM 0003, 122 people and 3109 prompts · Next: Read with the individual supports and source limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_ONE_DIAL_0003_20261121.md.
+
+### S15-W6-BT-FORMS-0003-20261121
+
+0 of the 25 commissioned stressor and feeling pairs met the variance bar in all three forms.
+
+Five severe-sadness comparisons are shown separately as descriptions. Code 1 means the event was absent. Code 2 means the event happened and was rated as causing no stress. Each form uses its own support. Two distinct integer calculations of the centered sums reproduced all fits and the 2,000-draw aggregate uncertainties. The first attempt stopped at independent replay of a large ratio standard error. The audited repair preserved the variance formula and the absolute replay tolerance.
+
+All event and feeling reports came from the same respondent. Worried and severe sadness refer to frequency since the previous survey. The four other feelings describe the moment before answering.
+
+| Exposure and feeling | Form | People | Adjusted variance [95% interval] | Three-form reading |
+|---|---|---:|---|---|
+| argument_stress/nervous | PST1 | 20 | 0.39945 [-1.4965, 0.72339] | missed PST1, PST4, PST5 |
+| argument_stress/nervous | PST4 | 15 | 0.0053542 [-0.51526, 0.064444] | missed PST1, PST4, PST5 |
+| argument_stress/nervous | PST5 | 10 | 0.99363 [-4.9576, 1.9134] | missed PST1, PST4, PST5 |
+| argument_stress/afraid | PST1 | 20 | 0.58881 [-1.5702, 1.3969] | missed PST1, PST4, PST5 |
+| argument_stress/afraid | PST4 | 15 | 0.090743 [-0.27407, 0.171] | missed PST1, PST4, PST5 |
+| argument_stress/afraid | PST5 | 10 | -4.2556 [-151.96, 4.2029] | missed PST1, PST4, PST5 |
+| argument_stress/scared | PST1 | 20 | 0.38836 [-1.8266, 0.95244] | missed PST1, PST4, PST5 |
+| argument_stress/scared | PST4 | 15 | 0.044617 [-0.17552, 0.10619] | missed PST1, PST4, PST5 |
+| argument_stress/scared | PST5 | 10 | 0.76842 [-46.335, 1.7828] | missed PST1, PST4, PST5 |
+| argument_stress/distressed | PST1 | 20 | 0.36825 [-1.7217, 0.93979] | missed PST1, PST4, PST5 |
+| argument_stress/distressed | PST4 | 15 | -0.16585 [-0.52272, 0.071613] | missed PST1, PST4, PST5 |
+| argument_stress/distressed | PST5 | 10 | 0.71303 [-0.99452, 1.5443] | missed PST1, PST4, PST5 |
+| argument_stress/worried | PST1 | 20 | 0.85485 [0.078385, 1.3885] | missed PST4, PST5 |
+| argument_stress/worried | PST4 | 15 | -0.073279 [-1.0316, 0.082627] | missed PST4, PST5 |
+| argument_stress/worried | PST5 | 10 | 0.61255 [-1.6602, 1.7019] | missed PST4, PST5 |
+| argument_stress/sadness_extreme | PST1 | 20 | 0.49594 [-5.6673, 1.1419] | missed PST1, PST4, PST5 |
+| argument_stress/sadness_extreme | PST4 | 15 | 0.040262 [-0.66551, 0.10118] | missed PST1, PST4, PST5 |
+| argument_stress/sadness_extreme | PST5 | 10 | 0.73034 [-2.4212, 3.0747] | missed PST1, PST4, PST5 |
+| let_pass_stress/nervous | PST1 | 43 | -0.23531 [-3.0915, 0.045045] | missed PST1, PST4, PST5 |
+| let_pass_stress/nervous | PST4 | 26 | -0.032818 [-0.26348, 0.014758] | missed PST1, PST4, PST5 |
+| let_pass_stress/nervous | PST5 | 22 | -0.061567 [-0.70974, 0.28067] | missed PST1, PST4, PST5 |
+| let_pass_stress/afraid | PST1 | 43 | -0.95321 [-9.7611, -0.02641] | missed PST1, PST4, PST5 |
+| let_pass_stress/afraid | PST4 | 26 | -0.59607 [-4.4283, -0.025972] | missed PST1, PST4, PST5 |
+| let_pass_stress/afraid | PST5 | 22 | -1.2071 [-13.753, -0.008863] | missed PST1, PST4, PST5 |
+| let_pass_stress/scared | PST1 | 43 | -0.68347 [-7.2202, -0.052834] | missed PST1, PST4, PST5 |
+| let_pass_stress/scared | PST4 | 26 | -0.21571 [-3.9927, -0.0059062] | missed PST1, PST4, PST5 |
+| let_pass_stress/scared | PST5 | 22 | -1.1123 [-15.49, 0.0058572] | missed PST1, PST4, PST5 |
+| let_pass_stress/distressed | PST1 | 43 | -0.32307 [-3.2384, 0.11694] | missed PST1, PST4, PST5 |
+| let_pass_stress/distressed | PST4 | 26 | -0.061704 [-0.59605, 0.011482] | missed PST1, PST4, PST5 |
+| let_pass_stress/distressed | PST5 | 22 | -0.67632 [-5.5921, -0.052649] | missed PST1, PST4, PST5 |
+| let_pass_stress/worried | PST1 | 43 | 0.050485 [-0.28683, 0.38347] | missed PST1, PST4, PST5 |
+| let_pass_stress/worried | PST4 | 26 | -0.12907 [-0.73593, 0.023191] | missed PST1, PST4, PST5 |
+| let_pass_stress/worried | PST5 | 22 | 0.15282 [-0.71541, 0.47183] | missed PST1, PST4, PST5 |
+| let_pass_stress/sadness_extreme | PST1 | 43 | -0.20636 [-1.3065, 0.39565] | missed PST1, PST4, PST5 |
+| let_pass_stress/sadness_extreme | PST4 | 26 | -0.11783 [-0.7322, 0.0063412] | missed PST1, PST4, PST5 |
+| let_pass_stress/sadness_extreme | PST5 | 22 | -1.8931 [-34.814, 0.35936] | missed PST1, PST4, PST5 |
+| friend_relative_stress/nervous | PST1 | 10 | -0.1515 [-0.93533, 0.098442] | missed PST1, PST4, PST5 |
+| friend_relative_stress/nervous | PST4 | 4 | -0.07541 [-0.46626, 0.003412] | missed PST1, PST4, PST5 |
+| friend_relative_stress/nervous | PST5 | 2 | -0.061741 [-0.061741, 0] | missed PST1, PST4, PST5 |
+| friend_relative_stress/afraid | PST1 | 10 | 0.0087461 [-0.05332, 0.015385] | missed PST1, PST4, PST5 |
+| friend_relative_stress/afraid | PST4 | 4 | -0.0008218 [-0.0078906, 0] | missed PST1, PST4, PST5 |
+| friend_relative_stress/afraid | PST5 | 2 | -0.10805 [-0.10805, 0] | missed PST1, PST4, PST5 |
+| friend_relative_stress/scared | PST1 | 10 | 0.062964 [-0.20258, 0.23727] | missed PST1, PST4, PST5 |
+| friend_relative_stress/scared | PST4 | 4 | 0.02388 [-0.065073, 0.035897] | missed PST1, PST4, PST5 |
+| friend_relative_stress/scared | PST5 | 2 | -0.041782 [-0.041782, 0] | missed PST1, PST4, PST5 |
+| friend_relative_stress/distressed | PST1 | 10 | -0.077282 [-1.7464, 0.12857] | missed PST1, PST4, PST5 |
+| friend_relative_stress/distressed | PST4 | 4 | 0.0095091 [-0.24061, 0.016006] | missed PST1, PST4, PST5 |
+| friend_relative_stress/distressed | PST5 | 2 | -0.093657 [-0.093657, 0] | missed PST1, PST4, PST5 |
+| friend_relative_stress/worried | PST1 | 10 | 0.30685 [-1.3296, 0.75424] | missed PST1, PST4, PST5 |
+| friend_relative_stress/worried | PST4 | 4 | -0.078092 [-0.34639, 0.077948] | missed PST1, PST4, PST5 |
+| friend_relative_stress/worried | PST5 | 2 | -0.0063535 [-0.0063535, 0] | missed PST1, PST4, PST5 |
+| friend_relative_stress/sadness_extreme | PST1 | 10 | -0.046713 [-1.5278, 1.0018] | missed PST1, PST4, PST5 |
+| friend_relative_stress/sadness_extreme | PST4 | 4 | 0.054706 [-0.37959, 0.18408] | missed PST1, PST4, PST5 |
+| friend_relative_stress/sadness_extreme | PST5 | 2 | 0 [0, 0] | missed PST1, PST4, PST5 |
+| health_stress/nervous | PST1 | 5 | 0.49529 [-0.66164, 0.65319] | missed PST1, PST4, PST5 |
+| health_stress/nervous | PST4 | 2 | -0.44763 [-0.44763, 0] | missed PST1, PST4, PST5 |
+| health_stress/nervous | PST5 | 0 | unavailable | missed PST1, PST4, PST5 |
+| health_stress/afraid | PST1 | 5 | 1.94 [-1.4314, 2.3467] | missed PST1, PST4, PST5 |
+| health_stress/afraid | PST4 | 2 | 0.36842 [0, 0.36842] | missed PST1, PST4, PST5 |
+| health_stress/afraid | PST5 | 0 | unavailable | missed PST1, PST4, PST5 |
+| health_stress/scared | PST1 | 5 | 2.0088 [-0.69822, 2.318] | missed PST1, PST4, PST5 |
+| health_stress/scared | PST4 | 2 | 0.29526 [0, 0.29526] | missed PST1, PST4, PST5 |
+| health_stress/scared | PST5 | 0 | unavailable | missed PST1, PST4, PST5 |
+| health_stress/distressed | PST1 | 5 | 0.19458 [-2.5135, 0.38076] | missed PST1, PST4, PST5 |
+| health_stress/distressed | PST4 | 2 | 0.036402 [0, 0.036402] | missed PST1, PST4, PST5 |
+| health_stress/distressed | PST5 | 0 | unavailable | missed PST1, PST4, PST5 |
+| health_stress/worried | PST1 | 5 | -0.2421 [-0.75033, 0.047008] | missed PST1, PST4, PST5 |
+| health_stress/worried | PST4 | 2 | 0.16239 [0, 0.16239] | missed PST1, PST4, PST5 |
+| health_stress/worried | PST5 | 0 | unavailable | missed PST1, PST4, PST5 |
+| health_stress/sadness_extreme | PST1 | 5 | 1.5392 [-32.425, 3.0608] | missed PST1, PST4, PST5 |
+| health_stress/sadness_extreme | PST4 | 2 | 0.47405 [0, 0.47405] | missed PST1, PST4, PST5 |
+| health_stress/sadness_extreme | PST5 | 0 | unavailable | missed PST1, PST4, PST5 |
+| other_stress/nervous | PST1 | 26 | -3.1709 [-14.504, 0.18961] | missed PST1, PST4, PST5 |
+| other_stress/nervous | PST4 | 16 | -0.33653 [-2.6147, 0.040746] | missed PST1, PST4, PST5 |
+| other_stress/nervous | PST5 | 12 | 0.35674 [-9.6174, 0.87523] | missed PST1, PST4, PST5 |
+| other_stress/afraid | PST1 | 26 | -0.27956 [-0.97795, 0.11817] | missed PST1, PST4, PST5 |
+| other_stress/afraid | PST4 | 16 | -0.065041 [-0.72134, 0.020523] | missed PST1, PST4, PST5 |
+| other_stress/afraid | PST5 | 12 | 0.26192 [-0.62872, 0.79525] | missed PST1, PST4, PST5 |
+| other_stress/scared | PST1 | 26 | -0.55349 [-2.6153, -0.041461] | missed PST1, PST4, PST5 |
+| other_stress/scared | PST4 | 16 | -0.097029 [-0.41741, -0.0073185] | missed PST1, PST4, PST5 |
+| other_stress/scared | PST5 | 12 | -0.14204 [-2.9023, 0] | missed PST1, PST4, PST5 |
+| other_stress/distressed | PST1 | 26 | -0.10934 [-2.0903, 0.15776] | missed PST1, PST4, PST5 |
+| other_stress/distressed | PST4 | 16 | -0.039125 [-0.79901, 0.064377] | missed PST1, PST4, PST5 |
+| other_stress/distressed | PST5 | 12 | -0.42355 [-23.19, 0.40061] | missed PST1, PST4, PST5 |
+| other_stress/worried | PST1 | 26 | -0.037386 [-1.1324, 0.094281] | missed PST1, PST4, PST5 |
+| other_stress/worried | PST4 | 16 | -0.023818 [-0.46629, 0.0077334] | missed PST1, PST4, PST5 |
+| other_stress/worried | PST5 | 12 | -0.080982 [-0.77443, 0.18912] | missed PST1, PST4, PST5 |
+| other_stress/sadness_extreme | PST1 | 26 | -2.4872 [-12.893, 0.16609] | missed PST1, PST4, PST5 |
+| other_stress/sadness_extreme | PST4 | 16 | -0.61578 [-3.4181, 0.058857] | missed PST1, PST4, PST5 |
+| other_stress/sadness_extreme | PST5 | 12 | -0.69657 [-4.1264, -0.014921] | missed PST1, PST4, PST5 |
+
+Curator roll-up: P4 · Do stressor-response slopes repeat after adjusting for feeling level, severity and temporal separation? · **Narrows** · 0 of the 25 commissioned stressor and feeling pairs met the variance bar in all three forms. · Project scope: openESM 0003, 122 people and 3109 prompts · Next: Read with the individual supports and source limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_FORMS_0003_20261121.md.
+
+### S15-W6-BT-FORMS-0073-20261121
+
+0 of the four event and mood-axis comparisons had a positive level-adjusted variance interval in all three forms. In the ten-day diary, each person rated valence and arousal and reported their worst and best experiences since the preceding prompt. The raw comparison separates minimum from higher ratings. The graded estimate uses intensity as recorded. The gap estimate omits middle days. All use whole-person resampling and compare slopes after adjusting for mood level. A fresh worker repeated the fits with independent half summaries and individual least squares for graded slopes.
+
+| Event and mood axis | Form | People | Adjusted variance [95% interval] | Reading |
+|---|---|---:|---:|---|
+| negative_event/affect_grid_x | PST1 | 151 | 0.12037 [0.061418, 0.17126] | stable |
+| negative_event/affect_grid_x | PST4 | 135 | 0.018345 [0.0080361, 0.027763] | stable |
+| negative_event/affect_grid_x | PST5 | 113 | 0.081036 [-0.0028197, 0.13691] | could not say |
+| negative_event/affect_grid_y | PST1 | 151 | 0.070793 [0.023258, 0.11357] | stable |
+| negative_event/affect_grid_y | PST4 | 135 | 0.019714 [0.0064407, 0.02866] | stable |
+| negative_event/affect_grid_y | PST5 | 113 | 0.039528 [-0.077797, 0.091076] | could not say |
+| positive_event/affect_grid_x | PST1 | 125 | 0.13128 [0.06692, 0.18378] | stable |
+| positive_event/affect_grid_x | PST4 | 120 | 0.016487 [0.0090802, 0.020202] | stable |
+| positive_event/affect_grid_x | PST5 | 97 | 0.065365 [-0.12266, 0.1248] | could not say |
+| positive_event/affect_grid_y | PST1 | 125 | -0.017851 [-0.13486, 0.042964] | could not say |
+| positive_event/affect_grid_y | PST4 | 120 | 0.0040759 [-0.0021187, 0.0080169] | could not say |
+| positive_event/affect_grid_y | PST5 | 97 | -0.081362 [-0.32243, 0.010265] | could not say |
+
+Forms missing the positive-variance bar by slope: negative_event/affect_grid_x (PST5), negative_event/affect_grid_y (PST5), positive_event/affect_grid_x (PST5), positive_event/affect_grid_y (PST1, PST4, PST5).
+
+Participants rated their own event intensity and mood on the same prompt. The minimum intensity category is an observed rating floor. It cannot establish that there was no event. Arousal has no pleasant or unpleasant direction of its own.
+
+PST9 uses worse mood for bad events and better mood for good events, once per family and form. Arousal is descriptive. Both families use the same respondents.
+
+[Figure](BT_FORMS_0073_20261121.png) · [Numerical sheet](BT_FORMS_0073_20261121_SHEET.md).
+
+Curator roll-up: P4 · Did individual differences in mood response to the worst or best recent experience recur across diary periods? · **Narrows** · 0 of the four event and mood-axis comparisons had a positive level-adjusted variance interval in all three forms. · Project scope: openESM 0073, 227 source people, 8628 reports · Next: Keep the bipolar mood and arousal measures distinct in the combined return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_FORMS_0073_20261121.md.
+
+### OPS-S15-W6-BT-0073-ADMISSION-20261121
+
+The 0073 source and constructed comparison passed their checks. The first start was refused at the native memory guard. At inspection the existing ToMpathy lease reserved 5.28 GiB. Windows had 20.75 GiB commit headroom against 21.28 GiB required. The local supervisor rechecks once per minute and calls the normal native admission when capacity permits. The first attempt had no admission receipt and consumed 0.984375 CPU seconds. The storage handback and three sealed runs still require the curator’s release. All three local entry hashes were verified.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 0073 source and constructed comparison passed their checks. The first start was refused at the native memory guard.; project meaning: scoped operational record; next engineering obligation: On admitted completion, independently check both phase outputs before filing. On a terminal refusal, review the specific cause.; public scientific claim unchanged; curator decision required: No new decision. Detail: BT_0073_MEMORY_ADMISSION_20261121.md.
+
+### OPS-S15-W6-BT-INTAKE-20261121
+
+All twelve files in the six commissioned releases matched the collector manifests and archive checksums on the temporary disk. They total 7,632,908 bytes. The collector confirmed an earlier catalogue-metadata lookup on the bulk store before locating the temporary-root instruction. Transfers came directly from Zenodo to the temporary incoming directory. This verification accessed only the workstation copies. The later request to fetch 0075 after resolving its licence was separate. Its modified CC0 prohibits reidentification. It remains outside the six commissioned analyses.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All twelve files in the six commissioned releases matched the collector manifests and archive checksums on the temporary disk.; project meaning: scoped operational record; next engineering obligation: Use the temporary deposits in the commissioned order.; public scientific claim unchanged; curator decision required: No new decision. Detail: BT_SIX_RELEASE_INTAKE_20261121.md.
+
+### S15-W6-BT-PBK1-0010-20261121
+
+Within people, does fear have a more negative association with each play-related rating than sadness?
+
+The three-diary fear-minus-sadness contrast was 0.191 (95% interval 0.153 to 0.228). The registered direction is negative. Cheerfulness in a randomized depression trial, parent–child fun and student silliness are different experiences. The student model has three additional situation controls. These same-person mood ratings cannot establish a causal fear threshold.
+
+Each trial period was fitted separately, using cheerful mood on fear and sadness in one standardized within-person model. The primary pool uses baseline only and preserves the two earlier contrasts. Two native processes matched every ordered cell of the 2,000 whole-person draws. The within-person mean and variance use the same complete prompts. Calibration recovered a known positive contrast at baseline and a negative one in the follow-up.
+
+| Diary or period | People | Matched prompts | Standardized contrast [95% interval] |
+|---|---:|---:|---:|
+| 0070 student silliness | 82 | 3432 | 0.079896 [-0.041988, 0.19918] |
+| 0072 parent–child fun | 552 | 7589 | 0.1034 [0.051046, 0.1545] |
+| 0010 baseline cheerful | 129 | 6108 | 0.33297 [0.27472, 0.39318] |
+| 0010 follow-up companion | 119 | 5551 | 0.35484 [0.28558, 0.42389] |
+
+Fixed-effect pooling used inverse whole-person bootstrap variances. Cochran’s Q = 36.090 on 2 degrees of freedom. The release documents two six-day measurement periods. Each result is confined to this clinical sample for the clinical component. The pleasantness codebook supplies no neutral point, so both event families are void for 0010. [Design and source papers](../../../docs/design/stage-15/week6/BT_DIARY_EXECUTION.md).
+
+[Figure](BT_0010_PBK1_20261121.png) · [Numerical sheet](BT_0010_PBK1_20261121_SHEET.md).
+
+Curator roll-up: T7 · Within people, does fear have a more negative association with each play-related rating than sadness? · **Narrows** · The three-diary fear-minus-sadness contrast was 0.191 (95% interval 0.153 to 0.228). · Project scope: Three openESM diaries, baseline only for clinical member 0010 · Next: Keep baseline, follow-up and cohort differences visible in the final return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_0010_PBK1_20261121.md.
+
+### OPS-S15-W6-PST8-20261121
+
+All 29 inconclusive morning estimates reproduced. The earlier reports miscounted how often the adjustment was dropped. The two reporting calls passed separate half-vectors where the covariance helper requires both complete half-pairs. The estimator itself received both pairs. Two calculations from the original records reproduced the raw and adjusted variances and their intervals to an absolute tolerance of 0.0000001. A fresh compute and independent replay of the five registered afternoon diaries agreed with their original scientific outputs after excluding the two reporting fields. Use the replacement frequencies below and in the accompanying JSON for all forms.
+
+In the one eligible PST6 pair, the original-sample covariance was -0.078783 [-0.029167, 0.042321] on 90 people. Of 2,000 whole-person resamples, 19 lay at or below the point estimate. Both slopes used both covariates in the full sample. Resampling changed whether spread could be fitted. A percentile interval uses the resampled quantiles and can exclude the original point. The common-factor comparison remains undecided.
+
+Cross-half covariance of the person’s average feeling is in squared units of the fitted outcome. The last two columns are proportions of 2,000 whole-person draws.
+
+| Diary / panel / slope | People | Raw variance [95% interval] | Adjusted variance [95% interval] | Level covariance [95% interval] | Spread dropped | Unadjusted |
+|---|---:|---:|---:|---:|---:|---:|
+| 0056/expanded/criticised_shame | 197 | 0.080457 [-0.00286, 0.16318] | -7.3911e-05 [-0.54199, 0.097084] | 0.26471 [0.051238, 0.511] | 0.0285 | 0.0 |
+| 0056/expanded/ignored_anger | 140 | 0.30592 [0.035193, 0.75734] | 0.13356 [-0.17543, 0.29879] | 0.15308 [0.062948, 0.27542] | 0.015 | 0.0 |
+| 0056/expanded/ignored_shame | 140 | 0.13607 [0.02946, 0.24942] | 0.095757 [-0.22466, 0.20244] | 0.29857 [0.11285, 0.55251] | 0.012 | 0.0 |
+| 0056/expanded/sidelined_anger | 102 | 0.27274 [0.12138, 0.44444] | 0.1551 [-0.095593, 0.3139] | 0.12633 [0.0039273, 0.27187] | 0.0285 | 0.0205 |
+| 0056/expanded/upstaged_envy | 72 | 0.20191 [0.022757, 0.39644] | 0.1034 [-0.32906, 0.28533] | 0.2211 [0.083204, 0.37072] | 0.016 | 0.0 |
+| 0057/expanded/admired_proud | 482 | 0.17221 [0.1068, 0.23387] | 0.096254 [-0.25924, 0.18172] | 0.27392 [0.20946, 0.34452] | 0.008 | 0.0 |
+| 0057/expanded/criticised_anger | 415 | 0.16124 [0.086358, 0.24586] | -0.033668 [-0.44126, 0.18976] | 0.067705 [0.039595, 0.10133] | 0.4205 | 0.0 |
+| 0057/expanded/criticised_shame | 415 | 0.16637 [0.068562, 0.26255] | -0.22272 [-2.513, 0.075219] | 0.24793 [0.14079, 0.3735] | 0.026 | 0.0 |
+| 0057/expanded/ignored_anger | 222 | 0.28547 [0.14476, 0.42252] | 0.19994 [-0.36637, 0.31856] | 0.086206 [0.022329, 0.18503] | 1.0 | 0.0 |
+| 0057/expanded/ignored_shame | 222 | 0.55052 [-0.030463, 1.4209] | 0.457 [-1.4342, 1.2782] | 0.21175 [0.10672, 0.33109] | 0.103 | 0.0 |
+| 0057/expanded/intellectual_occup_relaxed | 244 | 0.04934 [-0.022486, 0.12752] | 0.048676 [-0.028951, 0.11787] | 0.5505 [0.38358, 0.72967] | 1.0 | 0.0 |
+| 0057/expanded/sidelined_anger | 175 | 0.45377 [0.2258, 0.70612] | 0.30162 [-0.18791, 0.56473] | 0.049534 [0.023735, 0.075218] | 1.0 | 0.0 |
+| 0057/expanded/upstaged_envy | 125 | 0.44214 [0.061616, 0.92856] | 0.28506 [-1.1967, 0.72125] | 0.36579 [0.10377, 0.65524] | 0.022 | 0.0 |
+| 0057/first/criticism_anger | 413 | 0.15949 [0.089038, 0.2437] | -0.020406 [-0.55672, 0.18518] | 0.067018 [0.038313, 0.10038] | 0.4065 | 0.0 |
+| 0057/first/criticism_shame | 413 | 0.16669 [0.071409, 0.25999] | -0.20732 [-3.1222, 0.084463] | 0.24776 [0.14171, 0.37633] | 0.0315 | 0.0 |
+| 0060/expanded/argument_fear | 15 | -0.38948 [-0.8148, -0.013185] | -0.48505 [-3.0618, -0.071223] | 0.35568 [0.099397, 0.58426] | 0.155 | 0.0 |
+| 0060/expanded/contentment | 135 | 0.038814 [-0.019492, 0.095492] | 0.038163 [-0.02694, 0.084977] | 0.47174 [0.24158, 0.72037] | 0.0 | 0.0 |
+| 0060/expanded/curiosity | 13 | 0.16075 [-0.097212, 0.46707] | -0.013943 [-1.5985, 0.15116] | 0.37052 [0.041024, 0.79575] | 0.064 | 0.0115 |
+| 0060/expanded/curiosity_minus_contentment | 13 | 0.17489 [-0.15693, 0.65732] | -0.020782 [-0.97322, 0.1613] | 1.1207 [0.038251, 2.0948] | 0.07 | 0.0125 |
+| 0060/first/argument_fear | 15 | -0.38948 [-0.8148, -0.013185] | -0.48505 [-3.0618, -0.071223] | 0.35568 [0.099397, 0.58426] | 0.155 | 0.0 |
+| 0060/first/curiosity | 13 | 0.16075 [-0.097212, 0.46707] | -0.013943 [-1.5985, 0.15116] | 0.37052 [0.041024, 0.79575] | 0.064 | 0.0115 |
+| 0072/expanded/child_distress_anger | 106 | 0.10901 [-0.069277, 0.3216] | 0.10871 [-0.30641, 0.2387] | 0.19384 [0.056198, 0.37104] | 1.0 | 0.0 |
+| 0072/expanded/child_distress_worry | 106 | 0.071448 [-0.045289, 0.19095] | 0.070344 [-0.08537, 0.17824] | 0.54375 [0.30319, 0.79587] | 1.0 | 0.0 |
+| 0072/expanded/child_distress_worry_minus_anger | 106 | -0.012543 [-0.15352, 0.13449] | -0.021036 [-0.20045, 0.12736] | 0.5273 [0.25567, 0.78354] | 1.0 | 0.0 |
+| 0072/expanded/stressor_anger | 30 | -0.16042 [-0.37362, 0.050147] | -0.18231 [-0.69991, 0.022698] | 0.57876 [0.30207, 0.8267] | 0.027 | 0.0 |
+| 0072/expanded/stressor_fear | 30 | 0.23367 [-0.088107, 0.54943] | 0.20346 [-0.11489, 0.46206] | 0.84527 [0.26638, 1.4982] | 1.0 | 0.0 |
+| 0072/expanded/stressor_fear_worry_minus_anger | 30 | 0.15509 [-0.20828, 0.6117] | 0.12451 [-0.27902, 0.49666] | 0.43928 [0.10861, 0.80184] | 1.0 | 0.0055 |
+| 0072/expanded/stressor_worry | 30 | 0.11593 [-0.26245, 0.45903] | 0.078729 [-0.29017, 0.35135] | 0.67733 [0.25104, 1.1229] | 1.0 | 0.0 |
+| 0076/expanded/stress_playfulness | 16 | 0.059429 [-0.25209, 0.45645] | -0.10295 [-1.1765, 0.090697] | 0.30997 [0.020673, 0.6371] | 0.225 | 0.012 |
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All 29 inconclusive morning estimates reproduced. The earlier reports miscounted how often the adjustment was dropped.; project meaning: scoped operational record; next engineering obligation: Use corrected frequencies and admit the six ordered incoming diaries separately.; public scientific claim unchanged; curator decision required: No new decision. Detail: PST8_DIARY_OPERATOR_RECONCILIATION_20261121.md.
+
 ### S15-W6-BR-PST6-20261121
 
 Do elementary graded response slopes that survived all three checks covary?

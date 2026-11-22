@@ -1,5 +1,7 @@
 # Stage 15 Week 6
 
+[Second addendum](PACKET_ADDENDUM_2_2026-11-21.md) · [Six-diary execution and first binding](BT_DIARY_EXECUTION.md) · [Verified intake](../../../../results/phase_2_4_stage_15/WEEK5/BT_SIX_RELEASE_INTAKE_20261121.md).
+
 The [November 21 afternoon addendum](PACKET_ADDENDUM_2026-11-21.md) commissions PST4–PST7 under amendment BR. The [execution note](BR_DIARY_EXECUTION.md) defines the source bindings and replay, and the [constructed qualification](../../../../results/phase_2_4_stage_15/WEEK5/BR_QUALIFICATION_20261121.md) records the simulation check.
 
 The [November 21 packet](PACKET_EXTENSION_2026-11-21.md), [Round 34 handoff](THEORY_HANDOFF_R34.md) and [pre-outcome item decisions](PERSON_ROWS_BINDINGS_20261121.md) govern the open diary work during the storage repair.
