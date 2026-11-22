@@ -2177,3 +2177,27 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-21T23:57:47.414972+00:00 OPS-S15-W6-BT-0049-OCCURRENCE-20261121: Both helping-occurrence forms completed for the four commissioned mood outcomes in diary 0049.
 
 2026-11-22T04:04:52.336826+00:00 OPS-S15-W6-DIGEST-20261121: All 71 daily ledger entries have complete report and receipt pairs. All 46 admitted campaign terminals in the interval matched hashes in filed receipts.
+
+2026-11-22T18:20:23.095352+00:00 OPS-S15-W6-BT-0049-EFFORT-20261122: The helping-effort description completed on the temporary root and reproduced in a fresh process.
+
+2026-11-22T18:20:23.725102+00:00 OPS-S15-W6-CK-INSPECTION-20261122: The live watcher and calendar matched their recorded native identities. The 0049 run released its slot after replay.
+
+2026-11-22T18:45:38.195979+00:00 OPS-S15-W6-TRX1-KEYS-20261122: Both candidate keys covered every diary participant and agreed equally on the shared baseline fields.
+
+2026-11-22T19:00:53.184268+00:00 OPS-S15-W6-CK-CENSUS-5-20261122: The process census refused 5 diary starts before they acquired a research slot.
+
+2026-11-22T19:00:55.102131+00:00 S15-W6-PSD1-20261122: The two status diaries completed the comparison of shame after admiration and criticism. The pooled reading was supports.
+
+2026-11-22T19:00:56.895331+00:00 S15-W6-PSD2-20261122: PSD2 completed on both diaries with the registered all-pairs and shorter-gap comparisons.
+
+2026-11-22T19:00:58.335652+00:00 S15-W6-ISO1-20261122: ISO1 completed on both diaries with the registered all-pairs and shorter-gap comparisons.
+
+2026-11-22T19:09:04.988804+00:00 S15-W6-TRX1-0010-APPRAISAL-20261122: The baseline clinical appraisal study completed with a verified unique score per person. The two status-diary trait fits await the provider mapping.
+
+2026-11-22T19:09:06.264312+00:00 S15-W6-PSD3-CHRONOLOGICAL-HALVES-20261122: The two status diaries completed the registered comparison of chronological half-slopes.
+
+2026-11-22T19:09:40.419877+00:00 S15-W6-BT-PST9-SIX-20261122: The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons.
+
+2026-11-22T19:23:51.956023+00:00 OPS-S15-W6-RBD1-INVENTORY-20261122: The temporary-root inventory contains no diary with prompt-level playfulness and current stress at the required frequency.
+
+2026-11-22T19:23:52.840459+00:00 OPS-S15-W6-CK-PREPARATION-20261122: The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications.

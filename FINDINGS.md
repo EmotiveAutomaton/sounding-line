@@ -1,5 +1,327 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-CK-PREPARATION-20261122
+
+The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications. The following are preparation charges, including retained failures. They must be counted once in the campaign. This inventory also includes qualifications already booked to their first diary run.
+
+| Fixture | Disposition | Checks exercised | CPU seconds |
+|---|---|---:|---:|
+| answered-qual | COMPLETE | 12 | 4.1875 |
+| cl-qual | COMPLETE | 9 | 5.6719 |
+| halves-qual | FAILED | 5 | 3.0781 |
+| halves-qual | COMPLETE | 5 | 2.7500 |
+| status-qual | FAILED | 10 | 3.3750 |
+| status-qual | COMPLETE | 10 | 3.4375 |
+| tmp1-qual | COMPLETE | 4 | 4.3125 |
+| trait-qual | COMPLETE | 7 | 3.5312 |
+| traitfix-qual | COMPLETE | 8 | 3.0000 |
+
+The four TMP1 checks exercised isolated image conditions, manifest integrity, fixed table validation and the installed gate mirror on literal fixture bytes. The local Docker Linux engine was unavailable for a target-image execution. The engine has not delivered TP58. Review on handback precedes any reader rehearsal or source execution.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications.; project meaning: scoped operational record; next engineering obligation: Verify the Linux image and the real frozen TP58 handoff in the approved order.; public scientific claim unchanged; curator decision required: No new decision. Detail: CK_PREPARATION_20261122.md.
+
+### OPS-S15-W6-RBD1-INVENTORY-20261122
+
+The temporary-root inventory contains no diary with prompt-level playfulness and current stress at the required frequency. The nineteen reviewed members and near matches are listed in the [source review](../../../docs/design/stage-15/week7/RBD1_INVENTORY.md). Situation silliness, interaction-level play paired with daily stress, and daily gaming address different questions. This is a source disposition. The rebound hypothesis remains untested on these materials.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The temporary-root inventory contains no diary with prompt-level playfulness and current stress at the required frequency.; project meaning: scoped operational record; next engineering obligation: Resume if data need 26 delivers an eligible source.; public scientific claim unchanged; curator decision required: No new decision. Detail: RBD1_SOURCE_REVIEW_20261122.md.
+
+### S15-W6-BT-PST9-SIX-20261122
+
+The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons. The greatest support determines selection, with packet order breaking ties. A source needs an identified mean and sampling variance to contribute. Two independent sources are required to pool. The ratio is the level-adjusted cross-half variance divided by the squared mean slope. The weights are inverse bootstrap variances.
+
+| Family | Form | Member | Selected slope | Ratio [95% interval] | Weight |
+|---|---|---|---|---|---:|
+| pleasant | PST1 | 0003 | No bound slope | — | 0.0% |
+| pleasant | PST1 | 0010 | No bound slope | — | 0.0% |
+| pleasant | PST1 | 0023 | No bound slope | — | 0.0% |
+| pleasant | PST1 | 0055 | No bound slope | — | 0.0% |
+| pleasant | PST1 | 0073 | positive_event/affect_grid_x | 0.54025 [0.24062, 0.99043] | 100.0% |
+| pleasant | PST1 | 0049 | helping/valence_mood | -8.0464 [-213.33, 0.60113] | 0.0% |
+| pleasant | PST1 | Pool | above zero | 0.54025 [0.16073, 0.91976] | — |
+| pleasant | PST4 | 0003 | No bound slope | — | 0.0% |
+| pleasant | PST4 | 0010 | No bound slope | — | 0.0% |
+| pleasant | PST4 | 0023 | No bound slope | — | 0.0% |
+| pleasant | PST4 | 0055 | No bound slope | — | 0.0% |
+| pleasant | PST4 | 0073 | positive_event/affect_grid_x | 0.62193 [0.27868, 1.0118] | 100.0% |
+| pleasant | PST4 | 0049 | No bound slope | — | 0.0% |
+| pleasant | PST4 | Pool | insufficient independent diaries | unavailable | — |
+| pleasant | PST5 | 0003 | No bound slope | — | 0.0% |
+| pleasant | PST5 | 0010 | No bound slope | — | 0.0% |
+| pleasant | PST5 | 0023 | No bound slope | — | 0.0% |
+| pleasant | PST5 | 0055 | No bound slope | — | 0.0% |
+| pleasant | PST5 | 0073 | positive_event/affect_grid_x | 0.30242 [-0.62883, 0.66315] | 100.0% |
+| pleasant | PST5 | 0049 | helping/valence_mood | -0.89045 [-107.5, 12.339] | 0.0% |
+| pleasant | PST5 | Pool | does not clear | 0.30242 [-5.7161, 6.321] | — |
+| unpleasant | PST1 | 0003 | let_pass_stress/nervous | -11.786 [-1271.8, 2.9546] | 0.0% |
+| unpleasant | PST1 | 0010 | No bound slope | — | 0.0% |
+| unpleasant | PST1 | 0023 | dealt_stress/felt_overwhelm | 0.151 [-0.12475, 0.24072] | 64.3% |
+| unpleasant | PST1 | 0055 | family_conflict/sad | -0.61229 [-5.3968, 0.79732] | 0.0% |
+| unpleasant | PST1 | 0073 | negative_event/affect_grid_x | 0.57715 [0.28302, 0.94083] | 35.7% |
+| unpleasant | PST1 | 0049 | No bound slope | — | 0.0% |
+| unpleasant | PST1 | Pool | above zero | 0.30315 [0.10741, 0.4989] | — |
+| unpleasant | PST4 | 0003 | let_pass_stress/nervous | -3.2627 [-262.14, 2.5036] | 0.0% |
+| unpleasant | PST4 | 0010 | No bound slope | — | 0.0% |
+| unpleasant | PST4 | 0023 | dealt_stress/felt_overwhelm | 0.083769 [-0.088282, 0.1314] | 4.6% |
+| unpleasant | PST4 | 0055 | family_conflict/sad | -0.2174 [-3.1105, 0.19277] | 0.1% |
+| unpleasant | PST4 | 0073 | negative_event/affect_grid_x | 0.36654 [0.13952, 0.65399] | 95.4% |
+| unpleasant | PST4 | 0049 | No bound slope | — | 0.0% |
+| unpleasant | PST4 | Pool | above zero | 0.35322 [0.1012, 0.60525] | — |
+| unpleasant | PST5 | 0003 | let_pass_stress/nervous | -1.1956 [-44.827, 48.026] | 0.0% |
+| unpleasant | PST5 | 0010 | No bound slope | — | 0.0% |
+| unpleasant | PST5 | 0023 | dealt_stress/felt_overwhelm | 0.01406 [-1.1352, 0.17949] | 0.3% |
+| unpleasant | PST5 | 0055 | family_conflict/sad | -3.5861 [-68.355, 0.13308] | 0.0% |
+| unpleasant | PST5 | 0073 | negative_event/affect_grid_x | 0.30095 [-0.011691, 0.53606] | 99.7% |
+| unpleasant | PST5 | 0049 | No bound slope | — | 0.0% |
+| unpleasant | PST5 | Pool | does not clear | 0.3002 [-0.019084, 0.61948] | — |
+
+Pleasant family. The three-form criterion did not hold. PST1 Q = 7.63e-09 on 1 df. Individual signs differ. PST5 Q = 2.41e-09 on 1 df. Individual signs differ.
+
+Unpleasant family. The three-form criterion did not hold. PST1 Q = 4.18 on 3 df. Individual signs differ. PST4 Q = 0.224 on 3 df. Individual signs differ. PST5 Q = 0.00812 on 3 df. Individual signs differ.
+
+Event and mood were reported by the same person. The helping-effort score is conditional on having helped and is restricted to a separate internal description. A mean-slope interval spanning zero leaves its ratio undefined.
+
+Curator roll-up: P4 · Do event-response slopes differ across people across both event families and all three forms? · **Narrows** · The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons. · Project scope: Six commissioned openESM diary dispositions, with eligible contributions determined separately by family and form. · Next: Retain the component support and limits. · Public wording is limited to the recorded population. Curator decision required: No. Detail: BT_PST9_AFTER_SIX_20261122.md.
+
+### S15-W6-PSD3-CHRONOLOGICAL-HALVES-20261122
+
+Each participant’s dated interaction days were split into chronological halves. Event slopes were adjusted for reliably estimated non-event level and spread. An individual slope and the shared pair each required two exposed and two comparison reports in both halves. The correlation is interpretable only where both individual variance intervals and both shared-pair variance intervals clear zero. All ordered whole-person draws were independently replayed.
+
+The two status diaries completed the registered comparison of chronological half-slopes. No verdict. No qualifying correlation with a complete draw interval.
+
+Original PST3 variance qualification, then the registered correlation bounds.
+
+Estimates and 95% intervals by diary.
+
+| Diary | Quantity | Estimate [95% interval] | Undefined draws |
+|---|---|---|---:|
+| 0057 | ashamed_variance | -0.2073 [-3.013, 0.08126] | 0 |
+| 0057 | correlation | undefined | 1830 |
+| 0057 | covariance | -0.03278 [-0.3195, 0.05861] | 0 |
+| 0057 | paired_ashamed_variance | -0.08186 [-0.4614, 0.05887] | 0 |
+| 0057 | paired_proud_variance | 0.05187 [-1.263, 0.2112] | 0 |
+| 0057 | proud_variance | 0.09614 [-0.182, 0.1807] | 0 |
+| 0056 | ashamed_variance | -7.391e-05 [-0.5354, 0.09937] | 0 |
+| 0056 | correlation | undefined | 1685 |
+| 0056 | covariance | 0.03323 [-0.2375, 0.1569] | 0 |
+| 0056 | paired_ashamed_variance | -0.1045 [-1.43, 0.06462] | 0 |
+| 0056 | paired_proud_variance | 0.1162 [0.05887, 0.1609] | 0 |
+| 0056 | proud_variance | 0.09106 [0.03051, 0.1413] | 0 |
+
+Diary 0057 had 253 supported people in the pair. Its variance gate did not pass. Diary 0056 had 141 supported people in the pair. Its variance gate did not pass.
+
+The two feelings and events were self-reported, and only participants with both kinds of exposure in both halves can enter the correlation.
+
+Curator roll-up: T11, T4 · Do people who respond more to admiration with pride also respond more to criticism with shame? · **Narrows** · The two status diaries completed the registered comparison of chronological half-slopes. · Project scope: Two openESM status diaries, dated interaction reports only. · Next: Retain the original source constraints and individual counts. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PSD3_CHRONOLOGICAL_HALVES_20261122.md.
+
+### S15-W6-TRX1-0010-APPRAISAL-20261122
+
+The once-per-person trait projection retained a sole distinct score, including duplicate copies. The appraisal was in the baseline diary’s lowest third including ties. Each feeling required two lower appraisals and two others in each chronological half. Cross-half adjustment accounted for a person’s non-event feeling level and, where reliable, spread. Weights were the smaller event count. A fresh process reconstructed 2,000 whole-person draws. Pleasant feelings are descriptive. Every pair of unpleasant feelings has a direct difference using common draws.
+
+The baseline clinical appraisal study completed with a verified unique score per person. The two status-diary trait fits await the provider mapping. Single-source contribution; pooled trait study open
+
+Pooled interval above zero and all within-diary feeling-difference intervals within ±0.15.
+
+Estimates and 95% intervals by diary.
+
+| Diary | Quantity | Estimate [95% interval] | Undefined draws |
+|---|---|---|---:|
+| 0010 | cheerful | -0.03386 [-0.203, 0.1261] | 0 |
+| 0010 | fearful | 0.06236 [-0.3598, 0.3203] | 0 |
+| 0010 | fearful_minus_sad | 0.03197 [-0.3707, 0.5911] | 0 |
+| 0010 | relaxed | 0.01644 [-0.1903, 0.2385] | 0 |
+| 0010 | sad | 0.03039 [-0.5868, 0.2537] | 0 |
+| 0010 | unpleasant_mean | 0.05504 [-0.09479, 0.1822] | 0 |
+| 0010 | worried | 0.01299 [-0.1922, 0.1856] | 0 |
+| 0010 | worried_minus_fearful | -0.04937 [-0.3271, 0.3999] | 0 |
+| 0010 | worried_minus_sad | -0.0174 [-0.2989, 0.5847] | 0 |
+
+The first period supplied 14,300 observations from 130 people. The cutoff was 1 and included 43.3% of nonmissing appraisals. 2 people lacked a score. The companion receipt gives per-feeling half support and source exclusions.
+
+This clinical trial measured activity appraisals. Measurement noise and floor effects can conceal a small positive trait effect or produce a negative one. A single source cannot settle the registered pooled claim.
+
+Curator roll-up: S3, P4 · Does the released Neuroticism score predict the size of a person’s mood response to a low activity appraisal? · **Narrows** · The baseline clinical appraisal study completed with a verified unique score per person. The two status-diary trait fits await the provider mapping. · Project scope: First-period reports in clinical diary 0010. · Next: Retain the original source constraints and individual counts. · Public wording is limited to the recorded population. Curator decision required: No. Detail: TRX1_0010_APPRAISAL_20261122.md.
+
+### S15-W6-ISO1-20261122
+
+ISO1 completed on both diaries with the registered all-pairs and shorter-gap comparisons. We ordered consecutive answered prompts within the same study day, checked both original UTC clocks, and computed the gap distribution before opening paired outcomes. We repeated each fit on gaps at or below twice that diary’s median. Both readings used the same people and 2,000 indexed whole-person draws. A fresh process replayed every cell. The within-person linear model included current interaction status and fixed four-hour recorded-clock blocks. Time without interaction can have causes other than choosing to be alone.
+
+Positive interval for shame minus mean anger and sadness. Disagreement in sign or interval clarity across gap rules gives an undecided diary.
+
+0057 undecided; 0056 undecided
+
+The table gives point estimates and whole-person 95% intervals.
+
+| Diary | Quantity | Estimate [95% interval] |
+|---|---|---|
+| 0057 | all/angry | -0.004298 (interval unavailable) |
+| 0057 | all/ashamed | 0.002259 (interval unavailable) |
+| 0057 | all/ashamed_minus_others | 0.0002614 (interval unavailable) |
+| 0057 | all/sad | 0.008294 (interval unavailable) |
+| 0057 | short/angry | -0.00491 [-0.01025, 0.0003346] |
+| 0057 | short/ashamed | 0.004073 [-0.001785, 0.009711] |
+| 0057 | short/ashamed_minus_others | 0.003343 [-0.004166, 0.01055] |
+| 0057 | short/sad | 0.00637 [0.0009056, 0.01186] |
+| 0056 | all/angry | -0.0008644 (interval unavailable) |
+| 0056 | all/ashamed | 0.0008926 (interval unavailable) |
+| 0056 | all/ashamed_minus_others | -0.0001507 (interval unavailable) |
+| 0056 | all/sad | 0.002951 (interval unavailable) |
+| 0056 | short/angry | 8.703e-05 [-0.006282, 0.006518] |
+| 0056 | short/ashamed | 0.001882 [-0.004812, 0.008864] |
+| 0056 | short/ashamed_minus_others | 0.0002945 [-0.008168, 0.009435] |
+| 0056 | short/sad | 0.003088 [-0.004001, 0.01053] |
+
+Elapsed minutes between consecutive answered prompts, before outcome exclusions.
+
+| Diary | All pairs | Median | Middle half | Range | Twice median | Retained pairs |
+|---|---:|---:|---|---|---:|---:|
+| 0057 | 42736 | 136.82 | 99.35–188.05 | 41.40–866.18 | 273.63 | 37493 |
+| 0056 | 22559 | 120.58 | 89.30–153.44 | 40.00–822.77 | 241.17 | 21204 |
+
+Agreement by diary and paired statistic is recorded in the companion receipt. The original scheduled-beep attempt identified zero pairs wherever it ran.
+
+A missed prompt can widen a gap, and a missed prompt may not be missed at random.
+
+Curator roll-up: T4 · Is shame followed by a report of no interaction more often than anger or sadness? · **Narrows** · ISO1 completed on both diaries with the registered all-pairs and shorter-gap comparisons. · Project scope: openESM members 0056 and 0057. Repeated self-reports of interaction and feeling. · Next: Read the diary-specific estimates with their limits in the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: ISO1_DIARIES_20261122.md.
+
+### S15-W6-PSD2-20261122
+
+PSD2 completed on both diaries with the registered all-pairs and shorter-gap comparisons. We ordered consecutive answered prompts within the same study day, checked both original UTC clocks, and computed the gap distribution before opening paired outcomes. We repeated each fit on gaps at or below twice that diary’s median. Both readings used the same people and 2,000 indexed whole-person draws. A fresh process replayed every cell. Co-occurrence and rises use same-prompt observations. Each fall is a change from the previous answer, comparing an opposite-event interaction with an interaction with neither event. Fall shares divide by the same-prompt own-event rise.
+
+Same-prompt co-occurrence interval above 0.8 for two channels, below 0.5 for one. Falls assessed under both gap rules.
+
+0057 {'cooccurrence': 'undecided', 'falls': 'consistent across gap rules'}; 0056 {'cooccurrence': 'undecided', 'falls': 'consistent across gap rules'}
+
+The table gives point estimates and whole-person 95% intervals.
+
+| Diary | Quantity | Estimate [95% interval] |
+|---|---|---|
+| 0057 | same-prompt cooccurrence_one | 0.9363 [0.8514, 1.035] |
+| 0057 | same-prompt cooccurrence_two | 0.8286 [0.6442, 1.108] |
+| 0057 | same-prompt rise_ashamed | 0.2869 [0.2457, 0.3312] |
+| 0057 | same-prompt rise_proud | 0.678 [0.6415, 0.7168] |
+| 0057 | all/fall_ashamed | 0.08038 [-0.06963, 0.2257] |
+| 0057 | all/fall_proud | -0.381 [-0.5072, -0.2516] |
+| 0057 | all/fall_share_ashamed | 0.2801 [-0.2441, 0.7984] |
+| 0057 | all/fall_share_proud | -0.562 [-0.7528, -0.3695] |
+| 0057 | short/fall_ashamed | 0.06147 [-0.1036, 0.2175] |
+| 0057 | short/fall_proud | -0.3802 [-0.5106, -0.2487] |
+| 0057 | short/fall_share_ashamed | 0.2142 [-0.3689, 0.7738] |
+| 0057 | short/fall_share_proud | -0.5608 [-0.7561, -0.3643] |
+| 0056 | same-prompt cooccurrence_one | 0.8328 [0.7753, 0.89] |
+| 0056 | same-prompt cooccurrence_two | 0.727 [0.5491, 0.9999] |
+| 0056 | same-prompt rise_ashamed | 0.3955 [0.3188, 0.4701] |
+| 0056 | same-prompt rise_proud | 0.6744 [0.6108, 0.7407] |
+| 0056 | all/fall_ashamed | 0.0222 [-0.1593, 0.2117] |
+| 0056 | all/fall_proud | -0.2301 [-0.4238, -0.03718] |
+| 0056 | all/fall_share_ashamed | 0.05613 [-0.4329, 0.5291] |
+| 0056 | all/fall_share_proud | -0.3411 [-0.641, -0.05347] |
+| 0056 | short/fall_ashamed | 0.04576 [-0.1372, 0.2282] |
+| 0056 | short/fall_proud | -0.2498 [-0.4627, -0.03894] |
+| 0056 | short/fall_share_ashamed | 0.1157 [-0.3628, 0.5736] |
+| 0056 | short/fall_share_proud | -0.3703 [-0.6983, -0.05557] |
+
+Elapsed minutes between consecutive answered prompts, before outcome exclusions.
+
+| Diary | All pairs | Median | Middle half | Range | Twice median | Retained pairs |
+|---|---:|---:|---|---|---:|---:|
+| 0057 | 42736 | 136.82 | 99.35–188.05 | 41.40–866.18 | 273.63 | 37493 |
+| 0056 | 22559 | 120.58 | 89.30–153.44 | 40.00–822.77 | 241.17 | 21204 |
+
+Agreement by diary and paired statistic is recorded in the companion receipt. The original scheduled-beep attempt identified zero pairs wherever it ran.
+
+A missed prompt can widen a gap, and a missed prompt may not be missed at random.
+
+Curator roll-up: T11, T4 · Do pride and shame behave as separate channels in these diaries? · **Narrows** · PSD2 completed on both diaries with the registered all-pairs and shorter-gap comparisons. · Project scope: openESM members 0056 and 0057. Repeated self-reports of interaction and feeling. · Next: Read the diary-specific estimates with their limits in the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PSD2_DIARIES_20261122.md.
+
+### S15-W6-PSD1-20261122
+
+The two status diaries completed the comparison of shame after admiration and criticism. The pooled reading was supports. Form O fitted shame occurrence on the same six interaction events as PRD1. Pride estimates come from the filed original analysis. Pooling used inverse whole-person bootstrap variances. Each diary supplied its joint contrast before pooling.
+
+Absolute admired slope at most one quarter of the positive criticised slope, and pooled contrast interval above zero.
+
+supports
+
+The table gives point estimates and whole-person 95% intervals.
+
+| Diary | Quantity | Estimate [95% interval] |
+|---|---|---|
+| 0057 | pride on status_admired | 0.6808 [0.6346, 0.7309] |
+| 0057 | pride on status_criticised | -0.04926 [-0.07601, -0.02281] |
+| 0057 | shame criticised_minus_abs_admired | 0.2838 [0.2367, 0.3313] |
+| 0057 | shame status_admired | -0.04184 [-0.08248, -0.003767] |
+| 0057 | shame status_criticised | 0.3256 [0.2934, 0.3619] |
+| 0057 | shame status_ignored | 0.06871 [0.03612, 0.1009] |
+| 0057 | shame status_respected | -0.06551 [-0.105, -0.02324] |
+| 0057 | shame status_sidelined | 0.07848 [0.04935, 0.1083] |
+| 0057 | shame status_upstaged | 0.07599 [0.04429, 0.1069] |
+| 0056 | pride on status_admired | 0.8443 [0.7461, 0.9679] |
+| 0056 | pride on status_criticised | -0.02588 [-0.07242, 0.02498] |
+| 0056 | shame criticised_minus_abs_admired | 0.2607 [0.1901, 0.3353] |
+| 0056 | shame status_admired | -0.09587 [-0.1522, -0.04514] |
+| 0056 | shame status_criticised | 0.3565 [0.3078, 0.4117] |
+| 0056 | shame status_ignored | 0.1157 [0.07017, 0.1628] |
+| 0056 | shame status_respected | -0.08103 [-0.1308, -0.0323] |
+| 0056 | shame status_sidelined | 0.09614 [0.05063, 0.1387] |
+| 0056 | shame status_upstaged | 0.07416 [0.03083, 0.1221] |
+| pooled | admired | -0.06015 [-0.09193, -0.02837] |
+| pooled | criticised | 0.335 [0.3063, 0.3638] |
+| pooled | contrast | 0.2768 [0.2367, 0.3169] |
+
+The same respondent reported the interaction and feeling at the same prompt. Both diaries measure subjective ratings.
+
+Curator roll-up: T11, T4 · Does being criticised raise shame more than being admired lowers it? · **Narrows** · The two status diaries completed the comparison of shame after admiration and criticism. The pooled reading was supports. · Project scope: openESM members 0056 and 0057. Repeated self-reports of interaction and feeling. · Next: Read the diary-specific estimates with their limits in the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PSD1_DIARIES_20261122.md.
+
+### OPS-S15-W6-CK-CENSUS-5-20261122
+
+The process census refused 5 diary starts before they acquired a research slot. We retained each immutable failure receipt and its charge. The owner now registers the attempt and its watcher, lets the registration process exit, verifies the child identity and then releases the worker. No study output was produced by these refusals.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The process census refused 5 diary starts before they acquired a research slot.; project meaning: scoped operational record; next engineering obligation: Use the serialized owner release and the original source-specific budgets.; public scientific claim unchanged; curator decision required: No new decision. Detail: CK_CENSUS_5_20261122.md.
+
+### OPS-S15-W6-TRX1-KEYS-20261122
+
+Both candidate columns contain distinct digit strings. Each covers every diary ID exactly. The timestamps, survey durations and the numbered questionnaire item below are shared fields in the original and harmonized baseline records. We restricted the comparison to the momentary diary roster. Each person counted once. Missing values contributed no agreement.
+
+### Diary 0056
+
+The original table has 370 people. The diary has 327. The two candidate values are identical on 370 original records and on 327 diary records. The later-wave fields are a supplementary coverage check. The frozen decision uses the original three fields.
+
+| Field | First candidate, agree / comparable | Second candidate, agree / comparable |
+|---|---:|---:|
+| created_intro | 313 / 313 | 313 / 313 |
+| completion_time_t1 | 313 / 313 | 313 / 313 |
+| ialneuro_1 | 313 / 313 | 313 / 313 |
+| created_intro_t3 | 193 / 193 | 193 / 193 |
+| completion_time_t3 | 193 / 193 | 193 / 193 |
+
+### Diary 0057
+
+The original table has 3,565 people. The diary has 2,272. The two candidate values are identical on 3,565 original records and on 2,272 diary records. The later-wave fields are a supplementary coverage check. The frozen decision uses the original three fields.
+
+| Field | First candidate, agree / comparable | Second candidate, agree / comparable |
+|---|---:|---:|
+| created_intro | 1,645 / 1,645 | 1,645 / 1,645 |
+| completion_time_t1 | 1,645 / 1,645 | 1,645 / 1,645 |
+| bfi2s_4 | 1,645 / 1,645 | 1,645 / 1,645 |
+| created_intro_t3 | 914 / 914 | 914 / 914 |
+| completion_time_t3 | 914 / 914 | 914 / 914 |
+
+The first candidate is id_for_merging and the second is id_not_for_merging. Neither takes precedence. The conversion script or a provider note identifying the exported column for each study is the resumption event. No trait effect was calculated for either status diary.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both candidate keys covered every diary participant and agreed equally on the shared baseline fields.; project meaning: scoped operational record; next engineering obligation: Await the documented mapping for 0056 and 0057. Member 0010 has an independent binding.; public scientific claim unchanged; curator decision required: No new decision. Detail: TRX1_KEY_BINDING_20261122.md.
+
+### OPS-S15-W6-CK-INSPECTION-20261122
+
+The live watcher and calendar matched their recorded native identities. The 0049 run released its slot after replay. The local inspection checked leases, resource floors, recent terminal files, campaign charges, pending events and source locks. The calendar has a fresh heartbeat. The new packet commissions temporary-root work during Week 6. The curator reaffirmed the storage hold.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The live watcher and calendar matched their recorded native identities. The 0049 run released its slot after replay.; project meaning: scoped operational record; next engineering obligation: Build Phase 0 locally and honor the Week 6 freeze and drain.; public scientific claim unchanged; curator decision required: No new decision. Detail: CK_QUEUE_INSPECTION_20261122.md.
+
+### OPS-S15-W6-BT-0049-EFFORT-20261122
+
+The helping-effort description completed on the temporary root and reproduced in a fresh process. The analysis used only helping episodes, including zero effort within a helping episode. The internal record contains the four outcome estimates, support, limits and source hashes. The curator excluded effort from PST9.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The helping-effort description completed on the temporary root and reproduced in a fresh process.; project meaning: scoped operational record; next engineering obligation: Use occurrence alone for the applicable PST9 forms.; public scientific claim unchanged; curator decision required: No new decision. Detail: BT_0049_EFFORT_FILING_20261122.md.
+
 ### OPS-S15-W6-DIGEST-20261121
 
 **Corrections.** The diary reporting code miscounted how often a fit dropped its covariate adjustment. PST8 reproduced the 29 morning estimates and replayed all five afternoon diaries. The corrected frequency tables are filed. Diary 0023's first attempt stopped before fitting. Its recovery excluded the 748 prompts without a study day and retained the charge for the first attempt. [PST8 reconciliation](PST8_DIARY_OPERATOR_RECONCILIATION_20261121.md) · [0023 recovery](BT_0023_DAY_CHECK_20261121.md)

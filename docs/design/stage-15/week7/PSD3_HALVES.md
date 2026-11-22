@@ -1,0 +1,7 @@
+# Pride after admiration and shame after criticism
+
+PSD3 uses the interaction ratings in each status diary. Use the study day for chronological halves, split at the midpoint of each person’s first and last dated interaction day. Each slope compares an above-floor event with a floor-level event. Use the PST3 within-person scale and the non-event level and spread adjustment. Require two event and two other available reports in each half for each slope. Check its adjusted cross-half variance on the supported population and again among people with both slopes. The pair uses the minimum event count across the four halves. Report covariance alongside correlation. Qualify the correlation only when both variance intervals for both tests lie above zero. Preserve the counts of undefined correlations.
+
+The curator’s November 22 correction retains the registered chronological halves for PSD3. It has no paired-prompt statistic. Draw whole people 2,000 times and compare every draw with the independent replay. Apply the original PST3 pooling and reading only to qualifying correlations. The registered expectation is that the variance gates will leave this descriptive study without a verdict.
+
+**Design check.** Match a known cross-half correlation, check a constant slope and an unsupported pair, and compare original and replay moment calculations. A zero adjusted variance leaves the correlation undefined. Each diary retains its source-specific inclusive allowance.

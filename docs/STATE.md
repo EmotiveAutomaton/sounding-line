@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons. [Full return](../results/phase_2_4_stage_15/WEEK5/BT_PST9_AFTER_SIX_20261122.md).
+
+The two status diaries completed the registered comparison of chronological half-slopes. [Full report](../results/phase_2_4_stage_15/WEEK5/PSD3_CHRONOLOGICAL_HALVES_20261122.md).
+
+The baseline clinical appraisal study completed with a verified unique score per person. The two status-diary trait fits await the provider mapping. [Full report](../results/phase_2_4_stage_15/WEEK5/TRX1_0010_APPRAISAL_20261122.md).
+
+ISO1 completed on both diaries with the registered all-pairs and shorter-gap comparisons. [Study record](../results/phase_2_4_stage_15/WEEK5/ISO1_DIARIES_20261122.md).
+
+PSD2 completed on both diaries with the registered all-pairs and shorter-gap comparisons. [Study record](../results/phase_2_4_stage_15/WEEK5/PSD2_DIARIES_20261122.md).
+
+The two status diaries completed the comparison of shame after admiration and criticism. The pooled reading was supports. [Study record](../results/phase_2_4_stage_15/WEEK5/PSD1_DIARIES_20261122.md).
+
 All 71 daily ledger entries have complete report and receipt pairs. All 46 admitted campaign terminals in the interval matched hashes in filed receipts. [November 21 daily report](../results/phase_2_4_stage_15/WEEK5/WEEK6_DIGEST_20261121.md).
 
 The PST9 return after five diary dispositions includes the form-specific individual contributions and inverse-variance weights. [Full report](../results/phase_2_4_stage_15/WEEK5/BT_PST9_AFTER_FIVE_20261121.md).

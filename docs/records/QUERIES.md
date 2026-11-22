@@ -1,6 +1,6 @@
 # Five checked navigation queries
 
-Coverage: 2059 legacy records retained; 12 reviewed annotations; 2047 unreviewed. This pilot is not an exhaustive theory synthesis.
+Coverage: 2071 legacy records retained; 12 reviewed annotations; 2059 unreviewed. This pilot is not an exhaustive theory synthesis.
 
 Queries return reviewed mappings only. An empty answer is not absence of evidence. Full source outcomes, numerical results and corrections remain accessible.
 

@@ -1,0 +1,3 @@
+# CK QUEUE INSPECTION 20261122
+
+The live watcher and calendar matched their recorded native identities. The 0049 run released its slot after replay. The local inspection checked leases, resource floors, recent terminal files, campaign charges, pending events and source locks. The calendar has a fresh heartbeat. The new packet commissions temporary-root work during Week 6. The curator reaffirmed the storage hold.

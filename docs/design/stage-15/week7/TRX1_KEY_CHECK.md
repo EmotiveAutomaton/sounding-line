@@ -1,0 +1,7 @@
+# TRX1 binding before the trait fit
+
+Use the original merged EMOTIONS trait table for each study. Compare each of its two candidate keys with the distinct IDs in the corresponding openESM momentary table. Preserve exact string values, including leading zeros. Report counts, formats, duplicates, intersection size and coverage in both directions. Neither a similar name nor a similar numeric range identifies a person.
+
+The release also has a static openESM table. Restrict it to the roster in the momentary table. Both versions carry the start timestamp of the initial survey, its completion time and the same numbered baseline questionnaire item. Compare those fields separately and together, only on candidate IDs that occur exactly once in both static tables. Compare the baseline item and duration as exact decimal values and the timestamp as written after outer whitespace removal. Missing on both sides supplies no evidence. Return counts and agreement shares only.
+
+Before comparison, operationalize “nearly all” as at least 99% of diary people with a unique candidate match and agreement on two or more observed fields including at least one timing field. Require the competing key to verify at most 90% of diary people. All other cases stay held for the documented conversion. The thresholds are conservative implementation choices. The source packet's trait fit has no access to a held mapping.

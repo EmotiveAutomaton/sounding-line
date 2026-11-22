@@ -1,5 +1,29 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-CK-PREPARATION-20261122: The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications.
+
+- [x] OPS-S15-W6-RBD1-INVENTORY-20261122: The temporary-root inventory contains no diary with prompt-level playfulness and current stress at the required frequency.
+
+- [x] S15-W6-BT-PST9-SIX-20261122: The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons.
+
+- [x] S15-W6-PSD3-CHRONOLOGICAL-HALVES-20261122: The two status diaries completed the registered comparison of chronological half-slopes.
+
+- [x] S15-W6-TRX1-0010-APPRAISAL-20261122: The baseline clinical appraisal study completed with a verified unique score per person. The two status-diary trait fits await the provider mapping.
+
+- [x] S15-W6-ISO1-20261122: ISO1 completed on both diaries with the registered all-pairs and shorter-gap comparisons.
+
+- [x] S15-W6-PSD2-20261122: PSD2 completed on both diaries with the registered all-pairs and shorter-gap comparisons.
+
+- [x] S15-W6-PSD1-20261122: The two status diaries completed the comparison of shame after admiration and criticism. The pooled reading was supports.
+
+- [x] OPS-S15-W6-CK-CENSUS-5-20261122: The process census refused 5 diary starts before they acquired a research slot.
+
+- [x] OPS-S15-W6-TRX1-KEYS-20261122: Both candidate keys covered every diary participant and agreed equally on the shared baseline fields.
+
+- [x] OPS-S15-W6-CK-INSPECTION-20261122: The live watcher and calendar matched their recorded native identities. The 0049 run released its slot after replay.
+
+- [x] OPS-S15-W6-BT-0049-EFFORT-20261122: The helping-effort description completed on the temporary root and reproduced in a fresh process.
+
 - [x] OPS-S15-W6-DIGEST-20261121: All 71 daily ledger entries have complete report and receipt pairs. All 46 admitted campaign terminals in the interval matched hashes in filed receipts.
 
 - [x] OPS-S15-W6-BT-0049-OCCURRENCE-20261121: Both helping-occurrence forms completed for the four commissioned mood outcomes in diary 0049.
