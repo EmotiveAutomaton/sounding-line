@@ -7,3 +7,5 @@ The curator approved CE, CF, CJ, CK, CL, CM, CN and CO on November 22. The tempo
 The curator's storage handback triggers DRT1 step 6, then the three previously qualified SMF1 jobs, then Phase 1. While the hold is active, source work uses the verified temporary root. Sealed builds use constructed files locally. Keep the teaching-diary test figures in the internal repository record and theory thread. Member 0049's conditional effort description stays internal and outside PST9.
 
 The packet's registered guesses precede all new outcomes. Mark registered cells with a ring and disagreements with an X. The return opens with **Against, and clear** and lists a contrary direction only when its entire interval excludes zero.
+
+The [CAD1 ruling](CAD1_CONTROLS.md) fixes both within-speaker readings. Its companion builds cover the [daily trait comparison](SLD3_REHEARSAL.md), [three-wave purpose projection](SLD2_PROJECTION.md), and [conversation timing and laughter](CONVERSATION_REHEARSALS.md). The [TMP1 handoff record](TMP1_HANDOFF.md) distinguishes the completed shell checks from the engine bundle and target-image checks still due.

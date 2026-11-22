@@ -3033,6 +3033,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-CK-SEALED-REHEARSALS-20261122:** Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. [Record](../results/phase_2_4_stage_15/WEEK5/CK_SEALED_REHEARSALS_20261122.md).
+
 **OPS-S15-W6-CK-PREPARATION-20261122:** The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications. [Record](../results/phase_2_4_stage_15/WEEK5/CK_PREPARATION_20261122.md).
 
 **OPS-S15-W6-RBD1-INVENTORY-20261122:** The temporary-root inventory contains no diary with prompt-level playfulness and current stress at the required frequency. [Record](../results/phase_2_4_stage_15/WEEK5/RBD1_SOURCE_REVIEW_20261122.md).

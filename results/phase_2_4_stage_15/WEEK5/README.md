@@ -1,5 +1,7 @@
 # Week 5 evidence
 
+Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. [Rehearsal and cost record](CK_SEALED_REHEARSALS_20261122.md).
+
 The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons. [Full return](BT_PST9_AFTER_SIX_20261122.md).
 
 The two status diaries completed the registered comparison of chronological half-slopes. [Full report](PSD3_CHRONOLOGICAL_HALVES_20261122.md).

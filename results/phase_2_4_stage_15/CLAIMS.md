@@ -2081,3 +2081,4 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | S15-W6-BT-PST9-SIX-20261122 | P4 | source-specific / passing controls | The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons. |
 | OPS-S15-W6-RBD1-INVENTORY-20261122 | operational | infrastructure / passes | The temporary-root inventory contains no diary with prompt-level playfulness and current stress at the required frequency. |
 | OPS-S15-W6-CK-PREPARATION-20261122 | operational | infrastructure / passes | The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications. |
+| OPS-S15-W6-CK-SEALED-REHEARSALS-20261122 | operational | infrastructure / passes | Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. |

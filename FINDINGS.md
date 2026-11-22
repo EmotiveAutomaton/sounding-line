@@ -1,5 +1,17 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-CK-SEALED-REHEARSALS-20261122
+
+Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. SLD3 exercised two original-format SPSS tables. CAD1 exercised reciprocal Parquet ratings and speaker timing. CAD2, LGH1, LGH2 and SLD2 exercised constructed projections. Their source-specific bindings still require the original manifests, clocks, annotations or dictionaries. No Spark invocation or participant outcome was opened in these rehearsals.
+
+The two CAD1 readings held immediate arousal, pre-conversation mood and the same partner’s speech rate. The expanded reading also held overall affect, liking and perceived partner attention. The known enjoyment coefficient was one in both and both had 48 repeat speakers. The fixture contained another 12 speakers with one conversation. An absent directly answered enjoyment item stopped its reader. Enjoyment stands in for interest, and the second reading holds ratings that enjoyment may itself cause.
+
+The package qualification first stopped during test discovery. After correcting that import, two numerical modules held the temporary code ZIP open during Windows cleanup. The final version loaded reviewed modules from a temporary directory and all six completed, including refusal of altered made inputs for all four projection jobs. The previous test and packager versions are preserved by hash. The original-format CAD1 and SLD3 research candidates have their 2,000-draw settings and distinct hashes. TMP1 is tracked separately. Its output list is empty and TP58 has not been delivered.
+
+All previous diary preparation charges were matched against their immutable budgets. The additional shared preparation entry books 72.015625 CPU-seconds including failed attempts. The campaign and family ceilings are unchanged.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror.; project meaning: scoped operational record; next engineering obligation: Resume storage handback in CF order, review actual source bindings, then admit eligible rows in the packet order.; public scientific claim unchanged; curator decision required: No new decision. Detail: CK_SEALED_REHEARSALS_20261122.md.
+
 ### OPS-S15-W6-CK-PREPARATION-20261122
 
 The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications. The following are preparation charges, including retained failures. They must be counted once in the campaign. This inventory also includes qualifications already booked to their first diary run.

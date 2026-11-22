@@ -1,5 +1,7 @@
 # Week 5 verified records
 
+**OPS-S15-W6-CK-SEALED-REHEARSALS-20261122:** [Record](CK_SEALED_REHEARSALS_20261122.md). Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror.
+
 **OPS-S15-W6-CK-PREPARATION-20261122:** [Record](CK_PREPARATION_20261122.md). The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications.
 
 **OPS-S15-W6-RBD1-INVENTORY-20261122:** [Record](RBD1_SOURCE_REVIEW_20261122.md). The temporary-root inventory contains no diary with prompt-level playfulness and current stress at the required frequency.
