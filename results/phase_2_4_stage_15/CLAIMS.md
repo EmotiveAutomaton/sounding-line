@@ -2082,3 +2082,9 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W6-RBD1-INVENTORY-20261122 | operational | infrastructure / passes | The temporary-root inventory contains no diary with prompt-level playfulness and current stress at the required frequency. |
 | OPS-S15-W6-CK-PREPARATION-20261122 | operational | infrastructure / passes | The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications. |
 | OPS-S15-W6-CK-SEALED-REHEARSALS-20261122 | operational | infrastructure / passes | Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. |
+| OPS-S15-W6-DRT1-RETURN-20261122 | operational | infrastructure / passes | The restored bulk store matched all 147 originals. All 39 incoming files were verified on return. |
+| OPS-S15-W6-SMF1-THREE-20261122 | operational | infrastructure / passes | The three qualified wave-two jobs completed through the installed gate, in the commissioned order. |
+| S15-W6-NT1S-MIDUS-20261122 | S2, S4, S3 | inconclusive / passing controls | At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence. |
+| S15-W7-SLD3-M2-20261122 | S3, P4 | inconclusive / passing controls | The gated return could not establish a pooled trait effect or equivalence across unpleasant feelings. |
+| OPS-S15-W7-TWO1-INTERNAL-20261122 | operational | infrastructure / passes | TWO1 completed and its numerical return was filed internally. |
+| OPS-S15-W7-SCR1-INTERNAL-20261122 | operational | infrastructure / passes | SCR1 completed and its numerical return was filed internally. |

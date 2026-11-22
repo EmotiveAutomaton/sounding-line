@@ -1,5 +1,11 @@
 # Week 5 evidence
 
+At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence. [Record](NT1S_DAILY_TRAIT_MIDUS_20261122.md).
+
+The three qualified wave-two jobs completed through the installed gate, in the commissioned order. [Record](SMF1_THREE_SEALED_RETURNS_20261122.md).
+
+The restored bulk store matched all 147 originals. All 39 incoming files were verified on return. [Record](DRT1_STORAGE_RETURN_20261122.md).
+
 Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. [Rehearsal and cost record](CK_SEALED_REHEARSALS_20261122.md).
 
 The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons. [Full return](BT_PST9_AFTER_SIX_20261122.md).

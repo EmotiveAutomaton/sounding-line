@@ -2203,3 +2203,9 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-22T19:23:52.840459+00:00 OPS-S15-W6-CK-PREPARATION-20261122: The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications.
 
 2026-11-22T19:57:13.259047+00:00 OPS-S15-W6-CK-SEALED-REHEARSALS-20261122: Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror.
+
+2026-11-22T23:21:53.611462+00:00 OPS-S15-W6-DRT1-RETURN-20261122: The restored bulk store matched all 147 originals. All 39 incoming files were verified on return.
+
+2026-11-22T23:21:54.265783+00:00 OPS-S15-W6-SMF1-THREE-20261122: The three qualified wave-two jobs completed through the installed gate, in the commissioned order.
+
+2026-11-22T23:21:55.804552+00:00 S15-W6-NT1S-MIDUS-20261122: At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence.

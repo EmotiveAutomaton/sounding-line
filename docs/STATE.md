@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+SCR1 completed with an authenticated internal return. [Record](../results/phase_2_4_stage_15/WEEK7/SCR1_INTERNAL_RETURN.md).
+
+TWO1 completed with an authenticated internal return. [Record](../results/phase_2_4_stage_15/WEEK7/TWO1_INTERNAL_RETURN.md).
+
+The gated return could not establish a pooled trait effect or equivalence across unpleasant feelings. [Record](../results/phase_2_4_stage_15/WEEK7/SLD3_DAILY_TRAIT.md).
+
+At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence. [Record](../results/phase_2_4_stage_15/WEEK5/NT1S_DAILY_TRAIT_MIDUS_20261122.md).
+
+The three qualified wave-two jobs completed through the installed gate, in the commissioned order. [Record](../results/phase_2_4_stage_15/WEEK5/SMF1_THREE_SEALED_RETURNS_20261122.md).
+
+The restored bulk store matched all 147 originals. All 39 incoming files were verified on return. [Record](../results/phase_2_4_stage_15/WEEK5/DRT1_STORAGE_RETURN_20261122.md).
+
 Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. [Rehearsal and cost record](../results/phase_2_4_stage_15/WEEK5/CK_SEALED_REHEARSALS_20261122.md).
 
 The final six-diary pool includes helping occurrence for the eligible pleasant forms. The effort description contributes to none of the pooled comparisons. [Full return](../results/phase_2_4_stage_15/WEEK5/BT_PST9_AFTER_SIX_20261122.md).

@@ -1,5 +1,95 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W7-SCR1-INTERNAL-20261122
+
+The Portuguese study evaluated the two approved grouped-price fits, observed refusal and top-price dip, item zero shares and the odd/even description. The restricted record retains all missing-fit dispositions and whole-person intervals. The registered source terms restrict the numerical result to the internal record and theory thread.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; SCR1 completed and its numerical return was filed internally.; project meaning: scoped operational record; next engineering obligation: Retain numerical results and figures in the restricted packet only.; public scientific claim unchanged; curator decision required: No new decision. Detail: SCR1_INTERNAL_RETURN.md.
+
+### OPS-S15-W7-TWO1-INTERNAL-20261122
+
+The initial teaching-diary run stopped on a repeated occasion key before fitting. The recovered run excluded all records with an ambiguous key and repeated every registered quantity in a fresh Windows job. The registered source terms restrict the numerical result to the internal record and theory thread.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; TWO1 completed and its numerical return was filed internally.; project meaning: scoped operational record; next engineering obligation: Retain numerical results and figures in the restricted packet only.; public scientific claim unchanged; curator decision required: No new decision. Detail: TWO1_INTERNAL_RETURN.md.
+
+### S15-W7-SLD3-M2-20261122
+
+Does Neuroticism predict sensitivity to daily stress beyond differences in ordinary feeling level and spread? The gated return could not establish a pooled trait effect or equivalence across unpleasant feelings. Day 1–4 and day 5–8 supplied separate stressor and baseline slopes. All 109 registered output positions were accounted for. Fifty-eight estimates passed disclosure, fourteen fits or draws were undefined and thirty-seven estimates were withheld by the joint disclosure check. The status denominator describes the source diary and gives no suppressed contrast count.
+
+| Registered comparison | Estimate | 95% family interval | Reading |
+|---|---:|---|---|
+| Anger group | 0.141 | 0.027 to 0.239 | Channel summary |
+| Fear group | 0.198 | -0.002 to 0.361 | Channel summary |
+| All negative feelings | Withheld | Withheld | ○ Pooled direction unavailable |
+| Anger minus fear | -0.057 | -0.243 to 0.146 | ○ Equivalence unestablished |
+
+The equivalence bar requires every pairwise interval inside ±0.15. A wide interval leaves that question open. The job decoded the source again and repeated all 2,000 family draws before its single disclosure decision. See the [registered contrast order](../../../docs/design/stage-15/week7/SLD3_REHEARSAL.md), [aggregate estimates](SLD3_trait.csv) and [complete disposition table](SLD3_table_status.csv). Eight evening reports per person combine the stressor and feeling in one interview. Floor effects and self-report can change the apparent trait association.
+
+Curator roll-up: S3, P4 · Does Neuroticism predict sensitivity to daily stress beyond differences in ordinary feeling level and spread? · **Narrows** · The gated return could not establish a pooled trait effect or equivalence across unpleasant feelings. · Project scope: MIDUS wave-two survey and eight-day diary; family resampling. · Next: Carry the disclosure and equivalence limits into the Week 7 packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: SLD3_DAILY_TRAIT.md.
+
+### S15-W6-NT1S-MIDUS-20261122
+
+Does Neuroticism track the initial association of daily stress with negative feeling, or its association a day later? At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence.
+
+The prospective exposure check found 4378 prior-stressor pairs across 1540 exposed people. The fitted roster included 1,737 people. Same-day and previous-day stressors were centred within person. The qualified independent implementations checked the point estimates and 2,000 whole-family draws. The relative interaction difference included zero and the current interaction also included zero.
+
+| Quantity | Estimate | 95% family interval |
+|---|---:|---:|
+| Current stressor | 0.5389 | 0.4995 to 0.5785 |
+| Previous stressor | 0.0550 | 0.0179 to 0.0925 |
+| Neuroticism | 0.4736 | 0.4011 to 0.5490 |
+| Neuroticism × current stressor | 0.0038 | -0.0368 to 0.0472 |
+| Neuroticism × previous stressor | 0.0015 | -0.0368 to 0.0390 |
+| Difference of unscaled interactions | -0.0022 | -0.0525 to 0.0464 |
+| Relative interaction difference | 0.0211 | -0.9658 to 0.9586 |
+
+The approximate 80%-detection size of the relative contrast was 3.044. Its boundary was zero. Stressors and feelings were reported on the same evening call. The daily interval is coarse, and saturation can change the relative contrast. [Original gated tables](SMF1_THREE_SEALED_RETURNS_20261122.md).
+
+Curator roll-up: S2, S4, S3 · Does Neuroticism track the initial association of daily stress with negative feeling, or its association a day later? · **Narrows** · At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence. · Project scope: MIDUS wave-two daily diary · Next: Retain the daily uncertainty in the stage return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: NT1S_DAILY_TRAIT_MIDUS_20261122.md.
+
+### OPS-S15-W6-SMF1-THREE-20261122
+
+The three qualified wave-two jobs completed through the installed gate, in the commissioned order. These were invocations 17, 18 and 19 of the Week 6 allowance of 30. The source-file count in the status table is the number of distinct people in the diary file. It is never a count of a suppressed subset.
+
+| Study table | Disposition | People in source file |
+|---|---|---:|
+| MI1 | complementary disclosure | 2022 |
+| MI2 reliability | complementary disclosure | 2022 |
+| MI2 | complementary disclosure | 2022 |
+| MI2 traits | complementary disclosure | 2022 |
+| MI3 | kept | 2022 |
+| MI3 direction | kept | 2022 |
+| MI4 | below release floor | 2022 |
+| MI4 interaction | below release floor | 2022 |
+| MI4 work or volunteering | below release floor | 2022 |
+| MI4 home | below release floor | 2022 |
+| MI4 friend or relative | below release floor | 2022 |
+| MI4 other | below release floor | 2022 |
+| counts | kept | 2022 |
+| NT1.s | kept | 2022 |
+| D5.s | complementary disclosure | 2022 |
+
+The main job returned participant-count rows and MI3 point estimates. The MI3 family linkage was incomplete for this roster, so no uncertainty interval or directional verdict is available. The D5.s argument comparison returned its status row only. Its complementary disclosure restriction leaves the next-day comparison undecided. No suppressed count was reconstructed. NT1.s has a separate study record. Original withheld attempts from November 20 stand in the history.
+
+All returned aggregate files, preserved byte for byte:
+
+- [SMF1_BM_20261122_MAIN_counts.csv](SMF1_BM_20261122_MAIN_counts.csv)
+- [SMF1_BM_20261122_MAIN_interval_unavailable.csv](SMF1_BM_20261122_MAIN_interval_unavailable.csv)
+- [SMF1_BM_20261122_MAIN_table_status.csv](SMF1_BM_20261122_MAIN_table_status.csv)
+- [SMF1_BM_20261122_NT1_daily_estimates.csv](SMF1_BM_20261122_NT1_daily_estimates.csv)
+- [SMF1_BM_20261122_NT1_daily_exposure.csv](SMF1_BM_20261122_NT1_daily_exposure.csv)
+- [SMF1_BM_20261122_NT1_daily_reading.csv](SMF1_BM_20261122_NT1_daily_reading.csv)
+- [SMF1_BM_20261122_NT1_table_status.csv](SMF1_BM_20261122_NT1_table_status.csv)
+- [SMF1_BM_20261122_D5_table_status.csv](SMF1_BM_20261122_D5_table_status.csv)
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The three qualified wave-two jobs completed through the installed gate, in the commissioned order.; project meaning: scoped operational record; next engineering obligation: Carry the undecided MIDUS rows and the separate NT1.s record into the final packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: SMF1_THREE_SEALED_RETURNS_20261122.md.
+
+### OPS-S15-W6-DRT1-RETURN-20261122
+
+The restored bulk store matched all 147 originals. All 39 incoming files were verified on return. The original 15 open sources totaled 67,145,669 bytes. Each original and temporary copy matched the registered SHA-256 and size. The returning deposits totaled 29,245,160 bytes. Nine payloads also had corresponding files in the existing open-source archive and matched them. The project pointer, persistent data-root setting and a fresh adapter read all verified the restored root. The temporary-only registry and manifest were preserved in the custody record. The operator removed the 188 verified temporary files and confirmed that the temporary root was absent. Receipt times use the observed operation times. The curator’s handback supplied no literal date or time.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The restored bulk store matched all 147 originals. All 39 incoming files were verified on return.; project meaning: scoped operational record; next engineering obligation: Resume SMF1 in order under CF.; public scientific claim unchanged; curator decision required: No new decision. Detail: DRT1_STORAGE_RETURN_20261122.md.
+
 ### OPS-S15-W6-CK-SEALED-REHEARSALS-20261122
 
 Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. SLD3 exercised two original-format SPSS tables. CAD1 exercised reciprocal Parquet ratings and speaker timing. CAD2, LGH1, LGH2 and SLD2 exercised constructed projections. Their source-specific bindings still require the original manifests, clocks, annotations or dictionaries. No Spark invocation or participant outcome was opened in these rehearsals.

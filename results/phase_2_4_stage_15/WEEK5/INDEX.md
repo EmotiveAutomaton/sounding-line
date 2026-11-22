@@ -1,5 +1,11 @@
 # Week 5 verified records
 
+**S15-W6-NT1S-MIDUS-20261122:** [Record](NT1S_DAILY_TRAIT_MIDUS_20261122.md). At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence.
+
+**OPS-S15-W6-SMF1-THREE-20261122:** [Record](SMF1_THREE_SEALED_RETURNS_20261122.md). The three qualified wave-two jobs completed through the installed gate, in the commissioned order.
+
+**OPS-S15-W6-DRT1-RETURN-20261122:** [Record](DRT1_STORAGE_RETURN_20261122.md). The restored bulk store matched all 147 originals. All 39 incoming files were verified on return.
+
 **OPS-S15-W6-CK-SEALED-REHEARSALS-20261122:** [Record](CK_SEALED_REHEARSALS_20261122.md). Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror.
 
 **OPS-S15-W6-CK-PREPARATION-20261122:** [Record](CK_PREPARATION_20261122.md). The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications.

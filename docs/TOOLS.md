@@ -3033,6 +3033,18 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W7-SCR1-INTERNAL-20261122:** SCR1 completed and its numerical return was filed internally. [Record](../results/phase_2_4_stage_15/WEEK7/SCR1_INTERNAL_RETURN.md).
+
+**OPS-S15-W7-TWO1-INTERNAL-20261122:** TWO1 completed and its numerical return was filed internally. [Record](../results/phase_2_4_stage_15/WEEK7/TWO1_INTERNAL_RETURN.md).
+
+**S15-W7-SLD3-M2-20261122:** The gated return could not establish a pooled trait effect or equivalence across unpleasant feelings. [Record](../results/phase_2_4_stage_15/WEEK7/SLD3_DAILY_TRAIT.md).
+
+**S15-W6-NT1S-MIDUS-20261122:** At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence. [Record](../results/phase_2_4_stage_15/WEEK5/NT1S_DAILY_TRAIT_MIDUS_20261122.md).
+
+**OPS-S15-W6-SMF1-THREE-20261122:** The three qualified wave-two jobs completed through the installed gate, in the commissioned order. [Record](../results/phase_2_4_stage_15/WEEK5/SMF1_THREE_SEALED_RETURNS_20261122.md).
+
+**OPS-S15-W6-DRT1-RETURN-20261122:** The restored bulk store matched all 147 originals. All 39 incoming files were verified on return. [Record](../results/phase_2_4_stage_15/WEEK5/DRT1_STORAGE_RETURN_20261122.md).
+
 **OPS-S15-W6-CK-SEALED-REHEARSALS-20261122:** Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror. [Record](../results/phase_2_4_stage_15/WEEK5/CK_SEALED_REHEARSALS_20261122.md).
 
 **OPS-S15-W6-CK-PREPARATION-20261122:** The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications. [Record](../results/phase_2_4_stage_15/WEEK5/CK_PREPARATION_20261122.md).

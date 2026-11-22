@@ -2,7 +2,9 @@
 
 [Packet and predictions](PACKET.md) · [Round 35 handoff](../week6/THEORY_HANDOFF_R35.md) · [Intake hashes](INTAKE.json)
 
-The curator approved CE, CF, CJ, CK, CL, CM, CN and CO on November 22. The temporary-root diary studies start under Week 6 accounting until its 20:00 Pacific freeze on November 22. The Week 6 drain receipt opens Week 7. Outstanding Phase 0 studies carry over with their original designs. The Week 7 freeze, drain and final filing fall on November 26 at 20:00, 22:00 and 23:00 Pacific.
+The [15:30 amendment to CK](CK_EARLY_OPEN.md) opened the Week 7 budget for Phase 1 on November 22. The restored store passed DRT1 step 6, and the three SMF1 jobs completed in order on the Week 6 ledger. Phase 0 and the Week 6 closing schedule retain their original accounting.
+
+The curator approved CE, CF, CJ, CK, CL, CM, CN and CO on November 22. Phase 0 uses Week 6 accounting and follows its closing schedule. The Week 7 freeze, drain and final filing fall on November 26 at 20:00, 22:00 and 23:00 Pacific.
 
 The curator's storage handback triggers DRT1 step 6, then the three previously qualified SMF1 jobs, then Phase 1. While the hold is active, source work uses the verified temporary root. Sealed builds use constructed files locally. Keep the teaching-diary test figures in the internal repository record and theory thread. Member 0049's conditional effort description stays internal and outside PST9.
 

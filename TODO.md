@@ -1,5 +1,17 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W7-SCR1-INTERNAL-20261122: SCR1 completed and its numerical return was filed internally.
+
+- [x] OPS-S15-W7-TWO1-INTERNAL-20261122: TWO1 completed and its numerical return was filed internally.
+
+- [x] S15-W7-SLD3-M2-20261122: The gated return could not establish a pooled trait effect or equivalence across unpleasant feelings.
+
+- [x] S15-W6-NT1S-MIDUS-20261122: At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence.
+
+- [x] OPS-S15-W6-SMF1-THREE-20261122: The three qualified wave-two jobs completed through the installed gate, in the commissioned order.
+
+- [x] OPS-S15-W6-DRT1-RETURN-20261122: The restored bulk store matched all 147 originals. All 39 incoming files were verified on return.
+
 - [x] OPS-S15-W6-CK-SEALED-REHEARSALS-20261122: Six sealed-study packages ran in fresh local Python processes on constructed files. All six outputs passed the installed gate mirror.
 
 - [x] OPS-S15-W6-CK-PREPARATION-20261122: The six supplied operators, generated-sound measurements and reader-independent TMP1 checks completed their constructed qualifications.
