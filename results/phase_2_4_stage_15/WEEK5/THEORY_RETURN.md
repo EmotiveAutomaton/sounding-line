@@ -1,5 +1,7 @@
 # Round 12 theory return — Week 5 back half
 
+[November 22 lattice return](../../../docs/exchange/THEORY_RETURN_LATTICE.md). Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar.
+
 [November 21 extension return](NOVEMBER_21_EXTENSION_RETURN.md) contains the registered rows, limits and links to their source evidence.
 
 **S15-W6-IN16-REFERENCE-20261116:** [IN16 all-report reference](IN16_REFERENCE_20261116.md). The all-report ordered-duration reference is fully reproduced at its original scope and carries no new scientific verdict. Full scope and limits are in the linked record.
@@ -277,3 +279,90 @@ Authority: [preserved packet](../../../docs/design/stage-15/week5/PACKET_TWO_DAY
 **OPS-S15-W5-FINAL-DRAIN-20261115.** Final actual drain and accounting only. All cutoff scientific wording and theory hashes remain unchanged. [Addendum](FINAL_DRAIN_20261115.md).
 
 **OPS-S15-W6-START-GATE-20261115.** Operational Week 6 transition and authenticated checkpoints only; no human score, scientific claim or theory change. [Record](WEEK6_START_GATE_20261115.md).
+
+## What a trigger is made of · Week 6 cutoff
+
+Whole writers were held out on five frozen label pairs. Area is the probability of correctly ordering one held-out report from each label. The intervals are conditional on the fitted learners. Pair estimates are descriptive components of one primary and cannot identify a biological channel.
+
+| Label pair | Ratings area | Word area | Gain | 95% interval | Writers |
+| --- | --- | --- | --- | --- | --- |
+| pride / joy | 0.617204 | 0.755186 | 0.137982 | [0.099173, 0.178803] | 792 |
+| guilt / shame | 0.634482 | 0.702568 | 0.068086 | [0.004269, 0.133488] | 421 |
+| fear / sadness | 0.725036 | 0.867715 | 0.142679 | [0.109068, 0.178885] | 846 |
+| anger / disgust | 0.741589 | 0.787458 | 0.045869 | [0.008104, 0.083020] | 809 |
+| trust / joy | 0.798319 | 0.896392 | 0.098073 | [0.067201, 0.128869] | 818 |
+
+[Method, pooled primary and full appraisal table](IN13B_COMPLETE_20261116.md).
+
+## Four theory sets at the Week 6 cutoff
+
+The counts below describe empirical questions with a filed Week 6 source result or an explicit sealed/source-support disposition. Predecessor results and engineering-only attempts remain visible separately. “At bar” requires a registered primary to pass. A component can have its own primary on a card with several parts.
+
+| Set | Filed Week 6 card dispositions | At bar / against | What the set leaves open |
+|---|---|---|---|
+| Leftover has a lifetime, and control shortens it | 5 of 6: IN14, IN16, CH13, ES3, MI3. EN1 has no new empirical return. | 0 / 2. Both appraisal primaries fell inside their practical bands. | Chess lacked eligible players, the diary gap comparison was inconclusive and MI3 had no family interval. Control shortening persistence is unresolved. |
+| One sensitivity, or more | 4 of 7: TR2 has a source-support disposition, ES2 reached its reliability check, MI2 and MI4 have sealed dispositions. IN12 is prior evidence. CH12 and IP1 have no new Week 6 empirical result. | 0 / 0. | A failed reliability or release check does not decide how many sensitivities there are. |
+| What picks the channel | 3 of 6: IN13, ES1 and MI1. CH8, CH9 and LA5 have no new Week 6 empirical result here. | 1 / 0 at card level, through IN13B’s primary. ES1’s joint double split was not met; IN13A retains its full cell-wise family. | Label discrimination and same-prompt contrasts cannot identify a trigger mechanism. The IN13B result concerns the frozen learners and roster. |
+| Attention and readiness, read from timing | 4 of 7: KP1, KP2, KP3, IN15. D33 is predecessor evidence, TR2 slowing has no qualified final estimate, and CH14 closed at its approved cost stop. | 0 / 0 on the Week 6 card primaries. KP1’s continuation association is secondary; its deletion primary is void. | An observable pause can have several causes. No unverified CH14 output enters the count. |
+
+The [full register](WEEK6_FINAL_DIGEST_20261122_REGISTER.md) keeps each reported partial outcome and the earlier cards’ boundaries.
+
+## November 20 extensions at the freeze
+
+Each link gives the source, unit, analysis, sensitivity and the registered branch. The values below are transcribed from the evidence ledger.
+
+### S15-W6-LD1-0056-20261120
+
+Did failure predict a larger increase in reported shame than sadness in company compared with time alone? **Filed reading.** opposite direction. **Estimate.** -0.17015795073795675. **Interval.** [-0.27690938697186934, -0.07106320333586405]. **Bar.** 0.1. The same person rated success and feelings at the same prompt. Shame answers may be noisier after time alone, and this diary cannot separate that explanation from the proposed effect. [Filed report](LD1_DIARY_0056_20261120.md). [Result sheet](LD1_DIARY_0056_20261120_SHEET.md).
+
+### S15-W6-LD1-0057-20261120
+
+Did failure predict a larger increase in reported shame than sadness in company compared with time alone? **Filed reading.** inconclusive. **Estimate.** -0.02713755925148875. **Interval.** [-0.09297886340285809, 0.035228778879658605]. **Bar.** 0.1. The same person rated success and feelings at the same prompt. Shame answers may be noisier after time alone, and this diary cannot separate that explanation from the proposed effect. [Filed report](LD1_DIARY_0057_20261120.md). [Result sheet](LD1_DIARY_0057_20261120_SHEET.md).
+
+### S15-W6-LD2-0056-20261120
+
+Did an interaction partner’s rank change the balance of anger and fear-like feelings after criticism? **Filed reading.** {"LD2.b": "inconclusive"}. **Estimate.** {"LD2.b": -0.0018332092673318337}. **Interval.** {"LD2.b": [-0.046989219077352665, 0.041097067492883964]}. **Bar.** {"LD2.b": 0.05}. Leadership, superiority, self-assurance and feelings share one prompt. Unequal answer noise can mimic moderation. Rank refers to the relationship. [Filed report](LD2_DIARY_0056_20261120.md). [Result sheet](LD2_DIARY_0056_20261120_SHEET.md).
+
+### S15-W6-LD2-0057-20261120
+
+Did an interaction partner’s rank change the balance of anger and fear-like feelings after criticism? **Filed reading.** {"LD2.a": "inconclusive", "LD2.b": "inconclusive", "LD2.c": "inconclusive"}. **Estimate.** {"LD2.a": 0.061087124784254265, "LD2.b": 0.009525527254917213, "LD2.c": -0.012709213998759343}. **Interval.** {"LD2.a": [-0.24551178657407052, 0.34182613620026875], "LD2.b": [-0.022446209342275217, 0.040157344586220986], "LD2.c": [-0.040347208051433506, 0.017880382517458885]}. **Bar.** {"LD2.a": 0.4, "LD2.b": 0.05, "LD2.c": 0.05}. Leadership, superiority, self-assurance and feelings share one prompt. Unequal answer noise can mimic moderation. Rank refers to the relationship. [Filed report](LD2_DIARY_0057_20261120.md). [Result sheet](LD2_DIARY_0057_20261120_SHEET.md).
+
+### S15-W6-NT1-DE-0057-20261120
+
+After a criticised interaction, how much of the association with a bad feeling remains at the next answered prompt? **Filed reading.** Previous-prompt interval spans zero and stays below the practical bar. Trait-stage gate closed. Gap thirds descriptive.. **Estimate.** {"NT1.d": 0.02570171333050544, "NT1.e": [0.04844190214040011, 0.003921911380245119, 0.02207877888009362], "current": 0.44302541011021557}. **Interval.** {"NT1.d": [-0.0036673553204240408, 0.054010087113695884], "NT1.e": null, "current": [0.3924316778977178, 0.49915558361501144]}. **Bar.** {"NT1.d": 0.1, "NT1.e": null, "trait_stage_fraction": 0.3}. The same person reported criticism and feelings. A new event, a change of activity or a change in reporting can alter the next answer. The diary does not measure a biological decay rate. [Filed report](NT1_CRITICISM_CARRY_0057_20261120.md). [Result sheet](NT1_CRITICISM_CARRY_0057_20261120_SHEET.md).
+
+### S15-W6-NT1S-MIDUS-20261122
+
+Does Neuroticism track the initial association of daily stress with negative feeling, or its association a day later? **Filed reading.** No placement at the registered daily spacing. **Estimate.** 0.021079918368047026. **Interval.** [-0.9658309483157562, 0.9586051283491344]. **Bar.** 0. Stressors and feelings were reported on the same evening call. The daily interval is coarse, and saturation can change the relative contrast. [Filed report](NT1S_DAILY_TRAIT_MIDUS_20261122.md). [Result sheet](NT1S_DAILY_TRAIT_MIDUS_20261122_SHEET.md).
+
+### S15-W6-LA6-SL-20261120
+
+Can observable context predict a new laugh when the case and control utterances have similar word counts? **Filed reading.** against. **Estimate.** {"1s_length_held.with_laugh_history": 0.5707259727223256, "1s_length_held.without_laugh_history": 0.5647821347012034, "2s_length_held.with_laugh_history": 0.5604185797946903, "2s_length_held.without_laugh_history": 0.5503926211056179}. **Interval.** {"1s_length_held.with_laugh_history": [0.5567956115551714, 0.5859933489124614], "1s_length_held.without_laugh_history": [0.5501284977498118, 0.5799335139153108], "2s_length_held.with_laugh_history": [0.5492870004196385, 0.5727382477723463], "2s_length_held.without_laugh_history": [0.5388983270107853, 0.5616288879272309]}. **Bar.** 0.6. The annotation identifies a new vocal laugh in recorded meetings. It cannot establish surprise, shared inference, a causal role for length or the proposed PLAY mechanism. [Filed report](LA6_LENGTH_HELD_ONSETS_20261120.md). [Result sheet](LA6_LENGTH_HELD_ONSETS_20261120_SHEET.md).
+
+### S15-W6-LA9-MEASURED-20261120
+
+Which pooled dialogue acts predict the matched laughter label in the fixed sample of whole meetings? **Filed reading.** {"with history / AMI/information_exchange": "reference", "with history / AMI/no_speaker_intention": "estimated", "with history / AMI/other": "estimated", "with history / AMI/possible_action": "estimated", "with history / AMI/previous_discussion": "estimated", "with history / AMI/social": "estimated", "with history / ICSI/backchannel": "estimated", "with history / ICSI/disruption": "estimated", "with history / ICSI/filler": "estimated", "with history / ICSI/question": "estimated", "with history / ICSI/statement": "estimated", "without history / AMI/information_exchange": "reference", "without history / AMI/no_speaker_intention": "estimated", "without history / AMI/other": "estimated", "without history / AMI/possible_action": "estimated", "without history / AMI/previous_discussion": "estimated", "without history / AMI/social": "estimated", "without history / ICSI/backchannel": "estimated", "without history / ICSI/disruption": "estimated", "without history / ICSI/filler": "estimated", "without history / ICSI/question": "estimated", "without history / ICSI/statement": "estimated"}. **Estimate.** {"with history / AMI/information_exchange": 1.0, "with history / AMI/no_speaker_intention": 1.1521535231239062, "with history / AMI/other": 1.327412013367834, "with history / AMI/possible_action": 1.377345799944595, "with history / AMI/previous_discussion": 1.6116007994397934, "with history / AMI/social": 5.970326869645969, "with history / ICSI/backchannel": 1.1689027953061426, "with history / ICSI/disruption": 2.011290720464907, "with history / ICSI/filler": 1.1895580996563873, "with history / ICSI/question": 1.7327522780371785, "with history / ICSI/statement": 1.5378430586137046, "without history / AMI/information_exchange": 1.0, "without history / AMI/no_speaker_intention": 1.158542619593939, "without history / AMI/other": 1.2514531633749273, "without history / AMI/possible_action": 1.4087186608715867, "without history / AMI/previous_discussion": 1.6151164069786723, "without history / AMI/social": 5.62533800661801, "without history / ICSI/backchannel": 1.3609728593528847, "without history / ICSI/disruption": 2.1309126439532537, "without history / ICSI/filler": 1.300433206603113, "without history / ICSI/question": 1.7822155662419084, "without history / ICSI/statement": 1.624226914618077}. **Interval.** {"with history / AMI/information_exchange": null, "with history / AMI/no_speaker_intention": [0.8578378210400736, 1.5991475770121766], "with history / AMI/other": [0.9206502393090348, 2.1925917266418504], "with history / AMI/possible_action": [1.0456930271741978, 1.8404209934602183], "with history / AMI/previous_discussion": [1.336956733585115, 2.129272727180283], "with history / AMI/social": [3.6147431538706183, 11.80273697847829], "with history / ICSI/backchannel": [0.6658411334950001, 3.083518593889618], "with history / ICSI/disruption": [1.2612537370384056, 4.861921996225143], "with history / ICSI/filler": [0.7302635407095089, 2.98085991015452], "with history / ICSI/question": [1.117860412960888, 4.097465078359847], "with history / ICSI/statement": [1.1750998872775662, 2.538944186589206], "without history / AMI/information_exchange": null, "without history / AMI/no_speaker_intention": [0.8504618047139094, 1.6241385246688458], "without history / AMI/other": [0.8517293443076196, 2.062716205971937], "without history / AMI/possible_action": [1.074524643204226, 1.8842577162814667], "without history / AMI/previous_discussion": [1.3364771256122903, 2.1515427924142654], "without history / AMI/social": [3.2715390534736066, 11.202992883409392], "without history / ICSI/backchannel": [0.7978717193913356, 3.594527196881111], "without history / ICSI/disruption": [1.3035451670309048, 5.219325035945562], "without history / ICSI/filler": [0.784907456695101, 3.220558970312255], "without history / ICSI/question": [1.1010101569278723, 4.384268231267689], "without history / ICSI/statement": [1.2553585897025206, 2.6518402449944865]}. **Bar.** 50 distinct utterances per class. Corpus annotation systems describe different speech functions. The matched label can include laughter already underway. Timing and topic do not identify the speaker’s intent or the cause of laughter. ICSI coefficients use the AMI information-exchange reference, so they combine differences in corpus and speech function. The full-source pilot projected a cost above the allowance. [Filed report](LA9_SAMPLED_POOLED_ACTS_20261120.md). [Result sheet](LA9_SAMPLED_POOLED_ACTS_20261120_SHEET.md).
+
+### S15-W6-RR4-D3-BE-20261120
+
+Does a player’s best previous ending predict choices in a later play better than either the starting score or the previous ending? **Filed reading.** inconclusive. **Estimate.** {"best_observed_earlier_end_minus_last_session_end": 0.006436218364846474, "best_observed_earlier_end_minus_play_start": 0.01718159208644882, "last_session_end_minus_play_start": 0.011403462915964384}. **Interval.** {"best_observed_earlier_end_minus_last_session_end": [-0.012754536577026356, 0.025223662345207516], "best_observed_earlier_end_minus_play_start": [0.0043781263931948694, 0.02979782641308564], "last_session_end_minus_play_start": [-0.0038395133723741945, 0.027057227253255885]}. **Bar.** 0. The test is each player’s latest eligible repeat play and speaks to late plays. A game score is not anyone’s meaning. [Filed report](D3_LATE_REPEAT_BE_20261120.md). [Result sheet](D3_LATE_REPEAT_BE_20261120_SHEET.md).
+
+### S15-W6-R1-I-ISEAR-20261120
+
+Were unexpected recalled events associated with especially intense anger compared with sadness? **Filed reading.** joint registered bars not met; anger-specific difference inconclusive. **Estimate.** {"anger": 0.07433861742403525, "anger_minus_sadness": -0.01166621751805176, "sadness": 0.08600483494208701}. **Interval.** {"anger": [0.01254802436657763, 0.13638372055545053], "anger_minus_sadness": [-0.10360390516810142, 0.08359935805081053], "sadness": [0.01647892462193114, 0.15261909042781382]}. **Bar.** anger and anger-minus-sadness estimates each at least 0.08 and each 95% interval above zero. An event being unexpected does not establish how quickly it unfolded. People selected a remembered event for each feeling word, and complete-case populations differed. [Filed report](R1_ISEAR_EXPECTEDNESS_20261120.md). [Result sheet](R1_ISEAR_EXPECTEDNESS_20261120_SHEET.md).
+
+### S15-W6-LA6-S-20261120
+
+Can the observable context predict a new laugh after an utterance ends in a held-out meeting? **Filed reading.** inconclusive. **Estimate.** {"1s_strict.with_laugh_history": 0.5983963396152577, "1s_strict.without_laugh_history": 0.5920180386315329, "2s_strict.with_laugh_history": 0.605892124128601, "2s_strict.without_laugh_history": 0.5965806721624902}. **Interval.** {"1s_strict.with_laugh_history": [0.5845047810619842, 0.6132200850571834], "1s_strict.without_laugh_history": [0.5776607045277035, 0.6071472152513568], "2s_strict.with_laugh_history": [0.5957997546423385, 0.6166457841862458], "2s_strict.without_laugh_history": [0.5866398585355311, 0.6071271205346742]}. **Bar.** 0.6. The annotation identifies a new vocal laugh in recorded meetings. It cannot establish surprise, shared inference, a causal role for length or the proposed PLAY mechanism. [Filed report](LA6_STRICT_ONSETS_20261120.md). [Result sheet](LA6_STRICT_ONSETS_20261120_SHEET.md).
+
+D5.s returned only its disclosure status. Its point, interval and expected sign difference cannot be assessed. [Sealed return](SMF1_THREE_SEALED_RETURNS_20261122.md).
+
+The LD2 leadership point was positive and below bar in 0057, and slightly negative in 0056. Neither LD1 primary supported an audience increase. NT1.d had a positive small lag point and closed the second-stage gate. Both the NT1.s relative interval and current trait interval crossed zero, so only the first part of the daily guess held. LA6.sl fell below 0.60 with history at both windows. D3 supported only one of its two required comparisons. R1.i had a positive anger slope smaller than the sadness point estimate. Its anger-specific interval crossed zero. D5.s had no released comparison.
+
+## November 21 extensions at the freeze
+
+[Person-row extensions](NOVEMBER_21_EXTENSION_RETURN.md) · [Afternoon reactivity tests](BR_AFTERNOON_RETURN_20261121.md) · [Final six-diary pool](BT_PST9_AFTER_SIX_20261122.md). Member 0049’s effort description was filed internally outside the pool.
+
+## Week 6 freeze and packet register
+
+[Cutoff and next deadlines](WEEK6_FINAL_DIGEST_20261122.md) · [Complete evidence register](WEEK6_FINAL_DIGEST_20261122_REGISTER.md).

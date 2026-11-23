@@ -1,5 +1,9 @@
 # Week 5 verified records
 
+**OPS-S15-W6-FINAL-FREEZE-20261122:** [Record](WEEK6_FINAL_DIGEST_20261122.md). Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget.
+
+**S15-W6-LT1-FREEZE-20261122:** [Record](LT1_FROZEN_LATTICE_20261122.md). Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar.
+
 **S15-W6-NT1S-MIDUS-20261122:** [Record](NT1S_DAILY_TRAIT_MIDUS_20261122.md). At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence.
 
 **OPS-S15-W6-SMF1-THREE-20261122:** [Record](SMF1_THREE_SEALED_RETURNS_20261122.md). The three qualified wave-two jobs completed through the installed gate, in the commissioned order.

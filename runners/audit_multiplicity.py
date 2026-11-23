@@ -73,6 +73,10 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('Week 6 LT1 source-majority primary', 0.11328125, 'primary', 'results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.json'),
+    ('Week 6 LT1 individual-row descriptive tail', 0.017578125, 'diagnostic', 'results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.json'),
+    ('Week 6 LT1 source-claim descriptive tail', 0.0286865234375, 'diagnostic', 'results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.json'),
+    ('Week 6 LT1 secondary whole-person diary reference', 1 / 2001, 'diagnostic', 'results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.json'),
     # Complete registered descriptive prompt-excluded probe; no unsupported donor probabilities.
     ('D33.m prompt-excluded primary own Wald diagnostic', 6.277688360798217e-07, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_PROMPT_EXCLUDED_FULL_20261105.json'),
     ('D33.m prompt-excluded original_own_sensitivity own Wald diagnostic', 1.3726900611756714e-09, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_PROMPT_EXCLUDED_FULL_20261105.json'),

@@ -1,5 +1,7 @@
 # Week 5 evidence
 
+Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget. [Final digest](WEEK6_FINAL_DIGEST_20261122.md).
+
 At a one-day interval, the registered comparison could not place Neuroticism at the initial response or its persistence. [Record](NT1S_DAILY_TRAIT_MIDUS_20261122.md).
 
 The three qualified wave-two jobs completed through the installed gate, in the commissioned order. [Record](SMF1_THREE_SEALED_RETURNS_20261122.md).
