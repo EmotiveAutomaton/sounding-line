@@ -1,5 +1,7 @@
 # Constructed sound qualification for LGH1
 
+The common active-frame denominator, ICSI edition selection, duration label and required figure limit are fixed in the [recording binding](LGH1_RECORDING_BINDING.md).
+
 The measure accepts two mono sample arrays from the same recording, a marked laugh and the speaker’s reference speech. Use 40 ms frames with a 10 ms step. Estimate periodicity over lags corresponding to 60–600 Hz by normalized autocorrelation on overlapping, mean-centred samples. Among local peaks with correlation at least 0.65, use the earliest within 95% of the best peak. Refine it by parabolic interpolation. A frame below one percent of the segment’s peak RMS is unvoiced.
 
 Count energy bursts on 10 ms bins at or above one tenth of that segment’s maximum bin RMS. Merge gaps shorter than 40 ms. A burst lasts at least 30 ms. Report duration, number of bursts, voiced-frame fraction, median semitones relative to the reference speech median, interquartile pitch range in semitones, and relative RMS level in decibels. Silence leaves relative loudness undefined. A missing pitch leaves relative pitch undefined. The within-recording reference remains in memory. A sealed writer may export only the approved group summaries with verified participant support. The calculation opens no file or media stream.

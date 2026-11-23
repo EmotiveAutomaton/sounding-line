@@ -1,6 +1,6 @@
 """Shared Windows admission for Week 7. Costs and terminals belong to Week 7 only."""
 from contextlib import contextmanager
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import json
 import math
@@ -22,6 +22,21 @@ SEALED_LIMIT = 30
 
 def read(path):
     return json.loads(Path(path).read_text(encoding='utf-8-sig'))
+
+
+def shared_slot_limit(at=None, path=resources.SHARED_LOCK):
+    """Honor the companion's six-hour lease through the independent Week 7 window."""
+    at = at or datetime.now(timezone.utc)
+    if not resources.present(path):
+        return 8
+    reservation = resources.read(path)
+    if not reservation.get('expires_at'):
+        return 8
+    created = resources.instant(reservation['created_at'])
+    expires = resources.instant(reservation['expires_at'])
+    if created > at or expires <= created:
+        raise ValueError('Invalid shared reservation clock')
+    return 7 if at < min(created + timedelta(hours=6), expires, FREEZE) else 8
 
 
 def balance(root=ROOT):
@@ -76,7 +91,7 @@ def admit(directory, *, card, source, requested, row_limit, peak, sealed, pins):
                 raise RuntimeError('Week 7 sealed allowance exhausted')
             paths = resources.lease_paths()
             snapshot = resource_snapshot()
-            if len(paths) >= 8-int(resources.shared_reservation()['active']):
+            if len(paths) >= shared_slot_limit(now):
                 raise RuntimeError('Shared slots occupied')
             if (snapshot['ram_available_GiB'] < 6 or snapshot['commit_headroom_GiB'] < 8
                     or snapshot['disk_free_GiB'] < 20 or resources.memory_reserve(paths)+peak >
@@ -100,6 +115,8 @@ def admit(directory, *, card, source, requested, row_limit, peak, sealed, pins):
             if lease is None:
                 raise RuntimeError('All slots claimed')
             resources.post_claim()
+            if len(resources.lease_paths()) > shared_slot_limit():
+                raise RuntimeError('Shared reservation changed during admission')
             freeze(directory/'RESERVATION.json',dict(campaign='S15-WEEK7',card=card,source=source,
                 reserved_cpu_seconds=requested,row_cpu_limit=row_limit,cap_cpu=CEILING,sealed=sealed,
                 ordinal=calls+1 if sealed else None,slot=slot.name,native=owner,at=stamp,resources=snapshot,

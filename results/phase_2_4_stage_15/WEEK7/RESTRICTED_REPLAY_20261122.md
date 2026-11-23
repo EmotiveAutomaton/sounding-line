@@ -1,0 +1,5 @@
+# RESTRICTED REPLAY 20261122
+
+An independent conditional-likelihood calculation checked both Portuguese price fits on every item. The second numerical search recovered two finite point fits missed by the first solver. The revised calculation and fresh-process replay used the frozen price cuts, zero-price rule and the same 2,000 complete-person draws. The observed refusal, top-price dip and zero shares matched the first run exactly. Both complete-item excess readings retain their unavailable tails. The internal record preserves both calculations and the final uncertainty disposition.
+
+The teaching diary retained the first failure at the duplicate occasion check. Its recovery excluded all four records sharing one ambiguous occasion, then replayed all 22 quantities. The restricted archive holds the two numerical reports, two tables and two figures. Its independently verified manifest and the five original terminal hashes identify the filed evidence. Numerical results follow the sources’ internal distribution limits.

@@ -53,7 +53,7 @@ def tail_odds(counts, exclude_zero):
     return np.where(valid,odds,np.nan)
 
 
-def samples(counts):
+def samples(counts,fit_tail=tail_odds):
     """Last axis has seven prices followed by refusal. Missing entries are already excluded."""
     total=counts.sum(-1)
     with np.errstate(invalid='ignore',divide='ignore'):
@@ -61,7 +61,7 @@ def samples(counts):
     results=[share[:,:,7],share[:,:,6]-np.minimum(share[:,:,7],share[:,:,5])]
     shape=total.shape
     for secondary in (False,True):
-        odds=tail_odds(counts[:,:,:7].reshape(-1,7),secondary).reshape(shape)
+        odds=fit_tail(counts[:,:,:7].reshape(-1,7),secondary).reshape(shape)
         results.append(share[:,:,7]-share[:,:,int(secondary):7].sum(-1)*odds)
     return np.stack(results,axis=-1),share[:,:,0]
 
@@ -73,7 +73,7 @@ def interval(a):
                 finite_draws=int(np.isfinite(a[1:]).sum()))
 
 
-def run(answers, draws=2000, progress=None):
+def run(answers, draws=2000, progress=None, fit_tail=tail_odds):
     a=np.asarray(answers,float)
     if a.ndim!=2 or a.shape[1]!=20 or not np.isin(a[np.isfinite(a)],np.arange(1,9)).all():
         raise ValueError('Unexpected price item codes')
@@ -87,7 +87,7 @@ def run(answers, draws=2000, progress=None):
         count=min(24,draws+1-start)
         weights=rng.multinomial(people,np.full(people,1/people),size=count)
         if start==0:weights[0]=1
-        curves,zero=samples((weights@indicator).reshape(count,20,8))
+        curves,zero=samples((weights@indicator).reshape(count,20,8),fit_tail)
         outputs.extend(curves);zeros.extend(zero)
         if progress:progress(start+count-1)
     quantities=('refusal','dip','excess_primary','excess_secondary')

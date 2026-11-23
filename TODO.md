@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W7-AMI-AUDIO-PREFLIGHT-20261122: AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings.
+
+- [x] OPS-S15-W7-RESTRICTED-REPLAY-20261122: The Portuguese price and teaching diary studies have complete internal tables, figures and verified replay records.
+
 - [x] OPS-S15-W7-SCR1-INTERNAL-20261122: SCR1 completed and its numerical return was filed internally.
 
 - [x] OPS-S15-W7-TWO1-INTERNAL-20261122: TWO1 completed and its numerical return was filed internally.

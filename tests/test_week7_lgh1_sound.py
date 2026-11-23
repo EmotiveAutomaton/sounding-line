@@ -21,7 +21,17 @@ def test_noise_and_silence():
     m=measures(np.random.default_rng(35).normal(size=RATE),tone(150),RATE)
     assert m['voiced_fraction']==0 and m['relative_pitch_semitones'] is None
     m=measures(np.zeros(RATE),tone(150),RATE)
-    assert m['bursts']==0 and m['relative_level_db'] is None
+    assert m['bursts']==0 and m['relative_level_db'] is None and m['voiced_fraction'] is None
+
+def test_silent_padding_leaves_active_frame_denominator_unchanged():
+    noise=np.random.default_rng(82).normal(size=RATE//2)
+    active=np.r_[tone(240,.5),noise]
+    padded=np.r_[np.zeros(RATE),active,np.zeros(RATE)]
+    long=measures(padded,tone(150),RATE)
+    short=measures(active,tone(150),RATE)
+    assert long['duration_seconds']==short['duration_seconds']+2
+    assert .4<long['voiced_fraction']<.6
+    assert long['voiced_fraction']==pytest.approx(short['voiced_fraction'],abs=.04)
 
 def test_no_multichannel_input():
     with pytest.raises(ValueError,match='channel'):

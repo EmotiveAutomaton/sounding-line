@@ -11,13 +11,14 @@ def _samples(values):
 
 def _pitch_and_fraction(x,rate):
     size,step=round(.04*rate),round(.01*rate)
-    if len(x)<size:return np.empty(0),0.
+    if len(x)<size:return np.empty(0),None
     frames=np.lib.stride_tricks.sliding_window_view(x,size)[::step]
     frame_rms=np.sqrt(np.mean(frames*frames,axis=1))
     floor=max(1e-12,.01*frame_rms.max())
     lo,hi=int(rate/600),int(np.ceil(rate/60))
     pitch=[]
-    for frame in frames[frame_rms>=floor]:
+    active=frame_rms>=floor
+    for frame in frames[active]:
         y=frame-frame.mean()
         # Positive-lag correlation from an FFT, with per-lag energy normalization.
         fft=np.fft.rfft(y,n=2*size)
@@ -33,7 +34,8 @@ def _pitch_and_fraction(x,rate):
         a,b,c=corr[k-1:k+2]
         delta=np.clip(.5*(a-c)/(a-2*b+c),-.5,.5) if a-2*b+c else 0.
         pitch.append(rate/(k+delta))
-    return np.asarray(pitch),len(pitch)/len(frames)
+    active_count=int(np.count_nonzero(active))
+    return np.asarray(pitch),len(pitch)/active_count if active_count else None
 
 
 def _bursts(x,rate):

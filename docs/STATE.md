@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings. [Record](../results/phase_2_4_stage_15/WEEK7/AMI_AUDIO_PREFLIGHT_20261122.md).
+
+The Portuguese price and teaching diary studies have complete internal tables, figures and verified replay records. [Record](../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md).
+
 SCR1 completed with an authenticated internal return. [Record](../results/phase_2_4_stage_15/WEEK7/SCR1_INTERNAL_RETURN.md).
 
 TWO1 completed with an authenticated internal return. [Record](../results/phase_2_4_stage_15/WEEK7/TWO1_INTERNAL_RETURN.md).

@@ -1,5 +1,23 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W7-AMI-AUDIO-PREFLIGHT-20261122
+
+The acquisition snapshot contained 285 of 682 assigned microphone channels. Twelve meetings had every assigned channel present. The preflight verified the size, SHA-256 digest, mono waveform header and annotation stream for all 48 headsets in those meetings. All 765 explicitly timed vocal laughs fell inside their recording. Another 542 laughter marks lacked a usable interval. All 48 headsets had timed reference speech.
+
+This records source support. It supplies no acoustic group comparison. The full assigned roster has 397 outstanding files. The 12 complete meetings define the scope of this preflight. Carletta et al. (2005), The AMI Meeting Corpus, CC BY 4.0.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings.; project meaning: scoped operational record; next engineering obligation: Use the acquired meeting set and explicit duration bindings in the measured source run.; public scientific claim unchanged; curator decision required: No new decision. Detail: AMI_AUDIO_PREFLIGHT_20261122.md.
+
+### OPS-S15-W7-RESTRICTED-REPLAY-20261122
+
+An independent conditional-likelihood calculation checked both Portuguese price fits on every item. The second numerical search recovered two finite point fits missed by the first solver. The revised calculation and fresh-process replay used the frozen price cuts, zero-price rule and the same 2,000 complete-person draws. The observed refusal, top-price dip and zero shares matched the first run exactly. Both complete-item excess readings retain their unavailable tails. The internal record preserves both calculations and the final uncertainty disposition.
+
+The teaching diary retained the first failure at the duplicate occasion check. Its recovery excluded all four records sharing one ambiguous occasion, then replayed all 22 quantities. The restricted archive holds the two numerical reports, two tables and two figures. Its independently verified manifest and the five original terminal hashes identify the filed evidence. Numerical results follow the sources’ internal distribution limits.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The Portuguese price and teaching diary studies have complete internal tables, figures and verified replay records.; project meaning: scoped operational record; next engineering obligation: Use the corrected restricted return for the packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: RESTRICTED_REPLAY_20261122.md.
+
 ### OPS-S15-W7-SCR1-INTERNAL-20261122
 
 The Portuguese study evaluated the two approved grouped-price fits, observed refusal and top-price dip, item zero shares and the odd/even description. The restricted record retains all missing-fit dispositions and whole-person intervals. The registered source terms restrict the numerical result to the internal record and theory thread.

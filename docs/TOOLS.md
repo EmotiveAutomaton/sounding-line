@@ -3033,6 +3033,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W7-AMI-AUDIO-PREFLIGHT-20261122:** AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings. [Record](../results/phase_2_4_stage_15/WEEK7/AMI_AUDIO_PREFLIGHT_20261122.md).
+
+**OPS-S15-W7-RESTRICTED-REPLAY-20261122:** The Portuguese price and teaching diary studies have complete internal tables, figures and verified replay records. [Record](../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md).
+
 **OPS-S15-W7-SCR1-INTERNAL-20261122:** SCR1 completed and its numerical return was filed internally. [Record](../results/phase_2_4_stage_15/WEEK7/SCR1_INTERNAL_RETURN.md).
 
 **OPS-S15-W7-TWO1-INTERNAL-20261122:** TWO1 completed and its numerical return was filed internally. [Record](../results/phase_2_4_stage_15/WEEK7/TWO1_INTERNAL_RETURN.md).
