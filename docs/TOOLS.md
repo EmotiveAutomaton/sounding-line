@@ -3033,6 +3033,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W6-FINAL-FREEZE-20261122:** Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_FINAL_DIGEST_20261122.md).
+
+**S15-W6-LT1-FREEZE-20261122:** Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar. [Record](../results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.md).
+
+**S15-W7-LGH1-ICSI-20261122:** In the ICSI meetings, acoustic groups differed in whether the laugher was speaking and whether somebody else joined. [Record](../results/phase_2_4_stage_15/WEEK7/LGH1_ICSI_ACOUSTICS.md).
+
 **OPS-S15-W7-LGH1-AMI-ACOUSTICS:** Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided. [Record](../results/phase_2_4_stage_15/WEEK7/LGH1_AMI_ACOUSTICS.md).
 
 **OPS-S15-W7-SOURCE-BINDINGS-20261122:** The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison. [Record](../results/phase_2_4_stage_15/WEEK7/ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md).

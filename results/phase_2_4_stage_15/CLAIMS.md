@@ -2092,3 +2092,6 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W7-AMI-AUDIO-PREFLIGHT-20261122 | operational | infrastructure / passes | AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings. |
 | OPS-S15-W7-SOURCE-BINDINGS-20261122 | operational | infrastructure / passes | The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison. |
 | OPS-S15-W7-LGH1-AMI-ACOUSTICS | operational | infrastructure / passes | Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided. |
+| S15-W7-LGH1-ICSI-20261122 | T7, LP5 | mixed / passing controls | In the ICSI meetings, acoustic groups differed in whether the laugher was speaking and whether somebody else joined. |
+| S15-W6-LT1-FREEZE-20261122 | A1, A2, A3, LP11, LP6, N1, S2, T1, T2, T3, T4, T5, T6, T7, T8, T9 | inconclusive / passing controls | Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar. |
+| OPS-S15-W6-FINAL-FREEZE-20261122 | operational | infrastructure / passes | Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget. |

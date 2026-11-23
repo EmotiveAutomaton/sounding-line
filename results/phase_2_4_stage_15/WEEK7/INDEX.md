@@ -1,5 +1,7 @@
 # Week 7 records
 
+**S15-W7-LGH1-ICSI-20261122:** [Record](LGH1_ICSI_ACOUSTICS.md). In the ICSI meetings, acoustic groups differed in whether the laugher was speaking and whether somebody else joined.
+
 **OPS-S15-W7-LGH1-AMI-ACOUSTICS:** [Record](LGH1_AMI_ACOUSTICS.md). Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided.
 
 **OPS-S15-W7-SOURCE-BINDINGS-20261122:** [Record](ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md). The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison.

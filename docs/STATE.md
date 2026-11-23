@@ -1,5 +1,11 @@
 # STATE: the agent's operational file
 
+Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget. [Final digest](../results/phase_2_4_stage_15/WEEK5/WEEK6_FINAL_DIGEST_20261122.md).
+
+All 44 predictions have a final disposition. The combined set fell short of its registered source-level threshold. [Lattice result](../results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.md).
+
+In the ICSI meetings, acoustic groups differed in whether the laugher was speaking and whether somebody else joined. [Record](../results/phase_2_4_stage_15/WEEK7/LGH1_ICSI_ACOUSTICS.md).
+
 Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided. [Record](../results/phase_2_4_stage_15/WEEK7/LGH1_AMI_ACOUSTICS.md).
 
 The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison. [Record](../results/phase_2_4_stage_15/WEEK7/ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md).

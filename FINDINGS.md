@@ -1,5 +1,194 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-FINAL-FREEZE-20261122
+
+The Week 6 calendar emitted its scheduled freeze at 2026-11-23T04:00:10.619898+00:00. The admission cutoff was 04:00 UTC on November 23. The event itself contains no scientific verdict. No Week 6 admitted research was live at inspection. The 22:00 Pacific drain and 23:00 addendum are separate calendar obligations.
+
+| Workstation accounting through the freeze | Count |
+|---|---:|
+| Complete admitted attempts | 161 |
+| Recorded pauses | 81 |
+| Recorded failures | 16 |
+| Attempts with terminal hash matched in a filed receipt | 258 |
+| Week 6 ledger entries filed before cutoff, including preparation | 564 |
+| Distinct matching report and receipt pairs | 291 |
+| Entries and admitted terminals in the last 24 hours | 17 entries, 13 terminals |
+
+Each of the 258 terminal identities was matched to its admission. Pauses, repairs and independent replays retain their original accounting. These are attempt counts; a continuation can belong to the same study. Week 6’s family accounting reader reports 224,331.125 CPU-seconds against its 6,000,000 ceiling. The three last Week 6 sealed invocations occupied ordinals 17–19. Week 7 separately shows 9,457.703 CPU-seconds and 1 sealed invocation at inspection. The registered exact aggregation of existing results took place after the cutoff as required.
+
+The last 24 hours offered 192 shared slot-hours. Week 6 standard admission-to-terminal intervals occupied 0.219 slot-hours. Week 7 reservations occupied 1.566 slot-hours. The remainder includes setup, separately supervised qualifications, time available to other projects and idle time. These two counters cannot alone give an exact total of unused time. Earlier intervals are preserved in the six preceding daily digests.
+
+Both calendars and the watcher matched their native process records. All 21 locks passed. Spark was reachable and its sealed runner was idle. There were no active shared leases. At the workstation inspection 48.2 GiB of RAM, 35.0 GiB of commit headroom and 650.9 GiB of disk were available. The watcher had delivered this cutoff once and retained the single-pending six-hour fallback. The collector's catalogue still listed 285 assigned AMI files. The most recent overall handoff was the previously inspected DC-20261122-01.
+
+LB5 closed unrun at the Week 6 cutoff because the original clinical diary key for response codes 6 and 7 was unavailable. SC3 closed unrun because the sealed source lacked validated restart labels. An idle Spark or workstation grants no new data access. The Week 7 sources, outstanding manifests and supported subsets keep their recorded dispositions.
+
+**Final lattice.** All 44 predictions have a disposition. The exact source-level test missed its registered bar; its secondary diary reference leaves that primary decision in force. The [44-row result](LT1_FROZEN_LATTICE_20261122.md) and [theory return](../../../docs/exchange/THEORY_RETURN_LATTICE.md) carry all denominators, assumptions, original source verdicts and available sealed tables.
+
+[Complete cutoff register](WEEK6_FINAL_DIGEST_20261122_REGISTER.md) · [Cumulative theory return](THEORY_RETURN.md) · [Final six-diary pool](BT_PST9_AFTER_SIX_20261122.md) · [Three sealed returns](SMF1_THREE_SEALED_RETURNS_20261122.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget.; project meaning: scoped operational record; next engineering obligation: Reconcile Week 6 at the 22:00 Pacific drain and file the 23:00 addendum. Week 7 retains separate admissions.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_FINAL_DIGEST_20261122.md.
+
+### S15-W6-LT1-FREEZE-20261122
+
+## Against, and clear
+
+Three intervals lay entirely opposite the predicted sign. In diary 0057 the overwhelming-activity contrast favoured anger over anxiety. In diary 0056 the shame-versus-sadness failure contrast was smaller in company. In the meetings the target took a larger share of speech after an unjoined laugh. Their original units, intervals, scope and limits appear in rows 6, 7 and 43 below.
+
+## The registered comparison
+
+Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar. The one-sided exact probability was 0.113281 at the registered threshold of 0.05. Each eligible source cast one vote. Diary 0057 tied and stayed in the denominator. Three of the fourteen registered sources had no decided row. All 44 predictions retain their original signs and their final dispositions. A zero-touching interval counts as undecided. Individual study verdicts retain their own practical bars.
+
+| Calculation | Predicted / eligible | Upper-tail probability | Use |
+| --- | --- | --- | --- |
+| Source majorities | 8/11 | 0.113281 | Registered primary; bar missed |
+| Individual decided rows | 12/15 | 0.017578 | Descriptive; rows reuse people and outcomes |
+| Majorities within source and claim | 11/14 | 0.028687 | Descriptive; claim groups overlap |
+| Whole-person diary reference | 11 predicted-side decisions across 30 eligible rows | 0.000500 | Secondary; cannot change the primary decision |
+
+The source-level count assumes independent sources with fair signs under the null. Every row shares one rival it cannot rule out: self-report in one sitting. The meeting row itself measured conduct. Two diaries count separately under the frozen rule, and the MIDUS waves share one source.
+
+The secondary uses 2,000 original jointly indexed whole-person draws in ten diaries. Each source used its original roster, seed and outcome columns. The columns were centred together, and fixed independent permutations combined sources. Zero of 2,000 reference draws reached the observed count; the plus-one tail is 1/2,001. Row 17 had undefined draws and member 0064 lacked a qualified key. Neither contributed a secondary column. No participant record was reopened or model refitted. No confidence interval was prescribed for the combined vote count.
+
+| Source | Predicted / decided | Primary contribution |
+| --- | --- | --- |
+| 0042 | 1/1 | majority |
+| 0043 | 1/1 | majority |
+| 0044 | 0/0 | no vote |
+| 0056 | 0/1 | opposite majority |
+| 0057 | 1/2 | tie |
+| 0060 | 2/2 | majority |
+| 0063 | 2/2 | majority |
+| 0064 | 0/0 | no vote |
+| 0070 | 1/1 | majority |
+| 0072 | 2/2 | majority |
+| 0076 | 1/1 | majority |
+| CANDOR | 1/1 | majority |
+| meetings | 0/1 | opposite majority |
+| midus | 0/0 | no vote |
+
+## All 44 rows
+
+| # | Source · claim | Frozen comparison | Predicted sign | Estimate [95% interval] | Original verdict | LT1 disposition | Limit or reason |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0057 · T4 | Ashamed minus sad: failure slope in company minus alone | + | -0.027138 [-0.092979, 0.035229] | inconclusive | undecided | The same person rated success and feelings at the same prompt. Shame answers may be noisier after time alone, and this diary cannot separate that explanation from the proposed effect. |
+| 2 | 0057 · A3 | Criticism times taking the lead: angry minus mean fear-like feelings | + | 0.0095255 [-0.022446, 0.040157] | inconclusive | undecided | Leadership, superiority, self-assurance and feelings share one prompt. Unequal answer noise can mimic moderation. Rank refers to the relationship. |
+| 3 | 0057 · A3 | Criticism from below minus above: angry minus mean fear-like feelings | + | 0.061087 [-0.24551, 0.34183] | inconclusive | undecided | Leadership, superiority, self-assurance and feelings share one prompt. Unequal answer noise can mimic moderation. Rank refers to the relationship. |
+| 4 | 0057 · A3 | Criticism times feeling superior: angry minus mean fear-like feelings | + | -0.012709 [-0.040347, 0.01788] | inconclusive | undecided | Leadership, superiority, self-assurance and feelings share one prompt. Unequal answer noise can mimic moderation. Rank refers to the relationship. |
+| 5 | 0057 · T6 | Intellectual activity: enthusiastic minus relaxed | + | 0.053943 [0.029457, 0.077519] | supports | predicted | Enthusiasm can also reflect general good mood. The same person rated the activity and the feelings in one prompt. |
+| 6 | 0057 · T2 | Overwhelming activity: anxious minus angry | + | -0.038547 [-0.071871, -0.0043305] | opposite direction | opposite | Enthusiasm can also reflect general good mood. The same person rated the activity and the feelings in one prompt. |
+| 7 | 0056 · T4 | Ashamed minus sad: failure slope in company minus alone | + | -0.17016 [-0.27691, -0.071063] | opposite direction | opposite | The same person rated success and feelings at the same prompt. Shame answers may be noisier after time alone, and this diary cannot separate that explanation from the proposed effect. |
+| 8 | 0056 · A3 | Criticism times taking the lead: angry minus mean fear-like feelings | + | -0.0018332 [-0.046989, 0.041097] | inconclusive | undecided | Leadership, superiority, self-assurance and feelings share one prompt. Unequal answer noise can mimic moderation. Rank refers to the relationship. |
+| 9 | 0056 · T6 | Intellectual activity: enthusiastic minus relaxed | + | 0.03462 [-0.015522, 0.081971] | inconclusive | undecided | Enthusiasm can also reflect general good mood. The same person rated the activity and the feelings in one prompt. |
+| 10 | 0056 · T2 | Overwhelming activity: anxious minus angry | + | -0.0044217 [-0.05128, 0.041484] | inconclusive | undecided | Enthusiasm can also reflect general good mood. The same person rated the activity and the feelings in one prompt. |
+| 11 | 0060 · T6 | Deep thinking: curious minus content | + | 0.19078 [0.12829, 0.2564] | supports | predicted | Students rated their own situations and feelings. The opportunity item asks about potential partners present. It measures no desire. Earlier reports are observational and ordering does not establish causation. Dominance may follow anger. Unequal answer noise can mimic differences in occurrence slopes. |
+| 12 | 0060 · T9 | Possible mates present after previous pride | + | -0.03403 [-0.11348, 0.042217] | inconclusive | undecided | Students rated their own situations and feelings. The opportunity item asks about potential partners present. It measures no desire. Earlier reports are observational and ordering does not establish causation. Dominance may follow anger. Unequal answer noise can mimic differences in occurrence slopes. |
+| 13 | 0060 · T9 | Possible mates present after previous boredom | + | 0.012141 [-0.060313, 0.081942] | inconclusive | undecided | Students rated their own situations and feelings. The opportunity item asks about potential partners present. It measures no desire. Earlier reports are observational and ordering does not establish causation. Dominance may follow anger. Unequal answer noise can mimic differences in occurrence slopes. |
+| 14 | 0060 · T9 | Possible mates present after previous low purpose | + | -0.00047555 [-0.098285, 0.095444] | inconclusive | undecided | Students rated their own situations and feelings. The opportunity item asks about potential partners present. It measures no desire. Earlier reports are observational and ordering does not establish causation. Dominance may follow anger. Unequal answer noise can mimic differences in occurrence slopes. |
+| 15 | 0060 · T9 | Possible mates present: excited minus content | + | 0.00049468 [-0.15061, 0.14793] | inconclusive | undecided | Students rated their own situations and feelings. The opportunity item asks about potential partners present. It measures no desire. Earlier reports are observational and ordering does not establish causation. Dominance may follow anger. Unequal answer noise can mimic differences in occurrence slopes. |
+| 16 | 0060 · T1 | Argument: angry minus afraid | + | 0.15915 [0.12028, 0.20145] | supports | predicted | Students rated their own situations and feelings. The opportunity item asks about potential partners present. It measures no desire. Earlier reports are observational and ordering does not establish causation. Dominance may follow anger. Unequal answer noise can mimic differences in occurrence slopes. |
+| 17 | 0060 · A3 | Argument times dominance: angry minus afraid | + | -0.029764 [unavailable] | could not say | unscored | 327 of 2,000 draws were undefined. The linear sensitivity is separate. Students rated their own situations and feelings. The opportunity item asks about potential partners present. It measures no desire. Earlier reports are observational and ordering does not establish causation. Dominance may follow anger. Unequal answer noise can mimic differences in occurrence slopes. |
+| 18 | 0042 · A3 | Unpleasantness times own dominance: angry minus nervous | + | 0.057691 [0.019457, 0.099599] | supports | predicted | The same person rated their behaviour and feelings on one occasion. Anger may have preceded the reported dominance. Unequal response noise can change above-floor slopes. The authors’ signed dominance range was used. A secondary catalogue label disagrees at the lower endpoint. |
+| 19 | 0043 · A3 | Unpleasantness times own dominance: angry minus nervous | + | 0.087254 [0.04583, 0.13206] | supports | predicted | The same person rated their behaviour and feelings on one occasion. Anger may have preceded the reported dominance. Unequal response noise can change above-floor slopes. The harmonized during-interaction field names were used. Their original wording is less certain. |
+| 20 | 0044 · A3 | Unpleasantness times own dominance: angry minus nervous | + | 0.04037 [-0.022084, 0.10755] | inconclusive | undecided | The same person rated their behaviour and feelings on one occasion. Anger may have preceded the reported dominance. Unequal response noise can change above-floor slopes. This cohort rated how they felt at the prompt, which can differ from feeling during the interaction. |
+| 21 | 0072 · T1 | Being blocked: angry minus afraid | + | 0.041197 [-0.002948, 0.082303] | inconclusive | undecided | One parent rated the events, their own feelings, the child's feelings and their shared activity on the same evening. A generally difficult day can affect all of those answers. These three weeks during Germany’s first COVID-19 lockdown provide a specific setting, and the observations establish association. |
+| 22 | 0072 · T2 | Health or money stressor: mean afraid and worried minus angry | + | 0.097104 [0.063113, 0.13068] | supports | predicted | One parent rated the events, their own feelings, the child's feelings and their shared activity on the same evening. A generally difficult day can affect all of those answers. These three weeks during Germany’s first COVID-19 lockdown provide a specific setting, and the observations establish association. |
+| 23 | 0072 · T3 | Being excluded: sad minus angry | + | -0.016203 [-0.053334, 0.020269] | inconclusive | undecided | One parent rated the events, their own feelings, the child's feelings and their shared activity on the same evening. A generally difficult day can affect all of those answers. These three weeks during Germany’s first COVID-19 lockdown provide a specific setting, and the observations establish association. |
+| 24 | 0072 · T8 | Child feeling worse: parent worried minus angry | + | 0.053302 [0.018209, 0.088316] | supports | predicted | One parent rated the events, their own feelings, the child's feelings and their shared activity on the same evening. A generally difficult day can affect all of those answers. These three weeks during Germany’s first COVID-19 lockdown provide a specific setting, and the observations establish association. |
+| 25 | 0072 · T7 | Fun together: afraid coefficient minus sad coefficient | − | 0.045434 [-0.00030894, 0.091746] | inconclusive | undecided | One parent rated the events, their own feelings, the child's feelings and their shared activity on the same evening. A generally difficult day can affect all of those answers. These three weeks during Germany’s first COVID-19 lockdown provide a specific setting, and the observations establish association. |
+| 26 | 0070 · T7 | Silly on expected | − | -0.15118 [-0.2042, -0.09908] | supports | predicted | Same-source diary ratings can share answer noise and response style. |
+| 27 | 0070 · T7 | Silly on important | − | -0.0091802 [-0.048137, 0.026998] | inconclusive | undecided | Same-source diary ratings can share answer noise and response style. |
+| 28 | 0070 · T7 | Silly: fearful coefficient minus sad coefficient | − | 0.079896 [-0.041988, 0.19918] | inconclusive | undecided | Same-source diary ratings can share answer noise and response style. |
+| 29 | 0076 · T7 | Playful on stressful, holding pleasant | − | -0.13972 [-0.18742, -0.090644] | supports | predicted | Same-source diary ratings can share answer noise and response style. |
+| 30 | 0064 · A2 | Within-person partial correlation of anger and fear | + | — [unavailable] | could not run | unscored | Member 0064 has unresolved out-of-range response codes 6 and 7. The clinical diary needs the original coding key. |
+| 31 | 0064 · T5, A2 | Partial correlation: scorn with fear minus anger with fear | − | — [unavailable] | could not run | unscored | Member 0064 has unresolved out-of-range response codes 6 and 7. The clinical diary needs the original coding key. |
+| 32 | 0063 · T6 | Inspired on good at this | + | 0.1345 [0.090163, 0.17692] | supports | predicted | Same-source diary ratings can share answer noise and response style. |
+| 33 | 0063 · T6 | Inspired on appreciated | + | 0.073048 [0.028429, 0.11564] | supports | predicted | Same-source diary ratings can share answer noise and response style. |
+| 34 | midus-2 · N1, A1, A3 | Others regard at risk: ashamed minus angry | + | — [unavailable] | could not say | unscored | The wave-two MI1 table was withheld by complementary disclosure. Telephone diaries measure self-reported stress and negative feeling. |
+| 35 | midus-2 · N1, A1, A3 | Routine disrupted: mean anger words minus mean fear words | + | — [unavailable] | could not say | unscored | The wave-two MI1 table was withheld by complementary disclosure. Telephone diaries measure self-reported stress and negative feeling. |
+| 36 | midus-2 · N1, A1, A3 | Plans or health at risk: mean fear words minus angry | + | — [unavailable] | could not say | unscored | The wave-two MI1 table was withheld by complementary disclosure. Telephone diaries measure self-reported stress and negative feeling. |
+| 37 | midus-2 · N1, A1, A3 | Control: angry coefficient minus mean lonely, hopeless and sad coefficients | + | — [unavailable] | could not say | unscored | The wave-two MI1 table was withheld by complementary disclosure. Telephone diaries measure self-reported stress and negative feeling. |
+| 38 | midus-3 · N1, A1, A3 | Others regard at risk: ashamed minus angry | + | — [unavailable] | could not say | unscored | Wave three released code 12 without an estimate. Support and complementary disclosure cannot be distinguished. Telephone diaries measure self-reported stress and negative feeling. |
+| 39 | midus-3 · N1, A1, A3 | Routine disrupted: mean anger words minus mean fear words | + | — [unavailable] | could not say | unscored | Wave three released code 12 without an estimate. Support and complementary disclosure cannot be distinguished. Telephone diaries measure self-reported stress and negative feeling. |
+| 40 | midus-3 · N1, A1, A3 | Plans or health at risk: mean fear words minus angry | + | — [unavailable] | could not say | unscored | Wave three released code 12 without an estimate. Support and complementary disclosure cannot be distinguished. Telephone diaries measure self-reported stress and negative feeling. |
+| 41 | midus-3 · N1, A1, A3 | Control: angry coefficient minus mean lonely, hopeless and sad coefficients | + | — [unavailable] | could not say | unscored | Wave three released code 12 without an estimate. Support and complementary disclosure cannot be distinguished. Telephone diaries measure self-reported stress and negative feeling. |
+| 42 | midus-2 · S2 | Carry-over after low control minus carry-over after high control | + | 0.11102 [unavailable] | could not say | unscored | MI3 returned the sad-minus-anger low-minus-high control point only. Incomplete family linkage precluded an interval. Telephone diaries measure self-reported stress and negative feeling. |
+| 43 | meetings · LP6 | Target speaking share after unjoined laugh minus joined laugh | − | 2.9003 [1.0624, 4.6065] | registered bar not met | opposite | Percentage points of the target’s speech. Silence can reflect turn timing or attention. Mockery was unobserved. |
+| 44 | CANDOR · LP11 | Funny: liking coefficient minus status coefficient | + | 0.25474 [0.21215, 0.29581] | supports | predicted | One partner rated all three traits on one occasion. A favorable overall impression can link the ratings. Liking and status are imperfect measures of affiliation and standing. Recurring participants can connect different conversations. |
+
+## Source-and-claim descriptions
+
+| Source | Claim | Predicted / decided | Majority |
+| --- | --- | --- | --- |
+| 0042 | A3 | 1/1 | yes |
+| 0043 | A3 | 1/1 | yes |
+| 0056 | T4 | 0/1 | no |
+| 0057 | T2 | 0/1 | no |
+| 0057 | T6 | 1/1 | yes |
+| 0060 | T1 | 1/1 | yes |
+| 0060 | T6 | 1/1 | yes |
+| 0063 | T6 | 2/2 | yes |
+| 0070 | T7 | 1/1 | yes |
+| 0072 | T2 | 1/1 | yes |
+| 0072 | T8 | 1/1 | yes |
+| 0076 | T7 | 1/1 | yes |
+| CANDOR | LP11 | 1/1 | yes |
+| meetings | LP6 | 0/1 | no |
+
+## Predictions about the outcome
+
+The analyst anticipated positive results on rows 2, 5, 16, 21, 22 and 30 and the MIDUS anger/fear contrasts. Rows 5, 16 and 22 cleared zero on the predicted side; rows 2 and 21 crossed zero. Row 30 and the MIDUS contrasts lacked scorable intervals. Row 1 was small and inconclusive, as anticipated. Row 3 had adequate role support and an inconclusive interval. Rows 12–14 and 25 were inconclusive as expected. Row 23 crossed zero, leaving the anticipated reversal unestablished.
+
+The [theory return](../../../docs/exchange/THEORY_RETURN_LATTICE.md) includes the source tables, support and failed bindings.
+
+[Source vote figure](LT1_FROZEN_LATTICE_20261122.png) · [Result sheet](LT1_FROZEN_LATTICE_20261122_SHEET.md).
+
+
+Curator roll-up: A1, A2, A3, LP11, LP6, N1, S2, T1, T2, T3, T4, T5, T6, T7, T8, T9 · Did a majority of the registered comparisons favour their predictions often enough across independent sources? · **Narrows** · Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar. · Project scope: Prospective Week 6 lattice. · Next: Use the primary verdict and retain individual row decisions. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LT1_FROZEN_LATTICE_20261122.md.
+
+### S15-W7-LGH1-ICSI-20261122
+
+## Against, and clear
+
+No contrary estimate with an interval clear of its registered bar was returned. The mixture-count prediction missed on the observed count.
+
+| Question or prior guess | ICSI result | Reading |
+|---|---|---|
+| Groups differ on at least two held-out facts | Two of three exceeded their own shuffle threshold | Registered bar met on this corpus |
+| Three or four mixture groups | Six in both halves, the upper end of the search | Prediction missed |
+| Density joining leaves one group | One remained | Prediction held; this rule can also merge genuine near neighbours |
+| Groups differ in whether another person joins | Above the shuffle threshold | Prediction held |
+| Largest group holds over half and has highest target share | Only component 3 could be reported; it was not the largest | ○ Undecided |
+| A group under a tenth has falling target share and is nearest the largest | Component 3 met the size and direction conditions only; the other components cannot be scored | ○ Undecided |
+| Joined laughs have less voicing and higher pitch | No joined-versus-unjoined interval was returned | ○ Undecided |
+| Categories versus a continuum | Within-component slopes are descriptive and available for one component | ○ Left open by design |
+
+
+Janin et al. (2003), *The ICSI Meeting Corpus*, CC BY 4.0. One official transcript per meeting supplied 12,633 laughter marks across 75 meetings. Of these, 4,213 marks occurred in 3,778 mixed utterances. Among 8,420 laughter-only utterances, two lacked an actor or time, seven lacked an unambiguous microphone and three fell outside the usable signal. Measurement covered 8,408 intervals on the qualified channel inventory (467 verified channels). All six features were available on 8,275. The anonymous mixed-mark shares cover 54 speakers with marked laughter; seven others had no marks. See the [source census](ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md).
+
+Duration is annotated utterance length. The other measures were bursts, voiced fraction, median pitch relative to the speaker’s own speech in that recording, pitch spread and relative sound level. Pitch used voiced frames. Voiced fraction divided voiced frames by active frames, including unvoiced sound. On 40 ms frames stepped every 10 ms, activity required RMS of at least 1% of the interval’s largest frame RMS, with an absolute floor of 10⁻¹². Speaker reference pitch stayed inside the job.
+
+The fixed split allocated 4,138 laughs to fitting and 4,137 to testing. Both fits chose six Gaussian components by BIC among one to six. On the held-out half the two assignments had adjusted Rand agreement of 0.851. The registered midpoint-density rule merged the components into one. In the constructed checks this rule could also merge distinct but nearby groups. The group comparisons below use assignments from the training fit.
+
+| Held-out fact (52 contributing people per row) | Variation explained | 95th percentile of 200 fact shuffles |
+|---|---:|---:|
+| Laugher speaking at onset | 1.737% | 0.261% |
+| Another person joined within 1 s | 4.315% | 0.248% |
+| Change in target’s share of talk | 0.201% | 0.611% |
+
+The comparison used a shuffle among laughs. No effect interval was returned. Laughs from the same speaker or meeting can occur on both sides of the split. Across components, the single-target change in share of talk fell below its shuffle threshold. For this measure BG requires exactly one other candidate; speaking time is the target’s divided by everyone’s total speaking time in each complete minute, excluding silence.
+
+Component 3 accounted for 4.21% of held-out laughs (34 people). Among its reportable single-target events, mean share went from 42.29% to 34.13% (21 people). This component was neither the largest nor its nearest neighbour. The reported overlap cell counted 3,408 held-out laughs with another person speaking at onset (52 people). It describes speech on another microphone; the sampling exclusion concerns mixed content in the laugher’s own annotated utterance. The within-group table gives descriptive slopes of −0.0171 for speaking, +0.0188 for joining and −0.0287 for target change on the first acoustic axis in component 3. These slopes have no reported intervals. Partner ratings belong to the separate sealed source.
+
+The held-out association meets one registered condition. The largest-group and rare-neighbour conditions remain undecided, so this source cannot select a reward group for LGH2. The measurements allow both regions of a continuum and distinct kinds. A verified fresh process reproduced the seven aggregate CSVs. The anonymous speaker-share table matches the independent census in every row; its two serializations differ only in line endings. The original channel-parser stop cost 2.0625 CPU-seconds. The repaired run including replay cost 5,169.125, for 5,171.1875 CPU-seconds in total on this ICSI study.
+
+Laughter that overlaps speech is not in the sample, and that may be a kind of its own.
+
+[facts](LGH1_ICSI_ACOUSTICS_facts.csv) · [mixture](LGH1_ICSI_ACOUSTICS_mixture.csv) · [fractions](LGH1_ICSI_ACOUSTICS_fractions.csv) · [target minutes](LGH1_ICSI_ACOUSTICS_target_minutes.csv) · [overlap](LGH1_ICSI_ACOUSTICS_overlap.csv) · [within groups](LGH1_ICSI_ACOUSTICS_within_groups.csv) · [Figure](LGH1_ICSI_ACOUSTICS.png) · [Prediction sheet](LGH1_ICSI_ACOUSTICS_SHEET.md).
+
+
+Curator roll-up: T7, LP5 · Do acoustic groups differ on at least two held-out facts about a marked laugh? · **Narrows** · In the ICSI meetings, acoustic groups differed in whether the laugher was speaking and whether somebody else joined. · Project scope: Isolated laughter annotations with complete acoustic measurements on assigned ICSI meeting microphones. · Next: Retain this corpus as a separate row in the Week 7 return. Reassess the other commissioned sources when their bindings qualify. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LGH1_ICSI_ACOUSTICS.md.
+
 ### OPS-S15-W7-LGH1-AMI-ACOUSTICS
 
 The available cohort covered 12 meetings with 48 assigned microphone channels. Of 765 explicitly timed laughter intervals, 614 had all six measurements. The source contained another 542 marks without usable times. Pitch used voiced frames, and voiced fraction used active frames as specified in the November 22 ruling.

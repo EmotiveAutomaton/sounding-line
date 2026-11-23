@@ -1,5 +1,11 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W6-FINAL-FREEZE-20261122: Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget.
+
+- [x] S15-W6-LT1-FREEZE-20261122: Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar.
+
+- [x] S15-W7-LGH1-ICSI-20261122: In the ICSI meetings, acoustic groups differed in whether the laugher was speaking and whether somebody else joined.
+
 - [x] OPS-S15-W7-LGH1-AMI-ACOUSTICS: Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided.
 
 - [x] OPS-S15-W7-SOURCE-BINDINGS-20261122: The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison.
