@@ -3033,6 +3033,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**November 23, Week 7 intake.** The AMI comparison checks the collector catalogue against the frozen headset assignments and previous channel hashes. Constructed partial, complete, duplicate, missing and changed-channel cases passed. The live comparison found no additional complete meeting. [Intake tool](../tools/week7_ami_intake.py).
+
+**November 23, TP58 handoff.** The producer-sheet monitor signals the existing watcher when the sheet changes. A constructed pair of revisions verified repeat delivery and duplicate suppression. The receiver still verifies the manifest and rehearses the delivered reader before admission. [Handoff record](design/stage-15/week7/TMP1_HANDOFF.md).
+
+**OPS-S15-W6-FINAL-ADDENDUM-20261122:** Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_FINAL_ADDENDUM_20261122.md).
+
+**OPS-S15-W6-FINAL-DRAIN-20261122:** Week 6 drained at 22:00 Pacific. All 258 admitted attempts matched the freeze and all 291 filed report and receipt pairs verified. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_FINAL_DRAIN_20261122.md).
+
 **OPS-S15-W6-FINAL-FREEZE-20261122:** Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget. [Record](../results/phase_2_4_stage_15/WEEK5/WEEK6_FINAL_DIGEST_20261122.md).
 
 **S15-W6-LT1-FREEZE-20261122:** Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar. [Record](../results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.md).

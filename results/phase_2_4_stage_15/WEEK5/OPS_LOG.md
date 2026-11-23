@@ -2213,3 +2213,7 @@ Recovery dispatch: three counted research jobs active; five slots idle because n
 2026-11-23T04:13:46.176798+00:00 S15-W6-LT1-FREEZE-20261122: Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar.
 
 2026-11-23T04:20:48.850728+00:00 OPS-S15-W6-FINAL-FREEZE-20261122: Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget.
+
+2026-11-23T06:04:28.733772+00:00 OPS-S15-W6-FINAL-DRAIN-20261122: Week 6 drained at 22:00 Pacific. All 258 admitted attempts matched the freeze and all 291 filed report and receipt pairs verified.
+
+2026-11-23T07:03:23.341740+00:00 OPS-S15-W6-FINAL-ADDENDUM-20261122: Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain.

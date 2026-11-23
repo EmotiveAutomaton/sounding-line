@@ -1,5 +1,15 @@
 # TMP1 before the TP58 handoff
 
+## Receiver inspection on November 23
+
+The engine recorded Sounding Line’s rehearsal request. Q21 supplies the fitted PRIDE head required by TP58. The producer sheet still lists construction, offline rehearsal and delivery as pending. On Spark, Q18 advanced from 4,919 to 5,179 of 7,666 rows between 04:33 and 04:38 Pacific. The worker and weekly dispatcher matched their recorded native identities. The workstation handoff and readout supervisors were live. [Producer sheet at the inspected revision](https://github.com/EmotiveAutomaton/tompathy/blob/3f2e4cb56da1c3906fec0d16338c0bda6ff89156/docs/exchange/result-sheets/TP58.md).
+
+Sounding Line watches the producer sheet for revisions through the Week 7 freeze. Its starting SHA-256 is `6623d61f6361fa33babb1177ef72af01bfc9ba59a94bf446d73c5aae005750ff`. A revision signals the existing owner watcher for review. A constructed two-revision check verified that an unchanged sheet generates no duplicate. The delivered bundle still requires independent manifest review, file verification and rehearsal. [Delivery monitor](../../../../tools/watch_tp58_delivery.ps1).
+
+All four receiver shell and release-gate tests passed on November 23. The local Docker Linux engine pipe was still unavailable. Target-image verification and the made-text rehearsal of the engine bundle remain pending.
+
+## Receiver protocol
+
 The curator confirmed on November 22 at 11:20 Pacific that the engine is building TP58 this week. Delivery follows the curator’s storage handback under CF. TMP1 retains its position between LGH2 and SLD2 in the sealed queue.
 
 The [job shell](../../../../runners/drive/sealed/week7_tmp1_shell.py) currently permits only an image check. In the target Linux image it verifies that loopback is the sole network interface, checks for exposed accelerator and fabric devices, and exercises CPU array arithmetic. The runner must also enforce its installed network isolation, CPU-only device configuration and read-only mounts. Exit 0 in image-check mode means those in-image checks passed. Exit 20 means they could not be verified. The study entry exits 21 after a successful image check and writes nothing. The output table list is empty.

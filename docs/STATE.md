@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain. [Final addendum](../results/phase_2_4_stage_15/WEEK5/WEEK6_FINAL_ADDENDUM_20261122.md).
+
+Week 6 drained at 22:00 Pacific. All 258 admitted attempts matched the freeze and all 291 filed report and receipt pairs verified. [Drain reconciliation](../results/phase_2_4_stage_15/WEEK5/WEEK6_FINAL_DRAIN_20261122.md).
+
 Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget. [Final digest](../results/phase_2_4_stage_15/WEEK5/WEEK6_FINAL_DIGEST_20261122.md).
 
 All 44 predictions have a final disposition. The combined set fell short of its registered source-level threshold. [Lattice result](../results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.md).

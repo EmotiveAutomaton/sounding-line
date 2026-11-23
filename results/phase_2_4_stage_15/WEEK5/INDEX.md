@@ -1,5 +1,9 @@
 # Week 5 verified records
 
+**OPS-S15-W6-FINAL-ADDENDUM-20261122:** [Record](WEEK6_FINAL_ADDENDUM_20261122.md). Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain.
+
+**OPS-S15-W6-FINAL-DRAIN-20261122:** [Record](WEEK6_FINAL_DRAIN_20261122.md). Week 6 drained at 22:00 Pacific. All 258 admitted attempts matched the freeze and all 291 filed report and receipt pairs verified.
+
 **OPS-S15-W6-FINAL-FREEZE-20261122:** [Record](WEEK6_FINAL_DIGEST_20261122.md). Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget.
 
 **S15-W6-LT1-FREEZE-20261122:** [Record](LT1_FROZEN_LATTICE_20261122.md). Eight of eleven sources with a decided comparison favoured the predictions. The combined set missed its registered bar.

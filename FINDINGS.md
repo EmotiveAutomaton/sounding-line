@@ -1,5 +1,31 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W6-FINAL-ADDENDUM-20261122
+
+Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain. The calendar emitted the addendum marker and completed at 23:00:15 Pacific on November 22. Its recorded process exited with no remaining milestones or failure marker. The owner filed this addendum after the marker.
+
+The freeze accounted for 161 completions, 81 pauses and 16 failures. The drain verified 291 report and receipt pairs. At close the admission set, terminal hashes, family charges and final lattice return still matched. Week 6 charged 224,331.125 CPU-seconds. LB5 and SC3 closed unrun for the source limitations recorded at the freeze.
+
+Week 7 remains open in CPU-only Gear 2 on its separate ledger. Its calendar and the watcher are live, the eight shared slots are free and Spark has no active sealed run. The roster has 16 entries awaiting inputs or permission. The collector monitor is live. Its catalogue lists 285 verified AMI channels with no additional complete meeting. Source delivery and the six-hour inactivity fallback remain armed.
+
+[Freeze digest](WEEK6_FINAL_DIGEST_20261122.md) · [Drain reconciliation](WEEK6_FINAL_DRAIN_20261122.md) · [Final lattice return](../../../docs/exchange/THEORY_RETURN_LATTICE.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain.; project meaning: scoped operational record; next engineering obligation: Week 7 continues on qualification under its own calendar.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_FINAL_ADDENDUM_20261122.md.
+
+### OPS-S15-W6-FINAL-DRAIN-20261122
+
+Week 6 drained at 22:00 Pacific. All 258 admitted attempts matched the freeze and all 291 filed report and receipt pairs verified. The calendar emitted the drain marker at 2026-11-23T06:00:13.818153+00:00. No Week 6 job started or produced a new terminal after the freeze. The 161 completions, 81 pauses and 16 failures each retain their original receipt. No attempt required recovery. The final 44-row lattice receipt and theory return also matched their frozen hashes.
+
+Week 6 used 224,331.125 CPU-seconds in its family ledger. Week 7’s separate ledger shows 9,457.703 CPU-seconds and 1 sealed invocation. The shared eight slots were free, Spark was reachable and had no active sealed job, both calendar processes verified, and the watcher reported one pending drain event. All 21 locks passed.
+
+Week 7 remains in CPU-only Gear 2. The roster has 16 entries awaiting inputs or permission. The native collector monitor is live. The catalogue still lists 285 verified AMI channels and no additional complete meeting. The 23:00 Pacific Week 6 addendum is registered with the existing watcher.
+
+[Freeze digest](WEEK6_FINAL_DIGEST_20261122.md) · [Final lattice return](../../../docs/exchange/THEORY_RETURN_LATTICE.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Week 6 drained at 22:00 Pacific. All 258 admitted attempts matched the freeze and all 291 filed report and receipt pairs verified.; project meaning: scoped operational record; next engineering obligation: File the 23:00 Pacific Week 6 addendum. Start eligible Week 7 work on qualification.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK6_FINAL_DRAIN_20261122.md.
+
 ### OPS-S15-W6-FINAL-FREEZE-20261122
 
 The Week 6 calendar emitted its scheduled freeze at 2026-11-23T04:00:10.619898+00:00. The admission cutoff was 04:00 UTC on November 23. The event itself contains no scientific verdict. No Week 6 admitted research was live at inspection. The 22:00 Pacific drain and 23:00 addendum are separate calendar obligations.

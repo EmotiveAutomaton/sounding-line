@@ -1,5 +1,7 @@
 # Stage 15 Week 7
 
+For the next AMI delivery, run `python -m tools.week7_ami_intake PREVIOUS ARCHIVE CATALOGUE PRIVATE_OUTPUT_DIRECTORY`. Use the last reviewed inventory, the original AMI annotation ZIP and the collector’s current SOURCE.json. The command checks recorded channel assignments and hashes against the earlier inventory. When another meeting is complete, it writes a new metadata snapshot for source review. Waveform validation and normal admission follow separately. On November 23 the comparison found 285 assigned channels and the same 12 complete meetings. [Intake tool](../../../../tools/week7_ami_intake.py).
+
 [Packet and predictions](PACKET.md) · [Round 35 handoff](../week6/THEORY_HANDOFF_R35.md) · [Intake hashes](INTAKE.json)
 
 The [15:30 amendment to CK](CK_EARLY_OPEN.md) opened the Week 7 budget for Phase 1 on November 22. The restored store passed DRT1 step 6, and the three SMF1 jobs completed in order on the Week 6 ledger. Phase 0 and the Week 6 closing schedule retain their original accounting.
