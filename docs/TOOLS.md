@@ -3033,6 +3033,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W7-LGH1-AMI-ACOUSTICS:** Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided. [Record](../results/phase_2_4_stage_15/WEEK7/LGH1_AMI_ACOUSTICS.md).
+
+**OPS-S15-W7-SOURCE-BINDINGS-20261122:** The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison. [Record](../results/phase_2_4_stage_15/WEEK7/ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md).
+
 **OPS-S15-W7-AMI-AUDIO-PREFLIGHT-20261122:** AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings. [Record](../results/phase_2_4_stage_15/WEEK7/AMI_AUDIO_PREFLIGHT_20261122.md).
 
 **OPS-S15-W7-RESTRICTED-REPLAY-20261122:** The Portuguese price and teaching diary studies have complete internal tables, figures and verified replay records. [Record](../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md).

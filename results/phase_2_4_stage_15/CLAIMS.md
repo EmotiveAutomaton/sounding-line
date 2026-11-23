@@ -2090,3 +2090,5 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W7-SCR1-INTERNAL-20261122 | operational | infrastructure / passes | SCR1 completed and its numerical return was filed internally. |
 | OPS-S15-W7-RESTRICTED-REPLAY-20261122 | operational | infrastructure / passes | The Portuguese price and teaching diary studies have complete internal tables, figures and verified replay records. |
 | OPS-S15-W7-AMI-AUDIO-PREFLIGHT-20261122 | operational | infrastructure / passes | AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings. |
+| OPS-S15-W7-SOURCE-BINDINGS-20261122 | operational | infrastructure / passes | The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison. |
+| OPS-S15-W7-LGH1-AMI-ACOUSTICS | operational | infrastructure / passes | Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided. |

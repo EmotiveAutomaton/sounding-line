@@ -52,11 +52,17 @@ def measures(laugh,speech,sample_rate):
     if not isinstance(sample_rate,(int,np.integer)) or not 8000<=sample_rate<=96000:
         raise ValueError('Unsupported sampling rate')
     x,y=_samples(laugh),_samples(speech)
-    pitch,fraction=_pitch_and_fraction(x,sample_rate)
     ref,_=_pitch_and_fraction(y,sample_rate)
-    rms=np.sqrt(np.mean(x*x));baseline=np.sqrt(np.mean(y*y))
+    baseline=np.sqrt(np.mean(y*y))
+    return relative_measures(x,sample_rate,np.median(ref) if len(ref) else None,baseline)
+
+
+def relative_measures(x,sample_rate,speech_pitch,baseline):
+    """Use one ephemeral speaking reference for all laughs on a recording channel."""
+    pitch,fraction=_pitch_and_fraction(x,sample_rate)
+    rms=np.sqrt(np.mean(x*x))
     semitones=12*np.log2(pitch) if len(pitch) else np.empty(0)
-    rel=None if not len(ref) or not len(pitch) else float(12*np.log2(np.median(pitch)/np.median(ref)))
+    rel=None if speech_pitch is None or not len(pitch) else float(12*np.log2(np.median(pitch)/speech_pitch))
     return dict(duration_seconds=len(x)/sample_rate,bursts=_bursts(x,sample_rate),voiced_fraction=fraction,
                 relative_pitch_semitones=rel,pitch_iqr_semitones=float(np.ptp(np.quantile(semitones,[.25,.75]))) if len(pitch) else None,
                 relative_level_db=float(20*np.log10(rms/baseline)) if min(rms,baseline)>0 else None)

@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided. [Record](../results/phase_2_4_stage_15/WEEK7/LGH1_AMI_ACOUSTICS.md).
+
+The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison. [Record](../results/phase_2_4_stage_15/WEEK7/ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md).
+
 AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings. [Record](../results/phase_2_4_stage_15/WEEK7/AMI_AUDIO_PREFLIGHT_20261122.md).
 
 The Portuguese price and teaching diary studies have complete internal tables, figures and verified replay records. [Record](../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md).

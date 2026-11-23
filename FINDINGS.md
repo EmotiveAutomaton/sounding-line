@@ -1,5 +1,27 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W7-LGH1-AMI-ACOUSTICS
+
+The available cohort covered 12 meetings with 48 assigned microphone channels. Of 765 explicitly timed laughter intervals, 614 had all six measurements. The source contained another 542 marks without usable times. Pitch used voiced frames, and voiced fraction used active frames as specified in the November 22 ruling.
+
+The grouping procedure returned no releasable comparison table. Its first receipt combines the acoustic-support and joint-disclosure reasons, so the specific check responsible cannot be identified from that receipt. There is no estimate for group differences, relative prevalence or the joining comparison. The independent process reproduced the same support counts and disposition. This result covers the completely delivered meetings in the frozen 285-channel snapshot. The remainder of the 682 assigned AMI channels is outside its scope.
+
+Against, and clear. No registered contrast had an estimate and interval to score. The source disposition carries no evidence for or against discrete kinds of laughter. Reference pitch and voice signals stayed inside each process. Carletta et al. (2005), The AMI Meeting Corpus, CC BY 4.0.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided.; project meaning: scoped operational record; next engineering obligation: Recheck the meeting roster when the missing channels arrive. Keep the two cohorts separately identified.; public scientific claim unchanged; curator decision required: No new decision. Detail: LGH1_AMI_ACOUSTICS.md.
+
+### OPS-S15-W7-SOURCE-BINDINGS-20261122
+
+Seventy-five distinct original ICSI meeting transcripts matched all 468 assigned microphones. The preambles file was excluded. There were 8,420 laughter-only utterances. There were also 3,778 mixed utterances containing 4,213 laughter marks. The companion internal CSV contains one mixed-mark share per speaker with marked laughter, sorted by share with neither identifiers nor ordering by identity. The verified checksum is in this receipt. The first original run stopped before waveform measurement because its parser accepted decimal microphone numbers. The provider also uses chanA and chanB. The failed terminal and its measured cost are preserved. The recording binding fixes annotated utterance length, the cross-corpus active-frame denominator and the figure limit. Janin et al. (2003), The ICSI Meeting Corpus, CC BY 4.0.
+
+TRX1 needs the event condition for the person-level appraisal slope. Member 0011 supplies affect, day and beep. Member 0027 supplies coping and affect. Neither release supplies a qualifying event contrast. The 0056 and 0057 key mapping remains a separate question.
+
+UGM1 needs offer-linked felt valence and arousal. All 8,000 eligible offer rows lacked both fields. The source dictionary identifies valence and arousal prediction errors separately. Those errors and the independent feeling-task ratings do not identify the required trial-level contrast. Both diary and game dispositions concern source support.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison.; project meaning: scoped operational record; next engineering obligation: Resume the ICSI run on authenticated channel labels. Recheck the diary and game cards if a qualifying source edition arrives.; public scientific claim unchanged; curator decision required: No new decision. Detail: ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md.
+
 ### OPS-S15-W7-AMI-AUDIO-PREFLIGHT-20261122
 
 The acquisition snapshot contained 285 of 682 assigned microphone channels. Twelve meetings had every assigned channel present. The preflight verified the size, SHA-256 digest, mono waveform header and annotation stream for all 48 headsets in those meetings. All 765 explicitly timed vocal laughs fell inside their recording. Another 542 laughter marks lacked a usable interval. All 48 headsets had timed reference speech.

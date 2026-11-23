@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W7-LGH1-AMI-ACOUSTICS: Measurement and independent replay finished on the 12 fully delivered AMI meetings. The group comparison is undecided.
+
+- [x] OPS-S15-W7-SOURCE-BINDINGS-20261122: The ICSI edition census and speaker fractions are filed. Three open diary or game source bindings could not supply their registered comparison.
+
 - [x] OPS-S15-W7-AMI-AUDIO-PREFLIGHT-20261122: AMI audio and timing checks passed on 48 assigned headsets in 12 complete meetings.
 
 - [x] OPS-S15-W7-RESTRICTED-REPLAY-20261122: The Portuguese price and teaching diary studies have complete internal tables, figures and verified replay records.
