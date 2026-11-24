@@ -1,5 +1,434 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W7-HEALTH-20261124-0308
+
+Week 7 has eight free local slots and no active sealed study. All recorded reservations have a terminal disposition and a matching charge receipt. The calendar heartbeat, locks, completion watcher and both delivery monitors were verified. The latest collector handoff is the constructed TP58 fixture. The real projection has no delivery, and AMI remains at 13 complete meetings against a 24-meeting start threshold. The source records for other waiting rows remain current. No worker restart or scientific retry was indicated.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Week 7 has eight free local slots and no active sealed study.; project meaning: scoped operational record; next engineering obligation: Resume qualified work when a watched source arrives.; public scientific claim unchanged; curator decision required: No new decision. Detail: QUEUE_HEALTH_20261124_0308.md.
+
+### OPS-S15-W7-TMP1-REAL-ADAPTER
+
+The TMP1 source adapter passed its local qualification on invented histories. It binds the exact 20-file reader and three reviewed projection hashes before loading the input. A changed exclusions file and an extra input file both stopped before output. The unchanged synthetic projection produced the expected nine aggregate table counts. Only the existing sealed output contract is allowed. The Linux image and reader were separately rehearsed on Spark. Real-source admission awaits the archive name, layout, source and exclusion provenance and reviewed projection hashes. This check spent no sealed invocation.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The TMP1 source adapter passed its local qualification on invented histories.; project meaning: scoped operational record; next engineering obligation: Verify and pin the real archive binding on arrival.; public scientific claim unchanged; curator decision required: No new decision. Detail: TMP1_REAL_ADAPTER_QUALIFICATION.md.
+
+### OPS-S15-W7-TMP1-SPARK-FIXTURE
+
+Spark replayed the delivered TP58 reader on invented histories and released all nine expected aggregate tables. The installed launcher mounted the archive fixture read-only. The job verified all 20 payload hashes, CPU execution and loopback-only networking. It generated its own histories, ran the frozen reader and checked table names, finite labels and values, intervals and participant counts before the installed gate. All nine released table row counts matched the producer rehearsal, 1,835 rows total. This checks execution and output structure; cross-platform numerical equality was not tested. The ledger conservatively charges the full 1,800 CPU-second bound. A real run requires both the pinned reader and the approved narrow projection inside the sealed boundary.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Spark replayed the delivered TP58 reader on invented histories and released all nine expected aggregate tables.; project meaning: scoped operational record; next engineering obligation: Bind the approved real projection and source-documented collection exclusions.; public scientific claim unchanged; curator decision required: No new decision. Detail: TMP1_SPARK_CONSTRUCTED_RETURN.md.
+
+### S15-W7-LAG-FAMILY
+
+After an event, do sadness and loneliness carry over to the next answered prompt more than anger does? Eligible cells had an original same-prompt slope clear of zero. The next-prompt model held current feeling and next event, using whole-person intervals. The ratio divides the lagged slope by the frozen same-prompt slope. Medians were taken within diary and then across diaries with identified fits. Diary 0049 stays internal and 0057 stopped during replay.
+
+Descriptive ratios by feeling family and gap rule. The count is diaries contributing an identified ratio.
+
+| Family | Gap rule | Diaries | Median ratio |
+|---|---|---:|---:|
+| PANIC/GRIEF | all | 1 | 0.1759 |
+| PANIC/GRIEF | short | 2 | -0.0145 |
+| RAGE | all | 1 | -0.1346 |
+| RAGE | short | 2 | -0.0502 |
+
+The descriptive carry-over ratios follow the predicted ordering in both gap readings, with only one contributing diary per family on the unrestricted reading. All same-day consecutive pairs enter the unrestricted reading. The short reading caps gaps at twice the diary median. Cell intervals, disagreement flags, ratios, source counts and pooled medians appear in the [aggregate tables](LAG_NEXT_PROMPT_FAMILY_RETURN_tables.json). A family-contrast interval was not calculated. An event can itself last across two prompts. Adjusting for the event at the next prompt removes only part of that persistence. Missed prompts can widen gaps selectively. The two families can draw on different cells and diaries.
+
+Curator roll-up: Week 7 LAG · After an event, do sadness and loneliness carry over to the next answered prompt more than anger does? · **Narrows** · The descriptive carry-over ratios follow the predicted ordering in both gap readings, with only one contributing diary per family on the unrestricted reading. · Project scope: Five eligible replayed diary sources, with incomplete or unidentified cells recorded individually. · Next: Retain the source limitations in the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LAG_NEXT_PROMPT_FAMILY_RETURN.md.
+
+### OPS-S15-W7-TMP1-DELIVERY
+
+The engine delivered the frozen TP58 reader. The receiver independently checked the manifest SHA-256, exact file inventory and all 20 payload hashes. The supplied rehearsal used invented histories on Windows. The installed Spark launcher copies only run.py into the job and offers one read-only source mount. A read-only payload fixture is requested for the independent AArch64 rehearsal. No real histories were opened.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The engine delivered the frozen TP58 reader.; project meaning: scoped operational record; next engineering obligation: Rehearse on Spark when the verified payload mount is available.; public scientific claim unchanged; curator decision required: No new decision. Detail: TMP1_TP58_DELIVERY.md.
+
+### OPS-S15-W7-LAG-0057-COST
+
+Diary 0057 reached its reservation during independent replay. The first pass completed 649 cells. The 28 replayed checkpoints matched byte for byte. The first pass cost 18,312 CPU seconds. Replay stopped at the guard on the 19,500-second reservation, with 19,494.42 CPU seconds charged and a 20,000-second unit ceiling. The remaining replay cannot fit. Preserve the checkpoints and exclude this diary from numerical pooling.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0057 reached its reservation during independent replay.; project meaning: scoped operational record; next engineering obligation: File the family return with the missing diary identified.; public scientific claim unchanged; curator decision required: No new decision. Detail: LAG_0057_COST_STOP.md.
+
+### OPS-S15-W7-LAG-0056
+
+Diary 0056 completed the next-prompt study and independent replay. The source pins, clock distribution, cell inventory and numerical replay agree. Results await the family comparison.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0056 completed the next-prompt study and independent replay.; project meaning: scoped operational record; next engineering obligation: File the completed LAG family after all dispositions.; public scientific claim unchanged; curator decision required: No new decision. Detail: LAG_0056_UNIT_20261123.md.
+
+### S15-W7-LGH4-ICSI-CONTEXT
+
+Did the held-out acoustic groups differ in how often laughter began within three seconds after a joke-tagged utterance ended? The analysis used the original acoustic grouping and the dialogue-act manual’s joke tag across 75 meetings. The table compares the fraction of between-event variance explained by component membership against the 95th percentile of 200 shuffles.
+
+| Fact | Observed fraction | Shuffle threshold | Above threshold |
+|---|---:|---:|---|
+| A joke-tagged utterance had just ended | 0.00837 | 0.00253 | Yes |
+
+The joke window ends three seconds after a tagged utterance. AMI lacks a comparable dialogue-act tag. Acoustic groups crossed the shuffle threshold for 1 of 1 registered meeting-context facts. The [component table](LGH4_ICSI_CONTEXT_RETURN_component_context.csv) pairs each fact rate with the six component means. Duration means annotated utterance length. Laughter that overlaps speech is not in the sample, and that may be a kind of its own. Facts from marks depend on the timing and coverage of the marks. The same speakers and meetings can recur. Only one component profile met the reporting conditions. The released comparison gives no ordering of components and has no causal interpretation.
+
+Curator roll-up: T7, LP5 · Did the held-out acoustic groups differ in how often laughter began within three seconds after a joke-tagged utterance ended? · **Narrows** · The timing of isolated laughter after a joke tag differed across the held-out ICSI acoustic groups beyond the shuffle threshold. · Project scope: Isolated laughter annotations on assigned ICSI meeting microphones, using the original held-out components. · Next: File alongside independent meeting corpora as they qualify. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LGH4_ICSI_CONTEXT_RETURN.md.
+
+### OPS-S15-W7-LAG-0060
+
+Diary 0060 completed the next-prompt study and independent replay. The source pins, clock distribution, cell inventory and numerical replay agree. Results await the family comparison.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0060 completed the next-prompt study and independent replay.; project meaning: scoped operational record; next engineering obligation: File the completed LAG family after all dispositions.; public scientific claim unchanged; curator decision required: No new decision. Detail: LAG_0060_UNIT_20261123.md.
+
+### OPS-S15-W7-SECTION7-NATIVE-QUEUE
+
+The section 7 Spark queue spent seven invocations. All six study dispositions are filed. Both SLD4 comparisons and the CAL3 permutation calibration returned gated tables. MIB1, MIB2 and DFB1 each spent one invocation on the in-job roster decision and returned no eligible roster. MIB3 used one invocation and returned source-status 11. Its original point retains no family interval. Spark has finished the eligible section 7 jobs. Two pre-admission memory refusals and an SSH digest wait preceded the successful SLD4 submissions. The digest wait was reconciled with no remote invocation and zero CPU charge.
+
+The workstation admitted five PLX diaries, replayed the two numerical failures under their original allowances, and admitted both additional atlas sources. The receipt binds the submitted attempts, terminal files, measured costs, native leases and completion handoffs. The standing table gives the latest row dispositions.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The section 7 Spark queue spent seven invocations. All six study dispositions are filed.; project meaning: scoped operational record; next engineering obligation: Use terminal wakes for remaining diary and meeting returns.; public scientific claim unchanged; curator decision required: No new decision. Detail: SECTION7_AND_NATIVE_QUEUE_20261123.md.
+
+### S15-W7-ATL-ADM-EXTENSION
+
+The diary atlas now includes the couples diary and the American Time Use Survey wellbeing module. The 21 new event–feeling combinations are listed in the [item table](ATL_FOURTEEN_SOURCE_EXTENSION_new_items.csv). The [family table](ATL_FOURTEEN_SOURCE_EXTENSION_pooled.csv) and [shuffle reference by source](ATL_FOURTEEN_SOURCE_EXTENSION_shuffle.csv) include the corrected diary 0003 event inventory. The [couples estimates](ATL_FOURTEEN_SOURCE_EXTENSION_couples.json) and [activity estimates](ATL_FOURTEEN_SOURCE_EXTENSION_atus.json) preserve the original numerical operator outputs.
+
+The couples diary was released under CC BY 4.0. The four US time-use editions were released by the Bureau of Labor Statistics. The registered analysis gives each person a resampling unit. It makes no nationally weighted estimate. Disclosure and listening were asked conditionally on a recent hassle. Neither release supplies the elapsed time between consecutive answered prompts. The couples questionnaire has a nervousness item and no worry item, so TWO2 has no bound outcome. [Source binding](../../../docs/design/stage-15/week7/ADM_OPEN_BINDINGS.md).
+
+The couples can share a household and an event. The time-use observations describe selected activities recalled during one interview. Each person rated the event and the feeling.
+
+Curator roll-up: P4 · How do feelings recorded on the same report vary with hassles, disclosure or interaction? · **Narrows** · The diary atlas now includes the couples diary and the American Time Use Survey wellbeing module. · Project scope: Fourteen independently listed sources with released event and feeling bindings. Restricted member 0049 stays outside this pool. · Next: Use the source clock and questionnaire rulings for LAG and TWO2. · Public wording is limited to the recorded population. Curator decision required: No. Detail: ATL_FOURTEEN_SOURCE_EXTENSION.md.
+
+### S15-W7-LGH3-ICSI-CONTEXT
+
+The table compares the fraction of between-event variance explained by component membership against the 95th percentile of 200 shuffles.
+
+| Fact | Observed fraction | Shuffle threshold | Above threshold |
+|---|---:|---:|---|
+| Another speaker recently began laughing | 0.01550 | 0.00241 | Yes |
+| Three or more speakers laughed | 0.05539 | 0.00267 | Yes |
+| The laugher began to speak | 0.00957 | 0.00288 | Yes |
+| Laugh began in the last third | 0.00141 | 0.00257 | No |
+
+The registered prediction was above the threshold for the first three facts only. Acoustic groups crossed the shuffle threshold for 3 of 4 registered meeting-context facts. The [component table](LGH3_ICSI_CONTEXT_RETURN_component_context.csv) pairs each fact rate with the six component means. Duration means annotated utterance length. Laughter that overlaps speech is not in the sample, and that may be a kind of its own. Facts from marks depend on the timing and coverage of the marks. The same speakers and meetings can recur.
+
+Curator roll-up: T7, LP5 · Which held-out meeting contexts differ across the previously fitted laughter groups? · **Narrows** · Acoustic groups crossed the shuffle threshold for 3 of 4 registered meeting-context facts. · Project scope: Isolated laughter annotations on assigned ICSI meeting microphones, using the original held-out components. · Next: File alongside independent meeting corpora as they qualify. · Public wording is limited to the recorded population. Curator decision required: No. Detail: LGH3_ICSI_CONTEXT_RETURN.md.
+
+### OPS-S15-W7-ATL-0003-SCOPE
+
+The diary atlas now excludes the completion clock and typical sleep duration from the event inventory. The dictionary describes study_time as the local clock time and sleep_duration as the time between usual bedtime and wake time. Removing 32 event–feeling cells changes diary 0003 from 160 planned cells to 128, and from 144 shuffle comparisons to 128. The six previously unread prediction rows match the prior return exactly. Neither field entered a LAG fit. The original files remain available for audit. The replacement [pooled atlas](ATL_0003_EVENT_SCOPE_CORRECTION_pooled.csv), [diary rows](ATL_0003_EVENT_SCOPE_CORRECTION_members.csv) and [shuffle table](ATL_0003_EVENT_SCOPE_CORRECTION_shuffle.csv) supersede the corresponding November 23 atlas views.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The diary atlas now excludes the completion clock and typical sleep duration from the event inventory.; project meaning: scoped operational record; next engineering obligation: Use corrected views for the Week 7 packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0003_EVENT_SCOPE_CORRECTION.md.
+
+### S15-W7-PLX-SIXTEEN
+
+0 of the five added diaries had a slope passing all three registered forms. Across the sixteen listed diaries, 2 had at least one such slope. The count includes diaries without an eligible graded comparison.
+
+| Diary | Slopes passing all three forms |
+|---|---|
+| 0003 | None established |
+| 0010 | None established |
+| 0023 | None established |
+| 0042 | None established |
+| 0043 | None established |
+| 0044 | None established |
+| 0049 | None established |
+| 0055 | None established |
+| 0056 | admired_proud, admired_proud_minus_relaxed |
+| 0057 | admired_proud_minus_relaxed, admired_relaxed, intellectual_occup_enthusiastic |
+| 0060 | None established |
+| 0063 | None established |
+| 0070 | None established |
+| 0072 | None established |
+| 0073 | None established |
+| 0076 | None established |
+
+Member 0070 lacks bound endpoints. The graded event labels in 0042 conflict. Binary-event slopes cannot pass the graded test. Member 0010 had no bound three-form response, and 0049’s conditional effort description is outside PST9. The [full table](PLX_SIXTEEN_DIARY_RETURN_forms.csv) gives the registered forms, support and uncertainty for the five additions. Separate earlier encounters from expanded panels when reading the prior named slopes.
+
+Two numerical replays initially differed in a bootstrap standard deviation for a variance divided by squared mean. The failed attempts were retained and charged. The 0042 replay used the existing twelve-decimal sufficient-statistic convention. The final 0063 replay used compensated sums over independently grouped prompts and checked each half statistic against both original algorithms before recomputing the full fit under the original output tolerance.
+
+A slope that does not hold in a short diary has not been shown absent. People reported their own events and feelings at one prompt. Different diaries offer different eligible events and feelings.
+
+Curator roll-up: P4 · In how many diaries does any individual event–feeling slope persist across all three forms? · **Narrows** · 0 of the five added diaries had a slope passing all three registered forms. · Project scope: Five added openESM diaries beside the eleven earlier PST diaries. Units without a bound graded event stay in the roster and are identified. · Next: Carry the eligibility limits into the Week 7 return. · Public wording is limited to the recorded population. Curator decision required: No. Detail: PLX_SIXTEEN_DIARY_RETURN.md.
+
+### OPS-S15-W7-DFB1-SEALED
+
+DFB1 returned no eligible released roster. The job spent one invocation. The sealed runner returned no aggregate table.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; DFB1 returned no eligible released roster.; project meaning: scoped operational record; next engineering obligation: Retain the registered disposition and proceed in section 7 order.; public scientific claim unchanged; curator decision required: No new decision. Detail: DFB1_SEALED_RETURN_20261123.md.
+
+### OPS-S15-W7-MIB2-SEALED
+
+MIB2 returned no eligible released roster. The job spent one invocation. The sealed runner returned no aggregate table.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; MIB2 returned no eligible released roster.; project meaning: scoped operational record; next engineering obligation: Retain the registered disposition and proceed in section 7 order.; public scientific claim unchanged; curator decision required: No new decision. Detail: MIB2_SEALED_RETURN_20261123.md.
+
+### S15-W7-CAL3-SHUFFLE
+
+The wave-two trait calibration reproduced the original returned estimates and compared them with shuffled trait scores. For each comparison the job held its roster and diary data fixed, permuted the person-level trait one thousand times, and reported midranks for ties. Independent source decoding and the joint disclosure checks preceded return.
+
+The full [gated calibration table](CAL3_gated_calibration.csv) gives both null endpoints, the null median, the original estimate and its percentile for every returned contrast.
+
+The randomization breaks the association of the trait with the person. It does not address the shared source of the daily reports. The null range is a permutation reference.
+
+Curator roll-up: P4, S3 · Where do the original trait effects lie when the scores are reassigned among contributing people? · **Narrows** · The wave-two trait calibration reproduced the original returned estimates and compared them with shuffled trait scores. · Project scope: Originally released SLD3 comparisons on the wave-two MIDUS diary and survey. · Next: Read beside the family-resampled SLD3 intervals. · Public wording is limited to the recorded population. Curator decision required: No. Detail: CAL3_SEALED_RETURN_20261123.md.
+
+### OPS-S15-W7-MIB3-SEALED
+
+MIB3 returned source-status code 11 and no table. Its constructed rehearsal reproduced the published point and produced an interval with paired families and missing links. In the real job the wrapper required each diary contributor to have a survey entry even to receive a singleton label. The code covers several source failures, so the exact trigger is unknown. One invocation was charged. The original published point still has no qualifying family interval.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; MIB3 returned source-status code 11 and no table.; project meaning: scoped operational record; next engineering obligation: Retain the registered disposition and proceed in section 7 order.; public scientific claim unchanged; curator decision required: No new decision. Detail: MIB3_SEALED_RETURN_20261123.md.
+
+### S15-W7-SLD4-ANGER-TRAITS
+
+The table compares the registered anger-group score for each trait. Each available interval uses 2,000 whole-family draws. Both substituted-trait entries repeated the calculation and passed the joint membership review and the installed sealed gate.
+
+| Trait | People | Estimate | 95% family interval |
+|---|---:|---:|---|
+| Neuroticism | 805 | 0.141 | 0.027 to 0.239 |
+| Agreeableness | 805 | 0.052 | -0.043 to 0.143 |
+| Extraversion | 805 | -0.018 | -0.119 to 0.084 |
+
+Both substituted traits had smaller anger-group point estimates. People rated both their daily stressors and feelings in the same evening interview. The reported intervals are for each trait separately. Their difference has no paired interval.
+
+The full gated comparisons are filed for [agreeableness](SLD4_agreeableness_gated.csv), [extraversion](SLD4_extraversion_gated.csv).
+
+Curator roll-up: S3, P4 · Is the anger-group association smaller for agreeableness and extraversion than for Neuroticism? · **Narrows** · Both substituted traits had smaller anger-group point estimates. · Project scope: MIDUS wave-two survey and eight-day diary, on the registered SLD3 roster with complete trait scores for the relevant fit. · Next: Retain the three marginal intervals and the limit on trait differences. · Public wording is limited to the recorded population. Curator decision required: No. Detail: SLD4_WAVE_TWO_TRAIT_COMPARISON.md.
+
+### OPS-S15-W7-LAG-0073
+
+Diary 0073 completed the next-prompt study and independent replay. The source pins, clock distribution, cell inventory and numerical replay agree. Results await the family comparison.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0073 completed the next-prompt study and independent replay.; project meaning: scoped operational record; next engineering obligation: File the completed LAG family after all dispositions.; public scientific claim unchanged; curator decision required: No new decision. Detail: LAG_0073_UNIT_20261123.md.
+
+### OPS-S15-W7-MIB1-ROSTER
+
+The sealed MIB1 job found no eligible previously released cohort. The mounted-source job reconstructed the historical rosters and sought a cohort entirely eligible for MI1. The qualified empty branch returns code 32 and writes nothing. Spark mapped that to outer status 4. Its operational audit confirmed the inner code, source and reviewed entry hash. The generic failure record remains in the attempt beside the reconciliation. One section 7 invocation and the enforced CPU reservation are accounted for. No participant information or estimates were returned.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The sealed MIB1 job found no eligible previously released cohort.; project meaning: scoped operational record; next engineering obligation: Proceed to SLD4 in section 7 order.; public scientific claim unchanged; curator decision required: No new decision. Detail: MIB1_SEALED_ROSTER_20261123.md.
+
+### OPS-S15-W7-LAG-0063
+
+Diary 0063 completed the next-prompt study and independent replay. The source pins, clock distribution, cell inventory and numerical replay agree. Results await the family comparison.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0063 completed the next-prompt study and independent replay.; project meaning: scoped operational record; next engineering obligation: File the completed LAG family after all dispositions.; public scientific claim unchanged; curator decision required: No new decision. Detail: LAG_0063_UNIT_20261123.md.
+
+### OPS-S15-W7-LAG-0003
+
+Diary 0003 completed the next-prompt study and independent replay. The source pins, clock distribution, cell inventory and numerical replay agree. Results await the family comparison.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0003 completed the next-prompt study and independent replay.; project meaning: scoped operational record; next engineering obligation: File the completed LAG family after all dispositions.; public scientific claim unchanged; curator decision required: No new decision. Detail: LAG_0003_UNIT_20261123.md.
+
+### OPS-S15-W7-LAG-0049
+
+Diary 0049 completed the next-prompt study and independent replay. The operator matched both clock distributions, selections, every cell checkpoint and the final tables, then reconciled the native CPU charges. The internal table carries both gap readings, their ratio to the earlier same-prompt estimates and any unidentified comparisons. Member 0049 remains internal and is excluded from the family pool.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0049 completed the next-prompt study and independent replay.; project meaning: scoped operational record; next engineering obligation: File the completed LAG family after all dispositions.; public scientific claim unchanged; curator decision required: No new decision. Detail: LAG_0049_UNIT_20261123.md.
+
+### OPS-S15-W7-LGH4-LAG-ADMIT
+
+The AMI dialogue-act manual and all 15 released act codes were checked. No code identifies humour or joking, so the AMI LGH4 unit is void under CQ. ICSI has the MRDA joke tag and passes the constructed timing check. The new ICSI worker started through Gear 2. The LAG fixture recovered its planted direction, excluded ambiguous clocks and prevented pairing across missing feelings. Six diary workers started, filling the eight shared slots together with both ICSI studies. The capacity handoff subsequently admitted diary 0057 when 0049 completed its replay. The 11:50 curator ruling assigns MIB1, MIB2 and DFB1 one sealed invocation each for in-job eligibility and fitting, including an empty-roster disposition. The sealed rehearsal uses this ruling.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The AMI tag review and seven new native study starts are recorded.; project meaning: scoped operational record; next engineering obligation: Inspect completions and file only replay-verified estimates.; public scientific claim unchanged; curator decision required: No new decision. Detail: LGH4_BINDING_AND_LAG_ADMISSION_20261123.md.
+
+### S15-W7-ATL-DIARIES
+
+## Against, and clear
+
+No unread family had a majority of diaries clear in the direction opposite its guess. The predicted predominance of lower fear with play was missed: its two unread diary readings were unclear. A tie misses a directional guess.
+
+The table counts diaries for each of the six guesses after removing previously examined source-family combinations. A circle marks a scored guess; a cross marks a missed guess.
+
+| Event | Feeling | Above | Below | Unclear | Void | Previously examined diaries excluded | Reading |
+|---|---|---:|---:|---:|---:|---:|---|
+| cognitive engagement | SEEKING | 0 | 0 | 0 | 0 | 4 | No eligible unread estimate |
+| conflict | RAGE | 1 | 0 | 0 | 0 | 4 | ○ |
+| esteem | PRIDE | 0 | 0 | 0 | 0 | 2 | No eligible unread estimate |
+| exclusion | PANIC/GRIEF | 2 | 0 | 0 | 0 | 1 | ○ |
+| play | FEAR | 0 | 0 | 2 | 0 | 1 | ○ × |
+| threat | FEAR | 0 | 0 | 0 | 0 | 2 | No eligible unread estimate |
+
+The two status diaries exceeded the shuffle yardstick among cells with a defined reference; only one exceeded it when all planned cells were counted. The [shuffle table](ATL_DIARY_ATLAS_20261123_shuffle.csv) gives both denominators.
+
+The [complete pooled table](ATL_DIARY_ATLAS_20261123_pooled.csv) includes unguessed descriptive rows and gives each diary one vote. The [diary table](ATL_DIARY_ATLAS_20261123_members.csv) gives support and prior-study flags. The [historical register](ATL_DIARY_ATLAS_20261123_previous.csv) retains the earlier readings in their own estimands.
+
+One person reported both event and feeling in one sitting. Multiple comparisons and appraisal wording limit the interpretation. The shuffle reference measures chance alignment under the specified rearrangement.
+
+Each diary contributes the median point of its identified item pairs. A direction requires every identified item interval in that diary-family cell to clear zero on the same side. Mixed directions and intervals touching zero count as unclear. If all items are void, the diary is void. No source item and prior-study exclusions have separate counts. These conservative family aggregation conventions were applied at filing; they were not independently preregistered. The median across diaries gives each contributing diary equal weight. The original raw, day-adjusted and shuffled readings remain with each unit.
+
+All thirteen source units completed. Member 0049 is internal and excluded from every pooled count. Member 0070 lacks a documented numerical floor in the reviewed release dictionary. Its occurrence estimates are withheld from the pooled reading. The corrected 0060 loneliness cells replace only the original cells for that item.
+
+Curator roll-up: T1, T2, T3, T6, T7, T9 · Which reported events move which feelings within a diary? · **Narrows** · The two status diaries exceeded the shuffle yardstick among cells with a defined reference; only one exceeded it when all planned cells were counted. · Project scope: Repeated event and feeling ratings on the admitted diary editions · Next: Use complete matched cells and verified diary clocks for LAG. · Public wording is limited to the recorded population. Curator decision required: No. Detail: ATL_DIARY_ATLAS_20261123.md.
+
+### OPS-S15-W7-ATL-0060-FLOOR
+
+The 26 loneliness cells in diary 0060 were refitted with their documented binary floor. The other 390 cells retain their original filing. Read this supplement with the archived initial run.  The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 26 loneliness cells in diary 0060 were refitted with their documented binary floor.; project meaning: scoped operational record; next engineering obligation: Use the verified correction for the family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0060_FLOOR_CORRECTION_20261123.md.
+
+### OPS-S15-W7-ATL-0057
+
+Diary 0057 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0057 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0057_UNIT_20261123.md.
+
+### OPS-S15-W7-TMP1-PRODUCER-Q21
+
+The engine reports that Q21 delivered the fitted PRIDE head and TP48 verified the nine original outputs. The receiver matched the producer sheet to the watcher digest and archived that exact working-tree revision. The producer also records the previously filed Spark image attestation. TP58 assembly, its per-file hash manifest, output definitions and its offline rehearsal are still outstanding. The native delivery monitor matched its recorded PID, creation time and script. The receiver made no sealed invocation. On delivery, verify every file and rehearse the frozen reader on constructed text.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The engine reports that Q21 delivered the fitted PRIDE head and TP48 verified the nine original outputs.; project meaning: scoped operational record; next engineering obligation: Verify the released bundle and rehearse it on constructed text.; public scientific claim unchanged; curator decision required: No new decision. Detail: TMP1_TP58_PRODUCER_0758_20261123.md.
+
+### OPS-S15-W7-ATL-0056
+
+Diary 0056 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0056 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0056_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0070
+
+Diary 0070 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0070 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0070_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0072
+
+Diary 0072 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0072 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0072_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0060
+
+Diary 0060 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0060 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0060_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0003
+
+Diary 0003 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0003 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0003_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0063
+
+Diary 0063 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0063 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0063_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0042
+
+Diary 0042 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0042 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0042_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0043
+
+Diary 0043 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0043 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0043_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0073
+
+Diary 0073 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0073 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0073_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0076
+
+Diary 0076 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0076 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0076_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0044
+
+Diary 0044 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0044 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0044_UNIT_20261123.md.
+
+### OPS-S15-W7-ATL-0049
+
+Diary 0049 completed its ATL unit and independent replay. The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. Member 0049 stays internal and is excluded from the pooled table. The pooled family return awaits the remaining diaries.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Diary 0049 completed its ATL unit and independent replay.; project meaning: scoped operational record; next engineering obligation: Complete the remaining diaries and file the registered family return.; public scientific claim unchanged; curator decision required: No new decision. Detail: ATL_0049_UNIT_20261123.md.
+
+### S15-W7-CAL2-DIARIES
+
+## Against, and clear
+
+row-11 outside; row-16 outside; row-22 outside. Unmatched calibrations: 3.
+
+CAL2 completed 6 units with reproduced historical points and fresh-process replay. One person reported both events and feelings in one sitting. The plotted ranges are permutation references. They describe the specified shuffle or floor plant.
+
+Registered comparison: Rows 16 and 22 outside, row 5 inside the equal-effect range.
+
+[Complete shuffle tables](CAL2_DIARIES_20261123.json).
+
+row-24 · Observed mean not bracketed
+row-5 · Observed mean not bracketed
+row-6 · Observed mean not bracketed
+
+Curator roll-up: S3, P4 · How often do the original contrasts survive their registered calibration? · **Narrows** · CAL2 completed 6 units with reproduced historical points and fresh-process replay. · Project scope: Previously reported status-diary and lattice contrasts · Next: Retain the original effects and contrast-specific calibration. · Public wording is limited to the recorded population. Curator decision required: No. Detail: CAL2_DIARIES_20261123.md.
+
+### S15-W7-CAL1-DIARIES
+
+## Against, and clear
+
+13 of 13 historical rows outside the free range; 7 of seven outside the day range. 16 interval-width ratios below 0.8. 2 person-slope readings inside their shuffle range.
+
+CAL1 completed 19 units with reproduced historical points and fresh-process replay. One person reported both events and feelings in one sitting. The plotted ranges are permutation references. They describe the specified shuffle or floor plant.
+
+Registered comparison: All 13 under free shuffle, at least five of seven under day shuffle, held person slopes surviving both, no interval-width ratio below 0.8.
+
+[Complete shuffle tables](CAL1_DIARIES_20261123.json).
+
+All registered source bindings returned numerical calibrations.
+
+Curator roll-up: S3, P4 · How often do the original contrasts survive their registered calibration? · **Narrows** · CAL1 completed 19 units with reproduced historical points and fresh-process replay. · Project scope: Previously reported status-diary and lattice contrasts · Next: Retain the original effects and contrast-specific calibration. · Public wording is limited to the recorded population. Curator decision required: No. Detail: CAL1_DIARIES_20261123.md.
+
+### S15-W7-TRX1-STATUS-DIARIES
+
+## Against, and clear
+
+No pooled unpleasant-mean interval lay wholly below zero.
+
+Member 0056 used 16 items. 314 people had complete scores. 13 lacked one or more required items, 0 lacked a matching key and 0 had an invalid code. Cronbach’s alpha was 0.885.
+
+Member 0057 used 6 items. 1647 people had complete scores. 625 lacked one or more required items, 0 lacked a matching key and 0 had an invalid code. Cronbach’s alpha was 0.824.
+
+Each event has its own inverse-variance pool. The [aggregate tables](TRX1_STATUS_DIARY_TABLES_20261123.json) give the diary-specific support, paired intervals and draw counts. The appraisal in 0010 and the sealed daily-stressor study use different events.
+
+| Event | Pooled unpleasant interval above zero | Every within-diary unpleasant contrast inside ±0.15 |
+|---|---|---|
+| any | False | False |
+| status_criticised | False | False |
+| status_ignored | False | False |
+| status_sidelined | False | False |
+| status_upstaged | False | False |
+
+A short scale is a noisier trait score, which pulls the trait effect toward zero. One person reported the event and the feeling at the same prompt.
+
+Curator roll-up: S3, P4 · Does baseline Neuroticism predict reactivity to negative status events across feelings? · **Narrows** · The two status diaries completed the registered trait analysis and independent replay. · Project scope: Two openESM status diaries, 0056 and 0057, using separately standardized complete baseline instruments. · Next: Retain source-specific event and trait definitions. · Public wording is limited to the recorded population. Curator decision required: No. Detail: TRX1_STATUS_DIARIES_20261123.md.
+
+### OPS-S15-W7-AMI-SOURCE-13
+
+The November 23 intake adds three hash-verified assigned headset files and completes meeting TS3007a. The inventory covers 288 of 682 assigned channels and 13 complete meetings. Previous channel lengths and SHA-256 values matched the frozen acquisition inventory. The additional files matched their recorded lengths and SHA-256 values on disk. The catalogue retains the CC BY 4.0 licence. The changed collector handoff agrees with the file total. Section 8 of the November 23 addendum schedules the next AMI measurement at 24 complete meetings. The waiting condition and acquisition inventory are recorded separately from the completed 12-meeting acoustic run.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The AMI inventory now has 13 complete meetings.; project meaning: scoped operational record; next engineering obligation: Start the next AMI expansion when 24 meetings qualify.; public scientific claim unchanged; curator decision required: No new decision. Detail: AMI_SOURCE_ARRIVAL_13_20261123.md.
+
+### OPS-S15-W7-GAT-SOURCE-BINDING
+
+GAT1 and GAT2 have tests-only clearance. The commissioned file lacks the rater key required for both fits. The curator classified the author-public Columbia distribution with no stated licence as tests only on November 23 at 05:30 Pacific. Figures are restricted to the repository record and theory thread. The SHA-256 of OpenML 40536 version 1 matched the collector manifest. Inspection of all 123 ARFF attribute names found the decision, four partner ratings, own intelligence and ambition, and wave. Wave groups many raters. The file supplies no rater identifier. Both fits need repeated decisions linked within the same person and uncertainty from whole raters. The open catalogue and existing handoffs supplied no keyed companion. Neither fit was started. A provider-documented mapping to anonymous raters, or the corresponding keyed edition admitted for testing, reopens both rows.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; GAT1 and GAT2 have tests-only clearance. The commissioned file lacks the rater key required for both fits.; project meaning: scoped operational record; next engineering obligation: Bind an authenticated encounter-to-rater mapping before either fit.; public scientific claim unchanged; curator decision required: No new decision. Detail: GAT_SOURCE_BINDING_20261123.md.
+
+### OPS-S15-W7-TMP1-IMAGE-ATTESTATION
+
+The Spark owner confirmed the live TMP1 image ID matches the reviewed pin. At 05:30 Pacific on November 23 the curator reported running `docker image inspect sl-tabular:2026-11-16 --format '{{.Id}}'` on Spark. Its output was `sha256:476cc5ecbafa4ed927fd4e1f5df8912125bcc8d8a7f78dbf8ee2032bd196676f`. This matches the pin in the 05:04 sealed CPU and network check. Together these records complete the target-image requirement. The reader rehearsal awaits the frozen TP58 delivery. This attestation consumed no sealed invocation.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The Spark owner confirmed the live TMP1 image ID matches the reviewed pin.; project meaning: scoped operational record; next engineering obligation: Rehearse the verified TP58 delivery on Spark.; public scientific claim unchanged; curator decision required: No new decision. Detail: TMP1_IMAGE_OWNER_ATTESTATION_20261123.md.
+
+### OPS-S15-W7-TMP1-SPARK-IMAGE
+
+The TMP1 shell passed the CPU and network checks on Spark. Live image-ID attestation awaits the host owner.
+
+The installed sealed runner selected sl-tabular:2026-11-16 on the native AArch64 machine. The submitted shell passed its NumPy dot product, saw only loopback, and found no exposed accelerator or fabric devices. The launcher specified network none. All 15 installed package versions matched the published pin. The job opened no source files, wrote no tables and exited zero. The installed gate then refused the empty output directory, as expected, with client exit 5. The synthetic mount was sm-family-fixture-v2. Four constructed shell and gate tests passed before submission.
+
+The owner-published SHA-256 matched the expected ID before and after execution. The launcher selects a tag and provides no live image-ID attestation. The operational receipt was recorded on Spark and its SHA-256 was verified after writing. Week 7 invocation 2 of 30 charged its conservative 60 CPU-second cap. The workstation image requirement was withdrawn. The engine reader is still due.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The TMP1 shell passed the CPU and network checks on Spark. Live image-ID attestation awaits the host owner.; project meaning: scoped operational record; next engineering obligation: Verify the live ID on host-owner attestation and rehearse the frozen reader upon delivery.; public scientific claim unchanged; curator decision required: No new decision. Detail: TMP1_SPARK_IMAGE_20261123.md.
+
 ### OPS-S15-W6-FINAL-ADDENDUM-20261122
 
 Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain. The calendar emitted the addendum marker and completed at 23:00:15 Pacific on November 22. Its recorded process exited with no remaining milestones or failure marker. The owner filed this addendum after the marker.

@@ -1,0 +1,7 @@
+# ATL FOURTEEN SOURCE EXTENSION
+
+The diary atlas now includes the couples diary and the American Time Use Survey wellbeing module. The 21 new event–feeling combinations are listed in the [item table](ATL_FOURTEEN_SOURCE_EXTENSION_new_items.csv). The [family table](ATL_FOURTEEN_SOURCE_EXTENSION_pooled.csv) and [shuffle reference by source](ATL_FOURTEEN_SOURCE_EXTENSION_shuffle.csv) include the corrected diary 0003 event inventory. The [couples estimates](ATL_FOURTEEN_SOURCE_EXTENSION_couples.json) and [activity estimates](ATL_FOURTEEN_SOURCE_EXTENSION_atus.json) preserve the original numerical operator outputs.
+
+The couples diary was released under CC BY 4.0. The four US time-use editions were released by the Bureau of Labor Statistics. The registered analysis gives each person a resampling unit. It makes no nationally weighted estimate. Disclosure and listening were asked conditionally on a recent hassle. Neither release supplies the elapsed time between consecutive answered prompts. The couples questionnaire has a nervousness item and no worry item, so TWO2 has no bound outcome. [Source binding](../../../docs/design/stage-15/week7/ADM_OPEN_BINDINGS.md).
+
+The couples can share a household and an event. The time-use observations describe selected activities recalled during one interview. Each person rated the event and the feeling.

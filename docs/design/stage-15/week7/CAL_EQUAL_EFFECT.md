@@ -1,0 +1,7 @@
+# CAL2 equal-effect qualification and source bindings
+
+Use the same complete-case panels, joint predictors, feeling columns and contrasts as the six historical linear fits. The observed slopes must reproduce the archived contrast. For a binary event, endorse at one. For a rated event use the upper third of the documented scale range. Fit the within-person standardized response afresh after each one-step plant. Each feeling gets an independent uniform draw with the same probability. Clip to its published upper endpoint. In row 22 the two fear slopes contribute half each to the first side; the other side is anger.
+
+Use 32 fixed reference worlds for the six bisection steps, reusing their random numbers when comparing probabilities. Use a fresh 500 free shuffles for the reported reference interval. If the observed mean of the two sides falls outside the endpoint means, file an unmatched calibration. Never change the seed or reverse the plant to obtain a match.
+
+Qualification uses 100 constructed panels with two items at 80% and 50% floor. For each panel, use 500 equal-plant worlds and independently draw an equal and a first-item-only test world. The equal observation must be inside its range at least 90 times; the first-only observation must be outside at least 80 times. The fixture checks the contrast, the one-step cap, and the sign of the alternative; it does not test a scientific prediction.

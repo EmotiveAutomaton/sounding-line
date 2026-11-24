@@ -1,0 +1,3 @@
+# AMI SOURCE ARRIVAL 13 20261123
+
+The November 23 intake adds three hash-verified assigned headset files and completes meeting TS3007a. The inventory covers 288 of 682 assigned channels and 13 complete meetings. Previous channel lengths and SHA-256 values matched the frozen acquisition inventory. The additional files matched their recorded lengths and SHA-256 values on disk. The catalogue retains the CC BY 4.0 licence. The changed collector handoff agrees with the file total. Section 8 of the November 23 addendum schedules the next AMI measurement at 24 complete meetings. The waiting condition and acquisition inventory are recorded separately from the completed 12-meeting acoustic run.

@@ -1,0 +1,3 @@
+# TMP1 TP58 DELIVERY
+
+The engine delivered the frozen TP58 reader. The receiver independently checked the manifest SHA-256, exact file inventory and all 20 payload hashes. The supplied rehearsal used invented histories on Windows. The installed Spark launcher copies only run.py into the job and offers one read-only source mount. A read-only payload fixture is requested for the independent AArch64 rehearsal. No real histories were opened.

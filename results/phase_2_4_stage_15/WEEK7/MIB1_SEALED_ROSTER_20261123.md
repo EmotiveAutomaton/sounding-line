@@ -1,0 +1,3 @@
+# MIB1 SEALED ROSTER 20261123
+
+The sealed MIB1 job found no eligible previously released cohort. The mounted-source job reconstructed the historical rosters and sought a cohort entirely eligible for MI1. The qualified empty branch returns code 32 and writes nothing. Spark mapped that to outer status 4. Its operational audit confirmed the inner code, source and reviewed entry hash. The generic failure record remains in the attempt beside the reconciliation. One section 7 invocation and the enforced CPU reservation are accounted for. No participant information or estimates were returned.

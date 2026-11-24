@@ -1,5 +1,7 @@
 # Stage 15 Week 7
 
+[November 23 row table, TRX1 through TMP1](ROW_STATUS_2026-11-23.md)
+
 For the next AMI delivery, run `python -m tools.week7_ami_intake PREVIOUS ARCHIVE CATALOGUE PRIVATE_OUTPUT_DIRECTORY`. Use the last reviewed inventory, the original AMI annotation ZIP and the collector’s current SOURCE.json. The command checks recorded channel assignments and hashes against the earlier inventory. When another meeting is complete, it writes a new metadata snapshot for source review. Waveform validation and normal admission follow separately. On November 23 the comparison found 285 assigned channels and the same 12 complete meetings. [Intake tool](../../../../tools/week7_ami_intake.py).
 
 [Packet and predictions](PACKET.md) · [Round 35 handoff](../week6/THEORY_HANDOFF_R35.md) · [Intake hashes](INTAKE.json)
@@ -12,4 +14,65 @@ The curator's storage handback triggers DRT1 step 6, then the three previously q
 
 The packet's registered guesses precede all new outcomes. Mark registered cells with a ring and disagreements with an X. The return opens with **Against, and clear** and lists a contrary direction only when its entire interval excludes zero.
 
-The [CAD1 ruling](CAD1_CONTROLS.md) fixes both within-speaker readings. Its companion builds cover the [daily trait comparison](SLD3_REHEARSAL.md), [three-wave purpose projection](SLD2_PROJECTION.md), and [conversation timing and laughter](CONVERSATION_REHEARSALS.md). The [TMP1 handoff record](TMP1_HANDOFF.md) distinguishes the completed shell checks from the engine bundle and target-image checks still due.
+The [CAD1 ruling](CAD1_CONTROLS.md) fixes both within-speaker readings. Its companion builds cover the [daily trait comparison](SLD3_REHEARSAL.md), [three-wave purpose projection](SLD2_PROJECTION.md), and [conversation timing and laughter](CONVERSATION_REHEARSALS.md). The [TMP1 handoff record](TMP1_HANDOFF.md) records the completed Spark image check and the pending TP58 bundle rehearsal.
+
+## Standing queue
+
+The November 23 section 7 invocations and five PLX diaries are filed. The two additional open sources have entered the atlas. The table below and the [queue receipt](../../../../results/phase_2_4_stage_15/WEEK7/SECTION7_AND_NATIVE_QUEUE_20261123.md) distinguish active native work from source-dependent studies.
+
+[November 23 addendum](PACKET_ADDENDUM_2026-11-23.md). The operator refreshes this table at each push and at least every twelve hours. For original blocked rows, the data agent owns missing source deliveries, the engine owns TP58 and Sounding Line owns runner and binding checks.
+
+| Packet row and scope | Status | Filed evidence or next required input |
+|---|---|---|
+| TRX1 · 0010 | Landed | [First-period appraisal analysis](../../../../results/phase_2_4_stage_15/WEEK5/TRX1_0010_APPRAISAL_20261122.md) |
+| TRX1 · 0011 and 0027 | Landed | [Neither released diary supplies the event contrast](../../../../results/phase_2_4_stage_15/WEEK7/ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md) |
+| TRX1 · 0056, 0057 and their status-event pools | Landed | Both native reruns replayed exactly. [Scores, exclusions, contrasts and pools](../../../../results/phase_2_4_stage_15/WEEK7/TRX1_STATUS_DIARIES_20261123.md). |
+| PSD1 | Landed | [Six status events in both diaries](../../../../results/phase_2_4_stage_15/WEEK5/PSD1_DIARIES_20261122.md) |
+| PSD2 | Landed | [Co-occurrence and falls, including the shorter-gap reading](../../../../results/phase_2_4_stage_15/WEEK5/PSD2_DIARIES_20261122.md) |
+| PSD3 | Landed | [Chronological halves in both diaries](../../../../results/phase_2_4_stage_15/WEEK5/PSD3_CHRONOLOGICAL_HALVES_20261122.md) |
+| ISO1 | Landed | [Next-prompt comparisons in both diaries](../../../../results/phase_2_4_stage_15/WEEK5/ISO1_DIARIES_20261122.md) |
+| RBD1 | Landed on current inventory | [No eligible diary in the source census](../../../../results/phase_2_4_stage_15/WEEK5/RBD1_SOURCE_REVIEW_20261122.md). A new fit awaits need 26, a diary asking about both play and stress at least three times a day. |
+| TWO1 | Landed | [Internal return and replay](../../../../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md) |
+| TWO2 | Blocked | A couples-diary release with a documented worry item and timestamps that permit pairing within 30 minutes. |
+| UGM1 · current release | Landed | [No eligible offer carried both felt ratings](../../../../results/phase_2_4_stage_15/WEEK7/ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md). |
+| UGM1 · proposed richer release | Blocked | A documented offer-level release with felt valence and arousal. |
+| SCR1 | Landed | [Internal return and replay](../../../../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md) |
+| GAT1 | Blocked | Tests-only approval filed. Await a documented anonymous rater key for the encounter records. [Binding inspection](../../../../results/phase_2_4_stage_15/WEEK7/GAT_SOURCE_BINDING_20261123.md). |
+| GAT2 | Blocked | Tests-only approval filed. Await a documented anonymous rater key for the encounter records. [Binding inspection](../../../../results/phase_2_4_stage_15/WEEK7/GAT_SOURCE_BINDING_20261123.md). |
+| VAL1 | Blocked | Data agent. Provide the portal selection receipt showing country and variable filters or confirming all were selected. The original Datafile.zip contains Datafile.sav and a codebook with all 12 edition citations. The codebook does not record the export selection. |
+| LGH1 · ICSI | Landed | [Acoustic return](../../../../results/phase_2_4_stage_15/WEEK7/LGH1_ICSI_ACOUSTICS.md) |
+| LGH1 · first 12 complete AMI meetings | Landed | [Acoustic return and independent replay](../../../../results/phase_2_4_stage_15/WEEK7/LGH1_AMI_ACOUSTICS.md) |
+| LGH1 / LGH5 · AMI expansion | Blocked | Data agent. 13 complete meetings, 288 assigned channels. Next run at 24, then 48 and full coverage. [Inventory](../../../../results/phase_2_4_stage_15/WEEK7/AMI_SOURCE_ARRIVAL_13_20261123.md). |
+| LGH1 · Santa Barbara | Blocked | Owner activation of the proposed sealed mount. The collector supplied a 60-entry recording map. Verify the layout inside the approved image on activation. |
+| LGH1 · CANDOR | Blocked | Source edition linking time-marked laughs to their recording channels. |
+| LGH2 · marked laughs | Blocked | Qualified CANDOR laughter times from LGH1. |
+| LGH2 · survey description | Blocked | Source dictionary establishing the direction of the relative-laughter response. |
+| CAD1 | Blocked | Direct enjoyment item confirmed. Verify the documented scale anchors for the named controls and the sealed source-table binding. [Frozen controls](CAD1_CONTROLS.md). |
+| CAD2 | Blocked | Native word times confirmed in original AWS JSON. Verify the cross-conversation chronology and channel-to-speaker binding for that edition. |
+| CRV1 | Blocked | Need 24, an admitted recording of the same adult speaking to a child and to an adult. |
+| SLD1 | Landed | [Three SMF1 returns](../../../../results/phase_2_4_stage_15/WEEK5/SMF1_THREE_SEALED_RETURNS_20261122.md) |
+| SLD2 | Blocked | Wave-one main survey ICPSR 2760 Dataset 0001 and codebook for the three-wave join. The delivered wave-one ZIP is the daily diary. [Projection](SLD2_PROJECTION.md). |
+| SLD3 | Landed | [Sealed daily-trait return](../../../../results/phase_2_4_stage_15/WEEK7/SLD3_DAILY_TRAIT.md) |
+| TMP1 · Spark execution | Landed | Runnable at filing. Completed at 05:04 Pacific, with CPU arithmetic, isolated networking and all 15 package pins verified. [Receiver record](TMP1_HANDOFF.md). |
+| TMP1 · live image ID | Landed | Owner inspection on Spark at 05:30 Pacific matched the reviewed pin. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/TMP1_IMAGE_OWNER_ATTESTATION_20261123.md). |
+| TMP1 · study | Awaiting sealed source binding | AArch64 constructed rehearsal passed. Bind the frozen reader, trait-scored comment histories and documented collection-community exclusions on the single read-only source mount. [Rehearsal receipt](../../../../results/phase_2_4_stage_15/WEEK7/TMP1_SPARK_CONSTRUCTED_RETURN.md). |
+| CAL1 · all 19 units | Landed | Sounding Line. Independent replay and original-point checks recorded for all units. [Internal return](../../../../results/phase_2_4_stage_15/WEEK7/CAL1_DIARIES_20261123.md). |
+| CAL2 · six equal-effect units | Landed | Sounding Line. [Constructed qualification and six dispositions](../../../../results/phase_2_4_stage_15/WEEK7/CAL2_DIARIES_20261123.md). |
+| ATL · 0057, 0056, 0049, 0072, 0076, 0044, 0042, 0043, 0073, 0060, 0063, 0003, 0070 | Landed | Sounding Line. [Pooled atlas](../../../../results/phase_2_4_stage_15/WEEK7/ATL_DIARY_ATLAS_20261123.md) and [0060 correction](ATL_0060_FLOOR.md) filed. Member 0049 stays internal. |
+| MIB1 · wave two | Landed | No eligible released roster. One sealed invocation. [Audit](../../../../results/phase_2_4_stage_15/WEEK7/MIB1_SEALED_ROSTER_20261123.md). |
+| SLD4 | Landed | Both substituted traits returned gated tables. [Comparison](../../../../results/phase_2_4_stage_15/WEEK7/SLD4_WAVE_TWO_TRAIT_COMPARISON.md). |
+| MIB3 | Landed | Source-status 11. No interval returned. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/MIB3_SEALED_RETURN_20261123.md). |
+| CAL3 | Landed | Original estimates and 1,000-shuffle reference returned. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/CAL3_SEALED_RETURN_20261123.md). |
+| MIB2 | Landed | No eligible previously released roster. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/MIB2_SEALED_RETURN_20261123.md). |
+| DFB1 | Landed | No eligible previously released roster. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/DFB1_SEALED_RETURN_20261123.md). |
+| LGH3 · ICSI | Landed | Four registered context facts, six acoustic measures and independent replay. [Return](../../../../results/phase_2_4_stage_15/WEEK7/LGH3_ICSI_CONTEXT_RETURN.md). |
+| LGH3 · AMI, 12 meetings | Landed | Original group table withheld. All four facts void for this roster under the same release check. |
+| LGH4 · AMI | Landed | Void. The dialogue-act manual and released ontology contain no joke tag. [Source binding](LGH4_DIALOGUE_ACTS.md). |
+| LGH4 · ICSI | Landed | Both native passes reproduced the original acoustic tables and the joke-context comparison. [Return](../../../../results/phase_2_4_stage_15/WEEK7/LGH4_ICSI_CONTEXT_RETURN.md). |
+| LGH5 | Blocked | Data agent. Next registered AMI meeting milestone; 13 complete meetings at last verified intake. |
+| LAG · 0056, 0003, 0049, 0060, 0063, 0073 | Landed | Sounding Line. Unit records and fresh-process replay filed. Member 0049 stays internal. |
+| LAG · 0057 | Cost-held | 649 cells executed, 28 replayed. [Cost receipt](../../../../results/phase_2_4_stage_15/WEEK7/LAG_0057_COST_STOP.md). |
+| PLX · five added and eleven earlier diaries | Landed | Independent numerical replay and pooled inventory. [Full return](../../../../results/phase_2_4_stage_15/WEEK7/PLX_SIXTEEN_DIARY_RETURN.md). |
+| ADM · couples and US time use | Landed | Both sources hash-verified. Both ATL jobs filed. The supplied fields do not bind the LAG clock or the couples worry study. [Source bindings](ADM_OPEN_BINDINGS.md) and [fourteen-source atlas](../../../../results/phase_2_4_stage_15/WEEK7/ATL_FOURTEEN_SOURCE_EXTENSION.md). |
+| MIB1 · wave three | Blocked | Data agent. Resolve the family field and diary roster count. |
+| PSD2 · everyday emotions co-occurrence | Blocked | Curator. Rights review of the release with no stated licence. |

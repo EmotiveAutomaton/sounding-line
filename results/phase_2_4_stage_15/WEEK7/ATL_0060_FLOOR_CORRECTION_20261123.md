@@ -1,0 +1,3 @@
+# ATL 0060 FLOOR CORRECTION 20261123
+
+The 26 loneliness cells in diary 0060 were refitted with their documented binary floor. The other 390 cells retain their original filing. Read this supplement with the archived initial run.  The operator verified the complete cell inventory against both sets of checkpoint files, matched the independent outputs byte for byte and reconciled the charge to native usage for qualification, execution and replay. The internal filing records each disposition and the share of eligible cells outside the shuffle interval. The pooled family return awaits the remaining diaries.

@@ -1,0 +1,3 @@
+# LAG 0057 COST STOP
+
+Diary 0057 reached its reservation during independent replay. The first pass completed 649 cells. The 28 replayed checkpoints matched byte for byte. The first pass cost 18,312 CPU seconds. Replay stopped at the guard on the 19,500-second reservation, with 19,494.42 CPU seconds charged and a 20,000-second unit ceiling. The remaining replay cannot fit. Preserve the checkpoints and exclude this diary from numerical pooling.

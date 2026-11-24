@@ -1,0 +1,3 @@
+# MIB3 SEALED RETURN 20261123
+
+MIB3 returned source-status code 11 and no table. Its constructed rehearsal reproduced the published point and produced an interval with paired families and missing links. In the real job the wrapper required each diary contributor to have a survey entry even to receive a singleton label. The code covers several source failures, so the exact trigger is unknown. One invocation was charged. The original published point still has no qualifying family interval.

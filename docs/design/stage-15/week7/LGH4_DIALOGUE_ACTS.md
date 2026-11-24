@@ -1,0 +1,10 @@
+# LGH4 dialogue-act binding
+
+ICSI supplies a specific MRDA joke tag, `j`. In the released NXT core archive, read the normalized `type` attribute as a compound label. A complete tag token qualifies even in a compound. Count each act once. Use its annotated end time and the original laughter-only annotation's onset. Match inside one meeting when the elapsed time is between zero and three seconds inclusive. Any speaker can supply the act. No transcript text is read for this binding. The speaker's own joke can qualify. The corpus authors list the MRDA tag in Figure 1. [ICSI scheme](https://www.sri.com/wp-content/uploads/2021/12/the_icsi_meeting_recorder_dialog_act_mrda_corpus.pdf)
+
+AMI's catalogue of dialogue acts in `ontologies/da-types.xml` and Figure 3.1 of its manual cover the social-act codes and contain no humour or joking tag. The separate emotion scheme annotates a different construct. AMI is void for LGH4. [AMI dialogue-act manual](https://groups.inf.ed.ac.uk/ami/corpus/Guidelines/dialogue_acts_manual_1.0.pdf)
+
+## Design check
+
+The fixture includes compound labels, a similar-looking tag, identical times in separate meetings, the exact window edges and an act ending after onset. Require the original 75-meeting roster to match the meeting IDs in the dialogue-act archive before measuring sound. Apply the frozen LGH1 acoustic roster, exclusions, features, split and model. Verify the original released aggregate table bytes before filing the additional fact. Use its 200-permutation variance comparison and the released component groups for the rates and six means. Both native passes must agree byte for byte. Reserve 15,000 CPU seconds for both under the Gear 2 guard. If the original group table cannot be reproduced, withhold the comparison and preserve the attempt. Laughter overlapping speech is outside the sample, and a joke can go unmarked.
+One act lacks normalized type. Its original code is available and denotes an acknowledgement. Use the original label when the normalized field is empty.

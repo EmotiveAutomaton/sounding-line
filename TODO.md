@@ -1,5 +1,101 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W7-HEALTH-20261124-0308: Week 7 has eight free local slots and no active sealed study.
+
+- [x] OPS-S15-W7-TMP1-REAL-ADAPTER: The TMP1 source adapter passed its local qualification on invented histories.
+
+- [x] OPS-S15-W7-TMP1-SPARK-FIXTURE: Spark replayed the delivered TP58 reader on invented histories and released all nine expected aggregate tables.
+
+- [x] S15-W7-LAG-FAMILY: The descriptive carry-over ratios follow the predicted ordering in both gap readings, with only one contributing diary per family on the unrestricted reading.
+
+- [x] OPS-S15-W7-TMP1-DELIVERY: The engine delivered the frozen TP58 reader.
+
+- [x] OPS-S15-W7-LAG-0057-COST: Diary 0057 reached its reservation during independent replay.
+
+- [x] OPS-S15-W7-LAG-0056: Diary 0056 completed the next-prompt study and independent replay.
+
+- [x] S15-W7-LGH4-ICSI-CONTEXT: The timing of isolated laughter after a joke tag differed across the held-out ICSI acoustic groups beyond the shuffle threshold.
+
+- [x] OPS-S15-W7-LAG-0060: Diary 0060 completed the next-prompt study and independent replay.
+
+- [x] OPS-S15-W7-SECTION7-NATIVE-QUEUE: The section 7 Spark queue spent seven invocations. All six study dispositions are filed.
+
+- [x] S15-W7-ATL-ADM-EXTENSION: The diary atlas now includes the couples diary and the American Time Use Survey wellbeing module.
+
+- [x] S15-W7-LGH3-ICSI-CONTEXT: Acoustic groups crossed the shuffle threshold for 3 of 4 registered meeting-context facts.
+
+- [x] OPS-S15-W7-ATL-0003-SCOPE: The diary atlas now excludes the completion clock and typical sleep duration from the event inventory.
+
+- [x] S15-W7-PLX-SIXTEEN: 0 of the five added diaries had a slope passing all three registered forms.
+
+- [x] OPS-S15-W7-DFB1-SEALED: DFB1 returned no eligible released roster.
+
+- [x] OPS-S15-W7-MIB2-SEALED: MIB2 returned no eligible released roster.
+
+- [x] S15-W7-CAL3-SHUFFLE: The wave-two trait calibration reproduced the original returned estimates and compared them with shuffled trait scores.
+
+- [x] OPS-S15-W7-MIB3-SEALED: MIB3 returned source-status code 11 and no table.
+
+- [x] S15-W7-SLD4-ANGER-TRAITS: Both substituted traits had smaller anger-group point estimates.
+
+- [x] OPS-S15-W7-LAG-0073: Diary 0073 completed the next-prompt study and independent replay.
+
+- [x] OPS-S15-W7-MIB1-ROSTER: The sealed MIB1 job found no eligible previously released cohort.
+
+- [x] OPS-S15-W7-LAG-0063: Diary 0063 completed the next-prompt study and independent replay.
+
+- [x] OPS-S15-W7-LAG-0003: Diary 0003 completed the next-prompt study and independent replay.
+
+- [x] OPS-S15-W7-LAG-0049: Diary 0049 completed the next-prompt study and independent replay.
+
+- [x] OPS-S15-W7-LGH4-LAG-ADMIT: The AMI tag review and seven new native study starts are recorded.
+
+- [x] S15-W7-ATL-DIARIES: The two status diaries exceeded the shuffle yardstick among cells with a defined reference; only one exceeded it when all planned cells were counted.
+
+- [x] OPS-S15-W7-ATL-0060-FLOOR: The 26 loneliness cells in diary 0060 were refitted with their documented binary floor.
+
+- [x] OPS-S15-W7-ATL-0057: Diary 0057 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-TMP1-PRODUCER-Q21: The engine reports that Q21 delivered the fitted PRIDE head and TP48 verified the nine original outputs.
+
+- [x] OPS-S15-W7-ATL-0056: Diary 0056 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0070: Diary 0070 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0072: Diary 0072 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0060: Diary 0060 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0003: Diary 0003 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0063: Diary 0063 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0042: Diary 0042 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0043: Diary 0043 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0073: Diary 0073 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0076: Diary 0076 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0044: Diary 0044 completed its ATL unit and independent replay.
+
+- [x] OPS-S15-W7-ATL-0049: Diary 0049 completed its ATL unit and independent replay.
+
+- [x] S15-W7-CAL2-DIARIES: CAL2 completed 6 units with reproduced historical points and fresh-process replay.
+
+- [x] S15-W7-CAL1-DIARIES: CAL1 completed 19 units with reproduced historical points and fresh-process replay.
+
+- [x] S15-W7-TRX1-STATUS-DIARIES: The two status diaries completed the registered trait analysis and independent replay.
+
+- [x] OPS-S15-W7-AMI-SOURCE-13: The AMI inventory now has 13 complete meetings.
+
+- [x] OPS-S15-W7-GAT-SOURCE-BINDING: GAT1 and GAT2 have tests-only clearance. The commissioned file lacks the rater key required for both fits.
+
+- [x] OPS-S15-W7-TMP1-IMAGE-ATTESTATION: The Spark owner confirmed the live TMP1 image ID matches the reviewed pin.
+
+- [x] OPS-S15-W7-TMP1-SPARK-IMAGE: The TMP1 shell passed the CPU and network checks on Spark. Live image-ID attestation awaits the host owner.
+
 - [x] OPS-S15-W6-FINAL-ADDENDUM-20261122: Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain.
 
 - [x] OPS-S15-W6-FINAL-DRAIN-20261122: Week 6 drained at 22:00 Pacific. All 258 admitted attempts matched the freeze and all 291 filed report and receipt pairs verified.

@@ -2097,3 +2097,51 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W6-FINAL-FREEZE-20261122 | operational | infrastructure / passes | Week 6 froze new starts at 20:00 Pacific. All 258 admitted workstation attempts had filed terminal receipts. Week 7 remains open under its separate budget. |
 | OPS-S15-W6-FINAL-DRAIN-20261122 | operational | infrastructure / passes | Week 6 drained at 22:00 Pacific. All 258 admitted attempts matched the freeze and all 291 filed report and receipt pairs verified. |
 | OPS-S15-W6-FINAL-ADDENDUM-20261122 | operational | infrastructure / passes | Week 6 closed with all ten calendar milestones recorded. All 258 admitted attempts and their CPU charges still matched the drain. |
+| OPS-S15-W7-TMP1-SPARK-IMAGE | operational | infrastructure / runtime passed; live image identity pending | The TMP1 shell passed the CPU and network checks on Spark. Live image-ID attestation awaits the host owner. |
+| OPS-S15-W7-TMP1-IMAGE-ATTESTATION | operational | infrastructure / passes | The Spark owner confirmed the live TMP1 image ID matches the reviewed pin. |
+| OPS-S15-W7-GAT-SOURCE-BINDING | operational | infrastructure / source support insufficient | GAT1 and GAT2 have tests-only clearance. The commissioned file lacks the rater key required for both fits. |
+| OPS-S15-W7-AMI-SOURCE-13 | operational | infrastructure / passes | The AMI inventory now has 13 complete meetings. |
+| S15-W7-TRX1-STATUS-DIARIES | S3, P4 | source-specific / passing controls | The two status diaries completed the registered trait analysis and independent replay. |
+| S15-W7-CAL1-DIARIES | S3, P4 | calibration / passing controls | CAL1 completed 19 units with reproduced historical points and fresh-process replay. |
+| S15-W7-CAL2-DIARIES | S3, P4 | calibration / passing controls | CAL2 completed 6 units with reproduced historical points and fresh-process replay. |
+| OPS-S15-W7-ATL-0049 | operational | infrastructure / passes | Diary 0049 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0044 | operational | infrastructure / passes | Diary 0044 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0076 | operational | infrastructure / passes | Diary 0076 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0073 | operational | infrastructure / passes | Diary 0073 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0043 | operational | infrastructure / passes | Diary 0043 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0042 | operational | infrastructure / passes | Diary 0042 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0063 | operational | infrastructure / passes | Diary 0063 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0003 | operational | infrastructure / passes | Diary 0003 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0060 | operational | infrastructure / passes | Diary 0060 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0072 | operational | infrastructure / passes | Diary 0072 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0070 | operational | infrastructure / passes | Diary 0070 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0056 | operational | infrastructure / passes | Diary 0056 completed its ATL unit and independent replay. |
+| OPS-S15-W7-TMP1-PRODUCER-Q21 | operational | infrastructure / passes | The engine reports that Q21 delivered the fitted PRIDE head and TP48 verified the nine original outputs. |
+| OPS-S15-W7-ATL-0057 | operational | infrastructure / passes | Diary 0057 completed its ATL unit and independent replay. |
+| OPS-S15-W7-ATL-0060-FLOOR | operational | infrastructure / passes | The 26 loneliness cells in diary 0060 were refitted with their documented binary floor. |
+| S15-W7-ATL-DIARIES | T1, T2, T3, T6, T7, T9 | descriptive / passing controls | The two status diaries exceeded the shuffle yardstick among cells with a defined reference; only one exceeded it when all planned cells were counted. |
+| OPS-S15-W7-LGH4-LAG-ADMIT | operational | infrastructure / passes | The AMI tag review and seven new native study starts are recorded. |
+| OPS-S15-W7-LAG-0049 | operational | infrastructure / passes | Diary 0049 completed the next-prompt study and independent replay. |
+| OPS-S15-W7-LAG-0003 | operational | infrastructure / passes | Diary 0003 completed the next-prompt study and independent replay. |
+| OPS-S15-W7-LAG-0063 | operational | infrastructure / passes | Diary 0063 completed the next-prompt study and independent replay. |
+| OPS-S15-W7-MIB1-ROSTER | operational | infrastructure / passes | The sealed MIB1 job found no eligible previously released cohort. |
+| OPS-S15-W7-LAG-0073 | operational | infrastructure / passes | Diary 0073 completed the next-prompt study and independent replay. |
+| S15-W7-SLD4-ANGER-TRAITS | S3, P4 | source-specific / passing controls | Both substituted traits had smaller anger-group point estimates. |
+| OPS-S15-W7-MIB3-SEALED | operational | infrastructure / passes | MIB3 returned source-status code 11 and no table. |
+| S15-W7-CAL3-SHUFFLE | P4, S3 | descriptive / passing controls | The wave-two trait calibration reproduced the original returned estimates and compared them with shuffled trait scores. |
+| OPS-S15-W7-MIB2-SEALED | operational | infrastructure / passes | MIB2 returned no eligible released roster. |
+| OPS-S15-W7-DFB1-SEALED | operational | infrastructure / passes | DFB1 returned no eligible released roster. |
+| S15-W7-PLX-SIXTEEN | P4 | descriptive / passing controls | 0 of the five added diaries had a slope passing all three registered forms. |
+| OPS-S15-W7-ATL-0003-SCOPE | operational | infrastructure / passes | The diary atlas now excludes the completion clock and typical sleep duration from the event inventory. |
+| S15-W7-LGH3-ICSI-CONTEXT | T7, LP5 | source-specific / passing controls | Acoustic groups crossed the shuffle threshold for 3 of 4 registered meeting-context facts. |
+| S15-W7-ATL-ADM-EXTENSION | P4 | descriptive / passing controls | The diary atlas now includes the couples diary and the American Time Use Survey wellbeing module. |
+| OPS-S15-W7-SECTION7-NATIVE-QUEUE | operational | infrastructure / passes | The section 7 Spark queue spent seven invocations. All six study dispositions are filed. |
+| OPS-S15-W7-LAG-0060 | operational | infrastructure / passes | Diary 0060 completed the next-prompt study and independent replay. |
+| S15-W7-LGH4-ICSI-CONTEXT | T7, LP5 | source-specific / passing controls | The timing of isolated laughter after a joke tag differed across the held-out ICSI acoustic groups beyond the shuffle threshold. |
+| OPS-S15-W7-LAG-0056 | operational | infrastructure / passes | Diary 0056 completed the next-prompt study and independent replay. |
+| OPS-S15-W7-LAG-0057-COST | operational | infrastructure / passes | Diary 0057 reached its reservation during independent replay. |
+| OPS-S15-W7-TMP1-DELIVERY | operational | infrastructure / passes | The engine delivered the frozen TP58 reader. |
+| S15-W7-LAG-FAMILY | Week 7 LAG | descriptive / passing controls | The descriptive carry-over ratios follow the predicted ordering in both gap readings, with only one contributing diary per family on the unrestricted reading. |
+| OPS-S15-W7-TMP1-SPARK-FIXTURE | operational | infrastructure / passes | Spark replayed the delivered TP58 reader on invented histories and released all nine expected aggregate tables. |
+| OPS-S15-W7-TMP1-REAL-ADAPTER | operational | infrastructure / passes | The TMP1 source adapter passed its local qualification on invented histories. |
+| OPS-S15-W7-HEALTH-20261124-0308 | operational | infrastructure / passes | Week 7 has eight free local slots and no active sealed study. |

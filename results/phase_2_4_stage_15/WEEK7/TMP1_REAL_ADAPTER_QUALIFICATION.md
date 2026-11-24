@@ -1,0 +1,3 @@
+# TMP1 REAL ADAPTER QUALIFICATION
+
+The TMP1 source adapter passed its local qualification on invented histories. It binds the exact 20-file reader and three reviewed projection hashes before loading the input. A changed exclusions file and an extra input file both stopped before output. The unchanged synthetic projection produced the expected nine aggregate table counts. Only the existing sealed output contract is allowed. The Linux image and reader were separately rehearsed on Spark. Real-source admission awaits the archive name, layout, source and exclusion provenance and reviewed projection hashes. This check spent no sealed invocation.

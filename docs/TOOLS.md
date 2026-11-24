@@ -17,6 +17,26 @@ and [operations](CODEX_OPERATIONS.md). This refresh ran no scientific analysis o
 downloaded public datasets and isolated metadata-reader dependencies onto the NAS;
 the project environment was not changed.
 
+## November 23 data intake and acquisition to-do
+
+| Input | What is available | Remaining work |
+|---|---|---|
+| TRX1 · EMOTIONS 0056 and 0057 | Both provider conversion scripts and the original trait deposit are held. Both scripts assign `id_for_merging` to openESM `id`. | Bind each member to its own study's combined-wave trait table. |
+| CAD1 / LGH1 / LGH2 · CANDOR | Authenticated v1.1 survey dictionary includes `how_enjoyable` and `laughter`. Native AWS word bounds are present in the original transcription JSON. | Obtain the numeric coding legend for the relative-laughter item. A channel-linked, time-marked laughter annotation has not been verified. |
+| LGH1 · Santa Barbara | 60 WAVs and 60 corresponding CHAT members with validated paths and hashes. | Owner mounts the licensed folder and verifies the map in-image. |
+| LGH1 · AMI and ICSI | 285 AMI WAVs in the first intake and 624 verified ICSI SPHERE files, with participant channel metadata. AMI recovery is in progress. | Finish AMI meeting coverage. OpenSLR fallback has separate legacy terms and requires source review. |
+| Paired diary with worry and timestamps | The deposited DataverseNL diary supplies an ordinal timepoint. Kouri's public analysis file has day/time but no verified standalone worry field. | Obtain a documented item-level diary containing both worry and timestamps. |
+| Ultimatum game | The held `ultimatum-affect-lifespan` release includes per-offer experienced affect ratings. | Original codebook and source manifest are available for binding. |
+| SLD2 · MIDUS | M2 and M3 main surveys are held. The new ICPSR 3725 ZIP is M1 Project 2 daily diary. | Curator supplies ICPSR 2760 Dataset 0001 for the side-by-side three-survey folder. |
+| VAL1 · European Social Survey | The original portal ZIP is held. Its embedded codebook lists 12 source editions and their citation DOIs. | Recover a separate portal selection receipt if exact country or variable filters are required. |
+
+DreamBank XML, the restricted DataverseNL couples diary, the MIDUS 1 daily diary
+and three additional CABank transcript ZIPs are registered. The rest of the CABank
+media are tracked as incoming. The collector return is
+`_handoffs/DC-20261123-01.md`.
+
+[November 23 source admission and remaining acquisition needs](design/stage-15/week7/DC_20261123_01.md)
+
 ## External data intake and scouting needs 18–23, November 21, 2026
 
 The collection added seven files across three scouting releases. It also registered
@@ -334,6 +354,8 @@ Additional current primitives and their checked limits:
 | Week 6 preparation | `runners/drive/cards/week6_*` and [Week 6 design index](design/stage-15/week6/README.md). | Reviewed preparation, runtime/budget checks and candidate plans exist. Missing paired annotations/imports, failed instruments and per-card admission remain explicit; a fixture is not an executed human study. |
 
 ### Remaining acquisition and source qualification
+
+[November 23 intake and acquisition to-do](#november-23-data-intake-and-acquisition-to-do) updates the dated list below.
 
 [November 21 intake, scouting and pending access](#external-data-intake-and-scouting-needs-1823-november-21-2026) updates the dated inventory below.
 
@@ -3032,6 +3054,102 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**OPS-S15-W7-HEALTH-20261124-0308:** Week 7 has eight free local slots and no active sealed study. [Record](../results/phase_2_4_stage_15/WEEK7/QUEUE_HEALTH_20261124_0308.md).
+
+**OPS-S15-W7-TMP1-REAL-ADAPTER:** The TMP1 source adapter passed its local qualification on invented histories. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_ADAPTER_QUALIFICATION.md).
+
+**OPS-S15-W7-TMP1-SPARK-FIXTURE:** Spark replayed the delivered TP58 reader on invented histories and released all nine expected aggregate tables. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_SPARK_CONSTRUCTED_RETURN.md).
+
+**S15-W7-LAG-FAMILY:** The descriptive carry-over ratios follow the predicted ordering in both gap readings, with only one contributing diary per family on the unrestricted reading. [Record](../results/phase_2_4_stage_15/WEEK7/LAG_NEXT_PROMPT_FAMILY_RETURN.md).
+
+**OPS-S15-W7-TMP1-DELIVERY:** The engine delivered the frozen TP58 reader. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_TP58_DELIVERY.md).
+
+**OPS-S15-W7-LAG-0057-COST:** Diary 0057 reached its reservation during independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/LAG_0057_COST_STOP.md).
+
+**OPS-S15-W7-LAG-0056:** Diary 0056 completed the next-prompt study and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/LAG_0056_UNIT_20261123.md).
+
+**S15-W7-LGH4-ICSI-CONTEXT:** The timing of isolated laughter after a joke tag differed across the held-out ICSI acoustic groups beyond the shuffle threshold. [Record](../results/phase_2_4_stage_15/WEEK7/LGH4_ICSI_CONTEXT_RETURN.md).
+
+**OPS-S15-W7-LAG-0060:** Diary 0060 completed the next-prompt study and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/LAG_0060_UNIT_20261123.md).
+
+**OPS-S15-W7-SECTION7-NATIVE-QUEUE:** The section 7 Spark queue spent seven invocations. All six study dispositions are filed. [Record](../results/phase_2_4_stage_15/WEEK7/SECTION7_AND_NATIVE_QUEUE_20261123.md).
+
+**S15-W7-ATL-ADM-EXTENSION:** The diary atlas now includes the couples diary and the American Time Use Survey wellbeing module. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_FOURTEEN_SOURCE_EXTENSION.md).
+
+**S15-W7-LGH3-ICSI-CONTEXT:** Acoustic groups crossed the shuffle threshold for 3 of 4 registered meeting-context facts. [Record](../results/phase_2_4_stage_15/WEEK7/LGH3_ICSI_CONTEXT_RETURN.md).
+
+**OPS-S15-W7-ATL-0003-SCOPE:** The diary atlas now excludes the completion clock and typical sleep duration from the event inventory. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0003_EVENT_SCOPE_CORRECTION.md).
+
+**S15-W7-PLX-SIXTEEN:** 0 of the five added diaries had a slope passing all three registered forms. [Record](../results/phase_2_4_stage_15/WEEK7/PLX_SIXTEEN_DIARY_RETURN.md).
+
+**OPS-S15-W7-DFB1-SEALED:** DFB1 returned no eligible released roster. [Record](../results/phase_2_4_stage_15/WEEK7/DFB1_SEALED_RETURN_20261123.md).
+
+**OPS-S15-W7-MIB2-SEALED:** MIB2 returned no eligible released roster. [Record](../results/phase_2_4_stage_15/WEEK7/MIB2_SEALED_RETURN_20261123.md).
+
+**S15-W7-CAL3-SHUFFLE:** The wave-two trait calibration reproduced the original returned estimates and compared them with shuffled trait scores. [Record](../results/phase_2_4_stage_15/WEEK7/CAL3_SEALED_RETURN_20261123.md).
+
+**OPS-S15-W7-MIB3-SEALED:** MIB3 returned source-status code 11 and no table. [Record](../results/phase_2_4_stage_15/WEEK7/MIB3_SEALED_RETURN_20261123.md).
+
+**S15-W7-SLD4-ANGER-TRAITS:** Both substituted traits had smaller anger-group point estimates. [Record](../results/phase_2_4_stage_15/WEEK7/SLD4_WAVE_TWO_TRAIT_COMPARISON.md).
+
+**OPS-S15-W7-LAG-0073:** Diary 0073 completed the next-prompt study and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/LAG_0073_UNIT_20261123.md).
+
+**OPS-S15-W7-MIB1-ROSTER:** The sealed MIB1 job found no eligible previously released cohort. [Record](../results/phase_2_4_stage_15/WEEK7/MIB1_SEALED_ROSTER_20261123.md).
+
+**OPS-S15-W7-LAG-0063:** Diary 0063 completed the next-prompt study and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/LAG_0063_UNIT_20261123.md).
+
+**OPS-S15-W7-LAG-0003:** Diary 0003 completed the next-prompt study and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/LAG_0003_UNIT_20261123.md).
+
+**OPS-S15-W7-LAG-0049:** Diary 0049 completed the next-prompt study and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/LAG_0049_UNIT_20261123.md).
+
+**OPS-S15-W7-LGH4-LAG-ADMIT:** The AMI tag review and seven new native study starts are recorded. [Record](../results/phase_2_4_stage_15/WEEK7/LGH4_BINDING_AND_LAG_ADMISSION_20261123.md).
+
+**S15-W7-ATL-DIARIES:** The two status diaries exceeded the shuffle yardstick among cells with a defined reference; only one exceeded it when all planned cells were counted. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_DIARY_ATLAS_20261123.md).
+
+**OPS-S15-W7-ATL-0060-FLOOR:** The 26 loneliness cells in diary 0060 were refitted with their documented binary floor. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0060_FLOOR_CORRECTION_20261123.md).
+
+**OPS-S15-W7-ATL-0057:** Diary 0057 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0057_UNIT_20261123.md).
+
+**OPS-S15-W7-TMP1-PRODUCER-Q21:** The engine reports that Q21 delivered the fitted PRIDE head and TP48 verified the nine original outputs. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_TP58_PRODUCER_0758_20261123.md).
+
+**OPS-S15-W7-ATL-0056:** Diary 0056 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0056_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0070:** Diary 0070 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0070_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0072:** Diary 0072 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0072_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0060:** Diary 0060 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0060_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0003:** Diary 0003 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0003_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0063:** Diary 0063 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0063_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0042:** Diary 0042 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0042_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0043:** Diary 0043 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0043_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0073:** Diary 0073 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0073_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0076:** Diary 0076 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0076_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0044:** Diary 0044 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0044_UNIT_20261123.md).
+
+**OPS-S15-W7-ATL-0049:** Diary 0049 completed its ATL unit and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/ATL_0049_UNIT_20261123.md).
+
+**S15-W7-CAL2-DIARIES:** CAL2 completed 6 units with reproduced historical points and fresh-process replay. [Record](../results/phase_2_4_stage_15/WEEK7/CAL2_DIARIES_20261123.md).
+
+**S15-W7-CAL1-DIARIES:** CAL1 completed 19 units with reproduced historical points and fresh-process replay. [Record](../results/phase_2_4_stage_15/WEEK7/CAL1_DIARIES_20261123.md).
+
+**S15-W7-TRX1-STATUS-DIARIES:** The two status diaries completed the registered trait analysis and independent replay. [Record](../results/phase_2_4_stage_15/WEEK7/TRX1_STATUS_DIARIES_20261123.md).
+
+**OPS-S15-W7-AMI-SOURCE-13:** The AMI inventory now has 13 complete meetings. [Record](../results/phase_2_4_stage_15/WEEK7/AMI_SOURCE_ARRIVAL_13_20261123.md).
+
+**OPS-S15-W7-GAT-SOURCE-BINDING:** GAT1 and GAT2 have tests-only clearance. The commissioned file lacks the rater key required for both fits. [Record](../results/phase_2_4_stage_15/WEEK7/GAT_SOURCE_BINDING_20261123.md).
+
+**OPS-S15-W7-TMP1-IMAGE-ATTESTATION:** The Spark owner confirmed the live TMP1 image ID matches the reviewed pin. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_IMAGE_OWNER_ATTESTATION_20261123.md).
+
+**OPS-S15-W7-TMP1-SPARK-IMAGE:** The TMP1 shell passed the CPU and network checks on Spark. Live image-ID attestation awaits the host owner. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_SPARK_IMAGE_20261123.md).
 
 **November 23, Week 7 intake.** The AMI comparison checks the collector catalogue against the frozen headset assignments and previous channel hashes. Constructed partial, complete, duplicate, missing and changed-channel cases passed. The live comparison found no additional complete meeting. [Intake tool](../tools/week7_ami_intake.py).
 
