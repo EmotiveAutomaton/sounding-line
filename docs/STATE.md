@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. [Archive and launch preparation](../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_SOURCE_REVIEW_20261124.md).
+
 Week 7 has eight free local slots and no active sealed study. [Inspection](../results/phase_2_4_stage_15/WEEK7/QUEUE_HEALTH_20261124_0308.md).
 
 The TMP1 source adapter passed its local qualification on invented histories. [Qualification](../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_ADAPTER_QUALIFICATION.md).

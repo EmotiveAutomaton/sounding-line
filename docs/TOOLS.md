@@ -3055,6 +3055,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W7-TMP1-REAL-SOURCE-20261124:** The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_SOURCE_REVIEW_20261124.md).
+
 **OPS-S15-W7-HEALTH-20261124-0308:** Week 7 has eight free local slots and no active sealed study. [Record](../results/phase_2_4_stage_15/WEEK7/QUEUE_HEALTH_20261124_0308.md).
 
 **OPS-S15-W7-TMP1-REAL-ADAPTER:** The TMP1 source adapter passed its local qualification on invented histories. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_ADAPTER_QUALIFICATION.md).

@@ -14,7 +14,7 @@ The curator's storage handback triggers DRT1 step 6, then the three previously q
 
 The packet's registered guesses precede all new outcomes. Mark registered cells with a ring and disagreements with an X. The return opens with **Against, and clear** and lists a contrary direction only when its entire interval excludes zero.
 
-The [CAD1 ruling](CAD1_CONTROLS.md) fixes both within-speaker readings. Its companion builds cover the [daily trait comparison](SLD3_REHEARSAL.md), [three-wave purpose projection](SLD2_PROJECTION.md), and [conversation timing and laughter](CONVERSATION_REHEARSALS.md). The [TMP1 handoff record](TMP1_HANDOFF.md) records the completed Spark image check and the pending TP58 bundle rehearsal.
+The [CAD1 ruling](CAD1_CONTROLS.md) fixes both within-speaker readings. Its companion builds cover the [daily trait comparison](SLD3_REHEARSAL.md), [three-wave purpose projection](SLD2_PROJECTION.md), and [conversation timing and laughter](CONVERSATION_REHEARSALS.md). The [TMP1 handoff record](TMP1_HANDOFF.md) records the completed Spark image check and the completed TP58 rehearsal.
 
 ## Standing queue
 
@@ -55,7 +55,7 @@ The November 23 section 7 invocations and five PLX diaries are filed. The two ad
 | SLD3 | Landed | [Sealed daily-trait return](../../../../results/phase_2_4_stage_15/WEEK7/SLD3_DAILY_TRAIT.md) |
 | TMP1 · Spark execution | Landed | Runnable at filing. Completed at 05:04 Pacific, with CPU arithmetic, isolated networking and all 15 package pins verified. [Receiver record](TMP1_HANDOFF.md). |
 | TMP1 · live image ID | Landed | Owner inspection on Spark at 05:30 Pacific matched the reviewed pin. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/TMP1_IMAGE_OWNER_ATTESTATION_20261123.md). |
-| TMP1 · study | Awaiting sealed source binding | AArch64 constructed rehearsal passed. Bind the frozen reader, trait-scored comment histories and documented collection-community exclusions on the single read-only source mount. [Rehearsal receipt](../../../../results/phase_2_4_stage_15/WEEK7/TMP1_SPARK_CONSTRUCTED_RETURN.md). |
+| TMP1 · study | Blocked | Curator or archive. Provider-issued mapping for the PANDORA author join, five trait fields and units, and complete collection-community exclusions. Both source archives are present. [Launch preparation](TMP1_HANDOFF.md). |
 | CAL1 · all 19 units | Landed | Sounding Line. Independent replay and original-point checks recorded for all units. [Internal return](../../../../results/phase_2_4_stage_15/WEEK7/CAL1_DIARIES_20261123.md). |
 | CAL2 · six equal-effect units | Landed | Sounding Line. [Constructed qualification and six dispositions](../../../../results/phase_2_4_stage_15/WEEK7/CAL2_DIARIES_20261123.md). |
 | ATL · 0057, 0056, 0049, 0072, 0076, 0044, 0042, 0043, 0073, 0060, 0063, 0003, 0070 | Landed | Sounding Line. [Pooled atlas](../../../../results/phase_2_4_stage_15/WEEK7/ATL_DIARY_ATLAS_20261123.md) and [0060 correction](ATL_0060_FLOOR.md) filed. Member 0049 stays internal. |

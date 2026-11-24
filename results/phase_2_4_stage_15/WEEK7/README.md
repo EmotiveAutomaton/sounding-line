@@ -1,5 +1,7 @@
 # Week 7 evidence
 
+The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. [Archive and launch preparation](TMP1_REAL_SOURCE_REVIEW_20261124.md).
+
 Week 7 has eight free local slots and no active sealed study. [Inspection](QUEUE_HEALTH_20261124_0308.md).
 
 The TMP1 source adapter passed its local qualification on invented histories. [Qualification](TMP1_REAL_ADAPTER_QUALIFICATION.md).

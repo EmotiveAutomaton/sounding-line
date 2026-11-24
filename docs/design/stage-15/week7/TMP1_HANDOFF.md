@@ -1,5 +1,13 @@
 # TMP1 before the TP58 handoff
 
+## Real source on November 24
+
+The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. The original comments and profiles archives are present. The missing evidence identifies the author key on each side of the join, the source fields and units for all five traits, and the complete set of communities used to collect labels. The archive reported no delivery date. Its status note was the sole change in the delivery catalogue. The source-arrival monitor was rearmed and its native identity verified.
+
+The real-source command accepts a reviewed mount receipt, its independently recorded digest, a provider binding note and the requested CPU seconds. The receipt names the real mount, the author keys, each trait field and unit, the exclusion-list reference, and the three projection hashes. It pins the review note and uses the qualified source adapter. Prepare-only mode prints the entry digest. Submission uses the installed read-only sealed route after admission and reserves within the whole TMP1 allowance across its different sources. Both terminal paths are registered with the owner watcher. Fifteen local checks covered the prepare command, input and budget refusals, and simulated submission, transport loss and upload failure. This preparation spent zero sealed invocations.
+
+Use `python -m tools.week7_tmp1_start RECEIPT RECEIPT_SHA256 PROVIDER_BINDING CPU_SECONDS` from the repository root. The reviewed receipt names `mount`, `provider_binding_sha256`, `comments_author_key`, `profiles_author_key`, `exclusion_list_reference`, `traits` (each of the five names maps to `field` and `units`) and `projection_sha256` (the three filenames map to their digests). After reviewing the prepared entry and verifying the real alias, repeat with `--submit`. Inspect the installed gate’s returned aggregate directory and file the result before acknowledging its terminal event. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_SOURCE_REVIEW_20261124.md).
+
 The TMP1 source adapter passed its local qualification on invented histories. [Qualification](../../../../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_ADAPTER_QUALIFICATION.md).
 
 Spark replayed the delivered TP58 reader on invented histories and released all nine expected aggregate tables. [Rehearsal receipt](../../../../results/phase_2_4_stage_15/WEEK7/TMP1_SPARK_CONSTRUCTED_RETURN.md).

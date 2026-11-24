@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W7-TMP1-REAL-SOURCE-20261124: The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation.
+
 - [x] OPS-S15-W7-HEALTH-20261124-0308: Week 7 has eight free local slots and no active sealed study.
 
 - [x] OPS-S15-W7-TMP1-REAL-ADAPTER: The TMP1 source adapter passed its local qualification on invented histories.

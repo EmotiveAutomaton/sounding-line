@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W7-TMP1-REAL-SOURCE-20261124
+
+The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. The original comments and profiles archives are present. The missing evidence identifies the author key on each side of the join, the source fields and units for all five traits, and the complete set of communities used to collect labels. The archive reported no delivery date. Its status note was the sole change in the delivery catalogue. The source-arrival monitor was rearmed and its native identity verified.
+
+The real-source command accepts a reviewed mount receipt, its independently recorded digest, a provider binding note and the requested CPU seconds. The receipt names the real mount, the author keys, each trait field and unit, the exclusion-list reference, and the three projection hashes. It pins the review note and uses the qualified source adapter. Prepare-only mode prints the entry digest. Submission uses the installed read-only sealed route after admission and reserves within the whole TMP1 allowance across its different sources. Both terminal paths are registered with the owner watcher. Fifteen local checks covered the prepare command, input and budget refusals, and simulated submission, transport loss and upload failure. This preparation spent zero sealed invocations.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation.; project meaning: scoped operational record; next engineering obligation: Verify the provider binding and reviewed projection receipt when delivered, then submit through Gear 2.; public scientific claim unchanged; curator decision required: No new decision. Detail: TMP1_REAL_SOURCE_REVIEW_20261124.md.
+
 ### OPS-S15-W7-HEALTH-20261124-0308
 
 Week 7 has eight free local slots and no active sealed study. All recorded reservations have a terminal disposition and a matching charge receipt. The calendar heartbeat, locks, completion watcher and both delivery monitors were verified. The latest collector handoff is the constructed TP58 fixture. The real projection has no delivery, and AMI remains at 13 complete meetings against a 24-meeting start threshold. The source records for other waiting rows remain current. No worker restart or scientific retry was indicated.

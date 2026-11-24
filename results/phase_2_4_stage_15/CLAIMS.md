@@ -2145,3 +2145,4 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W7-TMP1-SPARK-FIXTURE | operational | infrastructure / passes | Spark replayed the delivered TP58 reader on invented histories and released all nine expected aggregate tables. |
 | OPS-S15-W7-TMP1-REAL-ADAPTER | operational | infrastructure / passes | The TMP1 source adapter passed its local qualification on invented histories. |
 | OPS-S15-W7-HEALTH-20261124-0308 | operational | infrastructure / passes | Week 7 has eight free local slots and no active sealed study. |
+| OPS-S15-W7-TMP1-REAL-SOURCE-20261124 | operational | infrastructure / passes | The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. |

@@ -1,5 +1,7 @@
 # Week 7 records
 
+**OPS-S15-W7-TMP1-REAL-SOURCE-20261124:** [Record](TMP1_REAL_SOURCE_REVIEW_20261124.md). The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation.
+
 **OPS-S15-W7-HEALTH-20261124-0308:** [Record](QUEUE_HEALTH_20261124_0308.md). Week 7 has eight free local slots and no active sealed study.
 
 **OPS-S15-W7-TMP1-REAL-ADAPTER:** [Record](TMP1_REAL_ADAPTER_QUALIFICATION.md). The TMP1 source adapter passed its local qualification on invented histories.
