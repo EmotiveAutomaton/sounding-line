@@ -3070,6 +3070,26 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W7-SLD2-MARITAL-ROLE:** Neither pooled scoring reading established a return to within one fifth of a baseline standard deviation. [Record](../results/phase_2_4_stage_15/WEEK7/SLD2_THREE_WAVE_MARITAL_ROLE.md).
+
+**OPS-S15-W7-COLLECTOR-DC03:** The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated. [Record](../results/phase_2_4_stage_15/WEEK7/COLLECTOR_ACQUISITION_UPDATE_20261124.md).
+
+**OPS-S15-W7-SBC60-SEALED-LAYOUT:** Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. [Record](../results/phase_2_4_stage_15/WEEK7/SBC60_SEALED_LAYOUT_AND_SOURCE_REVIEW_20261124.md).
+
+**OPS-S15-W7-GAT2-RELATIVE-MEAN:** GAT2 completed in Gear 2 and its restricted return replayed exactly. [Record](../results/phase_2_4_stage_15/WEEK7/GAT2_RESTRICTED_RETURN_AND_SPARK_READINESS_20261124.md).
+
+**OPS-S15-W7-LGH5-AMI-171-FULL:** The full AMI roster completed and its independent replay matched. [Record](../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_FULL_ROSTER_RETURN_20261124.md).
+
+**OPS-S15-W7-LGH5-AMI-171-REPAIR1:** The 171-meeting AMI baseline stopped on a duplicated stereo headset signal and restarted with a verified reader. [Record](../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_171_BASELINE_FAILURE_AND_REPAIR_20261124.md).
+
+**OPS-S15-W7-LGH5-AMI-48:** The AMI 48-meeting run completed and its independent replay matched. [Record](../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_48_RETURN_20261124.md).
+
+**OPS-S15-W7-LGH5-AMI-24:** The AMI 24-meeting run completed and its independent replay matched. [Record](../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_24_RETURN_20261124.md).
+
+**OPS-S15-W7-COLLECTOR-COMPLETION-20261124:** The collector completion triggered source review and the next Gear 2 admissions. [Record](../results/phase_2_4_stage_15/WEEK7/COLLECTOR_COMPLETION_20261124.md).
+
+**OPS-S15-W7-VAL1-OBSERVED-EXPORT:** VAL1 completed on the observed ESS export and reproduced all 42 item readings in a fresh process. [Record](../results/phase_2_4_stage_15/WEEK7/VAL1_OBSERVED_EXPORT_RETURN_20261124.md).
+
 **OPS-S15-W7-TMP1-REAL-SOURCE-20261124:** The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. [Record](../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_SOURCE_REVIEW_20261124.md).
 
 **OPS-S15-W7-HEALTH-20261124-0308:** Week 7 has eight free local slots and no active sealed study. [Record](../results/phase_2_4_stage_15/WEEK7/QUEUE_HEALTH_20261124_0308.md).

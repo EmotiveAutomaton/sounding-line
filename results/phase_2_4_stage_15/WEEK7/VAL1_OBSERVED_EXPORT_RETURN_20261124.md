@@ -1,0 +1,3 @@
+# VAL1 OBSERVED EXPORT RETURN 20261124
+
+VAL1 completed on the observed ESS export and reproduced all 42 item readings in a fresh process. The 540,671 survey records cover 39 countries across 11 rounds. All observed round/edition pairs match the 12 codebook citations. The internal inventory includes every delivered variable name, the country-round-edition counts and the analysis projection. The six-point response labels agreed across both item forms. Only the licensed internal record contains numerical results. The first execution stopped before estimates when pandas supplied a read-only buffer. The repair copies the working arrays, tests the full frame and preserves the input. Both attempts have cost receipts.

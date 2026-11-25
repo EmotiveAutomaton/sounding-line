@@ -1,0 +1,3 @@
+# COLLECTOR ACQUISITION UPDATE 20261124
+
+The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated. The supplied patch passed its applicability check. The two source cards document the trial CSV and README for UGM1 and the partial transfer for CRV1. The acquisition record retains their respective terms and names the still-open source bindings. The SLD2 line was updated to reflect the completed sealed run. No source was admitted by accepting the documentation.

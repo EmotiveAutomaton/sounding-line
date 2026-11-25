@@ -1,0 +1,7 @@
+# LGH5 AMI 171 BASELINE FAILURE AND REPAIR 20261124
+
+The 171-meeting AMI baseline stopped on a duplicated stereo headset signal and restarted with a verified reader. The failed baseline had processed 51 whole meetings. It stopped at the mono format check, before it wrote any summary or comparison table. Its cost receipt accounts for 715.296875 CPU seconds. The previously filed 24- and 48-meeting replay and terminal hashes still match.
+
+All 682 pinned headset headers were checked. Four in one meeting use two channels. Their file hashes matched the roster and every left and right PCM sample matched exactly. The repaired reader verifies the original size and digest, accepts an exact duplicate once and rejects differing channels. Six synthetic reader checks passed. The baseline and context operators both reproduced the original mono fixture return on mono and duplicate-channel inputs.
+
+The recovery starts the full baseline from the beginning because the prior progress record contains counts only. A fresh directory preserves the failed run. The standard admission reserved 12,300 CPU seconds against the existing 20,000-second row ceiling, with 3,709.796875 seconds previously charged. Both the dispatcher and its measured worker were verified, and the baseline produced fresh progress. The original roster, measurement rules, disclosure gate and independent replay apply.

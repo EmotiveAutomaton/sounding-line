@@ -1,0 +1,7 @@
+# SBC60 SEALED LAYOUT AND SOURCE REVIEW 20261124
+
+Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. The sealed check matched recording bytes, hashes and headers, the transcript archive hash and its paired members against the reviewed inventory. It finished in 100.62 seconds. The installed output gate reported an empty output directory, as designed. The settlement charges one sealed invocation and 600 CPU-seconds. This receipt establishes source coverage.
+
+The archive checked all 60 CHAT headers and UCSB’s four metadata tables. The person-tier code is local, the transcript handle identifies a transcript, and the project-specific field is empty. These fields do not establish a unique-person count across recordings. Bind recording and tier to a documented stable anonymous person key before the scientific run. Three constructed checks cover laugh selection, overlap, unknown clocks, same-room reference pitch, stereo mixing and the five approved measures. The seven layout checks also pass. No acoustic findings were produced.
+
+The collector’s separate three-wave MIDUS survey delivery and wave-one codebook are present. The mount and linkage for SLD2 still require owner verification. The proposed Spark facts are accepted as archive evidence of staging. No launcher change or research admission follows from that proposal.

@@ -1,5 +1,23 @@
 # STATE: the agent's operational file
 
+The sealed three-wave marital-role study and its independent replay are filed. [SLD2 return](../results/phase_2_4_stage_15/WEEK7/SLD2_THREE_WAVE_MARITAL_ROLE.md).
+
+Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. Bind recording and tier to a documented stable anonymous person key before the scientific run. [Verification and archive review](../results/phase_2_4_stage_15/WEEK7/SBC60_SEALED_LAYOUT_AND_SOURCE_REVIEW_20261124.md).
+
+GAT2 completed in Gear 2 and its restricted return replayed exactly. [Run receipt and Spark readiness](../results/phase_2_4_stage_15/WEEK7/GAT2_RESTRICTED_RETURN_AND_SPARK_READINESS_20261124.md).
+
+The full AMI roster completed and its independent replay matched. All three AMI milestones are filed. [Full-roster receipt](../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_FULL_ROSTER_RETURN_20261124.md).
+
+The 171-meeting AMI baseline stopped on a duplicated stereo headset signal and restarted with a verified reader. [Failure and recovery](../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_171_BASELINE_FAILURE_AND_REPAIR_20261124.md).
+
+The AMI 48-meeting run completed and its independent replay matched. The 171-meeting successor is running. [Receipt](../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_48_RETURN_20261124.md).
+
+The AMI 24-meeting run completed and its independent replay matched. The 48-meeting successor is running. [Receipt](../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_24_RETURN_20261124.md).
+
+The collector completion triggered source review and the next Gear 2 admissions. [Intake and admissions](../results/phase_2_4_stage_15/WEEK7/COLLECTOR_COMPLETION_20261124.md).
+
+VAL1 completed on the observed ESS export and reproduced all 42 item readings in a fresh process. [Execution record](../results/phase_2_4_stage_15/WEEK7/VAL1_OBSERVED_EXPORT_RETURN_20261124.md).
+
 The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. [Archive and launch preparation](../results/phase_2_4_stage_15/WEEK7/TMP1_REAL_SOURCE_REVIEW_20261124.md).
 
 Week 7 has eight free local slots and no active sealed study. [Inspection](../results/phase_2_4_stage_15/WEEK7/QUEUE_HEALTH_20261124_0308.md).

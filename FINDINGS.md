@@ -1,5 +1,98 @@
 # FINDINGS — the method archive
 
+### S15-W7-SLD2-MARITAL-ROLE
+
+Does purpose in life return to its wave-one level by wave three after spouse death or finalized divorce between the first two interviews? The registered reading pooled both losses. Each descriptive reading retained people with that loss. Both scoring readings used the same three items. The standardized change compares wave three with wave one within the same people, dividing by their wave-one sample standard deviation. Each of the 2,000 whole-family draws recomputed that denominator. Spark decoded all three files again and reproduced the full table before its single write.
+
+Neither pooled scoring reading established a return to within one fifth of a baseline standard deviation. The primary interval allows both a modest decline inside the band and a larger decline. The second pooled interval includes zero. These data leave the rival of a lasting decline unresolved.
+
+The table shows the complete-case roster, the three means on the common 1–7 scale, and the paired change in baseline standard deviations with its 95% family-bootstrap interval. The two loss-specific rows for each scoring rule are descriptive.
+
+| Loss | Scoring | People | Wave 1 | Wave 2 | Wave 3 | Change | 95% interval |
+|---|---|---:|---:|---:|---:|---:|---|
+| All qualifying losses | Wave-one unknowns excluded | 207 | 5.504 | 5.377 | 5.261 | -0.208 | -0.341 to -0.081 |
+| All qualifying losses | Midpoints excluded throughout | 129 | 5.682 | 5.656 | 5.571 | -0.099 | -0.281 to 0.063 |
+| Spouse death | Wave-one unknowns excluded | 80 | 5.229 | 4.946 | 4.871 | -0.294 | -0.510 to -0.103 |
+| Spouse death | Midpoints excluded throughout | 36 | 5.380 | 5.130 | 5.083 | -0.241 | -0.570 to 0.057 |
+| Finalized divorce | Wave-one unknowns excluded | 127 | 5.677 | 5.648 | 5.507 | -0.154 | -0.342 to 0.014 |
+| Finalized divorce | Midpoints excluded throughout | 93 | 5.799 | 5.860 | 5.760 | -0.037 | -0.273 to 0.151 |
+
+One kind of role, and divorce may be chosen where a death is not. The wave-one scale had no neutral point, so a change from wave one to wave two is partly a change of scale. The dated questions cover first and most recent marriages. Losses in either interview month were excluded. The observational comparison follows people who remained in the survey across all three waves. [Full gated table with intervals for each wave mean](SLD2_gated_purpose.csv). [Source and scoring contract](../../../docs/design/stage-15/week7/SLD2_PROJECTION.md).
+
+Curator roll-up: N5 · Does purpose in life return to its wave-one level by wave three after spouse death or finalized divorce between the first two interviews? · **Narrows** · Neither pooled scoring reading established a return to within one fifth of a baseline standard deviation. · Project scope: MIDUS main-survey respondents linked at all three waves with a qualifying dated marital loss and all three common items scored at each wave. · Next: Retain both scoring readings and separate loss descriptions in the final packet. · Public wording is limited to the recorded population. Curator decision required: No. Detail: SLD2_THREE_WAVE_MARITAL_ROLE.md.
+
+### OPS-S15-W7-COLLECTOR-DC03
+
+The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated. The supplied patch passed its applicability check. The two source cards document the trial CSV and README for UGM1 and the partial transfer for CRV1. The acquisition record retains their respective terms and names the still-open source bindings. The SLD2 line was updated to reflect the completed sealed run. No source was admitted by accepting the documentation.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated.; project meaning: scoped operational record; next engineering obligation: Keep acquisition and scientific admission distinct.; public scientific claim unchanged; curator decision required: No new decision. Detail: COLLECTOR_ACQUISITION_UPDATE_20261124.md.
+
+### OPS-S15-W7-SBC60-SEALED-LAYOUT
+
+Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. The sealed check matched recording bytes, hashes and headers, the transcript archive hash and its paired members against the reviewed inventory. It finished in 100.62 seconds. The installed output gate reported an empty output directory, as designed. The settlement charges one sealed invocation and 600 CPU-seconds. This receipt establishes source coverage.
+
+The archive checked all 60 CHAT headers and UCSB’s four metadata tables. The person-tier code is local, the transcript handle identifies a transcript, and the project-specific field is empty. These fields do not establish a unique-person count across recordings. Bind recording and tier to a documented stable anonymous person key before the scientific run. Three constructed checks cover laugh selection, overlap, unknown clocks, same-room reference pitch, stereo mixing and the five approved measures. The seven layout checks also pass. No acoustic findings were produced.
+
+The collector’s separate three-wave MIDUS survey delivery and wave-one codebook are present. The mount and linkage for SLD2 still require owner verification. The proposed Spark facts are accepted as archive evidence of staging. No launcher change or research admission follows from that proposal.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount.; project meaning: scoped operational record; next engineering obligation: Bind recording and tier to a documented stable anonymous person key before the scientific run.; public scientific claim unchanged; curator decision required: No new decision. Detail: SBC60_SEALED_LAYOUT_AND_SOURCE_REVIEW_20261124.md.
+
+### OPS-S15-W7-GAT2-RELATIVE-MEAN
+
+GAT2 completed in Gear 2 and its restricted return replayed exactly. The curator fixed the order of averaging, the floor at zero and the partner-rating controls before the run. The native checks covered the mixed-trait example, scale invariance, exclusions, independent logistic optimization, whole-rater resampling, and the discordance decision. The main reading and both descriptions used 2,000 whole-rater draws. The estimates, intervals, support counts, limitations and registered disposition are filed in the restricted return. The four measured passes reconciled to the settlement.
+
+Spark had no active sealed launcher at inspection. Santa Barbara’s reviewed 60-recording map is embedded in a prepared layout check. Seven constructed checks passed. Await owner activation of the read-only talkbank-sbcsae mount before in-image verification of the pinned recording and CHAT pairs. The check does not establish laugh timing or attribution. No sealed invocation was spent. The MIDUS wave-one staging folder contained zero files. SLD2 still needs the wave-one main survey and codebook. TMP1 still needs score units, excluded collection communities and a verified sealed projection. CANDOR source requirements and the wave-three MIB1 roster discrepancy remain recorded in the standing row table.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; GAT2 completed in Gear 2 and its restricted return replayed exactly.; project meaning: scoped operational record; next engineering obligation: Retain the restricted return for the curator packet and admit the next qualified source delivery.; public scientific claim unchanged; curator decision required: No new decision. Detail: GAT2_RESTRICTED_RETURN_AND_SPARK_READINESS_20261124.md.
+
+### OPS-S15-W7-LGH5-AMI-171-FULL
+
+The full AMI roster completed and its independent replay matched. The baseline, execution and verification passes each finished all 171 meetings and 682 assigned headset recordings. The two context summaries matched byte for byte. The restricted return records the four registered comparisons and the disclosure decision. The earlier 24- and 48-meeting returns and the failed first attempt retain their recorded hashes.
+
+The final run used 6514.0625 CPU seconds. Across both earlier milestones, the interrupted baseline and the repaired full run, the ledger totals 10223.859375 of 20,000 CPU seconds. This completes the three commissioned AMI milestones. The workstation and Spark checks found no active study. The source monitor and watcher are live.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full AMI roster completed and its independent replay matched.; project meaning: scoped operational record; next engineering obligation: Carry the full-roster disposition and earlier milestones into the Week 7 final packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: LGH5_AMI_FULL_ROSTER_RETURN_20261124.md.
+
+### OPS-S15-W7-LGH5-AMI-171-REPAIR1
+
+The 171-meeting AMI baseline stopped on a duplicated stereo headset signal and restarted with a verified reader. The failed baseline had processed 51 whole meetings. It stopped at the mono format check, before it wrote any summary or comparison table. Its cost receipt accounts for 715.296875 CPU seconds. The previously filed 24- and 48-meeting replay and terminal hashes still match.
+
+All 682 pinned headset headers were checked. Four in one meeting use two channels. Their file hashes matched the roster and every left and right PCM sample matched exactly. The repaired reader verifies the original size and digest, accepts an exact duplicate once and rejects differing channels. Six synthetic reader checks passed. The baseline and context operators both reproduced the original mono fixture return on mono and duplicate-channel inputs.
+
+The recovery starts the full baseline from the beginning because the prior progress record contains counts only. A fresh directory preserves the failed run. The standard admission reserved 12,300 CPU seconds against the existing 20,000-second row ceiling, with 3,709.796875 seconds previously charged. Both the dispatcher and its measured worker were verified, and the baseline produced fresh progress. The original roster, measurement rules, disclosure gate and independent replay apply.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 171-meeting AMI baseline stopped on a duplicated stereo headset signal and restarted with a verified reader.; project meaning: scoped operational record; next engineering obligation: Inspect the watched full-roster repair terminal and its measured receipts.; public scientific claim unchanged; curator decision required: No new decision. Detail: LGH5_AMI_171_BASELINE_FAILURE_AND_REPAIR_20261124.md.
+
+### OPS-S15-W7-LGH5-AMI-48
+
+The AMI 48-meeting run completed and its independent replay matched. The 48-meeting roster and assigned-channel count matched the pinned source inventory. The baseline, execution and verification passes exited successfully. The four registered context rows and their disclosure dispositions are filed in the restricted return. The three native CPU charges reconcile exactly to the reservation settlement. The 171-meeting successor started in CPU-only Gear 2 and its worker advanced through the roster.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The AMI 48-meeting run completed and its independent replay matched.; project meaning: scoped operational record; next engineering obligation: Review the next AMI milestone at its watched terminal.; public scientific claim unchanged; curator decision required: No new decision. Detail: LGH5_AMI_48_RETURN_20261124.md.
+
+### OPS-S15-W7-LGH5-AMI-24
+
+The AMI 24-meeting run completed and its independent replay matched. The 24-meeting roster and assigned-channel count matched the pinned source inventory. The baseline, execution and verification passes exited successfully. The four registered context rows and their disclosure dispositions are filed in the restricted return. The three native CPU charges reconcile exactly to the reservation settlement. The 48-meeting successor started in CPU-only Gear 2 and its worker advanced through the roster. The full 171-meeting roster follows it under a fresh admission.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The AMI 24-meeting run completed and its independent replay matched.; project meaning: scoped operational record; next engineering obligation: Review the next AMI milestone at its watched terminal.; public scientific claim unchanged; curator decision required: No new decision. Detail: LGH5_AMI_24_RETURN_20261124.md.
+
+### OPS-S15-W7-COLLECTOR-COMPLETION-20261124
+
+The collector completion triggered source review and the next Gear 2 admissions. The completion subscription observed the collector turn finish. Its return and two updates were reviewed. The source watcher detected the new handoff and was rearmed. The curator subsequently approved internal use once ordinary source checks pass. This applies to the newly opened work. Public research release stays subject to the existing terms.
+
+AMI. Seven constructed checks passed. The 288 original Edinburgh recordings and 394 additional OpenSLR recordings match all 682 annotation assignments in the combined catalogues. Eight cross-edition sample digests agreed. All 13 originally complete meetings stay first, followed by the other meetings in lexical order; the nested rosters contain 24, 48 and 171 meetings. Each assigned file is checked for byte length, SHA-256 and wave format at use. The Edinburgh sources have CC BY 4.0 terms. The OpenSLR landing page lists modified BY-NC-SA 2.0; the licence in its own 1.6.1 companion gives BY-NC-SA 2.5. Both are recorded separately for this internal, noncommercial use. All audio stays at source. The qualified operator runs an original baseline and two context passes. The aggregate gate applies separately at each milestone. The 24-meeting native process was verified. A single queued dispatcher starts the following rosters after successful verification of its predecessor and a fresh admission. Six terminal paths are watched.
+
+GAT1. The keyed Columbia edition and its matching Word codebook document the released rater ID, encounter order, decision, four partner ratings and scorecard range. Only the declared columns were read. The deposit lists its licence as unknown. The curator approved this publicly supplied Columbia study for tests only on November 23. The first dictionary check stopped on Word text formatting before reading encounter responses. Its repair normalized paragraph formatting, reproduced the registered fixture and completed the 2,000 whole-rater draws and fresh-process replay. Its numerical return is filed in the restricted work area. Two candidate operations for GAT2 have a constructed disagreement case; the requested definition is to be fixed before running GAT2.
+
+SLD2. Five made-data purpose and projection checks passed again. The remaining real input is the ICPSR 2760 v19 DS 0001 wave-one main survey with matching codebook. TMP1. The provider baseline documents the author key and five trait fields. The projection still requires validation of the raw join inside the sealed environment, the units and transformations of the released scores, and the complete collection-community exclusions. The constructed reader and receipt route are ready.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The collector completion triggered source review and the next Gear 2 admissions.; project meaning: scoped operational record; next engineering obligation: Inspect each AMI terminal and verify source-bound successors as they become eligible.; public scientific claim unchanged; curator decision required: No new decision. Detail: COLLECTOR_COMPLETION_20261124.md.
+
+### OPS-S15-W7-VAL1-OBSERVED-EXPORT
+
+VAL1 completed on the observed ESS export and reproduced all 42 item readings in a fresh process. The 540,671 survey records cover 39 countries across 11 rounds. All observed round/edition pairs match the 12 codebook citations. The internal inventory includes every delivered variable name, the country-round-edition counts and the analysis projection. The six-point response labels agreed across both item forms. Only the licensed internal record contains numerical results. The first execution stopped before estimates when pandas supplied a read-only buffer. The repair copies the working arrays, tests the full frame and preserves the input. Both attempts have cost receipts.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; VAL1 completed on the observed ESS export and reproduced all 42 item readings in a fresh process.; project meaning: scoped operational record; next engineering obligation: Read the restricted descriptive table for the Week 7 packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: VAL1_OBSERVED_EXPORT_RETURN_20261124.md.
+
 ### OPS-S15-W7-TMP1-REAL-SOURCE-20261124
 
 The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. The original comments and profiles archives are present. The missing evidence identifies the author key on each side of the join, the source fields and units for all five traits, and the complete set of communities used to collect labels. The archive reported no delivery date. Its status note was the sole change in the delivery catalogue. The source-arrival monitor was rearmed and its native identity verified.

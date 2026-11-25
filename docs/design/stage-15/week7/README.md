@@ -37,13 +37,13 @@ The November 23 section 7 invocations and five PLX diaries are filed. The two ad
 | UGM1 · current release | Landed | [No eligible offer carried both felt ratings](../../../../results/phase_2_4_stage_15/WEEK7/ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md). |
 | UGM1 · proposed richer release | Blocked | A documented offer-level release with felt valence and arousal. |
 | SCR1 | Landed | [Internal return and replay](../../../../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md) |
-| GAT1 | Blocked | Tests-only approval filed. Await a documented anonymous rater key for the encounter records. [Binding inspection](../../../../results/phase_2_4_stage_15/WEEK7/GAT_SOURCE_BINDING_20261123.md). |
-| GAT2 | Blocked | Tests-only approval filed. Await a documented anonymous rater key for the encounter records. [Binding inspection](../../../../results/phase_2_4_stage_15/WEEK7/GAT_SOURCE_BINDING_20261123.md). |
-| VAL1 | Blocked | Data agent. Provide the portal selection receipt showing country and variable filters or confirming all were selected. The original Datafile.zip contains Datafile.sav and a codebook with all 12 edition citations. The codebook does not record the export selection. |
+| GAT1 | Landed | Keyed Columbia edition bound. Restricted internal return, 2,000 whole-rater draws and fresh replay. [Intake](../../../../results/phase_2_4_stage_15/WEEK7/COLLECTOR_COMPLETION_20261124.md). |
+| GAT2 | Landed | The registered mean and both single-attribute descriptions completed and replayed. Restricted return filed. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/GAT2_RESTRICTED_RETURN_AND_SPARK_READINESS_20261124.md). |
+| VAL1 | Landed | Observed country, round and variable coverage bound to the export and all 12 codebook editions. Both readings completed and replayed. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/VAL1_OBSERVED_EXPORT_RETURN_20261124.md). |
 | LGH1 · ICSI | Landed | [Acoustic return](../../../../results/phase_2_4_stage_15/WEEK7/LGH1_ICSI_ACOUSTICS.md) |
 | LGH1 · first 12 complete AMI meetings | Landed | [Acoustic return and independent replay](../../../../results/phase_2_4_stage_15/WEEK7/LGH1_AMI_ACOUSTICS.md) |
-| LGH1 / LGH5 · AMI expansion | Blocked | Data agent. 13 complete meetings, 288 assigned channels. Next run at 24, then 48 and full coverage. [Inventory](../../../../results/phase_2_4_stage_15/WEEK7/AMI_SOURCE_ARRIVAL_13_20261123.md). |
-| LGH1 · Santa Barbara | Blocked | Owner activation of the proposed sealed mount. The collector supplied a 60-entry recording map. Verify the layout inside the approved image on activation. |
+| LGH1 / LGH5 · AMI expansion | Landed | All three commissioned rosters completed, including independent replay on the full roster. [Full-roster receipt](../../../../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_FULL_ROSTER_RETURN_20261124.md). |
+| LGH1 · Santa Barbara | Blocked | Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. Bind recording and tier to a documented stable anonymous person key before the scientific run. [Intake](../../../../results/phase_2_4_stage_15/WEEK7/SBC60_SEALED_LAYOUT_AND_SOURCE_REVIEW_20261124.md). |
 | LGH1 · CANDOR | Blocked | Source edition linking time-marked laughs to their recording channels. |
 | LGH2 · marked laughs | Blocked | Qualified CANDOR laughter times from LGH1. |
 | LGH2 · survey description | Blocked | Source dictionary establishing the direction of the relative-laughter response. |
@@ -51,11 +51,11 @@ The November 23 section 7 invocations and five PLX diaries are filed. The two ad
 | CAD2 | Blocked | Native word times confirmed in original AWS JSON. Verify the cross-conversation chronology and channel-to-speaker binding for that edition. |
 | CRV1 | Blocked | Need 24, an admitted recording of the same adult speaking to a child and to an adult. |
 | SLD1 | Landed | [Three SMF1 returns](../../../../results/phase_2_4_stage_15/WEEK5/SMF1_THREE_SEALED_RETURNS_20261122.md) |
-| SLD2 | Blocked | Wave-one main survey ICPSR 2760 Dataset 0001 and codebook for the three-wave join. The delivered wave-one ZIP is the daily diary. [Projection](SLD2_PROJECTION.md). |
+| SLD2 | Landed | Three-wave original-source run and replay completed. Both pooled scoring readings and the two loss descriptions are filed. [Return](../../../../results/phase_2_4_stage_15/WEEK7/SLD2_THREE_WAVE_MARITAL_ROLE.md). |
 | SLD3 | Landed | [Sealed daily-trait return](../../../../results/phase_2_4_stage_15/WEEK7/SLD3_DAILY_TRAIT.md) |
 | TMP1 · Spark execution | Landed | Runnable at filing. Completed at 05:04 Pacific, with CPU arithmetic, isolated networking and all 15 package pins verified. [Receiver record](TMP1_HANDOFF.md). |
 | TMP1 · live image ID | Landed | Owner inspection on Spark at 05:30 Pacific matched the reviewed pin. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/TMP1_IMAGE_OWNER_ATTESTATION_20261123.md). |
-| TMP1 · study | Blocked | Curator or archive. Provider-issued mapping for the PANDORA author join, five trait fields and units, and complete collection-community exclusions. Both source archives are present. [Launch preparation](TMP1_HANDOFF.md). |
+| TMP1 · study | Blocked | PANDORA baseline documents the author key and five profile fields. Await verified score units, collection-community exclusions and reviewed sealed projection. [Intake](../../../../results/phase_2_4_stage_15/WEEK7/COLLECTOR_COMPLETION_20261124.md). |
 | CAL1 · all 19 units | Landed | Sounding Line. Independent replay and original-point checks recorded for all units. [Internal return](../../../../results/phase_2_4_stage_15/WEEK7/CAL1_DIARIES_20261123.md). |
 | CAL2 · six equal-effect units | Landed | Sounding Line. [Constructed qualification and six dispositions](../../../../results/phase_2_4_stage_15/WEEK7/CAL2_DIARIES_20261123.md). |
 | ATL · 0057, 0056, 0049, 0072, 0076, 0044, 0042, 0043, 0073, 0060, 0063, 0003, 0070 | Landed | Sounding Line. [Pooled atlas](../../../../results/phase_2_4_stage_15/WEEK7/ATL_DIARY_ATLAS_20261123.md) and [0060 correction](ATL_0060_FLOOR.md) filed. Member 0049 stays internal. |
@@ -69,7 +69,7 @@ The November 23 section 7 invocations and five PLX diaries are filed. The two ad
 | LGH3 · AMI, 12 meetings | Landed | Original group table withheld. All four facts void for this roster under the same release check. |
 | LGH4 · AMI | Landed | Void. The dialogue-act manual and released ontology contain no joke tag. [Source binding](LGH4_DIALOGUE_ACTS.md). |
 | LGH4 · ICSI | Landed | Both native passes reproduced the original acoustic tables and the joke-context comparison. [Return](../../../../results/phase_2_4_stage_15/WEEK7/LGH4_ICSI_CONTEXT_RETURN.md). |
-| LGH5 | Blocked | Data agent. Next registered AMI meeting milestone; 13 complete meetings at last verified intake. |
+| LGH5 | Landed | All three commissioned rosters completed, including independent replay on the full roster. [Full-roster receipt](../../../../results/phase_2_4_stage_15/WEEK7/LGH5_AMI_FULL_ROSTER_RETURN_20261124.md). |
 | LAG · 0056, 0003, 0049, 0060, 0063, 0073 | Landed | Sounding Line. Unit records and fresh-process replay filed. Member 0049 stays internal. |
 | LAG · 0057 | Cost-held | 649 cells executed, 28 replayed. [Cost receipt](../../../../results/phase_2_4_stage_15/WEEK7/LAG_0057_COST_STOP.md). |
 | PLX · five added and eleven earlier diaries | Landed | Independent numerical replay and pooled inventory. [Full return](../../../../results/phase_2_4_stage_15/WEEK7/PLX_SIXTEEN_DIARY_RETURN.md). |

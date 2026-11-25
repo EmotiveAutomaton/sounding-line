@@ -1,0 +1,10 @@
+# Santa Barbara laughter study
+
+The curator’s November 24 17:20 Pacific ruling governs this standalone LGH1 corpus. First verify the read-only Spark alias against the reviewed inventory of 60 WAV and CHAT pairs. Verify all audio hashes and lengths, the archive hash, each member’s length and CRC, and the one-to-one map. The verification writes no participant output.
+
+Use timed laughter-only units attributed to one speaker. Exclude mixed units and units with overlapping voices. Judge overlap against all available speaker tiers, including speakers whose own marks would be excluded. Use only the same speaker’s nonoverlapping speech in the same recording for her pitch reference. Keep references inside the sealed job. Count and file exclusions under the existing person-count and disclosure rules. An unresolved voice assignment, untimed span or unknown annotation cannot be treated as a clean laugh or clean reference speech.
+
+The five features are annotated unit length, burst count, voiced fraction, relative pitch and pitch spread. For a room stereo recording use the equal-channel arithmetic mean as the room mix for both the target and its reference. Retain the registered frame, pitch, mixture, held-out comparison and bootstrap rules. Omit relative level throughout, fit Santa Barbara separately and exclude it from cross-corpus comparisons. Every return carries the curator’s limit sentence: “a room recording, not a close microphone; laughs in company that overlap are the ones removed, so shared laughter is thin in this sample.”
+
+Du Bois & Englebretson (2004), *The Santa Barbara Corpus of Spoken American English*. [TalkBank corpus record](https://doi.org/10.21415/T5VG6X). The corpus documentation describes timing at the intonation-unit level. [UCSB recording documentation](https://www.linguistics.ucsb.edu/research/santa-barbara-corpus-spoken-american-english). CHAT marks explicitly transcribed vocal events and speaker tiers. [CHAT manual](https://talkbank.org/0info/manuals/CHAT.html).
+

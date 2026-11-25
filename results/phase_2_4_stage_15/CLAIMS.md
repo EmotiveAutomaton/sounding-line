@@ -2146,3 +2146,13 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W7-TMP1-REAL-ADAPTER | operational | infrastructure / passes | The TMP1 source adapter passed its local qualification on invented histories. |
 | OPS-S15-W7-HEALTH-20261124-0308 | operational | infrastructure / passes | Week 7 has eight free local slots and no active sealed study. |
 | OPS-S15-W7-TMP1-REAL-SOURCE-20261124 | operational | infrastructure / passes | The archive confirmed that the real TMP1 mount awaits the PANDORA release documentation. |
+| OPS-S15-W7-VAL1-OBSERVED-EXPORT | operational | infrastructure / passes | VAL1 completed on the observed ESS export and reproduced all 42 item readings in a fresh process. |
+| OPS-S15-W7-COLLECTOR-COMPLETION-20261124 | operational | infrastructure / passes | The collector completion triggered source review and the next Gear 2 admissions. |
+| OPS-S15-W7-LGH5-AMI-24 | operational | infrastructure / passes | The AMI 24-meeting run completed and its independent replay matched. |
+| OPS-S15-W7-LGH5-AMI-48 | operational | infrastructure / passes | The AMI 48-meeting run completed and its independent replay matched. |
+| OPS-S15-W7-LGH5-AMI-171-REPAIR1 | operational | infrastructure / passes | The 171-meeting AMI baseline stopped on a duplicated stereo headset signal and restarted with a verified reader. |
+| OPS-S15-W7-LGH5-AMI-171-FULL | operational | infrastructure / passes | The full AMI roster completed and its independent replay matched. |
+| OPS-S15-W7-GAT2-RELATIVE-MEAN | operational | infrastructure / passes | GAT2 completed in Gear 2 and its restricted return replayed exactly. |
+| OPS-S15-W7-SBC60-SEALED-LAYOUT | operational | infrastructure / passes | Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. |
+| OPS-S15-W7-COLLECTOR-DC03 | operational | infrastructure / passes | The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated. |
+| S15-W7-SLD2-MARITAL-ROLE | N5 | undecided / passing controls | Neither pooled scoring reading established a return to within one fifth of a baseline standard deviation. |
