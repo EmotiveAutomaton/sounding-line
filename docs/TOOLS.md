@@ -17,6 +17,21 @@ and [operations](CODEX_OPERATIONS.md). This refresh ran no scientific analysis o
 downloaded public datasets and isolated metadata-reader dependencies onto the NAS;
 the project environment was not changed.
 
+## November 24 data intake and acquisition to-do
+
+| Input | What is available | Remaining work |
+|---|---|---|
+| CRV1 · Hilton–Moser vocalizations | Two companions verified on NAS. The raw audio ZIP is still downloading and is not a held audio source yet. Same-speaker infant- and adult-directed speech are documented in the [Zenodo release](https://zenodo.org/records/5525161). | Bind B and D files within each anonymous speaker and fieldsite. Review CC BY-NC-SA 4.0 scope before admission. |
+| UGM1 · Heffner, Son and FeldmanHall (2021) | Original Study 1 CSV and README held at DATA_ROOT/open/ultimatum-epe-2021. The [study](https://pmc.ncbi.nlm.nih.gov/articles/PMC8544818/) documents expected and felt valence and arousal alongside the expected and received offer. | Dataset licence none stated; tests only. Review responder-role and trial binding. The separate lifespan release remains indexed. |
+| SLD2 · MIDUS | ICPSR 2760 v19 DS 0001 and matching codebook held. Three unchanged main surveys staged as midus-m1m2m3-surveys. | The sealed three-wave read, registered marital-role study and independent replay completed. |
+| TMP1 · PANDORA | Original comments and profiles held. The delivered baseline documents the profile author key and five trait fields. | Public documentation and the inspected delivery leave units, score flags and complete collection-community exclusions unresolved. |
+| Longitudinal personality validation · Marengo, Montag and Settanni | Published study compares two periods of Facebook activity with self-report traits. Its [availability statement](https://onlinelibrary.wiley.com/doi/full/10.1111/jopy.70019) offers non-identifying data on request. | Optional curator request for deidentified, time-binned model scores and matched self-report scores under the authors' terms. Raw posts are restricted. |
+| LGH1 · Santa Barbara | All 60 WAV/CHAT pairs verified in the sealed image. | Needs a documented recording/tier-to-opaque-person mapping for the distinct-person gate. |
+| CANDOR · CAD1, CAD2, LGH1, LGH2 | Authenticated survey dictionary and native AWS word bounds held. | Verify survey anchors, numeric relative-laughter labels, and same-edition chronology/channel bindings. Released channel-linked laugh annotations remain unverified. |
+| GAT1, GAT2, VAL1 and AMI | Returns filed. All three commissioned AMI rosters completed. | Retain the source provenance and applicable result-use limits. |
+
+The collector receipts are under DATA_ROOT/_handoffs/repo-requests/DC-20261124-02 and DC-20261124-03.
+
 ## November 23 data intake and acquisition to-do
 
 | Input | What is available | Remaining work |
