@@ -45,6 +45,12 @@ and spending limits override older general defaults. Stage 8 landings write thro
 one final curator packet is reported. A wake never authorizes a new gear, cloud spending,
 research design, or interpreting per-artifact output from an unfinished cell.
 
+## Archive requests during a commissioned study
+
+The curator gives standing authorization to contact the existing **Build out data repository** chat for source documentation, codebooks, approved mounts and other archive work needed by a commissioned Sounding Line study. Check the current handoffs and outstanding requests first. When the archive can resolve a dependency, send it one specific request immediately, with the edition, required evidence, delivery location and applicable deadline. Record the request and its resumption event in the roster.
+
+While the archive works, prepare the input adapter, constructed checks, admission and filing steps, and run other qualified work. Review the delivery as evidence, verify its provenance and meaning, then start the dependent job as soon as its existing source, resource and disclosure conditions pass. If the archive cannot supply the evidence, record what it checked and bring the curator only the remaining decision or missing input. This standing instruction covers archive coordination within the authorized study, handling terms and campaign bounds.
+
 ## Completion wakes and preparing successors
 
 While a study runs, prepare the authorized work that can reasonably follow it overnight. Build the runner, source mapping, restart path, cost and known-answer checks, admission command, expected terminal files and filing steps. Record which successors are qualified and which still depend on a result or source. Start each qualified independent successor as capacity opens. Recheck the actual admission limits at launch.
