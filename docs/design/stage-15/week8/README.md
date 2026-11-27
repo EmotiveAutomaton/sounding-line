@@ -1,6 +1,6 @@
 # Stage 15 · Week 8
 
-The ready list contains SLD8, LGH6, ACC1, ADP1, TMP2 with 6 free shared CPU slots. Shared memory floor including companion headroom currently limits starts.
+The ready list contains SLD8, LGH6, ACC1, ADP1, RML1, SLD9, TMP2, LKG2, MNG1, SLD7 with 6 free shared CPU slots. Shared memory floor including companion headroom currently limits starts.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -11,13 +11,13 @@ The ready list contains SLD8, LGH6, ACC1, ADP1, TMP2 with 6 free shared CPU slot
 | LGH6 | Voicing before another person joins a laugh | local | ready | LGH6-AMI-prejoin, LGH6-ICSI-prejoin | Sounding Line |
 | ACC1 | Acceleration in game outcomes | local | ready | ACC1-first-plays | Sounding Line |
 | ADP1 | How good and bad surprises fade | local | ready | ADP1-first-plays | Sounding Line |
-| RML1 | Room level before laughter | local | blocked | Laugh-excluded half-minute sound and speech-rate operator | Sounding Line |
-| SLD9 | Traits and wellbeing scales | Spark | blocked | Wave-two composite dictionary and complete-roster rehearsal | Sounding Line |
+| RML1 | Room level before laughter | local | ready | RML1-AMI-room, RML1-ICSI-room | Sounding Line |
+| SLD9 | Traits and wellbeing scales | Spark | ready | SLD9-wave2-trait-wellbeing | Sounding Line |
 | TMP2 | Trait reader on written histories | Spark | ready | TMP2-DJ-archive-counts-transfer1 | Sounding Line |
 | LAG2 | Next-prompt diary replay | local | running | LAG2-0057-independent-replay | Sounding Line |
-| LKG2 | Liking, standing and traits | Spark | blocked | Liking-gap, standing and trait codebook bindings | Sounding Line |
-| MNG1 | Meaning and happiness by activity | local | blocked | Four matched years of activity and one-to-many company tables are held. Activity, company and prior sampling weights need qualification. | Sounding Line |
-| SLD7 | Purpose after marriage | Spark | blocked | Three-wave common comparison adapter and married-gain roster | Sounding Line |
+| LKG2 | Liking, standing and traits | Spark | ready | LKG2-speaker-traits-standing | Sounding Line |
+| MNG1 | Meaning and happiness by activity | local | ready | MNG1-ATUS-four-years | Sounding Line |
+| SLD7 | Purpose after marriage | Spark | ready | SLD7-three-wave-marriage-gain | Sounding Line |
 | LGH7 | Meeting role and joining laughter | local | blocked | Documented meeting ranks and a within-meeting permutation fixture | Sounding Line |
 | ATL2 | Split-half stability of diary cells | local | blocked | Whole-person split qualification on the frozen atlas cells | Sounding Line |
 | ADM2 | Unused-source census | local | blocked | Source manifests, rights and codebook review | Sounding Line |

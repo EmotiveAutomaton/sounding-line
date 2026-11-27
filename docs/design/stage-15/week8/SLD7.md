@@ -1,0 +1,7 @@
+# SLD7 · Purpose after marriage
+
+Use the same three original MIDUS surveys, three purpose items, baseline age, family link, interview dates and marital-status codes as SLD5. A gain requires known status other than married at wave one and married at waves two and three. The comparison requires known status other than married at all three waves. Status 1 is married. The other valid codes are 2 through 5. Require ordered interviews, primary purpose scores at all three interviews, known family and baseline age. Limit the comparison to the gains’ observed age range and reweight to their shares by age decade.
+
+Apply the two SLD5 estimators and the three transitions. Reweight by decade in each of 2,000 whole-family draws. The registered quantities are differences in changes in purpose. The descriptions adjust the later score for the earlier score and decade. Reconstruct both the six SLD2 rosters and every membership contributing to SLD5’s released contrasts, including its weighted comparators, before testing the new release. Report the real gain-group count. A roster of 11 to 19 yields a descriptive reading. Below 11 the job withholds the row.
+
+**Design check.** In invented three-wave files place a gain only at the second wave, with an all-waves comparison of the same ages. Verify the three differences and the descriptive adjustment, both protected old-roster counts and refusal of a one-person complement. A new marriage can be chosen and the people who marry already differ from those who do not. SLD5’s own marital-loss verdict is carried beside the gain.

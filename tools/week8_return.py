@@ -32,12 +32,18 @@ def render():
             if not sealed or terminal != 'FAILED':
                 continue
             native = dispatch.SHARED / (unit + '.native.json')
-            if native.is_file():
+            code = read(native)['native'] if native.is_file() else None
+            if code is None and unit == 'LKG1-liking-gap':
+                record = read(roster.PUBLIC/'LKG1_LIKING_GAP_DISPOSITION.json')
+                submitted = read(roster.gear.ROOT/unit/'SUBMITTED.json')
+                if record['full_write_through'] and record['entry_sha256'] == submitted['entry']:
+                    code = record['native_exit']
+            if code is not None:
                 prefix = f'- {card}, {unit}. Exit '
                 lines = text.splitlines(keepends=True)
                 for pos, line in enumerate(lines):
                     if line.startswith(prefix):
-                        lines[pos] = line.rstrip() + f" Native study exit {read(native)['native']}.\n"
+                        lines[pos] = line.rstrip() + f" Native study exit {code}.\n"
                 text = ''.join(lines)
     roster.RETURN.write_text(text, encoding='utf8', newline='\n')
     index = roster.DESIGN / 'README.md'
