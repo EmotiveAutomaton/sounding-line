@@ -1,4 +1,4 @@
-The ready list contains 1 qualified unit with 4 free shared CPU slots. RML1-AMI-room-DN waits for shared memory floor including companion headroom. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
+The ready list is empty with 5 free shared CPU slots. The remaining studies are in preparation or await the source or fixture named below. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
 
 # Week 8 return
 
@@ -10,7 +10,7 @@ No filed public comparison yet meets this condition.
 
 ## Study roster
 
-Read at 2026-11-27T20:53:58.864132+00:00 (UTC).
+Read at 2026-11-27T21:07:27.632480+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -21,9 +21,9 @@ Read at 2026-11-27T20:53:58.864132+00:00 (UTC).
 | LGH6 | Voicing before another person joins a laugh | local | running | LGH6-AMI-prejoin-DN, LGH6-ICSI-prejoin-DN | Sounding Line |
 | ACC1 | Acceleration in game outcomes | local | landed | Does a change in reward trajectory predict first-play happiness? filed with its replay. | Sounding Line |
 | ADP1 | How good and bad surprises fade | local | landed | Do bad surprises fade more slowly than good surprises? filed with its replay. | Sounding Line |
-| RML1 | Room level before laughter | local | running | RML1-ICSI-room-DN. Queued: RML1-AMI-room-DN | Sounding Line |
+| RML1 | Room level before laughter | local | landed | Does a steady room level predict when laughter starts? filed with its replay. | Sounding Line |
 | SLD9 | Traits and wellbeing scales | Spark | landed | The native job returned code 12. The three registered forms shared the same roster and none qualified. | Sounding Line |
-| TMP2 | Trait reader on written histories | Spark | blocked | Original archive check returned native 22. Verified headers received. Export key uniqueness, timestamp encoding and missing values remain unverified in the seal. TP58 invented-history replay passed. Check TP72 or eligible fallback at 18:50 Pacific, after source binding. | Sounding Line |
+| TMP2 | Trait reader on written histories | Spark | blocked | TP58 fallback entry matches its prepared bytes. Original PANDORA source returned 22 before counting. TP72 delivery or 18:50 Pacific fallback review; the owner must resolve or document the original binding in-seal. Constructed receiver membership checks passed. [Forms and receiver](https://github.com/EmotiveAutomaton/sounding-line/blob/main/docs/design/stage-15/week8/TP72_RECEIVER.md). | Sounding Line |
 | LAG2 | Next-prompt diary replay | local | landed | Do sadness and loneliness carry over more than anger across prompts? filed with its replay. | Sounding Line |
 | LKG2 | Liking, standing and traits | Spark | landed | Do liking errors vary with personality and perceived standing? filed with its replay. | Sounding Line |
 | MNG1 | Meaning and happiness by activity | local | landed | Does caregiving lead daily activities in meaning relative to happiness? filed with its replay. | Sounding Line |
@@ -34,7 +34,7 @@ Read at 2026-11-27T20:53:58.864132+00:00 (UTC).
 | TWO3 | Lagged feelings within couples | local | landed | Does a partner’s previous matching feeling predict the next report more strongly? filed with its replay. | Sounding Line |
 | BMP1 | Body maps by feeling | local | landed | The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. | Sounding Line |
 | DRV1 | Falling standing, anxiety and sadness | local | landed | Do accelerating falls in standing favor anxiety over sadness? filed with its replay. | Sounding Line |
-| TMP3 | Trait reader on conversation turns | Spark | blocked | TP72 conversation adapter and matching random heads from the engine. The receiver passed its invented two-person conversation. | Engine |
+| TMP3 | Trait reader on conversation turns | Spark | blocked | Engine has documented the TP72 conversation interface. Await verified release and combined read-only source for the end-to-end rehearsal. Constructed receiver membership checks passed. [Forms and receiver](https://github.com/EmotiveAutomaton/sounding-line/blob/main/docs/design/stage-15/week8/TP72_RECEIVER.md). | Engine |
 
 ## Filed results
 
@@ -44,6 +44,7 @@ Read at 2026-11-27T20:53:58.864132+00:00 (UTC).
 - [SLD8 report](r48/SLD8.md). Partial support. Neuroticism and stressor reactivity, mean of six feelings, 0.482981 [0.232209, 0.696669] (585 people). The same daily interview measures the stressor and the feeling. Only six feeling items bind across waves.
 - [ACC1 report](r48/ACC1.md). Positive. All players, one fading rate, 0.00300221 [0.00248818, 0.003528] (12715 people). A rating comes every two or three trials. The last three rewards can reach before the previous rating. The preflight also found excess positive readings under a scale ceiling.
 - [ADP1 report](r48/ADP1.md). Positive. All players, bad minus good fading rate, 0.2 [0.2, 0.25] (12715 people). A few minutes of a game is not a life. The rating scale has ends, and uncertainty is on the registered discrete grid.
+- [RML1 report](r48/RML1.md). Undecided. ICSI, room, absolute change, -0.0558938 [-0.238486, 0.134813] (75 meetings). Sound level and speech pace stand in for stress. Laughs are loud and cluster in time. Excluding a whole meeting for an untimed laugh removed the entire AMI sample.
 - [SLD9 report](r48/SLD9.md). Withheld. The native job returned code 12. The three registered forms shared the same roster and none qualified. One person answered the traits and wellbeing items in one sitting.
 - [LAG2 report](r48/LAG2.md). Descriptive. Pooled PANIC/GRIEF, all, median ratio, 0.0490565 (2 diaries). An event may last across both prompts. Missed prompts can widen gaps selectively, and the two families may draw on different cells and diaries.
 - [LKG2 report](r48/LKG2.md). Descriptive. Estimated minus partner-rated standing, rungs, -0.166355 [-0.251125, -0.0785919] (1415 people). People may use the response scale similarly when rating themselves and estimating a partner’s view. A partner can recur across speaker draws.
@@ -58,14 +59,13 @@ Read at 2026-11-27T20:53:58.864132+00:00 (UTC).
 ## Limits for open rows
 
 - LGH6. Speech-overlapping laughs are excluded on ICSI. A funnier moment can change both voicing and the chance that another person joins.
-- RML1. Room sound level and pace stand in for stress. Laughs are loud and cluster in time.
 - TMP2. Posted trait scores come from different tests with mixed original units. The exclusion rule may miss a community.
 - ATL2. Repeated splits reuse the same diaries. Member 0049 is reported separately.
 - TMP3. The engine learned from writing. A machine transcribed these spoken turns.
 
 ## Sealed invocations
 
-14 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 437,364.4 seconds.
+14 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 349,960.0 seconds.
 
 - LKG1, LKG1-liking-gap. Exit 4. Native study exit 12.
 - LKG2, LKG2-speaker-traits-standing-DN. Exit 0.

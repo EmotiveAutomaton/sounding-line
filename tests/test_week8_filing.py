@@ -46,6 +46,9 @@ def test_failed_view_check_keeps_return_pending(tmp_path, monkeypatch):
     disposition = read(state/'dispositions.json')['ADM2']
     assert disposition['status'] == 'awaiting report'
     assert disposition['pending_r48_receipt'] == 'SOURCES'
-    assert read(coverage)['work'][0]['state'] == 'build'
+    entry = read(coverage)['work'][0]
+    assert entry['state'] == 'file'
+    assert entry['terminal_sha256'] == receipt['terminal_sha256']
+    assert filing.datetime.fromisoformat(entry['review_by']) > filing.datetime.fromisoformat(entry['last_inspection'])
     assert len(read(stage/'CLAIM_LEDGER.json')['rows']) == 1
     assert len((tmp_path/'results/EVIDENCE_LEDGER.jsonl').read_text().splitlines()) == 1
