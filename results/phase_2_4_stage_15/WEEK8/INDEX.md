@@ -1,5 +1,9 @@
 # Week 8 results
 
+OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE. [First-wave MIDUS source check](SLD8_WAVE_ONE_STRUCTURE.md).
+
+OPS-S15-W8-TMP2-SOURCE-TRANSFER. [TMP2 source-check transfer](TMP2_SOURCE_TRANSFER.md).
+
 OPS-S15-W8-SLD6-STRESSOR-DISPOSITION. [Traits and responses to three kinds of daily stressor](SLD6_TRAIT_STRESSOR_RETURN.md).
 
 OPS-S15-W8-SLD6-WAVE2-STRUCTURE. [Wave-two MIDUS structure check](SLD6_WAVE_TWO_STRUCTURE.md).

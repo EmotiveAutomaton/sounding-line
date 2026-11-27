@@ -3144,6 +3144,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE.** The job verified both original SPSS files and reproduced the 7,108-person survey roster. It checked the repeated diary days and headers on an independent read. The single returned count is the whole survey. [Return](../results/phase_2_4_stage_15/WEEK8/SLD8_WAVE_ONE_STRUCTURE.md).
+
+**OPS-S15-W8-TMP2-SOURCE-TRANSFER.** A separate read matched every byte of the uploaded program to the qualified entry. The native launch log contained zero entries for that job. Closing the stalled local hash-read connection released its reservation. [Return](../results/phase_2_4_stage_15/WEEK8/TMP2_SOURCE_TRANSFER.md).
+
 **OPS-S15-W8-SLD6-STRESSOR-DISPOSITION.** Original diary half-slope operator with whole-family draws, three stressor kinds and one paired contrast per trait. [Return](../results/phase_2_4_stage_15/WEEK8/SLD6_TRAIT_STRESSOR_RETURN.md).
 
 **OPS-S15-W8-SLD6-WAVE2-STRUCTURE.** Joined SPSS header check with the known full survey membership and original diary event map. [Return](../results/phase_2_4_stage_15/WEEK8/SLD6_WAVE_TWO_STRUCTURE.md).

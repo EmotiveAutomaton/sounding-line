@@ -1,5 +1,25 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE
+
+Can the original first-wave diary link to the main survey on its documented keys?
+
+MIDUS 1 main survey and National Study of Daily Experiences. The job verified both original SPSS files and reproduced the 7,108-person survey roster. It checked the repeated diary days and headers on an independent read. The single returned count is the whole survey.
+
+The source check, original-source replay and scope are filed in the [study return](results/phase_2_4_stage_15/WEEK8/SLD8_WAVE_ONE_STRUCTURE.md).
+
+**Curator roll-up.** P4, R37-S3. All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. The full fourteen-item mean, the anger and fear groups, and the SLD6 comparison across waves lack matching first-wave items. The six comparable feelings and fifteen contrasts are qualified on the registered SLD3 operator.
+
+### OPS-S15-W8-TMP2-SOURCE-TRANSFER
+
+Did the initial source-check transfer start a sealed study?
+
+PANDORA source check, program transfer only. A separate read matched every byte of the uploaded program to the qualified entry. The native launch log contained zero entries for that job. Closing the stalled local hash-read connection released its reservation.
+
+The source check, original-source replay and scope are filed in the [study return](results/phase_2_4_stage_15/WEEK8/TMP2_SOURCE_TRANSFER.md).
+
+**Curator roll-up.** R37-S1. The SSH hash read stalled before submission. Zero invocations and zero CPU-seconds were charged. This record establishes nothing about trait scores, exclusions or author support. The identical qualified program is queued under a fresh transport identifier.
+
 ### OPS-S15-W8-SLD6-STRESSOR-DISPOSITION
 
 Does a questionnaire trait predict whether conflict changes a person’s feelings more than other kinds of daily stressor?

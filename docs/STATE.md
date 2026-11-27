@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. [Week 8 SLD8 result](../results/phase_2_4_stage_15/WEEK8/SLD8_WAVE_ONE_STRUCTURE.md).
+
+The SSH hash read stalled before submission. Zero invocations and zero CPU-seconds were charged. [Week 8 TMP2 result](../results/phase_2_4_stage_15/WEEK8/TMP2_SOURCE_TRANSFER.md).
+
 Void. All five trait jobs returned native code 12. No effect or contrast could be released. [Week 8 SLD6 result](../results/phase_2_4_stage_15/WEEK8/SLD6_TRAIT_STRESSOR_RETURN.md).
 
 The pinned MIDUS survey contains all five trait composites and the daily diary has the registered event and feeling fields. [Week 8 SLD6 result](../results/phase_2_4_stage_15/WEEK8/SLD6_WAVE_TWO_STRUCTURE.md).

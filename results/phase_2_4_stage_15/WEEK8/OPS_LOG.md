@@ -1,5 +1,9 @@
 # Week 8 operating record
 
+2026-11-27T16:32:54.076049+00:00 OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE. All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind.
+
+2026-11-27T16:32:47.337254+00:00 OPS-S15-W8-TMP2-SOURCE-TRANSFER. The SSH hash read stalled before submission. Zero invocations and zero CPU-seconds were charged.
+
 2026-11-27T16:23:07.218691+00:00 OPS-S15-W8-SLD6-STRESSOR-DISPOSITION. Five native code-12 dispositions. Six total invocations including the header, 15,800 CPU-seconds charged.
 
 2026-11-27T15:54:31.474403+00:00 OPS-S15-W8-SLD6-WAVE2-STRUCTURE. All five traits and required diary columns bind. Native exit 0. One invocation charged 300 CPU-seconds.

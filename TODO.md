@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE. All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. The six comparable feelings and fifteen contrasts are qualified on the registered SLD3 operator.
+
+- [x] OPS-S15-W8-TMP2-SOURCE-TRANSFER. The SSH hash read stalled before submission. Zero invocations and zero CPU-seconds were charged. The identical qualified program is queued under a fresh transport identifier.
+
 - [x] OPS-S15-W8-SLD6-STRESSOR-DISPOSITION. Void. All five trait jobs returned native code 12. No effect or contrast could be released.
 
 - [x] OPS-S15-W8-SLD6-WAVE2-STRUCTURE. The pinned MIDUS survey contains all five trait composites and the daily diary has the registered event and feeling fields. All five trait fields bind. Qualifying the three stressor fits and their shuffle against constructed diaries.

@@ -2177,3 +2177,5 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W8-LKG1-SEALED-DISPOSITION | R37-S4 | void / no releasable result | Void. Spark returned code 12 because no eligible comparison could be disclosed. |
 | OPS-S15-W8-SLD6-WAVE2-STRUCTURE | P4, S3 | infrastructure / passes | The pinned MIDUS survey contains all five trait composites and the daily diary has the registered event and feeling fields. |
 | OPS-S15-W8-SLD6-STRESSOR-DISPOSITION | P4, R37-S3 | void / no releasable result | Void. All five trait jobs returned native code 12. No effect or contrast could be released. |
+| OPS-S15-W8-TMP2-SOURCE-TRANSFER | R37-S1 | infrastructure / passes | The SSH hash read stalled before submission. Zero invocations and zero CPU-seconds were charged. |
+| OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE | P4, R37-S3 | infrastructure / passes | All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. |
