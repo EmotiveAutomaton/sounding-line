@@ -92,7 +92,6 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
         raise ValueError('Restricted data require a separate internal filing')
     views.mark_pending(ROOT,ident)
     write(PUBLIC/(stem+'.md'),'# '+title+'\n\n'+body.rstrip()+'\n')
-    atomic(PUBLIC/(stem+'.json'),dict(receipt,id=ident,card=card,full_write_through=True,record_kind=kind,scientific_admission=kind=='claim',theory_tags=evidence['claims'],activation=[]))
     theory=ROOT/'docs/theory/THREE_COGNITIVE_LAYERS.md'
     source=theory.read_text('utf8')
     if kind == 'claim' and tag not in source:
@@ -146,6 +145,9 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
         add(PUBLIC/file,stem if file=='README.md' else ident,line,front=True,heading=heading)
     add(ROOT/'docs/STATE.md',stem,evidence['verdict']+' [Week 8 '+card+' result](../results/phase_2_4_stage_15/'+detail+').',front=True)
     add(STAGE/'README.md','WEEK8/README.md','[Week 8 evidence](WEEK8/README.md) · [Current return](../../docs/exchange/WEEK8_RETURN.md).',front=True)
+    built=views.run(ROOT,'build')
+    if views.run(ROOT,'check')!=built:
+        raise ValueError('Generated view validation differs')
     index=STATE/'dispositions.json'
     states=read(index)
     disposition = evidence['verdict'] if withheld else title+' filed with its replay.'
@@ -165,7 +167,5 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     entry.update(state='closed' if progress is None else 'build',evidence=str((PUBLIC/(stem+'.json')).relative_to(ROOT).as_posix()),last_inspection=receipt['terminal_sha256'])
     work['last_reconciled']=datetime.now(timezone.utc).isoformat()
     atomic(coverage,work)
-    built=views.run(ROOT,'build')
-    if views.run(ROOT,'check')!=built:
-        raise ValueError('Generated view validation differs')
+    atomic(PUBLIC/(stem+'.json'),dict(receipt,id=ident,card=card,full_write_through=True,record_kind=kind,scientific_admission=kind=='claim',theory_tags=evidence['claims'],activation=[]))
     print('Filed',ident)

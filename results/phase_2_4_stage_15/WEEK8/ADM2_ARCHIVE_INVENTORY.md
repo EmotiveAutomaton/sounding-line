@@ -57,51 +57,51 @@ This is the completed metadata census. The separate counted admission checks rea
 | neurosynth-v7 | Neurosynth v7 terms vocabulary | ODbL 1.0 | No Week 8 scientific admission | No prior study use verified |
 | newyorker-next | New Yorker NEXT caption ratings | CC BY 4.0 (data), separate software licence | No Week 8 scientific admission | No prior study use verified |
 | nummenmaa-subjective-feelings | Nummenmaa et al. · Maps of subjective feelings | CC BY 4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0001 | openESM 0001: Fried (2021) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0001 | openESM 0001: Fried (2021) | CC-BY-4.0 | Prospective ATL comparison of social_offline with angry. Duration of in-person contact, recorded in ordered categories. | No prior study use verified |
 | openesm-0002 | openESM 0002: Nestler (2022) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0004 | openESM 0004: Wang (2014) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0004 | openESM 0004: Wang (2014) | CC-BY-NC-4.0 | Prospective ATL comparison of social_number with sadornot. Contact concerns the previous day. The release gives a separate yes/no sadness question and a conditional intensity item. Verify the yes/no codes before scoring. | No prior study use verified |
 | openesm-0005 | openESM 0005: Wang (2016) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0006 | openESM 0006: Rowland (2020) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0008 | openESM 0008: Westhoff (2024) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0011 | openESM 0011: Kuppens (2016) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0012 | openESM 0012: Dejonckheere (2019) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0013 | openESM 0013: Hoebeke (2022) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0014 | openESM 0014: Habets (2020) | CC-ZERO | No Week 8 scientific admission | No prior study use verified |
-| openesm-0015 | openESM 0015: Flueckiger (2014) | CC-ZERO | No Week 8 scientific admission | No prior study use verified |
+| openesm-0014 | openESM 0014: Habets (2020) | CC-ZERO | Prospective ATL comparison of act_what with frightened. The activity is nominal. Each documented category is a separate exposure. | No prior study use verified |
+| openesm-0015 | openESM 0015: Flueckiger (2014) | CC-ZERO | Prospective ATL comparison of learning_goal_achievement with pa. Both are daily reports. Achievement is an appraisal and the feeling is a three-item mean. | No prior study use verified |
 | openesm-0017 | openESM 0017: Jang (2024) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0018 | openESM 0018: Bailon (2020) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0019 | openESM 0019: Söderberg (2024) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0021 | openESM 0021: Gundogdu (2017) | CC-ZERO | No Week 8 scientific admission | No prior study use verified |
-| openesm-0022 | openESM 0022: Menghini (2023) | GPL-3.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0022 | openESM 0022: Menghini (2023) | GPL-3.0 | Prospective ATL comparison of what with tense. The event is the main work activity in the previous ten minutes. Any activity without a labelled value is void. | No prior study use verified |
 | openesm-0024 | openESM 0024: Hasselhorn (2021) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0025 | openESM 0025: Hasselhorn (2021) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0026 | openESM 0026: Fernández (2025) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0026 | openESM 0026: Fernández (2025) | CC-BY-NC-4.0 | Prospective ATL comparison of social_media_pre with loneliness. The exposure is recorded app use in the hour before the prompt. | No prior study use verified |
 | openesm-0027 | openESM 0027: Pavani (2017) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0028 | openESM 0028: Contreras (2020) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0028 | openESM 0028: Contreras (2020) | CC-BY-4.0 | Prospective ATL comparison of criticism with sad. Criticism is perceived. The released item list gives nine response options without numeric endpoints. A feeling-occurrence fit requires a documented floor. | No prior study use verified |
 | openesm-0029 | openESM 0029: Drukker (2020) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0031 | openESM 0031: Koval (2013) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0032 | openESM 0032: Grommisch (2020) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0033 | openESM 0033: Fisher (2017) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0033 | openESM 0033: Fisher (2017) | CC-BY-NC-4.0 | Prospective ATL comparison of avoid_activity with angry. Avoidance is reported on a graded scale. | No prior study use verified |
 | openesm-0034 | openESM 0034: Reeves (2020) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0035 | openESM 0035: Soyster (2022) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0035 | openESM 0035: Soyster (2022) | CC-BY-NC-4.0 | Prospective ATL comparison of conflict with angry. Both questions are current ratings from zero to one hundred. | No prior study use verified |
 | openesm-0036 | openESM 0036: Bosley (2019) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0037 | openESM 0037: Fisher (2019) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0039 | openESM 0039: Kuczynski (2021) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0040 | openESM 0040: Nepal (2024) | CC-BY-NC-SA-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0037 | openESM 0037: Fisher (2019) | CC-BY-NC-4.0 | Prospective ATL comparison of cigs with angry. The event is a reported count since the previous survey. | No prior study use verified |
+| openesm-0039 | openESM 0039: Kuczynski (2021) | CC-BY-NC-4.0 | Prospective ATL comparison of social_interaction with loneliness. Both are same-day graded reports. | No prior study use verified |
+| openesm-0040 | openESM 0040: Nepal (2024) | CC-BY-NC-SA-4.0 | Prospective ATL comparison of covid_support_others with stressed. Use the immediate stress item. Check the support item’s reference period before treating the pair as simultaneous. | No prior study use verified |
 | openesm-0041 | openESM 0041: Wright (2019) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0045 | openESM 0045: Kullar (2023) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0046 | openESM 0046: Ringwald (2024) | CC-BY-NC-4.0 | Admitted within codebook and licence scope. Noncommercial internal use. Same reporter rates own affect and perceived other affect. No independently observed event or partner report for ATL. | No prior study use verified |
-| openesm-0050 | openESM 0050: Pronizius (2024) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0051 | openESM 0051: Johannes (2021) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0050 | openESM 0050: Pronizius (2024) | CC-BY-4.0 | Prospective ATL comparison of helping_binary with valence_mood. The provider identifies this as a second study burst. Establish cohort independence before counting it separately from member 0049. | No prior study use verified |
+| openesm-0051 | openESM 0051: Johannes (2021) | CC-BY-4.0 | Prospective ATL comparison of social_media_use with happy. The exposure is seconds of use in the half-hour before the probe. The outcome is one bipolar item. | No prior study use verified |
 | openesm-0052 | openESM 0052: Marian (2022) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0053 | openESM 0053: Stevens (2020) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0053 | openESM 0053: Stevens (2020) | CC-BY-NC-4.0 | Prospective ATL comparison of thins_exposure with anxious. This indicator names thinspiration-only exposure. Combined exposure has separate fields. | No prior study use verified |
 | openesm-0054 | openESM 0054: Tammilehto (2022) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0058 | openESM 0058: Gainey (2023) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0059 | openESM 0059: Blanke (2020) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0061 | openESM 0061: Merolla (2022) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0066 | openESM 0066: Hensel (2023) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
+| openesm-0061 | openESM 0061: Merolla (2022) | CC-BY-NC-4.0 | Prospective ATL comparison of interaction_type with connected. Feeling connected is its own descriptive construct. Channel and absence of an interaction have distinct codes. | No prior study use verified |
+| openesm-0066 | openESM 0066: Hensel (2023) | CC-BY-NC-4.0 | Prospective ATL comparison of prevent_activity_stool with angry. Daily interference is yes/no. Both items use 99 for refusal, excluded before scoring. | No prior study use verified |
 | openesm-0071 | openESM 0071: Scharbert (2023) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0075 | openESM 0075: Ballou — licence not declared | No licence declaration in fetched member record | No Week 8 scientific admission | No prior study use verified |
+| openesm-0075 | openESM 0075: Ballou — licence not declared | No licence declaration in fetched member record | Withheld. The archive stopped acquisition at the modified rights statement. Only the event and feeling metadata are available. | No prior study use verified |
 | pandora | PANDORA — author-provided comments and profiles | Author-supplied PANDORA use conditions, received November 16, 2026 | No Week 8 scientific admission | No prior study use verified |
 | pandora-big5 | PANDORA Big Five — jingjietan Hugging Face derivative | Apache 2.0 asserted by uploader, upstream scope unresolved | No Week 8 scientific admission | No prior study use verified |
 | pandora-tmp2 | PANDORA original archives, sealed alias | Provider terms, aggregate only | TMP2 original-archive admission counts inside the seal | No prior study use verified |
@@ -207,5 +207,9 @@ This is the completed metadata census. The separate counted admission checks rea
 | ultimatum-epe-2021 | Emotion prediction errors guide socially adaptive behaviour — Study 1 Ultimatum Game | none stated, tests only | Prior study scope only | OPS-S15-W7-UGM1-EPE-RESPONDERS |
 
 [Filed original and independent source checks](ADM2_SOURCE_ADMISSIONS.md).
+
+The prospective event–feeling register includes 17 additional diaries with a documented event or activity and a feeling. Each entry names one verified example. ATL2 retains its frozen Week 7 cells. The [machine-readable register](ADM2_ATLAS_ROUTES.json) gives the original table, dictionary and reporting-card digests.
+
+The meeting-audio register retains ICSI and AMI for LGH6. CANDOR still needs speaker-linked laughter times. The Santa Barbara source uses room audio. The Seamless annotation holdings document transcript and speech-activity timing. No additional recording set has a verified combination of speaker-isolated channels and marked laughter in this review.
 
 [Admission design](../../../docs/design/stage-15/week8/ADM2.md) · [Reviewed reporting terms](../../../docs/design/stage-15/week8/ARCHIVE_REVIEW.md).

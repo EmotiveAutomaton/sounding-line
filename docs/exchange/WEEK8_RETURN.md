@@ -1,4 +1,4 @@
-The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.6 GiB of memory commitment available. A Spark launcher needs 15.8 GiB under the shared reserve.
+The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.6 GiB of memory commitment available. A Spark launcher needs 15.8 GiB under the shared reserve. The smallest ready local job needs 15.8 GiB.
 
 # Week 8 return
 
@@ -8,7 +8,7 @@ No filed public comparison yet meets this condition.
 
 ## Study roster
 
-Read at 2026-11-27T18:25:58.260247+00:00 (UTC).
+Read at 2026-11-27T18:33:52.936416+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -78,5 +78,7 @@ Read at 2026-11-27T18:25:58.260247+00:00 (UTC).
 ## Unused sources
 
 [The holdings census](../../results/phase_2_4_stage_15/WEEK8/ADM2_ARCHIVE_INVENTORY.md) lists all 192 entries. Prior use was documented for 57. [Original and replayed admission checks](../../results/phase_2_4_stage_15/WEEK8/ADM2_SOURCE_ADMISSIONS.md) admitted all three named releases.
+
+The [prospective atlas register](../../results/phase_2_4_stage_15/WEEK8/ADM2_ATLAS_ROUTES.json) adds 17 diaries with verified event and feeling fields. The split-half study retains its frozen roster.
 
 The campaign opened November 27 at 06:50 Pacific. New starts freeze November 29 at 08:00, the drain is at 10:00 and the final addendum is due at 11:00. The standing queue has a 15-minute local reader and a 25-minute owner check. The result ledger is separate from Week 7.

@@ -41,17 +41,31 @@ def render():
     if ready:
         reason = dispatch.headroom()
         new = f"The ready list contains {len(ready)} studies with {free} free shared CPU slots."
-        if reason:
+        if free == 0:
+            new += ' The next qualified job starts when a shared slot opens.'
+        elif reason:
             if reason == 'Shared memory floor including companion headroom':
                 mem = roster.gear.resource_snapshot()
                 leases = roster.gear.resources.lease_paths()
-                minimum = roster.gear.resources.memory_reserve(leases) + 14 + dispatch.SLOT_COST
+                reserve = roster.gear.resources.memory_reserve(leases) + 14
+                remaining = {unit.strip() for card in ready for unit in snapshot['rows'][card]['evidence'].split(',')}
+                peaks = []
+                for unit in remaining:
+                    review = roster.STATE / 'reviews' / (unit + '.json')
+                    if review.is_file():
+                        spec = read(review)
+                        if 'operations' in spec:
+                            peaks.append(spec['peak'])
                 new += (f" Windows has {mem['commit_headroom_GiB']:.1f} GiB of memory commitment available. "
-                        f"A Spark launcher needs {minimum:.1f} GiB under the shared reserve.")
+                        f"A Spark launcher needs {reserve + dispatch.SLOT_COST:.1f} GiB under the shared reserve.")
+                if peaks:
+                    new += f" The smallest ready local job needs {reserve + min(peaks):.1f} GiB."
             else:
                 new += ' ' + reason + ' currently limits starts.'
         elif all(snapshot['rows'][card]['host'] == 'Spark' for card in ready):
             new += ' The sealed dispatcher starts the next qualified job when its lane is free.'
+        else:
+            new += ' Workers start at the next dispatcher check that passes their individual admission requirements.'
     text = text.replace(first, new, 1)
     text = text.replace('## Study roster\n', f"## Study roster\n\nRead at {snapshot['at']} (UTC).\n", 1)
     limits = [f"- {card}. {OPEN_LIMITS[card]}" for card, row in snapshot['rows'].items()
@@ -62,6 +76,11 @@ def render():
     if (roster.PUBLIC/'ADM2_ARCHIVE_INVENTORY.md').exists():
         text = text.replace('ADM2 source and terms review is pending.',
                             'The [holdings census](../../results/phase_2_4_stage_15/WEEK8/ADM2_ARCHIVE_INVENTORY.md) lists each source, its retained terms, its admission and the evidence of earlier use. The counted original-source checks are queued.')
+    atlas_routes = roster.PUBLIC/'ADM2_ATLAS_ROUTES.json'
+    if atlas_routes.is_file():
+        count = sum(r['status'] == 'atlas catalogue' for r in read(atlas_routes)['rows'])
+        lead = 'The campaign opened November 27'
+        text = text.replace(lead, f'The [prospective atlas register](../../results/phase_2_4_stage_15/WEEK8/ADM2_ATLAS_ROUTES.json) adds {count} diaries with verified event and feeling fields. The split-half study retains its frozen roster.\n\n' + lead, 1)
     for card, attempts in snapshot['attempts'].items():
         for unit, terminal, _, sealed in attempts:
             if not sealed or terminal != 'FAILED':

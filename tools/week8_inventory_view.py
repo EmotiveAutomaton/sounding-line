@@ -33,6 +33,9 @@ def render():
         raise ValueError('The filed admission does not match this holdings census')
     bindings=admission.get('bindings',{})
     rows=public_rows(receipt['cells'],bindings)
+    atlas_file=PAGE.with_name('ADM2_ATLAS_ROUTES.json')
+    routes=read(atlas_file)['rows'] if atlas_file.exists() else []
+    atlas={'openesm-'+row['member']:row for row in routes}
     audit={'repository-argrewrite':'L59, ArgRewrite purpose signal'}
     for row in rows:
         if row['source'] in audit:row['use']=audit[row['source']]
@@ -50,6 +53,12 @@ def render():
             if r['source'].startswith('midus-') and terms.startswith('See retained'):terms='ICPSR and MIDUS Conditions of Use'
             if r['source'] in bindings:
                 scope=r['admission']+'. '+bindings[r['source']].get('scope',bindings[r['source']].get('reason',''))
+            elif r['source'] in atlas:
+                route=atlas[r['source']]
+                if route['status']=='atlas catalogue':
+                    scope='Prospective ATL comparison of '+route['event']+' with '+route['feeling']+'. '+route['scope']
+                else:
+                    scope=route['status'].capitalize()+'. '+route['reason']
             elif r['source']=='openesm-0046':scope='ADM2 original codebook replay pending, internal noncommercial scope'
             elif r['source'] in SLUGS:scope='ADM2 original-source binding replay pending'
             else:scope=r['admission']
@@ -57,6 +66,10 @@ def render():
         lines.append('')
     if admission:
         lines+=['[Filed original and independent source checks](ADM2_SOURCE_ADMISSIONS.md).','']
+    if routes:
+        count=sum(r['status']=='atlas catalogue' for r in routes)
+        lines+=[f'The prospective event–feeling register includes {count} additional diaries with a documented event or activity and a feeling. Each entry names one verified example. ATL2 retains its frozen Week 7 cells. The [machine-readable register](ADM2_ATLAS_ROUTES.json) gives the original table, dictionary and reporting-card digests.','',
+                'The meeting-audio register retains ICSI and AMI for LGH6. CANDOR still needs speaker-linked laughter times. The Santa Barbara source uses room audio. The Seamless annotation holdings document transcript and speech-activity timing. No additional recording set has a verified combination of speaker-isolated channels and marked laughter in this review.','']
     lines+=['[Admission design](../../../docs/design/stage-15/week8/ADM2.md) · [Reviewed reporting terms](../../../docs/design/stage-15/week8/ARCHIVE_REVIEW.md).','']
     PAGE.write_text('\n'.join(lines),encoding='utf8',newline='\n')
     print(f'{len(rows)} inventory rows, {len(unused)} without located prior study use.')

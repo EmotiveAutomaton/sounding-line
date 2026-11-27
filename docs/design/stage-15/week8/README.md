@@ -1,6 +1,6 @@
 # Stage 15 · Week 8
 
-The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.6 GiB of memory commitment available. A Spark launcher needs 15.8 GiB under the shared reserve.
+The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.6 GiB of memory commitment available. A Spark launcher needs 15.8 GiB under the shared reserve. The smallest ready local job needs 15.8 GiB.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
