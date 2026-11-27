@@ -91,11 +91,36 @@ def body_maps(obj):
             *[row('Anatomical mask, '+k,x,None,None,unit='pixels',reading='support') for k,x in obj['regional_pixels'].items()]]
 
 
+def lag_tables():
+    # The original pool and all new cells must pass the independent replay
+    # checks before any original estimate or verdict is made available here.
+    from week8_lag_pool import assemble
+    result=assemble()
+    rows=[]
+    for v in result['pooled']:
+        for stat in ('ratio','slope'):
+            rows.append(row(f"Pooled {v['family']}, {v['gap']}, median {stat}",v[stat],None,
+                            v['contributing_diaries'],unit='diaries'))
+    for v in result['diaries']:
+        for stat in ('ratio','slope','undecided','identified'):
+            rows.append(row(f"Diary {v['member']}, {v['family']}, {v['gap']}, {stat}",
+                            v[stat],None,v['cells'],unit='selected cells'))
+    for v in result['cells']:
+        if v['member']=='0057':
+            name=f"0057 {v['cell']}, {v['gap']}"
+            rows.append(row(name+', next-prompt slope',v['estimate'],v['interval'],v['people'],v['pairs']))
+            rows.append(row(name+', same-prompt slope',v['same_prompt'],None,None,unit='frozen atlas cell'))
+            rows.append(row(name+', ratio',v['ratio'],None,v['people'],v['pairs']))
+    return rows
+
+
 SEALED = {'SLD8':('trait.csv','contrast','110','Neuroticism and stressor reactivity, mean of six feelings','positive'),
           'LKG2':('comparisons.csv','measure','11','Estimated minus partner-rated standing, rungs','descriptive')}
 
 
 def project(card, directory, terminal):
+    if card=='LAG2':
+        return lag_tables()
     if card in SEALED:
         fname,tag,code,label,direction=SEALED[card]
         if set(terminal['aggregates'])!={fname} or not terminal['verified']:

@@ -42,6 +42,22 @@ ROWS={
 assert set(ROWS)==gear.CARDS
 
 
+def queued_units():
+    """Apply both dispatchers' admission-order checks, including a running row's next corpus."""
+    from tools import week8_local_queue as local, week8_spark_queue as spark
+    waiting={}
+    for path in sorted((STATE/'reviews').glob('*.json')):
+        spec=read(path)
+        unit=spec['unit']
+        if ('operations' in spec and spec.get('fixture') and path.stem==unit
+                and not (gear.ROOT/unit).exists() and not (local.BASE/(unit+'.hold.json')).exists()):
+            waiting.setdefault(spec['card'],[]).append(unit)
+    unit=spark.next_job()
+    if unit:
+        waiting.setdefault(read(STATE/'reviews'/(unit+'.json'))['card'],[]).append(unit)
+    return waiting
+
+
 def snapshot():
     # A disposition records local filing. R48 also requires a pushed report.
     pushed=subprocess.run(['git','ls-tree','-r','--name-only','origin/main','--','docs/exchange/r48'],
@@ -54,10 +70,7 @@ def snapshot():
         data=read(ref)
         terminal=next((s for s in ('COMPLETE','FAILED','PAUSED') if (d/(s+'.json')).exists()),None)
         attempts.setdefault(data['card'],[]).append((d.name,terminal,is_same_live_process(data['native']),data['sealed']))
-    reviewed={}
-    for p in (STATE/'reviews').glob('*.json'):
-        v=read(p)
-        reviewed.setdefault(v['card'],[]).append(p.stem)
+    waiting=queued_units()
     rows={}
     for card,(host,name,requirement) in ROWS.items():
         record=state.get(card,{})
@@ -67,12 +80,13 @@ def snapshot():
         if any(not t and live for _,t,live,_ in jobs):
             status='running'
             evidence=', '.join(n for n,t,live,_ in jobs if not t and live)
+            if card in waiting:
+                evidence += '. Queued: '+', '.join(waiting[card])
         elif any(not t for _,t,_,_ in jobs):
             status='blocked'
             evidence='Owner inspection of interrupted reservation'
         elif status!='landed':
-            idle=[n for n in reviewed.get(card,[]) if n not in {j[0] for j in jobs}
-                  and not any((STATE/q/(n+'.hold.json')).exists() for q in ('local-queue','spark-queue'))]
+            idle=waiting.get(card,[])
             if idle:
                 status='ready'
                 evidence=', '.join(sorted(idle))
@@ -89,7 +103,7 @@ def snapshot():
     charge,by_row,sealed=gear.balance()
     return dict(at=now(),rows=rows,free=gear.shared_slot_limit()-len(gear.resources.lease_paths()),
                 reserved_or_charged=charge,by_row=by_row,sealed=sealed,
-                ready=[c for c,v in rows.items() if v['status']=='ready'],attempts=attempts)
+                ready=list(waiting),ready_units=waiting,attempts=attempts)
 
 
 def render(s):

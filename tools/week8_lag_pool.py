@@ -71,9 +71,16 @@ def assemble():
             cells.append(dict(member='0057',cell=key,family=item['feeling_family'],same_prompt=float(item['point']),
                 gap=gap,reading=result['reading'],**result[gap]))
     diaries,pooled=summarize(cells)
-    freeze(STATE/'LAG2_EXTENDED_FAMILY_TABLES.json',dict(cells=cells,diaries=diaries,pooled=pooled,
+    result=dict(cells=cells,diaries=diaries,pooled=pooled,
            source_mapping=filehash(source),terminal=filehash(CURRENT/'COMPLETE.json'),
-           prior_table=filehash(OLD/'LAG_NEXT_PROMPT_FAMILY_RETURN_tables.json'),restricted_member_excluded='0049'))
+           prior_table=filehash(OLD/'LAG_NEXT_PROMPT_FAMILY_RETURN_tables.json'),separately_reported_member='0049')
+    path=STATE/'LAG2_EXTENDED_FAMILY_TABLES.json'
+    if path.exists():
+        if read(path)!=result:
+            raise ValueError('Existing pooled table differs')
+    else:
+        freeze(path,result)
+    return result
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()

@@ -10,7 +10,7 @@ No filed public comparison yet meets this condition.
 
 ## Study roster
 
-Read at 2026-11-27T20:25:07.654070+00:00 (UTC).
+Read at 2026-11-27T20:36:18.211618+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|

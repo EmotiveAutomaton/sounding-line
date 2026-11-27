@@ -38,26 +38,11 @@ def render():
     r48_reports.build()
     r48_reports.build(check=True)
     snapshot = roster.snapshot()
-    # A row can have a live corpus and a sibling waiting for headroom.
-    # Consult the dispatcher's eligible local reviews independently of row status.
-    waiting = {}
     reasons = {}
-    for path in sorted((roster.STATE/'reviews').glob('*.json')):
-        spec = read(path)
-        unit = spec['unit']
-        if ('operations' not in spec or not spec.get('fixture') or path.stem != unit
-                or (roster.gear.ROOT/unit).exists() or (local.BASE/(unit+'.hold.json')).exists()):
-            continue
-        waiting.setdefault(spec['card'], []).append(unit)
-        reasons[unit] = local.permits(spec)
-    pending_spark = dispatch.next_job()
-    if pending_spark:
-        spec = read(roster.STATE/'reviews'/(pending_spark+'.json'))
-        waiting.setdefault(spec['card'], []).append(pending_spark)
-        reasons[pending_spark] = dispatch.headroom()
-    for card, units in waiting.items():
-        if snapshot['rows'][card]['status'] == 'running':
-            snapshot['rows'][card]['evidence'] += '. Queued: ' + ', '.join(units)
+    for units in snapshot['ready_units'].values():
+        for unit in units:
+            spec = read(roster.STATE/'reviews'/(unit+'.json'))
+            reasons[unit] = local.permits(spec) if 'operations' in spec else dispatch.headroom()
     roster.render(snapshot)
     text = roster.RETURN.read_text(encoding='utf8')
     first = text.splitlines()[0]
