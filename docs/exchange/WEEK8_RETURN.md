@@ -1,4 +1,4 @@
-The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.7 GiB of memory commitment available. A Spark launcher needs 15.8 GiB under the shared reserve.
+The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.6 GiB of memory commitment available. A Spark launcher needs 15.8 GiB under the shared reserve.
 
 # Week 8 return
 
@@ -8,7 +8,7 @@ No filed public comparison yet meets this condition.
 
 ## Study roster
 
-Read at 2026-11-27T18:12:17.020008+00:00 (UTC).
+Read at 2026-11-27T18:25:58.260247+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -28,9 +28,9 @@ Read at 2026-11-27T18:12:17.020008+00:00 (UTC).
 | SLD7 | Purpose after marriage | Spark | ready | SLD7-three-wave-marriage-gain | Sounding Line |
 | LGH7 | Meeting role and joining laughter | local | landed | Who joins a meeting leader’s laugh? filed with its replay. | Sounding Line |
 | ATL2 | Split-half stability of diary cells | local | ready | ATL2-frozen-atlas-halves | Sounding Line |
-| ADM2 | Unused-source census | local | ready | ADM2-store-census-and-open-bindings | Sounding Line |
+| ADM2 | Unused-source census | local | landed | Three original releases admitted to the source catalogue filed with its replay. | Sounding Line |
 | TWO3 | Lagged feelings within couples | local | ready | TWO3-original-paired-occasions | Sounding Line |
-| BMP1 | Body maps by feeling | local | blocked | Runner and planted binding fixture passed. Waiting for the ADM2 original body-map admission receipt. | Sounding Line |
+| BMP1 | Body maps by feeling | local | ready | BMP1-registered-body-map-means | Sounding Line |
 | DRV1 | Falling standing, anxiety and sadness | local | ready | DRV1-two-status-diaries | Sounding Line |
 | TMP3 | Trait reader on conversation turns | Spark | blocked | TP72 conversation adapter and matching random heads from the engine. The receiver passed its invented two-person conversation. | Engine |
 
@@ -40,6 +40,7 @@ Read at 2026-11-27T18:12:17.020008+00:00 (UTC).
 - LKG1. Void. Native exit 12, launcher exit 4. No table left Spark. [Disposition](../../results/phase_2_4_stage_15/WEEK8/LKG1_LIKING_GAP_DISPOSITION.md). A person's use of the rating scale and differences in how much partners like that person can each make the gap repeat.
 - SLD6. Void. Five native code-12 dispositions. [All five traits](../../results/phase_2_4_stage_15/WEEK8/SLD6_TRAIT_STRESSOR_RETURN.md). Close-person events can be rare in an eight-day diary. The code does not distinguish insufficient contributing people, an undefined fit and disclosure suppression.
 - LGH7. ICSI void for rank. AMI filed internally. [Public receipt](../../results/phase_2_4_stage_15/WEEK8/LGH7_MEETING_ROLE_RETURN.md). An assigned meeting role is an imperfect measure of rank. Leaders may speak more often.
+- ADM2. Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay. Diary 0046 measures one person’s perception of another. The body-map word-to-plane correspondence is checked in BMP1.
 
 ## Limits for open rows
 
@@ -55,7 +56,6 @@ Read at 2026-11-27T18:12:17.020008+00:00 (UTC).
 - MNG1. Meaning has one rating. Each respondent reports only three sampled activities and chooses what to do.
 - SLD7. Marriage is chosen and those who marry may already differ before the transition.
 - ATL2. Repeated splits reuse the same diaries. Member 0049 remains internal.
-- ADM2. The records establish prior use only when a filed study or source check can be located.
 - TWO3. A difficult stretch shared by both partners can produce a lagged association.
 - BMP1. Named maps depend on an identified raster and plane order. The regional boundaries are analyst-defined on the blank silhouette.
 - DRV1. Successive changes amplify noise in a rating, and only two diaries measure these items.
@@ -63,7 +63,7 @@ Read at 2026-11-27T18:12:17.020008+00:00 (UTC).
 
 ## Sealed invocations
 
-9 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 82,312.5 seconds.
+9 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 82,341.7 seconds.
 
 - LKG1, LKG1-liking-gap. Exit 4. Native study exit 12.
 - SLD5, SLD5-loss-comparison. Exit 0.
@@ -77,6 +77,6 @@ Read at 2026-11-27T18:12:17.020008+00:00 (UTC).
 
 ## Unused sources
 
-The [holdings census](../../results/phase_2_4_stage_15/WEEK8/ADM2_ARCHIVE_INVENTORY.md) lists each source, its retained terms, its admission and the evidence of earlier use. The counted original-source checks are queued.
+[The holdings census](../../results/phase_2_4_stage_15/WEEK8/ADM2_ARCHIVE_INVENTORY.md) lists all 192 entries. Prior use was documented for 57. [Original and replayed admission checks](../../results/phase_2_4_stage_15/WEEK8/ADM2_SOURCE_ADMISSIONS.md) admitted all three named releases.
 
 The campaign opened November 27 at 06:50 Pacific. New starts freeze November 29 at 08:00, the drain is at 10:00 and the final addendum is due at 11:00. The standing queue has a 15-minute local reader and a 25-minute owner check. The result ledger is separate from Week 7.

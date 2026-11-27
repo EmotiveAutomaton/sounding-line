@@ -1,5 +1,7 @@
 # Week 8 evidence
 
+[Three original releases admitted to the source catalogue](ADM2_SOURCE_ADMISSIONS.md). Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay.
+
 [Who joins a meeting leader’s laugh?](LGH7_MEETING_ROLE_RETURN.md). ICSI is void for rank. The AMI comparison is complete and filed internally.
 
 [First-wave MIDUS source check](SLD8_WAVE_ONE_STRUCTURE.md). All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind.

@@ -27,7 +27,12 @@ def render():
     if filehash(FILE)!=DIGEST:
         raise ValueError('Frozen source inventory version differs')
     receipt=read(FILE)
-    rows=public_rows(receipt['cells'])
+    admission_file=PAGE.with_name('ADM2_SOURCE_ADMISSIONS.json')
+    admission=read(admission_file) if admission_file.exists() else {}
+    if admission and (admission.get('inventory_sha256')!=DIGEST or not admission.get('full_write_through')):
+        raise ValueError('The filed admission does not match this holdings census')
+    bindings=admission.get('bindings',{})
+    rows=public_rows(receipt['cells'],bindings)
     audit={'repository-argrewrite':'L59, ArgRewrite purpose signal'}
     for row in rows:
         if row['source'] in audit:row['use']=audit[row['source']]
@@ -43,11 +48,15 @@ def render():
         for r in table:
             terms=r['terms'].replace(';',',')
             if r['source'].startswith('midus-') and terms.startswith('See retained'):terms='ICPSR and MIDUS Conditions of Use'
-            if r['source']=='openesm-0046':scope='ADM2 original codebook replay pending, internal noncommercial scope'
+            if r['source'] in bindings:
+                scope=r['admission']+'. '+bindings[r['source']].get('scope',bindings[r['source']].get('reason',''))
+            elif r['source']=='openesm-0046':scope='ADM2 original codebook replay pending, internal noncommercial scope'
             elif r['source'] in SLUGS:scope='ADM2 original-source binding replay pending'
             else:scope=r['admission']
             lines.append('| '+' | '.join(cell(v) for v in (r['source'],r['title'],terms,scope,r['use']))+' |')
         lines.append('')
+    if admission:
+        lines+=['[Filed original and independent source checks](ADM2_SOURCE_ADMISSIONS.md).','']
     lines+=['[Admission design](../../../docs/design/stage-15/week8/ADM2.md) · [Reviewed reporting terms](../../../docs/design/stage-15/week8/ARCHIVE_REVIEW.md).','']
     PAGE.write_text('\n'.join(lines),encoding='utf8',newline='\n')
     print(f'{len(rows)} inventory rows, {len(unused)} without located prior study use.')

@@ -3157,6 +3157,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W8-ADM2-SOURCE-ADMISSIONS.** Original-release digest, source header, codebook and licence checks with a separate process replay. [Return](../results/phase_2_4_stage_15/WEEK8/ADM2_SOURCE_ADMISSIONS.md).
+
 **OPS-S15-W8-LGH7-MEETING-ROLES.** Fixed one-second joining window, documented role assignments, whole-meeting bootstrap and within-meeting permutation. [Return](../results/phase_2_4_stage_15/WEEK8/LGH7_MEETING_ROLE_RETURN.md).
 
 **OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE.** The job verified both original SPSS files and reproduced the 7,108-person survey roster. It checked the repeated diary days and headers on an independent read. The single returned count is the whole survey. [Return](../results/phase_2_4_stage_15/WEEK8/SLD8_WAVE_ONE_STRUCTURE.md).

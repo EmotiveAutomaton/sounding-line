@@ -70,18 +70,24 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     ident=evidence['id']
     if set(evidence)!=set('id date question data estimate interval bar verdict limit claims family'.split()):
         raise ValueError('Incomplete evidence ledger record')
+    if not isinstance(scope, dict):
+        raise ValueError('Scope qualifiers must be a mapping')
     stamp=receipt['terminal_at']
     topic=', '.join(evidence['claims'])
     tag='(test, '+ident+')'
     withheld = outcome == 'void'
     internal_only = outcome == 'restricted completion'
-    kind = 'run' if withheld or internal_only or progress is not None else 'claim'
+    source_admission = outcome == 'source admission'
+    kind = 'run' if withheld or internal_only or source_admission or progress is not None else 'claim'
     control = 'verified restricted replay' if internal_only else 'no releasable result' if withheld else 'passes'
     if internal_only and (evidence['estimate'] is not None or evidence['interval'] is not None or opposition
                           or not receipt.get('internal_return_sha256')):
         raise ValueError('Restricted completion requires a filed internal report and an operational public receipt')
     if withheld and (evidence['estimate'] is not None or evidence['interval'] is not None or opposition):
         raise ValueError('A void disposition cannot contain scientific estimates or opposition')
+    if source_admission and (evidence['estimate'] is not None or evidence['interval'] is not None
+                             or opposition or not receipt.get('bindings') or not receipt.get('replay_sha256')):
+        raise ValueError('A source admission needs original and replay evidence without a scientific estimate')
     if receipt.get('restricted'):
         raise ValueError('Restricted data require a separate internal filing')
     views.mark_pending(ROOT,ident)
@@ -100,7 +106,7 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
         write(theory,changed)
     findings=ROOT/'FINDINGS.md'
     reference = 'The exit code and disclosure decision are filed in the ' if withheld else 'The full comparison, original-source replay and limits are filed in the '
-    if progress is not None:
+    if progress is not None or source_admission:
         reference = 'The source check, original-source replay and scope are filed in the '
     if internal_only:
         reference = 'The completed internal report and replay are authenticated by the public '

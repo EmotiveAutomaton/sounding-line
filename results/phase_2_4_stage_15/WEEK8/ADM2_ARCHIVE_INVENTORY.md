@@ -13,7 +13,7 @@ This is the completed metadata census. The separate counted admission checks rea
 | allen-human-brain-microarray | Allen Human Brain Atlas normalized microarray | Allen Institute research/noncommercial terms | No Week 8 scientific admission | No prior study use verified |
 | atus-activity-who | ATUS Basic Activity and Who files for MNG1 | US public domain, cite BLS | MNG1 four-year activity and company join | No prior study use verified |
 | canlab-public-maps | CANlab public maps and atlases | GPL-3.0 repository licence | No Week 8 scientific admission | No prior study use verified |
-| case-full | CASE full archive | CC0 | ADM2 original-source binding replay pending | No prior study use verified |
+| case-full | CASE full archive | CC0 | Admitted within codebook and licence scope. Continuous self-rated valence and arousal and eight physiological channels. Link by subject, video and elapsed milliseconds, aligning the different sample clocks. | No prior study use verified |
 | casino | CaSiNo — original author JSON, author splits and Hugging Face Parquet | CC BY 4.0 | No Week 8 scientific admission | No prior study use verified |
 | change-my-view | Winning Arguments / Change My View — ConvoKit release | Original data rights not established by wrapper code licence | No Week 8 scientific admission | No prior study use verified |
 | cmu-mosei | CMU-MOSEI | Data rights and exact media bytes not qualified | No Week 8 scientific admission | No prior study use verified |
@@ -90,7 +90,7 @@ This is the completed metadata census. The separate counted admission checks rea
 | openesm-0040 | openESM 0040: Nepal (2024) | CC-BY-NC-SA-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0041 | openESM 0041: Wright (2019) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0045 | openESM 0045: Kullar (2023) | CC-BY-NC-4.0 | No Week 8 scientific admission | No prior study use verified |
-| openesm-0046 | openESM 0046: Ringwald (2024) | CC-BY-NC-4.0 | ADM2 original codebook replay pending, internal noncommercial scope | No prior study use verified |
+| openesm-0046 | openESM 0046: Ringwald (2024) | CC-BY-NC-4.0 | Admitted within codebook and licence scope. Noncommercial internal use. Same reporter rates own affect and perceived other affect. No independently observed event or partner report for ATL. | No prior study use verified |
 | openesm-0050 | openESM 0050: Pronizius (2024) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0051 | openESM 0051: Johannes (2021) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
 | openesm-0052 | openESM 0052: Marian (2022) | CC-BY-4.0 | No Week 8 scientific admission | No prior study use verified |
@@ -139,7 +139,7 @@ This is the completed metadata census. The separate counted admission checks rea
 | ur-funny | UR-FUNNY | No dataset licence established in inspected README | No Week 8 scientific admission | No prior study use verified |
 | valueeval24 | Touché24 ValueEval | Restricted Data Usage Agreement | No Week 8 scientific admission | No prior study use verified |
 | vent | Vent | Request pending per curator, exact approved record not supplied | No Week 8 scientific admission | No prior study use verified |
-| volynets-world-embody | Volynets et al. · Bodily maps of emotions | CC BY 4.0 | ADM2 original-source binding replay pending | No prior study use verified |
+| volynets-world-embody | Volynets et al. · Bodily maps of emotions | CC BY 4.0 | Admitted within codebook and licence scope. Body rasters and named paint metadata. BMP1 must bind the raster plane order independently. | No prior study use verified |
 | wesad | WESAD — original ICMI 2018 author release | Scientific, non-commercial use with credit | No Week 8 scientific admission | No prior study use verified |
 | wikipedia-diaries | Wikipedia browsing diaries | Author request pending per curator | No Week 8 scientific admission | No prior study use verified |
 | wilming-free-viewing | Data from: An extensive dataset of eye movements during viewing of complex images | CC0 1.0 | No Week 8 scientific admission | No prior study use verified |
@@ -205,5 +205,7 @@ This is the completed metadata census. The separate counted admission checks rea
 | talkbank-sbcsae | Santa Barbara sealed projection | TalkBank corpus-specific terms | Prior study scope only | OPS-S15-W7-SBC60-SEALED-LAYOUT |
 | teacher-diary-dual-ratings | Abrahams, Rauthmann and De Fruyt: dual-rater teaching diary | none stated, tests only | Prior study scope only | OPS-S15-W7-RESTRICTED-REPLAY |
 | ultimatum-epe-2021 | Emotion prediction errors guide socially adaptive behaviour — Study 1 Ultimatum Game | none stated, tests only | Prior study scope only | OPS-S15-W7-UGM1-EPE-RESPONDERS |
+
+[Filed original and independent source checks](ADM2_SOURCE_ADMISSIONS.md).
 
 [Admission design](../../../docs/design/stage-15/week8/ADM2.md) · [Reviewed reporting terms](../../../docs/design/stage-15/week8/ARCHIVE_REVIEW.md).

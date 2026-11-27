@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay. [Week 8 ADM2 result](../results/phase_2_4_stage_15/WEEK8/ADM2_SOURCE_ADMISSIONS.md).
+
 ICSI is void for rank. The AMI comparison is complete and filed internally. [Week 8 LGH7 result](../results/phase_2_4_stage_15/WEEK8/LGH7_MEETING_ROLE_RETURN.md).
 
 All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. [Week 8 SLD8 result](../results/phase_2_4_stage_15/WEEK8/SLD8_WAVE_ONE_STRUCTURE.md).

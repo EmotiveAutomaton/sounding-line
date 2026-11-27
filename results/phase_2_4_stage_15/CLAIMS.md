@@ -2180,3 +2180,4 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W8-TMP2-SOURCE-TRANSFER | R37-S1 | infrastructure / passes | The SSH hash read stalled before submission. Zero invocations and zero CPU-seconds were charged. |
 | OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE | P4, R37-S3 | infrastructure / passes | All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. |
 | OPS-S15-W8-LGH7-MEETING-ROLES | T7 | restricted completion / verified restricted replay | ICSI is void for rank. The AMI comparison is complete and filed internally. |
+| OPS-S15-W8-ADM2-SOURCE-ADMISSIONS | Source admission | source admission / passes | Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay. |

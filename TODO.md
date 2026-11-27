@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W8-ADM2-SOURCE-ADMISSIONS. Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay.
+
 - [x] OPS-S15-W8-LGH7-MEETING-ROLES. ICSI is void for rank. The AMI comparison is complete and filed internally.
 
 - [x] OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE. All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. The six comparable feelings and fifteen contrasts are qualified on the registered SLD3 operator.

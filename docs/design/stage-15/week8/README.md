@@ -1,6 +1,6 @@
 # Stage 15 · Week 8
 
-The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.7 GiB of memory commitment available. A Spark launcher needs 15.8 GiB under the shared reserve.
+The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.6 GiB of memory commitment available. A Spark launcher needs 15.8 GiB under the shared reserve.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -20,9 +20,9 @@ The ready list contains 14 studies with 7 free shared CPU slots. Windows has 14.
 | SLD7 | Purpose after marriage | Spark | ready | SLD7-three-wave-marriage-gain | Sounding Line |
 | LGH7 | Meeting role and joining laughter | local | landed | Who joins a meeting leader’s laugh? filed with its replay. | Sounding Line |
 | ATL2 | Split-half stability of diary cells | local | ready | ATL2-frozen-atlas-halves | Sounding Line |
-| ADM2 | Unused-source census | local | ready | ADM2-store-census-and-open-bindings | Sounding Line |
+| ADM2 | Unused-source census | local | landed | Three original releases admitted to the source catalogue filed with its replay. | Sounding Line |
 | TWO3 | Lagged feelings within couples | local | ready | TWO3-original-paired-occasions | Sounding Line |
-| BMP1 | Body maps by feeling | local | blocked | Runner and planted binding fixture passed. Waiting for the ADM2 original body-map admission receipt. | Sounding Line |
+| BMP1 | Body maps by feeling | local | ready | BMP1-registered-body-map-means | Sounding Line |
 | DRV1 | Falling standing, anxiety and sadness | local | ready | DRV1-two-status-diaries | Sounding Line |
 | TMP3 | Trait reader on conversation turns | Spark | blocked | TP72 conversation adapter and matching random heads from the engine. The receiver passed its invented two-person conversation. | Engine |
 

@@ -1,5 +1,7 @@
 # Week 8 operating record
 
+2026-11-27T18:20:09.939891+00:00 OPS-S15-W8-ADM2-SOURCE-ADMISSIONS. All three source checks reproduced. The body-map runner qualified against the completed admission. No sealed invocation was used.
+
 2026-11-27T18:12:16Z. Four Week 8 rows are filed. Fourteen have qualified work and the 0057 diary replay has verified 376 of 649 cells. The local and sealed dispatchers and the standing queue reader matched their Windows process identities. The longest interval between recorded queue reads was 15 minutes. A brief opening admitted LGH7 and its replay. At inspection, seven shared slots were free and the remaining Windows memory commitment was 14.83 GiB. A new Spark launcher required 15.75 GiB including the shared reserve. The dispatchers continued checking capacity. The fixed 192-entry archive census is filed. The body-map code and its constructed checks are ready for ADM2's admission receipt. The invented-conversation receiver passed, and the engine's TP72 conversation adapter is pending.
 
 2026-11-27T18:05:17.780526+00:00 OPS-S15-W8-LGH7-MEETING-ROLES. Both annotation reads and the independent role calculation matched. The AMI figures and scientific disposition are filed in the restricted record.

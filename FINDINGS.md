@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W8-ADM2-SOURCE-ADMISSIONS
+
+Which unused holdings have original data, documented measures and terms permitting the named analyses?
+
+Volynets and colleagues’ world emBODY release, Sharma and colleagues’ CASE release, and Ringwald, Vize and Wright’s openESM diary 0046. Independent processes verified the original release hashes, documented fields, source-specific reuse terms and the same 192-entry catalogue.
+
+The source check, original-source replay and scope are filed in the [study return](results/phase_2_4_stage_15/WEEK8/ADM2_SOURCE_ADMISSIONS.md).
+
+**Curator roll-up.** Source admission. Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay. Diary 0046 measures one person’s perception of another. The body-map word-to-plane correspondence is checked in BMP1. Use the verified body-map release for its registered measurement checks.
+
 ### OPS-S15-W8-LGH7-MEETING-ROLES
 
 Does another speaker join a meeting leader’s laugh more often?
