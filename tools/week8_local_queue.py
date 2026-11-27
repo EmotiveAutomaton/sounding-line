@@ -21,7 +21,11 @@ def permits(q):
     available=min(s['ram_available_GiB'],s['commit_headroom_GiB'])
     if len(leases)>=gear.shared_slot_limit():return 'Shared slots occupied'
     if s['disk_free_GiB']<20 or s['ram_available_GiB']<6:return 'Disk or memory start floor'
-    if gear.resources.memory_reserve(leases)+q['peak']+6>available-8:return 'Shared memory floor including companion headroom'
+    try:
+        reserved = gear.resources.memory_reserve(leases)
+    except gear.resources.AccountingReadError:
+        return 'Shared lease accounting unavailable; retry at the next check'
+    if reserved+q['peak']+6>available-8:return 'Shared memory floor including companion headroom'
     total, by_row, _=gear.balance()
     if total+q['cap']>gear.CEILING or by_row.get(q['card'],0)+q['cap']>gear.ROW_LIMITS[q['card']]:
         return 'Campaign or row allowance'
