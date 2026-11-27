@@ -1,5 +1,27 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL. The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. Original archive check returned native 22. Archive metadata requested. TP58 invented-history replay passed. Check TP72 or eligible fallback at 18:50 Pacific, after source binding.
+
+- [x] S15-W8-BMP1-R48. The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report.
+
+- [x] S15-W8-DRV1-R48. The full and short-gap readings establish no positive contrast. Anxiety was flagged in every report in both diaries. In 0056 the sadness indicator was also constant, so its exact zero cannot test the mechanism.
+
+- [x] S15-W8-TWO3-R48. All four same-minus-other intervals include zero. The data leave the relative strength of matching and nonmatching feelings unresolved.
+
+- [x] S15-W8-MNG1-R48. Both care groups were above housework in point estimates, but paid work was above both. Volunteering had the largest activity estimate. Television had the lowest. Pairwise ranking intervals were not registered.
+
+- [x] S15-W8-ADP1-R48. Both held-out intervals clear zero. Bad surprises retained more weight in the next few minutes of play.
+
+- [x] S15-W8-ACC1-R48. All three held-out coefficients have positive lower bounds. The scale-end check and the two-rate fit retain the direction.
+
+- [x] S15-W8-LKG2-R48. Speakers underestimated the standing their partners assigned them on average. The trait prediction and correlation between gaps are undecided.
+
+- [x] S15-W8-SLD8-R48. The pooled reactivity association is positive. No released item contrast can settle equivalence.
+
+- [x] S15-W8-SLD9-R48. The native job returned code 12. The three registered forms shared the same roster and none qualified.
+
+- [x] S15-W8-SLD7-R48. The native job returned code 12. No form qualified inside the seal.
+
 - [x] OPS-S15-W8-ADM2-SOURCE-ADMISSIONS. Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay.
 
 - [x] OPS-S15-W8-LGH7-MEETING-ROLES. ICSI is void for rank. The AMI comparison is complete and filed internally.

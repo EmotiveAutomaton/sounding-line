@@ -16,7 +16,7 @@ from runners.drive.sealed import week8_package as package
 from runners.stage14.common import filehash, freeze, read
 from tools.week8_sealed import GATE, HOST, STATE
 
-FIXTURE = 'TMP2-TP58-original-archive-fixture-DN'
+FIXTURE = 'TMP2-TP58-original-archive-fixture-DN-host1'
 UNIT = 'TMP2-DJ-TP58-reader-DN'
 MANIFEST_DIGEST = 'f2a7a8eb109f9691394305b2409ceede434d0761bc97e328c41d04c677868752'
 RECEIPT_DIGEST = '524294e81cfc0076a755c35f53c2578798f86428aa9b0068fe650cb8f17ab243'
@@ -131,7 +131,19 @@ def run(unit, directory, mode):
         made.make(original)
         files = invented(original,mount/'projection')
         entry = work/'entry.py'
-        entry.write_bytes(package.package(STUDY,MODULES,dict(files=files,payload=payload,real_image=False),600,fixture=True))
+        program = package.package(STUDY,MODULES,dict(files=files,payload=payload,real_image=False),600,fixture=True)
+        if sys.platform == 'win32':
+            # Load the locally packaged Python sources from files. Windows can
+            # retain a zipimport handle through interpreter shutdown. The
+            # generated Spark program and all packaged source bytes stay exact.
+            marker = b'    sys.path.insert(0,str(bundle))'
+            if program.count(marker) != 1:
+                raise ValueError('Unrecognized local fixture bootstrap')
+            program = program.replace(marker, b'    from zipfile import ZipFile\n'
+                b'    with ZipFile(bundle) as sources:\n'
+                b'        sources.extractall(tmp)\n'
+                b'    sys.path.insert(0,tmp)')
+        entry.write_bytes(program)
         out = work/'aggregates'
         out.mkdir()
         subprocess.run([sys.executable,'-B',str(entry),str(mount),str(out)],check=True)

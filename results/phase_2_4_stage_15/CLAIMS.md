@@ -2181,3 +2181,14 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE | P4, R37-S3 | infrastructure / passes | All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. |
 | OPS-S15-W8-LGH7-MEETING-ROLES | T7 | restricted completion / verified restricted replay | ICSI is void for rank. The AMI comparison is complete and filed internally. |
 | OPS-S15-W8-ADM2-SOURCE-ADMISSIONS | Source admission | source admission / passes | Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay. |
+| S15-W8-SLD7-R48 | N1 | void / no releasable result | The native job returned code 12. No form qualified inside the seal. |
+| S15-W8-SLD9-R48 | P4 | void / no releasable result | The native job returned code 12. The three registered forms shared the same roster and none qualified. |
+| S15-W8-SLD8-R48 | P4 | partial support / passes | The pooled reactivity association is positive. No released item contrast can settle equivalence. |
+| S15-W8-LKG2-R48 | P4 | descriptive / passes | Speakers underestimated the standing their partners assigned them on average. The trait prediction and correlation between gaps are undecided. |
+| S15-W8-ACC1-R48 | A1, T2, T3 | positive / passes | All three held-out coefficients have positive lower bounds. The scale-end check and the two-rate fit retain the direction. |
+| S15-W8-ADP1-R48 | A1, T2 | positive / passes | Both held-out intervals clear zero. Bad surprises retained more weight in the next few minutes of play. |
+| S15-W8-MNG1-R48 | N1, N4 | mixed / passes | Both care groups were above housework in point estimates, but paid work was above both. Volunteering had the largest activity estimate. Television had the lowest. Pairwise ranking intervals were not registered. |
+| S15-W8-TWO3-R48 | T7 | descriptive / passes | All four same-minus-other intervals include zero. The data leave the relative strength of matching and nonmatching feelings unresolved. |
+| S15-W8-DRV1-R48 | T2, T3 | undecided / passes | The full and short-gap readings establish no positive contrast. Anxiety was flagged in every report in both diaries. In 0056 the sadness indicator was also constant, so its exact zero cannot test the mechanism. |
+| S15-W8-BMP1-R48 | T2 | void / no releasable result | The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. |
+| OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL | R37-S6 | void / no releasable result | The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. |

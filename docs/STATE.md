@@ -1,5 +1,27 @@
 # STATE: the agent's operational file
 
+The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. [Week 8 TMP2 result](../results/phase_2_4_stage_15/WEEK8/TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md).
+
+The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. [Week 8 BMP1 result](../results/phase_2_4_stage_15/WEEK8/BMP1_R48_RETURN.md).
+
+The full and short-gap readings establish no positive contrast. Anxiety was flagged in every report in both diaries. In 0056 the sadness indicator was also constant, so its exact zero cannot test the mechanism. [Week 8 DRV1 result](../results/phase_2_4_stage_15/WEEK8/DRV1_R48_RETURN.md).
+
+All four same-minus-other intervals include zero. The data leave the relative strength of matching and nonmatching feelings unresolved. [Week 8 TWO3 result](../results/phase_2_4_stage_15/WEEK8/TWO3_R48_RETURN.md).
+
+Both care groups were above housework in point estimates, but paid work was above both. Volunteering had the largest activity estimate. Television had the lowest. Pairwise ranking intervals were not registered. [Week 8 MNG1 result](../results/phase_2_4_stage_15/WEEK8/MNG1_R48_RETURN.md).
+
+Both held-out intervals clear zero. Bad surprises retained more weight in the next few minutes of play. [Week 8 ADP1 result](../results/phase_2_4_stage_15/WEEK8/ADP1_R48_RETURN.md).
+
+All three held-out coefficients have positive lower bounds. The scale-end check and the two-rate fit retain the direction. [Week 8 ACC1 result](../results/phase_2_4_stage_15/WEEK8/ACC1_R48_RETURN.md).
+
+Speakers underestimated the standing their partners assigned them on average. The trait prediction and correlation between gaps are undecided. [Week 8 LKG2 result](../results/phase_2_4_stage_15/WEEK8/LKG2_R48_RETURN.md).
+
+The pooled reactivity association is positive. No released item contrast can settle equivalence. [Week 8 SLD8 result](../results/phase_2_4_stage_15/WEEK8/SLD8_R48_RETURN.md).
+
+The native job returned code 12. The three registered forms shared the same roster and none qualified. [Week 8 SLD9 result](../results/phase_2_4_stage_15/WEEK8/SLD9_R48_RETURN.md).
+
+The native job returned code 12. No form qualified inside the seal. [Week 8 SLD7 result](../results/phase_2_4_stage_15/WEEK8/SLD7_R48_RETURN.md).
+
 Admitted. The original body maps, CASE recordings and openESM diary 0046 passed their codebook and reuse checks on independent replay. [Week 8 ADM2 result](../results/phase_2_4_stage_15/WEEK8/ADM2_SOURCE_ADMISSIONS.md).
 
 ICSI is void for rank. The AMI comparison is complete and filed internally. [Week 8 LGH7 result](../results/phase_2_4_stage_15/WEEK8/LGH7_MEETING_ROLE_RETURN.md).

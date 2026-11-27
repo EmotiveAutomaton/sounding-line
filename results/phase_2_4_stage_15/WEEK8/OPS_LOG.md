@@ -1,5 +1,27 @@
 # Week 8 operating record
 
+2026-11-27T20:01:55.622945+00:00 OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL. Filed original binding refusal, Windows cleanup error and measured fixture completion. No real-source figure returned.
+
+2026-11-27T20:06:29.920606+00:00 S15-W8-BMP1-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:04:13.889472+00:00 S15-W8-DRV1-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:03:45.438881+00:00 S15-W8-TWO3-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:03:51.865135+00:00 S15-W8-MNG1-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:01:14.846267+00:00 S15-W8-ADP1-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:01:01.744009+00:00 S15-W8-ACC1-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:02:03.521458+00:00 S15-W8-LKG2-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:01:05.125122+00:00 S15-W8-SLD8-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:01:18.260478+00:00 S15-W8-SLD9-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
+2026-11-27T20:02:09.810024+00:00 S15-W8-SLD7-R48. Validated the terminal receipt and projected only registered aggregate fields.
+
 2026-11-27T18:33:52Z. Five rows have landed. The diary replay was active and had completed 412 of 649 cells. Fourteen studies were ready, including BMP1 after the body-map admission. TMP3 awaits the engine's TP72 conversation adapter and random heads. Both dispatchers and the 15-minute reader were live. Seven slots were free. A new launcher needed 15.8 GiB of available Windows memory commitment under the shared reserve. An independent catalogue check entered 17 more diaries for future atlas work. The source, dictionary and terms digests are in the [prospective register](ADM2_ATLAS_ROUTES.json).
 
 2026-11-27T18:20:09.939891+00:00 OPS-S15-W8-ADM2-SOURCE-ADMISSIONS. All three source checks reproduced. The body-map runner qualified against the completed admission. No sealed invocation was used.

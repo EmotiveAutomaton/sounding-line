@@ -3162,6 +3162,28 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL.** Check the original archive keys, clock, five trait fields and exclusions in the seal. Register the five-count, reduced-count and pooled-share forms before launch. [Return](../results/phase_2_4_stage_15/WEEK8/TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md).
+
+**S15-W8-BMP1-R48.** Check the fixed crosswalk between the named experimental planes and the signed paint field before computing the registered maps, similarities and six regional means. [Return](../results/phase_2_4_stage_15/WEEK8/BMP1_R48_RETURN.md).
+
+**S15-W8-DRV1-R48.** Within person, compare the two indicators while holding final standing and the size of the last fall. Short-gap fits cap both intervals at twice the diary median. Report thresholds and realized prevalence, including ties. [Return](../results/phase_2_4_stage_15/WEEK8/DRV1_R48_RETURN.md).
+
+**S15-W8-TWO3-R48.** Fit each feeling within person using the person’s own previous rating and all four previous partner ratings. Require consecutive original occasions and resample whole couples. Original field abbreviations are retained. [Return](../results/phase_2_4_stage_15/WEEK8/TWO3_R48_RETURN.md).
+
+**S15-W8-MNG1-R48.** Subtract each respondent’s average rating on each scale, then compare the meaning and happiness departures. Weight the four years equally and resample whole people within year. Category intervals describe separate means. [Return](../results/phase_2_4_stage_15/WEEK8/MNG1_R48_RETURN.md).
+
+**S15-W8-ADP1-R48.** Subtract the good-surprise fading rate from the bad-surprise rate. Larger rates retain more of an earlier surprise. Fit the fixed grid on held-out players and repeat after removing frequent scale-end users. [Return](../results/phase_2_4_stage_15/WEEK8/ADP1_R48_RETURN.md).
+
+**S15-W8-ACC1-R48.** Hold out whole players. Fit the second difference in realized reward on the test players under the frozen one-rate model, two-rate model and endpoint exclusion. Intervals resample whole test players. [Return](../results/phase_2_4_stage_15/WEEK8/ACC1_R48_RETURN.md).
+
+**S15-W8-LKG2-R48.** For the released comparison, subtract the partner’s rating of the speaker’s standing from the speaker’s estimate of that rating. Resample whole speakers. [Return](../results/phase_2_4_stage_15/WEEK8/LKG2_R48_RETURN.md).
+
+**S15-W8-SLD8-R48.** Average the six comparable feelings on fully answered days before fitting. Refit the original two-half reactivity association in whole-family draws. The individual-feeling contrast equivalence band is ±0.15. [Return](../results/phase_2_4_stage_15/WEEK8/SLD8_R48_RETURN.md).
+
+**S15-W8-SLD9-R48.** Wave-two rank associations on the common complete survey roster, also with Neuroticism held. The registered summary is Conscientiousness and purpose. [Return](../results/phase_2_4_stage_15/WEEK8/SLD9_R48_RETURN.md).
+
+**S15-W8-SLD7-R48.** Three-wave, age-decade-weighted differences in purpose after marriage. Fine, age-matched coarse and pooled forms were registered. [Return](../results/phase_2_4_stage_15/WEEK8/SLD7_R48_RETURN.md).
+
 **OPS-S15-W8-ADM2-SOURCE-ADMISSIONS.** Original-release digest, source header, codebook and licence checks with a separate process replay. [Return](../results/phase_2_4_stage_15/WEEK8/ADM2_SOURCE_ADMISSIONS.md).
 
 **OPS-S15-W8-LGH7-MEETING-ROLES.** Fixed one-second joining window, documented role assignments, whole-meeting bootstrap and within-meeting permutation. [Return](../results/phase_2_4_stage_15/WEEK8/LGH7_MEETING_ROLE_RETURN.md).

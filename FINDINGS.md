@@ -1,5 +1,115 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL
+
+Do the original PANDORA archives bind for the registered trait reader?
+
+Original PANDORA release and separate invented-history rehearsal. The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them.
+
+The source check, original-source replay and scope are filed in the [study return](results/phase_2_4_stage_15/WEEK8/TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md).
+
+**Curator roll-up.** R37-S6. The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. The nominal score scale combines several kinds of self-report. The range check cannot identify an individual’s original scale. Native 22, launcher 4, external gate skipped. A verified source mapping and a successful in-seal check are required. Counts and effects are unknown.
+
+### S15-W8-BMP1-R48
+
+How similar are body maps across named feelings and regions?
+
+Volynets et al., original v0.1 emBODY deposit, CC BY 4.0. The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. Array dimensions and a plausible anatomical shape cannot identify a feeling or the sign of its signal.
+
+The exit code and disclosure decision are filed in the [study return](results/phase_2_4_stage_15/WEEK8/BMP1_R48_RETURN.md).
+
+**Curator roll-up.** T2. The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. Array dimensions and a plausible anatomical shape cannot identify a feeling or the sign of its signal. A provider-documented crosswalk between the named planes and signed data would release the analysis.
+
+### S15-W8-DRV1-R48
+
+Do accelerating falls in standing favor anxiety over sadness?
+
+Ryvkina status diaries, publicly available openESM members 0056 and 0057. R48 permits aggregate comparisons. The full and short-gap readings establish no positive contrast. Anxiety was flagged in every report in both diaries. In 0056 the sadness indicator was also constant, so its exact zero cannot test the mechanism. 0057, all, anxiety minus sadness = 0.0219085 [-0.0168745, 0.0600437] (998 people). A second difference of noisy standing ratings is noisy. Only two diaries were available and missed prompts may be selective.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/DRV1_R48_RETURN.md).
+
+**Curator roll-up.** T2, T3. The full and short-gap readings establish no positive contrast. Anxiety was flagged in every report in both diaries. In 0056 the sadness indicator was also constant, so its exact zero cannot test the mechanism. A second difference of noisy standing ratings is noisy. Only two diaries were available and missed prompts may be selective. All registered fits and clock checks are reported. A varying anxiety indicator is needed to distinguish the channels.
+
+### S15-W8-TWO3-R48
+
+Does a partner’s previous matching feeling predict the next report more strongly?
+
+Disclosing Daily Hassles couples experience-sampling survey, publicly released for research. R48 permits the aggregate comparisons. All four same-minus-other intervals include zero. The data leave the relative strength of matching and nonmatching feelings unresolved. angr, same minus other = -0.00976614 [-0.0386549, 0.02047] (200 people). Partners share daily events. An observational time lag does not establish transmission between them.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/TWO3_R48_RETURN.md).
+
+**Curator roll-up.** T7. All four same-minus-other intervals include zero. The data leave the relative strength of matching and nonmatching feelings unresolved. Partners share daily events. An observational time lag does not establish transmission between them. All successive-occasion fits, exclusion counts and support denominators are reported.
+
+### S15-W8-MNG1-R48
+
+Does caregiving lead daily activities in meaning relative to happiness?
+
+US Bureau of Labor Statistics, ATUS Well-Being Module and Basic Activity/Who files, public-domain tables. [BLS module](https://www.bls.gov/tus/dictionaries.htm). Both care groups were above housework in point estimates, but paid work was above both. Volunteering had the largest activity estimate. Television had the lowest. Pairwise ranking intervals were not registered. child care = 0.241778 [0.195043, 0.290355] (5098 people). One word measures meaning. People select their activities and typically rate only three episodes. Early survey years had an activity-selection error, and the last wave omitted January and February.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/MNG1_R48_RETURN.md).
+
+**Curator roll-up.** N1, N4. Both care groups were above housework in point estimates, but paid work was above both. Volunteering had the largest activity estimate. Television had the lowest. Pairwise ranking intervals were not registered. One word measures meaning. People select their activities and typically rate only three episodes. Early survey years had an activity-selection error, and the last wave omitted January and February. All registered activity and company means are reported.
+
+### S15-W8-ADP1-R48
+
+Do bad surprises fade more slowly than good surprises?
+
+Rutledge and colleagues, Great Brain Experiment first plays, Dryad (CC0). [Deposit](https://doi.org/10.5061/dryad.prr4xgxkk). Both held-out intervals clear zero. Bad surprises retained more weight in the next few minutes of play. All players, bad minus good fading rate = 0.2 [0.2, 0.25] (12715 people). A few minutes of a game is not a life. The rating scale has ends, and uncertainty is on the registered discrete grid.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/ADP1_R48_RETURN.md).
+
+**Curator roll-up.** A1, T2. Both held-out intervals clear zero. Bad surprises retained more weight in the next few minutes of play. A few minutes of a game is not a life. The rating scale has ends, and uncertainty is on the registered discrete grid. Both registered fits are reported.
+
+### S15-W8-ACC1-R48
+
+Does a change in reward trajectory predict first-play happiness?
+
+Rutledge and colleagues, Great Brain Experiment first plays, Dryad (CC0). [Deposit](https://doi.org/10.5061/dryad.prr4xgxkk). All three held-out coefficients have positive lower bounds. The scale-end check and the two-rate fit retain the direction. All players, one fading rate = 0.00300221 [0.00248818, 0.003528] (12715 people). A rating comes every two or three trials. The last three rewards can reach before the previous rating. The preflight also found excess positive readings under a scale ceiling.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/ACC1_R48_RETURN.md).
+
+**Curator roll-up.** A1, T2, T3. All three held-out coefficients have positive lower bounds. The scale-end check and the two-rate fit retain the direction. A rating comes every two or three trials. The last three rewards can reach before the previous rating. The preflight also found excess positive readings under a scale ceiling. All registered fits are reported.
+
+### S15-W8-LKG2-R48
+
+Do liking errors vary with personality and perceived standing?
+
+BetterUp Labs, BetterUp, Inc., CANDOR Tabular v1.1. License v2.1 permits non-identifying aggregate statistics. Reece et al. (2023), Science Advances 9, eadf3197. [Tabular release](https://huggingface.co/datasets/betterup/candor-tabular). Speakers underestimated the standing their partners assigned them on average. The trait prediction and correlation between gaps are undecided. Estimated minus partner-rated standing, rungs = -0.166355 [-0.251125, -0.0785919] (1415 people). People may use the response scale similarly when rating themselves and estimating a partner’s view. A partner can recur across speaker draws.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/LKG2_R48_RETURN.md).
+
+**Curator roll-up.** P4. Speakers underestimated the standing their partners assigned them on average. The trait prediction and correlation between gaps are undecided. People may use the response scale similarly when rating themselves and estimating a partner’s view. A partner can recur across speaker draws. Only the pooled standing gap returned. The finer trait, stability and cross-gap comparisons need releasable eligible populations.
+
+### S15-W8-SLD8-R48
+
+Does Neuroticism predict stressor reactivity in the first MIDUS diary?
+
+MIDUS, ICPSR. The retained terms permit non-identifying group statistics. The project checks distinct people and overlapping populations. [Edition credits and funding acknowledgement](../../design/stage-15/R48_SOURCE_TERMS.md). [Wave-one survey](https://doi.org/10.3886/ICPSR02760.v19) and [wave-one diary](https://doi.org/10.3886/ICPSR03725.v6). The pooled reactivity association is positive. No released item contrast can settle equivalence. Neuroticism and stressor reactivity, mean of six feelings = 0.482981 [0.232209, 0.696669] (585 people). The same daily interview measures the stressor and the feeling. Only six feeling items bind across waves.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/SLD8_R48_RETURN.md).
+
+**Curator roll-up.** P4. The pooled reactivity association is positive. No released item contrast can settle equivalence. The same daily interview measures the stressor and the feeling. Only six feeling items bind across waves. The released summary is the six-feeling pooled fit. Individual items and differences did not return. The full fourteen-item mean and the stressor-kind pooling lack matching wave-one items.
+
+### S15-W8-SLD9-R48
+
+Which traits lead the questionnaire measures of wellbeing?
+
+MIDUS, ICPSR. The retained terms permit non-identifying group statistics. The project checks distinct people and overlapping populations. [Edition credits and funding acknowledgement](../../design/stage-15/R48_SOURCE_TERMS.md). The native job returned code 12. The three registered forms shared the same roster and none qualified. One person answered the traits and wellbeing items in one sitting.
+
+The exit code and disclosure decision are filed in the [study return](results/phase_2_4_stage_15/WEEK8/SLD9_R48_RETURN.md).
+
+**Curator roll-up.** P4. The native job returned code 12. The three registered forms shared the same roster and none qualified. One person answered the traits and wellbeing items in one sitting. Native 12, external gate skipped, launcher 4. The analysis needs a qualifying common roster that clears the joint disclosure check. No analytical size or estimate returned.
+
+### S15-W8-SLD7-R48
+
+Does purpose after marriage rise relative to continuously unmarried peers?
+
+MIDUS, ICPSR. The retained terms permit non-identifying group statistics. The project checks distinct people and overlapping populations. [Edition credits and funding acknowledgement](../../design/stage-15/R48_SOURCE_TERMS.md). The native job returned code 12. No form qualified inside the seal. Marrying is chosen. The groups can differ before the marriage.
+
+The exit code and disclosure decision are filed in the [study return](results/phase_2_4_stage_15/WEEK8/SLD7_R48_RETURN.md).
+
+**Curator roll-up.** N1. The native job returned code 12. No form qualified inside the seal. Marrying is chosen. The groups can differ before the marriage. Native 12, external gate skipped, launcher 4. A comparison needs real eligible groups and a disclosure-compatible membership. No group size or effect left the job.
+
 ### OPS-S15-W8-ADM2-SOURCE-ADMISSIONS
 
 Which unused holdings have original data, documented measures and terms permitting the named analyses?

@@ -13,6 +13,8 @@ from runners.stage14.common import atomic, filehash, freeze, now, read
 
 
 PRIOR_UNIT = {'RML1-ICSI-room':'LGH6-ICSI-prejoin','RML1-AMI-room':'LGH6-AMI-prejoin'}
+PRIOR_UNIT.update({'RML1-ICSI-room-DN':'LGH6-ICSI-prejoin-DN',
+                   'RML1-AMI-room-DN':'LGH6-AMI-prejoin-DN'})
 
 
 def design(unit):
@@ -120,7 +122,7 @@ def run(unit,d,mode):
         fitted=room.fit(groups) if sum(len(y)>1 and y.sum()>0 for _,y in groups)>=20 else None
         data[name]=fitted if fitted else {'code':12}
     freeze(d/(mode+'_SUMMARY.json'),dict(corpus=corpus,source_meetings=expected,complete_annotation_meetings=included,
-           untimed_laugh_exclusions=untimed_meetings,models=data,restricted=(corpus=='AMI'),
+           untimed_laugh_exclusions=untimed_meetings,models=data,source_class='P',
            coefficient_order=['absolute change','signed change','mean level','mean level squared','high then fall','prior laughs']))
 
 

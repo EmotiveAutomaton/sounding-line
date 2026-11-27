@@ -6,6 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from tools import week8_queue as roster
 from tools import week8_spark_queue as dispatch
+from tools import week8_local_queue as local
 from tools import r48_reports
 from tools import r48_retro
 import subprocess
@@ -37,40 +38,39 @@ def render():
     r48_reports.build()
     r48_reports.build(check=True)
     snapshot = roster.snapshot()
+    # A row can have a live corpus and a sibling waiting for headroom.
+    # Consult the dispatcher's eligible local reviews independently of row status.
+    waiting = {}
+    reasons = {}
+    for path in sorted((roster.STATE/'reviews').glob('*.json')):
+        spec = read(path)
+        unit = spec['unit']
+        if ('operations' not in spec or not spec.get('fixture') or path.stem != unit
+                or (roster.gear.ROOT/unit).exists() or (local.BASE/(unit+'.hold.json')).exists()):
+            continue
+        waiting.setdefault(spec['card'], []).append(unit)
+        reasons[unit] = local.permits(spec)
+    pending_spark = dispatch.next_job()
+    if pending_spark:
+        spec = read(roster.STATE/'reviews'/(pending_spark+'.json'))
+        waiting.setdefault(spec['card'], []).append(pending_spark)
+        reasons[pending_spark] = dispatch.headroom()
+    for card, units in waiting.items():
+        if snapshot['rows'][card]['status'] == 'running':
+            snapshot['rows'][card]['evidence'] += '. Queued: ' + ', '.join(units)
     roster.render(snapshot)
     text = roster.RETURN.read_text(encoding='utf8')
     first = text.splitlines()[0]
     free = max(0, snapshot['free'])
-    ready = snapshot['ready']
     new = first
-    if ready:
-        reason = dispatch.headroom()
-        new = f"The ready list contains {len(ready)} studies with {free} free shared CPU slots."
-        if free == 0:
-            new += ' The next qualified job starts when a shared slot opens.'
-        elif reason:
-            if reason == 'Shared memory floor including companion headroom':
-                mem = roster.gear.resource_snapshot()
-                leases = roster.gear.resources.lease_paths()
-                reserve = roster.gear.resources.memory_reserve(leases) + 14
-                remaining = {unit.strip() for card in ready for unit in snapshot['rows'][card]['evidence'].split(',')}
-                peaks = []
-                for unit in remaining:
-                    review = roster.STATE / 'reviews' / (unit + '.json')
-                    if review.is_file():
-                        spec = read(review)
-                        if 'operations' in spec:
-                            peaks.append(spec['peak'])
-                new += (f" Windows has {mem['commit_headroom_GiB']:.1f} GiB of memory commitment available. "
-                        f"A Spark launcher needs {reserve + dispatch.SLOT_COST:.1f} GiB under the shared reserve.")
-                if peaks:
-                    new += f" The smallest ready local job needs {reserve + min(peaks):.1f} GiB."
-            else:
-                new += ' ' + reason + ' currently limits starts.'
-        elif all(snapshot['rows'][card]['host'] == 'Spark' for card in ready):
-            new += ' The sealed dispatcher starts the next qualified job when its lane is free.'
-        else:
-            new += ' Workers start at the next dispatcher check that passes their individual admission requirements.'
+    if reasons:
+        label = 'unit' if len(reasons) == 1 else 'units'
+        new = f"The ready list contains {len(reasons)} qualified {label} with {free} free shared CPU slots."
+        for reason in sorted({r for r in reasons.values() if r}):
+            units = ', '.join(k for k,v in reasons.items() if v == reason)
+            new += f' {units} waits for {reason.lower()}.'
+        if any(r is None for r in reasons.values()):
+            new += ' A qualified unit can start at the next dispatcher check.'
     pushed=subprocess.check_output(['git','ls-tree','-r','--name-only','origin/main','--','docs/exchange/r48'],
                                    cwd=ROOT,text=True).splitlines()
     published={Path(p).stem for p in pushed if p.endswith('.md')}
