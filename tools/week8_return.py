@@ -97,7 +97,13 @@ def render():
         if snapshot['rows'][card]['status']!='landed' and not any(
                 q.get('r48') and 'counts' not in q['unit'].lower() and 'fixture' not in q['unit'].lower()
                 for q in reviewed):
-            new += f' {card} {label} awaits its producer-bound in-seal cell-count rehearsal.'
+            binding=dispatch.SHARED/'TMP2-DJ-archive-counts-DN.native.json'
+            proof=roster.gear.ROOT/'TMP2-TP58-original-archive-fixture-DN-host1'/'COMPLETE.json'
+            if card=='TMP2' and binding.exists() and read(binding)['native']==22 and proof.exists() and read(proof)['verified']:
+                new += (' TMP2 passed its invented-history rehearsal. The original archive binding failed '
+                        'with code 22 before Spark could count the source cells.')
+            else:
+                new += f' {card} {label} awaits its producer-bound in-seal cell-count rehearsal.'
     text = text.replace(first, new, 1)
     text=text.replace('# Week 8 return\n','# Week 8 return\n\n[Public reports and numerical tables](HELD_RESULTS_DIGEST.md) · [Retrospective inventory](HELD_RESULTS_INVENTORY.md).\n',1)
     for key in snapshot['rows']:
