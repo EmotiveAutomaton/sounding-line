@@ -1,5 +1,29 @@
 # STATE: the agent's operational file
 
+Week 7 closed November 26. The [final theory return](../results/phase_2_4_stage_15/WEEK7/FINAL_THEORY_RETURN_20261127.md) collects the study results. The [drain reconciliation](../results/phase_2_4_stage_15/WEEK7/FINAL_DRAIN_AND_DELIVERY_20261127.md) accounts for every reservation and the eight comparisons still awaiting evidence at the freeze.
+
+CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte. [Return](../results/phase_2_4_stage_15/WEEK7/CAD2_ORIGINAL_WORD_TIMING_RETURN_20261126.md).
+
+The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2. [Admission](../results/phase_2_4_stage_15/WEEK7/CAD2_SEALED_START_20261126.md).
+
+The separately approved Rosslund timing comparison completed in CPU-only Gear 2 and reproduced from the source tables. [Timing return](../results/phase_2_4_stage_15/WEEK7/CRV1_ROSSLUND_PAIRED_TIMING_20261126.md).
+
+The MIDUS wave-three repeat ran on Spark and returned code 32. No previously released wave-two roster qualified in full for the four registered contrasts. [MIDUS return](../results/phase_2_4_stage_15/WEEK7/MIB1_WAVE_THREE_RETURN_20261126.md). [Week 7 source review](../results/phase_2_4_stage_15/WEEK7/WEEK7_ARCHIVE_TRIAGE_20261126.md).
+
+The CANDOR v1.1 documentation gives the seven perceived-attention labels in display order. Their stored numbers and skip codes remain unverified. [Source review](../results/phase_2_4_stage_15/WEEK7/CAD1_ATTENTION_KEY_REVIEW_20261126.md).
+
+The CANDOR within-speaker pace and enjoyment study completed its primary reading on Spark and reproduced both aggregate tables. [Receipt](../results/phase_2_4_stage_15/WEEK7/CAD1_PRIMARY_RETURN_20261125.md).
+
+The CANDOR relative-laughter survey description completed on Spark in CPU-only Gear 2 and reproduced in full. [Return](../results/phase_2_4_stage_15/WEEK7/LGH2_CANDOR_SURVEY_RETURN_20261125.md).
+
+Both approved everyday-emotions comparisons finished in Gear 2 and replayed exactly. [Receipt](../results/phase_2_4_stage_15/WEEK7/PSD2_EVERYDAY_CHECKLIST_RETURN_20261125.md).
+
+Both paired-clip pitch contrasts completed in Gear 2 and reproduced in an independent replay. [Receipt](../results/phase_2_4_stage_15/WEEK7/CRV1_PAIRED_CLIP_PITCH_RETURN_20261125.md).
+
+The paired-clip CRV1 pitch study qualified and started in CPU-only Gear 2. [Inspection and start](../results/phase_2_4_stage_15/WEEK7/QUEUE_HEALTH_AND_CRV1_START_20261125.md).
+
+The newly delivered responder study qualified for UGM1, completed in Gear 2 and reproduced its restricted return. [Qualification and receipt](../results/phase_2_4_stage_15/WEEK7/UGM1_RESPONDER_QUALIFICATION_AND_RETURN_20261124.md).
+
 The sealed three-wave marital-role study and its independent replay are filed. [SLD2 return](../results/phase_2_4_stage_15/WEEK7/SLD2_THREE_WAVE_MARITAL_ROLE.md).
 
 Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. Bind recording and tier to a documented stable anonymous person key before the scientific run. [Verification and archive review](../results/phase_2_4_stage_15/WEEK7/SBC60_SEALED_LAYOUT_AND_SOURCE_REVIEW_20261124.md).

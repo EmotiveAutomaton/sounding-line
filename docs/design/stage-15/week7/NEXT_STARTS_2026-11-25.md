@@ -1,5 +1,7 @@
 # Week 7 · next starts after the everyday-emotions run
 
+This is a dated planning snapshot. The [final Week 7 record](../../../../results/phase_2_4_stage_15/WEEK7/FINAL_DRAIN_AND_DELIVERY_20261127.md) gives the closing dispositions.
+
 The two approved PSD2 checklist descriptions completed and replayed in one local Gear 2 slot. The original shame criterion remains open. [Filed run](../../../../results/phase_2_4_stage_15/WEEK7/PSD2_EVERYDAY_CHECKLIST_RETURN_20261125.md)
 
 **LGH2 survey description completed.** The archive supplied the provider’s workbook. Spark verified the stored responses before fitting and replayed both comparisons. [Return](../../../../results/phase_2_4_stage_15/WEEK7/LGH2_CANDOR_SURVEY_RETURN_20261125.md).

@@ -1,5 +1,174 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY
+
+Week 7 froze new starts on November 26 at 20:00 Pacific and drained at 22:00. The final packet was due at 23:00. The calendar emitted each marker on schedule. The owner filed this reconciliation and the packet on November 27, after the deadline.
+
+**Execution and cost.** We checked the original reservation and cost digests, terminal files, gated aggregate hashes where recorded, and native process identities. All 105 starts preceded the freeze. The last research terminal was CAD2 on November 26 at 07:10 Pacific. There were 87 complete attempts and 18 failed attempts. One failed attempt also has a separate reconciliation. These counts describe attempts, including repairs, and do not count scientific findings. The Week 7 ledger charged 143,996.359375 of 6,000,000 CPU-seconds and 16 of 30 sealed invocations. Phase 0 remains on the Week 6 ledger.
+
+**Exceptions.** The MIB1 sealed jobs on waves two and three returned an empty-roster disposition. MIB3 returned a source-status code. LAG on diary 0057 stopped after 649 first-pass cells and 28 replayed cells. Its incomplete estimates were excluded from pooling. Original failure records and their later dispositions are preserved.
+
+**Queue and delivery.** The workstation had no active slot leases and none of the 105 recorded native worker identities was still running. Spark had no active sealed runner. All 21 locks passed. The workstation had 46.8 GiB of available RAM, 27.6 GiB of commit headroom and 643.0 GiB of disk free. Both scoped source monitors had exited. The owner watcher matched its executable, source and queue-interface pins and had a fresh scan. Its snapshot held one queued wake and seven additional events. The first liveness event took about ten hours to reach the owner. The calendar disappearance alert preceded the valid calendar-only completion by 11.73 seconds. All expected milestones and research outputs were present at reconciliation.
+
+**Archive and outstanding comparisons.** The first November 26 bulk archive patch was superseded by the second. The accepted documentation patch passed the Git applicability check. The archive verification hashes, the CASE manifest and the Volynets field card were checked. The remaining source conditions at freeze are listed below. Each applies only to the comparison named.
+
+| Comparison | Evidence still needed at freeze |
+|---|---|
+| CAD1 | Expanded reading awaits provider-documented numeric attention and skip codes. The request is already open. |
+| CRV1 | Separate-source timing and pitch completed and replayed. Original matched contexts and adult comforting require authorized recordings. |
+| LGH1 Santa Barbara | LDC documents tier and pseudonym keys for Parts I and II. Coverage across all 60 recordings remains unverified. |
+| LGH1 sealed half | CANDOR has a documented channel map. No released speaker-linked laugh onset and offset layer was identified. |
+| LGH2 | The survey comparison is filed. The recorded-laughter comparison needs the same speaker-linked intervals as LGH1. |
+| RBD1 | None of the held diaries measures the person’s own play and current stress together at least three times per day. |
+| TMP1 | PANDORA author keys are documented. The release-specific trait units and complete collection-community exclusions are still missing for the sealed projection. |
+| TWO2 | The paired diary lacks worry. The individual worry diary lacks a paired partner. |
+
+**Watcher events.** Each event was matched to its inspection or filing. The machine-readable receipt includes the observed marker digests.
+
+| Event | Disposition |
+|---|---|
+| `06c12a9de9a8f0bce84d35bd` | Inspected both hosts, all reservations and native identities, source monitors, locks, headroom and watcher delivery. |
+| `b5adfc2249cfd12b91ca8f51` | Reviewed both archive deliveries. The second patch documents source coverage and supersedes the first. No waiting study qualified. |
+| `b9a28f204e6e82acfccee9a4` | Checked every reservation start against the freeze. All were earlier. |
+| `b6dab0cb289d056c851d4f1f` | Matched every reservation to its cost and terminal evidence. All research terminals preceded the drain. |
+| `4ec375cc77cd6f3fd8638695` | Reconciled the final queue, the source-dependent remainder and the coalesced owner wake. |
+| `ad3a04c739856cd78d1201b2` | Checked the recorded calendar process identity, plan pins, last heartbeat, milestones and subsequent completion. Preserved both markers. |
+| `43978dc67d87f69e2dd5cd2f` | Assembled the final theory packet and checked the restricted companion against the original return sheets. |
+| `4d9297e66ed5952b016e6030` | Verified the calendar-only completion, all due markers and the end of the calendar process. |
+
+The final theory return links the registered comparisons to their filed evidence. Numerical returns restricted to internal use remain in the curator companion. The Week 7 roster is closed.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All 105 Week 7 reservations have a terminal record and a matched charge. The final theory return and restricted companion are filed.; project meaning: scoped operational record; next engineering obligation: Use the final return and retain the frozen source dispositions.; public scientific claim unchanged; curator decision required: No new decision. Detail: FINAL_DRAIN_AND_DELIVERY_20261127.md.
+
+### OPS-S15-W7-CAD2-ORIGINAL-WORD-RETURN
+
+CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte. The restricted record retains support, registered coefficients, available controls and intervals. Both aggregate gates passed. ASR segmentation and the repeat-speaker requirement limit the reading. [Design](../../../docs/design/stage-15/week7/CAD2_ORIGINAL_WORD_CLOCK.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte.; project meaning: scoped operational record; next engineering obligation: Use the allowed disposition in the Week 7 final packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: CAD2_ORIGINAL_WORD_TIMING_RETURN_20261126.md.
+
+### OPS-S15-W7-CAD2-SEALED-START
+
+The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2. Five native fixture checks passed, including correct speaker and turn attribution, chronological histories, a byte-identical replay, and rejection of changed input. The matched fixture yielded the expected 18 speakers and 1,260 evaluation words. The real job uses the original AWS edition and the matching provider turn boundaries. All word text and speaker keys remain sealed. The run reserves 3,600 CPU-seconds including replay. [Design](../../../docs/design/stage-15/week7/CAD2_ORIGINAL_WORD_CLOCK.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Inspect the sealed terminal and file any gated return.; public scientific claim unchanged; curator decision required: No new decision. Detail: CAD2_SEALED_START_20261126.md.
+
+### OPS-S15-W7-CRV1-ROSSLUND-TIMING
+
+The separately approved Rosslund timing comparison completed in CPU-only Gear 2 and reproduced from the source tables. The internal return gives the within-parent differences in target-vowel duration and syllables per second of phonation, with their whole-parent intervals, units and exclusions. The published study supplied the two same-session speech registers. The physical timing measures came from unchanged CC BY 4.0 version-1 tables. The comparison concerns elicited reading in separate blocks. Articulation rate excludes pauses. The original same-recording and adult-comforting questions remain open. [Design and attribution](../../../docs/design/stage-15/week7/CRV1_ROSSLUND_TIMING.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separately approved Rosslund timing comparison completed in CPU-only Gear 2 and reproduced from the source tables.; project meaning: scoped operational record; next engineering obligation: Retain separate-block timing as its own comparison; the original same-recording question stays open.; public scientific claim unchanged; curator decision required: No new decision. Detail: CRV1_ROSSLUND_PAIRED_TIMING_20261126.md.
+
+### OPS-S15-W7-CAD2-CRV1-ARCHIVE
+
+The archive staged a narrow original-edition CANDOR projection and both approved Rosslund timing tables. The CANDOR manifest covers 1,656 calls. It binds original word times and channels, matching Audiophile turn boundaries and the OpenTok recording start and end. The input digest and all member hashes must be verified inside Spark. The separate Winnipeg HomeBank lead needs corpus-specific research access and evidence of matched addressee contexts.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The archive staged a narrow original-edition CANDOR projection and both approved Rosslund timing tables.; project meaning: scoped operational record; next engineering obligation: Verify CAD2 timing in the sealed job; keep Winnipeg open for approved access.; public scientific claim unchanged; curator decision required: No new decision. Detail: CAD2_AND_CRV1_ARCHIVE_FOLLOWUP_20261126.md.
+
+### OPS-S15-W7-ARCHIVE-TRIAGE
+
+The archive reviewed all ten open Week 7 entries. Its MIDUS delivery enabled the wave-three run and its CANDOR delivery identified an original-edition route for CAD2.
+
+| Study | Disposition |
+|---|---|
+| CAD1 | Expanded reading awaits provider-documented numeric attention and skip codes. The request is already open. |
+| CAD2 | Original AWS word times, OpenTok recording start and provider channel mapping are documented for 1,656 paired files. Verify the archive and the exact end and turn clocks in the sealed reader. |
+| LGH1 sealed half | CANDOR has a documented channel map. No released speaker-linked laugh onset and offset layer was identified. |
+| LGH2 | The survey comparison is filed. The recorded-laughter comparison needs the same speaker-linked intervals as LGH1. |
+| LGH1 Santa Barbara | LDC documents tier and pseudonym keys for Parts I and II. Coverage across all 60 recordings remains unverified. |
+| TMP1 | PANDORA author keys are documented. The release-specific trait units and complete collection-community exclusions are still missing for the sealed projection. |
+| RBD1 | None of the held diaries measures the person’s own play and current stress together at least three times per day. |
+| TWO2 | The paired diary lacks worry. The individual worry diary lacks a paired partner. |
+| CRV1 | Rosslund provides a timing lead and Winnipeg a same-recording lead. Source, rights and correspondence with the commissioned comparison need verification. |
+| MIB1 wave three | The MIDUS wave-three repeat ran on Spark and returned code 32. No previously released wave-two roster qualified in full for the four registered contrasts. |
+
+The archive is verifying CAD2’s source layout and the two CRV1 leads. CAD1’s existing documentation watch remains active. [MIDUS sealed disposition](MIB1_WAVE_THREE_RETURN_20261126.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The archive reviewed all ten open Week 7 entries. Its MIDUS delivery enabled the wave-three run and its CANDOR delivery identified an original-edition route for CAD2.; project meaning: scoped operational record; next engineering obligation: Review new source deliveries and admit eligible work before the Week 7 freeze.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK7_ARCHIVE_TRIAGE_20261126.md.
+
+### OPS-S15-W7-MIB1-REPEAT
+
+The MIDUS wave-three repeat ran on Spark and returned code 32. No previously released wave-two roster qualified in full for the four registered contrasts. The job verified all four pinned files on the combined read-only mount and checked the wave-three diary against 9,301 person-days and 1,236 distinct people. It reconstructed the released populations and checked eligibility independently. Both selections returned empty. No estimate, interval, person key or count of excluded people left Spark. No family interval was fitted. The five constructed checks covered four returned estimates, changed person and row counts, conflicting family assignments, and equal-sized populations with different members.
+
+The launch client initially recorded the sealed wrapper’s exit 4 as a failure. The installed wrapper maps every nonzero native code to 4. Its authorized audit log records native code 32 against the submitted job digest. The original terminal is preserved alongside the reconciliation. The single CPU-only Gear 2 invocation started at 06:34 Pacific, was charged 3,600 CPU-seconds, and was the eighth of ten section 7 invocations. The registered disposition is final.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The MIDUS wave-three repeat ran on Spark and returned code 32. No previously released wave-two roster qualified in full for the four registered contrasts.; project meaning: scoped operational record; next engineering obligation: Retain the empty-roster disposition for the final packet.; public scientific claim unchanged; curator decision required: No new decision. Detail: MIB1_WAVE_THREE_RETURN_20261126.md.
+
+### OPS-S15-W7-CAD1-ATTENTION-KEY
+
+The CANDOR v1.1 documentation gives the seven perceived-attention labels in display order. Their stored numbers and skip codes remain unverified.
+
+The archive checked the original provider workbook, the authenticated release dictionary, release history, and replication code. Sounding Line verified the document hashes, the fourth subitem in workbook row 48, and the survey checksum against its acquisition record and the earlier sealed job. The workbook lists a neutral choice fourth. Neither its stored value nor the numeric direction is documented. The Parquet schema permits native nulls. The field-specific skip routing, numeric missing codes and CSV blank convention remain open. The authors' OSF project lists replication code and README files, with no separate questionnaire or value-label file in that inventory. [Authors’ OSF project](https://osf.io/fbsgh/).
+
+The expanded Spark runner passed a constructed replay with deliberately permuted codes. The checks covered a documented numeric missing value, an unknown response, changed primary cohort counts, and an unsafe one-person complement across disclosures. The primary comparison and its previously returned cohorts remain filed. The expanded comparison used zero sealed invocations. The archive retains the request for field-specific provider evidence covering all seven numbers and missing values. A new handoff triggers review and, if qualified before the November 26 20:00 Pacific freeze, submission in CPU-only Gear 2.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The CANDOR v1.1 documentation gives the seven perceived-attention labels in display order. Their stored numbers and skip codes remain unverified.; project meaning: scoped operational record; next engineering obligation: Verify the provider export key and missing conventions on delivery, then admit the prepared expanded job before the freeze.; public scientific claim unchanged; curator decision required: No new decision. Detail: CAD1_ATTENTION_KEY_REVIEW_20261126.md.
+
+### OPS-S15-W7-CAD1-PRIMARY
+
+The CANDOR within-speaker pace and enjoyment study completed its primary reading on Spark and reproduced both aggregate tables. The provider workbook and authenticated v1.1 dictionary jointly bind the direct enjoyment item, immediate arousal and pre-conversation mood to ordered responses from 1 to 9. Source receipts bind the three mounted files to the same release. Before fitting, Spark checked their hashes, read only the named columns and accepted only the documented survey codes or native nulls. The constructed study recovered the planted slope and refused a changed source, zero and a non-null NaN. The primary held the partner’s pace, incoming mood and immediate arousal. One Gear 2 CPU invocation included a complete reread and replay. Estimates, exclusions, the figure and the limitations are filed internally. The seven perceived-attention labels in workbook cell G48 have no printed numeric keys. The expanded reading awaits that crosswalk.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The CANDOR within-speaker pace and enjoyment study completed its primary reading on Spark and reproduced both aggregate tables.; project meaning: scoped operational record; next engineering obligation: On receipt of the attention export key, verify the map and protect the two previously disclosed primary populations before returning expanded results.; public scientific claim unchanged; curator decision required: No new decision. Detail: CAD1_PRIMARY_RETURN_20261125.md.
+
+### OPS-S15-W7-LGH2-SURVEY
+
+The CANDOR relative-laughter survey description completed on Spark in CPU-only Gear 2 and reproduced in full. Both fitted comparisons and their whole-conversation intervals, support and limits are filed internally. Each pass verified the survey hash and the stored response domain before fitting. Each accepted value represented a documented choice or a native null. The installed output gate and its local replay accepted the two aggregate files. One sealed invocation was charged at the conservative 3,600 CPU-second cap. This describes reports of who laughed more. The registered test of laughter per minute awaits speaker-linked laugh times. [Source and missing-value checks](LGH2_CANDOR_SURVEY_CODES_20261125.md).
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The CANDOR relative-laughter survey description completed on Spark in CPU-only Gear 2 and reproduced in full.; project meaning: scoped operational record; next engineering obligation: Keep the marked-laugh comparison open until timing and speaker bindings arrive.; public scientific claim unchanged; curator decision required: No new decision. Detail: LGH2_CANDOR_SURVEY_RETURN_20261125.md.
+
+### OPS-S15-W7-CANDOR-SURVEY-CODES
+
+The original CANDOR workbook binds the response choices for laughter and both mood items to the v1.1 survey. On the survey.csv worksheet G85, 1 points toward the respondent laughing more, 5 means equal laughter, and 9 points toward the partner. G9/G10 and G15/G16 give mood from 1 (extremely negative) to 9 (extremely positive). Intermediate numeric choices carry no separate label. The study scores own relative laughter as 10 minus the response and retains both mood scales in original units. The authenticated dictionary and the v1.1 change notice link the workbook to the pinned survey. The instrument lists no skip choice. The authors did not document an export sentinel. The sealed reader checks the three columns against the nine documented choices before fitting, admits physical Arrow nulls as missing and rejects any other representation. Either partner missing a required response excludes the whole conversation. A fixture with a missing partner retained 24 of 25 invented pairs. Out-of-range values, non-null NaN, infinity and blank text all stopped before fitting.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original CANDOR workbook binds the response choices for laughter and both mood items to the v1.1 survey.; project meaning: scoped operational record; next engineering obligation: Use this binding only on the pinned v1.1 survey.; public scientific claim unchanged; curator decision required: No new decision. Detail: LGH2_CANDOR_SURVEY_CODES_20261125.md.
+
+### OPS-S15-W7-PSD2-EVERYDAY-CHECKLIST
+
+Both approved everyday-emotions comparisons finished in Gear 2 and replayed exactly. The release contains a binary checklist. The restricted return gives pride with embarrassment and pride with guilt separately, preserving pair-specific support, exclusions, estimates and whole-person intervals. The registered shame verdict remains open. The source and job receipts bind the restricted figures. The first input failure is filed separately.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both approved everyday-emotions comparisons finished in Gear 2 and replayed exactly.; project meaning: scoped operational record; next engineering obligation: Retain the descriptions internally. The registered shame reading needs an appropriately graded measure.; public scientific claim unchanged; curator decision required: No new decision. Detail: PSD2_EVERYDAY_CHECKLIST_RETURN_20261125.md.
+
+### OPS-S15-W7-PSD2-CHECKLIST-INPUT
+
+The reader rejected a space-only cell during numeric conversion, before producing an estimate. The repair normalizes whitespace-only missing responses, retains pairwise exclusion and still rejects unknown codes. Tests on invented responses passed before the separately reserved retry.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first everyday-emotions run stopped on a whitespace-only missing response.; project meaning: scoped operational record; next engineering obligation: Retain the failed attempt and charge separately.; public scientific claim unchanged; curator decision required: No new decision. Detail: PSD2_CHECKLIST_BLANK_CELL_REPAIR_20261125.md.
+
+### OPS-S15-W7-TP58-RECEIVER-NOTE
+
+The November 25 producer sheet matched the watcher digest. All 20 original payload hashes still match the reviewed manifest. The real PANDORA projection and its source bindings remain outstanding. No sealed invocation was spent on this inspection.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The producer confirmed the receiver’s nine-table constructed rehearsal.; project meaning: scoped operational record; next engineering obligation: Review the PANDORA projection and its provider bindings when delivered.; public scientific claim unchanged; curator decision required: No new decision. Detail: TP58_RECEIVER_NOTE_20261125.md.
+
+### OPS-S15-W7-CRV1-PAIRED-PITCH
+
+Both paired-clip pitch contrasts completed in Gear 2 and reproduced in an independent replay. The internal return records the two equal-speaker contrasts, their 2,000-draw intervals, the exclusion counts and limits. Separate processes read the source WAVs and grids. The native fixture, first pass and replay were charged to the row. No individual acoustic statistics were retained. The original same-recording question, timing measures and adult comforting remain open. The clips were recorded on request and in separate takes, so recording conditions and performance differ between the two, and the listener is an infant, not a child who answers.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both paired-clip pitch contrasts completed in Gear 2 and reproduced in an independent replay.; project meaning: scoped operational record; next engineering obligation: Resume timing measures after validation and seek the original contexts.; public scientific claim unchanged; curator decision required: No new decision. Detail: CRV1_PAIRED_CLIP_PITCH_RETURN_20261125.md.
+
+### OPS-S15-W7-CRV1-PITCH-START
+
+The paired-clip CRV1 pitch study qualified and started in CPU-only Gear 2. At the deadline the workstation and Spark were idle. All 97 earlier Week 7 reservations had terminal records and matching cost receipts, including 16 historical failure markers. The most recent terminal was UGM1. All 21 integrity locks passed. The calendar, completion watcher and both delivery monitors matched their native identities. One deadline reached the owner on its first dispatch. Three historical notification errors predate this wake. The watcher retains a single outstanding wake and its six-hour inactivity check.
+
+The collector’s three files passed SHA-256 verification. After checking the distributed ZIP’s wrapped member offsets against its local headers, the archive inventory reconciled 1,615 recording names with their annotations. Both speech takes were present for 404 people. Both annotation end times agreed with the corresponding recording headers within one sample for 398 pairs. The other six pairs fail clock qualification. The curator approved this paired comparison separately and limited this run to pitch height and spread. The native fixture passed and the exact inputs were pinned. The running worker owns one local slot. Both terminal paths are registered. Speech rate and vowel duration await validated timing measures. Same-recording speech and adult comforting remain open.
+
+The clips were recorded on request and in separate takes, so recording conditions and performance differ between the two, and the listener is an infant, not a child who answers.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The paired-clip CRV1 pitch study qualified and started in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: File the paired-clip restricted return after independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: QUEUE_HEALTH_AND_CRV1_START_20261125.md.
+
+### OPS-S15-W7-UGM1-EPE-RESPONDERS
+
+The newly delivered responder study qualified for UGM1, completed in Gear 2 and reproduced its restricted return. The earlier lifespan source retains its own disposition. The author release and README matched the archive hashes. The method and author analysis bind experienced ratings, the explicit expected offer and actual offer, and distinguish responders from observers. The three constructed checks exercised recovery, missing previous trials, singularity and binding failures. The binding check found full rank for all three models. The valence fit jointly estimated offered dollars, received minus expected dollars, and the change from the previous offer. Separate within-responder fits estimated how arousal varied with the size of positive and negative surprises. All intervals used the same 2,000 draws of whole responders. The full estimates, intervals, support and registered decision are filed in the restricted return. The qualification, source check, analysis and fresh-process replay are all included in the measured CPU settlement.
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The newly delivered responder study qualified for UGM1, completed in Gear 2 and reproduced its restricted return.; project meaning: scoped operational record; next engineering obligation: Use the restricted return in the curator packet within its source terms.; public scientific claim unchanged; curator decision required: No new decision. Detail: UGM1_RESPONDER_QUALIFICATION_AND_RETURN_20261124.md.
+
 ### S15-W7-SLD2-MARITAL-ROLE
 
 Does purpose in life return to its wave-one level by wave three after spouse death or finalized divorce between the first two interviews? The registered reading pooled both losses. Each descriptive reading retained people with that loss. Both scoring readings used the same three items. The standardized change compares wave three with wave one within the same people, dividing by their wave-one sample standard deviation. Each of the 2,000 whole-family draws recomputed that denominator. Spark decoded all three files again and reproduced the full table before its single write.

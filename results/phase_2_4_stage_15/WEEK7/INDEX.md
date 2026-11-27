@@ -1,5 +1,39 @@
 # Week 7 records
 
+**OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY:** [Record](FINAL_DRAIN_AND_DELIVERY_20261127.md). All 105 Week 7 reservations have a terminal record and a matched charge. The final theory return and restricted companion are filed.
+
+**OPS-S15-W7-CAD2-ORIGINAL-WORD-RETURN:** [Record](CAD2_ORIGINAL_WORD_TIMING_RETURN_20261126.md). CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte.
+
+**OPS-S15-W7-CAD2-SEALED-START:** [Record](CAD2_SEALED_START_20261126.md). The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2.
+
+**OPS-S15-W7-CRV1-ROSSLUND-TIMING:** [Record](CRV1_ROSSLUND_PAIRED_TIMING_20261126.md). The separately approved Rosslund timing comparison completed in CPU-only Gear 2 and reproduced from the source tables.
+
+**OPS-S15-W7-CAD2-CRV1-ARCHIVE:** [Record](CAD2_AND_CRV1_ARCHIVE_FOLLOWUP_20261126.md). The archive staged a narrow original-edition CANDOR projection and both approved Rosslund timing tables.
+
+**OPS-S15-W7-ARCHIVE-TRIAGE:** [Record](WEEK7_ARCHIVE_TRIAGE_20261126.md). The archive reviewed all ten open Week 7 entries. Its MIDUS delivery enabled the wave-three run and its CANDOR delivery identified an original-edition route for CAD2.
+
+**OPS-S15-W7-MIB1-REPEAT:** [Record](MIB1_WAVE_THREE_RETURN_20261126.md). The MIDUS wave-three repeat ran on Spark and returned code 32. No previously released wave-two roster qualified in full for the four registered contrasts.
+
+**OPS-S15-W7-CAD1-ATTENTION-KEY:** [Record](CAD1_ATTENTION_KEY_REVIEW_20261126.md). The CANDOR v1.1 documentation gives the seven perceived-attention labels in display order. Their stored numbers and skip codes remain unverified.
+
+**OPS-S15-W7-CAD1-PRIMARY:** [Record](CAD1_PRIMARY_RETURN_20261125.md). The CANDOR within-speaker pace and enjoyment study completed its primary reading on Spark and reproduced both aggregate tables.
+
+**OPS-S15-W7-LGH2-SURVEY:** [Record](LGH2_CANDOR_SURVEY_RETURN_20261125.md). The CANDOR relative-laughter survey description completed on Spark in CPU-only Gear 2 and reproduced in full.
+
+**OPS-S15-W7-CANDOR-SURVEY-CODES:** [Record](LGH2_CANDOR_SURVEY_CODES_20261125.md). The original CANDOR workbook binds the response choices for laughter and both mood items to the v1.1 survey.
+
+**OPS-S15-W7-PSD2-EVERYDAY-CHECKLIST:** [Record](PSD2_EVERYDAY_CHECKLIST_RETURN_20261125.md). Both approved everyday-emotions comparisons finished in Gear 2 and replayed exactly.
+
+**OPS-S15-W7-PSD2-CHECKLIST-INPUT:** [Record](PSD2_CHECKLIST_BLANK_CELL_REPAIR_20261125.md). The first everyday-emotions run stopped on a whitespace-only missing response.
+
+**OPS-S15-W7-TP58-RECEIVER-NOTE:** [Record](TP58_RECEIVER_NOTE_20261125.md). The producer confirmed the receiver’s nine-table constructed rehearsal.
+
+**OPS-S15-W7-CRV1-PAIRED-PITCH:** [Record](CRV1_PAIRED_CLIP_PITCH_RETURN_20261125.md). Both paired-clip pitch contrasts completed in Gear 2 and reproduced in an independent replay.
+
+**OPS-S15-W7-CRV1-PITCH-START:** [Record](QUEUE_HEALTH_AND_CRV1_START_20261125.md). The paired-clip CRV1 pitch study qualified and started in CPU-only Gear 2.
+
+**OPS-S15-W7-UGM1-EPE-RESPONDERS:** [Record](UGM1_RESPONDER_QUALIFICATION_AND_RETURN_20261124.md). The newly delivered responder study qualified for UGM1, completed in Gear 2 and reproduced its restricted return.
+
 **S15-W7-SLD2-MARITAL-ROLE:** [Record](SLD2_THREE_WAVE_MARITAL_ROLE.md). Neither pooled scoring reading established a return to within one fifth of a baseline standard deviation.
 
 **OPS-S15-W7-COLLECTOR-DC03:** [Record](COLLECTOR_ACQUISITION_UPDATE_20261124.md). The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated.

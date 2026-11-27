@@ -1,5 +1,9 @@
 # Stage 15 Week 7
 
+Week 7 closed November 26. The [final theory return](../../../../results/phase_2_4_stage_15/WEEK7/FINAL_THEORY_RETURN_20261127.md) collects the study results. The [drain reconciliation](../../../../results/phase_2_4_stage_15/WEEK7/FINAL_DRAIN_AND_DELIVERY_20261127.md) accounts for every reservation and the eight comparisons still awaiting evidence at the freeze.
+
+[November 25 next starts](NEXT_STARTS_2026-11-25.md) · Ten remaining dependencies and the first prepared Spark run.
+
 [November 23 row table, TRX1 through TMP1](ROW_STATUS_2026-11-23.md)
 
 For the next AMI delivery, run `python -m tools.week7_ami_intake PREVIOUS ARCHIVE CATALOGUE PRIVATE_OUTPUT_DIRECTORY`. Use the last reviewed inventory, the original AMI annotation ZIP and the collector’s current SOURCE.json. The command checks recorded channel assignments and hashes against the earlier inventory. When another meeting is complete, it writes a new metadata snapshot for source review. Waveform validation and normal admission follow separately. On November 23 the comparison found 285 assigned channels and the same 12 complete meetings. [Intake tool](../../../../tools/week7_ami_intake.py).
@@ -35,7 +39,7 @@ The November 23 section 7 invocations and five PLX diaries are filed. The two ad
 | TWO1 | Landed | [Internal return and replay](../../../../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md) |
 | TWO2 | Blocked | A couples-diary release with a documented worry item and timestamps that permit pairing within 30 minutes. |
 | UGM1 · current release | Landed | [No eligible offer carried both felt ratings](../../../../results/phase_2_4_stage_15/WEEK7/ICSI_SOURCE_AND_OPEN_BINDINGS_20261122.md). |
-| UGM1 · proposed richer release | Blocked | A documented offer-level release with felt valence and arousal. |
+| UGM1 · Heffner Study 1 | Landed | Responder edition qualified, completed and replayed in Gear 2. [Tests-only study receipt](../../../../results/phase_2_4_stage_15/WEEK7/UGM1_RESPONDER_QUALIFICATION_AND_RETURN_20261124.md). |
 | SCR1 | Landed | [Internal return and replay](../../../../results/phase_2_4_stage_15/WEEK7/RESTRICTED_REPLAY_20261122.md) |
 | GAT1 | Landed | Keyed Columbia edition bound. Restricted internal return, 2,000 whole-rater draws and fresh replay. [Intake](../../../../results/phase_2_4_stage_15/WEEK7/COLLECTOR_COMPLETION_20261124.md). |
 | GAT2 | Landed | The registered mean and both single-attribute descriptions completed and replayed. Restricted return filed. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/GAT2_RESTRICTED_RETURN_AND_SPARK_READINESS_20261124.md). |
@@ -46,10 +50,11 @@ The November 23 section 7 invocations and five PLX diaries are filed. The two ad
 | LGH1 · Santa Barbara | Blocked | Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. Bind recording and tier to a documented stable anonymous person key before the scientific run. [Intake](../../../../results/phase_2_4_stage_15/WEEK7/SBC60_SEALED_LAYOUT_AND_SOURCE_REVIEW_20261124.md). |
 | LGH1 · CANDOR | Blocked | Source edition linking time-marked laughs to their recording channels. |
 | LGH2 · marked laughs | Blocked | Qualified CANDOR laughter times from LGH1. |
-| LGH2 · survey description | Blocked | Source dictionary establishing the direction of the relative-laughter response. |
-| CAD1 | Blocked | Direct enjoyment item confirmed. Verify the documented scale anchors for the named controls and the sealed source-table binding. [Frozen controls](CAD1_CONTROLS.md). |
-| CAD2 | Blocked | Native word times confirmed in original AWS JSON. Verify the cross-conversation chronology and channel-to-speaker binding for that edition. |
-| CRV1 | Blocked | Need 24, an admitted recording of the same adult speaking to a child and to an adult. |
+| LGH2 · survey description | Landed | Two self-report comparisons completed and replayed on Spark. [Return](../../../../results/phase_2_4_stage_15/WEEK7/LGH2_CANDOR_SURVEY_RETURN_20261125.md). |
+| CAD1 | Primary landed | The expanded reading awaits the numeric export key for perceived partner attention. [Return](../../../../results/phase_2_4_stage_15/WEEK7/CAD1_PRIMARY_RETURN_20261125.md). [Verified labels, missing-value gap and prepared run](../../../../results/phase_2_4_stage_15/WEEK7/CAD1_ATTENTION_KEY_REVIEW_20261126.md). |
+| CAD2 | Landed | CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte. [Return](../../../../results/phase_2_4_stage_15/WEEK7/CAD2_ORIGINAL_WORD_TIMING_RETURN_20261126.md). |
+| CRV1 · separate takes | Pitch and timing landed | Hilton–Moser pitch and Rosslund timing are separate samples. [Timing return](../../../../results/phase_2_4_stage_15/WEEK7/CRV1_ROSSLUND_PAIRED_TIMING_20261126.md). |
+| CRV1 · same recording and adult comforting | Blocked | Recording with the registered contexts. |
 | SLD1 | Landed | [Three SMF1 returns](../../../../results/phase_2_4_stage_15/WEEK5/SMF1_THREE_SEALED_RETURNS_20261122.md) |
 | SLD2 | Landed | Three-wave original-source run and replay completed. Both pooled scoring readings and the two loss descriptions are filed. [Return](../../../../results/phase_2_4_stage_15/WEEK7/SLD2_THREE_WAVE_MARITAL_ROLE.md). |
 | SLD3 | Landed | [Sealed daily-trait return](../../../../results/phase_2_4_stage_15/WEEK7/SLD3_DAILY_TRAIT.md) |
@@ -74,5 +79,5 @@ The November 23 section 7 invocations and five PLX diaries are filed. The two ad
 | LAG · 0057 | Cost-held | 649 cells executed, 28 replayed. [Cost receipt](../../../../results/phase_2_4_stage_15/WEEK7/LAG_0057_COST_STOP.md). |
 | PLX · five added and eleven earlier diaries | Landed | Independent numerical replay and pooled inventory. [Full return](../../../../results/phase_2_4_stage_15/WEEK7/PLX_SIXTEEN_DIARY_RETURN.md). |
 | ADM · couples and US time use | Landed | Both sources hash-verified. Both ATL jobs filed. The supplied fields do not bind the LAG clock or the couples worry study. [Source bindings](ADM_OPEN_BINDINGS.md) and [fourteen-source atlas](../../../../results/phase_2_4_stage_15/WEEK7/ATL_FOURTEEN_SOURCE_EXTENSION.md). |
-| MIB1 · wave three | Blocked | Data agent. Resolve the family field and diary roster count. |
-| PSD2 · everyday emotions co-occurrence | Blocked | Curator. Rights review of the release with no stated licence. |
+| MIB1 · wave three | Landed | No eligible previously released roster on wave three. [Sealed return](../../../../results/phase_2_4_stage_15/WEEK7/MIB1_WAVE_THREE_RETURN_20261126.md). |
+| PSD2 · everyday emotions co-occurrence | Descriptions landed | Approved internal comparisons completed and replayed. The registered shame threshold cannot be read on this checklist. [Receipt](../../../../results/phase_2_4_stage_15/WEEK7/PSD2_EVERYDAY_CHECKLIST_RETURN_20261125.md). |

@@ -1,5 +1,39 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY: All 105 Week 7 reservations have a terminal record and a matched charge. The final theory return and restricted companion are filed.
+
+- [x] OPS-S15-W7-CAD2-ORIGINAL-WORD-RETURN: CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte.
+
+- [x] OPS-S15-W7-CAD2-SEALED-START: The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2.
+
+- [x] OPS-S15-W7-CRV1-ROSSLUND-TIMING: The separately approved Rosslund timing comparison completed in CPU-only Gear 2 and reproduced from the source tables.
+
+- [x] OPS-S15-W7-CAD2-CRV1-ARCHIVE: The archive staged a narrow original-edition CANDOR projection and both approved Rosslund timing tables.
+
+- [x] OPS-S15-W7-ARCHIVE-TRIAGE: The archive reviewed all ten open Week 7 entries. Its MIDUS delivery enabled the wave-three run and its CANDOR delivery identified an original-edition route for CAD2.
+
+- [x] OPS-S15-W7-MIB1-REPEAT: The MIDUS wave-three repeat ran on Spark and returned code 32. No previously released wave-two roster qualified in full for the four registered contrasts.
+
+- [x] OPS-S15-W7-CAD1-ATTENTION-KEY: The CANDOR v1.1 documentation gives the seven perceived-attention labels in display order. Their stored numbers and skip codes remain unverified.
+
+- [x] OPS-S15-W7-CAD1-PRIMARY: The CANDOR within-speaker pace and enjoyment study completed its primary reading on Spark and reproduced both aggregate tables.
+
+- [x] OPS-S15-W7-LGH2-SURVEY: The CANDOR relative-laughter survey description completed on Spark in CPU-only Gear 2 and reproduced in full.
+
+- [x] OPS-S15-W7-CANDOR-SURVEY-CODES: The original CANDOR workbook binds the response choices for laughter and both mood items to the v1.1 survey.
+
+- [x] OPS-S15-W7-PSD2-EVERYDAY-CHECKLIST: Both approved everyday-emotions comparisons finished in Gear 2 and replayed exactly.
+
+- [x] OPS-S15-W7-PSD2-CHECKLIST-INPUT: The first everyday-emotions run stopped on a whitespace-only missing response.
+
+- [x] OPS-S15-W7-TP58-RECEIVER-NOTE: The producer confirmed the receiver’s nine-table constructed rehearsal.
+
+- [x] OPS-S15-W7-CRV1-PAIRED-PITCH: Both paired-clip pitch contrasts completed in Gear 2 and reproduced in an independent replay.
+
+- [x] OPS-S15-W7-CRV1-PITCH-START: The paired-clip CRV1 pitch study qualified and started in CPU-only Gear 2.
+
+- [x] OPS-S15-W7-UGM1-EPE-RESPONDERS: The newly delivered responder study qualified for UGM1, completed in Gear 2 and reproduced its restricted return.
+
 - [x] S15-W7-SLD2-MARITAL-ROLE: Neither pooled scoring reading established a return to within one fifth of a baseline standard deviation.
 
 - [x] OPS-S15-W7-COLLECTOR-DC03: The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated.

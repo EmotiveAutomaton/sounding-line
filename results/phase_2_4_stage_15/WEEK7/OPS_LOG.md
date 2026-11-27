@@ -145,3 +145,49 @@ Source inspection 4e9137cb3ce8aab7cd78facb, DC-20261123-01. All eleven manifest 
 2026-11-25T01:51:03.632392+00:00 OPS-S15-W7-COLLECTOR-DC03: The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated.
 
 2026-11-25T01:51:05.182122+00:00 S15-W7-SLD2-MARITAL-ROLE: Neither pooled scoring reading established a return to within one fifth of a baseline standard deviation.
+
+2026-11-25T02:08:11.987374+00:00 OPS-S15-W7-UGM1-EPE-RESPONDERS: The newly delivered responder study qualified for UGM1, completed in Gear 2 and reproduced its restricted return.
+
+2026-11-25T12:47:12.966325+00:00 OPS-S15-W7-CRV1-PITCH-START: The paired-clip CRV1 pitch study qualified and started in CPU-only Gear 2.
+
+2026-11-25T12:50:04.112578+00:00 OPS-S15-W7-CRV1-PAIRED-PITCH: Both paired-clip pitch contrasts completed in Gear 2 and reproduced in an independent replay.
+
+2026-11-25T12:52:09.874097+00:00 The restricted manual scan raised a false Week 7 calendar disappearance alert. Host inspection matched the original PID, creation time, executable, calendar command and plan. The same process wrote a fresh heartbeat after the alert. The original signal was preserved under its event ID and the failure path rearmed. Future native process scans use the host watcher. Event 65e14935f56dc5600dc18b76.
+
+2026-11-25T18:55:26.758926+00:00 b7b91737698c35c0b9d3085b · Reconciled 98 reservations and both hosts. Eleven entries await inputs. [Queue inspection](QUEUE_HEALTH_20261125_1055.md).
+
+2026-11-25T23:38:30.065890+00:00 OPS-S15-W7-TP58-RECEIVER-NOTE: The producer confirmed the receiver’s nine-table constructed rehearsal.
+
+2026-11-25T23:38:30.619257+00:00 OPS-S15-W7-PSD2-CHECKLIST-INPUT: The first everyday-emotions run stopped on a whitespace-only missing response.
+
+2026-11-25T23:38:31.078658+00:00 OPS-S15-W7-PSD2-EVERYDAY-CHECKLIST: Both approved everyday-emotions comparisons finished in Gear 2 and replayed exactly.
+
+November 25 successor qualification. The LGH2 survey adapter passed invented-code checks for respondent direction, pre/post mood orientation, missing dyad members and rejection of unknown codes. The existing sound, word timing, survey, speaking pace, Santa Barbara and TMP1 shell checks were exercised on constructed inputs. The MIB1 largest eligible roster selector also passed its separate fixture. Real LGH2 awaits the provider’s response-code legend for laughter and verified mood orientation. No sealed invocation was spent.
+
+2026-11-25T23:52:29.464199+00:00 OPS-S15-W7-CANDOR-SURVEY-CODES: The original CANDOR workbook binds the response choices for laughter and both mood items to the v1.1 survey.
+
+2026-11-25T23:52:30.038048+00:00 OPS-S15-W7-LGH2-SURVEY: The CANDOR relative-laughter survey description completed on Spark in CPU-only Gear 2 and reproduced in full.
+
+2026-11-26T01:10:06.741058+00:00 OPS-S15-W7-CAD1-PRIMARY: The CANDOR within-speaker pace and enjoyment study completed its primary reading on Spark and reproduced both aggregate tables.
+
+2026-11-26T01:16:17.928177+00:00 Eight expired source dependencies rechecked. The diary screen covered 2,237 feature entries. Both source-delivery watchers were verified. [Dispositions](WAITING_INPUT_REVIEW_20261125_PM.md). Local inspection SHA-256 cad7502f919aa4dd6743ab6e10f2ba3c1105bc2351961f663998c990efbfde06.
+
+2026-11-26T13:27:01.684838+00:00 62345960f51c9de4c6edddb3 · Verified both hosts, all 102 terminal reservations, ten external dependencies and owner delivery. [Queue inspection](QUEUE_HEALTH_20261126_0522.md).
+
+2026-11-26T13:40:46.331308+00:00 OPS-S15-W7-CAD1-ATTENTION-KEY: The CANDOR v1.1 documentation gives the seven perceived-attention labels in display order. Their stored numbers and skip codes remain unverified.
+
+2026-11-26T13:43:39.613575+00:00 CAD1 archive follow-up c1288c3c6c370842a75f2896. The archive filed a separate open-request marker for all seven codes and missing-value conventions. A new delivery will trigger the existing watcher.
+
+2026-11-26T14:39:19.069454+00:00 OPS-S15-W7-MIB1-REPEAT: The MIDUS wave-three repeat ran on Spark and returned code 32. No previously released wave-two roster qualified in full for the four registered contrasts.
+
+2026-11-26T14:39:19.529022+00:00 OPS-S15-W7-ARCHIVE-TRIAGE: The archive reviewed all ten open Week 7 entries. Its MIDUS delivery enabled the wave-three run and its CANDOR delivery identified an original-edition route for CAD2.
+
+2026-11-26T14:52:02.208218+00:00 OPS-S15-W7-CAD2-CRV1-ARCHIVE: The archive staged a narrow original-edition CANDOR projection and both approved Rosslund timing tables.
+
+2026-11-26T14:52:02.646261+00:00 OPS-S15-W7-CRV1-ROSSLUND-TIMING: The separately approved Rosslund timing comparison completed in CPU-only Gear 2 and reproduced from the source tables.
+
+2026-11-26T15:07:56.188489+00:00 OPS-S15-W7-CAD2-SEALED-START: The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2.
+
+2026-11-26T15:10:59.513860+00:00 OPS-S15-W7-CAD2-ORIGINAL-WORD-RETURN: CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte.
+
+2026-11-27T10:52:31.766195+00:00 OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY: All 105 Week 7 reservations have a terminal record and a matched charge. The final theory return and restricted companion are filed.

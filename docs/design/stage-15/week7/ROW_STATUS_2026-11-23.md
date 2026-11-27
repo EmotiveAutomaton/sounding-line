@@ -1,5 +1,7 @@
 # Week 7 row table, November 23
 
+This is a dated planning snapshot. The [final Week 7 record](../../../../results/phase_2_4_stage_15/WEEK7/FINAL_DRAIN_AND_DELIVERY_20261127.md) gives the closing dispositions.
+
 Disposition at the curator's 05:00 Pacific instruction. The table splits a row when its sources have different dispositions. “Landed” includes a filed source-support decision where the requested comparison could not be measured. The two internal-only studies are listed without figures.
 
 | Packet row and scope | Status | Filed evidence or next required input |
@@ -28,7 +30,7 @@ Disposition at the curator's 05:00 Pacific instruction. The table splits a row w
 | LGH2 · marked laughs | Blocked | Qualified CANDOR laughter times from LGH1. |
 | LGH2 · survey description | Blocked | Source dictionary establishing the direction of the relative-laughter response. |
 | CAD1 | Blocked | Direct enjoyment item confirmed. Verify the documented scale anchors for the named controls and the sealed source-table binding. [Frozen controls](CAD1_CONTROLS.md). |
-| CAD2 | Blocked | Native word times confirmed in original AWS JSON. Verify the cross-conversation chronology and channel-to-speaker binding for that edition. |
+| CAD2 | Landed | CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte. [Return](../../../../results/phase_2_4_stage_15/WEEK7/CAD2_ORIGINAL_WORD_TIMING_RETURN_20261126.md). |
 | CRV1 | Blocked | Need 24, an admitted recording of the same adult speaking to a child and to an adult. |
 | SLD1 | Landed | [Three SMF1 returns](../../../../results/phase_2_4_stage_15/WEEK5/SMF1_THREE_SEALED_RETURNS_20261122.md) |
 | SLD2 | Blocked | Wave-one main survey ICPSR 2760 Dataset 0001 and codebook for the three-wave join. The delivered wave-one ZIP is the daily diary. [Projection](SLD2_PROJECTION.md). |

@@ -2156,3 +2156,20 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W7-SBC60-SEALED-LAYOUT | operational | infrastructure / passes | Spark verified all 60 Santa Barbara recording and transcript pairs on the read-only mount. |
 | OPS-S15-W7-COLLECTOR-DC03 | operational | infrastructure / passes | The archive acquisition update was reviewed and committed with the subsequent SLD2 completion incorporated. |
 | S15-W7-SLD2-MARITAL-ROLE | N5 | undecided / passing controls | Neither pooled scoring reading established a return to within one fifth of a baseline standard deviation. |
+| OPS-S15-W7-UGM1-EPE-RESPONDERS | operational | infrastructure / passes | The newly delivered responder study qualified for UGM1, completed in Gear 2 and reproduced its restricted return. |
+| OPS-S15-W7-CRV1-PITCH-START | operational | infrastructure / passes | The paired-clip CRV1 pitch study qualified and started in CPU-only Gear 2. |
+| OPS-S15-W7-CRV1-PAIRED-PITCH | operational | infrastructure / passes | Both paired-clip pitch contrasts completed in Gear 2 and reproduced in an independent replay. |
+| OPS-S15-W7-TP58-RECEIVER-NOTE | operational | infrastructure / passes | The producer confirmed the receiver’s nine-table constructed rehearsal. |
+| OPS-S15-W7-PSD2-CHECKLIST-INPUT | operational | infrastructure / passes | The first everyday-emotions run stopped on a whitespace-only missing response. |
+| OPS-S15-W7-PSD2-EVERYDAY-CHECKLIST | operational | infrastructure / passes | Both approved everyday-emotions comparisons finished in Gear 2 and replayed exactly. |
+| OPS-S15-W7-CANDOR-SURVEY-CODES | operational | infrastructure / passes | The original CANDOR workbook binds the response choices for laughter and both mood items to the v1.1 survey. |
+| OPS-S15-W7-LGH2-SURVEY | operational | infrastructure / passes | The CANDOR relative-laughter survey description completed on Spark in CPU-only Gear 2 and reproduced in full. |
+| OPS-S15-W7-CAD1-PRIMARY | operational | infrastructure / passes | The CANDOR within-speaker pace and enjoyment study completed its primary reading on Spark and reproduced both aggregate tables. |
+| OPS-S15-W7-CAD1-ATTENTION-KEY | operational | infrastructure / passes | The CANDOR v1.1 documentation gives the seven perceived-attention labels in display order. Their stored numbers and skip codes remain unverified. |
+| OPS-S15-W7-MIB1-REPEAT | operational | infrastructure / passes | The MIDUS wave-three repeat ran on Spark and returned code 32. No previously released wave-two roster qualified in full for the four registered contrasts. |
+| OPS-S15-W7-ARCHIVE-TRIAGE | operational | infrastructure / passes | The archive reviewed all ten open Week 7 entries. Its MIDUS delivery enabled the wave-three run and its CANDOR delivery identified an original-edition route for CAD2. |
+| OPS-S15-W7-CAD2-CRV1-ARCHIVE | operational | infrastructure / passes | The archive staged a narrow original-edition CANDOR projection and both approved Rosslund timing tables. |
+| OPS-S15-W7-CRV1-ROSSLUND-TIMING | operational | infrastructure / passes | The separately approved Rosslund timing comparison completed in CPU-only Gear 2 and reproduced from the source tables. |
+| OPS-S15-W7-CAD2-SEALED-START | operational | infrastructure / passes | The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2. |
+| OPS-S15-W7-CAD2-ORIGINAL-WORD-RETURN | operational | infrastructure / passes | CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte. |
+| OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY | operational | infrastructure / passes | All 105 Week 7 reservations have a terminal record and a matched charge. The final theory return and restricted companion are filed. |
