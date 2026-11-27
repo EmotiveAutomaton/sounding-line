@@ -1,0 +1,3 @@
+# PSD2 EVERYDAY CHECKLIST RETURN 20261125
+
+Both approved everyday-emotions comparisons finished in Gear 2 and replayed exactly. The release contains a binary checklist. The restricted return gives pride with embarrassment and pride with guilt separately, preserving pair-specific support, exclusions, estimates and whole-person intervals. The registered shame verdict remains open. The source and job receipts bind the restricted figures. The first input failure is filed separately.

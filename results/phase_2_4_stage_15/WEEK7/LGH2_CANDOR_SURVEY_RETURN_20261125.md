@@ -1,0 +1,3 @@
+# LGH2 CANDOR SURVEY RETURN 20261125
+
+The CANDOR relative-laughter survey description completed on Spark in CPU-only Gear 2 and reproduced in full. Both fitted comparisons and their whole-conversation intervals, support and limits are filed internally. Each pass verified the survey hash and the stored response domain before fitting. Each accepted value represented a documented choice or a native null. The installed output gate and its local replay accepted the two aggregate files. One sealed invocation was charged at the conservative 3,600 CPU-second cap. This describes reports of who laughed more. The registered test of laughter per minute awaits speaker-linked laugh times. [Source and missing-value checks](LGH2_CANDOR_SURVEY_CODES_20261125.md).

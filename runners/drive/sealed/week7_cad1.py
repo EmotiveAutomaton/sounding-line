@@ -34,7 +34,7 @@ def rates(turns, people, duration):
     return {p:counts[p]/seconds_union(v) for p,v in spans.items() if seconds_union(v)>0}
 
 
-def project(survey,clock,speech):
+def project(survey,clock,speech, *, expanded=True):
     by_turn=speech.groupby('conversation_id',sort=False)
     by_clock=clock.groupby('conversation_id',sort=False)
     records=[]
@@ -52,10 +52,11 @@ def project(survey,clock,speech):
         if len(pace)!=2:
             continue
         for response in (a,b):
-            record={k:getattr(response,k) for k in SURVEY if k!='partner_id'}
+            terms = EXPANDED if expanded else MAIN
+            record={k:getattr(response,k) for k in ('conversation_id','user_id',*terms) if k!='partner_rate'}
             record.update(own_rate=pace[response.user_id],partner_rate=pace[response.partner_id])
             records.append(record)
-    return pd.DataFrame.from_records(records,columns=['conversation_id','user_id','own_rate',*EXPANDED])
+    return pd.DataFrame.from_records(records,columns=['conversation_id','user_id','own_rate',*(EXPANDED if expanded else MAIN)])
 
 
 def within(panel, weights):
@@ -74,7 +75,7 @@ def within(panel, weights):
     return float(beta[0]) if rank==X.shape[1] else np.nan
 
 
-def score(frame, draws=2000):
+def score(frame, draws=2000, *, expanded=True, published_support=None):
     if frame.duplicated(['user_id','conversation_id']).any():
         raise ValueError('repeated speaker conversation')
     all_people=set(frame.user_id)
@@ -83,7 +84,7 @@ def score(frame, draws=2000):
     roster=sorted(set(frame.conversation_id))
     panels=[]
     groups=[]
-    for reading,cols in enumerate((MAIN,EXPANDED),1):
+    for cols in ((MAIN,EXPANDED) if expanded else (MAIN,)):
         complete=frame.dropna(subset=['own_rate',*cols])
         n_conv=complete.groupby('user_id').conversation_id.nunique()
         single=set(n_conv.index[n_conv.eq(1)])
@@ -98,6 +99,12 @@ def score(frame, draws=2000):
     # Counts and estimates from both models can be combined externally. Only
     # disclose a new membership when all intersections and complements are safe.
     protected=[]
+    if published_support is not None:
+        if not expanded or tuple(map(len, groups[0])) != tuple(published_support) or not groups[1][0] <= groups[0][0]:
+            raise Unavailable(25)
+        # These two cohorts have already left the boundary. Protect both
+        # before considering either count or coefficient in the follow-up.
+        protected.extend(groups[0])
     def may_disclose(group):
         if len(group)<11:return False
         memberships=[*protected,group]
@@ -107,7 +114,8 @@ def score(frame, draws=2000):
         protected.append(group)
         return True
     estimates=[];support=[]
-    accepted=[may_disclose(group) for group,_ in groups]
+    accepted=[(i == 0 and published_support is not None) or may_disclose(group)
+              for i,(group,_) in enumerate(groups)]
     for reading,((people,single),allowed) in enumerate(zip(groups,accepted),1):
         if allowed:support.append(dict(reading=reading,kind=1,n=len(people)))
         if may_disclose(single):support.append(dict(reading=reading,kind=2,n=len(single)))
@@ -116,7 +124,7 @@ def score(frame, draws=2000):
     for j in range(draws+1):
         weights=np.ones(len(roster),int) if j==0 else np.bincount(rng.integers(len(roster),size=len(roster)),minlength=len(roster))
         for i,(panel,allow) in enumerate(zip(panels,accepted)):
-            if allow:bank[i].append(within(panel,weights))
+            if allow and (i or published_support is None):bank[i].append(within(panel,weights))
     for i,values in enumerate(bank):
         if values and np.isfinite(values).all():
             lo,hi=np.quantile(values[1:],[.025,.975])
@@ -124,11 +132,13 @@ def score(frame, draws=2000):
     return {'pace':estimates,'support':support}
 
 
-def run(root,out,pins=PINS,draws=2000):
+def run(root,out,pins=PINS,draws=2000, *, expanded=True, response_domains=None, published_support=None, attention_key=None):
     import pyarrow.parquet as pq
     base=source_layout(Path(root),pins)
     tables={}
     for name,cols in COLUMNS.items():
+        if name=='survey' and not expanded:
+            cols=tuple(k for k in cols if k not in EXPANDED[len(MAIN):])
         path=base/pins[name][0]
         with pq.ParquetFile(path) as file:
             available=file.schema_arrow.names
@@ -139,6 +149,20 @@ def run(root,out,pins=PINS,draws=2000):
                 raise Unavailable(22)
             selected=[k for k in cols if k in available]
             if any(available.count(k)!=1 for k in selected):raise Unavailable(22)
-            frame=file.read(columns=selected,use_threads=False).to_pandas()
+            table=file.read(columns=selected,use_threads=False)
+            if name=='survey' and response_domains is not None:
+                ratings=set(selected)-{'conversation_id','user_id','partner_id'}
+                if set(response_domains)!=ratings:
+                    raise Unavailable(24)
+                for field in ratings:
+                    for value in table[field].to_pylist():
+                        if value is not None and (type(value) not in (int,float) or value not in response_domains[field]):
+                            raise Unavailable(24)
+            frame=table.to_pandas()
+            if name=='survey' and attention_key is not None:
+                field='my_partner_paid_attention_to_me'
+                if response_domains is None or set(response_domains[field])!=set(attention_key):
+                    raise Unavailable(24)
+                frame[field]=frame[field].map(attention_key)
             tables[name]=frame.reindex(columns=cols)
-    return write_tables(out,score(project(**tables),draws))
+    return write_tables(out,score(project(**tables,expanded=expanded),draws,expanded=expanded,published_support=published_support))

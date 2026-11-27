@@ -1,0 +1,3 @@
+# CRV1 PAIRED CLIP PITCH RETURN 20261125
+
+Both paired-clip pitch contrasts completed in Gear 2 and reproduced in an independent replay. The internal return records the two equal-speaker contrasts, their 2,000-draw intervals, the exclusion counts and limits. Separate processes read the source WAVs and grids. The native fixture, first pass and replay were charged to the row. No individual acoustic statistics were retained. The original same-recording question, timing measures and adult comforting remain open. The clips were recorded on request and in separate takes, so recording conditions and performance differ between the two, and the listener is an infant, not a child who answers.

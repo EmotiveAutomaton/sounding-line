@@ -10,7 +10,7 @@ import sys
 from runners.drive.sealed.week6_sc2_build_v1 import ROOT
 
 
-def package(destination,fixture_pins=None):
+def package(destination,fixture_pins=None,*,primary_only=False,attention_key=None,published_support=None):
     files=('runners/drive/sealed/week7_cad1.py',
            'runners/drive/sealed/week6_sc1_counts_v1.py',
            'runners/drive/sealed/week6_sc2_source_v1.py',
@@ -45,6 +45,44 @@ with tempfile.TemporaryDirectory() as temp:
             raise ValueError('three reviewed fixture tables required')
         script=script.replace('run(Path("/data"),Path("/out"))',
                               'run(Path(sys.argv[1]),Path(sys.argv[2]),'+repr(fixture_pins)+',draws=6)')
+    followup = attention_key is not None
+    if followup != (published_support is not None) or (followup and primary_only):
+        raise ValueError('Expanded follow-up requires the export key and both published counts')
+    if followup:
+        ranks=[v for v in attention_key.values() if v is not None]
+        if (sorted(ranks)!=list(range(1,8)) or any(type(k) is not int for k in attention_key)
+                or len(published_support)!=2 or any(type(n) is not int or n<11 for n in published_support)):
+            raise ValueError('Invalid response mapping or prior cohort counts')
+    if primary_only or followup:
+        from runners.drive.sealed.week7_bounded_entry import bounded
+        mount="Path(sys.argv[1])" if fixture_pins is not None else "Path('/data')"
+        target="Path(sys.argv[2])" if fixture_pins is not None else "Path('/out')"
+        binding="" if fixture_pins is not None else """
+        options=[s.split()[5].split(',') for s in Path('/proc/self/mountinfo').read_text().splitlines() if s.split()[4]=='/data']
+        if len(options)!=1 or 'ro' not in options[0]:raise SystemExit(13)
+"""
+        call=next(line for line in script.splitlines() if line.startswith('        run('))
+        args=('pins='+repr(fixture_pins)+',draws=8,') if fixture_pins is not None else ''
+        options='expanded=False,response_domains=domains'
+        extra=''
+        if followup:
+            extra=f"domains.update(overall_affect=range(1,10),i_like_you=range(1,8),my_partner_paid_attention_to_me={tuple(attention_key)!r})"
+            options=f"response_domains=domains,published_support={tuple(published_support)!r},attention_key={attention_key!r}"
+        script=script.replace(call,binding+f"""
+        domains={{key:range(1,10) for key in ('how_enjoyable','arousal','pre_affect')}}
+        {extra}
+        outputs=[]
+        for repeat in range(2):
+            dest=Path(temp)/str(repeat)
+            dest.mkdir()
+            run({mount},dest,{args}{options})
+            outputs.append({{p.name:p.read_bytes() for p in dest.iterdir()}})
+        if outputs[0]!=outputs[1] or 'support.csv' not in outputs[0] or set(outputs[0])-{{'pace.csv','support.csv'}}:
+            raise SystemExit(14)
+        for name,data in outputs[0].items():
+            ({target}/name).write_bytes(data)
+""")
+        script=bounded(script.encode()).decode()
     compile(script,'CAD1/run.py','exec')
     destination.mkdir(parents=True,exist_ok=False)
     entry=script.encode('utf8')
@@ -53,7 +91,8 @@ with tempfile.TemporaryDirectory() as temp:
         entry_sha256=sha256(entry).hexdigest(),
         sources={name:sha256(source[name]).hexdigest() for name in files},
         mood_before='pre_affect',outcome='own speech rate',enjoyment='how_enjoyable',
-        draws=2000 if fixture_pins is None else 6,constructed_only=fixture_pins is not None,
+        draws=2000 if fixture_pins is None else (8 if primary_only or followup else 6),constructed_only=fixture_pins is not None,
+        primary_only=primary_only,
         numerical_threads=2),indent=2)+'\n','utf8')
 
 

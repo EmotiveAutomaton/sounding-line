@@ -122,3 +122,30 @@ def test_d33_requires_real_word_times():
     token['start']=token['end']+1.
     with pytest.raises(ValueError,match='word time'):
         words.project(source)
+
+
+def test_field_counts_equal_full_chronological_rebuild():
+    import math
+    # The second conversation ends exactly when the third starts. Neither
+    # that conversation nor the target's own previous words belong in its field.
+    specs = [('a',0,8,'onlya common'), ('b',2,10,'onlyb common common'),
+             ('a',10,18,'query common'), ('c',11,19,'common onlya'),
+             ('b',20,28,'query onlyb'), ('a',21,29,'common onlya')]
+    conversations = []
+    for i,(speaker,start,end,text) in enumerate(specs):
+        tokens = [dict(token=token,start=j,end=j+.5,sentence_start=j==0,after_punctuation=False)
+                  for j,token in enumerate(text.split())]
+        conversations.append(dict(conversation=str(i),start=start,end=end,
+                                  turns=[dict(speaker=speaker,words=tokens)]))
+    sessions = words.project(list(reversed(conversations)))
+    for s in sessions:
+        field = words.d33.cache([other for other in sessions if other['writer']!=s['writer']],
+                                s['timestamp'])
+        uni,_,_,total = field
+        for word in s['words']:
+            if total:
+                prior=(uni[word['token']]+1)/(total+len(uni)+1)
+                assert word['population_probability']==words.d33.cache_probability(word,field,prior)
+                assert word['population_log_frequency']==math.log(prior)
+            else:
+                assert word['population_probability'] is None and word['population_log_frequency'] is None

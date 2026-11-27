@@ -1,0 +1,14 @@
+# UGM1 responder study
+
+Does felt valence track what a responder was offered, how far it exceeded her stated expectation, and how much it changed from the previous offer? Does felt arousal rise with the size of either a positive or a negative surprise?
+
+Use Heffner, Son and FeldmanHall Study 1 at revision `3031323d4140067b102d6db4fc5e7312038fa745`. The archive classifies this edition as tests only because the deposit states no licence. Keep the scientific return inside the restricted project record. The earlier lifespan edition has a separate disposition. The task sequence and the two affect dimensions are documented by the [authors](https://pmc.ncbi.nlm.nih.gov/articles/PMC8544818/). Their [analysis code](https://github.com/jpheffne/epe/blob/3031323d4140067b102d6db4fc5e7312038fa745/analysis/epe_ms_analyses.Rmd) distinguishes experienced from predicted ratings.
+
+Use only the self/responder role. Key trials by subject and trial number. The responder's offered dollars are reward and the elicited offer prediction is RP. Their signed difference must reproduce RPE. The experienced horizontal and vertical ratings are feedback_X1 and feedback_Y1. Their differences from EP_X1 and EP_Y1 must reproduce EPE_X1 and EPE_Y1. Increasing scores represent greater pleasantness and greater arousal. The projected columns omit demographics, names, choice and questionnaire traits.
+
+Fit experienced valence jointly on the offer, signed surprise and current less immediately previous offer, centring all four columns inside each responder's complete estimation rows. Require consecutive trial numbers for change. A missing affect rating does not erase an observed preceding offer. For arousal, fit experienced arousal on absolute surprise separately among strictly positive and strictly negative surprises. Centre within responder within each side. Ties enter neither side. Retain rating-grid units per dollar.
+
+Resample whole responders 2,000 times with seed 20261122. Use the same draws for all fits, retain actual support and withhold an interval with a singular resample. The registered bar requires positive lower 95% percentile limits for signed surprise and offer change in the valence fit and for both arousal slopes. The offer coefficient is a control. Changes and surprises reuse the same offers, limiting what their separate coefficients establish.
+
+The exact CSV SHA-256 is `5aebf979021a6bf0d071e5ea86ec159b684425ba0225cdc474caa21f736af04a` and the README SHA-256 is `a91d55a4102813bd4056cf570fcd47aa2f1bec4b326a0c7ffe403db0bdbacee1`. The constructed qualification checks planted signed slopes, personal baselines, observer exclusion, true trial adjacency, rank failure and release-binding failures. The restricted worker repeats these checks, verifies the source and design support, fits, and independently replays from the source under the Week 7 CPU-only Gear 2 limits.
+

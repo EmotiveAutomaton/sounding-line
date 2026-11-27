@@ -1,0 +1,3 @@
+# CAD2 SEALED START 20261126
+
+The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2. Five native fixture checks passed, including correct speaker and turn attribution, chronological histories, a byte-identical replay, and rejection of changed input. The matched fixture yielded the expected 18 speakers and 1,260 evaluation words. The real job uses the original AWS edition and the matching provider turn boundaries. All word text and speaker keys remain sealed. The run reserves 3,600 CPU-seconds including replay. [Design](../../../docs/design/stage-15/week7/CAD2_ORIGINAL_WORD_CLOCK.md).

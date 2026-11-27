@@ -1,0 +1,3 @@
+# CRV1 ROSSLUND PAIRED TIMING 20261126
+
+The separately approved Rosslund timing comparison completed in CPU-only Gear 2 and reproduced from the source tables. The internal return gives the within-parent differences in target-vowel duration and syllables per second of phonation, with their whole-parent intervals, units and exclusions. The published study supplied the two same-session speech registers. The physical timing measures came from unchanged CC BY 4.0 version-1 tables. The comparison concerns elicited reading in separate blocks. Articulation rate excludes pauses. The original same-recording and adult-comforting questions remain open. [Design and attribution](../../../docs/design/stage-15/week7/CRV1_ROSSLUND_TIMING.md).
