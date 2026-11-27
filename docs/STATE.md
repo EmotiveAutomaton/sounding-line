@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+In the 75 ICSI meetings the intervals for absolute change, mean level and a high followed by a fall all included zero. Every AMI meeting had an untimed laugh annotation, preventing a separate AMI estimate. [Week 8 RML1 result](../results/phase_2_4_stage_15/WEEK8/RML1_R48_RETURN.md).
+
 The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians. [Week 8 LAG2 result](../results/phase_2_4_stage_15/WEEK8/LAG2_R48_RETURN.md).
 
 The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. [Week 8 TMP2 result](../results/phase_2_4_stage_15/WEEK8/TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md).

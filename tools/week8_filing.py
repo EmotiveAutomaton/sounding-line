@@ -6,7 +6,7 @@ Raw source data and undisclosed cells never enter this module.
 import json
 from pathlib import Path
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -164,8 +164,12 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     coverage=ROOT/'.agent-state/work-coverage.json'
     work=read(coverage)
     entry,=[v for v in work['work'] if v['card']==card]
-    entry.update(state='build',evidence=str((PUBLIC/(stem+'.json')).relative_to(ROOT).as_posix()),last_inspection=receipt['terminal_sha256'])
-    work['last_reconciled']=datetime.now(timezone.utc).isoformat()
+    inspected=datetime.now(timezone.utc)
+    entry.update(state='waiting' if progress is not None else 'file',
+                 evidence=progress or str((PUBLIC/(stem+'.json')).relative_to(ROOT).as_posix()),
+                 terminal_sha256=receipt['terminal_sha256'],last_inspection=inspected.isoformat(),
+                 review_by=(inspected+timedelta(minutes=25)).isoformat())
+    work['last_reconciled']=inspected.isoformat()
     atomic(coverage,work)
     atomic(PUBLIC/(stem+'.json'),dict(receipt,id=ident,card=card,local_write_through=True,full_write_through=progress is not None,record_kind=kind,scientific_admission=kind=='claim',theory_tags=evidence['claims'],activation=[]))
     print('Filed',ident)

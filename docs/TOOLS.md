@@ -3163,6 +3163,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W8-RML1-R48.** Estimate laugh starts per half minute using the preceding room sound and speech pace. Exclude annotated laughs from both predictors, hold prior laughter and fit within meetings. Use 2,000 whole-meeting resamples. The coefficients are on the log count scale. [Return](../results/phase_2_4_stage_15/WEEK8/RML1_R48_RETURN.md).
+
 **S15-W8-LAG2-R48.** Select from the original same-prompt atlas. Retain its clock, source, seeds, two gap readings and whole-person intervals. First take the median within diary and then across contributing diaries. The table shows restored cells, identified support and family summaries. The old pool is independently reproduced before adding the newly verified diary. [Return](../results/phase_2_4_stage_15/WEEK8/LAG2_R48_RETURN.md).
 
 **OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL.** Check the original archive keys, clock, five trait fields and exclusions in the seal. Register the five-count, reduced-count and pooled-share forms before launch. [Return](../results/phase_2_4_stage_15/WEEK8/TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md).

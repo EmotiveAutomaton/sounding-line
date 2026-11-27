@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] S15-W8-RML1-R48. In the 75 ICSI meetings the intervals for absolute change, mean level and a high followed by a fall all included zero. Every AMI meeting had an untimed laugh annotation, preventing a separate AMI estimate.
+
 - [x] S15-W8-LAG2-R48. The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians.
 
 - [x] OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL. The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. Original archive check returned native 22. Verified headers received. Export key uniqueness, timestamp encoding and missing values remain unverified in the seal. TP58 invented-history replay passed. Check TP72 or eligible fallback at 18:50 Pacific, after source binding.

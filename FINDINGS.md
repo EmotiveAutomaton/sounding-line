@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-W8-RML1-R48
+
+Does a steady room level predict when laughter starts?
+
+ICSI Meeting Corpus (Janin et al., 2003) and AMI Meeting Corpus (Carletta et al., 2005), including OpenSLR SLR16 under its modified CC BY-NC-SA terms. Read each corpus separately. In the 75 ICSI meetings the intervals for absolute change, mean level and a high followed by a fall all included zero. Every AMI meeting had an untimed laugh annotation, preventing a separate AMI estimate. ICSI, room, absolute change = -0.0558938 [-0.238486, 0.134813] (75 meetings). Sound level and speech pace stand in for stress. Laughs are loud and cluster in time. Excluding a whole meeting for an untimed laugh removed the entire AMI sample.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/RML1_R48_RETURN.md).
+
+**Curator roll-up.** S7, T7, R49. In the 75 ICSI meetings the intervals for absolute change, mean level and a high followed by a fall all included zero. Every AMI meeting had an untimed laugh annotation, preventing a separate AMI estimate. Sound level and speech pace stand in for stress. Laughs are loud and cluster in time. Excluding a whole meeting for an untimed laugh removed the entire AMI sample. Both corpus counts and every fitted coefficient are reported. No ICSI sound-only fit or AMI model met the registered model requirements. Code 12 records an unavailable fit.
+
 ### S15-W8-LAG2-R48
 
 Do sadness and loneliness carry over more than anger across prompts?

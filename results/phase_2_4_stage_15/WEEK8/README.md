@@ -1,5 +1,7 @@
 # Week 8 evidence
 
+[Does a steady room level predict when laughter starts?](RML1_R48_RETURN.md). In the 75 ICSI meetings the intervals for absolute change, mean level and a high followed by a fall all included zero. Every AMI meeting had an untimed laugh annotation, preventing a separate AMI estimate.
+
 [Do sadness and loneliness carry over more than anger across prompts?](LAG2_R48_RETURN.md). The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians.
 
 [PANDORA source qualification and TP58 rehearsal](TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md). The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them.
