@@ -10,7 +10,7 @@ No filed public comparison yet meets this condition.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
-| SLD5 | Purpose after loss | Spark | blocked | Three-wave marital-status, age and dated-loss binding and rehearsal | Sounding Line |
+| SLD5 | Purpose after loss | Spark | landed | Purpose after a marital loss filed with its replay. | Sounding Line |
 | LKG1 | Liking across conversations | Spark | blocked | Reciprocal liking-item binding and repeat-speaker rehearsal | Sounding Line |
 | SLD6 | Trait by kind of daily stressor | Spark | blocked | Wave-two stressor and trait binding and three-way contrast rehearsal | Sounding Line |
 | SLD8 | Wave-one daily diary | Spark | blocked | Wave-one diary and main survey located. The same-person binding and combined read-only mount are under archive review. | Archive / Sounding Line |
@@ -34,12 +34,13 @@ No filed public comparison yet meets this condition.
 
 ## Filed results
 
-No row has landed yet.
+- SLD5. Undecided. For 80 people after a spouse’s death the wave-one to wave-two difference was −0.058 points (95% interval −0.376 to 0.269). [All groups and transitions](../../results/phase_2_4_stage_15/WEEK8/SLD5_PURPOSE_AFTER_MARITAL_LOSS.md). Divorce may be chosen. Wave one had no neutral midpoint. Three items measure purpose, and the main comparison includes only people who stayed for all three waves.
 
 ## Sealed invocations
 
-0 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 59,000.0 seconds.
+1 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 62,600.0 seconds.
 
+- SLD5, SLD5-loss-comparison. Exit 0.
 
 ## Unused sources
 

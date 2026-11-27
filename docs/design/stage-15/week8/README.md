@@ -4,7 +4,7 @@ The ready list is empty with 7 free shared CPU slots. The remaining studies are 
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
-| SLD5 | Purpose after loss | Spark | blocked | Three-wave marital-status, age and dated-loss binding and rehearsal | Sounding Line |
+| SLD5 | Purpose after loss | Spark | landed | Purpose after a marital loss filed with its replay. | Sounding Line |
 | LKG1 | Liking across conversations | Spark | blocked | Reciprocal liking-item binding and repeat-speaker rehearsal | Sounding Line |
 | SLD6 | Trait by kind of daily stressor | Spark | blocked | Wave-two stressor and trait binding and three-way contrast rehearsal | Sounding Line |
 | SLD8 | Wave-one daily diary | Spark | blocked | Wave-one diary and main survey located. The same-person binding and combined read-only mount are under archive review. | Archive / Sounding Line |
