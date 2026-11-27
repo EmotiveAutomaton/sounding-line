@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+ICSI is void for rank. The AMI comparison is complete and filed internally. [Week 8 LGH7 result](../results/phase_2_4_stage_15/WEEK8/LGH7_MEETING_ROLE_RETURN.md).
+
 All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. [Week 8 SLD8 result](../results/phase_2_4_stage_15/WEEK8/SLD8_WAVE_ONE_STRUCTURE.md).
 
 The SSH hash read stalled before submission. Zero invocations and zero CPU-seconds were charged. [Week 8 TMP2 result](../results/phase_2_4_stage_15/WEEK8/TMP2_SOURCE_TRANSFER.md).

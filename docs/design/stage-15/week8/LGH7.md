@@ -1,0 +1,9 @@
+# LGH7 · Whose laughs are joined?
+
+Use the admitted meeting sets' own role fields. The selected ICSI meeting records have no speaker rank. AMI records four assigned roles in scenario meetings and omits role assignments in its other meetings. The project manager is the designated leader. The industrial designer, marketing expert and user-interface designer are the comparison roles. Read meeting metadata and timed laughter annotations only. [Earlier role binding](../../../../results/phase_2_4_stage_15/WEEK5/LA7_MEETING_ROLE_RATES_20261120.md).
+
+Within each meeting, count the fraction of each role's laughs joined by a different speaker at the same instant or within the following second. For each ordered pair of roles, a laugh that draws two starts by the same person counts once for that pair. Compute the manager's rate minus the rate over all other initiating laughs in the meeting, then average those differences over meetings. Require a start from all four speakers for that contrast so every reassignment has the same eligible meetings. Each role-pair description can use meetings with a start from the initiating role. Count missing roles, missing annotations and untimed marks.
+
+Use 2,000 whole-meeting draws for the interval. Deal role labels at random within each meeting 1,000 times. Each draw assigns the leader to one of its four speakers with equal probability. Report the observed difference, the reference interval and the number of reference differences at least as large. At least 20 eligible meetings are required for a test. AMI's figures stay in the restricted working record. Repeat the full calculation independently.
+
+**Design check.** Planted manager advantage, equal rates, tied starts, the inclusive one-second boundary, multiple laughs from one joiner, own-speaker exclusion and a meeting missing a comparison speaker each have known answers. A role in a meeting is a thin stand-in for rank, and people who lead also talk more.

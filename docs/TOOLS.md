@@ -1,5 +1,17 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+## November 27 archive reporting and body-map review
+
+The corrected archive reporting index covers 182 source cards. It assigns 152 to public-source handling and 24 to sealed handling. Six await terms. Existing study-specific limits travel with their results. The installed sealed gate requires at least 11 distinct people per released cell and checks previously released rosters.
+
+| Sealed source | Terms and credit recorded in the reviewed delivery |
+|---|---|
+| MIDUS | The MIDUS Conditions of Use exclude cells below ten and request credit and funding acknowledgment. ICPSR also requires its edition-specific citation and asks for the citation after publication. The installed eleven-person minimum applies. |
+| CANDOR | BetterUp permits nonidentifying aggregate findings. Credit Reece and colleagues (2023), the CANDOR Corpus from BetterUp Labs, BetterUp, Inc., and the release used. NaturalTurn work also credits Cooney and Reece (2025). |
+| PANDORA | The retained author terms limit public reporting to aggregate findings and prohibit redistribution or exposure of identifiers and sensitive messages. Cite Gjurković and colleagues (2021). |
+
+The restricted archive retains the source agreements and exact quotations. The source-metadata index, counts, field bindings and two owner review decisions are in the [Week 8 source review](design/stage-15/week8/ARCHIVE_REVIEW.md).
+
 This is the canonical tools catalog (the requested “tools.markdown”). The November 15
 refresh reconciles installed package metadata, model-file presence, the live Ollama
 tag inventory, repository source receipts and external collection manifests.
@@ -81,6 +93,7 @@ See the November 27 section for later verifications.
 |---|---|---|
 | CASE full | The 4,553,720,945-byte CC0 Figshare v1 ZIP is held. Provider MD5 matched and the 251-member listing is filed. | Review the staged structure for the intended comparison. |
 | Volynets bodily maps | The 11,651,171,442-byte Zenodo archive is held under CC BY 4.0. Provider MD5 matched. The archive lists 3,954 body-map files. | Use the exact background fields and paint-time and pixel-count pairs in the source field card. |
+| emBODY spatial template | The provider's display grid has 522 rows and 171 columns. The MATLAB demo records signed activation minus deactivation. The deposit contains a second raster and supplies no labelled anatomical atlas. | The [body-map design](design/stage-15/week8/BMP1.md) freezes the named-plane check and documents the six anatomical cores marked on the blank template. |
 | Wilming free viewing | Curator released the hold. Dryad returned HTTP 403. | The pinned 46-file plan retries after the host cooldown and the active serial transfer. |
 | CANDOR Raw and Tabular | Raw completion receipt covers 170 files. The v1.1 dictionary binds current before/after valence and arousal and six recalled periods. | The expanded attention item still needs the exact numeric export key. Speaker-linked laughter events remain open. |
 | Need 18 | K-EmoCon's held annotations cover all 32 targets on the five-second debate grid. openESM 0046 has event-level reports of the other person's feeling. | Confirm the K-EmoCon accepted terms and edition. The openESM release lacks simultaneous target self-report pairing. |
@@ -3143,6 +3156,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**OPS-S15-W8-LGH7-MEETING-ROLES.** Fixed one-second joining window, documented role assignments, whole-meeting bootstrap and within-meeting permutation. [Return](../results/phase_2_4_stage_15/WEEK8/LGH7_MEETING_ROLE_RETURN.md).
 
 **OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE.** The job verified both original SPSS files and reproduced the 7,108-person survey roster. It checked the repeated diary days and headers on an independent read. The single returned count is the whole survey. [Return](../results/phase_2_4_stage_15/WEEK8/SLD8_WAVE_ONE_STRUCTURE.md).
 

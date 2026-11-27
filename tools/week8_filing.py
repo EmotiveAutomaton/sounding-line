@@ -74,8 +74,12 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     topic=', '.join(evidence['claims'])
     tag='(test, '+ident+')'
     withheld = outcome == 'void'
-    kind = 'run' if withheld or progress is not None else 'claim'
-    control = 'no releasable result' if withheld else 'passes'
+    internal_only = outcome == 'restricted completion'
+    kind = 'run' if withheld or internal_only or progress is not None else 'claim'
+    control = 'verified restricted replay' if internal_only else 'no releasable result' if withheld else 'passes'
+    if internal_only and (evidence['estimate'] is not None or evidence['interval'] is not None or opposition
+                          or not receipt.get('internal_return_sha256')):
+        raise ValueError('Restricted completion requires a filed internal report and an operational public receipt')
     if withheld and (evidence['estimate'] is not None or evidence['interval'] is not None or opposition):
         raise ValueError('A void disposition cannot contain scientific estimates or opposition')
     if receipt.get('restricted'):
@@ -98,6 +102,8 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     reference = 'The exit code and disclosure decision are filed in the ' if withheld else 'The full comparison, original-source replay and limits are filed in the '
     if progress is not None:
         reference = 'The source check, original-source replay and scope are filed in the '
+    if internal_only:
+        reference = 'The completed internal report and replay are authenticated by the public '
     add(findings,'### '+ident,'### '+ident+'\n\n'+evidence['question']+'\n\n'+evidence['data']+' '+afterword+'\n\n'+
         reference+'[study return](results/phase_2_4_stage_15/WEEK8/'+stem+'.md).\n\n'+
         '**Curator roll-up.** '+topic+'. '+evidence['verdict']+' '+evidence['limit']+' '+next_step,front=True)

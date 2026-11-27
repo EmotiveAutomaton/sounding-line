@@ -1,5 +1,7 @@
 # Week 8 results
 
+OPS-S15-W8-LGH7-MEETING-ROLES. [Who joins a meeting leader’s laugh?](LGH7_MEETING_ROLE_RETURN.md).
+
 OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE. [First-wave MIDUS source check](SLD8_WAVE_ONE_STRUCTURE.md).
 
 OPS-S15-W8-TMP2-SOURCE-TRANSFER. [TMP2 source-check transfer](TMP2_SOURCE_TRANSFER.md).

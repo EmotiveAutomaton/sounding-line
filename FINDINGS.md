@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W8-LGH7-MEETING-ROLES
+
+Does another speaker join a meeting leader’s laugh more often?
+
+Original ICSI and AMI meeting annotations and documented roles. The ICSI records provide no rank field. AMI role labels allow a within-meeting comparison with a random-label reference.
+
+The completed internal report and replay are authenticated by the public [study return](results/phase_2_4_stage_15/WEEK8/LGH7_MEETING_ROLE_RETURN.md).
+
+**Curator roll-up.** T7. ICSI is void for rank. The AMI comparison is complete and filed internally. An assigned meeting role is an imperfect measure of rank. Leaders may speak more often. Carry the internal AMI interpretation and its limits into the restricted theory return.
+
 ### OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE
 
 Can the original first-wave diary link to the main survey on its documented keys?

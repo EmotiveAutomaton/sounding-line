@@ -1,0 +1,8 @@
+# Owner review of the archive reporting and spatial evidence
+
+| Delivery | Owner inspection | Disposition |
+|---|---|---|
+| DC-20261127-R48, SHA-256 `213986677623be17eda85f5a81edba7e87d10681dab22832035ca93315d14c16` | Verified six component hashes and the archive's 182-card check. The cumulative Tools patch targets an earlier revision and fails its context check. The current repository already records the acquisition and mount entries. | Incorporated the corrected reporting terms and credit for MIDUS, CANDOR and PANDORA. The MIDUS project conditions exclude cells smaller than ten and the installed project gate uses eleven. Archived reporting classes and study-specific release limits both apply. |
+| DC-20261127-BMP1, SHA-256 `d68ef74f33874a8337c7e0daa55dc8829923e58d673ae371b8435a27ec31b3f2` | Verified twelve component hashes, the applicable Tools patch, the original metadata headers and the provider MATLAB source. Inspected the blank crop and checked its dimensions against the mask. | Accepted the source geometry, display orientation and demo's signed difference. Kept the deposited raster and plane assignments conditional on their structural crosswalk. The six named regional cores are defined on the blank template in the study design. |
+
+The edition-specific agreements and source-quotation evidence stay with the archive. These reviews authorize no additional source, recording, compute or release. [MIDUS acknowledgments](https://midus.wisc.edu/citation-acknowledgement/) · [CANDOR Tabular](https://huggingface.co/datasets/betterup/candor-tabular) · [PANDORA source publication](https://aclanthology.org/2021.socialnlp-1.12/).

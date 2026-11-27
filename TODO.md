@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W8-LGH7-MEETING-ROLES. ICSI is void for rank. The AMI comparison is complete and filed internally.
+
 - [x] OPS-S15-W8-SLD8-WAVE-ONE-STRUCTURE. All linked diary people matched the original survey key and consistent observed family codes. Six daily feelings and all five released traits bind. The six comparable feelings and fifteen contrasts are qualified on the registered SLD3 operator.
 
 - [x] OPS-S15-W8-TMP2-SOURCE-TRANSFER. The SSH hash read stalled before submission. Zero invocations and zero CPU-seconds were charged. The identical qualified program is queued under a fresh transport identifier.
