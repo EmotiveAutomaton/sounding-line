@@ -1,4 +1,4 @@
-The ready list is empty with 5 free shared CPU slots. The remaining studies are in preparation or await the source or fixture named below. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
+The ready list is empty with 7 free shared CPU slots. The remaining studies are in preparation or await the source or fixture named below. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
 
 # Week 8 return
 
@@ -6,11 +6,11 @@ The ready list is empty with 5 free shared CPU slots. The remaining studies are 
 
 ## Against, and clear
 
-No filed public comparison yet meets this condition.
+- [LGH6 report](r48/LGH6.md). Against on icsi, against on ami. ICSI, heldout, voicing model 1, -0.125239 [-0.226345, -0.0164268] (52 people). Laughter that overlaps speech is not in the ICSI sample, and that may be a kind of its own. Joined laughs supply shorter measurement windows. A funnier moment may affect both voicing and joining, so this analysis cannot identify a causal effect.
 
 ## Study roster
 
-Read at 2026-11-27T21:07:27.632480+00:00 (UTC).
+Read at 2026-11-27T21:54:59.042752+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -18,7 +18,7 @@ Read at 2026-11-27T21:07:27.632480+00:00 (UTC).
 | LKG1 | Liking across conversations | Spark | landed | Void. Spark returned code 12 because no eligible comparison could be disclosed. | Sounding Line |
 | SLD6 | Trait by kind of daily stressor | Spark | landed | Void. All five trait jobs returned native code 12. No effect or contrast could be released. | Sounding Line |
 | SLD8 | Wave-one daily diary | Spark | landed | Does Neuroticism predict stressor reactivity in the first MIDUS diary? filed with its replay. | Sounding Line |
-| LGH6 | Voicing before another person joins a laugh | local | running | LGH6-AMI-prejoin-DN, LGH6-ICSI-prejoin-DN | Sounding Line |
+| LGH6 | Voicing before another person joins a laugh | local | landed | Does more voiced laughter predict another speaker joining within one second? filed with its replay. | Sounding Line |
 | ACC1 | Acceleration in game outcomes | local | landed | Does a change in reward trajectory predict first-play happiness? filed with its replay. | Sounding Line |
 | ADP1 | How good and bad surprises fade | local | landed | Do bad surprises fade more slowly than good surprises? filed with its replay. | Sounding Line |
 | RML1 | Room level before laughter | local | landed | Does a steady room level predict when laughter starts? filed with its replay. | Sounding Line |
@@ -42,6 +42,7 @@ Read at 2026-11-27T21:07:27.632480+00:00 (UTC).
 - [LKG1 report](r48/LKG1.md). Void. The native job returned code 12 before writing a table. Stable use of the rating scale and differences in likability can mimic repeated bias.
 - [SLD6 report](r48/SLD6.md). Void. Every trait fit exited on the native disclosure or support branch before a numerical return. Rare stressors yield few people with estimable slopes.
 - [SLD8 report](r48/SLD8.md). Partial support. Neuroticism and stressor reactivity, mean of six feelings, 0.482981 [0.232209, 0.696669] (585 people). The same daily interview measures the stressor and the feeling. Only six feeling items bind across waves.
+- [LGH6 report](r48/LGH6.md). Against on icsi, against on ami. ICSI, heldout, voicing model 1, -0.125239 [-0.226345, -0.0164268] (52 people). Laughter that overlaps speech is not in the ICSI sample, and that may be a kind of its own. Joined laughs supply shorter measurement windows. A funnier moment may affect both voicing and joining, so this analysis cannot identify a causal effect.
 - [ACC1 report](r48/ACC1.md). Positive. All players, one fading rate, 0.00300221 [0.00248818, 0.003528] (12715 people). A rating comes every two or three trials. The last three rewards can reach before the previous rating. The preflight also found excess positive readings under a scale ceiling.
 - [ADP1 report](r48/ADP1.md). Positive. All players, bad minus good fading rate, 0.2 [0.2, 0.25] (12715 people). A few minutes of a game is not a life. The rating scale has ends, and uncertainty is on the registered discrete grid.
 - [RML1 report](r48/RML1.md). Undecided. ICSI, room, absolute change, -0.0558938 [-0.238486, 0.134813] (75 meetings). Sound level and speech pace stand in for stress. Laughs are loud and cluster in time. Excluding a whole meeting for an untimed laugh removed the entire AMI sample.
@@ -58,14 +59,13 @@ Read at 2026-11-27T21:07:27.632480+00:00 (UTC).
 
 ## Limits for open rows
 
-- LGH6. Speech-overlapping laughs are excluded on ICSI. A funnier moment can change both voicing and the chance that another person joins.
 - TMP2. Posted trait scores come from different tests with mixed original units. The exclusion rule may miss a community.
 - ATL2. Repeated splits reuse the same diaries. Member 0049 is reported separately.
 - TMP3. The engine learned from writing. A machine transcribed these spoken turns.
 
 ## Sealed invocations
 
-14 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 349,960.0 seconds.
+14 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 161,795.1 seconds.
 
 - LKG1, LKG1-liking-gap. Exit 4. Native study exit 12.
 - LKG2, LKG2-speaker-traits-standing-DN. Exit 0.

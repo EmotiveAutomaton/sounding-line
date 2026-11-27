@@ -1,6 +1,6 @@
 # Stage 15 · Week 8
 
-The ready list is empty with 5 free shared CPU slots. The remaining studies are in preparation or await the source or fixture named below. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
+The ready list is empty with 7 free shared CPU slots. The remaining studies are in preparation or await the source or fixture named below. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -8,7 +8,7 @@ The ready list is empty with 5 free shared CPU slots. The remaining studies are 
 | LKG1 | Liking across conversations | Spark | landed | Void. Spark returned code 12 because no eligible comparison could be disclosed. | Sounding Line |
 | SLD6 | Trait by kind of daily stressor | Spark | landed | Void. All five trait jobs returned native code 12. No effect or contrast could be released. | Sounding Line |
 | SLD8 | Wave-one daily diary | Spark | landed | Does Neuroticism predict stressor reactivity in the first MIDUS diary? filed with its replay. | Sounding Line |
-| LGH6 | Voicing before another person joins a laugh | local | running | LGH6-AMI-prejoin-DN, LGH6-ICSI-prejoin-DN | Sounding Line |
+| LGH6 | Voicing before another person joins a laugh | local | landed | Does more voiced laughter predict another speaker joining within one second? filed with its replay. | Sounding Line |
 | ACC1 | Acceleration in game outcomes | local | landed | Does a change in reward trajectory predict first-play happiness? filed with its replay. | Sounding Line |
 | ADP1 | How good and bad surprises fade | local | landed | Do bad surprises fade more slowly than good surprises? filed with its replay. | Sounding Line |
 | RML1 | Room level before laughter | local | landed | Does a steady room level predict when laughter starts? filed with its replay. | Sounding Line |
