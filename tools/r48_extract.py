@@ -73,7 +73,7 @@ def public_sources():
     d=verified('UGM1-EPE-responder-*')
     rows=[]
     for k,label,i,sign in [('offer','Valence, offer',0,'descriptive'),('gap','Valence, expectation gap',0,'positive'),
-                            ('change','Valence, offer change',0,'descriptive'),('larger_negative_gap','Arousal, negative surprise magnitude',2,'positive'),
+                            ('change','Valence, offer change',0,'positive'),('larger_negative_gap','Arousal, negative surprise magnitude',2,'positive'),
                             ('larger_positive_gap','Arousal, positive surprise magnitude',1,'positive')]:
         v=d['terms'][k]
         model=d['models'][i]

@@ -96,6 +96,10 @@ def inventory_ids():
 
 def build(check=False):
     specs = json.loads(SPECS.read_text(encoding='utf8'))
+    extra=json.loads((OUT/'earlier.json').read_text(encoding='utf8'))
+    if specs.keys() & extra.keys():
+        raise ValueError('Duplicate study registration')
+    specs.update(extra)
     locks = json.loads(SEALED.read_text(encoding='utf8'))
     if set(locks) != {k for k,s in specs.items() if s['class'] == 'S'}:
         raise ValueError('Missing or unregistered sealed publication')
@@ -116,14 +120,16 @@ def build(check=False):
             headline = f"{r['quantity']}: {effect(r)}, {r['size']} {r['unit']}"
         digest.append(f"| {key} | {s['week']} | {s['short']} | {s['verdict']} | {headline} | {s['limit']} | {s['status']} | [Report](r48/{key}.md) |")
     missing = [key for key in inventory_ids() if key not in specs]
-    digest += ['', f'{len(missing)} earlier inventory entries await a report. Their aggregate sheets or original withholding receipts need reconciliation. [Earlier inventory](HELD_RESULTS_INVENTORY.md).']
+    status = (f'{len(missing)} earlier entries await reconciliation of the aggregate sheets or withholding receipts.'
+              if missing else 'Every inventoried earlier entry has a report.')
+    digest += ['', status + ' [Earlier inventory](HELD_RESULTS_INVENTORY.md).']
     expected[DIGEST] = '\n'.join(digest) + '\n'
     for path, content in expected.items():
         data = content.encode('utf8')
         if check:
             if not path.is_file() or path.read_bytes() != data:
                 raise ValueError(f'Generated report differs: {path.name}')
-        else:
+        elif not path.is_file() or path.read_bytes() != data:
             path.write_bytes(data)
     print(f'{len(specs)} reports, {len(locks)} class S checks, {len(missing)} earlier entries awaiting reports')
 

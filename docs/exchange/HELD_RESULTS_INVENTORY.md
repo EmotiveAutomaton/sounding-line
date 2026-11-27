@@ -34,6 +34,12 @@ The Week 7 final return supplies the first group. The following group covers ear
 | BT-0049-effort | 6 | P | [Helping-effort internal numerical record](../../results/phase_2_4_stage_15/WEEK5/BT_0049_EFFORT_FILING_20261122.md) | Report four outcomes among helping episodes, outside PST9. |
 | BT-0049-occurrence | 6 | P | [Helping-occurrence checkpoint](../../results/phase_2_4_stage_15/WEEK5/BT_0049_OCCURRENCE_CHECKPOINT_20261121.md) | Locate the recorded occurrence quantities and their replay. |
 
+| LGH1-ICSI | 7 | P | [Original acoustic groups and six aggregate tables](../../results/phase_2_4_stage_15/WEEK7/LGH1_ICSI_ACOUSTICS.md) | Report every retained group statistic and identify the profiles absent from the original output. |
+| SMF1-original-M2 | 6 | S | [First two-wave sealed disposition](../../results/phase_2_4_stage_15/WEEK5/MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.md) | Report the original second-wave code separately from the later three-run recovery. |
+| SMF1-original-M3 | 6 | S | [First two-wave sealed disposition](../../results/phase_2_4_stage_15/WEEK5/MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.md) | Report the original third-wave code and the dependence on the reconstructed second-wave roster. |
+
+The opening inventory contained 29 entries. A search of 2,123 tracked result documents identified the three additional entries above. The [frozen lattice](../../results/phase_2_4_stage_15/WEEK5/LT1_FROZEN_LATTICE_20261122.md) cites the same MIDUS outputs. Source-binding failures, superseded plans, and references to an already listed numerical sheet do not add another study. The [digest](HELD_RESULTS_DIGEST.md) links the released measurements and dispositions for each entry.
+
 Class P describes a publicly obtainable source. Class S describes a source held under agreement. For class S, the original gate controls which aggregate tables can supply a figure. A native withholding, a failed fit and an absent source have distinct meanings. The separate allowance for this reporting pass is ten sealed invocations.
 
 [Week 7 final return](../../results/phase_2_4_stage_15/WEEK7/FINAL_THEORY_RETURN_20261127.md) · [Ruling R48](../design/stage-15/RULING_R48.md)
