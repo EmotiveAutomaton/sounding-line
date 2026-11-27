@@ -476,5 +476,22 @@
     "withheld": "Both corpus counts and every fitted coefficient are reported. No ICSI sound-only fit or AMI model met the registered model requirements. Code 12 records an unavailable fit.",
     "headline": "ICSI, room, absolute change",
     "status": "in full"
+  },
+  "LGH6": {
+    "week": 8,
+    "class": "P",
+    "record": "results/phase_2_4_stage_15/WEEK8/LGH6_R48_RETURN.md",
+    "question": "Does more voiced laughter predict another speaker joining within one second?",
+    "short": "Does more voiced laughter predict another speaker joining within one second?",
+    "prediction": "The registered prediction is that a speaker’s more voiced laughs are more likely to draw another speaker into laughter.",
+    "source": "ICSI Meeting Corpus (Janin et al., 2003) and AMI Meeting Corpus (Carletta et al., 2005), including OpenSLR SLR16 under its modified CC BY-NC-SA terms. Each corpus has a separate fit.",
+    "sample": "ICSI comprised 75 source meetings, with 52 speakers and 75 meetings in the held-out panel. AMI comprised 171 source meetings, with 184 speakers and 171 meetings in the held-out panel.",
+    "method": "Measure the voiced fraction of active sound before a join. Exclude intervals with under 200 ms of active sound. On the original held-out laughs fit a within-speaker linear probability model, then add level and prior laughter, then meeting effects. A coefficient is the probability difference per unit of voiced fraction. Repeat descriptively on all eligible laughs. Use 2,000 whole-meeting draws for intervals and 1,000 within-speaker, within-meeting shuffles for the first model. The control rows give the 95th percentile and the upper-tail permutation probability. The earlier ICSI component profile uses whole annotated utterances.",
+    "verdict": "against on ICSI, against on AMI",
+    "basis": "The ICSI held-out within-speaker coefficient was -0.125 (95% interval -0.226 to -0.016). All three held-out intervals lay below zero. All three descriptive ICSI intervals using all eligible laughs included zero. The AMI held-out within-speaker coefficient was -0.073 (95% interval -0.149 to -0.001). All three held-out intervals lay below zero. The earlier ICSI component made up about 4.2% of held-out laughs. Its targets’ mean speaking share fell by about 8.2 percentage points. These descriptive statistics and its six acoustic means come from previously released tables; they have no registered intervals.",
+    "limit": "Laughter that overlaps speech is not in the ICSI sample, and that may be a kind of its own. Joined laughs supply shorter measurement windows. A funnier moment may affect both voicing and joining, so this analysis cannot identify a causal effect.",
+    "withheld": "All released models, shuffle controls and short-interval counts are filed. The earlier sound profile is available for ICSI component 3 only. Its acoustic means describe 34 speakers; the target speaking-share comparison used 21.",
+    "headline": "ICSI, heldout, voicing model 1",
+    "status": "in full"
   }
 }

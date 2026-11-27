@@ -3,7 +3,35 @@ import json
 
 import pytest
 
-from tools.r48_week8_tables import atlas_tables, meeting_tables
+from tools.r48_week8_tables import atlas_tables, historical_laugh_profile, meeting_tables
+from tools.r48_confirm import meeting_terminals
+
+
+def test_historical_profile_preserves_the_two_published_denominators():
+    rows = historical_laugh_profile()
+    assert len(rows) == len({r[0] for r in rows}) == 10
+    change, = [r for r in rows if r[0].endswith('target speaking share change')]
+    duration, = [r for r in rows if 'annotated utterance length' in r[0]]
+    assert change[1] < 0 and change[4:6] == [21, 'people']
+    assert duration[1] > 0 and duration[4:6] == [34, 'people']
+
+
+def test_remote_landing_checks_the_sibling_terminal(tmp_path):
+    receipts = {}
+    for name in ('ICSI', 'AMI'):
+        unit = f'LGH6-{name}-prejoin-DN'
+        d = tmp_path/unit
+        d.mkdir()
+        data = dict(unit=unit, card='LGH6', verified=True, review_sha256='review',
+                    results={'execute_SUMMARY.json':'a','verify_SUMMARY.json':'a'})
+        terminal = d/'COMPLETE.json'
+        terminal.write_text(json.dumps(data))
+        receipts[name] = dict(unit=unit, review_sha256='review', results=data['results'],
+                              terminal_sha256=hashlib.sha256(terminal.read_bytes()).hexdigest())
+    assert len(meeting_terminals('LGH6', {'corpora':receipts}, tmp_path)) == 2
+    receipts['AMI']['terminal_sha256'] = 'different'
+    with pytest.raises(ValueError, match='differs: AMI'):
+        meeting_terminals('LGH6', {'corpora':receipts}, tmp_path)
 
 
 def terminal(root, card, corpus, data):

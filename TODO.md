@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] S15-W8-LGH6-R48. The ICSI held-out within-speaker coefficient was -0.125 (95% interval -0.226 to -0.016). All three held-out intervals lay below zero. All three descriptive ICSI intervals using all eligible laughs included zero. The AMI held-out within-speaker coefficient was -0.073 (95% interval -0.149 to -0.001). All three held-out intervals lay below zero. The earlier ICSI component made up about 4.2% of held-out laughs. Its targets’ mean speaking share fell by about 8.2 percentage points. These descriptive statistics and its six acoustic means come from previously released tables; they have no registered intervals.
+
 - [x] S15-W8-RML1-R48. In the 75 ICSI meetings the intervals for absolute change, mean level and a high followed by a fall all included zero. Every AMI meeting had an untimed laugh annotation, preventing a separate AMI estimate.
 
 - [x] S15-W8-LAG2-R48. The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians.

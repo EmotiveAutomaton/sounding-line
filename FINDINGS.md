@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-W8-LGH6-R48
+
+Does more voiced laughter predict another speaker joining within one second?
+
+ICSI Meeting Corpus (Janin et al., 2003) and AMI Meeting Corpus (Carletta et al., 2005), including OpenSLR SLR16 under its modified CC BY-NC-SA terms. Each corpus has a separate fit. The ICSI held-out within-speaker coefficient was -0.125 (95% interval -0.226 to -0.016). All three held-out intervals lay below zero. All three descriptive ICSI intervals using all eligible laughs included zero. The AMI held-out within-speaker coefficient was -0.073 (95% interval -0.149 to -0.001). All three held-out intervals lay below zero. The earlier ICSI component made up about 4.2% of held-out laughs. Its targets’ mean speaking share fell by about 8.2 percentage points. These descriptive statistics and its six acoustic means come from previously released tables; they have no registered intervals. ICSI, heldout, voicing model 1 = -0.125239 [-0.226345, -0.0164268] (52 people). Laughter that overlaps speech is not in the ICSI sample, and that may be a kind of its own. Joined laughs supply shorter measurement windows. A funnier moment may affect both voicing and joining, so this analysis cannot identify a causal effect.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/LGH6_R48_RETURN.md).
+
+**Curator roll-up.** S6, T7. The ICSI held-out within-speaker coefficient was -0.125 (95% interval -0.226 to -0.016). All three held-out intervals lay below zero. All three descriptive ICSI intervals using all eligible laughs included zero. The AMI held-out within-speaker coefficient was -0.073 (95% interval -0.149 to -0.001). All three held-out intervals lay below zero. The earlier ICSI component made up about 4.2% of held-out laughs. Its targets’ mean speaking share fell by about 8.2 percentage points. These descriptive statistics and its six acoustic means come from previously released tables; they have no registered intervals. Laughter that overlaps speech is not in the ICSI sample, and that may be a kind of its own. Joined laughs supply shorter measurement windows. A funnier moment may affect both voicing and joining, so this analysis cannot identify a causal effect. All released models, shuffle controls and short-interval counts are filed. The earlier sound profile is available for ICSI component 3 only. Its acoustic means describe 34 speakers; the target speaking-share comparison used 21.
+
 ### S15-W8-RML1-R48
 
 Does a steady room level predict when laughter starts?

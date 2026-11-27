@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from r48_extract import checked, csvrows, read, row, write, RAW8
+from r48_extract import BASE, checked, csvrows, read, row, write, RAW8
 
 
 def replay(directory, terminal):
@@ -150,6 +150,35 @@ def meeting_tables(card, root=RAW8):
     return rows
 
 
+def historical_laugh_profile():
+    """Join prior public component-level tables without matching speakers or individual laughs."""
+    week7 = BASE/'WEEK7'
+    fractions, = csvrows(checked(week7/'LGH1_ICSI_ACOUSTICS_fractions.csv',
+                                 '1df3f697ed60f51d5150c2f37edfb1e0699c920c4376dc7f87caac3be4d6774a'))
+    target, = csvrows(checked(week7/'LGH1_ICSI_ACOUSTICS_target_minutes.csv',
+                              'ec9e50b1c570425aef2cc5449d17cf1e9b1b3a255eaec3107cf0c8af397a7e09'))
+    context = csvrows(checked(week7/'LGH3_ICSI_CONTEXT_RETURN_component_context.csv',
+                              '23d5486993fcbfc806617875cdb13b69b2c46219c9bef20115204a6245f6bb55'))
+    component = fractions['component']
+    if (not context or not 0 < float(fractions['share']) < .1 or float(target['share_change']) >= 0
+            or target['component'] != component or any(r['component'] != component for r in context)):
+        raise ValueError('Prior releases do not bind the same small component with falling target share')
+    label = f'ICSI, earlier component {component}, '
+    result = [row(label+'share of held-out laughs', float(fractions['share']), None, int(fractions['n']))]
+    for field in ('share_before','share_after','share_change'):
+        result.append(row(label+'target speaking '+field.replace('_',' '), float(target[field]), None, int(target['n'])))
+    fields = {'duration_seconds':'annotated utterance length, seconds', 'bursts':'bursts',
+              'voiced_fraction':'voiced fraction', 'relative_pitch_semitones':'relative pitch, semitones',
+              'pitch_iqr_semitones':'pitch interquartile range, semitones', 'relative_level_db':'relative level, dB'}
+    for key, description in fields.items():
+        values = {(r[key], r['n']) for r in context}
+        if len(values) != 1:
+            raise ValueError('Earlier component profile differs between context tables')
+        value, count = values.pop()
+        result.append(row(label+description, float(value), None, int(count)))
+    return result
+
+
 def atlas_tables(directory, terminal):
     name='ATLAS_COMPLETE.json'
     audit=read(checked(directory/name,terminal['results'][name]))
@@ -187,7 +216,9 @@ SEALED = {'SLD8':('trait.csv','contrast','110','Neuroticism and stressor reactiv
 def project(card, directory, terminal):
     if card=='LAG2':
         return lag_tables()
-    if card in ('LGH6','RML1'):
+    if card=='LGH6':
+        return meeting_tables(card) + historical_laugh_profile()
+    if card=='RML1':
         return meeting_tables(card)
     if card=='ATL2':
         return atlas_tables(directory,terminal)
