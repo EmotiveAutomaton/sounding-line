@@ -14,4 +14,4 @@ The job returned no numerical rows. Estimate, interval and analytical sample siz
 
 **Withholding and release condition.** Native code 12 in all five trait jobs. A preregistered form needs adequate support and distinct-person disclosure clearance inside the seal.
 
-[Released table](SLD6.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK8/SLD6_TRAIT_STRESSOR_RETURN.md)
+[Released table](SLD6.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK8/SLD6_TRAIT_STRESSOR_RETURN.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

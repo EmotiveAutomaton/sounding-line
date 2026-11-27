@@ -13,7 +13,7 @@ from runners.stage14.common import filehash,freeze,read
 from runners.drive.sealed import week8_package as bundle
 from runners.drive.sealed.week6_sc1_counts_v1 import PINS
 
-UNIT='LKG2-speaker-traits-standing'
+UNIT='LKG2-speaker-traits-standing-DN'
 CAP=20000
 STUDY=bundle.LIB/'week8_lkg2.py'
 TRAITS=('extraversion','agreeable','conscientious','neurotic','open')
@@ -63,7 +63,7 @@ def main():
     df['you_like_me']=df.my_extraversion+1
     df['i_think_your_status']=5.
     df['you_think_my_status']=df.my_extraversion+3.
-    spec=[STUDY,*prior.MODULES]
+    spec=[STUDY,*prior.MODULES,bundle.LIB/'r48_forms.py']
     def test(name):
         file=mount/'surveys/survey.parquet'
         pq.write_table(pa.Table.from_pandas(df,preserve_index=False),file)
@@ -86,7 +86,7 @@ def main():
     if set(other)!=set(rows)-{4}:
         raise ValueError('Unbound trait incorrectly affected another component')
     proof=scratch/'REHEARSAL.json'
-    freeze(proof,dict(constructed=True,people=160,checks=['two-way keys','sender and receiver roles','stability orientation','standing repeat',
+    freeze(proof,dict(constructed=True,people=160,forms=['fine','coarse','summary'],distinct_people_checked=True,checks=['two-way keys','sender and receiver roles','stability orientation','standing repeat',
             'single-field refusal','historical release membership','independent source replay','installed gate'],output=filehash(scratch/'planted/comparisons.csv')))
     plan=dict(pin=PINS['survey'],previous=real_known,trait_counts=census_counts,draws=2000)
     source=bundle.package(STUDY,spec,plan,CAP)

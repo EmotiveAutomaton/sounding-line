@@ -5,6 +5,14 @@ description: THE GRIND NEVER STOPS — the standing loop for processing this pro
 
 # The grind never stops
 
+**R48 statistical reports (amendment DN).** Apply the approved ruling at
+`docs/design/stage-15/RULING_R48.md` to current and earlier results. A completed
+row needs its seven-part public report and released numerical table on the remote.
+Run `python tools/r48_reports.py --check` before publishing. Rebuild the digest
+at each return. After pushing, run `python tools/r48_confirm.py` to verify the remote reports and close pending rows. For sealed work, qualify the fine, coarse and pooled forms and
+count distinct contributors inside the seal before using the installed gate.
+An earlier internal-only notation describes the handling of the source data.
+
 **Research admission, curator instruction November 19:** Git staging, commit
 and push are not prerequisites for authorized local research. A card is ready
 after owner review of its exact design/source hashes and a passed native fixture,

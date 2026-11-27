@@ -18,4 +18,4 @@
 
 **Withholding and release condition.** The expanded fit requires the attention-item export key and missing-value codes.
 
-[Released table](CAD1.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/CAD1_PRIMARY_RETURN_20261125.md)
+[Released table](CAD1.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/CAD1_PRIMARY_RETURN_20261125.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

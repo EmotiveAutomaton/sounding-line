@@ -6,6 +6,10 @@
 
 **Registered quantities.** Compare observed fraction of variance explained with its within-corpus shuffle threshold. Descriptive component means and rates follow. No confidence interval was registered for these comparisons.
 
+Recent laughter, explained fraction: 0.0154967 (52 people).
+
+<details><summary>All 36 released quantities</summary>
+
 | Quantity | Estimate [interval] | Size and unit | Observations | Reading |
 |---|---:|---|---:|---|
 | Recent laughter, component 3, rate | 0.666667 | 34 people | — | Descriptive |
@@ -44,6 +48,8 @@
 | Speech after laugh, shuffle threshold | 0.00288349 | 52 people | — | Control |
 | Last third of meeting, explained fraction | 0.00140703 | 52 people | — | Descriptive |
 | Last third of meeting, shuffle threshold | 0.00256719 | 52 people | — | Control |
+
+</details>
 
 **Verdict — met.** The first three facts crossed their shuffle thresholds and the last-third control stayed below.
 

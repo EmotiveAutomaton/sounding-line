@@ -135,7 +135,7 @@ Unchanged and in force: no analysis by sex is made, and no demographic column is
 
 - **Build.** In the meeting-sound job, the per-laugh measure is extended to take a part of a laugh, and a table with one line a laugh is kept inside the job: laugher, meeting, voicing before a join, level over the same frames, the count of other speakers' laugh starts in the sixty seconds before (leaving out the three seconds just before), and joined or not.
 - **Quantities.** Whether a laugh was joined, on its voicing before a join, with each laugher's own means taken off. Then with level and the count of earlier laughs held. Then with each meeting's means taken off as well. A shuffle of voicing among one laugher's laughs in one meeting, 1,000 times, gives the null. The registered reading is on LGH1's held-out half of laughs, as the handoff asks; the same on all laughs is filed beside it.
-- **Sources.** The first meeting set (75 meetings). The second (171 meetings), where a table that fails that corpus's release check is void with its code, and a table its terms restrict is filed internal.
+- **Sources.** The first meeting set (75 meetings). The second (171 meetings), with its table reported by ruling R48. Record any scientific support failure with its code.
 - **Also filed, from LGH1's and LGH3's released component tables.** The sound profile of the small group after which the target's share of talk fell, where that profile is releasable.
 - **Registered (print's: Bachorowski and Owren 2001; and across laughers in this corpus, Laskowski and Burger 2007).** More voicing, more joiners.
 - **Registered (the results thread's).** It holds inside a laugher, so the groups are not only people.
@@ -214,7 +214,7 @@ Unchanged and in force: no analysis by sex is made, and no demographic column is
 ### ATL2. The atlas in two halves (the analyst's)
 
 - **Build.** Each cell of the pooled atlas of 23 November again in two random halves of a diary's people, ten splits by seed.
-- **Filed.** For each cell, in how many of the ten splits both halves had the same sign with both intervals clear of zero. Then the list of cells that did so in eight or more, by event family and feeling family. Member 0049 stays internal.
+- **Filed.** For each cell, in how many of the ten splits both halves had the same sign with both intervals clear of zero. Then the list of cells that did so in eight or more, by event family and feeling family. Report member 0049 by ruling R48.
 - **Why.** The atlas has 976 rows. The theory thread needs to know which of them to lean on.
 
 ### LAG2. Member 0057's lag cells (the analyst's)
@@ -293,7 +293,7 @@ Added to `docs/exchange/` as the Week 8 return, pushed when a row lands and at l
 1. The first line: whether the ready list is empty beside a free slot, and why.
 2. "Against, and clear."
 3. The row status table: landed, running, ready, or blocked with its one input and its owner.
-4. One line a row with its verdict word, its number where the terms allow one, and its limit sentence.
+4. One line a row with its verdict word, its numbers, by ruling R48, and its limit sentence.
 5. Sealed runs used, of thirty, with each run's code.
 6. ADM2's census.
 
@@ -304,3 +304,7 @@ Added to `docs/exchange/` as the Week 8 return, pushed when a row lands and at l
 - This sheet registers about thirty guesses. One or two will clear by chance.
 - The gap, the gates and the room level each stand in for something the theory names and no source measures. The limit sentences say which.
 - Rows marked as the analyst's are not in the handoff. The curator can strike any of them in his message.
+
+## Amendment DN. Public reports
+
+[Ruling R48](../RULING_R48.md) governs every row. Landing requires a pushed section 5 report. Before launch each sealed job registers its fine, coarse and pooled forms. The return opens with the ready list, free capacity and reasons, any missing in-seal cell-count capability, and the count and reason for earlier reports outstanding. Section 7 has a separate allowance of ten sealed invocations. The [inventory](../../../exchange/HELD_RESULTS_INVENTORY.md) and [digest](../../../exchange/HELD_RESULTS_DIGEST.md) track the retrospective pass.

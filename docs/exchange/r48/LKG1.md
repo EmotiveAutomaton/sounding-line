@@ -14,4 +14,4 @@ The job returned no numerical rows. Estimate, interval and analytical sample siz
 
 **Withholding and release condition.** Code 12 covers source support or disclosure. A supported in-seal comparison that passes the distinct-person and complementary-disclosure checks could release an estimate.
 
-[Released table](LKG1.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK8/LKG1_LIKING_GAP_DISPOSITION.md)
+[Released table](LKG1.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK8/LKG1_LIKING_GAP_DISPOSITION.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

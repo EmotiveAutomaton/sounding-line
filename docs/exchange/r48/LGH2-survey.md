@@ -17,4 +17,4 @@
 
 **Withholding and release condition.** Testing the event-level prediction requires timed speaker-linked laughter.
 
-[Released table](LGH2-survey.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/LGH2_CANDOR_SURVEY_RETURN_20261125.md)
+[Released table](LGH2-survey.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/LGH2_CANDOR_SURVEY_RETURN_20261125.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

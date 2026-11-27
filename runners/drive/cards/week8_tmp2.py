@@ -16,14 +16,14 @@ from runners.drive.sealed import week8_package as package
 from runners.stage14.common import filehash, freeze, read
 from tools.week8_sealed import GATE, HOST, STATE
 
-FIXTURE = 'TMP2-TP58-original-archive-fixture'
-UNIT = 'TMP2-DJ-TP58-reader'
+FIXTURE = 'TMP2-TP58-original-archive-fixture-DN'
+UNIT = 'TMP2-DJ-TP58-reader-DN'
 MANIFEST_DIGEST = 'f2a7a8eb109f9691394305b2409ceede434d0761bc97e328c41d04c677868752'
 RECEIPT_DIGEST = '524294e81cfc0076a755c35f53c2578798f86428aa9b0068fe650cb8f17ab243'
 ALIAS = 'pandora-tmp2-tp58'
 PRODUCER = gear.REPO/'.agent-state/drive-20261115/week7-phase1/TP58-delivery-a'
 STUDY = package.LIB/'week8_tmp2_reader.py'
-MODULES = [STUDY, package.LIB/'week8_tmp2_source.py', package.LIB/'week7_tmp1_shell.py']
+MODULES = [STUDY, package.LIB/'week8_tmp2_source.py', package.LIB/'week7_tmp1_shell.py', package.LIB/'r48_forms.py']
 NOTE = gear.REPO/'docs/design/stage-15/week8/TMP2_READER.md'
 MAPPING = gear.REPO/'docs/design/stage-15/week8/TMP2_MAPPING.md'
 BINDING = STATE/'TMP2_DJ_BINDING.json'
@@ -150,6 +150,7 @@ def run(unit, directory, mode):
             raise ValueError('Two separately sized synthetic cohorts must be recovered')
         freeze(directory/'REHEARSAL.json',dict(constructed_only=True,producer_manifest=MANIFEST_DIGEST,
                archive_merge_receipt=RECEIPT_DIGEST,subject_counts=[48,32],aggregate_rows=tables,
+               forms=['fine','coarse','summary'],distinct_people_checked=True,
                independent_projection_and_reader_replay=True,installed_gate_passed=True))
 
 

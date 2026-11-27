@@ -17,10 +17,11 @@ from runners.drive.cards import week8_gear as gear
 from runners.drive.sealed import week8_package as bundle
 from runners.stage14.common import filehash, freeze, read
 
-UNIT='TMP2-DJ-archive-counts'
+UNIT='TMP2-DJ-archive-counts-DN'
 CAP=4000
-STUDY=bundle.LIB/'week8_tmp2_source.py'
+STUDY=bundle.LIB/'week8_tmp2_counts_dn.py'
 SHELL=bundle.LIB/'week7_tmp1_shell.py'
+MODULES=[STUDY,SHELL,bundle.LIB/'week8_tmp2_source.py',bundle.LIB/'r48_forms.py']
 TRAITS=('Openness','Extraversion','Agreeableness','Conscientiousness','Neuroticism')
 DESIGN=ROOT/'docs/design/stage-15/week8/TMP2_MAPPING.md'
 NOTES=ROOT/'docs/design/stage-15/week8/TMP2_PROJECTION.md'
@@ -87,7 +88,7 @@ def build():
         mount=base/(label+'-source');out=base/(label+'-output');out.mkdir()
         pins=fixture(mount,label)
         run=base/(label+'.py')
-        run.write_bytes(bundle.package(STUDY,[STUDY,SHELL],dict(files=pins,real_image=False),CAP,fixture=True))
+        run.write_bytes(bundle.package(STUDY,MODULES,dict(files=pins,real_image=False),CAP,fixture=True))
         rc=subprocess.run([sys.executable,'-B',str(run),str(mount),str(out)]).returncode
         if rc!=code:raise ValueError('Bad fixture exit '+label+': '+str(rc))
         if code:
@@ -115,17 +116,18 @@ def build():
         if read(rec)!=mapped:raise ValueError('Existing binding differs')
     else:freeze(rec,mapped)
     ev=base/'REHEARSAL.json'
-    freeze(ev,dict(constructed=True,small_or_neighboring_counts_suppressed=True,known_scored=72,known_kept=36,
+    freeze(ev,dict(constructed=True,forms=['fine','coarse','summary'],distinct_people_checked=True,small_or_neighboring_counts_suppressed=True,known_scored=72,known_kept=36,
                   projected_latest_thousand=True,known_floor=True,header_refusal=22,range_refusal=24,
                   aggregate_sha256=filehash(base/'valid-output/counts.csv')))
     target=STATE/'sealed'/UNIT/'run.py'
     target.parent.mkdir(parents=True,exist_ok=True)
-    raw=bundle.package(STUDY,[STUDY,SHELL],dict(files=files,real_image=True),CAP)
+    raw=bundle.package(STUDY,MODULES,dict(files=files,real_image=True),CAP)
     if target.exists() and target.read_bytes()!=raw:raise ValueError('Existing entry differs')
     if not target.exists():target.write_bytes(raw)
-    pins=[STUDY,SHELL,Path(bundle.__file__),bundle.SUPPORT,bundle.RELEASE,Path(gear.__file__),gear.AUTHORITY,DESIGN,NOTES,source,
+    pins=[*MODULES,Path(bundle.__file__),bundle.SUPPORT,bundle.RELEASE,Path(gear.__file__),gear.AUTHORITY,DESIGN,NOTES,source,
           schema,terms,rec,ev,HOST,GATE,Path(__file__).resolve(),ROOT/'tools/week8_spark.ps1',ROOT/'tools/week8_sealed.py',target]
-    freeze(STATE/'reviews'/(UNIT+'.json'),dict(unit=UNIT,card='TMP2',source=original['source_alias'],cap=CAP,tables=['counts.csv'],
+    freeze(STATE/'reviews'/(UNIT+'.json'),dict(unit=UNIT,card='TMP2',source=original['source_alias'],cap=CAP,tables=['counts.csv','summary.csv'],
+        r48=dict(entry_sha256=filehash(target),rehearsal=str(ev),ruling=gear.RULING_SHA256),
         receipt_sha256=filehash(rec),provider_binding_sha256=filehash(DESIGN),fixture_gate_passed=True,fixture_sha256=filehash(ev),pins={str(p):filehash(p) for p in pins}))
     print('TMP2 DJ original archive count job rehearsed.',filehash(target))
 

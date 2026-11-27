@@ -77,15 +77,24 @@ def render(key, s, rows):
              f"**Source and sample.** Class {s['class']}. {s['source']} {s['sample']}", '',
              '**Registered quantities.** ' + s['method'], '']
     if rows:
+        folded = len(rows) > 30
+        if folded:
+            first = next((r for r in rows if r['quantity'] == s.get('headline')), rows[0])
+            lines += [f"{first['quantity']}: {effect(first)} ({first['size']} {first['unit']}).",
+                      '', f'<details><summary>All {len(rows)} released quantities</summary>', '']
         lines += ['| Quantity | Estimate [interval] | Size and unit | Observations | Reading |',
                   '|---|---:|---|---:|---|']
         for r in rows:
             lines.append(f"| {r['quantity']} | {effect(r)} | {r['size']} {r['unit']} | {r['observations'] or '—'} | {relation(r)} |")
+        if folded:
+            lines += ['', '</details>']
     else:
         lines.append('The job returned no numerical rows. Estimate, interval and analytical sample size are unavailable.')
     lines += ['', f"**Verdict — {s['verdict']}.** {s['basis']}", '', '**Limit.** ' + s['limit'], '',
               '**Withholding and release condition.** ' + s['withheld'], '',
               f"[Released table]({key}.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record]({source_link})"]
+    if s['class'] == 'S':
+        lines[-1] += ' · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)'
     return '\n'.join(lines) + '\n'
 
 
@@ -107,7 +116,7 @@ def build(check=False):
               '| Study | Week | Question | Verdict | Headline estimate [interval] and size | Limit | Release | Report |',
               '|---|---:|---|---|---|---|---|---|']
     expected = {}
-    for key,s in specs.items():
+    for key,s in sorted(specs.items(),key=lambda item: (-item[1]['week'],item[0])):
         if len(s['short'].split()) > 15 or not (ROOT / s['record']).is_file():
             raise ValueError(key + ': invalid question or record')
         rows = rows_for(key,s,locks)

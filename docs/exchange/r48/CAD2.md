@@ -19,4 +19,4 @@
 
 **Withholding and release condition.** All returned contrasts released.
 
-[Released table](CAD2.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/CAD2_ORIGINAL_WORD_TIMING_RETURN_20261126.md)
+[Released table](CAD2.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/CAD2_ORIGINAL_WORD_TIMING_RETURN_20261126.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

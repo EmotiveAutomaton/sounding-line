@@ -1,5 +1,6 @@
 """Read the Week 8 standing queue, keep its clock and render the curator return."""
 import argparse
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 import sys
@@ -42,6 +43,10 @@ assert set(ROWS)==gear.CARDS
 
 
 def snapshot():
+    # A disposition records local filing. R48 also requires a pushed report.
+    pushed=subprocess.run(['git','ls-tree','-r','--name-only','origin/main','--','docs/exchange/r48'],
+                          cwd=ROOT,capture_output=True,text=True,check=True).stdout.splitlines()
+    published={Path(p).stem for p in pushed if p.endswith('.md')}
     state=read(STATE/'dispositions.json') if (STATE/'dispositions.json').is_file() else {}
     attempts={}
     for ref in gear.ROOT.glob('*/RESERVATION.json'):
@@ -66,12 +71,19 @@ def snapshot():
             status='blocked'
             evidence='Owner inspection of interrupted reservation'
         elif status!='landed':
-            idle=[n for n in reviewed.get(card,[]) if n not in {j[0] for j in jobs}]
+            idle=[n for n in reviewed.get(card,[]) if n not in {j[0] for j in jobs}
+                  and not any((STATE/q/(n+'.hold.json')).exists() for q in ('local-queue','spark-queue'))]
             if idle:
                 status='ready'
                 evidence=', '.join(sorted(idle))
             elif jobs and all(t for _,t,_,_ in jobs) and 'evidence' not in record:
                 evidence='Owner filing of '+', '.join(n for n,_,_,_ in jobs)
+            if not idle and status=='ready':
+                status='blocked'
+                evidence='Reviewed admission or reporting dependency requires verification.'
+        if status=='landed' and card not in published:
+            status='awaiting report'
+            evidence='Local receipt filed. The R48 report is due for publication.'
         rows[card]=dict(host=host,name=name,status=status,evidence=evidence,owner=record.get('owner','Sounding Line'),
                         result=record.get('result'),limit=record.get('limit'))
     charge,by_row,sealed=gear.balance()
@@ -149,8 +161,9 @@ if __name__=='__main__':
     STATE.mkdir(parents=True,exist_ok=True)
     if action=='clock':
         clock()
+    elif action=='render':
+        from tools.week8_return import render as render_public_return
+        render_public_return()
     else:
         s=snapshot()
-        if action=='render':
-            render(s)
         print(s['at'], 'free',s['free'],'ready',s['ready'],'sealed',s['sealed'])

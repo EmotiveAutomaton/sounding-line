@@ -21,4 +21,4 @@
 
 **Withholding and release condition.** The gate reported below release floor. A scientifically matching pooled membership would have to clear the joint disclosure check inside the seal.
 
-[Released table](MI4.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK5/SMF1_THREE_SEALED_RETURNS_20261122.md)
+[Released table](MI4.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK5/SMF1_THREE_SEALED_RETURNS_20261122.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

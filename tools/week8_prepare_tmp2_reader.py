@@ -47,11 +47,14 @@ def prepare(release=False, tp72_absent=False):
     if not rec.exists():freeze(rec,obj)
     pins.extend([reviewed,directory/'COMPLETE.json',evidence,entry,rec,Path(study.gear.__file__),
                  study.gear.AUTHORITY,Path(__file__)])
+    if read(evidence).get('forms')!=['fine','coarse','summary'] or not read(evidence).get('distinct_people_checked'):
+        raise ValueError('Missing original-reader form rehearsal')
     this_review=dict(unit=unit,card='TMP2',source=study.ALIAS,cap=CAP,tables=study.TABLES,
                      not_before=EARLIEST.isoformat(),fixture_gate_passed=True,fixture_sha256=filehash(evidence),
                      receipt_sha256=filehash(rec),provider_binding_sha256=filehash(study.MAPPING),
                      fallback_reason='Verified TP72 delivery absent at the twelve-hour review',
-                     pins={str(p):filehash(p) for p in pins})
+                     pins={str(p):filehash(p) for p in pins},
+                     r48=dict(entry_sha256=filehash(entry),rehearsal=str(evidence),ruling=study.gear.RULING_SHA256))
     target=STATE/'reviews'/(unit+'.json')
     if target.exists():
         if read(target)!=this_review:raise ValueError('Different research review already present')

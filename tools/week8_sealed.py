@@ -36,6 +36,15 @@ def launch(unit):
         raise ValueError('Invalid review')
     d=gear.ROOT/unit
     entry=STATE/'sealed'/unit/'run.py'
+    forms=q.get('r48')
+    if not forms or forms.get('entry_sha256') != filehash(entry):
+        raise ValueError('An in-seal R48 form rehearsal is required for this entry')
+    proof=Path(forms['rehearsal'])
+    if q['pins'].get(str(proof)) != filehash(proof) or forms['ruling'] != gear.RULING_SHA256:
+        raise ValueError('R48 rehearsal or ruling mismatch')
+    registered=read(proof)
+    if registered.get('forms') != ['fine','coarse','summary'] or not registered.get('distinct_people_checked'):
+        raise ValueError('Missing in-seal form selection evidence')
     host=read(HOST)
     checks=remote('sha256sum /usr/local/bin/sealed-run /usr/local/lib/sealed-gate.py').splitlines()
     if [row.split()[0] for row in checks]!=[host['installed_runner_sha256'],host['installed_gate_sha256']] or filehash(GATE)!=host['installed_gate_sha256']:

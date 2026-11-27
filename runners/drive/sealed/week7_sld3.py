@@ -17,7 +17,8 @@ ITEMS = contract.NEGATIVE
 GROUPS = [(i,) for i in ITEMS] + [(19, 16, 20), (14, 2, 15), ITEMS]
 
 
-def prepare(tables, wave):
+def prepare(tables, wave, groups=None):
+    groups=GROUPS if groups is None else groups
     fields = contract.fields(wave)
     trait_field = fields['traits']['neuroticism']
     participants = {}
@@ -42,13 +43,13 @@ def prepare(tables, wave):
         event = contract.occurrence([row[s['occurrence']] for s in fields['stressors']])
         decoded = {i:contract.valid_code(row[k], range(5)) for i,k in zip(ITEMS,fields['negative'])}
         feelings = [np.mean([decoded[i] for i in group]) if all(decoded[i] is not None for i in group)
-                    else np.nan for group in GROUPS]
+                    else np.nan for group in groups]
         entries[day] = event, feelings
     ids = sorted(p for p in history if p in participants and np.isfinite(participants[p][0]))
     scores = np.array([participants[p][0] for p in ids])
     families = [participants[p][1] for p in ids]
     panels = []
-    for item in range(len(GROUPS)):
+    for item in range(len(groups)):
         halves = []
         for half in (0,1):
             record = {k:[] for k in ('b','L','S','n1')}

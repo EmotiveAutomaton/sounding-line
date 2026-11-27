@@ -6,6 +6,10 @@
 
 **Registered quantities.** Train and test on separate halves of laughter-only utterances. Compare the variation explained for each held-out fact with its shuffle reference. The source tables contain no effect intervals. A value of one in the largest and nearest flags means the component met that condition.
 
+facts, Another speaker joins, fraction explained: 0.0431484 (52 people).
+
+<details><summary>All 37 released quantities</summary>
+
 | Quantity | Estimate [interval] | Size and unit | Observations | Reading |
 |---|---:|---|---:|---|
 | facts, Speaking at onset, fraction explained | 0.0173735 | 52 people | — | Descriptive |
@@ -45,6 +49,8 @@
 | shared channel assignments | 2 | 75 meetings | — | Support |
 | unbound or shared mic | 7 | 75 meetings | — | Support |
 | verified channels | 467 | 75 meetings | — | Support |
+
+</details>
 
 **Verdict — mixed.** The mixture count exceeded its predicted range. Density joining returned one group. Speaking at onset and joining each exceeded the shuffle threshold. Change in the target’s speaking share stayed below it.
 

@@ -35,4 +35,4 @@
 
 **Withholding and release condition.** All returned changes and the pre-loss check are reported.
 
-[Released table](SLD5.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK8/SLD5_PURPOSE_AFTER_MARITAL_LOSS.md)
+[Released table](SLD5.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK8/SLD5_PURPOSE_AFTER_MARITAL_LOSS.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

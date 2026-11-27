@@ -6,6 +6,10 @@
 
 **Registered quantities.** Compare weighted variance shares and trends for raw and person-centred value codes. Positive signed movement means less identification. No interval was registered.
 
+raw ipcrtiv round to within: 0.00624447 (500191 people).
+
+<details><summary>All 420 released quantities</summary>
+
 | Quantity | Estimate [interval] | Size and unit | Observations | Reading |
 |---|---:|---|---:|---|
 | raw ipcrtiv round to within | 0.00624447 | 500191 people | — | Descriptive |
@@ -428,6 +432,8 @@
 | person_centred impfun cells | 278 | 469226 people | — | Descriptive |
 | person_centred impfun slope countries | 34 | 467315 people | — | Descriptive |
 | person_centred impfun timed n | 467315 | 469226 people | — | Descriptive |
+
+</details>
 
 **Verdict — descriptive.** Every item was below the one-tenth round-to-within marker in both readings.
 

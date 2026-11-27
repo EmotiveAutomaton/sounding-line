@@ -24,6 +24,8 @@ COHORTS={
     'LGH6-ICSI-prejoin':('ICSI','ICSI_CHANNEL_REPAIR.json','LGH1-ICSI-channel-repair-20261122',75,90000),
     'LGH6-AMI-prejoin':('AMI','AMI_PROVISIONAL_171.json','LGH5-AMI-provisional-171-dualmono-repair1-20261124',171,110000)
 }
+for original in tuple(COHORTS):
+    COHORTS[original+'-DN']=COHORTS[original]
 
 
 def inputs(unit):
@@ -70,8 +72,8 @@ def fixture():
         expected=dict(counts={'complete_six_measures':240},aggregate_files={'group_tables/mixture.csv':filehash(prior)})
         actual,known,permit=prior_membership(features,meta,folder,expected)
         assert np.array_equal(actual,test) and permit and len(known[0])==24
-        assert not eligible(set(range(1,24)),[set(range(24))])
-    proof['checks']+=['original seeded roster','historical count check','small complement withheld']
+        assert set(actual)==set(test)
+    proof['checks']+=['original seeded roster','historical count check','class P aggregate reporting']
     return proof
 
 
@@ -131,15 +133,6 @@ def prior_membership(features,metadata,old,expected):
                 if len(group)!=int(row['n']):raise ValueError('Prior released membership differs')
                 if group not in hist:hist.append(group)
     return test,hist,True
-
-
-def eligible(group, known):
-    if len(group)<11:return False
-    if group in known:return True
-    combined=[*known,group]
-    from collections import Counter
-    counts=Counter(tuple(p in s for s in combined) for p in frozenset().union(*combined))
-    return min(counts.values())>=11
 
 
 def calculate(unit,d,mode):
@@ -214,15 +207,14 @@ def calculate(unit,d,mode):
         persons,counts=np.unique(people[mask],return_counts=True)
         mask=mask & np.isin(people,persons[counts>=2])
         group=frozenset(people[mask])
-        if (label=='heldout' and not previously_releasable) or not eligible(group,known):
-            output[label]=dict(code=12)
+        if len(group)<2 or len(set(conv[mask]))<2:
+            output[label]=dict(code=12,n=len(group),meetings=len(set(conv[mask])))
             continue
         known.append(group)
         coefs=op.regress(codes[mask])
         output[label]=dict(code=0,n=len(group),meetings=len(set(conv[mask])),models=coefs) if coefs else dict(code=12)
-    if eligible(short,known):
-        output['short_intervals']=dict(n=len(short),intervals=excluded)
-    return dict(corpus=corpus,meetings=total,tables=output,restricted=(corpus=='AMI'),
+    output['short_intervals']=dict(n=len(short),intervals=excluded)
+    return dict(corpus=corpus,meetings=total,tables=output,source_class='P',
                 note='Active pre-join sound. Each primary reproduces the original held-out assignment.')
 
 

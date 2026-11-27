@@ -14,4 +14,4 @@ The job returned no numerical rows. Estimate, interval and analytical sample siz
 
 **Withholding and release condition.** Native code 32. Release requires an entire eligible prior roster. Merging output cells cannot supply missing observations.
 
-[Released table](MIB1-wave3.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/MIB1_WAVE_THREE_RETURN_20261126.md)
+[Released table](MIB1-wave3.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/MIB1_WAVE_THREE_RETURN_20261126.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

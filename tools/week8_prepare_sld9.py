@@ -12,7 +12,7 @@ from tools import week8_prepare_stressor_studies as earlier, week8_study_package
 from runners.stage14.common import read,freeze,filehash
 
 STATE,OLD=earlier.STATE,earlier.OLD
-UNIT='SLD9-wave2-trait-wellbeing'
+UNIT='SLD9-wave2-trait-wellbeing-DN'
 CARD='SLD9'
 CAP=20000
 MODULE='week8_sld9'
@@ -24,6 +24,8 @@ def main():
     sources=earlier.modules()
     node=earlier.LIB/(MODULE+'.py')
     sources[MODULE]=node.read_text('utf8')
+    selector=earlier.LIB/'r48_forms.py'
+    sources[selector.stem]=selector.read_text('utf8')
     scratch=STATE/'fixtures'/('SLD9-'+uuid4().hex[:10])
     mount=scratch/'data'
     mount.mkdir(parents=True)
@@ -75,12 +77,12 @@ def main():
     frame.loc[0,'B1SE3']=98
     invoke('one-person-complement',configure(),12)
     evidence=scratch/'REHEARSAL.json'
-    freeze(evidence,dict(constructed=True,people=n,checks=['original-layout pair','known appearance of a spurious unadjusted association','conditional disappearance',
+    freeze(evidence,dict(constructed=True,forms=['fine','coarse','summary'],distinct_people_checked=True,people=n,checks=['original-layout pair','known appearance of a spurious unadjusted association','conditional disappearance',
         'rank ties','self-partial undefined','standing direction','original-source replay','withheld one-person complement','installed gate'],result=filehash(table)))
     history,extra,docs=earlier.historical()
     current=earlier.LIB/'week6-sm-science/source_map.json'
     config=dict(files={'M2':read(current)['M2']},history=history,sld4=extra,draws=2000)
-    closure=[node,Path(__file__),Path(earlier.__file__),Path(earlier.design.__file__),earlier.LIB/'week7_sld4.py',earlier.LIB/'week8_sld6.py',
+    closure=[node,selector,Path(__file__),Path(earlier.__file__),Path(earlier.design.__file__),earlier.LIB/'week7_sld4.py',earlier.LIB/'week8_sld6.py',
              earlier.OLDSTATE/'MIB1_primary.entry.py',earlier.OLDSTATE/'MIB1_NUMERIC_QUALIFIED.json',current,STATE/'SLD_CODEBOOKS.json',
              STATE/'codebooks/wave2.txt',ROOT/'docs/design/stage-15/week8/SLD9.md',*docs,GATE]
     print(UNIT,package.admit(UNIT,CARD,'midus-m2-joined',CAP,['correlations.csv'],package.entry(sources,MODULE,config,CAP,False),evidence,closure))

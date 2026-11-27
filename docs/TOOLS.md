@@ -2,6 +2,11 @@
 
 ## November 27 archive reporting and body-map review
 
+[Ruling R48](design/stage-15/RULING_R48.md) governs statistical reporting for
+every source entry below, including earlier tests-only classifications. Use the retained
+terms for source attribution and data handling. The [report digest](exchange/HELD_RESULTS_DIGEST.md)
+links the released tables and the applicable limits. The [retained reporting clauses and credits](design/stage-15/R48_SOURCE_TERMS.md) distinguish the provider conditions from the eleven-person project floor.
+
 The corrected archive reporting index covers 182 source cards. It assigns 152 to public-source handling and 24 to sealed handling. Six await terms. Existing study-specific limits travel with their results. The installed sealed gate requires at least 11 distinct people per released cell and checks previously released rosters.
 
 | Sealed source | Terms and credit recorded in the reviewed delivery |

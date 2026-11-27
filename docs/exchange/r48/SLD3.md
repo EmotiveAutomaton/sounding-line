@@ -6,6 +6,10 @@
 
 **Registered quantities.** Split-day stressor and baseline slopes with whole-family uncertainty. The equivalence band is ±0.15. The registered contrast codes are defined in the original design. Status rows give the whole source roster, never the size of a suppressed contrast.
 
+Anger group: 0.140508 [0.0272491, 0.239072] (805 people).
+
+<details><summary>All 109 released quantities</summary>
+
 | Quantity | Estimate [interval] | Size and unit | Observations | Reading |
 |---|---:|---|---:|---|
 | Registered contrast 1 | 0.0442187 [-0.256485, 0.256181] | 805 people | — | Descriptive |
@@ -118,10 +122,12 @@
 | Contrast 86 unavailable, status 4 (source roster) | — | 2022 people | — | Support |
 | Contrast 87 unavailable, status 4 (source roster) | — | 2022 people | — | Support |
 
+</details>
+
 **Verdict — undecided.** The pooled effect and equivalence across unpleasant feelings were unresolved.
 
 **Limit.** Floor effects and same-interview self-report can change the apparent trait association.
 
 **Withholding and release condition.** The status table separates undefined fits from disclosure withholding. A supported jointly disclosable pooled comparison is required.
 
-[Released table](SLD3.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/SLD3_DAILY_TRAIT.md)
+[Released table](SLD3.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK7/SLD3_DAILY_TRAIT.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

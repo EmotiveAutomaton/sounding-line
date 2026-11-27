@@ -41,8 +41,11 @@ def test_failed_view_check_keeps_return_pending(tmp_path, monkeypatch):
 
     monkeypatch.setattr(filing.views, 'run', lambda root, action: {'records': 1})
     filing.land(**args)
-    assert read(public/'SOURCES.json')['full_write_through']
-    assert read(state/'dispositions.json')['ADM2']['status'] == 'landed'
-    assert read(coverage)['work'][0]['state'] == 'closed'
+    assert read(public/'SOURCES.json')['local_write_through']
+    assert not read(public/'SOURCES.json')['full_write_through']
+    disposition = read(state/'dispositions.json')['ADM2']
+    assert disposition['status'] == 'awaiting report'
+    assert disposition['pending_r48_receipt'] == 'SOURCES'
+    assert read(coverage)['work'][0]['state'] == 'build'
     assert len(read(stage/'CLAIM_LEDGER.json')['rows']) == 1
     assert len((tmp_path/'results/EVIDENCE_LEDGER.jsonl').read_text().splitlines()) == 1

@@ -14,4 +14,4 @@ The job returned no numerical rows. Estimate, interval and analytical sample siz
 
 **Withholding and release condition.** Releasing a numerical comparison requires a supported, independently disclosable membership. The subsequent three-run submission and individual table codes are indexed in the inventory.
 
-[Released table](SMF1-original-M3.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK5/MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.md)
+[Released table](SMF1-original-M3.csv) · [Report generator](../../../tools/r48_reports.py) · [Original record](../../../results/phase_2_4_stage_15/WEEK5/MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.md) · [Retained reporting terms and source credits](../../design/stage-15/R48_SOURCE_TERMS.md)

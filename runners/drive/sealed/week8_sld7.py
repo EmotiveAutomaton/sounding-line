@@ -3,6 +3,7 @@ import numpy as np
 from independent_release import Entry,decide
 from runners.drive.cards.week6_sealed_support_v1 import SealedFailure,write_tables
 from runners.drive.sealed import week8_sld5 as loss
+from runners.drive.sealed.r48_forms import choose
 
 
 def one(frames,config):
@@ -30,7 +31,13 @@ def one(frames,config):
     if not defined:raise SealedFailure(12,'New rosters withheld')
     result=loss.estimates(obs,gains,control,loss.PAIRS,config['draws'])
     if not result:raise SealedFailure(12,'No defined comparison')
-    return {'purpose':result}
+    entries=[Entry(r,gains,(control,positive)) for r in result]
+    primary=[e for e in entries if e.fields['form']==1]
+    pooled=[e for e in primary if e.fields['transition']==2]
+    return choose({'fine':[(1,'purpose',entries)],
+                   'coarse':[(1,'purpose',primary)],
+                   'summary':[(1,'purpose',pooled)] if pooled else []},
+                  frozenset(frames[0].index),previous)
 
 
 def run(root,out,config):

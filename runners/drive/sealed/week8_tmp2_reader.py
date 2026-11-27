@@ -5,10 +5,11 @@ from tempfile import TemporaryDirectory
 from unittest.mock import patch
 import sys
 
-from independent_release import Entry, decide
+from independent_release import Entry
 from runners.drive.cards.week6_sealed_support_v1 import SealedFailure
 from runners.drive.sealed import week7_tmp1_shell as shell
 from runners.drive.sealed import week8_tmp2_source as source
+from runners.drive.sealed.r48_forms import choose
 
 
 def capture(roster, producer, projection, destination):
@@ -51,8 +52,9 @@ def gated_tables(directory, contract, roster, universe, components):
             raise
         counts = []
     known = [components[r['measure'] - 1][1] for r in counts]
-    groups = {}
-    rows = {}
+    known.extend([components[0][1], components[1][1]])
+    tables = {}
+    originals = []
     for file in sorted(directory.iterdir()):
         with file.open(encoding='utf8', newline='') as stream:
             table = []
@@ -60,17 +62,16 @@ def gated_tables(directory, contract, roster, universe, components):
                 people = contributing(file.name, row, roster)
                 if len(people) != int(row['n']):
                     raise SealedFailure(14, 'Reader support differs from the actual contributing cohort')
-                key = groups.setdefault(people, len(groups))
-                table.append((key, row))
-            rows[file.name] = table
-    # Repeated estimates on one identical cohort have one disclosure decision.
-    proposals = [(idx, str(idx), [Entry(dict(n=len(people)), people)]) for people, idx in groups.items()]
-    permitted, _ = decide(proposals, universe, known)
-    safe = {name: [row for idx, row in table if str(idx) in permitted] for name, table in rows.items()}
-    safe = {name: table for name, table in safe.items() if table}
-    if not safe:
-        raise SealedFailure(12, 'No disclosable aggregate')
-    return safe
+                index = len(originals)
+                originals.append(row)
+                table.append(Entry(dict(index=index, n=len(people), estimate=float(row['value']),
+                                        lower=float(row['lo']), upper=float(row['hi'])), people))
+            tables[file.name] = table
+    fine = [(i, name, entries) for i,(name, entries) in enumerate(tables.items(),1)]
+    coarse = [t for t in fine if t[1] in ('traits.csv','contrast.csv','channels.csv')]
+    summary = [t for t in coarse if t[1]=='contrast.csv']
+    selected = choose(dict(fine=fine, coarse=coarse, summary=summary), universe, known)
+    return {name:[originals[row['index']] for row in records] for name, records in selected.items()}
 
 
 def calculate(archives, scratch, config, producer, contract):

@@ -76,20 +76,21 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     topic=', '.join(evidence['claims'])
     tag='(test, '+ident+')'
     withheld = outcome == 'void'
-    internal_only = outcome == 'restricted completion'
     source_admission = outcome == 'source admission'
-    kind = 'run' if withheld or internal_only or source_admission or progress is not None else 'claim'
-    control = 'verified restricted replay' if internal_only else 'no releasable result' if withheld else 'passes'
-    if internal_only and (evidence['estimate'] is not None or evidence['interval'] is not None or opposition
-                          or not receipt.get('internal_return_sha256')):
-        raise ValueError('Restricted completion requires a filed internal report and an operational public receipt')
+    kind = 'run' if withheld or source_admission or progress is not None else 'claim'
+    control = 'no releasable result' if withheld else 'passes'
+    if outcome == 'restricted completion':
+        original=PUBLIC/(stem+'.json')
+        if original.is_file() and read(original).get('terminal_sha256')==receipt.get('terminal_sha256'):
+            return
+        raise ValueError('File the actual verdict and released aggregate table under R48')
     if withheld and (evidence['estimate'] is not None or evidence['interval'] is not None or opposition):
         raise ValueError('A void disposition cannot contain scientific estimates or opposition')
     if source_admission and (evidence['estimate'] is not None or evidence['interval'] is not None
                              or opposition or not receipt.get('bindings') or not receipt.get('replay_sha256')):
         raise ValueError('A source admission needs original and replay evidence without a scientific estimate')
     if receipt.get('restricted'):
-        raise ValueError('Restricted data require a separate internal filing')
+        raise ValueError('Supply only the reviewed public aggregate projection and its R48 report')
     views.mark_pending(ROOT,ident)
     write(PUBLIC/(stem+'.md'),'# '+title+'\n\n'+body.rstrip()+'\n')
     theory=ROOT/'docs/theory/THREE_COGNITIVE_LAYERS.md'
@@ -107,8 +108,6 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     reference = 'The exit code and disclosure decision are filed in the ' if withheld else 'The full comparison, original-source replay and limits are filed in the '
     if progress is not None or source_admission:
         reference = 'The source check, original-source replay and scope are filed in the '
-    if internal_only:
-        reference = 'The completed internal report and replay are authenticated by the public '
     add(findings,'### '+ident,'### '+ident+'\n\n'+evidence['question']+'\n\n'+evidence['data']+' '+afterword+'\n\n'+
         reference+'[study return](results/phase_2_4_stage_15/WEEK8/'+stem+'.md).\n\n'+
         '**Curator roll-up.** '+topic+'. '+evidence['verdict']+' '+evidence['limit']+' '+next_step,front=True)
@@ -152,7 +151,8 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     states=read(index)
     disposition = evidence['verdict'] if withheld else title+' filed with its replay.'
     if progress is None:
-        states[card]=dict(status='landed',owner='Sounding Line',evidence=disposition,result=return_line,limit=evidence['limit'])
+        states[card]=dict(status='awaiting report',owner='Sounding Line',evidence=disposition,result=return_line,
+                          limit=evidence['limit'],pending_r48_receipt=stem)
     else:
         states.setdefault(card,{}).update(status='blocked',owner='Sounding Line',evidence=progress)
     atomic(index,states)
@@ -164,8 +164,8 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     coverage=ROOT/'.agent-state/work-coverage.json'
     work=read(coverage)
     entry,=[v for v in work['work'] if v['card']==card]
-    entry.update(state='closed' if progress is None else 'build',evidence=str((PUBLIC/(stem+'.json')).relative_to(ROOT).as_posix()),last_inspection=receipt['terminal_sha256'])
+    entry.update(state='build',evidence=str((PUBLIC/(stem+'.json')).relative_to(ROOT).as_posix()),last_inspection=receipt['terminal_sha256'])
     work['last_reconciled']=datetime.now(timezone.utc).isoformat()
     atomic(coverage,work)
-    atomic(PUBLIC/(stem+'.json'),dict(receipt,id=ident,card=card,full_write_through=True,record_kind=kind,scientific_admission=kind=='claim',theory_tags=evidence['claims'],activation=[]))
+    atomic(PUBLIC/(stem+'.json'),dict(receipt,id=ident,card=card,local_write_through=True,full_write_through=progress is not None,record_kind=kind,scientific_admission=kind=='claim',theory_tags=evidence['claims'],activation=[]))
     print('Filed',ident)

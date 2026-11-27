@@ -110,6 +110,7 @@ def study(paths, config):
     import numpy as np
     import week7_sld3 as original
     from independent_release import Entry, decide
+    from r48_forms import choose
     tables = projected(paths)
     universe, ids, _, _, panels = original.prepare(tables, 'M2')
     # The first-wave diary is new. The probe released only the complete main survey roster.
@@ -127,11 +128,43 @@ def study(paths, config):
         mask = np.logical_and.reduce([supports[i] for i in six[k]])
         people = frozenset(p for keep,p in zip(mask,ids) if keep)
         catalog.append((k,'c'+str(k),[Entry(row,people)]))
-    allowed,_ = decide(catalog, universe, [survey])
-    result = [row for table in allowed.values() for row in table]
-    if not result:
-        raise SealedFailure(12, 'No eligible disclosable channel')
-    return {'trait':sorted(result,key=lambda row:row['contrast'])}
+    def pooled():
+        # Score the mean of the six common items on each fully answered day before
+        # fitting the original operator. Never average coefficients or interval endpoints.
+        _,people,scores,families,panels=original.prepare(tables,'M2',[tuple(original.ITEMS[:len(AFFECT)])])
+        halves=panels[0]
+        mask=np.logical_and.reduce([np.isfinite(h['b']) for h in halves])
+        if mask.sum()<11 or any(f is None for f,keep in zip(families,mask) if keep):
+            return []
+        ids=frozenset(p for p,keep in zip(people,mask) if keep)
+        fam=np.unique([f for f,keep in zip(families,mask) if keep],return_inverse=True)[1]
+        count=int(fam.max())+1
+        rng=np.random.default_rng(2026112203)
+        parts=[{k:v[mask] for k,v in half.items()} for half in halves]
+        estimates=[]
+        for start in range(-1,config['draws'],32):
+            weights=[]
+            for draw in range(start,min(start+32,config['draws'])):
+                w=np.ones(count) if draw<0 else np.bincount(rng.integers(count,size=count),minlength=count)
+                weights.append(w[fam])
+            estimates.extend(original.effect(scores[mask],parts,np.asarray(weights)))
+        if not np.isfinite(estimates).all():
+            return []
+        lo,hi=np.quantile(estimates[1:],[.025,.975])
+        value=dict(contrast=110,estimate=estimates[0],lower=lo,upper=hi,n=len(ids))
+        return [(1,'trait',[Entry(value,ids)])]
+    fine=[e for _,_,entries in catalog for e in entries]
+    main=[e for e in fine if e.fields['contrast']<=len(AFFECT)]
+    # A cell withheld at the original first-stage test precludes a full-form label.
+    lost={r['table'] for r in raw['table_status'] if r['analysis_state']==5}
+    try:
+        return choose({'fine':[] if lost.intersection(six) else [(1,'trait',fine)],
+                       'coarse':[] if lost.intersection(range(1,len(AFFECT)+1)) else [(1,'trait',main)],
+                       'summary':[]},universe,[survey])
+    except SealedFailure as exc:
+        if exc.code!=12:
+            raise
+    return choose({'fine':[],'coarse':[],'summary':pooled()},universe,[survey])
 
 
 def run(mount, out, config):

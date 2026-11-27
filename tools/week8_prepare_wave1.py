@@ -17,7 +17,7 @@ from tools.week8_sealed import STATE, OLD, GATE, HOST
 LIB = ROOT/'runners/drive/sealed'
 NODE = LIB/'week8_wave1.py'
 CAP = {'structure':300, 'matched':19700}
-UNIT = {'structure':'SLD8-wave1-structure', 'matched':'SLD8-wave1-matched-SLD3'}
+UNIT = {'structure':'SLD8-wave1-structure', 'matched':'SLD8-wave1-matched-SLD3-DN'}
 
 
 def entry(sources, config, fixture):
@@ -92,6 +92,8 @@ def prepare():
     sys.path.insert(0,str(native))
     sources=original.modules()
     sources[NODE.stem]=NODE.read_text('utf8')
+    selector=LIB/'r48_forms.py'
+    sources[selector.stem]=selector.read_text('utf8')
     f=STATE/'fixtures'/('SLD8-'+uuid4().hex[:12])
     data=f/'data'
     data.mkdir(parents=True)
@@ -124,22 +126,23 @@ def prepare():
                 raise ValueError('Planted effect, original signs or paired contrasts differ')
         if bad is None:good[mode]=filehash(path)
     proof=f/'REHEARSAL.json'
-    freeze(proof,dict(all_invented=True,checks=cases,outputs=good))
-    for mode in CAP:
+    freeze(proof,dict(all_invented=True,forms=['fine','coarse','summary'],distinct_people_checked=True,checks=cases,outputs=good))
+    for mode in ('matched',):
         unit=UNIT[mode]
         job=STATE/'sealed'/unit/'run.py'
         job.parent.mkdir(parents=True,exist_ok=True)
         payload=entry(sources,dict(mode=mode,files=real,draws=2000,survey_people=7108),False)
         if job.exists() and job.read_bytes()!=payload:raise ValueError('Reviewed source changed')
         if not job.exists():job.write_bytes(payload)
-        files=[gear.AUTHORITY,ROOT/'docs/design/stage-15/week8/SLD8.md',Path(__file__).resolve(),NODE,
+        files=[gear.AUTHORITY,ROOT/'docs/design/stage-15/week8/SLD8.md',Path(__file__).resolve(),NODE,selector,LIB/'week7_sld3.py',
                receipt,HOST,GATE,Path(gear.__file__),Path(original.__file__),Path(original.build.__file__),
                ROOT/'tools/week8_spark.ps1',ROOT/'tools/week8_sealed.py',proof,job]
         folder=STATE/('reviews' if mode=='structure' else 'pending-structure')
         folder.mkdir(exist_ok=True)
         freeze(folder/(unit+'.json'),dict(unit=unit,card='SLD8',source='midus-m1-joined',cap=CAP[mode],
              tables=['structure.csv' if mode=='structure' else 'trait.csv'],fixture_gate_passed=True,
-             fixture_sha256=filehash(proof),pins={str(p):filehash(p) for p in files}))
+             fixture_sha256=filehash(proof),pins={str(p):filehash(p) for p in files},
+             r48=dict(entry_sha256=filehash(job),rehearsal=str(proof),ruling=gear.RULING_SHA256)))
     print('Wave-one structure and six SLD3 channels qualified on eight original-format cases.')
 
 

@@ -5,6 +5,7 @@ from tempfile import TemporaryDirectory
 import numpy as np
 import mi_source_contract_v1 as contract
 from independent_release import Entry, decide
+from r48_forms import choose
 from joined_source import read_roles, take_snapshot
 from week6_sealed_support_v1 import SealedFailure, write_tables
 from week7_mib1 import reconstruct, trait_rosters
@@ -115,7 +116,14 @@ def run(mount,out,config):
             table=calculate(data,family,config['draws'])
             if not table:
                 raise SealedFailure(12,'No defined correlations')
-            return {'correlations':table}
+            fine=[Entry(r,roster) for r in table]
+            raw=[e for e in fine if e.fields['form']==1]
+            primary_trait=list(TRAITS).index('conscientiousness')+1
+            pooled=[e for e in raw if e.fields['trait']==primary_trait and e.fields['scale']==1]
+            return choose({'fine':[(1,'correlations',fine)],
+                           'coarse':[(1,'correlations',raw)],
+                           'summary':[(1,'correlations',pooled)] if pooled else []},
+                          groups['survey'],known)
         result=compute(source)
         if result!=compute(read_roles(paths,selection)):
             raise SealedFailure(14,'Independent survey replay differs')

@@ -56,6 +56,9 @@ def admit(unit,card,source,cap,tables,program,fixture,pins,not_before=None):
                 fixture_sha256=filehash(fixture),pins={str(p):filehash(p) for p in evidence})
     if not_before:
         review['not_before']=not_before
+    proof=read(fixture)
+    if proof.get('forms')==['fine','coarse','summary'] and proof.get('distinct_people_checked'):
+        review['r48']=dict(entry_sha256=filehash(path),rehearsal=str(fixture),ruling=gear.RULING_SHA256)
     dest=STATE/'reviews'/(unit+'.json')
     freeze(dest,review)
     return filehash(dest)

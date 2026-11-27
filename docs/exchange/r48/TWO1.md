@@ -6,6 +6,10 @@
 
 **Registered quantities.** Whole-person bootstrap of teacher–mentor correlations. The difference and half-size contrasts use the same resampled people. The table covers every assessed quantity.
 
+Adversity, between minus within: 0.127004 [-0.114334, 0.338986] (91 people).
+
+<details><summary>All 88 released quantities</summary>
+
 | Quantity | Estimate [interval] | Size and unit | Observations | Reading |
 |---|---:|---|---:|---|
 | Adversity, between | 0.305498 [0.0800266, 0.493335] | 91 people | 775 | Descriptive |
@@ -96,6 +100,8 @@
 | Typicality, between minus within | 0.0868941 [-0.117221, 0.28935] | 91 people | 777 | Interval includes zero |
 | Typicality, within | 0.1533 [0.0587572, 0.243441] | 89 people | 777 | Descriptive |
 | Typicality, within minus half between | 0.0332028 [-0.0967552, 0.160506] | 91 people | 777 | Interval includes zero |
+
+</details>
 
 **Verdict — mixed.** The ordering varies in precision across quantities. The table shows which difference intervals clear zero.
 

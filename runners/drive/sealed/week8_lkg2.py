@@ -1,7 +1,21 @@
-"""Reciprocal conversation trait and standing comparisons on fixed survey fields."""
+"""Reciprocal conversation trait and standing comparisons on fixed survey fields.
+
+DESIGN CHECK (2026-11-27)
+Lessons read: the L132 shuffle-direction and L73 exhaustive-band rulings.
+Gates, null/alternative/direction: under the null of no association the population
+trait correlation is zero and the bootstrap interval usually spans zero. Under the
+alternative, planted increasing and decreasing ratings must recover opposite signs. Missing
+ratings void that trait. Under either world, the distinct-person membership and
+complement guards must withhold a small cell even if its effect is strong.
+Verdict bands per arm, exhaustive: an interval above or below zero reports its signed
+direction; a crossing or touching interval is undecided. An undefined comparison has
+no estimate. The first fully disclosable registered form wins; if none qualifies,
+exit 12 without a table. Pooled standing cannot decide the trait predictions.
+"""
 import numpy as np
 import pandas as pd
 from independent_release import Entry,decide
+from runners.drive.sealed.r48_forms import choose
 from runners.drive.cards.week6_sealed_support_v1 import SealedFailure,write_tables
 from runners.drive.sealed import week8_lkg1 as liking
 from runners.drive.sealed.week6_sc1_counts_v1 import source_layout
@@ -82,9 +96,13 @@ def analyze(df,known,extra_known,draws):
             vals=[liking.icc(w,n,s,ss) for w in liking.weights(len(n),draws,2026112725)]
         emit(12,vals,repeats.index)
     correlation(13,'standing')
-    result,_=decide([(1,'comparisons',tables)],universe,[*previous,*extra_known])
-    if not result:raise SealedFailure(12,'No eligible releasable comparison')
-    return result
+    # Missing instrument fields void those quantities before disclosure selection.
+    standing=[e for e in tables if e.fields['measure']>=11]
+    pooled=[e for e in standing if e.fields['measure']==11]
+    return choose({'fine':[(1,'comparisons',tables)],
+                   'coarse':[(1,'comparisons',standing)],
+                   'summary':[(1,'comparisons',pooled)] if pooled else []},
+                  universe,[*previous,*extra_known])
 
 
 def run(root,out,config):

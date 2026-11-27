@@ -12,7 +12,7 @@ sys.path.insert(0,str(ROOT))
 from tools import week8_prepare_sld5 as parent,week8_study_package as package
 from runners.stage14.common import read,freeze,filehash
 
-UNIT='SLD7-three-wave-marriage-gain'
+UNIT='SLD7-three-wave-marriage-gain-DN'
 CAP=20000
 NODE=parent.bundle.LIB/'week8_sld7.py'
 
@@ -55,7 +55,7 @@ def main():
         for j,k in enumerate(old.old.PURPOSE[i]):
             new[k]=8-y if j==0 else y
         frames[i]=pd.concat([f,new])
-    code=[*parent.MODULES,NODE]
+    code=[*parent.MODULES,NODE,parent.bundle.LIB/'r48_forms.py']
     scratch=parent.STATE/'fixtures'/('SLD7-'+uuid4().hex[:10])
     mount=scratch/'data';mount.mkdir(parents=True)
     source=[]
@@ -85,7 +85,7 @@ def main():
     if decide([(1,'test',[Entry({'n':49},frozenset(range(49)))])],large,[large])[0]:
         raise ValueError('Small complement disclosed')
     ev=scratch/'REHEARSAL.json'
-    freeze(ev,dict(constructed=True,source_form='Three original-layout SPSS files',checks=['age weighting','three signed matched changes',
+    freeze(ev,dict(constructed=True,forms=['fine','coarse','summary'],distinct_people_checked=True,source_form='Three original-layout SPSS files',checks=['age weighting','three signed matched changes',
         'baseline-adjusted descriptions','loss membership reconstruction','small-complement suppression','independent replay','installed gate'],table=filehash(out/'purpose.csv')))
     real=dict(files=pins,known=known,loss_counts=loss_counts,draws=2000)
     closure=[Path(__file__),Path(parent.__file__),src,p2,p5,prev/'COMPLETE.json',loss/'COMPLETE.json',parent.TEST,

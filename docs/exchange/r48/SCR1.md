@@ -6,6 +6,10 @@
 
 **Registered quantities.** Grouped prices fitted with an open lower category and again with zero-price answers excluded. Resamples kept whole respondents. Blank endpoints mean a full interval could not be estimated.
 
+Pooled top-price dip: 0.0567952 [0.0425976, 0.0728341] (294 people in source roster).
+
+<details><summary>All 106 released quantities</summary>
+
 | Quantity | Estimate [interval] | Size and unit | Observations | Reading |
 |---|---:|---|---:|---|
 | Pooled top-price dip | 0.0567952 [0.0425976, 0.0728341] | 294 people in source roster | — | Opposite direction |
@@ -114,6 +118,8 @@
 | Item 20, excess_secondary | -0.00145042 | 292 people | — | Descriptive |
 | Refusal-count variance ratio | 7.6526 | 290 people | — | Descriptive |
 | Odd-item refusal and even-item price | -0.228931 | 256 people | — | Descriptive |
+
+</details>
 
 **Verdict — against on dip; excess undecided.** The dip interval lies wholly above zero. Several item fits lack a finite tail, so there is no joint conclusion on excess refusal.
 

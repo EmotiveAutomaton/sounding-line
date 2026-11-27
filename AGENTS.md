@@ -1,5 +1,11 @@
 # Codex operating instructions for Sounding Line
 
+**Reporting, amendment DN.** Apply [R48](docs/design/stage-15/RULING_R48.md)
+to earlier and current returns. A landing requires a pushed seven-part report
+generated from released figures. The source classes, reporting terms, distinct-person
+floor and pre-launch form registrations in R48 govern all earlier instructions about
+keeping figures internal. Research admission and publication remain independent.
+
 **Continuous execution, curator instruction November 20.** During an open
 campaign inspect the workstation and Spark separately. Fill available capacity
 with reviewed work. While those jobs run, build and qualify their successors.

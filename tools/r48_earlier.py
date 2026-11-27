@@ -105,6 +105,23 @@ def diaries():
 
 
 def sealed_history():
+    folder=BASE/'WEEK5'
+    prefix='SC1_SEALED_CODEBOOK_20261120'
+    manifest=read(folder/(prefix+'.json'))['aggregates']
+    rows=[]
+    for name,pin in sorted(manifest.items()):
+        for index,r in enumerate(csvrows(checked(folder/name,pin)),1):
+            if 'column' in r:
+                label='Survey field '+str(index)+' coverage'
+                rows.append(row(label,r['n'],n=r['n'],reading='support'))
+            elif 'marker' in r:
+                rows.append(row(r['version']+' '+r['marker']+' speakers',r['n'],n=r['n'],obs=r['conversations'],reading='support'))
+            elif 'conversations' in r:
+                rows.append(row(r['version']+' conversations',r['conversations'],n=r['n'],reading='support'))
+            else:
+                for measure in ('required_fields','present_fields'):
+                    rows.append(row(r['version']+' '+measure.replace('_',' '),r[measure],n=r['n'],reading='support'))
+    write('SC1',rows)
     disposition=read(BASE/'WEEK5/MIDUS_SEALED_TWO_WAVE_DISPOSITION_20261120.json')
     for wave, attempt in zip(('M2','M3'), disposition['waves'], strict=True):
         if (attempt['returned_tables'],attempt['study_exit'],attempt['wrapper_exit']) != (0,12,4):
@@ -116,6 +133,10 @@ def sealed_history():
         write(key,[])
     directory=BASE/'WEEK5'
     hashes=read(directory/'SMF1_THREE_SEALED_RETURNS_20261122.json')['aggregate_hashes']
+    point_file=directory/'SMF1_BM_20261122_MAIN_interval_unavailable.csv'
+    old_points=csvrows(checked(point_file,hashes['main'][point_file.name]))
+    first,=[r for r in old_points if r['branch']=='5' and r['parameter']=='1']
+    write('MIB3',[row('Original MI3 registered point',first['estimate'],n=first['n'])])
     codes={'MI1':[1],'MI2':[2,3,4],'MI4':[7,8,9,10,11,12],'D5.s':[14]}
     for card,indices in codes.items():
         batch='d5' if card=='D5.s' else 'main'

@@ -18,7 +18,9 @@ from .week7_gear import read
 CAMPAIGN = 'S15-WEEK8'
 ROOT = REPO / 'results/phase_2_4_stage_15/raw/drive-week8-20261127'
 AUTHORITY = REPO / 'docs/design/stage-15/week8/PACKET.md'
-PACKET_SHA256 = '4e17127ff1b0dfac84289290356d4d72e2c22a3e7b9e5f43d73fe1c195025da3'
+PACKET_SHA256 = '5cc173d5479767e5567bd3d68c8ddd759e449ea0cab327fc53b43db9b8963a90'
+RULING = AUTHORITY.parents[1] / 'RULING_R48.md'
+RULING_SHA256 = '8e6b8b6dffa4b2241a780c0de85312497368dfe59434984b8cbe2d7475b46626'
 OPEN = datetime(2026, 11, 27, 14, 50, tzinfo=timezone.utc)
 FREEZE = datetime(2026, 11, 29, 16, tzinfo=timezone.utc)
 DRAIN = datetime(2026, 11, 29, 18, tzinfo=timezone.utc)
@@ -74,6 +76,7 @@ def admit(directory, *, card, source, requested, peak, sealed, pins):
         raise ValueError('Invalid admission or row allowance')
     if not math.isfinite(peak) or peak <= 0 or pins.get(str(AUTHORITY)) != PACKET_SHA256:
         raise ValueError('Missing authority or resource inputs')
+    pins = {**pins, str(RULING): RULING_SHA256}
     owner = native_identity()
     lease = None
     try:
