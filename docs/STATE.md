@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians. [Week 8 LAG2 result](../results/phase_2_4_stage_15/WEEK8/LAG2_R48_RETURN.md).
+
 The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. [Week 8 TMP2 result](../results/phase_2_4_stage_15/WEEK8/TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md).
 
 The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. [Week 8 BMP1 result](../results/phase_2_4_stage_15/WEEK8/BMP1_R48_RETURN.md).

@@ -1,5 +1,7 @@
 # Week 8 results
 
+S15-W8-LAG2-R48. [Do sadness and loneliness carry over more than anger across prompts?](LAG2_R48_RETURN.md).
+
 OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL. [PANDORA source qualification and TP58 rehearsal](TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md).
 
 S15-W8-BMP1-R48. [How similar are body maps across named feelings and regions?](BMP1_R48_RETURN.md).

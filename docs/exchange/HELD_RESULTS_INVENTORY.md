@@ -1,6 +1,6 @@
 # Earlier studies with held results
 
-The Week 7 final return supplies the first group. The following group covers earlier returns cited by the final packet and the member 0049 records. This opening inventory contains 29 study or sample entries. The historical search continues backward. Separate milestones of the same study appear together.
+All 33 inventoried studies or samples have a [report in the digest](HELD_RESULTS_DIGEST.md). The first group comes from the Week 7 final return. The later entries cover the backward review, including member 0049 and the earlier sealed runs. Separate milestones of the same study appear together.
 
 | Study or sample | Week | Class | Where the figures or withholding record are held | What the report needs |
 |---|---:|---|---|---|

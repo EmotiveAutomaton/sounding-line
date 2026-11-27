@@ -1,6 +1,8 @@
 # TODO: the study queue
 
-- [x] OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL. The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. Original archive check returned native 22. Archive metadata requested. TP58 invented-history replay passed. Check TP72 or eligible fallback at 18:50 Pacific, after source binding.
+- [x] S15-W8-LAG2-R48. The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians.
+
+- [x] OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL. The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them. Original archive check returned native 22. Verified headers received. Export key uniqueness, timestamp encoding and missing values remain unverified in the seal. TP58 invented-history replay passed. Check TP72 or eligible fallback at 18:50 Pacific, after source binding.
 
 - [x] S15-W8-BMP1-R48. The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report.
 

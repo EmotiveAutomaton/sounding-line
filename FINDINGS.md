@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-W8-LAG2-R48
+
+Do sadness and loneliness carry over more than anger across prompts?
+
+Public openESM diaries. Use the original equal-diary roster and add member 0057 following verified replay. Member 0049 has a [separate public report](docs/exchange/r48/LAG-0049.md). The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians. Pooled PANIC/GRIEF, all, median ratio = 0.0490565 (2 diaries). An event may last across both prompts. Missed prompts can widen gaps selectively, and the two families may draw on different cells and diaries.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/LAG2_R48_RETURN.md).
+
+**Curator roll-up.** Week 7 LAG. The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians. An event may last across both prompts. Missed prompts can widen gaps selectively, and the two families may draw on different cells and diaries. All registered pooled readings and newly verified cell estimates are available. No interval was registered for the pooled ratio or the family difference.
+
 ### OPS-S15-W8-TMP2-DN-SOURCE-REHEARSAL
 
 Do the original PANDORA archives bind for the registered trait reader?

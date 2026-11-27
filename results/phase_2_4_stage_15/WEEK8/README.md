@@ -1,5 +1,7 @@
 # Week 8 evidence
 
+[Do sadness and loneliness carry over more than anger across prompts?](LAG2_R48_RETURN.md). The two pooled gap readings disagree about the ordering of sadness and loneliness versus anger. The study did not register an interval for the difference between family medians.
+
 [PANDORA source qualification and TP58 rehearsal](TMP2_DJ_SOURCE_AND_FALLBACK_REHEARSAL.md). The authenticated job returned native code 22 before any numerical output. This code covers several source bindings. The returned status does not distinguish them.
 
 [How similar are body maps across named feelings and regions?](BMP1_R48_RETURN.md). The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report.
