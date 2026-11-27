@@ -13,7 +13,7 @@ The ready list is empty with 6 free shared CPU slots. ATL2, TMP3 running. Every 
 | ADP1 | How good and bad surprises fade | local | landed | Do bad surprises fade more slowly than good surprises? filed with its replay. | Sounding Line |
 | RML1 | Room level before laughter | local | landed | Does a steady room level predict when laughter starts? filed with its replay. | Sounding Line |
 | SLD9 | Traits and wellbeing scales | Spark | landed | The native job returned code 12. The three registered forms shared the same roster and none qualified. | Sounding Line |
-| TMP2 | Trait reader on written histories | Spark | awaiting report | Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison. | Sounding Line |
+| TMP2 | Trait reader on written histories | Spark | landed | Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison. | Sounding Line |
 | LAG2 | Next-prompt diary replay | local | landed | Do sadness and loneliness carry over more than anger across prompts? filed with its replay. | Sounding Line |
 | LKG2 | Liking, standing and traits | Spark | landed | Do liking errors vary with personality and perceived standing? filed with its replay. | Sounding Line |
 | MNG1 | Meaning and happiness by activity | local | landed | Does caregiving lead daily activities in meaning relative to happiness? filed with its replay. | Sounding Line |

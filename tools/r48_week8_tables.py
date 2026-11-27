@@ -212,8 +212,51 @@ def atlas_tables(directory, terminal):
 SEALED = {'SLD8':('trait.csv','contrast','110','Neuroticism and stressor reactivity, mean of six feelings','positive'),
           'LKG2':('comparisons.csv','measure','11','Estimated minus partner-rated standing, rungs','descriptive')}
 
+def tp72_speech(directory, terminal):
+    """Project all released TP72 estimates and random-head bands for the public report."""
+    import math
+    names = {'conversation_affect.csv': ['reading','outcome'],
+             'conversation_traits.csv': ['reading','rater','trait']}
+    columns = ['n','value','lo','hi','isoN','isoLo','isoMedian','isoHi','isoPct',
+               'rotN','rotLo','rotMedian','rotHi','rotPct','verdict']
+    tags = set('contact order status family approval curiosity tranquility competition savings indep food health power romance honor serenity idealism rest acceptance'.split())
+    traits = {'Openness','Extraversion','Agreeableness','Conscientiousness','Neuroticism'}
+    affects = {'worry','SADNESS','RAGE','FEAR','DISGUST','SHAME'}
+    hashes = terminal['aggregates']
+    if not terminal['verified'] or not hashes or not set(hashes)<=names.keys():
+        raise ValueError('Unexpected conversation release')
+    result = []
+    seen = set()
+    for filename,digest in sorted(hashes.items()):
+        for v in csvrows(checked(directory/'gated-return'/filename,digest)):
+            labels = names[filename]
+            if list(v)!=labels+columns:
+                raise ValueError('Unexpected released fields')
+            if filename=='conversation_affect.csv':
+                valid=v['reading'] in affects and v['outcome'] in {'affect','how_enjoyable'}
+            else:
+                valid=v['reading'] in tags and v['rater'] in {'self','partner'} and v['trait'] in traits
+            key=tuple(v[k] for k in labels)
+            if not valid or key in seen or v['verdict'] not in {'below','within','above','partial'}:
+                raise ValueError('Unregistered or duplicate result label')
+            seen.add(key)
+            n=int(v['n'])
+            if n<11 or not all(math.isfinite(float(v[k])) for k in columns[:-1]):
+                raise ValueError('Invalid released sample or statistic')
+            label=', '.join(key)
+            result.append(row(label+', trained correlation (producer classification against rotated heads: '+v['verdict']+')',v['value'],[v['lo'],v['hi']],n))
+            for prefix,control in [('iso','isotropic heads'),('rot','rotated heads')]:
+                if not 1<=int(v[prefix+'N'])<=200:
+                    raise ValueError('Invalid matched control count')
+                result.append(row(label+', '+control+' median and reference band',v[prefix+'Median'],
+                                  [v[prefix+'Lo'],v[prefix+'Hi']],n,v[prefix+'N'],'control'))
+                result.append(row(label+', percentile among '+control,v[prefix+'Pct'],None,n,v[prefix+'N'],'control'))
+    return result
+
 
 def project(card, directory, terminal):
+    if card=='TMP3' and 'aggregates' in terminal:
+        return tp72_speech(directory,terminal)
     if card=='LAG2':
         return lag_tables()
     if card=='LGH6':
