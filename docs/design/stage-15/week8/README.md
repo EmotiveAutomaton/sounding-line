@@ -1,6 +1,6 @@
 # Stage 15 · Week 8
 
-The ready list contains 1 qualified unit with 3 free shared CPU slots. RML1-AMI-room-DN waits for shared memory floor including companion headroom. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
+The ready list contains 1 qualified unit with 4 free shared CPU slots. RML1-AMI-room-DN waits for shared memory floor including companion headroom. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -13,8 +13,8 @@ The ready list contains 1 qualified unit with 3 free shared CPU slots. RML1-AMI-
 | ADP1 | How good and bad surprises fade | local | landed | Do bad surprises fade more slowly than good surprises? filed with its replay. | Sounding Line |
 | RML1 | Room level before laughter | local | running | RML1-ICSI-room-DN. Queued: RML1-AMI-room-DN | Sounding Line |
 | SLD9 | Traits and wellbeing scales | Spark | landed | The native job returned code 12. The three registered forms shared the same roster and none qualified. | Sounding Line |
-| TMP2 | Trait reader on written histories | Spark | blocked | Original archive check returned native 22. Archive metadata requested. TP58 invented-history replay passed. Check TP72 or eligible fallback at 18:50 Pacific, after source binding. | Sounding Line |
-| LAG2 | Next-prompt diary replay | local | running | LAG2-0057-independent-replay | Sounding Line |
+| TMP2 | Trait reader on written histories | Spark | blocked | Original archive check returned native 22. Verified headers received. Export key uniqueness, timestamp encoding and missing values remain unverified in the seal. TP58 invented-history replay passed. Check TP72 or eligible fallback at 18:50 Pacific, after source binding. | Sounding Line |
+| LAG2 | Next-prompt diary replay | local | landed | Do sadness and loneliness carry over more than anger across prompts? filed with its replay. | Sounding Line |
 | LKG2 | Liking, standing and traits | Spark | landed | Do liking errors vary with personality and perceived standing? filed with its replay. | Sounding Line |
 | MNG1 | Meaning and happiness by activity | local | landed | Does caregiving lead daily activities in meaning relative to happiness? filed with its replay. | Sounding Line |
 | SLD7 | Purpose after marriage | Spark | landed | The native job returned code 12. No form qualified inside the seal. | Sounding Line |
