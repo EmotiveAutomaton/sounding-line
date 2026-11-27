@@ -1,5 +1,25 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W8-SLD6-STRESSOR-DISPOSITION
+
+Does a questionnaire trait predict whether conflict changes a person’s feelings more than other kinds of daily stressor?
+
+MIDUS 2 original survey and daily diary. The survey and diary fields bound. The registered procedure compared responses to conflict, overload and an event affecting someone close. The five independent submissions produced no table. This leaves the trait differences unknown.
+
+The exit code and disclosure decision are filed in the [study return](results/phase_2_4_stage_15/WEEK8/SLD6_TRAIT_STRESSOR_RETURN.md).
+
+**Curator roll-up.** P4, R37-S3. Void. All five trait jobs returned native code 12. No effect or contrast could be released. Close-person events can be rare in an eight-day diary. The code does not distinguish insufficient contributing people, an undefined fit and disclosure suppression. The independently matched wave-one single feelings continue under SLD8.
+
+### OPS-S15-W8-SLD6-WAVE2-STRUCTURE
+
+Does the original wave-two source expose the registered diary fields and all five released trait composites?
+
+MIDUS 2 main survey and Daily Stress Project. The survey person key reproduced the previously released 4,963-person survey roster. No diary response or participant trait was scored in this check.
+
+The source check, original-source replay and scope are filed in the [study return](results/phase_2_4_stage_15/WEEK8/SLD6_WAVE_TWO_STRUCTURE.md).
+
+**Curator roll-up.** P4, S3. The pinned MIDUS survey contains all five trait composites and the daily diary has the registered event and feeling fields. Column availability establishes which fits can be attempted. Each kind still needs contributing people in both diary halves. All five trait fields bind. Qualifying the three stressor fits and their shuffle against constructed diaries.
+
 ### OPS-S15-W8-LKG1-SEALED-DISPOSITION
 
 Does the difference between perceived and reported liking repeat across a speaker’s conversations?

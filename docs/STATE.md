@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+Void. All five trait jobs returned native code 12. No effect or contrast could be released. [Week 8 SLD6 result](../results/phase_2_4_stage_15/WEEK8/SLD6_TRAIT_STRESSOR_RETURN.md).
+
+The pinned MIDUS survey contains all five trait composites and the daily diary has the registered event and feeling fields. [Week 8 SLD6 result](../results/phase_2_4_stage_15/WEEK8/SLD6_WAVE_TWO_STRUCTURE.md).
+
 Void. Spark returned code 12 because no eligible comparison could be disclosed. [Week 8 LKG1 result](../results/phase_2_4_stage_15/WEEK8/LKG1_LIKING_GAP_DISPOSITION.md).
 
 Undecided for spouse death, finalized divorce and both losses pooled. [Week 8 SLD5 result](../results/phase_2_4_stage_15/WEEK8/SLD5_PURPOSE_AFTER_MARITAL_LOSS.md).

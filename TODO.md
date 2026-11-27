@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W8-SLD6-STRESSOR-DISPOSITION. Void. All five trait jobs returned native code 12. No effect or contrast could be released.
+
+- [x] OPS-S15-W8-SLD6-WAVE2-STRUCTURE. The pinned MIDUS survey contains all five trait composites and the daily diary has the registered event and feeling fields. All five trait fields bind. Qualifying the three stressor fits and their shuffle against constructed diaries.
+
 - [x] OPS-S15-W8-LKG1-SEALED-DISPOSITION. Void. Spark returned code 12 because no eligible comparison could be disclosed.
 
 - [x] S15-W8-SLD5-MARITAL-LOSS. Undecided for spouse death, finalized divorce and both losses pooled.

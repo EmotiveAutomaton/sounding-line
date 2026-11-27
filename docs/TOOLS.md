@@ -3144,6 +3144,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W8-SLD6-STRESSOR-DISPOSITION.** Original diary half-slope operator with whole-family draws, three stressor kinds and one paired contrast per trait. [Return](../results/phase_2_4_stage_15/WEEK8/SLD6_TRAIT_STRESSOR_RETURN.md).
+
+**OPS-S15-W8-SLD6-WAVE2-STRUCTURE.** Joined SPSS header check with the known full survey membership and original diary event map. [Return](../results/phase_2_4_stage_15/WEEK8/SLD6_WAVE_TWO_STRUCTURE.md).
+
 **OPS-S15-W8-LKG1-SEALED-DISPOSITION.** Reciprocal report linkage with a constructed missingness, ordering and disclosure rehearsal. [Return](../results/phase_2_4_stage_15/WEEK8/LKG1_LIKING_GAP_DISPOSITION.md).
 
 **S15-W8-SLD5-MARITAL-LOSS.** Three-wave change in purpose relative to a continuously married comparison group, weighted by baseline age decade. [Return](../results/phase_2_4_stage_15/WEEK8/SLD5_PURPOSE_AFTER_MARITAL_LOSS.md).

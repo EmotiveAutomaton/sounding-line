@@ -65,7 +65,7 @@ def rebind(ledger):
 
 
 def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_note,
-         after_anchor, afterword, opposition, outcome, rival, scope, next_step, return_line):
+         after_anchor, afterword, opposition, outcome, rival, scope, next_step, return_line, progress=None):
     PUBLIC.mkdir(parents=True,exist_ok=True)
     ident=evidence['id']
     if set(evidence)!=set('id date question data estimate interval bar verdict limit claims family'.split()):
@@ -74,7 +74,7 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     topic=', '.join(evidence['claims'])
     tag='(test, '+ident+')'
     withheld = outcome == 'void'
-    kind = 'run' if withheld else 'claim'
+    kind = 'run' if withheld or progress is not None else 'claim'
     control = 'no releasable result' if withheld else 'passes'
     if withheld and (evidence['estimate'] is not None or evidence['interval'] is not None or opposition):
         raise ValueError('A void disposition cannot contain scientific estimates or opposition')
@@ -82,10 +82,10 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
         raise ValueError('Restricted data require a separate internal filing')
     views.mark_pending(ROOT,ident)
     write(PUBLIC/(stem+'.md'),'# '+title+'\n\n'+body.rstrip()+'\n')
-    atomic(PUBLIC/(stem+'.json'),dict(receipt,id=ident,card=card,full_write_through=True,record_kind=kind,scientific_admission=not withheld,theory_tags=evidence['claims'],activation=[]))
+    atomic(PUBLIC/(stem+'.json'),dict(receipt,id=ident,card=card,full_write_through=True,record_kind=kind,scientific_admission=kind=='claim',theory_tags=evidence['claims'],activation=[]))
     theory=ROOT/'docs/theory/THREE_COGNITIVE_LAYERS.md'
     source=theory.read_text('utf8')
-    if not withheld and tag not in source:
+    if kind == 'claim' and tag not in source:
         anchor,=[l for l in source.splitlines() if l.startswith('| **'+theory_anchor+'** |')]
         if source.count(after_anchor)!=1:
             raise ValueError('Afterword anchor missing or ambiguous')
@@ -96,10 +96,12 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
         write(theory,changed)
     findings=ROOT/'FINDINGS.md'
     reference = 'The exit code and disclosure decision are filed in the ' if withheld else 'The full comparison, original-source replay and limits are filed in the '
+    if progress is not None:
+        reference = 'The source check, original-source replay and scope are filed in the '
     add(findings,'### '+ident,'### '+ident+'\n\n'+evidence['question']+'\n\n'+evidence['data']+' '+afterword+'\n\n'+
         reference+'[study return](results/phase_2_4_stage_15/WEEK8/'+stem+'.md).\n\n'+
         '**Curator roll-up.** '+topic+'. '+evidence['verdict']+' '+evidence['limit']+' '+next_step,front=True)
-    add(ROOT/'TODO.md',ident,'- [x] '+ident+'. '+evidence['verdict'],front=True)
+    add(ROOT/'TODO.md',ident,'- [x] '+ident+'. '+evidence['verdict']+(' '+progress if progress else ''),front=True)
     tools=ROOT/'docs/TOOLS.md'
     old=tools.read_text('utf8')
     if ident not in old:
@@ -135,7 +137,10 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     index=STATE/'dispositions.json'
     states=read(index)
     disposition = evidence['verdict'] if withheld else title+' filed with its replay.'
-    states[card]=dict(status='landed',owner='Sounding Line',evidence=disposition,result=return_line,limit=evidence['limit'])
+    if progress is None:
+        states[card]=dict(status='landed',owner='Sounding Line',evidence=disposition,result=return_line,limit=evidence['limit'])
+    else:
+        states.setdefault(card,{}).update(status='blocked',owner='Sounding Line',evidence=progress)
     atomic(index,states)
     if opposition:
         contrary=STATE/'contrary.json'
@@ -145,7 +150,7 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     coverage=ROOT/'.agent-state/work-coverage.json'
     work=read(coverage)
     entry,=[v for v in work['work'] if v['card']==card]
-    entry.update(state='closed',evidence=str((PUBLIC/(stem+'.json')).relative_to(ROOT).as_posix()),last_inspection=receipt['terminal_sha256'])
+    entry.update(state='closed' if progress is None else 'build',evidence=str((PUBLIC/(stem+'.json')).relative_to(ROOT).as_posix()),last_inspection=receipt['terminal_sha256'])
     work['last_reconciled']=datetime.now(timezone.utc).isoformat()
     atomic(coverage,work)
     built=views.run(ROOT,'build')

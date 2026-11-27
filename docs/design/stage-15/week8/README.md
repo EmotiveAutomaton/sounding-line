@@ -1,19 +1,19 @@
 # Stage 15 · Week 8
 
-The ready list is empty with 7 free shared CPU slots. The remaining studies are in preparation or await the source or fixture named below.
+The ready list contains SLD8 with 5 free shared CPU slots. Shared memory floor including companion headroom currently limits starts.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
 | SLD5 | Purpose after loss | Spark | landed | Purpose after a marital loss filed with its replay. | Sounding Line |
 | LKG1 | Liking across conversations | Spark | landed | Void. Spark returned code 12 because no eligible comparison could be disclosed. | Sounding Line |
-| SLD6 | Trait by kind of daily stressor | Spark | blocked | Wave-two stressor and trait binding and three-way contrast rehearsal | Sounding Line |
-| SLD8 | Wave-one daily diary | Spark | blocked | Both wave-one codebooks identify the person and family keys. Combined read-only mount requested; codebook admission and fixture are in preparation. | Archive / Sounding Line |
+| SLD6 | Trait by kind of daily stressor | Spark | landed | Void. All five trait jobs returned native code 12. No effect or contrast could be released. | Sounding Line |
+| SLD8 | Wave-one daily diary | Spark | ready | SLD8-wave1-structure | Sounding Line |
 | LGH6 | Voicing before another person joins a laugh | local | blocked | Within-laugh frame window and constructed audio checks | Sounding Line |
 | ACC1 | Acceleration in game outcomes | local | blocked | Player split and three validated standard-model fits | Sounding Line |
 | ADP1 | How good and bad surprises fade | local | blocked | Player split and qualified two-rate model | Sounding Line |
 | RML1 | Room level before laughter | local | blocked | Laugh-excluded half-minute sound and speech-rate operator | Sounding Line |
 | SLD9 | Traits and wellbeing scales | Spark | blocked | Wave-two composite dictionary and complete-roster rehearsal | Sounding Line |
-| TMP2 | Trait reader on written histories | Spark | blocked | Original archives staged. The combined TP58 fallback is staged for 18:50 Pacific if TP72 is absent. The in-seal adapter and fixture are in preparation. | Sounding Line / engine |
+| TMP2 | Trait reader on written histories | Spark | running | TMP2-DJ-archive-counts | Sounding Line / engine |
 | LAG2 | Next-prompt diary replay | local | running | LAG2-0057-independent-replay | Sounding Line |
 | LKG2 | Liking, standing and traits | Spark | blocked | Liking-gap, standing and trait codebook bindings | Sounding Line |
 | MNG1 | Meaning and happiness by activity | local | blocked | Four matched years of activity and one-to-many company tables are held. Activity, company and prior sampling weights need qualification. | Sounding Line |
