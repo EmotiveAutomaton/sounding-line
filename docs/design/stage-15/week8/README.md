@@ -27,3 +27,5 @@ The ready list contains 1 qualified unit with 3 free shared CPU slots. RML1-AMI-
 | TMP3 | Trait reader on conversation turns | Spark | blocked | TP72 conversation adapter and matching random heads from the engine. The receiver passed its invented two-person conversation. | Engine |
 
 [Packet](PACKET.md) · [Originals and hashes](INTAKE.json) · [Round 37 handoff](../week6/THEORY_HANDOFF_R37.md) · [Live return](../../../exchange/WEEK8_RETURN.md).
+
+Amendment DN governs the reporting instructions in the original method cards. LGH6, LGH7 and RML1 publish AMI and ICSI aggregates by corpus. ATL2 reports member 0049 separately. [Ruling R48](../RULING_R48.md).

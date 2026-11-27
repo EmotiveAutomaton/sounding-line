@@ -138,7 +138,11 @@ def render():
              "used or reserved under R48 section 7. [Disposition by study](../design/stage-15/week8/R48_RETROSPECTIVE.md).\n")
     roster.RETURN.write_text(text, encoding='utf8', newline='\n')
     index = roster.DESIGN / 'README.md'
-    index.write_text(index.read_text(encoding='utf8').replace(first,new,1), encoding='utf8', newline='\n')
+    note = ('Amendment DN governs the reporting instructions in the original method cards. '
+            'LGH6, LGH7 and RML1 publish AMI and ICSI aggregates by corpus. '
+            'ATL2 reports member 0049 separately. [Ruling R48](../RULING_R48.md).')
+    index.write_text(index.read_text(encoding='utf8').replace(first,new,1).rstrip()+'\n\n'+note+'\n',
+                     encoding='utf8', newline='\n')
     print(new)
 
 

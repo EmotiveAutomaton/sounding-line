@@ -114,6 +114,72 @@ def lag_tables():
     return rows
 
 
+def meeting_tables(card, root=RAW8):
+    rows=[]
+    for corpus in ('ICSI','AMI'):
+        suffix='prejoin' if card=='LGH6' else 'room'
+        directory=root/f'{card}-{corpus}-{suffix}-DN'
+        obj=replay(directory,read(directory/'COMPLETE.json'))
+        if obj['source_class']!='P' or obj['corpus']!=corpus:
+            raise ValueError('Different corpus or source class')
+        if card=='LGH6':
+            tables=obj['tables']
+            rows.append(row(corpus+', source meetings',obj['meetings'],None,None,unit='meetings',reading='support'))
+            short=tables['short_intervals']
+            rows.append(row(corpus+', short intervals',short['intervals'],None,short['n'],reading='support'))
+            for panel in ('heldout','all'):
+                fit=tables[panel]
+                label=corpus+', '+panel
+                rows.append(row(label+', model disposition code',fit['code'],None,fit.get('n'),
+                                fit.get('meetings'),reading='support'))
+                for v in fit.get('models',[]):
+                    model=label+', voicing model '+str(v['model'])
+                    rows.append(scalar(model,v,fit['n'],reading='positive' if panel=='heldout' else 'descriptive'))
+                    for field in ('shuffle95','shuffle_upper'):
+                        if field in v:
+                            rows.append(row(model+', '+field,v[field],None,fit['n'],reading='control'))
+        else:
+            for field in ('source_meetings','complete_annotation_meetings','untimed_laugh_exclusions'):
+                rows.append(row(corpus+', '+field.replace('_',' '),obj[field],None,None,unit='meetings',reading='support'))
+            for group,model in obj['models'].items():
+                if 'code' in model:
+                    rows.append(row(corpus+', '+group+', model disposition code',model['code'],None,None,unit='meetings',reading='support'))
+                    continue
+                for label,(point,lo,hi) in zip(obj['coefficient_order'],model['weights'],strict=True):
+                    rows.append(row(corpus+', '+group+', '+label,point,[lo,hi],model['meetings'],unit='meetings'))
+    return rows
+
+
+def atlas_tables(directory, terminal):
+    name='ATLAS_COMPLETE.json'
+    audit=read(checked(directory/name,terminal['results'][name]))
+    if not terminal['verified'] or len(audit['checksums'])!=audit['public_rows']+audit['internal_rows']:
+        raise ValueError('Incomplete atlas replay')
+    rows=[]
+    agreement_counts={}
+    for cell,sha in sorted(audit['checksums'].items()):
+        if Path(cell).name!=cell or not cell.endswith('.json'):
+            raise ValueError('Unknown atlas checkpoint')
+        v=read(checked(directory/'verified_cells'/cell,sha))
+        scope='0049' if v['scope']=='internal' else v['scope']
+        label=f"{scope}, {v['event']}/{v['feeling']}"
+        n=v['splits']
+        if n!=10 or len(v['paired_intervals'])!=n:
+            raise ValueError('Incomplete registered split schedule')
+        qualifies=v['same_clear']>=8
+        agreement_counts[scope]=agreement_counts.get(scope,0)+int(qualifies)
+        for field in ('defined_both','same_clear','both_positive','both_negative'):
+            rows.append(row(label+', '+field,v[field],None,n,unit='splits'))
+        rows.append(row(label+', at least eight agreements',int(qualifies),None,n,unit='splits'))
+        for split,pair in enumerate(v['paired_intervals'],1):
+            for half,fit in zip(('A','B'),pair,strict=True):
+                point,lo,hi=fit if fit is not None else (None,None,None)
+                rows.append(row(f'{label}, split {split} half {half}',point,[lo,hi],None,unit='half sample'))
+    for scope,total in sorted(agreement_counts.items()):
+        rows.insert(0,row(scope+', cells with at least eight agreements',total,None,None,unit='cells'))
+    return rows
+
+
 SEALED = {'SLD8':('trait.csv','contrast','110','Neuroticism and stressor reactivity, mean of six feelings','positive'),
           'LKG2':('comparisons.csv','measure','11','Estimated minus partner-rated standing, rungs','descriptive')}
 
@@ -121,6 +187,10 @@ SEALED = {'SLD8':('trait.csv','contrast','110','Neuroticism and stressor reactiv
 def project(card, directory, terminal):
     if card=='LAG2':
         return lag_tables()
+    if card in ('LGH6','RML1'):
+        return meeting_tables(card)
+    if card=='ATL2':
+        return atlas_tables(directory,terminal)
     if card in SEALED:
         fname,tag,code,label,direction=SEALED[card]
         if set(terminal['aggregates'])!={fname} or not terminal['verified']:
