@@ -1,6 +1,6 @@
 # Stage 15 · Week 8
 
-The ready list is empty with 7 free shared CPU slots. The remaining studies are in preparation or await the source or fixture named below. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
+The ready list is empty with 6 free shared CPU slots. ATL2, TMP3 running. Every other commissioned row has finished its run. 0 inventoried earlier studies lack a pushed report. Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -13,7 +13,7 @@ The ready list is empty with 7 free shared CPU slots. The remaining studies are 
 | ADP1 | How good and bad surprises fade | local | landed | Do bad surprises fade more slowly than good surprises? filed with its replay. | Sounding Line |
 | RML1 | Room level before laughter | local | landed | Does a steady room level predict when laughter starts? filed with its replay. | Sounding Line |
 | SLD9 | Traits and wellbeing scales | Spark | landed | The native job returned code 12. The three registered forms shared the same roster and none qualified. | Sounding Line |
-| TMP2 | Trait reader on written histories | Spark | blocked | TP58 fallback entry matches its prepared bytes. Original PANDORA source returned 22 before counting. TP72 delivery or 18:50 Pacific fallback review; the owner must resolve or document the original binding in-seal. Constructed receiver membership checks passed. [Forms and receiver](https://github.com/EmotiveAutomaton/sounding-line/blob/main/docs/design/stage-15/week8/TP72_RECEIVER.md). | Sounding Line |
+| TMP2 | Trait reader on written histories | Spark | awaiting report | Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison. | Sounding Line |
 | LAG2 | Next-prompt diary replay | local | landed | Do sadness and loneliness carry over more than anger across prompts? filed with its replay. | Sounding Line |
 | LKG2 | Liking, standing and traits | Spark | landed | Do liking errors vary with personality and perceived standing? filed with its replay. | Sounding Line |
 | MNG1 | Meaning and happiness by activity | local | landed | Does caregiving lead daily activities in meaning relative to happiness? filed with its replay. | Sounding Line |
@@ -24,7 +24,7 @@ The ready list is empty with 7 free shared CPU slots. The remaining studies are 
 | TWO3 | Lagged feelings within couples | local | landed | Does a partner’s previous matching feeling predict the next report more strongly? filed with its replay. | Sounding Line |
 | BMP1 | Body maps by feeling | local | landed | The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. | Sounding Line |
 | DRV1 | Falling standing, anxiety and sadness | local | landed | Do accelerating falls in standing favor anxiety over sadness? filed with its replay. | Sounding Line |
-| TMP3 | Trait reader on conversation turns | Spark | blocked | Engine has documented the TP72 conversation interface. Await verified release and combined read-only source for the end-to-end rehearsal. Constructed receiver membership checks passed. [Forms and receiver](https://github.com/EmotiveAutomaton/sounding-line/blob/main/docs/design/stage-15/week8/TP72_RECEIVER.md). | Engine |
+| TMP3 | Trait reader on conversation turns | Spark | running | TMP3-TP72-original-conversations | Sounding Line |
 
 [Packet](PACKET.md) · [Originals and hashes](INTAKE.json) · [Round 37 handoff](../week6/THEORY_HANDOFF_R37.md) · [Live return](../../../exchange/WEEK8_RETURN.md).
 

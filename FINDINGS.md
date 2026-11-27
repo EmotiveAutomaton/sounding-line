@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-W8-TMP2-R48
+
+Can the trained reader recover differences in self-reported traits from writing after removing test-related material?
+
+PANDORA, Gjurković et al. (2021). The retained terms allow public reporting of aggregate findings. [Source paper](https://aclanthology.org/2021.socialnlp-1.12/). Inside the sealed job, bind author keys, the five trait fields, comment identities and dates. Apply the registered community and comment exclusions before scoring. The planned comparison uses two matched random-head families and whole-writer intervals. Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison.
+
+The exit code and disclosure decision are filed in the [study return](results/phase_2_4_stage_15/WEEK8/TMP2_R48_RETURN.md).
+
+**Curator roll-up.** P5. Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison. Writers chose to post scores from different instruments. The exclusion rule can miss a test-related community. All estimates, intervals, counts and control bands are unavailable. A verified original-source binding would be needed to estimate them. The two commissioned TMP2 submissions have been used.
+
 ### S15-W8-LGH6-R48
 
 Does more voiced laughter predict another speaker joining within one second?

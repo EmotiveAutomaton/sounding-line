@@ -1,4 +1,4 @@
-The ready list is empty with 7 free shared CPU slots. The remaining studies are in preparation or await the source or fixture named below. 0 inventoried earlier studies lack a pushed report. TMP2 passed its invented-history rehearsal. The original archive binding failed with code 22 before Spark could count the source cells. TMP3 conversation reader awaits its producer-bound in-seal cell-count rehearsal.
+The ready list is empty with 6 free shared CPU slots. ATL2, TMP3 running. Every other commissioned row has finished its run. 0 inventoried earlier studies lack a pushed report. Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells.
 
 # Week 8 return
 
@@ -10,7 +10,7 @@ The ready list is empty with 7 free shared CPU slots. The remaining studies are 
 
 ## Study roster
 
-Read at 2026-11-27T21:54:59.042752+00:00 (UTC).
+Read at 2026-11-27T22:46:43.296140+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -23,7 +23,7 @@ Read at 2026-11-27T21:54:59.042752+00:00 (UTC).
 | ADP1 | How good and bad surprises fade | local | landed | Do bad surprises fade more slowly than good surprises? filed with its replay. | Sounding Line |
 | RML1 | Room level before laughter | local | landed | Does a steady room level predict when laughter starts? filed with its replay. | Sounding Line |
 | SLD9 | Traits and wellbeing scales | Spark | landed | The native job returned code 12. The three registered forms shared the same roster and none qualified. | Sounding Line |
-| TMP2 | Trait reader on written histories | Spark | blocked | TP58 fallback entry matches its prepared bytes. Original PANDORA source returned 22 before counting. TP72 delivery or 18:50 Pacific fallback review; the owner must resolve or document the original binding in-seal. Constructed receiver membership checks passed. [Forms and receiver](https://github.com/EmotiveAutomaton/sounding-line/blob/main/docs/design/stage-15/week8/TP72_RECEIVER.md). | Sounding Line |
+| TMP2 | Trait reader on written histories | Spark | awaiting report | Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison. | Sounding Line |
 | LAG2 | Next-prompt diary replay | local | landed | Do sadness and loneliness carry over more than anger across prompts? filed with its replay. | Sounding Line |
 | LKG2 | Liking, standing and traits | Spark | landed | Do liking errors vary with personality and perceived standing? filed with its replay. | Sounding Line |
 | MNG1 | Meaning and happiness by activity | local | landed | Does caregiving lead daily activities in meaning relative to happiness? filed with its replay. | Sounding Line |
@@ -34,7 +34,7 @@ Read at 2026-11-27T21:54:59.042752+00:00 (UTC).
 | TWO3 | Lagged feelings within couples | local | landed | Does a partner’s previous matching feeling predict the next report more strongly? filed with its replay. | Sounding Line |
 | BMP1 | Body maps by feeling | local | landed | The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. | Sounding Line |
 | DRV1 | Falling standing, anxiety and sadness | local | landed | Do accelerating falls in standing favor anxiety over sadness? filed with its replay. | Sounding Line |
-| TMP3 | Trait reader on conversation turns | Spark | blocked | Engine has documented the TP72 conversation interface. Await verified release and combined read-only source for the end-to-end rehearsal. Constructed receiver membership checks passed. [Forms and receiver](https://github.com/EmotiveAutomaton/sounding-line/blob/main/docs/design/stage-15/week8/TP72_RECEIVER.md). | Engine |
+| TMP3 | Trait reader on conversation turns | Spark | running | TMP3-TP72-original-conversations | Sounding Line |
 
 ## Filed results
 
@@ -47,6 +47,7 @@ Read at 2026-11-27T21:54:59.042752+00:00 (UTC).
 - [ADP1 report](r48/ADP1.md). Positive. All players, bad minus good fading rate, 0.2 [0.2, 0.25] (12715 people). A few minutes of a game is not a life. The rating scale has ends, and uncertainty is on the registered discrete grid.
 - [RML1 report](r48/RML1.md). Undecided. ICSI, room, absolute change, -0.0558938 [-0.238486, 0.134813] (75 meetings). Sound level and speech pace stand in for stress. Laughs are loud and cluster in time. Excluding a whole meeting for an untimed laugh removed the entire AMI sample.
 - [SLD9 report](r48/SLD9.md). Withheld. The native job returned code 12. The three registered forms shared the same roster and none qualified. One person answered the traits and wellbeing items in one sitting.
+- TMP2. Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison. [Report](r48/TMP2.md). Writers chose to post scores from different instruments. The exclusion rule can miss a test-related community.
 - [LAG2 report](r48/LAG2.md). Descriptive. Pooled PANIC/GRIEF, all, median ratio, 0.0490565 (2 diaries). An event may last across both prompts. Missed prompts can widen gaps selectively, and the two families may draw on different cells and diaries.
 - [LKG2 report](r48/LKG2.md). Descriptive. Estimated minus partner-rated standing, rungs, -0.166355 [-0.251125, -0.0785919] (1415 people). People may use the response scale similarly when rating themselves and estimating a partner’s view. A partner can recur across speaker draws.
 - [MNG1 report](r48/MNG1.md). Mixed. child care, 0.241778 [0.195043, 0.290355] (5098 people). One word measures meaning. People select their activities and typically rate only three episodes. Early survey years had an activity-selection error, and the last wave omitted January and February.
@@ -65,7 +66,7 @@ Read at 2026-11-27T21:54:59.042752+00:00 (UTC).
 
 ## Sealed invocations
 
-14 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 161,795.1 seconds.
+17 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 195,442.5 seconds.
 
 - LKG1, LKG1-liking-gap. Exit 4. Native study exit 12.
 - LKG2, LKG2-speaker-traits-standing-DN. Exit 0.
@@ -81,6 +82,9 @@ Read at 2026-11-27T21:54:59.042752+00:00 (UTC).
 - SLD8, SLD8-wave1-structure. Exit 0.
 - SLD9, SLD9-wave2-trait-wellbeing-DN. Exit 4. Native study exit 12.
 - TMP2, TMP2-DJ-archive-counts-DN. Exit 4. Native study exit 22.
+- TMP2, TMP2-TP72-original-histories. Exit 4. Native study exit 22.
+- TMP3, TMP3-TP72-dual-fixture-Spark. Exit 0.
+- TMP3, TMP3-TP72-original-conversations. Reserved or in progress.
 
 ## Unused sources
 

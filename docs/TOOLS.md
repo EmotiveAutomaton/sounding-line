@@ -3163,6 +3163,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W8-TMP2-R48.** The exact TP72 inputs passed the invented-data rehearsal on both hosts. Original PANDORA inputs returned binding code 22 twice. [Return](../results/phase_2_4_stage_15/WEEK8/TMP2_R48_RETURN.md).
+
 **S15-W8-LGH6-R48.** Measure the voiced fraction of active sound before a join. Exclude intervals with under 200 ms of active sound. On the original held-out laughs fit a within-speaker linear probability model, then add level and prior laughter, then meeting effects. A coefficient is the probability difference per unit of voiced fraction. Repeat descriptively on all eligible laughs. Use 2,000 whole-meeting draws for intervals and 1,000 within-speaker, within-meeting shuffles for the first model. The control rows give the 95th percentile and the upper-tail permutation probability. The earlier ICSI component profile uses whole annotated utterances. [Return](../results/phase_2_4_stage_15/WEEK8/LGH6_R48_RETURN.md).
 
 **S15-W8-RML1-R48.** Estimate laugh starts per half minute using the preceding room sound and speech pace. Exclude annotated laughs from both predictors, hold prior laughter and fit within meetings. Use 2,000 whole-meeting resamples. The coefficients are on the log count scale. [Return](../results/phase_2_4_stage_15/WEEK8/RML1_R48_RETURN.md).

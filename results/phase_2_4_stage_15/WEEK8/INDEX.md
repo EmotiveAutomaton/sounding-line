@@ -1,5 +1,7 @@
 # Week 8 results
 
+S15-W8-TMP2-R48. [Can the trained reader recover differences in self-reported traits from writing after removing test-related material?](TMP2_R48_RETURN.md).
+
 S15-W8-LGH6-R48. [Does more voiced laughter predict another speaker joining within one second?](LGH6_R48_RETURN.md).
 
 S15-W8-RML1-R48. [Does a steady room level predict when laughter starts?](RML1_R48_RETURN.md).

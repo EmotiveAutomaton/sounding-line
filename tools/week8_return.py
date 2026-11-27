@@ -48,6 +48,12 @@ def render():
     first = text.splitlines()[0]
     free = max(0, snapshot['free'])
     new = first
+    current = snapshot['rows']
+    if not reasons and all(r['status'] in ('landed','running','awaiting report') for r in current.values()):
+        active = ', '.join(k for k,r in current.items() if r['status']=='running')
+        capacity = f'{active} running. ' if active else ''
+        new = (f'The ready list is empty with {free} free shared CPU slots. '
+               + capacity + 'Every other commissioned row has finished its run.')
     if reasons:
         label = 'unit' if len(reasons) == 1 else 'units'
         new = f"The ready list contains {len(reasons)} qualified {label} with {free} free shared CPU slots."
@@ -64,6 +70,9 @@ def render():
         new += f' {len(missing)} inventoried earlier studies still need a pushed report while their figures and withholding receipts are reconciled.'
     else:
         new += ' 0 inventoried earlier studies lack a pushed report.'
+    tmp2_exit=dispatch.SHARED/'TMP2-TP72-original-histories.native.json'
+    if tmp2_exit.is_file() and read(tmp2_exit).get('native')==22:
+        new += ' Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells.'
     held=set()
     for ref in dispatch.SHARED.glob('*.hold.json'):
         if read(ref).get('amendment')!='DN':
@@ -84,7 +93,12 @@ def render():
                 for q in reviewed):
             binding=dispatch.SHARED/'TMP2-DJ-archive-counts-DN.native.json'
             proof=roster.gear.ROOT/'TMP2-TP58-original-archive-fixture-DN-host1'/'COMPLETE.json'
-            if card=='TMP2' and binding.exists() and read(binding)['native']==22 and proof.exists() and read(proof)['verified']:
+            delivery=roster.STATE/'TP72_PRODUCER_REVIEW.json'
+            if delivery.is_file() and read(delivery).get('verified'):
+                if card=='TMP2' and not tmp2_exit.is_file():
+                    new += ' The TP72 bundle and all three archive staging receipts are verified. The original TMP2 count exited with code 22 before counting.'
+                new += f" {card} {label} requires the receiver's Spark qualification before the source run."
+            elif card=='TMP2' and binding.exists() and read(binding)['native']==22 and proof.exists() and read(proof)['verified']:
                 new += (' TMP2 passed its invented-history rehearsal. The original archive binding failed '
                         'with code 22 before Spark could count the source cells.')
             else:

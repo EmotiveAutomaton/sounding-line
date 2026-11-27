@@ -15,6 +15,8 @@ CAP=15400
 
 
 def prepare(release=False, tp72_absent=False):
+    if release and (STATE/'TP72_PRODUCER_REVIEW.json').exists():
+        raise ValueError('The verified TP72 delivery superseded the TP58 fallback')
     binding, payload, pins=study.reviewed()
     unit=study.UNIT
     entry=STATE/'sealed'/unit/'run.py'
