@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W8-LKG1-SEALED-DISPOSITION. Void. Spark returned code 12 because no eligible comparison could be disclosed.
+
+- [x] S15-W8-SLD5-MARITAL-LOSS. Undecided for spouse death, finalized divorce and both losses pooled.
+
 - [x] OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY: All 105 Week 7 reservations have a terminal record and a matched charge. The final theory return and restricted companion are filed.
 
 - [x] OPS-S15-W7-CAD2-ORIGINAL-WORD-RETURN: CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte.

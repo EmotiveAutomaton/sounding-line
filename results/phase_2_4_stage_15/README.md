@@ -1,5 +1,7 @@
 # Stage 15 evidence
 
+[Week 8 evidence](WEEK8/README.md) · [Current return](../../docs/exchange/WEEK8_RETURN.md).
+
 **November 20 diary and KP1 update.** The common diary producer passed 36 constructed checks. LD2 and LD3 preserved their first 100 original-source draws. LD2 and KP1 resumed under counted CPU-only Gear 2. [Execution record](WEEK5/DIARY_OPENING_KP1_0400_20261120.md).
 
 **November 20 policy transition.** KP1 resumed in CPU-only Gear 2 from 200 authenticated draws. The next commissioned build is the common diary runner. [Checkpoint and cost record](WEEK5/LATTICE_POLICY_KP1_0200_20261120.md).

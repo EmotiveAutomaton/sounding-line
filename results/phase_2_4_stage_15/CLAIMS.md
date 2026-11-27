@@ -2173,3 +2173,5 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W7-CAD2-SEALED-START | operational | infrastructure / passes | The sealed CAD2 word-timing study started at 07:04 Pacific on November 26 in CPU-only Gear 2. |
 | OPS-S15-W7-CAD2-ORIGINAL-WORD-RETURN | operational | infrastructure / passes | CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte. |
 | OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY | operational | infrastructure / passes | All 105 Week 7 reservations have a terminal record and a matched charge. The final theory return and restricted companion are filed. |
+| S15-W8-SLD5-MARITAL-LOSS | N5 | undecided / passing controls | Undecided for spouse death, finalized divorce and both losses pooled. |
+| OPS-S15-W8-LKG1-SEALED-DISPOSITION | R37-S4 | void / no releasable result | Void. Spark returned code 12 because no eligible comparison could be disclosed. |

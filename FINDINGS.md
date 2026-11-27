@@ -1,5 +1,25 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W8-LKG1-SEALED-DISPOSITION
+
+Does the difference between perceived and reported liking repeat across a speaker’s conversations?
+
+Paired CANDOR v1.1 post-conversation ratings of perceived and actual liking. The sealed program found no eligible comparison that could pass the joint disclosure check. The launcher returned code 4. The recorded code does not distinguish the contribution of sample support from that of historical roster overlap.
+
+The exit code and disclosure decision are filed in the [study return](results/phase_2_4_stage_15/WEEK8/LKG1_LIKING_GAP_DISPOSITION.md).
+
+**Curator roll-up.** R37-S4. Void. Spark returned code 12 because no eligible comparison could be disclosed. A person's use of the rating scale and differences in how much partners like that person can each make the gap repeat. Independent packet studies continue.
+
+### S15-W8-SLD5-MARITAL-LOSS
+
+Did purpose fall after a marital loss and stay below the change among comparable people who stayed married?
+
+MIDUS respondents with dated losses and a three-item purpose score at all three waves, benchmarked against a continuously married group weighted to the same age decades. After a spouse’s death, the estimated change in purpose relative to continuously married people was −0.058 points by wave two (95% interval −0.376 to 0.269). Both a lasting drop and recovery remain unresolved in this sample. The pooled result and the pre-loss check also span zero.
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/SLD5_PURPOSE_AFTER_MARITAL_LOSS.md).
+
+**Curator roll-up.** N5. Undecided for spouse death, finalized divorce and both losses pooled. Divorce may be chosen. Wave one had no neutral midpoint. Three items measure purpose, and the main comparison includes only people who stayed for all three waves. Retain this comparison beside the prior within-group trajectory.
+
 ### OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY
 
 Week 7 froze new starts on November 26 at 20:00 Pacific and drained at 22:00. The final packet was due at 23:00. The calendar emitted each marker on schedule. The owner filed this reconciliation and the packet on November 27, after the deadline.

@@ -17,7 +17,65 @@ and [operations](CODEX_OPERATIONS.md). This refresh ran no scientific analysis o
 downloaded public datasets and isolated metadata-reader dependencies onto the NAS;
 the project environment was not changed.
 
+## November 27 verified NAS intake
+
+Resolve each registry slug through `SOUNDING_LINE_DATA_ROOT` and the external registry. The file counts and byte sizes below describe verified stored releases. The source cards record the declared scope and rights.
+
+| Source and registry slug | Verified files | Bytes | Provenance and terms |
+|---|---:|---:|---|
+| CASE Full · `case-full` | 1 | 4,553,720,945 | CC0. Figshare v1 ZIP and archive listing. Provider MD5 matched. |
+| Volynets bodily maps · `volynets-world-embody` | 1 | 11,651,171,442 | CC BY 4.0. Zenodo ZIP and background-field card. Provider MD5 matched. |
+| Nummenmaa subjective feelings · `nummenmaa-subjective-feelings` | 1 | 2,050,910,491 | CC BY 4.0. Zenodo 1291730 TAR, 42,202-member listing and directory map. Provider MD5 matched. |
+| NeuroStore 2026-11 · `neurostore-2026-11` | 1 | 232,253,750 | Dataset licence none stated, tests only. Provider archive SHA-256 matched. |
+| Neurosynth v7 · `neurosynth-v7` | 4 | 14,692,745 | ODbL. Four deprecated terms assets retained for reproducibility. Git blob pins matched. |
+| NeuroQuery training data · `neuroquery-training` | 15 | 80,009,042 | BSD 3-Clause. Data-only release and matching Git blob pins. |
+| Hansen PET atlas · `hansen-receptor-atlas` | 297 | 514,123,638 | CC BY-NC-SA 4.0. Git blob pins matched. Cite each original PET map as documented in Supplementary Table 3. HCP-derived MEG is outside this holding. |
+| TalkBank approved media · `talkbank-media-verified-20261123` | 2,232 | 175,683,659,907 | Local SHA-256 for all 2,232 OK paths from the 23 November report. Corpus-specific terms and approved access govern use. |
+| neuromaps annotations · `neuromaps-annotation-subset` | 115 | 329,563,718 | Public checksum-matched subset. Tests only pending original-map terms. The source card records the 21 excluded entries. |
+| Allen Human Brain Atlas · `allen-human-brain-microarray` | 6 | 1,681,256,535 | Six March 2013 normalized microarray ZIPs. Allen research/noncommercial and citation conditions apply. |
+| CANlab public maps · `canlab-public-maps` | 1,394 | 4,119,340,554 | Git blob pins matched for public maps and atlases. GPL-3.0 repository licence and individual map terms apply. Request-only NPS and fibromyalgia are outside scope. |
+| Emo-FilM annotations · `emo-film-annotations` | 7,496 | 8,308,231 | CC0. OpenNeuro ds004872 v1.0.3 in BIDS format, with continuous emotion-rating tables, JSON sidecars and the provider's consensus series. The release includes discrete emotion and CoreGRID component annotations. [Data descriptor](https://doi.org/10.1038/s41597-025-04803-5) |
+| Emo-FilM non-image files · `emo-film-fmri-nonimages` | 8,837 | 8,800,801,561 | CC0. OpenNeuro ds004892 v1.0.2. Held event timing, behavioural and emotion validation files, cardiac, respiration and electrodermal physiology, tabular derivatives and methodological metadata. Imaging remains in Wave C. [Data descriptor](https://doi.org/10.1038/s41597-025-04803-5) |
+| Seamless Interaction tables · `seamless-interaction-tables` | 4 | 9,258,702 | CC BY-NC 4.0. Four source tables at Git commit b61b0324461f05221659cc38a1130f854fdd2855, all blob hashes matched. `participants.csv` includes five separately measured BFI-2 trait fields. The transcript, VAD and annotation transfer continues. [Provider methods](https://arxiv.org/html/2506.22554v1) |
+
+The CANDOR Raw completion receipt covers 170 files and 951,716,844,531 bytes under the existing restricted terms. The TalkBank entry above covers the 23 November report's OK set. The collection registry also retains the earlier corpus-specific access, transcript and mount receipts.
+
+Wilming's Dryad API retry returned HTTP 401. All 46 selected files have exact matching size and MD5 pins on the public Zenodo deposit. Five files and 255,082,057 bytes have local SHA-256 receipts. Resume the rest through the active serial queue. [Wilming's provider deposit](https://zenodo.org/records/5017807)
+
+The Emo-FilM ds004892 non-image selection and the four Seamless tables have verified terminal receipts. The Seamless transcript, VAD and annotation transfer is running. See the current transfer receipts in DATA_ROOT/_registry/evidence/DC-20261126-BULK/QUEUE.md. The matching NAS verification snapshot and owner review materials are in DATA_ROOT/_handoffs/repo-requests/DC-20261127-EMOFILM-ANN.
+
+## November 27 priority sources and held codebooks
+
+The acquisition queue now ranks participant writing and speech highest when the release links an independently collected score or rating to the same person. The new order and source checks are in DATA_ROOT/_registry/evidence/DC-20261127-PRIORITY.
+
+| Source or need | Available capability and next check |
+|---|---|
+| Seamless Interaction | Four original tables are held, with scoped transcript, VAD and first- and third-party annotation objects in transfer. The participant table binds BFI-2 raw traits to the documented vendor and participant keys. Join coverage and ID normalization still need qualification. The staged collection excludes video and movement or face features. Audio remains in Wave C. CC BY-NC 4.0. |
+| Open-Source Psychometrics | Item 18 starts with `itemsgen.zip` and `SENTANCES1.zip` for personality self-descriptions and sentence completions, then the other 44 ZIPs. The provider documents Big Five or RIASEC scores for SENTANCES1. The itemsgen index does not list an independent trait scale. Publisher terms are silent, so this is tests only. |
+| PRISM and PhoneStudy | PRISM survey, conversation and utterance JSONL are already held in the repository. `user_id` links survey and ratings, with separate human-text and model-output licences. The pinned PhoneStudy revision 2 ZIP supplies assessed personality beside smartphone behaviour. CC BY 4.0. Confirm whether it supplies verbatim text before treating it as a text source. |
+| Foundational Tests of the Need-Support Model | OSF `uxneu`, CC0, 43 pinned files. Pooled Studies 1 and 2 document `write`, `autonomy`, `competence` and `relatedness`. Separate general and shapes-task needs in Study 3. Use the codebook to choose study-specific or pooled files without double-counting. |
+| CoSoWELL release 2 | OSF `jguw3`, CC BY-NC-SA 4.0. The staged selection uses the full and matched compressed narratives, survey views and codebook. Check publisher linkage for loneliness, social network, contact and emotion-regulation fields when it lands. |
+| Santa Barbara speaker metadata | UCSB Parts 1–4 metadata ZIP, CC BY-ND 3.0 US. Verify the documented file and speaker keys against all 60 held recording/transcript pairs. Cross-recording identity coverage requires that check. |
+| PANDORA and Hippocorpus | PANDORA's author page documents five trait columns and separate test/result-type flags. The baseline README covers code and features. The paper describes mixed units on the nominal 0–100 scale, and release-specific recodes and collection-community exclusions remain open. Hippocorpus V2/V3 links age/gender/race, self-reported openness and writing-task ratings to stories via `WorkerId`. Hippocorpus remains tests only. |
+| WWBP Empathic Reactions and CANDOR | Buechel et al. `messages.csv` includes empathy and distress without a documented writer key, Big Five, IRI or demographics. The authenticated CANDOR v1.1 survey dictionary includes 15-item self and partner-rated Big Five, loneliness, IRI perspective taking/empathic concern, AQ social skills/communication, brief fear of negative evaluation and RMET. Sealed CANDOR terms apply. CAD1's numeric attention key and skip codes are still open. |
+| MIDUS and Wave B | The held wave-one main codebook supplies baseline marital status and histories, unemployment and retirement fields. Cohort coverage requires sealed verification. No confirmed held release links authored text/speech and the meaning or need scale requested for Needs 3–4. Three public candidates with pinned files follow Wave A review. The three-prompt play plus current-stress gap remains open. |
+
+The archive now records one-word aggregate reporting rights and remote-model restrictions on every new card. Apply sealed handling when terms bar outside transmission. The detailed field checks, rights and outstanding access are available in DATA_ROOT/_registry/evidence/DC-20261127-PRIORITY/HELD_CODEBOOKS.md, PRIORITY_SOURCES.md and WAVE_B_NEEDS.md.
+
+### Curator follow-up · 27 November
+
+| Available source or dependency | Verified capability and remaining condition |
+|---|---|
+| ATUS Basic Activity and Who · `atus-activity-who` | Eight original BLS ZIPs for 2010, 2012, 2013 and 2021, 18,840,823 bytes, all CRC- and SHA-256-checked. Match same-year Well-Being Activity to `TRCODE` and one-to-many `TUWHO_CODE` by `TUCASEID` and `TUACTIVITY_N`. The BLS well-being activity-selection correction applies to 2010, 2012 and 2013 interviews conducted before March 25, 2013. Cite BLS. [Provider downloads](https://www.bls.gov/tus/data.htm) |
+| Human-coded temporal focus · `hansard-temporal-focus` | UKDS 857649, one verified 205,278-byte ZIP with nearly 4,000 House of Commons sentences, two independent human classifications and `Revision` consensus past/present/future labels. Public access. File licence none stated, tests only. [Provider deposit](https://reshare.ukdataservice.ac.uk/857649/) |
+| TMP2 original PANDORA | Two unchanged original ZIPs staged as `pandora-tmp2` for the existing read-only Spark `/data` route. The archive aliases share the NAS file identities. Owner in-image verification and the engine's verified TP72 bundle remain separate. The author baseline README documents baseline code and features. The original ZIPs carry no README. The author page and paper describe the five trait fields and mixed units. [Release](https://psy.takelab.fer.hr/datasets/all/pandora/) · [Paper §3.2](https://aclanthology.org/2021.socialnlp-1.12/) |
+| CP1 and Hippocorpus V3 | CP1 is available at `corpora/store/external/convokit_wiki_corpus/` under CC BY-SA 4.0. Hippocorpus is held under `open/hippocorpus/raw/`. No dataset licence was stated. Curator amendment CY permits local tests on recalled stories with figures limited to the engine record and theory thread. |
+| DreamBank public XML | Read `private/dreambank/dreambank-public-xml.zip` in place for noncommercial local research under CC BY-NC-SA 4.0 with attribution and existing private handling. [Provider](https://dreambank.net/) |
+| MIDUS role histories and SLD8 | All three main surveys document layoff, unemployment and retirement, and later surveys include life-event job-loss fields. Use the variable-level Concordance and time windows before pooling. Wave-one MAIN (ICPSR 2760 DS0001) and the daily diary (ICPSR 3725 DS0001) are held separately, with codebook keys `M2ID` and `M2FAMNUM`. No verified combined SLD8 alias. The archive handoff contains the codebook pages. |
+
 ## November 26 archive acquisition checkpoint
+
+See the November 27 section for later verifications.
 
 | Source or need | Archive status | Next verification or intake |
 |---|---|---|
@@ -28,7 +86,7 @@ the project environment was not changed.
 | Need 18 | K-EmoCon's held annotations cover all 32 targets on the five-second debate grid. openESM 0046 has event-level reports of the other person's feeling. | Confirm the K-EmoCon accepted terms and edition. The openESM release lacks simultaneous target self-report pairing. |
 | Needs 24 and 28 | Hilton–Moser has 404 matched speech pairs. AMI recovery fills all 394 earlier channel gaps. The total is 682 mapped channels across 171 meetings. | Retain the original pairing, source and terms receipts. |
 | Need 26 | No prompt-level play, laugh or humour plus stress pairing qualifies in the 63 held openESM members. | Basel remains curator-supplied. The 0075 OpenPlay no-reidentification terms are recorded separately. |
-| TalkBank | 2,232 media paths marked OK by the latest curator report match both reported sizes. | Local SHA-256 verification and registration follow the first transfer tranche. |
+| TalkBank | On November 26, the 2,232 OK media paths matched both reported sizes. | The November 27 media entry records their completed SHA-256 verification. |
 | Wave A through C | The ordered NAS plans record the executable Wave A releases and provider/access gaps. | Wave B census precedes Wave C. Use the live queue and file receipts for subsequent arrivals. |
 
 Owner review materials are in DATA_ROOT/_handoffs/repo-requests/DC-20261126-BULK-02. The serial queue is in DATA_ROOT/_registry/evidence/DC-20261126-BULK/QUEUE.md. The Volynets field card is in DATA_ROOT/open/volynets-world-embody/FIELD_CARD.md.
@@ -3085,6 +3143,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**OPS-S15-W8-LKG1-SEALED-DISPOSITION.** Reciprocal report linkage with a constructed missingness, ordering and disclosure rehearsal. [Return](../results/phase_2_4_stage_15/WEEK8/LKG1_LIKING_GAP_DISPOSITION.md).
+
+**S15-W8-SLD5-MARITAL-LOSS.** Three-wave change in purpose relative to a continuously married comparison group, weighted by baseline age decade. [Return](../results/phase_2_4_stage_15/WEEK8/SLD5_PURPOSE_AFTER_MARITAL_LOSS.md).
 
 **OPS-S15-W7-FINAL-DRAIN-AND-DELIVERY:** All 105 Week 7 reservations have a terminal record and a matched charge. The final theory return and restricted companion are filed. [Record](../results/phase_2_4_stage_15/WEEK7/FINAL_DRAIN_AND_DELIVERY_20261127.md).
 

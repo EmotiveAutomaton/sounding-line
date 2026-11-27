@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+Void. Spark returned code 12 because no eligible comparison could be disclosed. [Week 8 LKG1 result](../results/phase_2_4_stage_15/WEEK8/LKG1_LIKING_GAP_DISPOSITION.md).
+
+Undecided for spouse death, finalized divorce and both losses pooled. [Week 8 SLD5 result](../results/phase_2_4_stage_15/WEEK8/SLD5_PURPOSE_AFTER_MARITAL_LOSS.md).
+
 Week 7 closed November 26. The [final theory return](../results/phase_2_4_stage_15/WEEK7/FINAL_THEORY_RETURN_20261127.md) collects the study results. The [drain reconciliation](../results/phase_2_4_stage_15/WEEK7/FINAL_DRAIN_AND_DELIVERY_20261127.md) accounts for every reservation and the eight comparisons still awaiting evidence at the freeze.
 
 CAD2 completed on Spark and its original-edition CANDOR word-timing return reproduced byte for byte. [Return](../results/phase_2_4_stage_15/WEEK7/CAD2_ORIGINAL_WORD_TIMING_RETURN_20261126.md).
