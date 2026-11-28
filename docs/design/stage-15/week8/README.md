@@ -24,7 +24,7 @@ The ready list is empty with 7 free shared CPU slots. ATL2 running. Every other 
 | TWO3 | Lagged feelings within couples | local | landed | Does a partner’s previous matching feeling predict the next report more strongly? filed with its replay. | Sounding Line |
 | BMP1 | Body maps by feeling | local | landed | The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. | Sounding Line |
 | DRV1 | Falling standing, anxiety and sadness | local | landed | Do accelerating falls in standing favor anxiety over sadness? filed with its replay. | Sounding Line |
-| TMP3 | Trait reader on conversation turns | Spark | awaiting report | The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination. | Sounding Line |
+| TMP3 | Trait reader on conversation turns | Spark | landed | The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination. | Sounding Line |
 
 [Packet](PACKET.md) · [Originals and hashes](INTAKE.json) · [Round 37 handoff](../week6/THEORY_HANDOFF_R37.md) · [Live return](../../../exchange/WEEK8_RETURN.md).
 
