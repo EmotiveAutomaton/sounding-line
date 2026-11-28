@@ -73,6 +73,11 @@ def render():
     tmp2_exit=dispatch.SHARED/'TMP2-TP72-original-histories.native.json'
     if tmp2_exit.is_file() and read(tmp2_exit).get('native')==22:
         new += ' Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells.'
+    tmp3_receipt = roster.PUBLIC/'TMP3_R48_RETURN.json'
+    if tmp3_receipt.is_file():
+        tmp3 = read(tmp3_receipt)
+        if tmp3.get('verified_source_cell_counts') is False:
+            new += f" TMP3 returned no verified cell counts before native exit {tmp3['native_exit']}."
     held=set()
     for ref in dispatch.SHARED.glob('*.hold.json'):
         if read(ref).get('amendment')!='DN':

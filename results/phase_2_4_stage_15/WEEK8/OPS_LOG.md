@@ -1,5 +1,7 @@
 # Week 8 operating record
 
+2026-11-28T01:12:07.360082+00:00 S15-W8-TMP3-R48. The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination. The research submission was charged its full 18,000 CPU-second reservation. Including the two rehearsals, TMP3 was charged 18,647.40625 of 20,000 CPU-seconds. The charge is the accounting rule and does not measure actual CPU consumption.
+
 2026-11-27T22:41:54.936570+00:00 S15-W8-TMP2-R48. Verified both submissions against native Spark records and both constructed terminal receipts.
 
 2026-11-27T21:52:17.420874+00:00 S15-W8-LGH6-R48. Validated the terminal receipt and projected only registered aggregate fields.

@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-W8-TMP3-R48
+
+Do a writing-trained reader’s outputs on spoken turns track speakers’ ratings beyond matched random readers?
+
+CANDOR Tabular from BetterUp Labs, BetterUp, Inc. Reece et al. (2023), The CANDOR corpus, Science Advances 9, eadf3197. [Tabular release](https://huggingface.co/datasets/betterup/candor-tabular). The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination.
+
+The exit code and disclosure decision are filed in the [study return](results/phase_2_4_stage_15/WEEK8/TMP3_R48_RETURN.md).
+
+**Curator roll-up.** P5. The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination. The reader was trained on writing. These spoken turns were transcribed by a machine. No participant counts, estimates, intervals or control bands were released. Both commissioned sealed submissions were used, one for the invented-data rehearsal and one for the research job. The registered comparison remains unanswered.
+
 ### S15-W8-TMP2-R48
 
 Can the trained reader recover differences in self-reported traits from writing after removing test-related material?

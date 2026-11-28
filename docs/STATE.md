@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination. [Week 8 TMP3 result](../results/phase_2_4_stage_15/WEEK8/TMP3_R48_RETURN.md).
+
 Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison. [Week 8 TMP2 result](../results/phase_2_4_stage_15/WEEK8/TMP2_R48_RETURN.md).
 
 The ICSI held-out within-speaker coefficient was -0.125 (95% interval -0.226 to -0.016). All three held-out intervals lay below zero. All three descriptive ICSI intervals using all eligible laughs included zero. The AMI held-out within-speaker coefficient was -0.073 (95% interval -0.149 to -0.001). All three held-out intervals lay below zero. The earlier ICSI component made up about 4.2% of held-out laughs. Its targets’ mean speaking share fell by about 8.2 percentage points. These descriptive statistics and its six acoustic means come from previously released tables; they have no registered intervals. [Week 8 LGH6 result](../results/phase_2_4_stage_15/WEEK8/LGH6_R48_RETURN.md).

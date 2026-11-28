@@ -1,4 +1,4 @@
-The ready list is empty with 6 free shared CPU slots. ATL2, TMP3 running. Every other commissioned row has finished its run. 0 inventoried earlier studies lack a pushed report. Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells.
+The ready list is empty with 7 free shared CPU slots. ATL2 running. Every other commissioned row has finished its run. 0 inventoried earlier studies lack a pushed report. Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells. TMP3 returned no verified cell counts before native exit 137.
 
 # Week 8 return
 
@@ -10,7 +10,7 @@ The ready list is empty with 6 free shared CPU slots. ATL2, TMP3 running. Every 
 
 ## Study roster
 
-Read at 2026-11-27T22:49:54.844053+00:00 (UTC).
+Read at 2026-11-28T01:17:47.215843+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -34,7 +34,7 @@ Read at 2026-11-27T22:49:54.844053+00:00 (UTC).
 | TWO3 | Lagged feelings within couples | local | landed | Does a partner’s previous matching feeling predict the next report more strongly? filed with its replay. | Sounding Line |
 | BMP1 | Body maps by feeling | local | landed | The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. | Sounding Line |
 | DRV1 | Falling standing, anxiety and sadness | local | landed | Do accelerating falls in standing favor anxiety over sadness? filed with its replay. | Sounding Line |
-| TMP3 | Trait reader on conversation turns | Spark | running | TMP3-TP72-original-conversations | Sounding Line |
+| TMP3 | Trait reader on conversation turns | Spark | awaiting report | The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination. | Sounding Line |
 
 ## Filed results
 
@@ -57,6 +57,7 @@ Read at 2026-11-27T22:49:54.844053+00:00 (UTC).
 - [TWO3 report](r48/TWO3.md). Descriptive. angr, same minus other, -0.00976614 [-0.0386549, 0.02047] (200 people). Partners share daily events. An observational time lag does not establish transmission between them.
 - [BMP1 report](r48/BMP1.md). Void. The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. Array dimensions and a plausible anatomical shape cannot identify a feeling or the sign of its signal.
 - [DRV1 report](r48/DRV1.md). Undecided. 0057, all, anxiety minus sadness, 0.0219085 [-0.0168745, 0.0600437] (998 people). A second difference of noisy standing ratings is noisy. Only two diaries were available and missed prompts may be selective.
+- TMP3. The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination. [Report](r48/TMP3.md). The reader was trained on writing. These spoken turns were transcribed by a machine.
 
 ## Limits for open rows
 
@@ -83,7 +84,7 @@ Read at 2026-11-27T22:49:54.844053+00:00 (UTC).
 - TMP2, TMP2-DJ-archive-counts-DN. Exit 4. Native study exit 22.
 - TMP2, TMP2-TP72-original-histories. Exit 4. Native study exit 22.
 - TMP3, TMP3-TP72-dual-fixture-Spark. Exit 0.
-- TMP3, TMP3-TP72-original-conversations. Reserved or in progress.
+- TMP3, TMP3-TP72-original-conversations. Exit 4. Native study exit 137.
 
 ## Unused sources
 
