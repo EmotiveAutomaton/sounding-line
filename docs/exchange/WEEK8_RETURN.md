@@ -10,7 +10,7 @@ The ready list is empty with 8 free shared CPU slots. All 21 commissioned rows h
 
 ## Study roster
 
-Read at 2026-11-28T01:49:35.842282+00:00 (UTC).
+Read at 2026-11-28T07:18:10.280001+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
