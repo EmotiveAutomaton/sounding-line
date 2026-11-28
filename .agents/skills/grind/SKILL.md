@@ -22,8 +22,16 @@ This supersedes the commit prerequisite in amendments K and Q and older packets.
 Keep source capsules, all costs, full write-through, native ownership, privacy,
 campaign dates and ceilings unchanged. Historical pinned records stay intact.
 
-Run every step, in order, every time. A result that has not been through all of them has not
-landed. Late sessions skip steps; this list exists so they don't.
+## Scheduled wakes and resuming a queue
+
+Use this same contract on a scheduled, completion-driven or manual wake. From the workspace parent the repository is `sounding-line/`. Load its `AGENTS.md`, this skill and the active packet and amendments. Read the compact queue, cost ledger and unacknowledged receipts first. Run `python tools/grind_coverage.py` for actionable roster entries. Follow the project’s startup and theory-reading rules before interpreting evidence.
+
+1. Verify the workstation and Spark separately. Match the native worker to its admitted unit and start identity. Check progress and output freshness, failures, leases and locks, headroom, time and spend remaining, and watcher delivery. Use operational metadata for unfinished units.
+2. Use the active packet’s order. Handle urgent failures, start qualified work through the existing dispatcher, and build or qualify the next commissioned independent unit while others run. Tie each external dependency to an owner and a specific resumption event. Use the existing archive chat for a dependency it can resolve. A research admission can proceed while publication waits.
+3. Batch new receipts by immutable run identity. Verify the terminal against its review, replay or checkpoint, source limits and actual cost. For a scientific landing, complete the write-through below, the claim and evidence ledgers, and the applicable stage return. Run `python tools/record_views.py build` and `python tools/record_views.py check` after filing. Where R48 applies, verify the report, released table and digest on the remote before marking the row landed. Run `python tools/codex_watch.py ack EVENT_ID` for each event only after its filing or documented liveness inspection and any authorized recovery.
+4. Before yielding, reread pending events and the standing roster. Give each unfinished row a verified worker, the next authorized action, or its exact blocker. Keep one pending owner wake. A healthy, unchanged inspection belongs in the operating ledger. Measure the publication interval from the last verified **return** push. At campaign close, reconcile reservations, costs and terminals, verify the final return, then retire the standing wake.
+
+When configuring a wake, point it to this skill and name the active packet, cadence, publication deadlines and closure conditions. Verify the saved schedule and owner separately from evidence of actual delivery.
 
 ## 0. Read the specs that bind this loop
 
@@ -43,8 +51,7 @@ landed. Late sessions skip steps; this list exists so they don't.
 - **Before the design is filed, read the matching sections of `docs/method/LESSONS.md`** (and
   `CONTROLS.md` if a control is involved). The lessons file exists so mistakes are made once;
   a design that repeats a receipted mistake is a defect even if it would have worked.
-- If nothing was suggested, say so in the report ("no tests harvested this pass") so the step
-  is visibly run, not silently skipped.
+- On a routine operational wake, an event path supplies no new hypothesis. Record actual curator proposals when present.
 
 ## Stage-specific precedence
 
@@ -63,7 +70,7 @@ While the archive works, prepare the input adapter, constructed checks, admissio
 
 While a study runs, prepare the authorized work that can reasonably follow it overnight. Build the runner, source mapping, restart path, cost and known-answer checks, admission command, expected terminal files and filing steps. Record which successors are qualified and which still depend on a result or source. Start each qualified independent successor as capacity opens. Recheck the actual admission limits at launch.
 
-Wake the idle owner promptly on an actionable terminal, failure, disappearance or campaign milestone. The durable watcher collects every event arriving during an active turn or outstanding delivery. One owner wake handles the batch. Start eligible work and record every terminal against its own ID. Recheck pending events before yielding and ACK each only after its complete write-through. The fallback is six hours of owner inactivity, measured from owner activity, a completed ACK or the last idle check. Routine progress and ETA estimates stay local.
+Wake the idle owner promptly on an actionable terminal, failure, disappearance or campaign milestone. The durable watcher collects every event arriving during an active turn or outstanding delivery. One owner wake handles the batch. Start eligible work and record every terminal against its own ID. Recheck pending events before yielding and ACK each only after its complete write-through. Use the active packet’s queue-read and publication clocks. The general fallback is six hours of owner inactivity, measured from owner activity, a completed ACK or the last idle check. A fixed scheduler interval and an inactivity timer have different triggers. Routine progress and ETA estimates stay local.
 
 ## 2. Queue state
 
@@ -84,7 +91,7 @@ Wake the idle owner promptly on an actionable terminal, failure, disappearance o
 
 ### Before yielding
 
-Verify the watcher identity, registered terminal paths, delivery status, and one outstanding wake at most. Use the completion and six-hour inactivity policy above for current work. The hourly build wakes in historical amendment I are superseded.
+Verify the watcher identity, registered terminal and milestone paths, delivery status, and one outstanding wake at most. Record the next check and the action it can trigger. Use the campaign-specific cadence where one is in force.
 
 ## 3. Gather landings
 
