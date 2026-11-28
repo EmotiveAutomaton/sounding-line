@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-W8-ATL2-R48
+
+Which diary event–feeling relationships recur in independent halves of the same sources?
+
+The November 23 atlas of fourteen original diary and time-use sources, including public openESM releases, the couples diary and the US Bureau of Labor Statistics activity ratings. Member 0049 is counted separately. [Source inventory and previously filed atlas](https://github.com/EmotiveAutomaton/sounding-line/blob/a295e74ac0b3e13c3432e6695c9373c5dcd389bb/results/phase_2_4_stage_15/WEEK7/ATL_FOURTEEN_SOURCE_EXTENSION.md). The job finished 436 of 992 registered cells. Sizes in the summary count replayed cells. Each cell had ten planned splits. The checkpoints do not store participant totals for individual half-sample fits. In the all-source atlas, 141 of 416 replayed cells met the eight-of-ten rule (970 planned). Among the previously unexamined comparisons, 2 of 4 met it (6 planned). Member 0049 contributed a separate 1 of 16 (16 planned).
+
+The full comparison, original-source replay and limits are filed in the [study return](results/phase_2_4_stage_15/WEEK8/ATL2_R48_RETURN.md).
+
+**Curator roll-up.** Week 7 atlas. In the all-source atlas, 141 of 416 replayed cells met the eight-of-ten rule (970 planned). Among the previously unexamined comparisons, 2 of 4 met it (6 planned). Member 0049 contributed a separate 1 of 16 (16 planned). The CPU stop left a prefix of the frozen order. It cannot give a stability rate for the full atlas. Splits reuse the same participants and their reports. All 436 replayed cells are reported, including the qualifying event and feeling families. The remaining 556 cells were unmeasured. No interval was registered for a count of qualifying cells.
+
 ### S15-W8-TMP3-R48
 
 Do a writing-trained reader’s outputs on spoken turns track speakers’ ratings beyond matched random readers?

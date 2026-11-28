@@ -51,9 +51,9 @@ def render():
     current = snapshot['rows']
     if not reasons and all(r['status'] in ('landed','running','awaiting report') for r in current.values()):
         active = ', '.join(k for k,r in current.items() if r['status']=='running')
-        capacity = f'{active} running. ' if active else ''
-        new = (f'The ready list is empty with {free} free shared CPU slots. '
-               + capacity + 'Every other commissioned row has finished its run.')
+        capacity = (f'{active} running. Every other commissioned row has finished its run.'
+                    if active else f'All {len(current)} commissioned rows have finished their runs.')
+        new = f'The ready list is empty with {free} free shared CPU slots. ' + capacity
     if reasons:
         label = 'unit' if len(reasons) == 1 else 'units'
         new = f"The ready list contains {len(reasons)} qualified {label} with {free} free shared CPU slots."

@@ -1,6 +1,6 @@
 # Stage 15 · Week 8
 
-The ready list is empty with 7 free shared CPU slots. ATL2 running. Every other commissioned row has finished its run. 0 inventoried earlier studies lack a pushed report. Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells. TMP3 returned no verified cell counts before native exit 137.
+The ready list is empty with 8 free shared CPU slots. All 21 commissioned rows have finished their runs. 0 inventoried earlier studies lack a pushed report. Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells. TMP3 returned no verified cell counts before native exit 137.
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -19,7 +19,7 @@ The ready list is empty with 7 free shared CPU slots. ATL2 running. Every other 
 | MNG1 | Meaning and happiness by activity | local | landed | Does caregiving lead daily activities in meaning relative to happiness? filed with its replay. | Sounding Line |
 | SLD7 | Purpose after marriage | Spark | landed | The native job returned code 12. No form qualified inside the seal. | Sounding Line |
 | LGH7 | Meeting role and joining laughter | local | landed | Who joins a meeting leader’s laugh? filed with its replay. | Sounding Line |
-| ATL2 | Split-half stability of diary cells | local | running | ATL2-frozen-atlas-halves | Sounding Line |
+| ATL2 | Split-half stability of diary cells | local | awaiting report | Which diary event–feeling relationships recur in independent halves of the same sources? filed with its replay. | Sounding Line |
 | ADM2 | Unused-source census | local | landed | Three original releases admitted to the source catalogue filed with its replay. | Sounding Line |
 | TWO3 | Lagged feelings within couples | local | landed | Does a partner’s previous matching feeling predict the next report more strongly? filed with its replay. | Sounding Line |
 | BMP1 | Body maps by feeling | local | landed | The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. | Sounding Line |

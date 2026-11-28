@@ -95,7 +95,8 @@ def land(*, card, stem, title, body, receipt, evidence, theory_anchor, theory_no
     write(PUBLIC/(stem+'.md'),'# '+title+'\n\n'+body.rstrip()+'\n')
     theory=ROOT/'docs/theory/THREE_COGNITIVE_LAYERS.md'
     source=theory.read_text('utf8')
-    if kind == 'claim' and tag not in source:
+    # Instrument checks are filed in the instrument ledger below.
+    if kind == 'claim' and outcome != 'instrument check' and tag not in source:
         anchor,=[l for l in source.splitlines() if l.startswith('| **'+theory_anchor+'** |')]
         if source.count(after_anchor)!=1:
             raise ValueError('Afterword anchor missing or ambiguous')

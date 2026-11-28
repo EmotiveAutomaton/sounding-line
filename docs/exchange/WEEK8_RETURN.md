@@ -1,4 +1,4 @@
-The ready list is empty with 7 free shared CPU slots. ATL2 running. Every other commissioned row has finished its run. 0 inventoried earlier studies lack a pushed report. Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells. TMP3 returned no verified cell counts before native exit 137.
+The ready list is empty with 8 free shared CPU slots. All 21 commissioned rows have finished their runs. 0 inventoried earlier studies lack a pushed report. Both TMP2 jobs exited with source-binding code 22 before Spark could count their cells. TMP3 returned no verified cell counts before native exit 137.
 
 # Week 8 return
 
@@ -10,7 +10,7 @@ The ready list is empty with 7 free shared CPU slots. ATL2 running. Every other 
 
 ## Study roster
 
-Read at 2026-11-28T01:18:50.751636+00:00 (UTC).
+Read at 2026-11-28T01:47:31.873327+00:00 (UTC).
 
 | Row | Study | Host | Status | Current evidence or next input | Owner |
 |---|---|---|---|---|---|
@@ -29,7 +29,7 @@ Read at 2026-11-28T01:18:50.751636+00:00 (UTC).
 | MNG1 | Meaning and happiness by activity | local | landed | Does caregiving lead daily activities in meaning relative to happiness? filed with its replay. | Sounding Line |
 | SLD7 | Purpose after marriage | Spark | landed | The native job returned code 12. No form qualified inside the seal. | Sounding Line |
 | LGH7 | Meeting role and joining laughter | local | landed | Who joins a meeting leader’s laugh? filed with its replay. | Sounding Line |
-| ATL2 | Split-half stability of diary cells | local | running | ATL2-frozen-atlas-halves | Sounding Line |
+| ATL2 | Split-half stability of diary cells | local | awaiting report | Which diary event–feeling relationships recur in independent halves of the same sources? filed with its replay. | Sounding Line |
 | ADM2 | Unused-source census | local | landed | Three original releases admitted to the source catalogue filed with its replay. | Sounding Line |
 | TWO3 | Lagged feelings within couples | local | landed | Does a partner’s previous matching feeling predict the next report more strongly? filed with its replay. | Sounding Line |
 | BMP1 | Body maps by feeling | local | landed | The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. | Sounding Line |
@@ -53,6 +53,7 @@ Read at 2026-11-28T01:18:50.751636+00:00 (UTC).
 - [MNG1 report](r48/MNG1.md). Mixed. child care, 0.241778 [0.195043, 0.290355] (5098 people). One word measures meaning. People select their activities and typically rate only three episodes. Early survey years had an activity-selection error, and the last wave omitted January and February.
 - [SLD7 report](r48/SLD7.md). Withheld. The native job returned code 12. No form qualified inside the seal. Marrying is chosen. The groups can differ before the marriage.
 - [LGH7 report](r48/LGH7.md). Undecided. Manager minus other roles, 0.00269583 [-0.0240113, 0.0333864] (126 meetings). Assigned meeting roles are an imperfect measure of rank. Leaders may speak more often.
+- ATL2. In the all-source atlas, 141 of 416 replayed cells met the eight-of-ten rule (970 planned). Among the previously unexamined comparisons, 2 of 4 met it (6 planned). Member 0049 contributed a separate 1 of 16 (16 planned). [Report](r48/ATL2.md). The CPU stop left a prefix of the frozen order. It cannot give a stability rate for the full atlas. Splits reuse the same participants and their reports.
 - [ADM2 report](r48/ADM2.md). Admitted. Sources admitted, 3 (3 releases). The diary uses one reporter for both parties. Raster names still require a plane-order check for the scientific fit.
 - [TWO3 report](r48/TWO3.md). Descriptive. angr, same minus other, -0.00976614 [-0.0386549, 0.02047] (200 people). Partners share daily events. An observational time lag does not establish transmission between them.
 - [BMP1 report](r48/BMP1.md). Void. The independent replay could not identify the named planes and the signed array unambiguously. There is no attributable feeling map to report. Array dimensions and a plausible anatomical shape cannot identify a feeling or the sign of its signal.
@@ -65,7 +66,7 @@ Read at 2026-11-28T01:18:50.751636+00:00 (UTC).
 
 ## Sealed invocations
 
-17 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 195,442.5 seconds.
+17 of 30 are used or reserved. Week 8 CPU charges and outstanding reservations total 195,433.8 seconds.
 
 - LKG1, LKG1-liking-gap. Exit 4. Native study exit 12.
 - LKG2, LKG2-speaker-traits-standing-DN. Exit 0.

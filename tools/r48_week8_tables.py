@@ -213,7 +213,8 @@ def atlas_tables(directory, terminal):
                 rows.append(row(f'{label}, split {split} half {half}',point,[lo,hi],None,unit='half sample'))
     for scope,total in sorted(agreement_counts.items()):
         measure='replayed cells with at least eight agreements' if partial else 'cells with at least eight agreements'
-        rows.insert(0,row(scope+', '+measure,total,None,None,unit='cells'))
+        measured = audit['reached']['internal' if scope == '0049' else scope] if partial else None
+        rows.insert(0,row(scope+', '+measure,total,None,measured,unit='cells'))
     if partial:
         coverage=[]
         for scope,planned in sorted(audit['planned'].items()):

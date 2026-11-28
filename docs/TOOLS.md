@@ -3163,6 +3163,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-W8-ATL2-R48.** Split people within each source into two groups ten times using the registered seeds. Within each half, fit the original event–feeling model and form intervals from 2,000 whole-person bootstrap draws. Take the median across estimable items within each source and then across sources. An undefined half earns no agreement. Replay every saved cell from the source with an independent decoder and a different calculation batch size. In the all-source atlas, 141 of 416 replayed cells met the eight-of-ten rule (970 planned). Among the previously unexamined comparisons, 2 of 4 met it (6 planned). Member 0049 contributed a separate 1 of 16 (16 planned). [Return](../results/phase_2_4_stage_15/WEEK8/ATL2_R48_RETURN.md).
+
 **S15-W8-TMP3-R48.** The registered comparison joins each speaker’s transcribed turns to their own enjoyment and mood ratings, own trait ratings and partner-rated traits. It compares the trained reader to two matched random-head controls. The receiver rehearsed distinct-speaker counts and fine, coarse and pooled returns on invented conversations. [Return](../results/phase_2_4_stage_15/WEEK8/TMP3_R48_RETURN.md).
 
 **S15-W8-TMP2-R48.** The exact TP72 inputs passed the invented-data rehearsal on both hosts. Original PANDORA inputs returned binding code 22 twice. [Return](../results/phase_2_4_stage_15/WEEK8/TMP2_R48_RETURN.md).

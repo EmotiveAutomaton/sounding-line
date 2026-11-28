@@ -1,5 +1,7 @@
 # Week 8 operating record
 
+2026-11-28T01:41:37.061296+00:00 S15-W8-ATL2-R48. The supervisor closed the row at its registered stopping margin, charging 19,991.234375 CPU-seconds against 20,000. The campaign drain was still ahead. The job finished 436 of 992 registered cells. Sizes in the summary count replayed cells. Each cell had ten planned splits. The checkpoints do not store participant totals for individual half-sample fits.
+
 2026-11-28T01:12:07.360082+00:00 S15-W8-TMP3-R48. The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination. The research submission was charged its full 18,000 CPU-second reservation. Including the two rehearsals, TMP3 was charged 18,647.40625 of 20,000 CPU-seconds. The charge is the accounting rule and does not measure actual CPU consumption.
 
 2026-11-27T22:41:54.936570+00:00 S15-W8-TMP2-R48. Verified both submissions against native Spark records and both constructed terminal receipts.

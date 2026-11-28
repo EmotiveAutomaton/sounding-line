@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] S15-W8-ATL2-R48. In the all-source atlas, 141 of 416 replayed cells met the eight-of-ten rule (970 planned). Among the previously unexamined comparisons, 2 of 4 met it (6 planned). Member 0049 contributed a separate 1 of 16 (16 planned).
+
 - [x] S15-W8-TMP3-R48. The Spark research job ended with native exit 137 after 9,009 seconds elapsed. The launcher returned code 4 and the disclosure gate was skipped. The receipts do not identify the cause of termination.
 
 - [x] S15-W8-TMP2-R48. Both the original count and the study using TP72 exited with source-binding code 22 before producing a table. The code covers several checks and does not identify which one failed. Neither run reached the scientific comparison.

@@ -1,5 +1,7 @@
 # Week 8 results
 
+S15-W8-ATL2-R48. [Which diary event–feeling relationships recur in independent halves of the same sources?](ATL2_R48_RETURN.md).
+
 S15-W8-TMP3-R48. [Do a writing-trained reader’s outputs on spoken turns track speakers’ ratings beyond matched random readers?](TMP3_R48_RETURN.md).
 
 S15-W8-TMP2-R48. [Can the trained reader recover differences in self-reported traits from writing after removing test-related material?](TMP2_R48_RETURN.md).
