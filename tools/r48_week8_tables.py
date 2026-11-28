@@ -180,10 +180,17 @@ def historical_laugh_profile():
 
 
 def atlas_tables(directory, terminal):
-    name='ATLAS_COMPLETE.json'
-    audit=read(checked(directory/name,terminal['results'][name]))
-    if not terminal['verified'] or len(audit['checksums'])!=audit['public_rows']+audit['internal_rows']:
-        raise ValueError('Incomplete atlas replay')
+    partial = 'results' not in terminal
+    if partial:
+        from tools.week8_atlas_coverage import capture
+        if read(directory/'FAILED.json')!=terminal:
+            raise ValueError('Atlas terminal differs')
+        audit=capture(directory)
+    else:
+        name='ATLAS_COMPLETE.json'
+        audit=read(checked(directory/name,terminal['results'][name]))
+        if not terminal['verified'] or len(audit['checksums'])!=audit['public_rows']+audit['internal_rows']:
+            raise ValueError('Incomplete atlas replay')
     rows=[]
     agreement_counts={}
     for cell,sha in sorted(audit['checksums'].items()):
@@ -205,7 +212,17 @@ def atlas_tables(directory, terminal):
                 point,lo,hi=fit if fit is not None else (None,None,None)
                 rows.append(row(f'{label}, split {split} half {half}',point,[lo,hi],None,unit='half sample'))
     for scope,total in sorted(agreement_counts.items()):
-        rows.insert(0,row(scope+', cells with at least eight agreements',total,None,None,unit='cells'))
+        measure='replayed cells with at least eight agreements' if partial else 'cells with at least eight agreements'
+        rows.insert(0,row(scope+', '+measure,total,None,None,unit='cells'))
+    if partial:
+        coverage=[]
+        for scope,planned in sorted(audit['planned'].items()):
+            label='0049' if scope=='internal' else scope
+            reached=audit['reached'].get(scope,0)
+            coverage.extend([row(label+', registered cells',planned,None,None,reading='support',unit='cells'),
+                             row(label+', replayed cells',reached,None,None,reading='support',unit='cells'),
+                             row(label+', unmeasured cells',planned-reached,None,None,reading='support',unit='cells')])
+        return coverage+rows
     return rows
 
 
